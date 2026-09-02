@@ -754,7 +754,7 @@ class StructuralInvalidityCertificationTests(unittest.TestCase):
         ):
             self.assertNotIn(forbidden, source)
 
-    def test_structural_methodology_inventory_includes_exactly_five_behaviors(self) -> None:
+    def test_structural_methodology_inventory_includes_exactly_six_behaviors(self) -> None:
         observed = set()
         kernel_root = support.SRC / "elliott_methodology_kernel"
         for path in kernel_root.glob("*.py"):
@@ -779,6 +779,7 @@ class StructuralInvalidityCertificationTests(unittest.TestCase):
                 "PARENT_CHILD_DEGREE_ADJACENCY",
                 "P023_INTERNAL_VISIBILITY_GUARD",
                 "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
+                "P008_FLAT_DIRECT_CHILD_CARDINALITY",
             },
             observed,
         )

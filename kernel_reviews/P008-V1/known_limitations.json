@@ -1,0 +1,24 @@
+{
+  "satisfaction_proves_only":"The proposed FLAT binding contains exactly three direct ordered child positions.",
+  "does_not_prove":[
+    "that the candidate is a flat",
+    "A, B, or C labels",
+    "corrective-three or motive-five family membership",
+    "3-3-5 subdivisions",
+    "regular, expanded, irregular, or running flat subtype",
+    "B retracement or C extension geometry",
+    "parent-child ownership beyond the supplied non-authoritative binding",
+    "chronology, degree, completion, endpoints, or price relationships",
+    "full structural or candidate validity"
+  ],
+  "does_not_perform":[
+    "candidate or pivot discovery",
+    "automatic binding construction",
+    "family certification",
+    "P005/P006 evaluation",
+    "evidence, ranking, orchestration, provider, TradingView, network, monitoring, alert, or execution work"
+  ],
+  "trust_boundary":"OrderedChildBinding preserves caller-established identity and order only. Exact-type acceptance does not elevate its assertions into independent methodology proof.",
+  "certification_boundary":"The certificate retains the exact genuine fatal result origin. Existing certified core fields are digest protected; the approved certificate does not claim protection against hostile same-interpreter reflection or independently promote the supplied binding to authoritative structure.",
+  "future_work":"Separate reviewed validators and genuine validated-family producers are required for P008 3-3-5 composition, subtype geometry, and complete flat validation."
+}

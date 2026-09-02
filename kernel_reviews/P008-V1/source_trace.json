@@ -1,0 +1,24 @@
+{
+  "principle_id":"P008",
+  "behavior_id":"P008_FLAT_DIRECT_CHILD_CARDINALITY",
+  "source_class":"SOURCE_DEFINITION",
+  "execution_role":"HARD_VALIDATION",
+  "protected_sources":[
+    "docs/elliott/SOURCE_EVIDENCE_MAP.json#P008",
+    "docs/elliott/PATTERN_BRAIN.md#G-flat-family",
+    "docs/elliott/MASTER_PROTOCOL.md#step-4",
+    "docs/elliott/MASTER_PROTOCOL.md#step-5"
+  ],
+  "approved_raw_source":{
+    "transcript_path":"C:\\ElliottCodex\\Sources_LOCKED\\volume_04\\volume_04",
+    "transcript_sha256":"52c825b8cb1eaa915660a6afb105425d6c2947f45ead0fb1f3742e3e2b67789d",
+    "transcript_locator":"00:14:43.830-00:15:30.450",
+    "video_path":"C:\\ElliottCodex\\Sources_LOCKED\\volume_04\\volume_04.mp4",
+    "video_sha256":"693176803827b7fd0b43ef70a8f89b6934b1f78b97195a3ba4aa62325de2cefb",
+    "matching_video_inspected":true,
+    "material_cardinality_qualifier_found":false
+  },
+  "source_meaning":"Flats retain the A-B-C form; this behavior executes only the exact three-direct-child cardinality prerequisite.",
+  "independent_from":["3-3-5 validation","regular/expanded/running subtype","B/C geometry","family proof","completion","degree","full flat validity"],
+  "non_promotions":["No family proof","No A/B/C label proof","No subtype proof","No complete flat validation","No P005/P006 semantics"]
+}

@@ -1,0 +1,23 @@
+{
+  "status":"PASS",
+  "framework":"Python unittest",
+  "focused_p008":{"tests_run":20,"failures":0,"errors":0},
+  "focused_structural_certification":{"tests_run":31,"failures":0,"errors":0},
+  "complete_suite":{"tests_run":352,"failures":0,"errors":0,"elapsed_seconds":0.724},
+  "hardening_iterations":[
+    "Updated exact repository inventory guards from seven to eight executable behaviors and four to five structural producers.",
+    "Updated only dependent test-file byte/hash guards after authorized inventory changes.",
+    "Added exact raw-str-subclass rejection, exact OrderedChildBinding-subclass rejection, and permuted three-child cardinality-only coverage after independent audit.",
+    "P008 result serialization is rejected because its retained OrderedChildBinding is deliberately non-pickleable; manual, copied, replaced, mapping, duck-typed, and subclassed lookalikes remain uncertifiable."
+  ],
+  "coverage":[
+    "exact three-child satisfaction and binding/child-order identity retention",
+    "0, 1, 2, 4, 5, 6, and 20-child fatal violations",
+    "exact enum/raw FLAT scope and rejection of normalization, aliases, subtype tokens, P003 themes/results, booleans, and str subclasses",
+    "missing, wrong, mapping, duck, input-subclass, and binding-subclass rejection",
+    "all provenance/status/fatality families",
+    "genuine violation certification and satisfied/unresolved rejection",
+    "manual, copied, replaced, mapping, duck, result-subclass, serialization, and certified-core tamper resistance",
+    "five-producer sealing, prior-four hash stability, empty family registry, dependency boundaries, and NOT_IMPLEMENTED orchestration"
+  ]
+}

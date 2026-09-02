@@ -410,7 +410,7 @@ class NormalImpulseFiveSlotCandidateViewTests(unittest.TestCase):
         )
         self.assertEqual({}, family_private._PRODUCERS)
 
-    def test_executable_methodology_inventory_remains_exactly_seven(self) -> None:
+    def test_executable_methodology_inventory_remains_exactly_eight(self) -> None:
         kernel_root = support.SRC / "elliott_methodology_kernel"
         observed = set()
         special_names = {"NO_RESCUE_BEHAVIOR", "P003_BEHAVIOR"}
@@ -447,6 +447,7 @@ class NormalImpulseFiveSlotCandidateViewTests(unittest.TestCase):
                 "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
                 "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
                 "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
+                "P008_FLAT_DIRECT_CHILD_CARDINALITY",
             },
             observed,
         )

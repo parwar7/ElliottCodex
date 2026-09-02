@@ -61,6 +61,14 @@ from .p007_single_zigzag_cardinality import (
     P007SingleZigzagCardinalityResult,
     check_p007_single_zigzag_cardinality,
 )
+from .p008_flat_cardinality import (
+    P008CandidateScope,
+    P008CardinalityStatus,
+    P008ExecutionRole,
+    P008FlatCardinalityInput,
+    P008FlatCardinalityResult,
+    check_p008_flat_cardinality,
+)
 from ._structural_invalidity_certification import (
     _seal_structural_validator_registry,
 )
@@ -75,6 +83,7 @@ _seal_structural_validator_registry(
         DegreePeerConsistencyResult,
         ParentChildDegreeResult,
         P007SingleZigzagCardinalityResult,
+        P008FlatCardinalityResult,
     )
 )
 del _seal_structural_validator_registry
@@ -133,6 +142,11 @@ __all__ = [
     "P007ExecutionRole",
     "P007SingleZigzagCardinalityInput",
     "P007SingleZigzagCardinalityResult",
+    "P008CandidateScope",
+    "P008CardinalityStatus",
+    "P008ExecutionRole",
+    "P008FlatCardinalityInput",
+    "P008FlatCardinalityResult",
     "P023VisibilityCheckStatus",
     "P023VisibilityExecutionRole",
     "P023VisibilityInput",
@@ -157,6 +171,7 @@ __all__ = [
     "check_parent_child_degree_adjacency",
     "check_p004",
     "check_p007_single_zigzag_cardinality",
+    "check_p008_flat_cardinality",
     "certify_structural_invalidity",
     "certify_validated_internal_family",
     "load_brain_manifest",

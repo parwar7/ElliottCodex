@@ -1,0 +1,25 @@
+{
+  "delta_id":"STRUCTURAL-INVALIDITY-PRODUCER-REGISTRY-P008-DELTA-V1",
+  "record_location":"Embedded in P008-V1 under the established six-artifact methodology-baseline procedure; no separate baseline directory was created.",
+  "before":{"producer_count":4,"behavior_ids":["P004_NORMAL_IMPULSE_WAVE2_ORIGIN","DEGREE_DIRECT_CHILD_PEER_CONSISTENCY","PARENT_CHILD_DEGREE_ADJACENCY","P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY"]},
+  "after":{"producer_count":5,"behavior_ids":["P004_NORMAL_IMPULSE_WAVE2_ORIGIN","DEGREE_DIRECT_CHILD_PEER_CONSISTENCY","PARENT_CHILD_DEGREE_ADJACENCY","P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY","P008_FLAT_DIRECT_CHILD_CARDINALITY"]},
+  "added":{
+    "result_type":"P008FlatCardinalityResult",
+    "behavior_id":"P008_FLAT_DIRECT_CHILD_CARDINALITY",
+    "protected_principle_id":"P008",
+    "source_class":"SOURCE_DEFINITION",
+    "execution_role":"HARD_VALIDATION",
+    "eligible_branch":"genuine producer-issued CARDINALITY_VIOLATED with fatal_to_candidate literally true"
+  },
+  "unchanged":{
+    "certification_algorithm":true,
+    "certification_algorithm_sha256":"b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615",
+    "public_certificate_contract":true,
+    "sealing_attestation_digest_and_failure_semantics":true,
+    "prior_four_producer_semantics":true,
+    "validated_family_contract_and_registry":true
+  },
+  "prior_manifests_unchanged":true,
+  "P005":"DEFERRED_SOURCE_SEMANTICS",
+  "P006":"DEFERRED_SOURCE_SEMANTICS_WITH_UNRESOLVED_CONFLICT"
+}
