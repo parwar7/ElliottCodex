@@ -283,10 +283,10 @@ class P007SingleZigzagCardinalityTests(unittest.TestCase):
                 with self.assertRaises(StructuralInvalidityCertificationError):
                     _ = certificate.structural_validity
 
-    def test_p007_remains_registered_after_sixth_structural_producer(self) -> None:
+    def test_p007_remains_registered_after_seventh_structural_producer(self) -> None:
         self.assertIs(structural_private._REGISTRY_SEALED, True)
-        self.assertEqual(6, len(structural_private._PRODUCERS))
-        self.assertEqual(6, len(structural_private._BEHAVIOR_IDS))
+        self.assertEqual(7, len(structural_private._PRODUCERS))
+        self.assertEqual(7, len(structural_private._BEHAVIOR_IDS))
         self.assertIn(P007SingleZigzagCardinalityResult, structural_private._PRODUCERS)
         self.assertIn(
             "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",

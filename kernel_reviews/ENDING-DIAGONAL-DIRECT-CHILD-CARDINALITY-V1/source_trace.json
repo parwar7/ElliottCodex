@@ -1,0 +1,33 @@
+{
+  "behavior_id":"ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY",
+  "source_principle_id":null,
+  "source_class":"SOURCE_DEFINITION",
+  "execution_role":"HARD_VALIDATION",
+  "protected_sources":[
+    "docs/elliott/PATTERN_BRAIN.md#D-ending-diagonal",
+    "docs/elliott/MASTER_PROTOCOL.md#step-4",
+    "docs/elliott/MASTER_PROTOCOL.md#step-5",
+    "Sources_LOCKED/volume_03/volume_03.srt@00:13:18.990-00:13:30.710"
+  ],
+  "canonical_id_search":{
+    "source_evidence_map_checked":true,
+    "dedicated_ending_diagonal_principle_found":false,
+    "P006_reused":false,
+    "invented_id":false
+  },
+  "approved_raw_source":{
+    "transcript_path":"C:\\ElliottCodex\\Sources_LOCKED\\volume_03\\volume_03.srt",
+    "transcript_byte_length":45347,
+    "transcript_sha256":"6cfbec4d3ac9af0e8a70414a5a2b7eb6884678eb59f929b2bf3614708a2568ba",
+    "cardinality_locator":"00:13:18.990-00:13:30.710",
+    "excluded_family_locator":"00:28:53.190-00:29:08.220",
+    "video_path":"C:\\ElliottCodex\\Sources_LOCKED\\volume_03\\volume_03.mp4",
+    "video_byte_length":83578275,
+    "video_sha256":"456bc8adf3cd597912775a51356142f5413b9af89e9582ef38084939ef01083c",
+    "matching_video_frames_inspected":["00:13:29","00:29:04"],
+    "material_cardinality_qualifier_found":false
+  },
+  "source_meaning":"The protected ending-diagonal source model explicitly has five legs; the behavior executes only exact five-direct-child cardinality.",
+  "independent_from":["internal-family validation","wave-label validation","leading diagonal","geometry","overlap","convergence or divergence","truncation","allowed position","completion","degree","full diagonal validity"],
+  "non_promotions":["No P### ID invented","No family proof","No wave-label proof","No geometry or overlap proof","No position or completion proof","No full ending-diagonal validation","No P005/P006 semantics"]
+}

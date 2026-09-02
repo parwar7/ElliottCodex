@@ -526,8 +526,8 @@ class SubjectBoundObservedPriceEndpointPairTests(unittest.TestCase):
                 "8e401d2eb0f1b683ebfc9845f3a1f16f1a75bd125ef1825b0274ee68f63d31fa",
             ),
             support.RUNTIME_ROOT / "tests" / "test_normal_impulse_five_slot_view.py": (
-                19558,
-                "5755a8fdc8c2f586ee2c5e96908d7bd3a4aecc184618f42d9de836157faa05af",
+                19617,
+                "a847b4334cc1e1b6e2dab4fcc45a8f43f488b70ba84f5f23c222f0729e2325af",
             ),
             support.SRC / "elliott_methodology_kernel" / "models.py": (
                 5341,
@@ -603,6 +603,7 @@ class SubjectBoundObservedPriceEndpointPairTests(unittest.TestCase):
                 "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
                 "P008_FLAT_DIRECT_CHILD_CARDINALITY",
                 "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
+                "ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY",
             },
             observed,
         )

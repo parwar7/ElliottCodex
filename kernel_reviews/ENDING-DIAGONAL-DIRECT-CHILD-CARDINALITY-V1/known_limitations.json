@@ -1,0 +1,25 @@
+{
+  "satisfaction_proves_only":"The proposed ENDING_DIAGONAL binding contains exactly five direct ordered child positions.",
+  "does_not_prove":[
+    "that the candidate is an ending diagonal",
+    "Wave 1, 2, 3, 4, or 5 labels",
+    "motive-five, corrective-three, or any internal-family membership",
+    "3-3-3-3-3 or any other internal-family composition",
+    "leading-diagonal structure or applicability",
+    "wedge geometry, convergence, divergence, or trend-line relationships",
+    "Wave 1 and Wave 4 overlap or any price geometry",
+    "truncation, allowed position, chronology, degree, or completion",
+    "parent-child ownership beyond the supplied non-authoritative binding",
+    "full structural or candidate validity"
+  ],
+  "does_not_perform":[
+    "candidate, pivot, wave, label, or binding discovery",
+    "automatic binding construction",
+    "family certification",
+    "P005, P006, or P010 evaluation",
+    "evidence, ranking, orchestration, provider, TradingView, network, monitoring, alert, or execution work"
+  ],
+  "trust_boundary":"OrderedChildBinding preserves caller-established identity and order only. Exact-type acceptance does not elevate its assertions into independent methodology proof.",
+  "certification_boundary":"The certificate retains the exact genuine fatal result origin. Existing certified core fields are digest protected; certification does not promote the binding into authoritative structure or change the shared contract.",
+  "future_work":"Separate protected-source review and trusted contracts are required for ending-diagonal families, labels, geometry, overlap, position, completion, and complete validation."
+}

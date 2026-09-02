@@ -29,6 +29,14 @@ from .degree_peer_consistency import (
     DegreePeerExecutionRole,
     check_degree_peer_consistency,
 )
+from .ending_diagonal_cardinality import (
+    EndingDiagonalCandidateScope,
+    EndingDiagonalCardinalityInput,
+    EndingDiagonalCardinalityResult,
+    EndingDiagonalCardinalityStatus,
+    EndingDiagonalExecutionRole,
+    check_ending_diagonal_cardinality,
+)
 from .p004 import (
     CandidateScope,
     ExecutionRole,
@@ -93,6 +101,7 @@ _seal_structural_validator_registry(
         P007SingleZigzagCardinalityResult,
         P008FlatCardinalityResult,
         P009TriangleCardinalityResult,
+        EndingDiagonalCardinalityResult,
     )
 )
 del _seal_structural_validator_registry
@@ -130,6 +139,11 @@ __all__ = [
     "DegreePeerConsistencyResult",
     "DegreePeerExecutionRole",
     "ExecutionRole",
+    "EndingDiagonalCandidateScope",
+    "EndingDiagonalCardinalityInput",
+    "EndingDiagonalCardinalityResult",
+    "EndingDiagonalCardinalityStatus",
+    "EndingDiagonalExecutionRole",
     "ImpulseDirection",
     "InternalFamilyKind",
     "InternalFamilyValidatorResult",
@@ -181,6 +195,7 @@ __all__ = [
     "ValidatedInternalFamilyCertificationError",
     "apply_structural_invalidity_evidence_no_rescue",
     "check_degree_peer_consistency",
+    "check_ending_diagonal_cardinality",
     "check_p023_visibility_guard",
     "check_parent_child_degree_adjacency",
     "check_p004",
