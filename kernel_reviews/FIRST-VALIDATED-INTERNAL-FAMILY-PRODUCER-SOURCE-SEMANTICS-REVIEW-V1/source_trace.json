@@ -1,0 +1,35 @@
+{
+  "review_id": "FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1",
+  "source_policy": {
+    "path": "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\SOURCE_POLICY.md",
+    "sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29",
+    "classification_rule": "Unsupported, ambiguous, conflicting, or incomplete methodology remains unresolved; remembered and external Elliott doctrine are excluded."
+  },
+  "brain_sources": [
+    {"path":"docs/elliott/MASTER_PROTOCOL.md","sha256":"a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6","locator":"Steps 4-7","classification":"SOURCE_DEFINITION","use":"Candidates require position, subdivisions, pattern rules, degree consistency, recursive internals, and geometry; rules/definitions precede evidence."},
+    {"path":"docs/elliott/PATTERN_BRAIN.md","sha256":"d7cd7ef46829e84f71cf8e6b452246d63b8c8eac1c0eef28030d51c3f7d59209","locator":"Sections A-M","classifications":["SOURCE_RULE","SOURCE_DEFINITION","SOURCE_GUIDELINE"],"use":"Normal impulse, diagonals, zigzag, flat, triangle, combinations, X, C-wave, and right-look boundaries; each proposition retains its section-specific class."},
+    {"path":"docs/elliott/DEGREE_RECURSION_BRAIN.md","sha256":"b8cb7bf124845420fc26f2e95cf863171dc3b195908c1bd79c57d6ab47daac9f","locator":"Sections 5-6 and 9-10","classification":"SOURCE_DEFINITION","use":"Recursive required-family validation and unresolved finer-data behavior; no positive terminal/base algorithm."},
+    {"path":"docs/elliott/SOURCE_EVIDENCE_MAP.json","sha256":"c0239392469c990650dd01a3024d64bdf93cba3f167fd37e826bd415496edb51","locator":"P004-P010, P022-P023","classifications":["SOURCE_RULE","SOURCE_DEFINITION","SOURCE_TRADING_PRACTICE"],"use":"Canonical IDs and per-principle classes; no principle defines positive family certification or a recursion base case."}
+  ],
+  "transcript_sources": [
+    {"volume":1,"path":"volume_01/Volume_01.srt","sha256":"c005460d847e2170595435dadc379444acca667c9ad0006969295b18915656ff","locators":["normal-impulse rule section","01:32:11.840-01:32:35.040"],"classification":"SOURCE_RULE","use":"Normal-impulse compulsory rules and the previously reviewed strict developing P005 violation subset."},
+    {"volume":2,"path":"volume_02/volume_02.srt","sha256":"d058141fa74cbe53baf8fcf1eb81dd419b4c54b40bc88b3c5bd9e4d928d1119d","locators":["00:06:51.350-00:07:30.160","00:16:58.520-00:17:14.520","00:22:49.640-00:23:09.320"],"classifications":["SOURCE_OBSERVATION","UNRESOLVED_CONFLICT"],"use":"P006 futures qualification and examples of lower-timeframe subdivisions; no terminal/base rule."},
+    {"volume":3,"path":"volume_03/volume_03.srt","sha256":"6cfbec4d3ac9af0e8a70414a5a2b7eb6884678eb59f929b2bf3614708a2568ba","locators":["00:13:23.770-00:13:31.950","00:28:44.070-00:29:57.660"],"classifications":["SOURCE_DEFINITION","SOURCE_GUIDELINE"],"use":"Five-wave structures are regular fives or diagonals; diagonal three-wave legs, overlap permission/tendency, and wedge tendency. The passage does not define a complete first producer."},
+    {"volume":4,"path":"volume_04/volume_04","sha256":"52c825b8cb1eaa915660a6afb105425d6c2947f45ead0fb1f3742e3e2b67789d","locators":["00:01:56.790-00:03:47.590","00:05:12.230-00:05:48.830","00:14:43.830-00:15:49.190","00:18:50.570-00:19:55.250","00:24:26.210-00:25:42.660","00:27:49.390-00:29:46.390"],"classifications":["SOURCE_DEFINITION","SOURCE_GUIDELINE"],"use":"Zigzag 5-3-5, X corrective, flat 3-3-5, triangle corrective legs, and position/completion context. Each complete corrective candidate still depends on family proofs."},
+    {"volume":5,"path":"volume_05/volume_05.srt","sha256":"2d8c8f5abec3d4ad42f36d58667ac7cd652d70e8e3743288dc918eebe2d3f50f","locators":["00:00:46.560-00:01:13.280","00:03:43.310-00:04:56.770"],"classifications":["SOURCE_RULE","SOURCE_OBSERVATION"],"use":"Previously reviewed strict P006 wording and one upward diagonal P005 arithmetic application; neither resolves the frozen semantics."},
+    {"volume":7,"path":"volume_07/volume_07.srt","sha256":"5d80cafb6abb09abd86c012671cb8ba1abeaa160c7b9e506a19b03ec7b433571","locators":["00:18:33.180-00:19:31.920"],"classification":"SOURCE_DEFINITION","use":"Previously reviewed origin/end roles for an already identified Wave 3; no endpoint-discovery authority."},
+    {"volume":8,"path":"volume_08/volume_08.srt","sha256":"038fdb559d13250f0eddce4c3be1e40c0c5b1a87c8ea39caddb2435964e0a2b8","locators":["00:06:38.270-00:08:05.970"],"classifications":["SOURCE_RULE","SOURCE_TRADING_PRACTICE"],"use":"C-wave instruction and 'when it is over' practice presume a valid five count; they do not define completion authority or a recursion base case."},
+    {"volume":10,"path":"volume_10/volume_10.txt","sha256":"624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25","locators":["00:01:18.480-00:03:54.920","00:04:52.000-00:04:58.480","00:30:52.600-00:31:08.400"],"classifications":["SOURCE_DEFINITION","SOURCE_RULE"],"use":"All small wiggles must be considered and bars can conceal structure; X is not a five; strict P006 statement. No positive finest-degree base case is supplied."}
+  ],
+  "terminal_base_search": {
+    "searched_concepts": ["finest observable degree","smallest degree","indivisible wave","simple terminal structure","hidden or invisible subdivision","bar-resolution limits","completion"],
+    "result": "BASE_CASE_UNRESOLVED",
+    "reason": "The corpus directs unresolved internals toward finer data and warns that aggregation conceals structure. It never authorizes positive family certification from visibility exhaustion or an arbitrary swing count."
+  },
+  "video_review": {
+    "new_video_inspection_required": false,
+    "reason": "The material gaps are absent machine semantics and recursive authority, not transcript wording dependent on a chart image. P005/P006 material video intervals were already inspected and preserved in their approved reviews."
+  },
+  "external_sources_used": false,
+  "model_memory_used": false
+}
