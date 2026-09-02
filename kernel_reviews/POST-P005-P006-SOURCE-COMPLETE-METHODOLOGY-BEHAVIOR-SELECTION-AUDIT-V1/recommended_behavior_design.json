@@ -1,0 +1,80 @@
+{
+  "design_id": "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY_DESIGN_V1",
+  "behavior_id": "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
+  "protected_principle_id": "P007",
+  "source_class": "SOURCE_DEFINITION",
+  "execution_role": "HARD_VALIDATION",
+  "scope": "Only an explicitly proposed single-zigzag candidate represented by one exact OrderedChildBinding. Check only that its direct ordered child tuple has exactly three positions, positionally A, B, C.",
+  "inputs": {
+    "candidate_scope": "P007CandidateScope.SINGLE_ZIGZAG or exact raw string SINGLE_ZIGZAG",
+    "ordered_child_binding": "exact OrderedChildBinding instance; subclasses and duck-typed/deserialized mappings rejected",
+    "evidence": "not accepted",
+    "prices_or_timeframes": "not accepted"
+  },
+  "trust_requirements": [
+    "The scope selects the validator and is not proof that the candidate is a zigzag.",
+    "OrderedChildBinding supplies identity-preserving caller-proposed direct-child order only; it does not prove parentage, labels, chronology, family, degree, completion, or pattern validity.",
+    "No caller-provided child label or family assertion is accepted as validated proof.",
+    "Boolean and unknown enum-like values fail closed rather than coercing."
+  ],
+  "result_contract": {
+    "result_type": "P007SingleZigzagCardinalityResult implementing StructuralValidatorResult",
+    "statuses": ["CARDINALITY_SATISFIED", "CARDINALITY_VIOLATED", "UNRESOLVED_MISSING_INPUT", "UNRESOLVED_UNSUPPORTED_SCOPE"],
+    "outcome_mapping": {"CARDINALITY_SATISFIED":"RULE_SATISFIED","CARDINALITY_VIOLATED":"RULE_VIOLATED","UNRESOLVED_MISSING_INPUT":"UNRESOLVED_MISSING_INPUT","UNRESOLVED_UNSUPPORTED_SCOPE":"UNRESOLVED_UNSUPPORTED_SCOPE"},
+    "required_traceability": {"behavior_id":"P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY","principle_id":"P007","source_class":"SOURCE_DEFINITION","execution_role":"HARD_VALIDATION","protected_sources":"non-empty fixed tuple","reason":"non-empty status-specific text"}
+  },
+  "predicates": {
+    "satisfied": "Supported scope AND exact OrderedChildBinding AND len(binding.ordered_children) == 3.",
+    "violated": "Supported scope AND exact OrderedChildBinding AND len(binding.ordered_children) != 3.",
+    "unresolved_missing_input": "Scope absent, binding absent, binding wrong type/subclass/duck type/deserialized mapping, or required binding state unavailable.",
+    "unresolved_unsupported_scope": "A non-null scope value is not the exact supported enum member or exact supported raw string."
+  },
+  "fatality": {"CARDINALITY_VIOLATED":true,"all_other_statuses":false,"derivation":"A resolved direct-child cardinality mismatch violates the protected single-zigzag definition and is fatal only to that proposed candidate."},
+  "structural_validity_relationship": "Satisfaction establishes only the cardinality prerequisite. It must never produce candidate-wide validity. Violation establishes structural invalidity of the proposed single-zigzag candidate. Unresolved outcomes establish neither validity nor invalidity.",
+  "certification": {
+    "eligible_status":"CARDINALITY_VIOLATED only",
+    "producer_change":"Register the genuine validator function/result pair as one additive producer before the existing registry seal; add its exact result type and behavior ID to the expected set.",
+    "contract_change":"No change to certification algorithms, certificate fields, registry semantics, or existing producer behavior.",
+    "rejections":"Satisfied/unresolved results and manual, copied, subclassed, duck-typed, mutated, or deserialized lookalikes remain uncertifiable."
+  },
+  "provenance": {
+    "protected_sources": [
+      "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\SOURCE_EVIDENCE_MAP.json#P007",
+      "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\PATTERN_BRAIN.md#F-Zigzag-Family",
+      "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\MASTER_PROTOCOL.md#Step-4",
+      "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\MASTER_PROTOCOL.md#Step-5",
+      "C:\\ElliottCodex\\Sources_LOCKED\\volume_04\\volume_04@00:01:56.790-00:02:26.850"
+    ],
+    "raw_source_check":"Volume 4 transcript explicitly presents zigzags as A-B-C and 5-3-5. Matching video frames in that segment were inspected; they showed the presented zigzag diagram and revealed no material cardinality qualifier. Temporary frames were removed."
+  },
+  "file_boundary": {
+    "add":["src/elliott_methodology_kernel/p007_single_zigzag_cardinality.py","tests/test_p007_single_zigzag_cardinality.py"],
+    "modify":["src/elliott_methodology_kernel/__init__.py","tests/test_structural_invalidity_certification.py","tests/test_methodology_boundaries.py only if its explicit public-surface assertions require the new export"],
+    "forbidden":["Brain_LOCKED/**","Sources_LOCKED/**","all prior baseline/review artifacts","schema changes","validated-family registry or contract","P005/P006 files or semantics"]
+  },
+  "required_tests": [
+    "exact three children satisfies; zero, one, two, four, and larger cardinalities violate",
+    "exact enum and raw SINGLE_ZIGZAG scope are equivalent",
+    "missing scope/binding and exact-type violations are unresolved fail-closed",
+    "unknown scope never satisfies",
+    "all status families carry exact provenance, non-empty reason, and outcome/status agreement",
+    "fatal only for CARDINALITY_VIOLATED",
+    "permuted three children still satisfies cardinality only and must not claim label/family validity",
+    "no evidence input or override path exists",
+    "genuine fatal producer result certifies and preserves exact origin identity",
+    "satisfied/unresolved/manual/copied/subclassed/duck-typed/mutated/deserialized results do not certify",
+    "existing three producer registrations and all six executable behaviors remain semantically unchanged",
+    "validated-family registry remains empty and sealed",
+    "AST/import audit shows no integration, network, provider, alert, execution, discovery, ranking, or evidence dependency",
+    "complete test suite and protected/baseline integrity checks pass"
+  ],
+  "baseline_impact": "After implementation and hardening only, create an additive P007 cardinality methodology baseline and the established additive structural-producer registry delta artifact if required by the current baseline procedure. Do not modify any previous baseline. This review package itself is not a baseline.",
+  "known_limitations": [
+    "Does not validate 5-3-5 or any child family.",
+    "Does not prove A/B/C labels; positions are merely first/second/third in caller-supplied order.",
+    "Does not prove parentage, chronology, degree, completion, geometry, endpoints, or full zigzag validity.",
+    "Does not discover pivots, waves, candidates, or child bindings.",
+    "Does not resolve or depend on P005 or P006.",
+    "A structural-invalidity certificate would certify the genuine fatal result origin under the existing contract, not independently elevate caller-supplied bindings into authoritative methodology facts."
+  ]
+}

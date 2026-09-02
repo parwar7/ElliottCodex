@@ -1,0 +1,54 @@
+{
+  "phase1_foundation": {
+    "baseline_id": "PHASE1-FOUNDATION-V1",
+    "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad",
+    "baseline_modified": false,
+    "public_kernel_surface_at_phase1": {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 442,
+      "sha256": "f8216720726fa22f01150663977bc3466aede2e0119a60206129e728574a2b56"
+    },
+    "public_kernel_surface_current": {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 1099,
+      "sha256": "e263c0b47d5bdfb75f5848e24e7f0d60af633691687bde83fb18a0642444246f",
+      "reason": "The public Kernel surface evolved through approved methodology exports."
+    }
+  },
+  "p004_v1": {
+    "baseline_id": "P004-V1",
+    "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b",
+    "baseline_modified": false,
+    "p004_implementation_unchanged": true,
+    "artifacts": [
+      {
+        "path": "src/elliott_methodology_kernel/p004.py",
+        "byte_length": 3860,
+        "sha256": "cc010c1f902059ac2503484313e9839b708dac5e5d965de46f483f861f9a1a38"
+      },
+      {
+        "path": "tests/test_p004.py",
+        "byte_length": 10879,
+        "sha256": "70558d676c90afd39d3dd2db0394f72e1f1a355cf64b8a50056386e6c89ed83f"
+      }
+    ],
+    "public_kernel_surface_at_p004_v1": {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 736,
+      "sha256": "161fcf8b8cf782b3c194a2c2a9c30693a65b4ec818a0a6ce364101ee2bacf30a"
+    },
+    "current_surface_delta_reason": "The current public surface differs only because the approved degree-peer behavior was exported."
+  },
+  "new_degree_peer_files": [
+    {
+      "path": "src/elliott_methodology_kernel/degree_peer_consistency.py",
+      "byte_length": 3905,
+      "sha256": "8ac56a4ede58e4d67b4bdedbb4c634a7406e7b1670e8f53a56b7eb7dccd2c127"
+    },
+    {
+      "path": "tests/test_degree_peer_consistency.py",
+      "byte_length": 8657,
+      "sha256": "b9e5ad981d6647222ff06bf6049590bc99950b33936eecc9166fb99ae5b27132"
+    }
+  ]
+}

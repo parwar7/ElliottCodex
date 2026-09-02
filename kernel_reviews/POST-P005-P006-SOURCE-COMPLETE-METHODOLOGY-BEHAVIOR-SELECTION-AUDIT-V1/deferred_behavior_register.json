@@ -1,0 +1,14 @@
+{
+  "review_id":"POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT-V1",
+  "frozen":[
+    {"id":"P005","state":"DEFERRED_SOURCE_SEMANTICS","classification":"DEFERRED_SOURCE_SILENCE","blockers":["general measurement formula","percentage basis","downward treatment","arithmetic/percentage disagreement","tie semantics","satisfaction timing"],"must_not_be_silently_redefined":true},
+    {"id":"P006","state":"DEFERRED_SOURCE_SEMANTICS","classification":"DEFERRED_SOURCE_CONFLICT","blockers":["futures overlap qualification conflict","touch/equality silence","exact predicate and timing"],"source_conflict_remains_unresolved":true,"must_not_be_silently_redefined":true}
+  ],
+  "dependency_blocked":["P007 5-3-5 families and B-origin endpoint constraint","P008 3-3-5 families","P009 corrective leg families","P010 X-wave family","P011 alternation","P019","P021","P022","extensions","truncation","C-wave instruction","bottom-up confirmation","completion/degree change"],
+  "source_silence":["recursive mixed-status aggregation"],
+  "source_ambiguity":["flat subtype geometry","triangle geometry/position","P012","P014-P018","P020","P024","leading diagonal alternatives","right look"],
+  "shared_contract_blocked":["P026 decision/output distinction enforcement","compound corrective composition"],
+  "non_executable":["P001 workflow guidance","P002 architectural definition","P025 feasibility observation","timeframe-is-not-degree architecture invariant"],
+  "safe_but_not_selected":["P008_FLAT_DIRECT_CHILD_CARDINALITY","P009_TRIANGLE_DIRECT_CHILD_CARDINALITY","ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY"],
+  "preservation_rule":"No later selection or implementation may silently supply, reinterpret, or hide any listed missing semantic, dependency, shared contract, ambiguity, or conflict."
+}

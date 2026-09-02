@@ -1,0 +1,149 @@
+{
+  "baseline_id": "PHASE1-FOUNDATION-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "DEVELOPMENT_LOGICAL_BASELINE",
+  "baseline_format_version": "1.0.0",
+  "created_utc": "2026-09-01T00:28:04.7437167Z",
+  "runtime_root": "C:\\ElliottCodex\\Runtime_WORKSPACE",
+  "protected_brain_root": "C:\\ElliottCodex\\Brain_LOCKED",
+  "python_version": "3.12.10",
+  "phase1_file_count": 25,
+  "phase1_files": [
+    {
+      "path": "AGENTS.md",
+      "byte_length": 1228,
+      "sha256": "9f5353dcf028fbacd88b7243f598361b8de6b872820f0bcf42690305cfe969e1"
+    },
+    {
+      "path": "config/runtime.example.json",
+      "byte_length": 120,
+      "sha256": "c4051c249f86e6e657a6f29c37821256a8fa993281a08c6fbea81b154010e434"
+    },
+    {
+      "path": "pyproject.toml",
+      "byte_length": 113,
+      "sha256": "e22f8935b1ada06630bef480d72eef73bd5df1dc1052be2be7a033e8b1426833"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 442,
+      "sha256": "f8216720726fa22f01150663977bc3466aede2e0119a60206129e728574a2b56"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/api.py",
+      "byte_length": 1889,
+      "sha256": "0540dc50e707ae7731b1b53711a226e4b5d18a87f0c9a1beee7ceac5526f7e1e"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/audit.py",
+      "byte_length": 1215,
+      "sha256": "474355fa5985871bc6e76d287e8660af53eeb5bd3782c0522dae85f1dcb4db6e"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/brain.py",
+      "byte_length": 5988,
+      "sha256": "e1b878306a23562d880e78013ac0ac2f736ebd36aa03745dfbba4ad120739856"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/contracts.py",
+      "byte_length": 1210,
+      "sha256": "f04aa2fadeb5302984f27747c854b693afbd208396123533be7b56ee503b1377"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/models.py",
+      "byte_length": 5341,
+      "sha256": "3a724315d0c30dd54d404a3c0ae516945532366643039c8eb15d7e922d9ca56f"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/schema.py",
+      "byte_length": 9015,
+      "sha256": "97f159542e3d03fb7ca4f55117f956b61f87b253c60811adbf2cc49f810c27a6"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/traceability.py",
+      "byte_length": 605,
+      "sha256": "0837b775c2889247ad5681eb85859c38594f9cde08651269cde65e0e9b2fa658"
+    },
+    {
+      "path": "src/elliott_runtime/__init__.py",
+      "byte_length": 44,
+      "sha256": "00b7ddea5e9db30cdee4e68e770e299144c8bf94c533ab036bd3e73562da00cf"
+    },
+    {
+      "path": "src/elliott_runtime/market_data/__init__.py",
+      "byte_length": 162,
+      "sha256": "0f491ea01cc84dc0641e834a076e53a035e6fa11dab202dca822f0519725e498"
+    },
+    {
+      "path": "src/elliott_runtime/market_data/ingestion.py",
+      "byte_length": 6530,
+      "sha256": "f4f2319df74744444f98f96cbac7247ef675648ee6b68e995bd062d5a536aed4"
+    },
+    {
+      "path": "src/elliott_runtime/pipelines/__init__.py",
+      "byte_length": 26,
+      "sha256": "e628a039e29fa0bb4984ac6e9f235c1201e58eaa3df0479661848a879e44eb31"
+    },
+    {
+      "path": "src/elliott_runtime/pipelines/analyze.py",
+      "byte_length": 418,
+      "sha256": "05c0e261ee523819ae266e6cb961ac1d7fd4a16a333a6cb95ff86a6e63f825fa"
+    },
+    {
+      "path": "src/elliott_runtime/ports/__init__.py",
+      "byte_length": 33,
+      "sha256": "d0385fd26f0b58be0c60e556532d2b6cf405877e9fb1c8f7c9997f31cb1a2924"
+    },
+    {
+      "path": "src/elliott_runtime/ports/methodology_kernel.py",
+      "byte_length": 335,
+      "sha256": "b6879616b903593d7136e8d04684d2a1a689b0cdc8a8cc77649c87997cda9dcf"
+    },
+    {
+      "path": "tests/support.py",
+      "byte_length": 231,
+      "sha256": "f9934c5ce89e1bfcc9e3ce059a190caadcf023298e405167e80a2888373021f4"
+    },
+    {
+      "path": "tests/test_audit.py",
+      "byte_length": 1434,
+      "sha256": "503d688cfd5412214d1bb6fa9a63479d392a1ae3c6b3d19f407acbbb84d24984"
+    },
+    {
+      "path": "tests/test_boundaries.py",
+      "byte_length": 1917,
+      "sha256": "21680a969b3e7cac526c43dc77d7526ab231282f7eccbbf01d10aeeb2bef074a"
+    },
+    {
+      "path": "tests/test_brain.py",
+      "byte_length": 1473,
+      "sha256": "a7b7ce50c1bafe101184212e43da17f72d30d96fef55d2c9f66a010be4317414"
+    },
+    {
+      "path": "tests/test_kernel.py",
+      "byte_length": 2101,
+      "sha256": "29c980fcc69960098bbdb290c00ae2edf1b36781331853eef9730e69a1fbf7ed"
+    },
+    {
+      "path": "tests/test_market_data.py",
+      "byte_length": 3876,
+      "sha256": "8ef26426ca2a08db09f347392968e09e5dd6f9d1fe2444ff79bd745e8892f940"
+    },
+    {
+      "path": "tests/test_schema.py",
+      "byte_length": 2430,
+      "sha256": "1db8f1a3d3295f689f688159596bba82cb7c61aefcc996451e0452bf2e4c353e"
+    }
+  ],
+  "elliott_methodology_implemented": false,
+  "schema_validator_fail_closed": true,
+  "kernel_public_boundary_enforced": true,
+  "naive_timestamp_utc_assumption_provenance_flagged": true,
+  "numeric_transport_representation": "binary float",
+  "decimal_decision": "DEFERRED",
+  "git_mutation_performed": false,
+  "network_used": false,
+  "packages_installed": false,
+  "immutability_claim": "Logical development baseline only; files remain writable and are not ACL- or filesystem-sealed."
+}
+

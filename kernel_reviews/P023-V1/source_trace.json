@@ -1,0 +1,27 @@
+{
+  "principle_id": "P023",
+  "behavior_id": "P023_INTERNAL_VISIBILITY_GUARD",
+  "source_class": "SOURCE_DEFINITION",
+  "execution_role": "HARD_VALIDATION",
+  "protected_references": [
+    {
+      "path": "docs/elliott/SOURCE_EVIDENCE_MAP.json",
+      "location": "P023"
+    },
+    {
+      "path": "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "locations": [
+        "Section 5 - Recursive validator",
+        "Section 6 - Data-resolution rule"
+      ]
+    },
+    {
+      "path": "docs/elliott/MASTER_PROTOCOL.md",
+      "location": "Step 6"
+    },
+    {
+      "path": "AGENTS.md",
+      "location": "Non-negotiable operating constraints - invisible-subdivision/finer-data constraint"
+    }
+  ]
+}

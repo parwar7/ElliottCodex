@@ -1,0 +1,180 @@
+{
+  "review_id": "P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1",
+  "principle_id": "P006",
+  "existing_source_classification": "SOURCE_RULE",
+  "protected_proposition": "In a normal impulse, the orthodox end of Wave 4 does not overlap the orthodox end of Wave 1; diagonals are separate.",
+  "implementation_readiness": "NOT_READY_FOR_IMPLEMENTATION",
+  "semantic_findings": [
+    {
+      "semantic_id": "P006_CORE_RULE",
+      "status": "RESOLVED",
+      "classification": "SOURCE_RULE",
+      "paraphrased_finding": "The actual rule is stated in terms of the orthodox end of Wave 4 and the orthodox end of Wave 1, within the normal five-wave impulse scope.",
+      "support": [
+        "V01_TRANSCRIPT 00:31:00.399-00:31:41.909",
+        "V10_TRANSCRIPT 00:30:52.600-00:31:08.400",
+        "V01_VIDEO and V10_VIDEO at the corresponding intervals"
+      ]
+    },
+    {
+      "semantic_id": "P006_BROADER_TERRITORY_GUIDANCE",
+      "status": "RESOLVED",
+      "classification": "SOURCE_GUIDELINE",
+      "paraphrased_finding": "Avoidance of entry by any part of Wave 4 into the wider territory of Waves 1 or 2 is explicitly presented as a very strong guideline and lower-probability discriminator, not as the P006 rule.",
+      "support": [
+        "V10_TRANSCRIPT 00:31:05.800-00:32:39.400",
+        "V10_VIDEO 00:31:05-00:32:39"
+      ]
+    },
+    {
+      "semantic_id": "P006_BULLISH_QUALITATIVE_BOUNDARY",
+      "status": "RESOLVED",
+      "classification": "SOURCE_RULE",
+      "paraphrased_finding": "The Volume 1 bullish illustration uses the Wave 1 peak/end as the price-territory boundary and says the Wave 4 end may not fall into/through that territory.",
+      "support": [
+        "V01_TRANSCRIPT 00:31:27.600-00:31:41.909",
+        "V01_VIDEO 00:31:27-00:31:42"
+      ]
+    },
+    {
+      "semantic_id": "P006_APPLIED_INVALID_COUNT",
+      "status": "RESOLVED",
+      "classification": "SOURCE_RULE",
+      "paraphrased_finding": "A proposed five-wave labeling whose proposed Wave 4 endpoint overlaps Wave 1 is rejected in the Volume 1 applied example.",
+      "support": [
+        "V01_TRANSCRIPT 01:30:47.440-01:32:11.840",
+        "V01_VIDEO 01:30:47-01:32:12"
+      ]
+    },
+    {
+      "semantic_id": "P006_DIAGONAL_SCOPE",
+      "status": "RESOLVED",
+      "classification": "SOURCE_RULE",
+      "paraphrased_finding": "The protected Brain confines this non-overlap rule to normal impulses and directs that it not be applied as the same rule to diagonals. The reviewed raw passages introduce no conflicting diagonal semantics.",
+      "support": [
+        "Brain PATTERN_BRAIN.md normal-impulse and diagonal boundary",
+        "Brain SOURCE_EVIDENCE_MAP.json P006"
+      ]
+    },
+    {
+      "semantic_id": "P006_ORTHODOX_END_DEFINITION",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "Orthodox end is named but not operationally defined or distinguished sufficiently from an extreme, spike, overshoot, visible terminal price, pivot, or intrawave excursion.",
+      "exact_question": "What observable evidence defines an orthodox end and distinguishes it from an extreme, spike, overshoot, visible terminal price, pivot or intrawave excursion?",
+      "reviewed_source_states": [
+        "Volume 1 names and illustrates wave ends but does not operationally define orthodox end.",
+        "Volume 10 names orthodox ends while distinguishing broader territory guidance, but does not define how to identify an orthodox end.",
+        "Both videos show schematic or chart labels without an observable endpoint-identification rule."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P006_OBSERVATION_OPERAND_MAPPING",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "The conceptual endpoints are named, but no rule maps an actual OHLC/intrabar observation to either authoritative orthodox end.",
+      "exact_question": "Which actual OHLC or intrabar observation supplies each authoritative Wave 1 and Wave 4 orthodox-end operand?",
+      "reviewed_source_states": [
+        "Volume 1 and Volume 10 discussions and videos do not bind either conceptual end to an OHLC or intrabar field."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P006_UPWARD_EXACT_PREDICATE",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "The bullish direction is qualitatively illustrated, but an exact comparator cannot be fixed until equality and authoritative endpoint observations are defined.",
+      "exact_question": "What exact upward comparison is required, including equality, once source-authorized orthodox-end observations exist?",
+      "reviewed_source_states": [
+        "Volume 1 provides a qualitative bullish boundary illustration but no equality case or machine comparator.",
+        "Volume 10 provides bullish drawings but no exact inequality or equality rule."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P006_DOWNWARD_PREDICATE",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "Neither mapped raw discussion explicitly establishes the downward normal-impulse comparison; inversion was not inferred.",
+      "exact_question": "What exact comparison applies to a downward normal impulse?",
+      "reviewed_source_states": [
+        "Volume 1 and Volume 10 mapped discussions and videos do not explicitly state or illustrate a downward comparison."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P006_TOUCH_EQUALITY",
+      "status": "UNRESOLVED",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "No source passage or diagram explicitly classifies exact equality/touch at the Wave 1 boundary as allowed or violating.",
+      "exact_question": "Does exact equality or touch at the authoritative Wave 1 boundary satisfy or violate P006?",
+      "reviewed_source_states": [
+        "Volume 1 and Volume 10 mapped discussions and videos contain no explicit touch/equality example or statement."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P006_TEMPORARY_EXCURSION_HARD_RULE_BOUNDARY",
+      "status": "RESOLVED",
+      "classification": "SOURCE_RULE",
+      "paraphrased_finding": "Conditional on an authoritative Wave 4 orthodox end remaining outside the Wave 1 orthodox-end boundary, a temporary excursion is not itself a P006 hard-rule violation; any-part-of-Wave-4 territory entry belongs to the separately classified strong guideline.",
+      "support": [
+        "V10_TRANSCRIPT 00:30:52.600-00:32:39.400",
+        "V10_VIDEO 00:30:52-00:32:39"
+      ]
+    },
+    {
+      "semantic_id": "P006_ORTHODOX_END_VS_EXCURSION_IDENTIFICATION",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "The rule-versus-guideline consequence is resolved, but the sources do not provide a machine test that identifies which observation is the eventual orthodox end rather than a temporary excursion.",
+      "exact_question": "How is an eventual orthodox end identified and certified distinctly from a temporary penetration-and-retreat observation?",
+      "reviewed_source_states": [
+        "Volume 1 and Volume 10 distinguish endpoints conceptually from broader path territory but supply no observation-identification test.",
+        "The videos add no endpoint-certification cue."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P006_COMPLETION_AND_FATAL_TIMING",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "The sources do not define when Wave 4's orthodox end is authoritative or distinguish an early candidate warning from a source-authorized fatal structural violation.",
+      "exact_question": "What completion evidence makes Wave 4's orthodox end authoritative, and when does a developing observation become warning-only versus a fatal P006 violation?",
+      "reviewed_source_states": [
+        "Volume 1 rejects an applied proposed endpoint but does not define machine completion evidence or an early-warning boundary.",
+        "Volume 10 is silent on authoritative completion and fatal timing."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    }
+  ],
+  "fatality_boundary": "Under the protected Master Protocol, a fully resolved P006 source-rule violation would be fatal to the normal-impulse candidate; this review does not supply the missing machine predicate or create a producer.",
+  "transcript_video_conflict": false,
+  "volume_01_volume_10_conflict": false,
+  "clarification_not_conflict": "Volume 10 explicitly distinguishes the orthodox-end rule from broader price-territory guidance, so the narrower rule and stronger guideline are preserved separately rather than treated as conflicting.",
+  "additional_mapped_volume_available": false,
+  "explicit_mapped_book_locator_available": false,
+  "readiness_reason": "Orthodox-end authority, observation mapping, equality, downward comparison, orthodox-end-versus-excursion identification and completion/fatal timing remain source-unresolved."
+}

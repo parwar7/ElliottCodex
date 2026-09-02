@@ -1,0 +1,107 @@
+{
+  "baseline_id": "PARENT-CHILD-DEGREE-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "METHODOLOGY_LOGICAL_BASELINE",
+  "behavior_id": "PARENT_CHILD_DEGREE_ADJACENCY",
+  "protected_source_principle_id": null,
+  "source_class": "SOURCE_DEFINITION",
+  "execution_role": "HARD_VALIDATION",
+  "canonical_degree_hierarchy_highest_to_lowest": [
+    "Grand Supercycle",
+    "Supercycle",
+    "Cycle",
+    "Primary",
+    "Intermediate",
+    "Minor",
+    "Minute",
+    "Minuette",
+    "Subminuette"
+  ],
+  "methodology_semantics": {
+    "scope": "One explicitly supplied direct parent-child pair.",
+    "comparison": "Both resolved canonical labels are compared using exact hierarchy adjacency; the child must be exactly one immediately subordinate degree beneath the parent.",
+    "adjacent_pair": "RULE_SATISFIED",
+    "equal_skipped_or_reversed_pair": "RULE_VIOLATED",
+    "violation_fatal_to_candidate": true,
+    "unresolved_parent_or_child_status": "UNRESOLVED_MISSING_INPUT",
+    "resolved_missing_empty_or_non_string_label": "UNRESOLVED_MISSING_INPUT",
+    "unknown_non_empty_label": "UNRESOLVED_UNKNOWN_DEGREE",
+    "subminuette_parent_with_canonical_resolved_child": "UNRESOLVED_NO_DEFINED_SUBORDINATE",
+    "unresolved_outcomes_nonfatal": true,
+    "satisfaction_scope": "Satisfaction does not establish whole-candidate validity.",
+    "normalization": false,
+    "aliases": false,
+    "abbreviation_mapping": false,
+    "case_folding": false,
+    "whitespace_stripping": false,
+    "hierarchy_distance_tolerance": false,
+    "degree_inference": false,
+    "pairwise_only": true,
+    "sibling_comparison": false,
+    "tree_traversal": false
+  },
+  "runtime_diagnostic_policy": {
+    "protected_elliott_methodology": false,
+    "classification": null,
+    "evaluation_precedence": [
+      "resolution-status checks",
+      "missing, non-string, or empty label checks",
+      "canonical-label membership checks",
+      "terminal Subminuette boundary",
+      "adjacency comparison"
+    ],
+    "examples": [
+      "An unresolved input can take precedence over an unknown label.",
+      "An unknown child label can take precedence over the Subminuette terminal condition.",
+      "A canonical child with a Subminuette parent reaches UNRESOLVED_NO_DEFINED_SUBORDINATE."
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/parent_child_degree_adjacency.py",
+      "byte_length": 4512,
+      "sha256": "eac38fc587072a951192bdcc64e7bf070595a39065761ec7fa9da7084f115bb4"
+    },
+    {
+      "path": "tests/test_parent_child_degree_adjacency.py",
+      "byte_length": 21565,
+      "sha256": "54d99905099ce9681feaa95a9bde8a323bb0d8200fdd2cf88f4e9b07e340f0a6"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 1492,
+      "sha256": "091471eb199e90d59dd7b7e0b14368aac138dbdc0d4416821b95e7fce606c8f2"
+    }
+  ],
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6"
+    }
+  ],
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_path": "C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count": 30,
+    "manifest_mismatch_count": 0
+  },
+  "assurances": {
+    "network_used": false,
+    "packages_installed": false,
+    "git_mutation": false,
+    "brain_modified": false
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, ACL protection, cryptographic signing, or process isolation is claimed."
+}

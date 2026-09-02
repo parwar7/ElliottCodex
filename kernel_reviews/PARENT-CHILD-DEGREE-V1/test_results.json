@@ -1,0 +1,47 @@
+{
+  "command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -m unittest discover -s 'C:\\ElliottCodex\\Runtime_WORKSPACE\\tests' -p 'test_*.py'",
+  "python_version": "3.12.10",
+  "tests_run": 114,
+  "passes": 114,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "unittest_elapsed_seconds": 0.162,
+  "observed_wall_elapsed_seconds": 0.499098,
+  "temporary_residue_count": 0,
+  "temporary_boundary": "All test temporary files remained beneath C:\\ElliottCodex\\Runtime_WORKSPACE\\tests.",
+  "events": [
+    {
+      "event_type": "NON_SEMANTIC_INVOCATION_PATH_EVENT",
+      "description": "A preliminary direct-file unittest invocation could not import tests/support.py; established discovery mode succeeded. This was not a methodology defect."
+    }
+  ],
+  "parent_child_coverage": [
+    "all eight valid adjacent degree pairs",
+    "same-degree violation",
+    "one-level skip",
+    "multi-level skip",
+    "one-level reversal",
+    "multi-level reversal",
+    "unresolved status inputs",
+    "missing labels",
+    "unknown labels",
+    "whitespace-only labels",
+    "padded labels",
+    "case mismatch",
+    "abbreviation rejection",
+    "integer and non-string labels",
+    "Boolean labels",
+    "Subminuette boundary",
+    "diagnostic-policy precedence",
+    "reason-path determinism",
+    "raw status handling",
+    "SOURCE_DEFINITION provenance",
+    "HARD_VALIDATION execution role",
+    "null source principle ID",
+    "fatal and nonfatal behavior",
+    "no candidate-wide validity claim",
+    "no sibling dependency",
+    "dependency-boundary enforcement"
+  ]
+}

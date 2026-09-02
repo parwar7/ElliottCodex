@@ -1,0 +1,86 @@
+{
+  "review_id": "P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1",
+  "conflicts": [
+    {
+      "conflict_id": "P006_FUTURES_OVERLAP_QUALIFICATION",
+      "category": "SOURCE_CONFLICT",
+      "strict_sources": [
+        "Volume 5 00:00:46.560-00:01:13.280",
+        "Volume 10 00:30:52.600-00:31:08.400",
+        "Protected P006 proposition"
+      ],
+      "qualified_sources": [
+        "Volume 2 00:06:51.350-00:07:30.160",
+        "Volume 2 00:16:58.520-00:17:14.520"
+      ],
+      "question": "Does a small visible futures overlap represent an allowed hard-rule exception, a non-authoritative price-series artifact, the separate whole-path guideline, or no valid exception?",
+      "resolution": "CONFLICT"
+    }
+  ],
+  "remaining_blockers": {
+    "P005": [
+      {
+        "semantic": "general arithmetic formula and exact downward treatment",
+        "category": "SOURCE_SILENCE"
+      },
+      {
+        "semantic": "percentage formula and denominator",
+        "category": "SOURCE_SILENCE"
+      },
+      {
+        "semantic": "arithmetic/percentage disagreement outcome",
+        "category": "SOURCE_SILENCE"
+      },
+      {
+        "semantic": "Wave 3 tie cases",
+        "category": "SOURCE_AMBIGUITY"
+      },
+      {
+        "semantic": "definitive satisfaction timing",
+        "category": "SOURCE_SILENCE"
+      },
+      {
+        "semantic": "source-authorized automatic wave endpoint discovery and authority",
+        "category": "SOURCE_SILENCE"
+      },
+      {
+        "semantic": "precision adjustment",
+        "category": "SOURCE_SILENCE",
+        "authorization_state": "NO_SOURCE_AUTHORIZED_TOLERANCE"
+      }
+    ],
+    "P006": [
+      {
+        "semantic": "futures few-pennies qualification versus strict orthodox-end rule",
+        "category": "SOURCE_CONFLICT"
+      },
+      {
+        "semantic": "touch/equality",
+        "category": "SOURCE_SILENCE"
+      },
+      {
+        "semantic": "source-authorized automatic orthodox-end discovery and certification",
+        "category": "SOURCE_SILENCE"
+      },
+      {
+        "semantic": "definitive violation timing before an authoritative orthodox end exists",
+        "categories": ["SOURCE_SILENCE", "SOURCE_CONFLICT"]
+      },
+      {
+        "semantic": "definitive satisfaction timing before an authoritative orthodox end exists",
+        "category": "SOURCE_SILENCE"
+      }
+    ]
+  },
+  "missing_approved_source_file_blockers": [],
+  "book_note": "The approved book is not locally available, but no P005/P006 book locator is mapped; its absence is not asserted as the cause of any blocker.",
+  "readiness": {
+    "P005_FULL_READINESS": "NOT_READY",
+    "P005_NARROW_VALIDATOR_READINESS": "NOT_READY",
+    "P006_FULL_READINESS": "NOT_READY",
+    "P006_NARROW_VALIDATOR_READINESS": "NOT_READY"
+  },
+  "ready_narrow_validator_designs": [],
+  "next_approval_target": "POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT",
+  "review_outcome": "P005_P006_SOURCE_CONFLICT"
+}

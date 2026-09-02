@@ -1,0 +1,156 @@
+{
+  "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "SHARED_CONTRACT_LOGICAL_BASELINE",
+  "contract_name": "CertifiedStructuralInvalidity",
+  "protected_principle_id": null,
+  "source_class": null,
+  "execution_role": null,
+  "classification_note": "This is Kernel contract infrastructure, not an Elliott principle or a fifth executable methodology behavior.",
+  "contract_semantics": {
+    "meaning": "This exact previously produced result has already established a hard structural invalidity.",
+    "public_types": [
+      "CertifiedStructuralInvalidity",
+      "StructuralValidatorResult",
+      "StructuralInvalidityCertificationError"
+    ],
+    "public_factory": "certify_structural_invalidity(origin)",
+    "successful_origin_requirements": [
+      "exact registered nominal result type",
+      "exact live producer-issued object identity",
+      "producer-specific violation status by enum identity",
+      "producer-specific HARD_VALIDATION role by enum identity",
+      "fatal_to_candidate is exactly true",
+      "consistent behavior, principle, source-class, protected-source, outcome, and reason provenance",
+      "certified-field digest unchanged since issuance"
+    ],
+    "eligible_producers": [
+      "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+      "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+      "PARENT_CHILD_DEGREE_ADJACENCY"
+    ],
+    "ineligible_behavior": "P023_INTERNAL_VISIBILITY_GUARD",
+    "origin_reference": "Exact live origin object retained by identity; provenance is delegated rather than copied into an authoritative replacement trace.",
+    "origin_identity": "Issuer-minted UUID hex is stable for the live issuance and is not a protected principle ID or independent certification authority.",
+    "normalized_structural_validity": "Derived immutable StructuralValidity.INVALID",
+    "fatality": "Derived exclusively from the already-fatal certified origin",
+    "failure": "StructuralInvalidityCertificationError",
+    "registry": "Private exact-type producer registry sealed after reviewed package bootstrap",
+    "issuance": "Private id-keyed weak-reference attestation bound to the exact result object",
+    "integrity": "Canonical SHA-256 digest of certified origin fields is revalidated on certification and every certificate property access",
+    "serialization": "Raw copied or deserialized provenance is non-authoritative and cannot mint certification; certificate pickle is rejected",
+    "security_boundary": "Logical same-process API integrity only; hostile interpreter reflection is outside this baseline"
+  },
+  "preserved_behavior_contracts": {
+    "public_result_fields_and_constructor_signatures": true,
+    "statuses_outcomes_reasons_and_classifications": true,
+    "fatality_semantics": true,
+    "result_equality_and_representation": true,
+    "analytical_comparison_logic": true,
+    "runtime_import_boundaries": true
+  },
+  "capabilities_present": {
+    "structural_invalidity_discovery": false,
+    "fatality_creation_or_upgrade": false,
+    "evidence_evaluation": false,
+    "evidence_no_rescue_policy": false,
+    "candidate_ranking": false,
+    "candidate_generation": false,
+    "degree_inference": false,
+    "pattern_interpretation": false,
+    "orchestration": false,
+    "provider_or_tradingview_operation": false,
+    "monitoring_or_alerting": false,
+    "network_or_process_execution": false
+  },
+  "executable_methodology_at_checkpoint": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD"
+  ],
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/contracts.py",
+      "byte_length": 1562,
+      "sha256": "22a69fd33c1f7340289ab85a71166624ce3346c80843ac7f8c4e2c366bc332fe"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p004.py",
+      "byte_length": 4509,
+      "sha256": "397a438f5710a5a138b112c473a512a0df930e33ed7f10279e74589501500d1c"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/degree_peer_consistency.py",
+      "byte_length": 4615,
+      "sha256": "faf0fb3761d23190f2a5719ae2c62a2cb6c2aa64a739fd8761e709e9be7b4b07"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/parent_child_degree_adjacency.py",
+      "byte_length": 5250,
+      "sha256": "a4fca4714c850c3ee2d20dbb245c6929119789b7fa10097c661b8c09db497131"
+    },
+    {
+      "path": "tests/test_parent_child_degree_adjacency.py",
+      "byte_length": 22002,
+      "sha256": "e90cc0b99495130fa883f0f90292b731b7d568d181820db7bee19b5b4ad7a630"
+    },
+    {
+      "path": "tests/test_structural_invalidity_contract.py",
+      "byte_length": 32856,
+      "sha256": "f86a89ac37bcb961dde47a80d0ddcd4d8baf55f701726d123ccdca45826f93a3"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 2504,
+      "sha256": "3ec108e7938eecf23af84b8bbacb7df025c0acb78a11f098f7815098f4235ade"
+    }
+  ],
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6"
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a"
+    },
+    {
+      "baseline_id": "P023-V1",
+      "manifest_path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "manifest_sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6"
+    }
+  ],
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_path": "C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count": 30,
+    "manifest_mismatch_count": 0
+  },
+  "assurances": {
+    "network_used": false,
+    "packages_installed": false,
+    "git_mutation": false,
+    "brain_modified": false,
+    "prior_baseline_artifacts_modified": false
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, ACL protection, cryptographic signing, hostile same-process isolation, or durable cross-process certification is claimed."
+}

@@ -1,0 +1,230 @@
+{
+  "review_id": "P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1",
+  "artifact_type": "SOURCE_REVIEW",
+  "status": "COMPLETED_WITH_UNRESOLVED_MACHINE_SEMANTICS",
+  "review_outcome": "P005_P006_RAW_SOURCE_REVIEW_UNRESOLVED",
+  "is_methodology_implementation_baseline": false,
+  "scope": {
+    "principles": [
+      "P005",
+      "P006"
+    ],
+    "raw_volumes": [
+      1,
+      10
+    ],
+    "transcripts_reviewed": true,
+    "videos_reviewed": true,
+    "source_basis": "Protected Brain plus manifest-verified local raw files only"
+  },
+  "implementation_readiness": {
+    "P005": "NOT_READY_FOR_IMPLEMENTATION",
+    "P006": "NOT_READY_FOR_IMPLEMENTATION"
+  },
+  "conflict_state": {
+    "transcript_video_conflicts": 0,
+    "volume_01_volume_10_conflicts": 0,
+    "protected_raw_source_conflicts": 0,
+    "unresolved_machine_semantics_present": true
+  },
+  "artifacts": [
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/README.md",
+      "byte_length": 3376,
+      "sha256": "4490e102015e44759097b2404489b8f29d51993edc6abf9c6863bb192a609fec"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/source_inventory.json",
+      "byte_length": 6266,
+      "sha256": "e535aa5c45ce06adbb1ad356137b87b61a1ee6c951602ddfefc617d4670d7b8a"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/P005_semantics.json",
+      "byte_length": 9676,
+      "sha256": "3cd4d501e251119a138a4c588b87740d478d677cd3221bda8ca538b9b0d2967e"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/P006_semantics.json",
+      "byte_length": 10723,
+      "sha256": "2dd1a684589ca7d1dd8504e05ad6aa48e2e7a3e61d1d22e4b2da27eabae22d09"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/unresolved_conflicts.json",
+      "byte_length": 2142,
+      "sha256": "7009475fea93c36b1ef13172860cbf216e5f8d262f67a9037c9084ea581b395c"
+    }
+  ],
+  "source_integrity": {
+    "source_root": "C:\\ElliottCodex\\Sources_LOCKED",
+    "source_manifest_path": "C:\\ElliottCodex\\Sources_LOCKED\\SOURCE_MANIFEST.json",
+    "source_manifest_byte_length": 5248,
+    "source_manifest_sha256": "61887c8ebabd990c669637df8ccf2975e7028c17e9b428d1a9181d1ef986cbdd",
+    "declared_file_count": 20,
+    "manifest_entry_count": 20,
+    "disk_raw_file_count": 20,
+    "missing_entry_count": 0,
+    "unmanifested_raw_file_count": 0,
+    "mismatch_count": 0,
+    "used_raw_files": [
+      {
+        "relative_path": "volume_01\\Volume_01.srt",
+        "source_type": "transcript",
+        "volume": 1,
+        "byte_length": 189666,
+        "sha256": "c005460d847e2170595435dadc379444acca667c9ad0006969295b18915656ff"
+      },
+      {
+        "relative_path": "volume_01\\Volume_01.mp4",
+        "source_type": "video",
+        "volume": 1,
+        "byte_length": 275486763,
+        "sha256": "9c809e464236aa4a3da0fa617fc9fc629e0c3b3ed5d645ef4c4af06ecea9bc00"
+      },
+      {
+        "relative_path": "volume_10\\volume_10.txt",
+        "source_type": "transcript",
+        "volume": 10,
+        "byte_length": 114279,
+        "sha256": "624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25"
+      },
+      {
+        "relative_path": "volume_10\\volume_10.mp4",
+        "source_type": "video",
+        "volume": 10,
+        "byte_length": 104994994,
+        "sha256": "443ef09e3a4cfa5d6a6cb2ec3a7b7906fb9fded54bca13962f2f8ea80b0a15bf"
+      }
+    ],
+    "locator_inventory": "Bound by source_inventory.json"
+  },
+  "protected_source_map": {
+    "path": "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\SOURCE_EVIDENCE_MAP.json",
+    "byte_length": 8498,
+    "sha256": "c0239392469c990650dd01a3024d64bdf93cba3f167fd37e826bd415496edb51"
+  },
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_path": "C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count": 30,
+    "manifest_mismatch_count": 0
+  },
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6"
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a"
+    },
+    {
+      "baseline_id": "P023-V1",
+      "manifest_path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "manifest_sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6"
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/STRUCTURAL_INVALIDITY_CONTRACT_manifest.json",
+      "manifest_sha256": "33d9b03cdecf321cc4526c2acc1d1b5cf7c01c96634201a3169bbd39cf52b8f1"
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE_manifest.json",
+      "manifest_sha256": "c5923a1baa23650760dc66c8d11988e764f8931cc9803eb762eac40ebfb52cc3"
+    },
+    {
+      "baseline_id": "P003-V1",
+      "manifest_path": "kernel_reviews/P003-V1/P003_manifest.json",
+      "manifest_sha256": "f92271d1a88bb6b26b797fd5bfa7b2ff757dc3dd74940a0a82e4d569ec61911e"
+    },
+    {
+      "baseline_id": "VALIDATED-INTERNAL-FAMILY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/VALIDATED_INTERNAL_FAMILY_CONTRACT_manifest.json",
+      "manifest_sha256": "e602c60840b730dde6e84e22081965be26e312ece7d2bfd9eb8d380263c2ad0e"
+    },
+    {
+      "baseline_id": "SUBJECT-ORDERED-CHILD-BINDING-V1",
+      "manifest_path": "kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/SUBJECT_ORDERED_CHILD_BINDING_manifest.json",
+      "manifest_sha256": "0966f43f9518566b1618c190fd30104b41b29d18445b67152303dd7b8c7f0297"
+    },
+    {
+      "baseline_id": "NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1",
+      "manifest_path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/NORMAL_IMPULSE_FIVE_SLOT_CANDIDATE_VIEW_manifest.json",
+      "manifest_sha256": "361a3dab69f1053a69ffd0bbfcbc2c7c2f2e37d7782fa51549cdf06a8e62f880"
+    },
+    {
+      "baseline_id": "SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1",
+      "manifest_path": "kernel_reviews/SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1/SUBJECT_BOUND_OBSERVED_PRICE_ENDPOINT_PAIR_manifest.json",
+      "manifest_sha256": "34b1cfa6c154bc83eddddb2ded7030b59ab91c35d0224075b49962ce80e876b1"
+    }
+  ],
+  "executable_methodology_at_checkpoint": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME"
+  ],
+  "validated_family_registry_at_checkpoint": {
+    "sealed": true,
+    "expected_result_types": [],
+    "producer_count": 0,
+    "behavior_id_count": 0,
+    "issuance_count": 0,
+    "certificate_issuance_possible": false
+  },
+  "implementation_state": {
+    "p005_implemented": false,
+    "p006_implemented": false,
+    "new_methodology_behavior_added": false,
+    "new_producer_added": false,
+    "new_certificate_added": false,
+    "new_protected_id_added": false
+  },
+  "git_checkpoint": {
+    "repository_root": "C:/ElliottCodex/Runtime_WORKSPACE",
+    "branch": "main",
+    "commits_exist": false,
+    "status_summary": [
+      "A  AGENTS.md",
+      "?? config/",
+      "?? kernel_reviews/",
+      "?? pyproject.toml",
+      "?? src/",
+      "?? tests/"
+    ],
+    "git_state_mutated_by_review": false
+  },
+  "assurances": {
+    "external_sources_used": false,
+    "model_memory_used_to_fill_methodology_gaps": false,
+    "network_used": false,
+    "packages_installed": false,
+    "git_mutation": false,
+    "brain_modified": false,
+    "sources_locked_modified": false,
+    "prior_baseline_artifacts_modified": false,
+    "existing_methodology_implementation_modified": false,
+    "p005_or_p006_code_created": false,
+    "temporary_video_frame_files_retained": false
+  },
+  "test_state": {
+    "implementation_tests_run": false,
+    "reason": "This artifact records source review only and introduces no executable implementation."
+  },
+  "protection_status": "Completed logical source-review record only; no physical sealing, ACL protection, cryptographic signing or methodology implementation baseline is claimed."
+}

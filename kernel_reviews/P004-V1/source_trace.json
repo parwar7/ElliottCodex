@@ -1,0 +1,22 @@
+{
+  "principle_id": "P004",
+  "behavior_id": "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+  "source_class": "SOURCE_RULE",
+  "execution_role": "HARD_VALIDATION",
+  "protected_references": [
+    {
+      "path": "docs/elliott/PATTERN_BRAIN.md",
+      "location": "Section A — Normal impulse — rule 1"
+    },
+    {
+      "path": "docs/elliott/SOURCE_EVIDENCE_MAP.json",
+      "location": "P004"
+    },
+    {
+      "path": "docs/elliott/MASTER_PROTOCOL.md",
+      "location": "Step 5"
+    }
+  ],
+  "external_sources": [],
+  "model_memory_reasoning": false
+}

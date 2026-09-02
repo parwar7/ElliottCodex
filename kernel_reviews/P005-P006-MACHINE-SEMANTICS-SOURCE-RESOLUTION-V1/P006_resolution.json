@@ -1,0 +1,148 @@
+{
+  "review_id": "P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1",
+  "principle_id": "P006",
+  "source_class": "SOURCE_RULE",
+  "protected_proposition": "Normal-impulse Wave 4 orthodox-end non-overlap with Wave 1; diagonals remain separate.",
+  "newly_relevant_findings": [
+    {
+      "finding_id": "P006_ORTHODOX_END_CONCEPT",
+      "classification": "SOURCE_DEFINITION",
+      "status": "RESOLVED",
+      "finding": "An orthodox end is the structural terminating point of the pattern and need not be the highest or lowest price contained within that pattern.",
+      "locators": [
+        "volume_04 transcript 00:23:25.780-00:24:12.640",
+        "volume_04 video corresponding interval"
+      ],
+      "boundary": "The definition distinguishes the end from an internal extreme but does not provide a pivot or OHLCV discovery algorithm."
+    },
+    {
+      "finding_id": "P006_BEARISH_DIRECTION",
+      "classification": "SOURCE_OBSERVATION",
+      "status": "RESOLVED",
+      "finding": "In descending examples, Wave 4 is an upward rally and the prohibited direction is upward into the established Wave 1 territory/boundary.",
+      "locators": [
+        "volume_02 transcript 00:16:40.240-00:18:02.500",
+        "volume_04 transcript 00:06:01.610-00:09:25.040",
+        "corresponding Volume 2 and Volume 4 videos"
+      ],
+      "boundary": "This resolves qualitative directional orientation, not equality or the Volume 2 futures qualification."
+    },
+    {
+      "finding_id": "P006_FUTURES_APPARENT_OVERLAP",
+      "classification": "SOURCE_OBSERVATION",
+      "status": "RESOLVED",
+      "finding": "A Volume 2 futures chart is retained as roughly a five-wave bull market despite slight visible Wave 4/Wave 1 overlap because the speaker doubts the real commodity overlapped and attributes price stretching to the leveraged futures contract.",
+      "locators": [
+        "volume_02 transcript 00:06:51.350-00:07:30.160",
+        "volume_02 video corresponding interval"
+      ],
+      "boundary": "The source does not define which price series a validator must treat as authoritative or how to transform one series into another."
+    },
+    {
+      "finding_id": "P006_FUTURES_FEW_PENNIES_QUALIFICATION",
+      "classification": "CONFLICT",
+      "status": "CONFLICT",
+      "finding": "Volume 2 calls Wave 4 entry into Wave 1 territory virtually prohibited but says a futures situation might differ by a few pennies. Volumes 5 and 10 state the orthodox-end rule without any tolerance or futures exception.",
+      "strict_rule_locators": [
+        "volume_05 transcript 00:00:46.560-00:01:13.280",
+        "volume_10 transcript 00:30:52.600-00:31:08.400"
+      ],
+      "qualified_locator": "volume_02 transcript 00:16:58.520-00:17:14.520",
+      "video_inspection": "Volume 2 video confirms a bearish Wave 4 boundary example but displays no exact penny allowance; Volume 5 and Volume 10 videos add no tolerance.",
+      "unresolved_scope": "The corpus does not say whether this is a hard-rule exception, data-representation caveat, whole-path guideline qualification, or informal practical allowance."
+    }
+  ],
+  "semantic_matrix": [
+    {
+      "semantic": "ORTHODOX_END_DEFINITION",
+      "status": "RESOLVED",
+      "source_classification": "SOURCE_DEFINITION",
+      "decision": "The orthodox end is the pattern's structural terminating point and is not necessarily its maximum or minimum price.",
+      "automatic_discovery_status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "automatic_discovery_blocker": "No source-authorized procedure identifies or certifies that terminating point from raw observations.",
+      "automatic_discovery_blocker_category": "SOURCE_SILENCE"
+    },
+    {
+      "semantic": "WAVE_1_HARD_RULE_OPERAND",
+      "status": "RESOLVED",
+      "source_classification": "SOURCE_RULE",
+      "decision": "The hard-rule boundary is the orthodox end of Wave 1, not Wave 1's origin or an automatically selected extreme.",
+      "support": "Volumes 5 and 10 formal rule statements."
+    },
+    {
+      "semantic": "WAVE_4_HARD_RULE_OPERAND",
+      "status": "RESOLVED",
+      "source_classification": "SOURCE_RULE",
+      "decision": "The hard-rule operand is the orthodox end of Wave 4. Whole-path excursions belong to separate guidance.",
+      "support": "Volumes 5 and 10 formal rule statements."
+    },
+    {
+      "semantic": "TEMPORARY_EXCURSION",
+      "status": "RESOLVED",
+      "source_classification": "SOURCE_RULE",
+      "decision": "Conditional on an authoritative orthodox end outside the boundary, a temporary excursion is not by itself the hard P006 result; entry by any part of Wave 4 is addressed by the strong guideline.",
+      "separate_guideline_classification": "SOURCE_GUIDELINE",
+      "automatic_identification_status": "UNRESOLVED_MACHINE_SEMANTICS"
+    },
+    {
+      "semantic": "TOUCH_EQUALITY",
+      "status": "UNRESOLVED",
+      "source_classification": "UNRESOLVED",
+      "remaining_question": "Does an orthodox Wave 4 end exactly equal to the orthodox Wave 1 end violate P006?",
+      "source_state": "No exact touch example exists; the Volume 8 freehand proximity example is not metrically exact.",
+      "blocker_category": "SOURCE_SILENCE"
+    },
+    {
+      "semantic": "UPWARD_PREDICATE",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "source_classification": "UNRESOLVED",
+      "resolved_subset": "Bullish examples establish that the Wave 4 orthodox end may not descend into Wave 1's orthodox-end boundary/territory.",
+      "remaining_question": "Is equality included in the prohibited set, and does any futures qualification apply?",
+      "blocker_categories": ["SOURCE_SILENCE", "SOURCE_CONFLICT"]
+    },
+    {
+      "semantic": "DOWNWARD_PREDICATE",
+      "status": "CONFLICT",
+      "source_classification": "CONFLICT",
+      "resolved_subset": "Bearish examples establish the inverse qualitative orientation: Wave 4 rallies upward toward Wave 1's boundary.",
+      "remaining_question": "Does the strict boundary admit the Volume 2 futures few-pennies qualification, and how is equality handled?",
+      "blocker_categories": ["SOURCE_CONFLICT", "SOURCE_SILENCE"]
+    },
+    {
+      "semantic": "VIOLATION_TIMING",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "source_classification": "UNRESOLVED",
+      "resolved_subset": "The hard proposition is endpoint-to-endpoint; whole-path entry is separately a guideline.",
+      "remaining_question": "What source-authorized evidence makes a Wave 4 orthodox end authoritative, and how does the futures qualification affect a terminal overlap?",
+      "blocker_categories": ["SOURCE_SILENCE", "SOURCE_CONFLICT"]
+    },
+    {
+      "semantic": "SATISFACTION_TIMING",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "source_classification": "UNRESOLVED",
+      "remaining_question": "When is the Wave 4 orthodox end established strongly enough for definitive satisfaction, including the equality boundary?",
+      "blocker_categories": ["SOURCE_SILENCE"]
+    },
+    {
+      "semantic": "FUTURES_TOLERANCE_OR_DATA_AUTHORITY",
+      "status": "CONFLICT",
+      "source_classification": "CONFLICT",
+      "remaining_question": "Is slight futures overlap permitted, only apparently present because the wrong series is displayed, or merely an informal caveat outside the hard rule?",
+      "blocker_category": "SOURCE_CONFLICT"
+    }
+  ],
+  "source_conflict": {
+    "present": true,
+    "material": true,
+    "not_silently_resolved": true,
+    "effect": "No deterministic P006 violation/satisfaction predicate may be implemented until the strict no-overlap rule and the Volume 2 futures qualification are adjudicated under protected source authority."
+  },
+  "readiness": {
+    "P006_FULL_READINESS": "NOT_READY",
+    "P006_NARROW_VALIDATOR_READINESS": "NOT_READY",
+    "full_reason": "The protected corpus supplies no automatic orthodox-end authority/discovery semantics, equality is silent, and a material futures qualification conflicts with the strict rule.",
+    "narrow_reason": "Even authoritative caller-supplied orthodox-end operands do not resolve equality or whether the futures qualification changes the hard predicate."
+  },
+  "implementation_authorized": false,
+  "executable_design_produced": false
+}

@@ -1,0 +1,126 @@
+{
+  "baseline_id": "VALIDATED-INTERNAL-FAMILY-CONTRACT-V1",
+  "prior_baseline_artifacts_modified": false,
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad",
+      "modified": false
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b",
+      "modified": false
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6",
+      "modified": false
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a",
+      "modified": false
+    },
+    {
+      "baseline_id": "P023-V1",
+      "manifest_path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "manifest_sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6",
+      "modified": false
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/STRUCTURAL_INVALIDITY_CONTRACT_manifest.json",
+      "manifest_sha256": "33d9b03cdecf321cc4526c2acc1d1b5cf7c01c96634201a3169bbd39cf52b8f1",
+      "modified": false
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE_manifest.json",
+      "manifest_sha256": "c5923a1baa23650760dc66c8d11988e764f8931cc9803eb762eac40ebfb52cc3",
+      "modified": false
+    },
+    {
+      "baseline_id": "P003-V1",
+      "manifest_path": "kernel_reviews/P003-V1/P003_manifest.json",
+      "manifest_sha256": "f92271d1a88bb6b26b797fd5bfa7b2ff757dc3dd74940a0a82e4d569ec61911e",
+      "modified": false
+    }
+  ],
+  "new_contract_files": [
+    {
+      "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+      "before": null,
+      "after": {
+        "byte_length": 29951,
+        "sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc"
+      }
+    },
+    {
+      "path": "tests/test_validated_internal_family_contract.py",
+      "before": null,
+      "after": {
+        "byte_length": 23295,
+        "sha256": "3016a3dbefeac54da7c8b57413bab18b1acb53861fcdc52d92cf4c4766da0a5b"
+      }
+    }
+  ],
+  "authorized_public_surface_deltas": [
+    {
+      "path": "src/elliott_methodology_kernel/contracts.py",
+      "before": {
+        "byte_length": 1562,
+        "sha256": "22a69fd33c1f7340289ab85a71166624ce3346c80843ac7f8c4e2c366bc332fe"
+      },
+      "after": {
+        "byte_length": 1996,
+        "sha256": "5ebf4a1eee479954d77fd01d438573fe7ca7c0ab4d14a92608d6c6202b4fb995"
+      },
+      "reason": "Add only the approved validated-internal-family public contract exports."
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "before": {
+        "byte_length": 3477,
+        "sha256": "eb1849c2f4011feee5d7fd783e40ef7946572d9fc9251db2ae90d9c23e38829d"
+      },
+      "after": {
+        "byte_length": 4070,
+        "sha256": "db11300347191417e2680ec035f6ac5b07337b9805c31b29619a238d6ca8cd09"
+      },
+      "reason": "Add approved public exports and seal the separate family-producer registry against the exact empty tuple."
+    }
+  ],
+  "minimal_existing_boundary_test_delta": {
+    "path": "tests/test_structural_invalidity_evidence_no_rescue.py",
+    "before": {
+      "byte_length": 17307,
+      "sha256": "862acf86f73a9713b7a9c4f248f43eec65128c415de249a1a70ebec5b7530098"
+    },
+    "after": {
+      "byte_length": 17307,
+      "sha256": "6d6a48d4b5b59adecd625f47b005934ef297222dae807ae3c29e1301c8a744ba"
+    },
+    "reason": "Update only the expected contracts.py byte length and SHA-256 after the authorized additive public-boundary change."
+  },
+  "unchanged_separate_structural_certification": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "tests/test_structural_invalidity_contract.py",
+      "byte_length": 32856,
+      "sha256": "f86a89ac37bcb961dde47a80d0ddcd4d8baf55f701726d123ccdca45826f93a3"
+    }
+  ],
+  "existing_methodology_semantics_changed": false,
+  "existing_executable_behavior_count_changed": false,
+  "structural_invalidity_contract_changed": false,
+  "p010_or_family_validator_added": false
+}

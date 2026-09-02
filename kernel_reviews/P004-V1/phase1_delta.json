@@ -1,0 +1,29 @@
+{
+  "base_baseline_id": "PHASE1-FOUNDATION-V1",
+  "base_manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+  "base_manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad",
+  "modified_phase1_files": [
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "phase1_byte_length": 442,
+      "phase1_sha256": "f8216720726fa22f01150663977bc3466aede2e0119a60206129e728574a2b56",
+      "current_byte_length": 736,
+      "current_sha256": "161fcf8b8cf782b3c194a2c2a9c30693a65b4ec818a0a6ce364101ee2bacf30a"
+    }
+  ],
+  "new_files": [
+    {
+      "path": "src/elliott_methodology_kernel/p004.py",
+      "byte_length": 3860,
+      "sha256": "cc010c1f902059ac2503484313e9839b708dac5e5d965de46f483f861f9a1a38"
+    },
+    {
+      "path": "tests/test_p004.py",
+      "byte_length": 10879,
+      "sha256": "70558d676c90afd39d3dd2db0394f72e1f1a355cf64b8a50056386e6c89ed83f"
+    }
+  ],
+  "unchanged_phase1_file_count": 24,
+  "all_other_phase1_files_identical": true,
+  "phase1_baseline_modified": false
+}

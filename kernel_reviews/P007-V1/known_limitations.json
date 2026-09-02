@@ -1,0 +1,22 @@
+{
+  "satisfaction_proves_only":"The proposed SINGLE_ZIGZAG binding contains exactly three direct ordered child positions.",
+  "does_not_prove":[
+    "that the candidate is a zigzag",
+    "A, B, or C labels",
+    "motive-five or corrective-three family membership",
+    "5-3-5 subdivisions",
+    "parent-child ownership beyond the supplied non-authoritative binding",
+    "chronology, degree, completion, geometry, endpoints, or price relationships",
+    "full structural or candidate validity"
+  ],
+  "does_not_perform":[
+    "candidate or pivot discovery",
+    "automatic binding construction",
+    "family certification",
+    "P005/P006 evaluation",
+    "evidence, ranking, orchestration, provider, TradingView, network, monitoring, alert, or execution work"
+  ],
+  "trust_boundary":"OrderedChildBinding preserves caller-established identity and order only. Exact-type acceptance does not elevate its assertions into independent methodology proof.",
+  "certification_boundary":"The certificate retains the exact genuine fatal result origin. Existing certified core fields are digest protected; the approved structural certificate still does not claim protection against hostile same-interpreter reflection or independently promote the caller-supplied binding to authoritative structure.",
+  "future_work":"Separate reviewed validators and genuine validated-family producers are required for P007 5-3-5 composition and complete zigzag validation."
+}

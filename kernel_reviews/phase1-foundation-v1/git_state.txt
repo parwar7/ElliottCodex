@@ -1,0 +1,38 @@
+repository_root=C:/ElliottCodex/Runtime_WORKSPACE
+branch=main
+commits_exist=false
+status_short:
+A  AGENTS.md
+?? config/runtime.example.json
+?? kernel_reviews/.gitkeep
+?? kernel_reviews/phase1-foundation-v1/BASELINE_README.md
+?? kernel_reviews/phase1-foundation-v1/brain_reference.json
+?? kernel_reviews/phase1-foundation-v1/environment.json
+?? kernel_reviews/phase1-foundation-v1/git_state.txt
+?? kernel_reviews/phase1-foundation-v1/known_limitations.json
+?? kernel_reviews/phase1-foundation-v1/phase1_manifest.json
+?? kernel_reviews/phase1-foundation-v1/test_results.json
+?? pyproject.toml
+?? src/elliott_methodology_kernel/__init__.py
+?? src/elliott_methodology_kernel/api.py
+?? src/elliott_methodology_kernel/audit.py
+?? src/elliott_methodology_kernel/brain.py
+?? src/elliott_methodology_kernel/contracts.py
+?? src/elliott_methodology_kernel/models.py
+?? src/elliott_methodology_kernel/schema.py
+?? src/elliott_methodology_kernel/traceability.py
+?? src/elliott_runtime/__init__.py
+?? src/elliott_runtime/market_data/__init__.py
+?? src/elliott_runtime/market_data/ingestion.py
+?? src/elliott_runtime/pipelines/__init__.py
+?? src/elliott_runtime/pipelines/analyze.py
+?? src/elliott_runtime/ports/__init__.py
+?? src/elliott_runtime/ports/methodology_kernel.py
+?? tests/support.py
+?? tests/test_audit.py
+?? tests/test_boundaries.py
+?? tests/test_brain.py
+?? tests/test_kernel.py
+?? tests/test_market_data.py
+?? tests/test_schema.py
+

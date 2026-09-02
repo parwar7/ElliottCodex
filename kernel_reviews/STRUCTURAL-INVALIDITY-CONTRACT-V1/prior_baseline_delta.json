@@ -1,0 +1,113 @@
+{
+  "prior_baselines_unchanged": true,
+  "baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 442,
+        "sha256": "f8216720726fa22f01150663977bc3466aede2e0119a60206129e728574a2b56"
+      }
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 736,
+        "sha256": "161fcf8b8cf782b3c194a2c2a9c30693a65b4ec818a0a6ce364101ee2bacf30a"
+      }
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 1099,
+        "sha256": "e263c0b47d5bdfb75f5848e24e7f0d60af633691687bde83fb18a0642444246f"
+      }
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 1492,
+        "sha256": "091471eb199e90d59dd7b7e0b14368aac138dbdc0d4416821b95e7fce606c8f2"
+      }
+    },
+    {
+      "baseline_id": "P023-V1",
+      "manifest_path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "manifest_sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 1889,
+        "sha256": "c0aaddc42e9d062f77e8b9411efd4506aedae21563391963317076fae8caede7"
+      }
+    }
+  ],
+  "older_baseline_artifacts_modified": false,
+  "prior_methodology_semantics_unchanged": true,
+  "shared_phase1_contract_delta": {
+    "path": "src/elliott_methodology_kernel/contracts.py",
+    "before": {
+      "byte_length": 1210,
+      "sha256": "f04aa2fadeb5302984f27747c854b693afbd208396123533be7b56ee503b1377"
+    },
+    "after": {
+      "byte_length": 1562,
+      "sha256": "22a69fd33c1f7340289ab85a71166624ce3346c80843ac7f8c4e2c366bc332fe"
+    },
+    "delta_reason": "Additive exports for the reviewed shared structural-invalidity certification contract."
+  },
+  "approved_producer_files_changed_for_certification_only": [
+    {
+      "path": "src/elliott_methodology_kernel/p004.py",
+      "before_sha256": "cc010c1f902059ac2503484313e9839b708dac5e5d965de46f483f861f9a1a38",
+      "after_sha256": "397a438f5710a5a138b112c473a512a0df930e33ed7f10279e74589501500d1c",
+      "analytical_semantics_changed": false
+    },
+    {
+      "path": "src/elliott_methodology_kernel/degree_peer_consistency.py",
+      "before_sha256": "8ac56a4ede58e4d67b4bdedbb4c634a7406e7b1670e8f53a56b7eb7dccd2c127",
+      "after_sha256": "faf0fb3761d23190f2a5719ae2c62a2cb6c2aa64a739fd8761e709e9be7b4b07",
+      "analytical_semantics_changed": false
+    },
+    {
+      "path": "src/elliott_methodology_kernel/parent_child_degree_adjacency.py",
+      "before_sha256": "eac38fc587072a951192bdcc64e7bf070595a39065761ec7fa9da7084f115bb4",
+      "after_sha256": "a4fca4714c850c3ee2d20dbb245c6929119789b7fa10097c661b8c09db497131",
+      "analytical_semantics_changed": false
+    }
+  ],
+  "new_contract_files": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "tests/test_structural_invalidity_contract.py",
+      "byte_length": 32856,
+      "sha256": "f86a89ac37bcb961dde47a80d0ddcd4d8baf55f701726d123ccdca45826f93a3"
+    }
+  ],
+  "updated_dependency_test": {
+    "path": "tests/test_parent_child_degree_adjacency.py",
+    "before_sha256": "54d99905099ce9681feaa95a9bde8a323bb0d8200fdd2cf88f4e9b07e340f0a6",
+    "after_sha256": "e90cc0b99495130fa883f0f90292b731b7d568d181820db7bee19b5b4ad7a630",
+    "reason": "Admit only the reviewed private certification dependency while retaining all forbidden dependency assertions."
+  },
+  "current_public_surface": {
+    "path": "src/elliott_methodology_kernel/__init__.py",
+    "byte_length": 2504,
+    "sha256": "3ec108e7938eecf23af84b8bbacb7df025c0acb78a11f098f7815098f4235ade",
+    "delta_reason": "Additive contract exports and reviewed producer-registry sealing after package bootstrap."
+  }
+}

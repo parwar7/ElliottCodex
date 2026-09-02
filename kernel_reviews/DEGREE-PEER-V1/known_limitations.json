@@ -1,0 +1,19 @@
+{
+  "baseline_id": "DEGREE-PEER-V1",
+  "limitations": [
+    "The caller must supply canonical degree labels.",
+    "The caller must supply genuinely direct and comparable children.",
+    "The behavior does not validate degree vocabulary.",
+    "The behavior does not assign degree.",
+    "The behavior does not infer degree.",
+    "The behavior does not inspect timeframe.",
+    "The behavior does not inspect duration.",
+    "The behavior does not inspect price magnitude.",
+    "The behavior does not check parent-child hierarchy stepping.",
+    "Parent degree is outside this behavior.",
+    "Zero or one child remains unresolved rather than vacuously satisfied.",
+    "The package boundary remains policy- and test-enforced rather than physically isolated.",
+    "This baseline is logical and not physically protected.",
+    "Only P004 and direct-child peer-degree consistency are executable methodology at this checkpoint."
+  ]
+}

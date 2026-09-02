@@ -1,0 +1,17 @@
+{
+  "baseline_id": "P004-V1",
+  "limitations": [
+    "P004 does not identify Wave 1 or Wave 2.",
+    "P004 does not determine whether a candidate is actually an impulse.",
+    "P004 does not discover the Wave 2 extreme.",
+    "P004 does not inspect OHLCV.",
+    "P004 does not infer direction.",
+    "P004 does not infer degree.",
+    "P004 does not implement P005 or P006.",
+    "There is no candidate-generation orchestration.",
+    "There is no evidence or ranking logic.",
+    "Binary float transport remains.",
+    "The package boundary remains test- and policy-enforced rather than physically isolated.",
+    "P004-V1 is logically baselined but not physically protected."
+  ]
+}

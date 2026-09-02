@@ -1,0 +1,141 @@
+{
+  "baseline_id": "P023-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "METHODOLOGY_LOGICAL_BASELINE",
+  "principle_id": "P023",
+  "behavior_id": "P023_INTERNAL_VISIBILITY_GUARD",
+  "source_class": "SOURCE_DEFINITION",
+  "execution_role": "HARD_VALIDATION",
+  "input_vocabulary": [
+    "VISIBLE",
+    "NOT_VISIBLE",
+    "UNKNOWN"
+  ],
+  "methodology_semantics": {
+    "VISIBLE": {
+      "status": "VISIBILITY_GUARD_PASSED",
+      "finer_data_required": false,
+      "fatal_to_candidate": false,
+      "does_not_mean": [
+        "INTERNALS_CONFIRMED"
+      ]
+    },
+    "NOT_VISIBLE": {
+      "status": "INTERNALS_UNRESOLVED",
+      "finer_data_required": true,
+      "fatal_to_candidate": false,
+      "does_not_mean": [
+        "INTERNALS_VIOLATED",
+        "candidate invalidation"
+      ]
+    },
+    "UNKNOWN": {
+      "status": "UNRESOLVED_MISSING_INPUT",
+      "finer_data_required": null,
+      "fatal_to_candidate": false
+    },
+    "MISSING_OR_NONE": {
+      "status": "UNRESOLVED_MISSING_INPUT",
+      "finer_data_required": null,
+      "fatal_to_candidate": false
+    },
+    "MALFORMED_OR_UNSUPPORTED": {
+      "status": "UNRESOLVED_MISSING_INPUT",
+      "finer_data_required": null,
+      "fatal_to_candidate": false
+    },
+    "hard_validation_meaning": "The Kernel is prohibited from treating unseen required internals as confirmed.",
+    "hard_validation_does_not_mean": "Insufficient resolution is a candidate-fatal structural violation."
+  },
+  "runtime_diagnostic_policy": {
+    "protected_elliott_methodology": false,
+    "policy_type": "RUNTIME_INPUT_AND_DIAGNOSTIC_POLICY",
+    "exact_case_visibility_vocabulary": true,
+    "diagnostic_distinctions": {
+      "MISSING_OR_NONE": "Missing caller input.",
+      "EXPLICIT_UNKNOWN": "The caller explicitly supplied UNKNOWN.",
+      "MALFORMED_OR_UNSUPPORTED": "The caller supplied a value outside the accepted exact string-compatible forms."
+    },
+    "unsupported_type_status": "UNRESOLVED_MISSING_INPUT",
+    "whitespace_trimming": false,
+    "case_normalization": false,
+    "exact_value_unrelated_strenum_accepted": true,
+    "unrelated_strenum_acceptance_reason": "Exact-value unrelated StrEnum values are str-compatible.",
+    "exact_value_str_subclass_accepted": true,
+    "str_subclass_acceptance_rule": "Genuine str subclasses are accepted according to their exact underlying string value.",
+    "custom_equality_spoofing_prevented": true,
+    "custom_equality_protection": "The implementation uses an explicit string-type gate and safe base-string comparison."
+  },
+  "capabilities_present": {
+    "visibility_discovery": false,
+    "pivot_discovery": false,
+    "hidden_wave_invention": false,
+    "pattern_family_validation": false,
+    "degree_inference": false,
+    "timeframe_to_degree_mapping": false,
+    "fixed_finer_timeframe_mapping": false,
+    "data_fetching": false,
+    "tradingview_or_provider_operation": false,
+    "candidate_ranking_or_lifecycle_action": false,
+    "orchestration_wiring": false
+  },
+  "executable_methodology_at_checkpoint": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD"
+  ],
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/p023_visibility_guard.py",
+      "byte_length": 4082,
+      "sha256": "d5053ee43ad72f668bd3536d83393d2eae46c74c31189d13dc02b6bc852f94a2"
+    },
+    {
+      "path": "tests/test_p023_visibility_guard.py",
+      "byte_length": 21752,
+      "sha256": "01d73b41b842ac4ed7683db548a4a069e8be13837e4a0b8b6fabdc5b93aa21a0"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 1889,
+      "sha256": "c0aaddc42e9d062f77e8b9411efd4506aedae21563391963317076fae8caede7"
+    }
+  ],
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6"
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a"
+    }
+  ],
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_path": "C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count": 30,
+    "manifest_mismatch_count": 0
+  },
+  "assurances": {
+    "network_used": false,
+    "packages_installed": false,
+    "git_mutation": false,
+    "brain_modified": false
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, ACL protection, cryptographic signing, or process isolation is claimed."
+}

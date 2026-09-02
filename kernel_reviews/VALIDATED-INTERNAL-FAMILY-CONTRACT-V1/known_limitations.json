@@ -1,0 +1,42 @@
+{
+  "baseline_id": "VALIDATED-INTERNAL-FAMILY-CONTRACT-V1",
+  "limitations": [
+    "The producer registry is intentionally empty, so the V1 baseline has no positive certification path and proves only fail-closed non-issuance plus dormant boundary integrity.",
+    "No motive-five, corrective-family, P010, or other methodology validator is implemented by this contract.",
+    "The generic dormant layer does not define or deep-inspect a future analyzed subject's domain fields; a reviewed producer must provide complete exact subject provenance extraction and verification.",
+    "The dormant source-provenance representation checks enum-shaped source classes, but each future producer must separately lock its exact protected principles, source classifications, protected sources, and verifier semantics.",
+    "Future subject-content integrity depends on the reviewed producer binding all authoritative subject fields and rejecting mutation or substitution; the infrastructure currently exercises no subject callback.",
+    "Nested family proofs are supported only as dormant exact live certificate references; no recursive family-composition semantics or producer currently exists.",
+    "The first producer requires positive success, mutation, subject substitution, callback/provenance, nested-proof, weak-reference cleanup, copy/serialization, manual-origin, and attestation-reuse adversarial tests before activation.",
+    "A future contract delta may be required if the first genuine producer cannot satisfy the current exact-type, weak-reference, provenance, or protected-principle assumptions; that approval boundary is not resolved by this baseline.",
+    "Certification has logical same-process API integrity; Python privacy is not hostile same-interpreter isolation.",
+    "Reflective access to private module state, object.__setattr__, import hooks, or arbitrary code execution in the Kernel interpreter is outside the claimed threat model.",
+    "Certificate authority is designed to remain bound to exact live in-memory objects; pickle is rejected and generic serialization cannot mint proof.",
+    "The contract does not provide durable cross-process certification or cryptographic authenticity.",
+    "The existing structural-invalidity certification system is separate and does not establish positive family validity.",
+    "P003 motive/corrective search themes are context only and do not establish positive family validity.",
+    "VALIDATED-INTERNAL-FAMILY-CONTRACT-V1 is a logical development baseline and is not physically protected."
+  ],
+  "security_boundary": {
+    "ordinary_certificate_mutation_prevented": true,
+    "public_family_or_subject_authority": false,
+    "exact_live_origin_identity_required_for_future_issuance": true,
+    "exact_subject_identity_required_for_future_issuance": true,
+    "certified_field_digest_designed": true,
+    "subject_provenance_digest_designed": true,
+    "producer_registry_empty": true,
+    "producer_registry_sealed": true,
+    "certificate_issuance_possible": false,
+    "hostile_same_process_security": false,
+    "cross_process_authority": false,
+    "physical_immutability": false
+  },
+  "executable_methodology": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME"
+  ]
+}

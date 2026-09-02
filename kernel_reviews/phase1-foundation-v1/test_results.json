@@ -1,0 +1,16 @@
+{
+  "test_command": "python -m unittest discover -s C:\\ElliottCodex\\Runtime_WORKSPACE\\tests -p test_*.py -v",
+  "python_executable": "C:\\Users\\Parwa\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "python_version": "3.12.10",
+  "tests_run": 19,
+  "passes": 19,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "suite_reported_elapsed_seconds": 0.113,
+  "measured_process_elapsed_seconds": 0.375712,
+  "final_result": "PASS",
+  "temporary_files_constrained_beneath": "C:\\ElliottCodex\\Runtime_WORKSPACE\\tests",
+  "temporary_residue_remaining": false
+}
+

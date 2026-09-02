@@ -1,0 +1,71 @@
+{
+  "baseline_id": "SUBJECT-ORDERED-CHILD-BINDING-V1",
+  "contract_names": [
+    "AnalyzedWaveSubject",
+    "OrderedChildBinding"
+  ],
+  "contract_classification": "KERNEL_INFRASTRUCTURE",
+  "protected_principle_id": null,
+  "source_class": null,
+  "execution_role": null,
+  "independent_methodology_behavior": false,
+  "protected_sources_observed": [
+    {
+      "relative_path": "docs/elliott/SOURCE_POLICY.md",
+      "locator": "Sections 1-5",
+      "observed_byte_length": 2354,
+      "observed_sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29",
+      "boundary": "Unsupported methodology claims remain unresolved; the input contract adds no protected rule or classification."
+    },
+    {
+      "relative_path": "docs/elliott/MASTER_PROTOCOL.md",
+      "locator": "Steps 3, 4 and 6",
+      "observed_byte_length": 4543,
+      "observed_sha256": "a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6",
+      "boundary": "The protocol represents parent, child and lower-child structure, requires subdivisions and degree consistency, and recurses into internals; an input binding itself proves none of those checks."
+    },
+    {
+      "relative_path": "docs/elliott/PATTERN_BRAIN.md",
+      "locator": "Section A, lines 5-13",
+      "observed_byte_length": 4415,
+      "observed_sha256": "d7cd7ef46829e84f71cf8e6b452246d63b8c8eac1c0eef28030d51c3f7d59209",
+      "boundary": "Protected normal-impulse rules refer to Wave 1-5 positions, but these references were not promoted into shared slot vocabulary or pattern validity."
+    },
+    {
+      "relative_path": "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "locator": "Sections 1, 3, 5 and 7",
+      "observed_byte_length": 3768,
+      "observed_sha256": "b8cb7bf124845420fc26f2e95cf863171dc3b195908c1bd79c57d6ab47daac9f",
+      "boundary": "Parent-child order, recursive child inspection and direct-child degree consistency are protected concepts; this contract records only untrusted identity and tuple order."
+    }
+  ],
+  "locked_runtime_identity_policy": {
+    "subject_identity": "Exact live AnalyzedWaveSubject object identity; subject_id is audit text only.",
+    "binding_identity": "Exact live OrderedChildBinding object identity; binding_id is audit text only.",
+    "parent_reference": "The exact supplied parent object is retained without proving parentage.",
+    "child_order": "Exact tuple order is retained as pure ordinal order with no public Wave 1-5 vocabulary.",
+    "zero_or_one_child": "Allowed without completeness or cardinality meaning.",
+    "duplicates": "Parent-as-child, repeated exact child identity, and duplicate subject IDs within one binding are rejected as Runtime identity-safety policy.",
+    "cross_binding_reuse": "Allowed because every binding is a separate non-authoritative caller assertion.",
+    "copy": "copy and deepcopy preserve the same immutable live identity.",
+    "serialization": "Pickle is rejected; JSON-compatible records and reconstructed objects are audit-only untrusted data."
+  },
+  "explicit_non_claims": [
+    "parentage",
+    "temporal continuity",
+    "containment",
+    "Wave 1-5 legitimacy",
+    "exactly-five cardinality",
+    "degree",
+    "timeframe",
+    "pivots or anchors",
+    "completion",
+    "pattern or family membership",
+    "structural validity or fatality",
+    "certification or producer authority"
+  ],
+  "synthetic_protected_id_created": false,
+  "protected_source_reclassification_performed": false,
+  "model_memory_used_for_elliott_methodology": false,
+  "external_elliott_source_used": false
+}

@@ -1,0 +1,65 @@
+{
+  "prior_baselines_unchanged": true,
+  "baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 442,
+        "sha256": "f8216720726fa22f01150663977bc3466aede2e0119a60206129e728574a2b56"
+      }
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 736,
+        "sha256": "161fcf8b8cf782b3c194a2c2a9c30693a65b4ec818a0a6ce364101ee2bacf30a"
+      }
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 1099,
+        "sha256": "e263c0b47d5bdfb75f5848e24e7f0d60af633691687bde83fb18a0642444246f"
+      }
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 1492,
+        "sha256": "091471eb199e90d59dd7b7e0b14368aac138dbdc0d4416821b95e7fce606c8f2"
+      }
+    }
+  ],
+  "prior_methodology_implementations_and_tests_unchanged": true,
+  "older_baseline_artifacts_modified": false,
+  "new_p023_files": [
+    {
+      "path": "src/elliott_methodology_kernel/p023_visibility_guard.py",
+      "byte_length": 4082,
+      "sha256": "d5053ee43ad72f668bd3536d83393d2eae46c74c31189d13dc02b6bc852f94a2"
+    },
+    {
+      "path": "tests/test_p023_visibility_guard.py",
+      "byte_length": 21752,
+      "sha256": "01d73b41b842ac4ed7683db548a4a069e8be13837e4a0b8b6fabdc5b93aa21a0"
+    }
+  ],
+  "current_public_surface": {
+    "path": "src/elliott_methodology_kernel/__init__.py",
+    "byte_length": 1889,
+    "sha256": "c0aaddc42e9d062f77e8b9411efd4506aedae21563391963317076fae8caede7",
+    "delta_reason": "The current public Kernel surface differs from earlier checkpoints only because approved public behavior exports were added."
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "baseline_id": "P003-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "METHODOLOGY_LOGICAL_BASELINE",
+  "behavior_id": "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
+  "principle_id": "P003",
+  "source_class": "SOURCE_DEFINITION",
+  "execution_role": "STRUCTURAL_CONTEXT",
+  "runtime_vocabulary_note": "Uppercase relation, theme, status, and execution-role tokens are approved behavior-local Runtime vocabulary; the protected analysis-output schema uses lowercase relation and theme values.",
+  "semantics": {
+    "input_authority": "The relation is already established by the caller; P003 does not determine it.",
+    "relation_vocabulary": [
+      "WITH",
+      "AGAINST",
+      "UNRESOLVED"
+    ],
+    "theme_vocabulary": [
+      "MOTIVE",
+      "CORRECTIVE",
+      "UNRESOLVED"
+    ],
+    "mapping": {
+      "WITH": "MOTIVE",
+      "AGAINST": "CORRECTIVE",
+      "UNRESOLVED": "UNRESOLVED"
+    },
+    "theme_meaning": "MOTIVE and CORRECTIVE are structural search themes only and are not validated patterns.",
+    "candidate_validity_claimed": false,
+    "fatal_to_candidate": false,
+    "structural_invalidity_producer": false,
+    "certifiable": false
+  },
+  "runtime_diagnostic_policy": {
+    "missing_or_malformed_status": "UNRESOLVED_MISSING_INPUT",
+    "explicit_unresolved_status": "SEARCH_THEME_UNRESOLVED",
+    "mapped_status": "SEARCH_THEME_MAPPED",
+    "normalization": false,
+    "invalid_input_theme": "UNRESOLVED",
+    "fatal_to_candidate": false,
+    "methodology_promotion": false
+  },
+  "public_api": {
+    "function": "map_p003_one_larger_degree_theme(candidate)",
+    "input": "P003OneLargerDegreeThemeInput",
+    "result": "P003OneLargerDegreeThemeResult",
+    "relation_enum": "P003OneLargerDegreeRelation",
+    "theme_enum": "P003SearchTheme",
+    "status_enum": "P003ThemeMappingStatus",
+    "execution_role_enum": "P003ExecutionRole",
+    "root_package_exports": true,
+    "shared_contract_export_added": false
+  },
+  "result_surface": [
+    "status",
+    "principle_id",
+    "source_class",
+    "execution_role",
+    "protected_sources",
+    "behavior_id",
+    "outcome",
+    "reason",
+    "fatal_to_candidate",
+    "theme"
+  ],
+  "protected_source_support": [
+    "docs/elliott/SOURCE_EVIDENCE_MAP.json#P003",
+    "docs/elliott/MASTER_PROTOCOL.md#step-2-determine-the-one-larger-degree-direction",
+    "docs/elliott/DEGREE_RECURSION_BRAIN.md#2-timeframe-is-not-degree",
+    "docs/elliott/DEGREE_RECURSION_BRAIN.md#4-all-degrees-operate-simultaneously",
+    "docs/elliott/SOURCE_POLICY.md#1-authoritative-source-set",
+    "docs/elliott/SOURCE_POLICY.md#3-evidence-classes",
+    "docs/elliott/OUTPUT_CONTRACT.md#structural-message",
+    "schemas/ANALYSIS_OUTPUT_SCHEMA.json#properties-structural_message",
+    "examples/EMPTY_ANALYSIS.json#structural_message"
+  ],
+  "capabilities_present": {
+    "relation_or_direction_inference": false,
+    "price_bar_or_pivot_inspection": false,
+    "degree_or_timeframe_mapping": false,
+    "pattern_identification_or_validation": false,
+    "candidate_generation_or_ranking": false,
+    "evidence_or_fibonacci_evaluation": false,
+    "structural_invalidity_certification": false,
+    "other_methodology_invocation": false,
+    "provider_or_tradingview_operation": false,
+    "monitoring_alerting_or_execution": false,
+    "network_or_process_execution": false
+  },
+  "executable_methodology_at_checkpoint": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME"
+  ],
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/p003_one_larger_degree_theme.py",
+      "byte_length": 5201,
+      "sha256": "a01aceb6e9ae0d77d607ca899ed66f4430be0a9602408c364d5fcbc98a55a207"
+    },
+    {
+      "path": "tests/test_p003_one_larger_degree_theme.py",
+      "byte_length": 16071,
+      "sha256": "81619c0b54aa98c43a2bc3f94891b8d6cc8bd511bee45cc7b3a9b234e8d814e0"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 3477,
+      "sha256": "eb1849c2f4011feee5d7fd783e40ef7946572d9fc9251db2ae90d9c23e38829d"
+    }
+  ],
+  "unchanged_shared_certification": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/contracts.py",
+      "byte_length": 1562,
+      "sha256": "22a69fd33c1f7340289ab85a71166624ce3346c80843ac7f8c4e2c366bc332fe"
+    }
+  ],
+  "unchanged_existing_behaviors": [
+    {
+      "path": "src/elliott_methodology_kernel/p004.py",
+      "sha256": "397a438f5710a5a138b112c473a512a0df930e33ed7f10279e74589501500d1c"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/degree_peer_consistency.py",
+      "sha256": "faf0fb3761d23190f2a5719ae2c62a2cb6c2aa64a739fd8761e709e9be7b4b07"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/parent_child_degree_adjacency.py",
+      "sha256": "a4fca4714c850c3ee2d20dbb245c6929119789b7fa10097c661b8c09db497131"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p023_visibility_guard.py",
+      "sha256": "d5053ee43ad72f668bd3536d83393d2eae46c74c31189d13dc02b6bc852f94a2"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/structural_invalidity_evidence_no_rescue.py",
+      "sha256": "350734b130fb23ab9eed0954f30e34890541c4c2e157947f9066497ff03cb8d3"
+    }
+  ],
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6"
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a"
+    },
+    {
+      "baseline_id": "P023-V1",
+      "manifest_path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "manifest_sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6"
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/STRUCTURAL_INVALIDITY_CONTRACT_manifest.json",
+      "manifest_sha256": "33d9b03cdecf321cc4526c2acc1d1b5cf7c01c96634201a3169bbd39cf52b8f1"
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE_manifest.json",
+      "manifest_sha256": "c5923a1baa23650760dc66c8d11988e764f8931cc9803eb762eac40ebfb52cc3"
+    }
+  ],
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count": 30,
+    "manifest_mismatch_count": 0
+  },
+  "assurances": {
+    "network_used": false,
+    "packages_installed": false,
+    "git_mutation": false,
+    "brain_modified": false,
+    "prior_baseline_artifacts_modified": false,
+    "shared_contract_modified": false,
+    "existing_methodology_semantics_modified": false,
+    "runtime_integration_added": false
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, ACL protection, cryptographic signing, or hostile-process isolation is claimed."
+}

@@ -1,0 +1,166 @@
+{
+  "baseline_id": "SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1",
+  "prior_baseline_artifacts_modified": false,
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad",
+      "modified": false
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b",
+      "modified": false
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6",
+      "modified": false
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a",
+      "modified": false
+    },
+    {
+      "baseline_id": "P023-V1",
+      "manifest_path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "manifest_sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6",
+      "modified": false
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/STRUCTURAL_INVALIDITY_CONTRACT_manifest.json",
+      "manifest_sha256": "33d9b03cdecf321cc4526c2acc1d1b5cf7c01c96634201a3169bbd39cf52b8f1",
+      "modified": false
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE_manifest.json",
+      "manifest_sha256": "c5923a1baa23650760dc66c8d11988e764f8931cc9803eb762eac40ebfb52cc3",
+      "modified": false
+    },
+    {
+      "baseline_id": "P003-V1",
+      "manifest_path": "kernel_reviews/P003-V1/P003_manifest.json",
+      "manifest_sha256": "f92271d1a88bb6b26b797fd5bfa7b2ff757dc3dd74940a0a82e4d569ec61911e",
+      "modified": false
+    },
+    {
+      "baseline_id": "VALIDATED-INTERNAL-FAMILY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/VALIDATED_INTERNAL_FAMILY_CONTRACT_manifest.json",
+      "manifest_sha256": "e602c60840b730dde6e84e22081965be26e312ece7d2bfd9eb8d380263c2ad0e",
+      "modified": false
+    },
+    {
+      "baseline_id": "SUBJECT-ORDERED-CHILD-BINDING-V1",
+      "manifest_path": "kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/SUBJECT_ORDERED_CHILD_BINDING_manifest.json",
+      "manifest_sha256": "0966f43f9518566b1618c190fd30104b41b29d18445b67152303dd7b8c7f0297",
+      "modified": false
+    },
+    {
+      "baseline_id": "NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1",
+      "manifest_path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/NORMAL_IMPULSE_FIVE_SLOT_CANDIDATE_VIEW_manifest.json",
+      "manifest_sha256": "361a3dab69f1053a69ffd0bbfcbc2c7c2f2e37d7782fa51549cdf06a8e62f880",
+      "modified": false
+    }
+  ],
+  "new_contract_files": [
+    {
+      "path": "src/elliott_methodology_kernel/observed_price_binding.py",
+      "before": null,
+      "after": {
+        "byte_length": 5857,
+        "sha256": "8f6cedddf10b4989552ed30eaad8375819359ccdf56b4bbcd5a226a1069f0ccb"
+      }
+    },
+    {
+      "path": "tests/test_observed_price_binding.py",
+      "before": null,
+      "after": {
+        "byte_length": 26200,
+        "sha256": "4ebd663448f7e39c61a0fe64a5bfd1c33c997843f689f3c748ea3f46ae7faf1f"
+      }
+    }
+  ],
+  "authorized_public_surface_deltas": [
+    {
+      "path": "src/elliott_methodology_kernel/contracts.py",
+      "before": {
+        "byte_length": 2337,
+        "sha256": "b057f31b8019baa90d1a1e1fd994afe2d17b9ce250e91cf487bd9058f9ea64de"
+      },
+      "after": {
+        "byte_length": 2551,
+        "sha256": "9e6537102992e725cc999542c90bba28f23b117612d6191e21d599b4f455c237"
+      },
+      "reason": "Add only the two approved non-authoritative observed-price transport contracts to the public contracts surface."
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "before": {
+        "byte_length": 4344,
+        "sha256": "eb161ec63d4bd170b5c1181af555c9b6e1505e20e4841195677419a10d1ef6eb"
+      },
+      "after": {
+        "byte_length": 4518,
+        "sha256": "0a129eea75ed2de0f0314ba143621cec8abc41f13151bafde31a1d8cd9224e08"
+      },
+      "reason": "Re-export only the two transport contracts; both registry bootstrap inventories remain unchanged."
+    }
+  ],
+  "minimal_existing_boundary_test_delta": {
+    "path": "tests/test_structural_invalidity_evidence_no_rescue.py",
+    "before": {
+      "byte_length": 17307,
+      "sha256": "825c4cea94b88d12dd41472eb0ec68e809b57b21f9c293966433deef17f162f1"
+    },
+    "after": {
+      "byte_length": 17307,
+      "sha256": "a31669efaabec74cb88f39c2cabc39a218b1367316919dcc32cba580d1a4e674"
+    },
+    "reason": "Update only the expected contracts.py byte length and SHA-256 after the authorized additive public-surface change."
+  },
+  "unchanged_foundation_contracts": [
+    {
+      "path": "src/elliott_methodology_kernel/subject_binding.py",
+      "byte_length": 3441,
+      "sha256": "063de9702dd3837dbc4d1de3efa5633481eb6834991f066d418d042fe119f4aa"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/normal_impulse_five_slot_view.py",
+      "byte_length": 3459,
+      "sha256": "8e401d2eb0f1b683ebfc9845f3a1f16f1a75bd125ef1825b0274ee68f63d31fa"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+      "byte_length": 29951,
+      "sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/models.py",
+      "byte_length": 5341,
+      "sha256": "3a724315d0c30dd54d404a3c0ae516945532366643039c8eb15d7e922d9ca56f"
+    },
+    {
+      "path": "src/elliott_runtime/market_data/ingestion.py",
+      "byte_length": 6530,
+      "sha256": "f4f2319df74744444f98f96cbac7247ef675648ee6b68e995bd062d5a536aed4"
+    }
+  ],
+  "existing_methodology_semantics_changed": false,
+  "existing_executable_behavior_count_changed": false,
+  "certification_algorithm_changed": false,
+  "subject_binding_changed": false,
+  "five_slot_view_changed": false,
+  "family_producer_added": false
+}

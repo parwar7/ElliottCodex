@@ -1,0 +1,66 @@
+{
+  "baseline_id": "P004-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "METHODOLOGY_LOGICAL_BASELINE",
+  "principle_id": "P004",
+  "behavior_id": "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+  "source_class": "SOURCE_RULE",
+  "execution_role": "HARD_VALIDATION",
+  "methodology_semantics": {
+    "scope": "Applies only to explicitly supplied NORMAL_IMPULSE scope.",
+    "direction": "Direction must be explicitly UP or DOWN.",
+    "wave1_origin": "Caller supplies the Wave 1 origin.",
+    "wave2_retracement_extreme": "Caller supplies the Wave 2 retracement extreme.",
+    "up_violation": "UP violates only if the Wave 2 extreme is less than the Wave 1 origin.",
+    "down_violation": "DOWN violates only if the Wave 2 extreme is greater than the Wave 1 origin.",
+    "equality": "Equality is not a violation.",
+    "comparison": "No tolerance, epsilon, or fuzzy comparison is applied.",
+    "violation_fatal_to_candidate": true,
+    "satisfaction_scope": "Satisfying P004 does not validate the entire candidate.",
+    "unresolved_scope": "Unresolved states are not candidate-validity judgments."
+  },
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/p004.py",
+      "byte_length": 3860,
+      "sha256": "cc010c1f902059ac2503484313e9839b708dac5e5d965de46f483f861f9a1a38"
+    },
+    {
+      "path": "tests/test_p004.py",
+      "byte_length": 10879,
+      "sha256": "70558d676c90afd39d3dd2db0394f72e1f1a355cf64b8a50056386e6c89ed83f"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 736,
+      "sha256": "161fcf8b8cf782b3c194a2c2a9c30693a65b4ec818a0a6ce364101ee2bacf30a"
+    }
+  ],
+  "phase1_baseline": {
+    "baseline_id": "PHASE1-FOUNDATION-V1",
+    "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+    "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+  },
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_path": "C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count": 30,
+    "manifest_mismatch_count": 0
+  },
+  "test_result": {
+    "total": 51,
+    "passes": 51,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "assurances": {
+    "additional_executable_elliott_behaviors": 0,
+    "network_accessed": false,
+    "packages_installed": false,
+    "git_mutated": false,
+    "protected_brain_modified": false
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, ACL protection, signing, or process isolation is claimed."
+}

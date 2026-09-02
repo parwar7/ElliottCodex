@@ -1,0 +1,43 @@
+{
+  "baseline_id": "SUBJECT-ORDERED-CHILD-BINDING-V1",
+  "limitations": [
+    "AnalyzedWaveSubject and OrderedChildBinding are caller-constructed untrusted inputs, not certificates, attestations, validators, or proof.",
+    "subject_id, binding_id, and observation_provenance_ref are opaque caller-controlled audit text; they are not credentials and their truth or global uniqueness is not verified.",
+    "Exact live Python object identity, not an ID string or value equality, is the identity available to a future reviewed validator.",
+    "A binding records one exact parent reference and tuple order but does not prove that the children actually belong to that parent.",
+    "The contract does not prove temporal continuity, containment, distinct market spans, anchors, pivots, degree, timeframe, completion, pattern, family, validity, or fatality.",
+    "Zero and one child are allowed and make no completeness or cardinality statement.",
+    "The same live parent or child may appear in separate untrusted bindings; there is no global ownership or parent-replay registry.",
+    "Within one binding, parent-as-child, repeated exact child identity, and duplicate parent/child subject IDs are rejected as Runtime identity-safety policy, not protected Elliott rules.",
+    "Copy and deepcopy return the same immutable object; dataclass replacement constructs a distinct untrusted identity.",
+    "Pickle is rejected, while JSON-compatible audit data and explicitly reconstructed objects carry no authority and are not accepted by either certifier.",
+    "Frozen dataclasses prevent ordinary mutation but do not claim protection against hostile same-process reflection or object.__setattr__.",
+    "There is no Wave 1–5 enum, exactly-five rule, normal-impulse subdivision tuple, family assignment, or methodology behavior in this baseline.",
+    "A future family producer must verify the exact binding, parent, ordered children, nested-proof subjects, provenance, cardinality, slot semantics, and required families; strings alone must never be trusted.",
+    "The existing structural-invalidity certificate contract is not subject-bound; this baseline does not retroactively bind existing structural violations to analyzed subjects.",
+    "No validated-family producer exists, the family registry remains empty, and no family certificate can currently be issued.",
+    "The contract has logical same-process identity utility only and provides no cross-process identity, cryptographic authenticity, ACL protection, or physical immutability.",
+    "SUBJECT-ORDERED-CHILD-BINDING-V1 is a writable development logical baseline and is not physically sealed."
+  ],
+  "security_boundary": {
+    "ordinary_mutation_prevented": true,
+    "exact_live_reference_order_retained": true,
+    "caller_ids_authenticated": false,
+    "provenance_authenticated": false,
+    "parentage_proven": false,
+    "family_or_validity_authority": false,
+    "certificate_issuance_authority": false,
+    "global_replay_prevention": false,
+    "hostile_same_process_security": false,
+    "cross_process_identity": false,
+    "physical_immutability": false
+  },
+  "executable_methodology": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME"
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "review_id": "P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1",
+  "artifact_type": "SOURCE_REVIEW_EVIDENCE",
+  "source_root": "C:\\ElliottCodex\\Sources_LOCKED",
+  "source_manifest": {
+    "path": "C:\\ElliottCodex\\Sources_LOCKED\\SOURCE_MANIFEST.json",
+    "byte_length": 5248,
+    "sha256": "61887c8ebabd990c669637df8ccf2975e7028c17e9b428d1a9181d1ef986cbdd",
+    "declared_file_count": 20,
+    "verified_file_count": 20,
+    "mismatch_count": 0,
+    "unmanifested_file_count": 0
+  },
+  "search_method": {
+    "transcript_first": true,
+    "all_transcripts_searched": true,
+    "contextual_review": "Keyword and phrase hits were grouped into complete nearby discussions and screened for semantic equivalents; keyword absence alone was not treated as proof of absence.",
+    "p005_terms_and_concepts": [
+      "shortest",
+      "shorter",
+      "longer",
+      "length",
+      "price movement",
+      "points",
+      "distance",
+      "measure",
+      "origin",
+      "end",
+      "peak",
+      "low",
+      "net travel",
+      "arithmetic",
+      "semi-log",
+      "percentage",
+      "percent",
+      "equal",
+      "equality",
+      "same length",
+      "tie",
+      "complete",
+      "developing",
+      "tolerance",
+      "ticks",
+      "rounding",
+      "approximation"
+    ],
+    "p006_terms_and_concepts": [
+      "orthodox end",
+      "terminating point",
+      "overlap",
+      "price territory",
+      "Wave 4",
+      "Wave 1",
+      "highest",
+      "lowest",
+      "extreme",
+      "spike",
+      "overshoot",
+      "touch",
+      "equal",
+      "higher than",
+      "lower than",
+      "end",
+      "complete",
+      "over",
+      "futures",
+      "pennies"
+    ],
+    "video_policy": "Every candidate that materially contributed to a resolution, blocker, or conflict was checked against its manifest-verified local video. Pure restatements and screened false positives did not require new frame review.",
+    "video_tooling": "Local Windows PresentationCore frame sampling; no network or installed package",
+    "temporary_frames_retained": false
+  },
+  "transcripts_searched": [
+    {
+      "volume": 1,
+      "relative_path": "volume_01\\Volume_01.srt",
+      "byte_length": 189666,
+      "sha256": "c005460d847e2170595435dadc379444acca667c9ad0006969295b18915656ff",
+      "searched": true
+    },
+    {
+      "volume": 2,
+      "relative_path": "volume_02\\volume_02.srt",
+      "byte_length": 49400,
+      "sha256": "d058141fa74cbe53baf8fcf1eb81dd419b4c54b40bc88b3c5bd9e4d928d1119d",
+      "searched": true
+    },
+    {
+      "volume": 3,
+      "relative_path": "volume_03\\volume_03.srt",
+      "byte_length": 45347,
+      "sha256": "6cfbec4d3ac9af0e8a70414a5a2b7eb6884678eb59f929b2bf3614708a2568ba",
+      "searched": true
+    },
+    {
+      "volume": 4,
+      "relative_path": "volume_04\\volume_04",
+      "byte_length": 40509,
+      "sha256": "52c825b8cb1eaa915660a6afb105425d6c2947f45ead0fb1f3742e3e2b67789d",
+      "searched": true
+    },
+    {
+      "volume": 5,
+      "relative_path": "volume_05\\volume_05.srt",
+      "byte_length": 41056,
+      "sha256": "2d8c8f5abec3d4ad42f36d58667ac7cd652d70e8e3743288dc918eebe2d3f50f",
+      "searched": true
+    },
+    {
+      "volume": 6,
+      "relative_path": "volume_06\\volume_06.srt",
+      "byte_length": 44947,
+      "sha256": "6444bb436b3781bfdfaa174da21ff35f7685d64981548c8f2478975526eb974b",
+      "searched": true
+    },
+    {
+      "volume": 7,
+      "relative_path": "volume_07\\volume_07.srt",
+      "byte_length": 38450,
+      "sha256": "5d80cafb6abb09abd86c012671cb8ba1abeaa160c7b9e506a19b03ec7b433571",
+      "searched": true
+    },
+    {
+      "volume": 8,
+      "relative_path": "volume_08\\volume_08.srt",
+      "byte_length": 49300,
+      "sha256": "038fdb559d13250f0eddce4c3be1e40c0c5b1a87c8ea39caddb2435964e0a2b8",
+      "searched": true
+    },
+    {
+      "volume": 9,
+      "relative_path": "volume_09\\volume_09.srt",
+      "byte_length": 115575,
+      "sha256": "7c969bfe9715b7951e2d7c27e066280d9dadfbec1f5e49d36bc6d2dd9431cc85",
+      "searched": true
+    },
+    {
+      "volume": 10,
+      "relative_path": "volume_10\\volume_10.txt",
+      "byte_length": 114279,
+      "sha256": "624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25",
+      "searched": true
+    }
+  ],
+  "candidate_segments": [
+    {
+      "candidate_id": "C01",
+      "principles": ["P005"],
+      "transcript": "volume_01\\Volume_01.srt",
+      "locator": "cues 814-825; 00:30:27.200-00:31:00.389",
+      "relevance": "Formal P005 price-movement statement.",
+      "contribution": "Preserves the locked rule; no new formula.",
+      "classification": "SOURCE_RULE",
+      "video": "volume_01\\Volume_01.mp4",
+      "video_sha256": "9c809e464236aa4a3da0fa617fc9fc629e0c3b3ed5d645ef4c4af06ecea9bc00",
+      "video_inspected": true,
+      "inspection_basis": "Approved prior review package"
+    },
+    {
+      "candidate_id": "C02",
+      "principles": ["P005", "P006"],
+      "transcript": "volume_01\\Volume_01.srt",
+      "locator": "cues 2374-2437; 01:30:47.440-01:33:21.920",
+      "relevance": "Developing-count violations for overlap and Wave 3 becoming shortest.",
+      "contribution": "Confirms early P005 violation in the strictly-longer case and applied P006 rejection; no satisfaction or equality semantics.",
+      "classification": "SOURCE_RULE",
+      "video": "volume_01\\Volume_01.mp4",
+      "video_sha256": "9c809e464236aa4a3da0fa617fc9fc629e0c3b3ed5d645ef4c4af06ecea9bc00",
+      "video_inspected": true,
+      "inspection_basis": "Approved prior review package"
+    },
+    {
+      "candidate_id": "C03",
+      "principles": ["P005", "P006"],
+      "transcript": "volume_02\\volume_02.srt",
+      "locator": "cues 16-50; 00:00:44.710-00:01:53.090",
+      "relevance": "Incorrect-count chart identifies a shortest Wave 3 and Wave 4/Wave 1 overlap as broken rules.",
+      "contribution": "Rule restatement only; no exact edge cases.",
+      "classification": "SOURCE_RULE",
+      "video": "volume_02\\volume_02.mp4",
+      "video_sha256": "5b8b766c4bffa5bce74a102489117090b3da11950ad494ef0645f8caa2fc1689",
+      "video_inspected": true,
+      "video_observation": "The chart supplies labels and relative geometry but no numeric equality or operand definition."
+    },
+    {
+      "candidate_id": "C04",
+      "principles": ["P006"],
+      "transcript": "volume_02\\volume_02.srt",
+      "locator": "cues 154-170; 00:06:51.350-00:07:30.160",
+      "relevance": "Five-wave futures chart has slight apparent Wave 4/Wave 1 overlap; speaker doubts the real commodity overlapped and attributes stretching to the leveraged contract.",
+      "contribution": "Creates a source/data-authority ambiguity relevant to the later strict rule.",
+      "classification": "SOURCE_OBSERVATION",
+      "conflict_relevance": "This observation supplies context for the separately recorded P006 source conflict.",
+      "video": "volume_02\\volume_02.mp4",
+      "video_sha256": "5b8b766c4bffa5bce74a102489117090b3da11950ad494ef0645f8caa2fc1689",
+      "video_inspected": true,
+      "video_observation": "The displayed cocoa futures chart is bullish and visibly labeled as the five-wave example under discussion."
+    },
+    {
+      "candidate_id": "C05",
+      "principles": ["P005"],
+      "transcript": "volume_02\\volume_02.srt",
+      "locator": "cues 182-196; 00:08:00.580-00:08:42.240",
+      "relevance": "Contrasts arithmetic chart scale with semi-log display of percentage advances.",
+      "contribution": "Confirms that chart bases differ but supplies no P005 percentage formula or disagreement rule.",
+      "classification": "SOURCE_GUIDELINE",
+      "video": "volume_02\\volume_02.mp4",
+      "video_sha256": "5b8b766c4bffa5bce74a102489117090b3da11950ad494ef0645f8caa2fc1689",
+      "video_inspected": true,
+      "video_observation": "The same long-term commodity chart remains displayed; no formula appears."
+    },
+    {
+      "candidate_id": "C06",
+      "principles": ["P006"],
+      "transcript": "volume_02\\volume_02.srt",
+      "locator": "cues 379-415; 00:16:40.240-00:18:02.500",
+      "relevance": "Bearish Wave 4 rally, upper Wave 1 boundary, ABC completion assessment, and a futures 'few pennies' qualification.",
+      "contribution": "Supports bearish directional orientation but conflicts or remains scope-ambiguous against the strict no-exception orthodox-end rule.",
+      "classification": "CONFLICT",
+      "video": "volume_02\\volume_02.mp4",
+      "video_sha256": "5b8b766c4bffa5bce74a102489117090b3da11950ad494ef0645f8caa2fc1689",
+      "video_inspected": true,
+      "video_observation": "The displayed cocoa chart is a descending impulse; the Wave 4 rally and labeled boundary are visible, but no exact equality or penny threshold is marked."
+    },
+    {
+      "candidate_id": "C07",
+      "principles": ["P005", "P006"],
+      "transcript": "volume_03\\volume_03.srt",
+      "locator": "cues 89-104; 00:04:04.770-00:04:45.310",
+      "relevance": "Fixed-rule restatement.",
+      "contribution": "No new machine semantics.",
+      "classification": "SOURCE_RULE",
+      "video": "volume_03\\volume_03.mp4",
+      "video_sha256": "456bc8adf3cd597912775a51356142f5413b9af89e9582ef38084939ef01083c",
+      "video_inspected": false,
+      "video_not_required_reason": "Transcript is a pure verbal restatement and contributes no new resolution."
+    },
+    {
+      "candidate_id": "C08",
+      "principles": ["P005", "P006"],
+      "transcript": "volume_03\\volume_03.srt",
+      "locator": "cues 621-645; 00:28:44.070-00:29:50.300",
+      "relevance": "Restates both rules and contrasts diagonal overlap.",
+      "contribution": "Preserves the normal-impulse/diagonal boundary; no unresolved edge is resolved.",
+      "classification": "SOURCE_RULE",
+      "video": "volume_03\\volume_03.mp4",
+      "video_sha256": "456bc8adf3cd597912775a51356142f5413b9af89e9582ef38084939ef01083c",
+      "video_inspected": false,
+      "video_not_required_reason": "Diagonal scope was already locked and this segment adds no target machine semantic."
+    },
+    {
+      "candidate_id": "C09",
+      "principles": ["P005", "P006"],
+      "transcript": "volume_04\\volume_04",
+      "locator": "cues 117-181; 00:06:01.610-00:09:25.040",
+      "relevance": "Descending five-wave alternative labels are rejected for Wave 4/Wave 1 overlap; a valid alternative also notes Wave 3 is not shortest.",
+      "contribution": "Supplies bearish visual orientation for both comparisons but no numeric downward operation or equality case.",
+      "classification": "SOURCE_OBSERVATION",
+      "video": "volume_04\\volume_04.mp4",
+      "video_sha256": "693176803827b7fd0b43ef70a8f89b6934b1f78b97195a3ba4aa62325de2cefb",
+      "video_inspected": true,
+      "video_observation": "Downward drawings and charts show Wave 4 rallying upward into the prior Wave 1 territory."
+    },
+    {
+      "candidate_id": "C10",
+      "principles": ["P005"],
+      "transcript": "volume_04\\volume_04",
+      "locator": "cues 228-236; 00:12:23.560-00:12:48.110",
+      "relevance": "A descending five-wave C-wave proposal is rejected because Wave 3 is shortest.",
+      "contribution": "Confirms P005 application to descending geometry but gives no exact downward numeric formula.",
+      "classification": "SOURCE_OBSERVATION",
+      "video": "volume_04\\volume_04.mp4",
+      "video_sha256": "693176803827b7fd0b43ef70a8f89b6934b1f78b97195a3ba4aa62325de2cefb",
+      "video_inspected": true,
+      "video_observation": "The labeled descending chart visually identifies the proposed five-wave sequence; no price arithmetic is displayed."
+    },
+    {
+      "candidate_id": "C11",
+      "principles": ["P006"],
+      "transcript": "volume_04\\volume_04",
+      "locator": "cues 461-478; 00:23:25.780-00:24:12.640",
+      "relevance": "Defines the orthodox end as the pattern's terminating point and distinguishes it from the pattern's highest or lowest price.",
+      "contribution": "Resolves the conceptual orthodox-end definition while leaving automatic identification unimplemented and source-unspecified.",
+      "classification": "SOURCE_DEFINITION",
+      "video": "volume_04\\volume_04.mp4",
+      "video_sha256": "693176803827b7fd0b43ef70a8f89b6934b1f78b97195a3ba4aa62325de2cefb",
+      "video_inspected": true,
+      "video_observation": "The DJIA chart labels the terminal C point separately from an earlier lower point, matching the verbal distinction."
+    },
+    {
+      "candidate_id": "C12",
+      "principles": ["P005", "P006"],
+      "transcript": "volume_05\\volume_05.srt",
+      "locator": "cues 1-75; 00:00:00.520-00:03:41.830",
+      "relevance": "Formal rules/guidelines section, exact P006 rule-versus-guideline distinction, and P005/P006 invalid-count examples.",
+      "contribution": "Confirms strict orthodox-end operands and whole-path guideline separation; confirms strict-shorter P005 violation but not ties.",
+      "proposition_classifications": [
+        {
+          "proposition": "P005 and P006 compulsory constraints",
+          "classification": "SOURCE_RULE"
+        },
+        {
+          "proposition": "whole-path Wave 4 territory avoidance",
+          "classification": "SOURCE_GUIDELINE"
+        }
+      ],
+      "video": "volume_05\\volume_05.mp4",
+      "video_sha256": "2ce6b5f5028898a63b94d278cee9a7a43c9bcbe45321f2cb5178958aac7b64c5",
+      "video_inspected": true,
+      "video_observation": "Displayed drawings show separate endpoint and broader-territory examples; no touch/equality mark is supplied."
+    },
+    {
+      "candidate_id": "C13",
+      "principles": ["P005"],
+      "transcript": "volume_05\\volume_05.srt",
+      "locator": "cues 76-114; 00:03:43.310-00:05:33.970",
+      "relevance": "Numeric upward P005 application within a diagonal example, with wave-turn prices, Wave 1 and Wave 3 point lengths, and a projected invalidation boundary.",
+      "contribution": "Resolves one upward diagonal arithmetic point-distance example and strict developing-Wave-5 violation; it does not provide a general normal-impulse formula or percentage, downward, disagreement, or equality semantics.",
+      "classification": "SOURCE_OBSERVATION",
+      "video": "volume_05\\volume_05.mp4",
+      "video_sha256": "2ce6b5f5028898a63b94d278cee9a7a43c9bcbe45321f2cb5178958aac7b64c5",
+      "video_inspected": true,
+      "video_observation": "The chart and handwritten annotations display the labeled turns, `i = 32.77`, `iii = 26.43`, and the projected upper boundary."
+    },
+    {
+      "candidate_id": "C14",
+      "principles": ["P005"],
+      "transcript": "volume_07\\volume_07.srt",
+      "locator": "cues 344-363; 00:18:33.180-00:19:31.920, and cues 395-417; 00:21:13.380-00:22:35.000",
+      "relevance": "Explicitly measures Wave 3 from its origin to its end and demonstrates wave-length distance with a ratio compass.",
+      "contribution": "Resolves conceptual caller-supplied origin/end operand roles; it is Fibonacci measurement instruction, not a P005 rule formula or endpoint-discovery algorithm.",
+      "classification": "SOURCE_DEFINITION",
+      "guideline_context": "The demonstrated ratio-compass use is guidance; the proposition extracted here is only the origin/end operand definition.",
+      "video": "volume_07\\volume_07.mp4",
+      "video_sha256": "095d88355b758bb299b2731ab23f648f91f8da23c916d0ee4cbd71720b1377f7",
+      "video_inspected": true,
+      "video_observation": "The compass is placed vertically between the already-labeled Wave 3 origin and end; the display does not identify those turns from raw bars."
+    },
+    {
+      "candidate_id": "C15",
+      "principles": ["P005", "P006"],
+      "transcript": "volume_08\\volume_08.srt",
+      "locator": "cues 206-224; 00:08:33.740-00:09:27.680",
+      "relevance": "Nested-wave example restates both constraints and says Wave 4 could have descended near the shown boundary.",
+      "contribution": "No exact touch/equality result; the hand drawing is not metrically exact.",
+      "proposition_classifications": [
+        {
+          "proposition": "restated P005/P006 constraints",
+          "classification": "SOURCE_RULE"
+        },
+        {
+          "proposition": "freehand boundary proximity",
+          "classification": "SOURCE_OBSERVATION"
+        }
+      ],
+      "video": "volume_08\\volume_08.mp4",
+      "video_sha256": "e32a8d384138923c2fe28da42188dcfc494b3e71aeddacb0cdd1d807e386179a",
+      "video_inspected": true,
+      "video_observation": "A freehand bullish nested-wave drawing and pointer show proximity, not an exact equality case."
+    },
+    {
+      "candidate_id": "C16",
+      "principles": ["P005"],
+      "transcript": "volume_10\\volume_10.txt",
+      "locator": "cues 744-767; 00:28:14.840-00:29:18.040",
+      "relevance": "Arithmetic-versus-percentage P005 Q&A and adjacent estimation discussion.",
+      "contribution": "Both bases apply conceptually; no formula or disagreement rule.",
+      "classification": "SOURCE_RULE",
+      "video": "volume_10\\volume_10.mp4",
+      "video_sha256": "443ef09e3a4cfa5d6a6cb2ec3a7b7906fb9fded54bca13962f2f8ea80b0a15bf",
+      "video_inspected": true,
+      "inspection_basis": "Approved prior review package"
+    },
+    {
+      "candidate_id": "C17",
+      "principles": ["P006"],
+      "transcript": "volume_10\\volume_10.txt",
+      "locator": "cues 796-836; 00:30:37.920-00:32:39.400",
+      "relevance": "Complete orthodox-end hard-rule versus broader-territory guideline discussion.",
+      "contribution": "Locks the strict operands and separation but supplies no touch rule, discovery procedure, or futures exception.",
+      "proposition_classifications": [
+        {
+          "proposition": "orthodox-end P006 constraint",
+          "classification": "SOURCE_RULE"
+        },
+        {
+          "proposition": "broader whole-path territory avoidance",
+          "classification": "SOURCE_GUIDELINE"
+        }
+      ],
+      "video": "volume_10\\volume_10.mp4",
+      "video_sha256": "443ef09e3a4cfa5d6a6cb2ec3a7b7906fb9fded54bca13962f2f8ea80b0a15bf",
+      "video_inspected": true,
+      "inspection_basis": "Approved prior review package"
+    }
+  ],
+  "screened_contexts_not_resolving_target": [
+    {
+      "locator": "volume_02 00:19:08-00:19:33; volume_03 00:20:44-00:21:32; volume_10 00:29:00-00:29:06",
+      "reason": "Wave 1/Wave 5 equality relationships are forecasting guidelines, not P005 Wave-3-shortest tie adjudication."
+    },
+    {
+      "locator": "volume_07 00:20:43-00:21:01",
+      "reason": "Calculator/tick precision concerns a Fibonacci estimate, not tolerance for the P005 rule."
+    },
+    {
+      "locator": "volume_02 00:26:26-00:26:34",
+      "reason": "One-tick placement concerns a trade stop, not a structural P005/P006 tolerance."
+    },
+    {
+      "locator": "volume_06 00:29:42-00:29:49",
+      "reason": "Touching the first wave of a drawn Fibonacci spiral is not Wave 4 touching the P006 Wave 1 boundary."
+    },
+    {
+      "locator": "volume_10 00:42:54-00:44:03",
+      "reason": "Correction-completion discussion gives probabilistic guidelines, not authoritative P006 Wave 4 completion proof."
+    },
+    {
+      "locator": "volume_09 price-movement, percentage, and tick matches",
+      "reason": "The contexts concern option/trading performance, breadth/tick indicators, or risk rather than P005/P006 semantics."
+    }
+  ],
+  "volumes_without_target_candidate_after_context_review": [6, 9],
+  "book_availability": {
+    "authorized_by_source_policy": true,
+    "brain_source_manifest_lists_book": true,
+    "brain_source_manifest_sha256": "d780a0e0cec822d3017ac52a2b71e2190fb6598a343b812a6a8803b7940bc9d7",
+    "raw_sources_bundled": false,
+    "approved_local_book_file_found": false,
+    "booklike_files_under_C_ElliottCodex": 0,
+    "p005_book_locator_in_source_evidence_map": false,
+    "p006_book_locator_in_source_evidence_map": false,
+    "approved_book_file_required_verdict_supported": false
+  }
+}

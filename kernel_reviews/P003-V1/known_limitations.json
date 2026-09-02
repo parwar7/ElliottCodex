@@ -1,0 +1,29 @@
+{
+  "baseline_id": "P003-V1",
+  "limitations": [
+    "P003 accepts only a caller-established relation and does not determine the one-larger-degree direction.",
+    "MOTIVE and CORRECTIVE are search themes only; no motive or corrective pattern is identified or validated.",
+    "P003 does not establish candidate-wide structural validity and is always nonfatal.",
+    "The uppercase relation, theme, status, and execution-role values are behavior-local Runtime vocabulary; the protected output schema uses lowercase relation and theme values.",
+    "No adapter maps this behavior-local result into the protected analysis-output schema or a renderer.",
+    "Malformed-input handling is a fail-closed Runtime diagnostic policy and is not protected methodology.",
+    "The raw Volume 1 transcript locator cited by protected P003 is not bundled; this baseline relies on the protected package's reviewed authoritative derived documents and records no conflict.",
+    "The result is deliberately not StructuralValidatorResult, is not registered as a structural producer, and cannot be certified.",
+    "No price, OHLCV, timeframe, degree inference, pivot, pattern, evidence, ranking, orchestration, provider, TradingView, monitoring, alert, network, process, or execution behavior is implemented.",
+    "Unchanged historical tests still describe their original four- and five-behavior checkpoints; the P003-focused test independently asserts the exact current six-behavior inventory.",
+    "Prior baseline manifests remain unchanged, while their historical __init__.py snapshots may differ solely because later approved public exports are additive.",
+    "This baseline is logical and writable during development; it is not physically immutable, cryptographically signed, ACL sealed, or hostile-process isolated."
+  ],
+  "security_and_methodology_boundary": {
+    "caller_supplied_relation_only": true,
+    "input_normalization": false,
+    "pattern_validity_claimed": false,
+    "candidate_validity_claimed": false,
+    "fatal_to_candidate": false,
+    "structural_producer": false,
+    "certifiable": false,
+    "other_methodology_dependency": false,
+    "runtime_integration_present": false,
+    "physical_immutability": false
+  }
+}

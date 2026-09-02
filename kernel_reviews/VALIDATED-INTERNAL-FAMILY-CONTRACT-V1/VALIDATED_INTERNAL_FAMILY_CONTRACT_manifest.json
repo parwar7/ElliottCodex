@@ -1,0 +1,178 @@
+{
+  "baseline_id": "VALIDATED-INTERNAL-FAMILY-CONTRACT-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "SHARED_CONTRACT_LOGICAL_BASELINE",
+  "contract_name": "CertifiedValidatedInternalFamily",
+  "protected_principle_id": null,
+  "source_class": null,
+  "execution_role": null,
+  "classification_note": "This is non-issuing Kernel contract infrastructure, not an Elliott principle or a seventh executable methodology behavior.",
+  "contract_semantics": {
+    "meaning": "A future certificate may attest only that this exact Kernel-issued validation result independently established this exact internal structural family for this exact analyzed subject.",
+    "public_types": [
+      "InternalFamilyKind",
+      "InternalFamilyValidatorResult",
+      "CertifiedValidatedInternalFamily",
+      "ValidatedInternalFamilyCertificationError"
+    ],
+    "public_factory": "certify_validated_internal_family(origin)",
+    "family_vocabulary": [
+      "MOTIVE_FIVE_WAVE_FAMILY",
+      "CORRECTIVE_THREE_WAVE_FAMILY"
+    ],
+    "eligible_producers": [],
+    "expected_producer_inventory": [],
+    "producer_registry": "Private, empty, and sealed against expected_result_types=().",
+    "issuance_at_checkpoint": "No certification success is possible; every origin fails closed with ValidatedInternalFamilyCertificationError.",
+    "caller_authority": "The caller supplies only origin; family and subject cannot be caller supplied.",
+    "future_family_authority": "Producer-fixed InternalFamilyKind from a separately reviewed private producer specification.",
+    "future_subject_authority": "Exact subject type and identity derived by separately reviewed private producer-specific extractor and verifier callbacks.",
+    "future_source_authority": "Principles, source classes, and protected sources extracted and verified by separately reviewed private producer-specific callbacks.",
+    "future_origin_identity": "Private issuance attestation with weak-reference exact identity and issuer/spec binding.",
+    "future_integrity": "Certified-field and subject-provenance SHA-256 digests, exact nested-proof identity, and revalidation on certificate access.",
+    "serialization": "Certificate pickle is rejected; raw copied or deserialized data cannot mint certification.",
+    "separation": "Nominally and operationally separate from CertifiedStructuralInvalidity and P003 search themes.",
+    "security_boundary": "Logical same-process API integrity only; hostile interpreter reflection and cryptographic security are outside this baseline."
+  },
+  "public_api": {
+    "canonical_module": "elliott_methodology_kernel.contracts",
+    "package_root_reexport": true,
+    "private_registration_exported": false,
+    "private_issuer_exported": false,
+    "private_seal_exported": false,
+    "private_registry_exported": false
+  },
+  "preserved_behavior_contracts": {
+    "existing_public_result_fields_and_constructor_signatures": true,
+    "existing_statuses_outcomes_reasons_and_classifications": true,
+    "existing_fatality_semantics": true,
+    "existing_result_equality_and_representation": true,
+    "existing_analytical_comparison_logic": true,
+    "structural_invalidity_certification_algorithm": true,
+    "runtime_import_boundaries": true,
+    "executable_methodology_count": 6
+  },
+  "capabilities_present": {
+    "family_certificate_issuance": false,
+    "motive_five_validation": false,
+    "corrective_family_validation": false,
+    "p010": false,
+    "structural_invalidity_discovery": false,
+    "evidence_evaluation": false,
+    "candidate_ranking": false,
+    "candidate_generation": false,
+    "pattern_interpretation": false,
+    "degree_inference": false,
+    "orchestration": false,
+    "provider_or_tradingview_operation": false,
+    "monitoring_or_alerting": false,
+    "network_or_process_execution": false
+  },
+  "executable_methodology_at_checkpoint": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME"
+  ],
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+      "byte_length": 29951,
+      "sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/contracts.py",
+      "byte_length": 1996,
+      "sha256": "5ebf4a1eee479954d77fd01d438573fe7ca7c0ab4d14a92608d6c6202b4fb995"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 4070,
+      "sha256": "db11300347191417e2680ec035f6ac5b07337b9805c31b29619a238d6ca8cd09"
+    },
+    {
+      "path": "tests/test_validated_internal_family_contract.py",
+      "byte_length": 23295,
+      "sha256": "3016a3dbefeac54da7c8b57413bab18b1acb53861fcdc52d92cf4c4766da0a5b"
+    },
+    {
+      "path": "tests/test_structural_invalidity_evidence_no_rescue.py",
+      "byte_length": 17307,
+      "sha256": "6d6a48d4b5b59adecd625f47b005934ef297222dae807ae3c29e1301c8a744ba"
+    }
+  ],
+  "unchanged_separate_structural_certification": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "tests/test_structural_invalidity_contract.py",
+      "byte_length": 32856,
+      "sha256": "f86a89ac37bcb961dde47a80d0ddcd4d8baf55f701726d123ccdca45826f93a3"
+    }
+  ],
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6"
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a"
+    },
+    {
+      "baseline_id": "P023-V1",
+      "manifest_path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "manifest_sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6"
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/STRUCTURAL_INVALIDITY_CONTRACT_manifest.json",
+      "manifest_sha256": "33d9b03cdecf321cc4526c2acc1d1b5cf7c01c96634201a3169bbd39cf52b8f1"
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE_manifest.json",
+      "manifest_sha256": "c5923a1baa23650760dc66c8d11988e764f8931cc9803eb762eac40ebfb52cc3"
+    },
+    {
+      "baseline_id": "P003-V1",
+      "manifest_path": "kernel_reviews/P003-V1/P003_manifest.json",
+      "manifest_sha256": "f92271d1a88bb6b26b797fd5bfa7b2ff757dc3dd74940a0a82e4d569ec61911e"
+    }
+  ],
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_path": "C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count": 30,
+    "manifest_mismatch_count": 0
+  },
+  "assurances": {
+    "network_used": false,
+    "packages_installed": false,
+    "git_mutation": false,
+    "brain_modified": false,
+    "prior_baseline_artifacts_modified": false,
+    "structural_invalidity_contract_modified": false,
+    "existing_methodology_semantics_modified": false,
+    "runtime_integration_added": false
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, ACL protection, cryptographic signing, hostile same-process isolation, or durable cross-process certification is claimed."
+}

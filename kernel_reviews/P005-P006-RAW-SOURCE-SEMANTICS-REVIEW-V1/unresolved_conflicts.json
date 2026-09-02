@@ -1,0 +1,50 @@
+{
+  "review_id": "P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1",
+  "conflicts": [],
+  "transcript_video_conflicts": [],
+  "volume_01_volume_10_conflicts": [],
+  "unresolved_machine_semantics": {
+    "P005": [
+      "exact observable endpoints for Wave 1, Wave 3 and Wave 5",
+      "arithmetic sign/magnitude formula and units",
+      "percentage formula and denominator",
+      "downward-direction measurement semantics",
+      "outcome when arithmetic and percentage orderings disagree",
+      "authoritative completion evidence and incomplete-Wave-5 satisfaction",
+      "tie/equality cases",
+      "numeric precision representation; no source-authorized tolerance exists"
+    ],
+    "P006": [
+      "operational definition and proof of orthodox end",
+      "mapping from market observations to both orthodox endpoints",
+      "touch/equality classification",
+      "exact upward comparator after equality is decided",
+      "explicit downward comparator",
+      "identifying and certifying an orthodox endpoint versus a temporary penetration-and-retreat observation",
+      "Wave 4 completion and early-warning versus fatal timing"
+    ]
+  },
+  "mapped_source_exhaustion": {
+    "P005": {
+      "reviewed_references": [
+        "Volume 1 rule section",
+        "Volume 10 Q&A around 28:14"
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_frost_prechter_chapter_or_page_referenced": false,
+      "unresolved_reason": "The mapped sources name the rule and two measurement bases but do not supply the remaining machine contract."
+    },
+    "P006": {
+      "reviewed_references": [
+        "Volume 1 rule section",
+        "Volume 10 overlap discussion"
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_frost_prechter_chapter_or_page_referenced": false,
+      "unresolved_reason": "The mapped sources clarify rule versus guideline but do not operationalize orthodox endpoints or boundary cases."
+    }
+  },
+  "methodology_must_remain_unresolved": true,
+  "generic_infrastructure_recommended": false,
+  "review_outcome": "P005_P006_RAW_SOURCE_REVIEW_UNRESOLVED"
+}

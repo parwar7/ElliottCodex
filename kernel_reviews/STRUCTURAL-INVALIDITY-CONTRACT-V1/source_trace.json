@@ -1,0 +1,48 @@
+{
+  "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+  "contract_name": "CertifiedStructuralInvalidity",
+  "contract_classification": "KERNEL_INFRASTRUCTURE",
+  "protected_principle_id": null,
+  "source_class": null,
+  "execution_role": null,
+  "independent_protected_sources": [],
+  "provenance_policy": {
+    "origin_behavior_id": "Preserved from and delegated to the exact originating result.",
+    "origin_principle_id": "Preserved as its exact originating value, including null.",
+    "origin_source_class": "Preserved from the originating result without reclassification.",
+    "origin_execution_role": "Preserved from the originating result without replacement.",
+    "origin_status_and_outcome": "Preserved from the originating result and checked for consistency.",
+    "origin_reason": "Preserved from the originating result without rewriting.",
+    "origin_protected_sources": "Preserved by reference to the originating immutable tuple.",
+    "origin_fatality": "Must already be true and remains derived from the originating result.",
+    "normalized_structural_validity": "Derived only after successful certification as StructuralValidity.INVALID."
+  },
+  "approved_origin_behaviors": [
+    {
+      "behavior_id": "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+      "principle_id": "P004",
+      "source_class": "SOURCE_RULE",
+      "execution_role": "HARD_VALIDATION"
+    },
+    {
+      "behavior_id": "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+      "principle_id": null,
+      "source_class": "SOURCE_DEFINITION",
+      "execution_role": "HARD_VALIDATION"
+    },
+    {
+      "behavior_id": "PARENT_CHILD_DEGREE_ADJACENCY",
+      "principle_id": null,
+      "source_class": "SOURCE_DEFINITION",
+      "execution_role": "HARD_VALIDATION"
+    }
+  ],
+  "explicitly_ineligible_behavior": {
+    "behavior_id": "P023_INTERNAL_VISIBILITY_GUARD",
+    "reason": "P023 results are nonfatal visibility or resolution diagnostics and do not establish structural invalidity."
+  },
+  "synthetic_protected_id_created": false,
+  "protected_source_reclassification_performed": false,
+  "model_memory_used_for_elliott_methodology": false,
+  "external_elliott_source_used": false
+}

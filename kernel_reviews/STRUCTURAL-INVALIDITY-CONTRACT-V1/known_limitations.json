@@ -1,0 +1,34 @@
+{
+  "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+  "limitations": [
+    "Certification has logical same-process API integrity; Python privacy is not hostile same-interpreter isolation.",
+    "Reflective access to private module state, object.__setattr__, import hooks, or arbitrary code execution in the Kernel interpreter cannot be made cryptographically impossible by this design.",
+    "The certified origin must remain the same live in-memory object; generic serialization does not preserve certification authority.",
+    "The issuer-minted origin_id is a correlation identity, not a protected principle ID, signature, or independent authority.",
+    "Copied, deep-copied, replaced, mapping-rehydrated, JSON-rehydrated, or pickled origin results are distinct unissued objects and cannot certify.",
+    "Certificate pickle is rejected; certificate copy and deepcopy return the same immutable certificate.",
+    "Public result dataclass constructors remain available for compatibility, but manually constructed results have no private issuance attestation.",
+    "Only the approved P004, degree-peer, and parent-child fatal violation branches currently issue certifiable origins.",
+    "P023 remains nonfatal and cannot issue a certified structural invalidity.",
+    "Future reviewed structural validators require reviewed private producer registration before package bootstrap sealing.",
+    "No evidence-no-rescue behavior has been implemented.",
+    "No evidence evaluation, ranking, candidate generation, pattern interpretation, degree inference, orchestration, provider, TradingView, alert, network, or execution logic has been added.",
+    "The contract does not provide durable cross-process certification; that would require a separately reviewed protected-process or signing design.",
+    "STRUCTURAL-INVALIDITY-CONTRACT-V1 is a logical development baseline and is not physically protected."
+  ],
+  "security_boundary": {
+    "ordinary_mutation_prevented": true,
+    "exact_live_origin_identity_required": true,
+    "certified_field_digest_revalidated": true,
+    "producer_registry_sealed": true,
+    "hostile_same_process_security": false,
+    "cross_process_authority": false,
+    "physical_immutability": false
+  },
+  "executable_methodology": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD"
+  ]
+}

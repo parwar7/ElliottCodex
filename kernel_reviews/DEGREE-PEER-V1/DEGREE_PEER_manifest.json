@@ -1,0 +1,69 @@
+{
+  "baseline_id": "DEGREE-PEER-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "METHODOLOGY_LOGICAL_BASELINE",
+  "behavior_id": "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+  "protected_source_principle_id": null,
+  "source_class": "SOURCE_DEFINITION",
+  "execution_role": "HARD_VALIDATION",
+  "classification_note": "SOURCE_DEFINITION and HARD_VALIDATION are separate concepts; this behavior is not classified as SOURCE_RULE.",
+  "methodology_semantics": {
+    "input_scope": "Input represents explicitly supplied direct children of one explicitly identified parent.",
+    "minimum_comparable_peers": "At least two resolved peer degrees are required for a satisfied or violated comparison.",
+    "homogeneous_resolved_peers": "All resolved peer labels identical produces RULE_SATISFIED.",
+    "mixed_resolved_peers": "Any resolved peer mismatch produces RULE_VIOLATED.",
+    "mismatch_fatal_to_candidate": true,
+    "unresolved_peer": "Any unresolved peer produces UNRESOLVED_MISSING_INPUT.",
+    "zero_children": "UNRESOLVED_INSUFFICIENT_PEERS",
+    "one_child": "UNRESOLVED_INSUFFICIENT_PEERS",
+    "unresolved_and_insufficient_nonfatal": true,
+    "parent_degree": "Parent degree is not required or inspected.",
+    "hierarchy_stepping": false,
+    "degree_assignment_or_inference": false,
+    "comparison": "Exact identity/equality only.",
+    "satisfaction_scope": "Satisfaction does not establish whole-candidate validity."
+  },
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/degree_peer_consistency.py",
+      "byte_length": 3905,
+      "sha256": "8ac56a4ede58e4d67b4bdedbb4c634a7406e7b1670e8f53a56b7eb7dccd2c127"
+    },
+    {
+      "path": "tests/test_degree_peer_consistency.py",
+      "byte_length": 8657,
+      "sha256": "b9e5ad981d6647222ff06bf6049590bc99950b33936eecc9166fb99ae5b27132"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 1099,
+      "sha256": "e263c0b47d5bdfb75f5848e24e7f0d60af633691687bde83fb18a0642444246f"
+    }
+  ],
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"
+    }
+  ],
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_path": "C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count": 30,
+    "manifest_mismatch_count": 0
+  },
+  "assurances": {
+    "network_used": false,
+    "packages_installed": false,
+    "git_mutation": false,
+    "brain_modified": false
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, ACL protection, signing, or process isolation is claimed."
+}

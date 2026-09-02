@@ -1,0 +1,28 @@
+{
+  "baseline_id": "STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1",
+  "limitations": [
+    "EVIDENCE_OVERRIDE_PROHIBITED is approved Runtime policy vocabulary, not protected Brain terminology.",
+    "No dedicated protected P### principle exists for the generic no-rescue policy; source_principle_id remains null.",
+    "The behavior requires one currently valid live CertifiedStructuralInvalidity and inherits the logical same-process trust boundary of the shared certification contract.",
+    "No evidence_state, evidence payload, evidence category, evidence score, evidence weight, or confidence input is accepted or evaluated.",
+    "No downstream evidence composition, candidate removal, ranking, promotion, downgrade, output-schema integration, or orchestration is implemented.",
+    "The policy result is deliberately non-certifiable and cannot become a structural-invalidity origin.",
+    "The protected output schema requires P### source-trace identifiers; this null-principle policy has not been integrated into that schema and no identifier was invented.",
+    "The unchanged historical shared-contract test named as an exact four-behavior check scans only assignment names ending _BEHAVIOR_ID; the new focused test independently verifies all five observable executable behavior IDs.",
+    "The STRUCTURAL-INVALIDITY-CONTRACT-V1 manifest remains unchanged, while its historical __init__.py snapshot is superseded only by the authorized additive no-rescue root exports.",
+    "This baseline is logical and writable during development; it is not physically immutable, cryptographically signed, ACL sealed, or hostile-process isolated."
+  ],
+  "security_and_methodology_boundary": {
+    "exact_certificate_type_required": true,
+    "live_certificate_revalidated": true,
+    "origin_identity_preserved": true,
+    "origin_provenance_authoritative": true,
+    "policy_provenance_separate": true,
+    "structural_validity_originated_by_policy": false,
+    "fatality_originated_by_policy": false,
+    "policy_result_certifiable": false,
+    "evidence_evaluation_present": false,
+    "downstream_integration_present": false,
+    "physical_immutability": false
+  }
+}

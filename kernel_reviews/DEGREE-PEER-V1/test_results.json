@@ -1,0 +1,33 @@
+{
+  "command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -m unittest discover -s 'C:\\ElliottCodex\\Runtime_WORKSPACE\\tests' -p 'test_*.py' -v",
+  "python_version": "3.12.10",
+  "tests_run": 68,
+  "passes": 68,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "unittest_elapsed_seconds": 0.153,
+  "observed_wall_elapsed_seconds": 0.536449,
+  "temporary_residue_count": 0,
+  "temporary_boundary": "All test temporary files remained beneath C:\\ElliottCodex\\Runtime_WORKSPACE\\tests.",
+  "degree_peer_coverage": [
+    "two homogeneous peers",
+    "multiple homogeneous peers",
+    "mixed peers",
+    "later mismatch",
+    "unresolved peer",
+    "multiple unresolved",
+    "all unresolved",
+    "zero peers",
+    "one peer",
+    "nonfatal unresolved behavior",
+    "fatal mismatch behavior",
+    "null source principle ID",
+    "SOURCE_DEFINITION provenance",
+    "HARD_VALIDATION execution role",
+    "no hierarchy stepping",
+    "no timeframe, duration, or price inputs",
+    "no automatic degree assignment",
+    "dependency boundaries"
+  ]
+}

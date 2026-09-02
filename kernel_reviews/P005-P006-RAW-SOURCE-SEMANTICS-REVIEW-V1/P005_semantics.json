@@ -1,0 +1,179 @@
+{
+  "review_id": "P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1",
+  "principle_id": "P005",
+  "existing_source_classification": "SOURCE_RULE",
+  "protected_proposition": "Wave 3 cannot be the shortest among Waves 1, 3 and 5.",
+  "implementation_readiness": "NOT_READY_FOR_IMPLEMENTATION",
+  "semantic_findings": [
+    {
+      "semantic_id": "P005_CORE_RULE",
+      "status": "RESOLVED",
+      "classification": "SOURCE_RULE",
+      "paraphrased_finding": "Wave 3 may or may not be longest, but it may not be shortest among Waves 1, 3 and 5.",
+      "support": [
+        "V01_TRANSCRIPT 00:30:27.200-00:31:00.389",
+        "V01_VIDEO 00:30:27-00:31:00"
+      ]
+    },
+    {
+      "semantic_id": "P005_NAMED_MEASUREMENT_BASES",
+      "status": "RESOLVED",
+      "classification": "SOURCE_RULE",
+      "paraphrased_finding": "The rule is described as comparing price movement, and the Volume 10 answer says both arithmetic and percentage terms apply conceptually; neither basis is presented as merely optional or illustrative.",
+      "support": [
+        "V01_TRANSCRIPT 00:30:53.200-00:31:00.389",
+        "V10_TRANSCRIPT 00:28:14.840-00:28:25.640",
+        "V10_VIDEO 00:28:14-00:28:26"
+      ]
+    },
+    {
+      "semantic_id": "P005_DEVELOPING_WAVE5_VIOLATION",
+      "status": "RESOLVED",
+      "classification": "SOURCE_RULE",
+      "paraphrased_finding": "A developing Wave 5 can definitively invalidate the proposed count as soon as it becomes longer than Wave 3 when Wave 1 is already longer than Wave 3.",
+      "support": [
+        "V01_TRANSCRIPT 01:32:11.840-01:32:35.040",
+        "V01_VIDEO 01:32:11-01:32:35"
+      ]
+    },
+    {
+      "semantic_id": "P005_EXACT_PRICE_ENDPOINTS",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "Connected schematic wave turns are shown, but the sources do not identify which observable price field defines each start/end or distinguish orthodox endpoint, extreme, intrabar extreme, close, or another observation.",
+      "exact_question": "Which source-authorized observed-price fields define the start and end of Waves 1, 3 and 5?",
+      "reviewed_source_states": [
+        "Volume 1 formal and applied discussions show schematic turns but do not bind them to an observable price field.",
+        "Volume 10 P005 discussion is silent on endpoint observation type."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P005_ARITHMETIC_FORMULA",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "Arithmetic treatment is named, but no exact magnitude/sign formula, units, normalization, or downward-direction operation is given.",
+      "exact_question": "What exact arithmetic operation, sign convention, units and downward-direction treatment calculate each wave's price movement?",
+      "reviewed_source_states": [
+        "Volume 1 calls the comparison price movement but supplies no machine formula.",
+        "Volume 10 names arithmetic treatment but supplies no formula or downward-direction operation."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P005_PERCENTAGE_FORMULA",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "Percentage treatment is named, but no denominator, signed/absolute convention, compounding/log choice, or downward-direction operation is defined.",
+      "exact_question": "What exact percentage formula, denominator, sign convention and downward-direction treatment calculate each wave's movement?",
+      "reviewed_source_states": [
+        "Volume 1 P005 discussion is silent on a percentage formula.",
+        "Volume 10 says percentage treatment applies but supplies no denominator or operation."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P005_DUAL_BASIS_DISAGREEMENT",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "The sources do not state the deterministic outcome when arithmetic and percentage orderings disagree.",
+      "exact_question": "What result is required when arithmetic and percentage comparisons produce different Wave 3 orderings?",
+      "reviewed_source_states": [
+        "Volume 1 does not compare arithmetic and percentage outcomes.",
+        "Volume 10 says both apply but is silent on disagreement resolution."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P005_COMPLETION_AND_SATISFACTION",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "The developing-Wave-5 example authorizes an early violation, but the sources do not define machine evidence that Waves 1 or 3 are complete, when Wave 5 is complete, or whether an incomplete Wave 5 can ever yield definitive satisfaction.",
+      "exact_question": "What evidence makes Waves 1, 3 and 5 complete enough for definitive evaluation, and may an incomplete Wave 5 ever establish satisfaction?",
+      "reviewed_source_states": [
+        "Volume 1 demonstrates a developing-Wave-5 violation but does not define completion evidence or incomplete-Wave-5 satisfaction.",
+        "Volume 10 P005 discussion is silent on completion authority and satisfaction timing."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false,
+      "required_for_implementation": true
+    },
+    {
+      "semantic_id": "P005_TIE_L3_EQUALS_L1",
+      "status": "UNRESOLVED",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "No explicit source example decides L3 = L1 < L5.",
+      "exact_question": "Does L3 = L1 < L5 violate P005?",
+      "reviewed_source_states": [
+        "Volume 1 and Volume 10 P005 discussions contain no explicit equality example or tie rule."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false
+    },
+    {
+      "semantic_id": "P005_TIE_L3_EQUALS_L5",
+      "status": "UNRESOLVED",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "No explicit source example decides L3 = L5 < L1.",
+      "exact_question": "Does L3 = L5 < L1 violate P005?",
+      "reviewed_source_states": [
+        "Volume 1 and Volume 10 P005 discussions contain no explicit equality example or tie rule."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false
+    },
+    {
+      "semantic_id": "P005_ALL_EQUAL",
+      "status": "UNRESOLVED",
+      "classification": "UNRESOLVED",
+      "paraphrased_finding": "No explicit source example decides L1 = L3 = L5.",
+      "exact_question": "Does L1 = L3 = L5 satisfy or violate P005?",
+      "reviewed_source_states": [
+        "Volume 1 and Volume 10 P005 discussions contain no explicit all-equal example or tie rule."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false
+    },
+    {
+      "semantic_id": "P005_TOLERANCE_AND_ROUNDING",
+      "status": "UNRESOLVED",
+      "classification": "UNRESOLVED",
+      "authorization_state": "NO_SOURCE_AUTHORIZED_TOLERANCE",
+      "paraphrased_finding": "Neither mapped discussion authorizes tolerance, approximate equality, rounding, tick adjustment, epsilon, or a minimum difference. Silence is not permission to invent one.",
+      "exact_question": "Is any tolerance, rounding, tick adjustment, epsilon or minimum difference authorized?",
+      "reviewed_source_states": [
+        "Volume 1 and Volume 10 P005 discussions are silent on every precision adjustment queried."
+      ],
+      "additional_approved_volume_explicitly_referenced": false,
+      "explicit_mapped_book_locator_available": false,
+      "current_approved_source_locator_for_resolution_available": false
+    }
+  ],
+  "non_rule_material": [
+    {
+      "classification": "SOURCE_GUIDELINE",
+      "paraphrased_finding": "Comments that Wave 3 is usually longest or commonly extended are tendencies and do not alter P005."
+    }
+  ],
+  "transcript_video_conflict": false,
+  "volume_01_volume_10_conflict": false,
+  "additional_mapped_volume_available": false,
+  "explicit_mapped_book_locator_available": false,
+  "readiness_reason": "Exact endpoint authority, numeric formulas, downward treatment, dual-basis disagreement, ties, and completion/satisfaction semantics remain source-unresolved."
+}

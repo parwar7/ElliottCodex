@@ -1,0 +1,56 @@
+{
+  "baseline_id": "VALIDATED-INTERNAL-FAMILY-CONTRACT-V1",
+  "contract_name": "CertifiedValidatedInternalFamily",
+  "contract_classification": "KERNEL_INFRASTRUCTURE",
+  "protected_principle_id": null,
+  "source_class": null,
+  "execution_role": null,
+  "independent_methodology_behavior": false,
+  "approved_initial_vocabulary": [
+    "MOTIVE_FIVE_WAVE_FAMILY",
+    "CORRECTIVE_THREE_WAVE_FAMILY"
+  ],
+  "vocabulary_boundary": {
+    "proof_claim": "A future certificate may mean only that one exact Kernel-issued validation result independently established one exact internal structural family for one exact analyzed subject.",
+    "producer_exists_at_checkpoint": false,
+    "caller_label_is_proof": false,
+    "p003_search_theme_is_proof": false,
+    "structural_invalidity_is_positive_family_proof": false,
+    "pattern_taxonomy_added": false
+  },
+  "protected_sources_observed_for_boundary_review": [
+    {
+      "relative_path": "docs/elliott/SOURCE_POLICY.md",
+      "observed_byte_length": 2354,
+      "observed_sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29",
+      "use": "Requires source-locked classifications and unresolved treatment; this infrastructure does not classify itself as methodology."
+    },
+    {
+      "relative_path": "docs/elliott/PATTERN_BRAIN.md",
+      "observed_byte_length": 4415,
+      "observed_sha256": "d7cd7ef46829e84f71cf8e6b452246d63b8c8eac1c0eef28030d51c3f7d59209",
+      "use": "Contains the protected pattern-family and subdivision material that any future producer must separately map and validate."
+    },
+    {
+      "relative_path": "docs/elliott/SOURCE_EVIDENCE_MAP.json",
+      "observed_byte_length": 8498,
+      "observed_sha256": "c0239392469c990650dd01a3024d64bdf93cba3f167fd37e826bd415496edb51",
+      "use": "Contains protected principle provenance that a future producer must preserve; no producer principle is assigned to this infrastructure."
+    }
+  ],
+  "future_producer_provenance_policy": {
+    "family_kind": "Fixed by the separately reviewed private producer specification, never by caller input or origin.family.",
+    "origin_behavior_id": "Derived from the reviewed private producer specification.",
+    "origin_principle_ids": "Extracted and verified by reviewed producer-local private callbacks; none are assigned by this foundation.",
+    "origin_source_classes": "Extracted and verified by reviewed producer-local private callbacks; none are assigned by this foundation.",
+    "origin_protected_sources": "Extracted and verified by reviewed producer-local private callbacks.",
+    "origin_execution_role": "Fixed by the reviewed private producer specification.",
+    "origin_status_outcome_reason": "Derived from and integrity-bound to the exact live issued producer result.",
+    "subject": "Derived and identity-bound by a reviewed private producer-specific extractor and verifier.",
+    "nested_proofs": "Exact live certificates only, revalidated and bound by identity when a reviewed producer uses them."
+  },
+  "synthetic_protected_id_created": false,
+  "protected_source_reclassification_performed": false,
+  "model_memory_used_for_elliott_methodology": false,
+  "external_elliott_source_used": false
+}

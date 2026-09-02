@@ -1,0 +1,82 @@
+{
+  "baseline_id": "SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1",
+  "contract_names": [
+    "SubjectBoundObservedPriceObservation",
+    "SubjectBoundObservedPriceEndpointPair"
+  ],
+  "contract_classification": "KERNEL_INFRASTRUCTURE",
+  "protected_principle_id": null,
+  "source_class": null,
+  "execution_role": null,
+  "independent_methodology_behavior": false,
+  "source_semantics_decision": "Representing one finite caller-supplied observed-price value with opaque provenance and retaining two exact caller-designated endpoint operands for one exact analyzed subject requires no Elliott methodology claim. Construction is non-authoritative Runtime infrastructure and does not resolve P005 or P006 meaning.",
+  "protected_sources_observed": [
+    {
+      "relative_path": "docs/elliott/SOURCE_POLICY.md",
+      "locator": "Sections 1-5",
+      "observed_byte_length": 2354,
+      "observed_sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29",
+      "boundary": "Unsupported methodology remains unresolved; this transport adds no principle ID, source classification, execution role, validation, or inference."
+    },
+    {
+      "relative_path": "docs/elliott/MASTER_PROTOCOL.md",
+      "locator": "Steps 1-6",
+      "observed_byte_length": 4543,
+      "observed_sha256": "a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6",
+      "boundary": "Data and candidate construction precede source-locked rules, subdivisions, degree and recursion; the transport performs none of those methodology operations."
+    },
+    {
+      "relative_path": "docs/elliott/PATTERN_BRAIN.md",
+      "locator": "Normal impulse rules P005 and P006",
+      "observed_byte_length": 4415,
+      "observed_sha256": "d7cd7ef46829e84f71cf8e6b452246d63b8c8eac1c0eef28030d51c3f7d59209",
+      "boundary": "The protected rules establish high-level constraints but do not authorize this neutral transport to choose measurement, endpoint, completion, overlap, touch, or direction-comparison semantics."
+    }
+  ],
+  "existing_runtime_contracts_observed": [
+    {
+      "relative_path": "src/elliott_methodology_kernel/p004.py",
+      "observed_byte_length": 4509,
+      "observed_sha256": "397a438f5710a5a138b112c473a512a0df930e33ed7f10279e74589501500d1c",
+      "boundary": "Reuses only the approved finite int/float, non-boolean, non-coercing numeric domain; no P004 behavior is invoked."
+    },
+    {
+      "relative_path": "src/elliott_methodology_kernel/models.py",
+      "observed_byte_length": 5341,
+      "observed_sha256": "3a724315d0c30dd54d404a3c0ae516945532366643039c8eb15d7e922d9ca56f",
+      "boundary": "Existing Phase 1 market observations and provenance remain separate and unchanged; no provider or bar-field authority is copied into this contract."
+    },
+    {
+      "relative_path": "src/elliott_runtime/market_data/ingestion.py",
+      "observed_byte_length": 6530,
+      "observed_sha256": "f4f2319df74744444f98f96cbac7247ef675648ee6b68e995bd062d5a536aed4",
+      "boundary": "Existing deterministic normalization/provenance handling remains separate and unchanged; this contract performs no ingestion or market-data transformation."
+    }
+  ],
+  "locked_runtime_contract_policy": {
+    "observation": "One exact AnalyzedWaveSubject, one approved finite transport price retained without coercion, and one exact non-blank opaque provenance reference.",
+    "pair": "Two exact observation objects whose subject references are the same live object, retained in exact proposed_start and proposed_end roles.",
+    "role_meaning": "Caller-designated Runtime operands only; no validated endpoint, chronology, direction, pivot, extreme, orthodox end, or completion.",
+    "arithmetic": "None; price values are transport only.",
+    "equal_or_identical_endpoints": "Allowed without methodology judgment.",
+    "immutability": "Frozen and slotted at ordinary API level; validate-before-assignment single-use constructors and ordinary subclass sealing prevent rebinding and reordering.",
+    "copy": "copy and deepcopy preserve the same immutable live identity.",
+    "replacement": "Dataclass replacement creates a distinct revalidated untrusted object.",
+    "serialization": "Default pickle is rejected; JSON-compatible records and explicit reconstruction are audit-only untrusted data."
+  },
+  "explicit_non_claims": [
+    "wave length, distance, delta, change, ratio, return or direction",
+    "validated wave origin, end, pivot, extreme, orthodox end or completion",
+    "chronological or directional correctness",
+    "P005 measurement or shortest-wave evaluation",
+    "P006 overlap evaluation",
+    "P010 or motive-family validation",
+    "structural or family validity, status or fatality",
+    "principle, source, execution-role or behavior metadata",
+    "certificate, producer, issuer or registry authority"
+  ],
+  "synthetic_protected_id_created": false,
+  "protected_source_reclassification_performed": false,
+  "model_memory_used_for_elliott_methodology": false,
+  "external_elliott_source_used": false
+}

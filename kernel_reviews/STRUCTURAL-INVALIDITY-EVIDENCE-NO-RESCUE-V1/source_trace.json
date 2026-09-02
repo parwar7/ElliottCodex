@@ -1,0 +1,57 @@
+{
+  "baseline_id": "STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1",
+  "behavior_id": "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+  "source_principle_id": null,
+  "source_class": "SOURCE_RULE",
+  "execution_role": "HARD_VALIDATION",
+  "runtime_policy_status": "EVIDENCE_OVERRIDE_PROHIBITED",
+  "runtime_vocabulary_note": "The policy status is Runtime-only contract vocabulary and is not represented as protected Brain terminology.",
+  "protected_principle_review": {
+    "dedicated_principle_found": false,
+    "result": null,
+    "rule": "No P### identifier was invented or borrowed from the originating violation."
+  },
+  "protected_sources": [
+    {
+      "relative_path": "AGENTS.md",
+      "locator": "Non-negotiable operating constraints, line 24",
+      "observed_byte_length": 2625,
+      "observed_sha256": "72e9e6f9efec167d8f5ee4e6e723bb57b4a7209abb3a7b417ec4b98d87049b6e",
+      "support": "A structurally invalid count must never be rescued with supporting indicators or evidence."
+    },
+    {
+      "relative_path": "docs/elliott/MASTER_PROTOCOL.md",
+      "locator": "Step 5 — Apply rules and definitions first, lines 51-57; core lines 53-55",
+      "observed_byte_length": 4543,
+      "observed_sha256": "a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6",
+      "support": "A source-rule violation kills the candidate, and evidence cannot save invalid structure."
+    },
+    {
+      "relative_path": "docs/elliott/EVIDENCE_BRAIN.md",
+      "locator": "Opening Pattern/Evidence responsibility boundary, lines 3-7",
+      "observed_byte_length": 4300,
+      "observed_sha256": "72c86b6d39374565d6df110c7c62283776a6eefeb37be4d7af4e32b21a367b1a",
+      "support": "Evidence evaluates valid counts and never overrides a hard structural violation."
+    },
+    {
+      "relative_path": "docs/elliott/SOURCE_POLICY.md",
+      "locator": "Section 3 Evidence classes, lines 41-50; SOURCE_RULE definition line 45",
+      "observed_byte_length": 2354,
+      "observed_sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29",
+      "support": "The compulsory no-rescue proposition is classified SOURCE_RULE."
+    }
+  ],
+  "provenance_layers": {
+    "origin": "The exact certificate and its exact originating validator result remain the authoritative cause and provenance of structural invalidity.",
+    "policy": "The no-rescue result carries only its own policy source references and records that evidence lacks reversal authority.",
+    "flattened_or_merged": false
+  },
+  "derived_values": {
+    "structural_validity": "Delegated from CertifiedStructuralInvalidity",
+    "fatal_to_candidate": "Delegated from CertifiedStructuralInvalidity",
+    "evidence_override_allowed": false
+  },
+  "unresolved_output_integration": "The protected analysis schema requires P### source-trace identifiers, while this policy has no dedicated P###. No schema or downstream composition integration was invented.",
+  "conflicts": []
+}
+

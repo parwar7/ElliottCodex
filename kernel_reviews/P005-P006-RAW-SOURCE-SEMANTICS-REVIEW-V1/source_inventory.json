@@ -1,0 +1,148 @@
+{
+  "review_id": "P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1",
+  "source_root": "C:\\ElliottCodex\\Sources_LOCKED",
+  "source_manifest": {
+    "absolute_path": "C:\\ElliottCodex\\Sources_LOCKED\\SOURCE_MANIFEST.json",
+    "byte_length": 5248,
+    "sha256": "61887c8ebabd990c669637df8ccf2975e7028c17e9b428d1a9181d1ef986cbdd",
+    "declared_file_count": 20,
+    "manifest_entry_count": 20,
+    "disk_raw_file_count": 20,
+    "missing_entry_count": 0,
+    "unmanifested_raw_file_count": 0,
+    "mismatch_count": 0
+  },
+  "protected_source_map": {
+    "absolute_path": "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\SOURCE_EVIDENCE_MAP.json",
+    "byte_length": 8498,
+    "sha256": "c0239392469c990650dd01a3024d64bdf93cba3f167fd37e826bd415496edb51",
+    "p005_references": [
+      "Volume 1 rule section",
+      "Volume 10 Q&A around 28:14"
+    ],
+    "p006_references": [
+      "Volume 1 rule section",
+      "Volume 10 overlap discussion"
+    ]
+  },
+  "used_raw_files": [
+    {
+      "source_id": "V01_TRANSCRIPT",
+      "absolute_path": "C:\\ElliottCodex\\Sources_LOCKED\\volume_01\\Volume_01.srt",
+      "relative_path": "volume_01\\Volume_01.srt",
+      "source_type": "transcript",
+      "source_type_basis": "SRT extension and manifest path; SOURCE_MANIFEST has no explicit type field per file",
+      "volume": 1,
+      "byte_length": 189666,
+      "sha256": "c005460d847e2170595435dadc379444acca667c9ad0006969295b18915656ff",
+      "manifest_entry_match": true,
+      "referenced_by_protected_map": true,
+      "locators": [
+        {
+          "principle": "P005",
+          "purpose": "formal rule",
+          "timestamp": "00:30:27.200-00:31:00.389",
+          "cues": "814-825",
+          "text_lines": "3255-3300"
+        },
+        {
+          "principle": "P005",
+          "purpose": "developing Wave 5 application",
+          "timestamp": "01:32:11.840-01:32:35.040; reiterated 01:33:13.520-01:33:21.920",
+          "cues": "2413-2421; 2434-2437",
+          "text_lines": "9651-9684; 9735-9748"
+        },
+        {
+          "principle": "P006",
+          "purpose": "formal rule and bullish illustration",
+          "timestamp": "00:31:00.399-00:31:41.909",
+          "cues": "826-840",
+          "text_lines": "3303-3360"
+        },
+        {
+          "principle": "P006",
+          "purpose": "applied invalid-count example",
+          "timestamp": "01:30:47.440-01:32:11.840; reiterated 01:33:16.880-01:33:18.960",
+          "cues": "2374-2412; 2436",
+          "text_lines": "9495-9648; 9743-9748"
+        }
+      ]
+    },
+    {
+      "source_id": "V01_VIDEO",
+      "absolute_path": "C:\\ElliottCodex\\Sources_LOCKED\\volume_01\\Volume_01.mp4",
+      "relative_path": "volume_01\\Volume_01.mp4",
+      "source_type": "video",
+      "source_type_basis": "MP4 extension and manifest path; SOURCE_MANIFEST has no explicit type field per file",
+      "volume": 1,
+      "byte_length": 275486763,
+      "sha256": "9c809e464236aa4a3da0fa617fc9fc629e0c3b3ed5d645ef4c4af06ecea9bc00",
+      "manifest_entry_match": true,
+      "referenced_by_protected_map": true,
+      "locators": [
+        "00:30:27-00:31:42 formal P005/P006 rules and five-wave slide",
+        "01:30:22-01:33:32 applied developing-pattern discussion and relabelled schematic"
+      ],
+      "material_visual_observation": "The formal segment displays a five-wave schematic whose annotations restate the Wave 3 and Wave 4 constraints. The applied segment shows the proposed five-wave drawing and its relabelling as a developing larger Wave 3. It supplies no market-observation endpoint type, equality case, formula, or completion proof."
+    },
+    {
+      "source_id": "V10_TRANSCRIPT",
+      "absolute_path": "C:\\ElliottCodex\\Sources_LOCKED\\volume_10\\volume_10.txt",
+      "relative_path": "volume_10\\volume_10.txt",
+      "source_type": "transcript",
+      "source_type_basis": "Timestamped TXT contents and manifest path; SOURCE_MANIFEST has no explicit type field per file",
+      "volume": 10,
+      "byte_length": 114279,
+      "sha256": "624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25",
+      "manifest_entry_match": true,
+      "referenced_by_protected_map": true,
+      "locators": [
+        {
+          "principle": "P005",
+          "purpose": "arithmetic/percentage clarification",
+          "timestamp": "00:28:14.840-00:28:25.640",
+          "cues": "744-747",
+          "text_lines": "2973-2987"
+        },
+        {
+          "principle": "P005",
+          "purpose": "adjacent first-wave length-estimation discussion",
+          "timestamp": "00:28:29.720-00:29:18.040",
+          "cues": "748-767",
+          "text_lines": "2989-3067"
+        },
+        {
+          "principle": "P006",
+          "purpose": "complete rule-versus-guideline overlap discussion",
+          "timestamp": "00:30:37.920-00:32:39.400",
+          "cues": "796-836",
+          "text_lines": "3182-3343"
+        }
+      ]
+    },
+    {
+      "source_id": "V10_VIDEO",
+      "absolute_path": "C:\\ElliottCodex\\Sources_LOCKED\\volume_10\\volume_10.mp4",
+      "relative_path": "volume_10\\volume_10.mp4",
+      "source_type": "video",
+      "source_type_basis": "MP4 extension and manifest path; SOURCE_MANIFEST has no explicit type field per file",
+      "volume": 10,
+      "byte_length": 104994994,
+      "sha256": "443ef09e3a4cfa5d6a6cb2ec3a7b7906fb9fded54bca13962f2f8ea80b0a15bf",
+      "manifest_entry_match": true,
+      "referenced_by_protected_map": true,
+      "locators": [
+        "00:28:14-00:29:18 P005 Q&A and adjacent length-estimation answer",
+        "00:30:37-00:32:39 complete P006 overlap clarification"
+      ],
+      "material_visual_observation": "P005 remains a podium Q&A without a measurement diagram. P006 moves from an existing chart to hand-drawn bullish wave paths, a horizontal Wave 1 boundary, and alternative labels. No frame defines orthodox end, touch/equality, a downward comparator, or completion authority."
+    }
+  ],
+  "video_review": {
+    "method": "Time-aligned transcript review plus local Windows PresentationCore frame sampling across every relevant video interval",
+    "external_tool_installed": false,
+    "network_used": false,
+    "temporary_frame_files_retained": false,
+    "video_inspection_sufficient": true
+  }
+}

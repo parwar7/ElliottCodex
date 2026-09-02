@@ -1,0 +1,24 @@
+{
+  "protected_source_principle_id": null,
+  "runtime_behavior_id": "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+  "source_class": "SOURCE_DEFINITION",
+  "execution_role": "HARD_VALIDATION",
+  "protected_references": [
+    {
+      "path": "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "locations": [
+        "Section 5 — Recursive validator",
+        "Section 7 — Degree consistency / direct children"
+      ]
+    },
+    {
+      "path": "docs/elliott/MASTER_PROTOCOL.md",
+      "locations": [
+        "Step 3",
+        "Step 4"
+      ]
+    }
+  ],
+  "source_evidence_map_check": "docs/elliott/SOURCE_EVIDENCE_MAP.json was checked and contains no dedicated P### identifier for this exact behavior.",
+  "synthetic_principle_id_created": false
+}

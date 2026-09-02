@@ -1,0 +1,17 @@
+{
+  "review_id": "POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT-V1",
+  "decision": "NEXT_SOURCE_COMPLETE_BEHAVIOR_SELECTED",
+  "selected_behavior_id": "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
+  "protected_principle_id": "P007",
+  "selection_rank": 1,
+  "selection_reason": "P007 explicitly defines the single zigzag as A-B-C and 5-3-5. Exact direct-child cardinality is a strict, separable subset that can consume the existing exact OrderedChildBinding without claiming family proof. It is deterministic, fatal only to the explicitly proposed single-zigzag candidate on resolved mismatch, reusable as the first boundary toward later family validation, and requires no new shared contract.",
+  "ranking_basis": ["source completeness","dependency readiness","structural importance","progress toward family validation","low shared-contract risk","low semantic reversal risk","reuse by later validators"],
+  "not_selected": [
+    {"behavior_id":"P008_FLAT_DIRECT_CHILD_CARDINALITY","reason":"Equally representable but ranked after the more foundational zigzag form."},
+    {"behavior_id":"P009_TRIANGLE_DIRECT_CHILD_CARDINALITY","reason":"Source-complete cardinality, but later leg-family, geometry, and position dependencies make it a less direct first step."},
+    {"behavior_id":"ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY","reason":"Source-complete narrow cardinality but has no dedicated protected principle ID and more deferred family qualifiers."}
+  ],
+  "freeze": {"P005":"DEFERRED_SOURCE_SEMANTICS","P006":"DEFERRED_SOURCE_SEMANTICS","P006_source_conflict":"UNRESOLVED","silent_redefinition_prohibited":true},
+  "implementation_authorized": false,
+  "next_approval_gate": "Approve implementation, adversarial tests, additive structural-producer registration, hardening, and logical baseline creation for P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY exactly as locked in recommended_behavior_design.json."
+}

@@ -1,0 +1,30 @@
+{
+  "runtime_behavior_id": "PARENT_CHILD_DEGREE_ADJACENCY",
+  "protected_source_principle_id": null,
+  "source_class": "SOURCE_DEFINITION",
+  "execution_role": "HARD_VALIDATION",
+  "protected_references": [
+    {
+      "path": "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "locations": [
+        "Section 1 — Degree sequence and parent-child order",
+        "Section 5 — Recursive one-degree-lower validator",
+        "Section 7 — Degree consistency"
+      ]
+    },
+    {
+      "path": "docs/elliott/MASTER_PROTOCOL.md",
+      "locations": [
+        "Step 3",
+        "Step 4",
+        "Step 6"
+      ]
+    }
+  ],
+  "source_evidence_map_check": "docs/elliott/SOURCE_EVIDENCE_MAP.json contains no dedicated P### identifier for this exact behavior.",
+  "synthetic_principle_id_created": false,
+  "runtime_diagnostic_precedence": {
+    "protected_source_classification": null,
+    "note": "Evaluation precedence among unresolved diagnostics is Runtime implementation policy, not protected Elliott methodology."
+  }
+}

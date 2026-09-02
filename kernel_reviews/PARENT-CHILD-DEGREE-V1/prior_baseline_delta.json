@@ -1,0 +1,50 @@
+{
+  "prior_baselines_unchanged": true,
+  "baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 442,
+        "sha256": "f8216720726fa22f01150663977bc3466aede2e0119a60206129e728574a2b56"
+      }
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 736,
+        "sha256": "161fcf8b8cf782b3c194a2c2a9c30693a65b4ec818a0a6ce364101ee2bacf30a"
+      }
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6",
+      "baseline_modified": false,
+      "public_surface_at_checkpoint": {
+        "byte_length": 1099,
+        "sha256": "e263c0b47d5bdfb75f5848e24e7f0d60af633691687bde83fb18a0642444246f"
+      }
+    }
+  ],
+  "new_parent_child_files": [
+    {
+      "path": "src/elliott_methodology_kernel/parent_child_degree_adjacency.py",
+      "byte_length": 4512,
+      "sha256": "eac38fc587072a951192bdcc64e7bf070595a39065761ec7fa9da7084f115bb4"
+    },
+    {
+      "path": "tests/test_parent_child_degree_adjacency.py",
+      "byte_length": 21565,
+      "sha256": "54d99905099ce9681feaa95a9bde8a323bb0d8200fdd2cf88f4e9b07e340f0a6"
+    }
+  ],
+  "current_public_surface": {
+    "path": "src/elliott_methodology_kernel/__init__.py",
+    "byte_length": 1492,
+    "sha256": "091471eb199e90d59dd7b7e0b14368aac138dbdc0d4416821b95e7fce606c8f2",
+    "delta_reason": "The public surface differs from earlier checkpoints only because approved public Kernel behaviors were added."
+  }
+}

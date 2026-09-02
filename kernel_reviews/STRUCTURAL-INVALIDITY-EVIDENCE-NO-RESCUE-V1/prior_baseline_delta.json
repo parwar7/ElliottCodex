@@ -1,0 +1,112 @@
+{
+  "baseline_id": "STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1",
+  "prior_baseline_artifacts_modified": false,
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "byte_length": 5219,
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad",
+      "modified": false
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "byte_length": 2650,
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b",
+      "modified": false
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "byte_length": 3073,
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6",
+      "modified": false
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "byte_length": 4173,
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a",
+      "modified": false
+    },
+    {
+      "baseline_id": "P023-V1",
+      "manifest_path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "byte_length": 5333,
+      "manifest_sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6",
+      "modified": false
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/STRUCTURAL_INVALIDITY_CONTRACT_manifest.json",
+      "byte_length": 7018,
+      "manifest_sha256": "33d9b03cdecf321cc4526c2acc1d1b5cf7c01c96634201a3169bbd39cf52b8f1",
+      "modified": false
+    }
+  ],
+  "new_behavior_files": [
+    {
+      "path": "src/elliott_methodology_kernel/structural_invalidity_evidence_no_rescue.py",
+      "before": null,
+      "after": {
+        "byte_length": 5690,
+        "sha256": "350734b130fb23ab9eed0954f30e34890541c4c2e157947f9066497ff03cb8d3"
+      }
+    },
+    {
+      "path": "tests/test_structural_invalidity_evidence_no_rescue.py",
+      "before": null,
+      "after": {
+        "byte_length": 17307,
+        "sha256": "862acf86f73a9713b7a9c4f248f43eec65128c415de249a1a70ebec5b7530098"
+      }
+    }
+  ],
+  "authorized_public_surface_delta": {
+    "path": "src/elliott_methodology_kernel/__init__.py",
+    "before": {
+      "byte_length": 2504,
+      "sha256": "3ec108e7938eecf23af84b8bbacb7df025c0acb78a11f098f7815098f4235ade"
+    },
+    "after": {
+      "byte_length": 2989,
+      "sha256": "a803b95149fdb0372e084787e3aee77b411c336f7a73c8677b26a4ca0d9c9033"
+    },
+    "reason": "Add only the approved behavior-local public exports after the structural producer registry is sealed."
+  },
+  "contract_baseline_snapshot_note": "STRUCTURAL-INVALIDITY-CONTRACT-V1 and its shared certification implementation remain unchanged. Its historical __init__.py snapshot differs only because this baseline authorizes the additive no-rescue root exports.",
+  "unchanged_shared_contract": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/contracts.py",
+      "byte_length": 1562,
+      "sha256": "22a69fd33c1f7340289ab85a71166624ce3346c80843ac7f8c4e2c366bc332fe"
+    }
+  ],
+  "unchanged_behavior_implementations": [
+    {
+      "path": "src/elliott_methodology_kernel/p004.py",
+      "sha256": "397a438f5710a5a138b112c473a512a0df930e33ed7f10279e74589501500d1c"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/degree_peer_consistency.py",
+      "sha256": "faf0fb3761d23190f2a5719ae2c62a2cb6c2aa64a739fd8761e709e9be7b4b07"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/parent_child_degree_adjacency.py",
+      "sha256": "a4fca4714c850c3ee2d20dbb245c6929119789b7fa10097c661b8c09db497131"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p023_visibility_guard.py",
+      "sha256": "d5053ee43ad72f668bd3536d83393d2eae46c74c31189d13dc02b6bc852f94a2"
+    }
+  ],
+  "existing_methodology_semantics_changed": false,
+  "shared_contract_semantics_changed": false
+}
+

@@ -1,0 +1,31 @@
+{
+  "baseline_id": "PARENT-CHILD-DEGREE-V1",
+  "limitations": [
+    "The caller supplies explicit parent and child degrees.",
+    "The caller supplies explicit degree resolution statuses.",
+    "The behavior does not discover parent-child relationships.",
+    "The behavior does not traverse a degree tree.",
+    "The behavior does not compare siblings.",
+    "The behavior does not call DEGREE_DIRECT_CHILD_PEER_CONSISTENCY.",
+    "The behavior does not assign degree.",
+    "The behavior does not infer degree from timeframe.",
+    "The behavior does not infer degree from duration.",
+    "The behavior does not infer degree from price magnitude.",
+    "The behavior does not infer degree from bar count.",
+    "No label normalization exists.",
+    "No aliases or abbreviations are accepted.",
+    "Subminuette has no protected subordinate degree.",
+    "Structures below Subminuette remain outside the protected hierarchy.",
+    "Runtime diagnostic precedence is implementation policy, not Elliott methodology.",
+    "Raw RESOLVED is accepted because of StrEnum equality.",
+    "Exact-value string subclasses can satisfy string and equality checks.",
+    "Unknown status values currently collapse to unresolved missing input.",
+    "Package and private-module boundaries remain policy- and test-enforced rather than physically isolated.",
+    "This baseline is logical rather than physically protected."
+  ],
+  "executable_methodology": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY"
+  ]
+}

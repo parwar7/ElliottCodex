@@ -1,0 +1,152 @@
+{
+  "review_id": "P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1",
+  "principle_id": "P005",
+  "source_class": "SOURCE_RULE",
+  "protected_proposition_unchanged": "Wave 3 cannot be the shortest of Waves 1, 3 and 5.",
+  "newly_relevant_findings": [
+    {
+      "finding_id": "P005_ORIGIN_END_OPERAND_ROLES",
+      "classification": "SOURCE_DEFINITION",
+      "status": "RESOLVED",
+      "finding": "In Volume 7's Fibonacci-retracement measurement demonstration, an already-identified Wave 3 is measured from its labeled origin to its labeled end.",
+      "locators": [
+        "volume_07 transcript 00:18:33.180-00:19:31.920",
+        "volume_07 video corresponding interval"
+      ],
+      "boundary": "This resolves conceptual origin/end roles for that caller-supplied, already-labeled measurement only. It does not select an observed-price field, establish a universal P005 formula, or discover or certify endpoints from OHLCV."
+    },
+    {
+      "finding_id": "P005_UPWARD_POINT_DISTANCE_APPLICATION",
+      "classification": "SOURCE_OBSERVATION",
+      "status": "RESOLVED",
+      "finding": "In an upward diagonal example, the source measures Wave 1 and Wave 3 in price points between labeled turns, then adds Wave 3's point length to the Wave 4 low to obtain the price that the developing Wave 5 may not exceed without invalidating the count.",
+      "locators": [
+        "volume_05 transcript 00:03:43.310-00:04:56.770",
+        "volume_05 video corresponding interval"
+      ],
+      "boundary": "This is one explicit upward diagonal arithmetic application. It does not authorize a general normal-impulse or absolute-value formula, downward operation, percentage operation, or dual-basis decision."
+    },
+    {
+      "finding_id": "P005_DESCENDING_SCOPE_APPLICATION",
+      "classification": "SOURCE_OBSERVATION",
+      "status": "RESOLVED",
+      "finding": "Volume 4 rejects a descending proposed five-wave C structure because its Wave 3 is visually shortest.",
+      "locators": [
+        "volume_04 transcript 00:12:23.560-00:12:48.110",
+        "volume_04 video corresponding interval"
+      ],
+      "boundary": "This establishes qualitative application to downward geometry, not a numeric downward formula."
+    },
+    {
+      "finding_id": "P005_STRICT_DEVELOPING_VIOLATION",
+      "classification": "SOURCE_RULE",
+      "status": "RESOLVED",
+      "finding": "When Wave 1 is already strictly longer than Wave 3, a still-developing Wave 5 yields a definitive violation after it becomes strictly longer than Wave 3.",
+      "locators": [
+        "volume_01 transcript 01:32:11.840-01:32:35.040",
+        "volume_05 transcript 00:04:28.090-00:04:56.770"
+      ],
+      "boundary": "No conclusion is extended to equality or to definitive satisfaction before completion."
+    }
+  ],
+  "semantic_matrix": [
+    {
+      "semantic": "PRICE_LENGTH_OPERAND_ROLES",
+      "status": "RESOLVED",
+      "source_classification": "SOURCE_DEFINITION",
+      "decision": "For the demonstrated caller-supplied, already-labeled Wave 3 measurement, the conceptual roles are origin and end.",
+      "boundary": "This does not establish the observed-price field or automatic endpoint authority for Waves 1, 3 and 5."
+    },
+    {
+      "semantic": "OBSERVED_PRICE_ENDPOINT_AUTHORITY",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "source_classification": "UNRESOLVED",
+      "remaining_question": "Which source-authorized observed-price fields and authority establish the origin and end operands for Waves 1, 3 and 5?",
+      "blocker_category": "SOURCE_SILENCE"
+    },
+    {
+      "semantic": "ARITHMETIC_FORMULA",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "source_classification": "UNRESOLVED",
+      "resolved_subset": "An upward diagonal point-distance example uses labeled start/end turns and ordinary point displacement.",
+      "remaining_question": "What single source-authorized arithmetic operation applies across both directions, signs, units and scales?",
+      "blocker_category": "SOURCE_SILENCE"
+    },
+    {
+      "semantic": "PERCENTAGE_FORMULA",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "source_classification": "UNRESOLVED",
+      "remaining_question": "What denominator and simple, logarithmic, signed or magnitude operation defines percentage wave length?",
+      "source_state": "Volumes 2 and 10 distinguish arithmetic/semi-log or percentage treatment but give no P005 calculation.",
+      "blocker_category": "SOURCE_SILENCE"
+    },
+    {
+      "semantic": "DOWNWARD_WAVE_TREATMENT",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "source_classification": "UNRESOLVED",
+      "resolved_subset": "Volume 4 applies the comparison qualitatively to descending geometry.",
+      "remaining_question": "How are descending-wave arithmetic and percentage magnitudes computed?",
+      "blocker_category": "SOURCE_SILENCE"
+    },
+    {
+      "semantic": "ARITHMETIC_PERCENTAGE_DISAGREEMENT",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "source_classification": "UNRESOLVED",
+      "remaining_question": "What result follows when only one of the compulsory arithmetic and percentage comparisons makes Wave 3 shortest?",
+      "blocker_category": "SOURCE_SILENCE"
+    },
+    {
+      "semantic": "TIE_L3_EQUALS_L1_BELOW_L5",
+      "status": "UNRESOLVED",
+      "source_classification": "UNRESOLVED",
+      "remaining_question": "Does L3 = L1 < L5 violate the rule?",
+      "blocker_category": "SOURCE_AMBIGUITY"
+    },
+    {
+      "semantic": "TIE_L3_EQUALS_L5_BELOW_L1",
+      "status": "UNRESOLVED",
+      "source_classification": "UNRESOLVED",
+      "remaining_question": "Does L3 = L5 < L1 violate the rule?",
+      "source_state": "Volume 5 says Wave 5 must be shorter than Wave 3 but also says price cannot exceed the equal-length projected boundary; exact equality is not adjudicated.",
+      "blocker_category": "SOURCE_AMBIGUITY"
+    },
+    {
+      "semantic": "ALL_EQUAL",
+      "status": "UNRESOLVED",
+      "source_classification": "UNRESOLVED",
+      "remaining_question": "Does L1 = L3 = L5 satisfy or violate the rule?",
+      "blocker_category": "SOURCE_SILENCE"
+    },
+    {
+      "semantic": "VIOLATION_TIMING",
+      "status": "RESOLVED",
+      "source_classification": "SOURCE_RULE",
+      "decision": "A developing Wave 5 can conclusively violate P005 once both Wave 1 and the current Wave 5 displacement are strictly greater than the already-established Wave 3 length.",
+      "boundary": "Equality and other incomplete cases remain unresolved."
+    },
+    {
+      "semantic": "SATISFACTION_TIMING",
+      "status": "UNRESOLVED_MACHINE_SEMANTICS",
+      "source_classification": "UNRESOLVED",
+      "remaining_question": "What completion evidence permits definitive satisfaction, and can any incomplete Wave 5 establish it?",
+      "blocker_category": "SOURCE_SILENCE"
+    },
+    {
+      "semantic": "PRECISION",
+      "status": "UNRESOLVED",
+      "source_classification": "UNRESOLVED",
+      "authorization_state": "NO_SOURCE_AUTHORIZED_TOLERANCE",
+      "decision": "No reviewed P005 source authorizes tolerance, approximate equality, tick adjustment, rounding, epsilon or minimum difference.",
+      "blocker_category": "SOURCE_SILENCE"
+    }
+  ],
+  "readiness": {
+    "P005_FULL_READINESS": "NOT_READY",
+    "P005_NARROW_VALIDATOR_READINESS": "NOT_READY",
+    "full_reason": "The protected corpus supplies no automatic endpoint-authority/discovery semantics, and required formulas and edge semantics remain unresolved.",
+    "narrow_reason": "Caller-supplied endpoints do not cure the absent percentage formula, dual-basis disagreement, exact downward calculation, ties, or satisfaction timing."
+  },
+  "conflict_found": false,
+  "implementation_authorized": false,
+  "executable_design_produced": false
+}

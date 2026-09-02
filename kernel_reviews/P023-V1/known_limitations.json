@@ -1,0 +1,59 @@
+{
+  "baseline_id": "P023-V1",
+  "limitations": [
+    "P023 requires caller-supplied visibility.",
+    "P023 does not determine visibility.",
+    "P023 does not inspect OHLCV.",
+    "P023 does not identify pivots or waves.",
+    "P023 does not determine which internals are required.",
+    "P023 does not validate required internals.",
+    "VISIBLE means inspection is available only; it does not confirm or validate internals.",
+    "NOT_VISIBLE means internals remain unresolved; it does not mean invalid and does not invalidate the candidate.",
+    "P023 does not select a fixed finer timeframe.",
+    "P023 does not map timeframe to degree.",
+    "P023 performs no provider, TradingView, or data-fetching operation.",
+    "P023 is not integrated with orchestration.",
+    "P023 provides no aggregation-to-visibility shortcut.",
+    "Exact-value unrelated StrEnum inputs remain accepted because they are str-compatible.",
+    "Genuine str subclasses remain accepted according to their exact underlying string value.",
+    "The behavior-local and shared INTERNALS_UNRESOLVED enum members serialize individually to the same scalar text.",
+    "The complete P023 result remains distinguishable through behavior_id P023_INTERNAL_VISIBILITY_GUARD.",
+    "Package and private-module boundaries remain policy- and test-enforced rather than physically isolated.",
+    "P023-V1 is a logical development baseline and is not physically protected."
+  ],
+  "runtime_diagnostic_policy": {
+    "classification": "RUNTIME_INPUT_AND_DIAGNOSTIC_POLICY_NOT_ADDITIONAL_PROTECTED_ELLIOTT_METHODOLOGY",
+    "exact_case_visibility_vocabulary": [
+      "VISIBLE",
+      "NOT_VISIBLE",
+      "UNKNOWN"
+    ],
+    "diagnostic_distinction": "Missing, explicit UNKNOWN, and malformed or unsupported input are distinguished by their diagnostic reasons. All return UNRESOLVED_MISSING_INPUT with finer_data_required null and are nonfatal.",
+    "unsupported_type_result": "UNRESOLVED_MISSING_INPUT",
+    "whitespace_trimming": false,
+    "case_normalization": false,
+    "unrelated_str_enum_policy": "Exact-value unrelated StrEnum members remain accepted because they are str-compatible.",
+    "str_subclass_policy": "Genuine str subclasses remain accepted according to their exact underlying string value.",
+    "custom_equality_policy": "Custom equality implementations cannot spoof VISIBLE or NOT_VISIBLE because P023 applies an explicit string-type gate and safe base-string comparison."
+  },
+  "status_serialization_limitation": {
+    "classification": "KNOWN_TECHNICAL_LIMITATION_NOT_METHODOLOGY",
+    "behavior_local_status": "P023VisibilityCheckStatus.INTERNALS_UNRESOLVED",
+    "shared_status": "InternalStatus.UNRESOLVED",
+    "distinct_enum_types": true,
+    "compare_equal_as_string_values": true,
+    "serialized_scalar_text": "INTERNALS_UNRESOLVED",
+    "full_result_disambiguator": {
+      "field": "behavior_id",
+      "value": "P023_INTERNAL_VISIBILITY_GUARD"
+    },
+    "current_consumer_ambiguity": false,
+    "baseline_action": "No status redesign or rename is performed in P023-V1."
+  },
+  "executable_methodology": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD"
+  ]
+}

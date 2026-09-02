@@ -1,0 +1,80 @@
+{
+  "baseline_id": "P003-V1",
+  "behavior_id": "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
+  "principle_id": "P003",
+  "source_class": "SOURCE_DEFINITION",
+  "execution_role": "STRUCTURAL_CONTEXT",
+  "protected_principle_review": {
+    "dedicated_principle_found": true,
+    "result": "P003",
+    "classification": "SOURCE_DEFINITION",
+    "conflict_found": false
+  },
+  "protected_sources": [
+    {
+      "relative_path": "docs/elliott/SOURCE_EVIDENCE_MAP.json",
+      "locator": "principles entry P003",
+      "observed_byte_length": 8498,
+      "observed_sha256": "c0239392469c990650dd01a3024d64bdf93cba3f167fd37e826bd415496edb51",
+      "support": "P003 defines one-larger-degree direction context and classifies it SOURCE_DEFINITION."
+    },
+    {
+      "relative_path": "docs/elliott/MASTER_PROTOCOL.md",
+      "locator": "Step 2, lines 21-28",
+      "observed_byte_length": 4543,
+      "observed_sha256": "a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6",
+      "support": "Determine whether movement acts with or against the one-larger-degree trend; search motive/five-wave theme with it and corrective/three-wave theme against it."
+    },
+    {
+      "relative_path": "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "locator": "Sections 2 and 4",
+      "observed_byte_length": 3768,
+      "observed_sha256": "b8cb7bf124845420fc26f2e95cf863171dc3b195908c1bd79c57d6ab47daac9f",
+      "support": "Timeframe is viewing resolution rather than degree, and different degrees operate simultaneously; P003 must not infer degree from timeframe."
+    },
+    {
+      "relative_path": "docs/elliott/SOURCE_POLICY.md",
+      "locator": "Sections 1 and 3, including lines 20 and 45-50",
+      "observed_byte_length": 2354,
+      "observed_sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29",
+      "support": "Unsupported claims remain unresolved; SOURCE_DEFINITION is structural definition or terminology."
+    },
+    {
+      "relative_path": "docs/elliott/OUTPUT_CONTRACT.md",
+      "locator": "Structural Message and UNRESOLVED sections",
+      "observed_byte_length": 1398,
+      "observed_sha256": "3f47bc574ef838b9d2c1dd0498765fa8044d7021ef60bac1196afff0bc71fc55",
+      "support": "The structural message records one-larger-degree direction and motive/corrective/unresolved theme."
+    },
+    {
+      "relative_path": "schemas/ANALYSIS_OUTPUT_SCHEMA.json",
+      "locator": "properties.structural_message",
+      "observed_byte_length": 9603,
+      "observed_sha256": "2bbd9c73b36631443dee14e6b23e8a7602667485dfffacdfa2186c8ce3bc9dc8",
+      "support": "Protected output vocabulary permits current relation with/against/unresolved and theme motive/corrective/unresolved."
+    },
+    {
+      "relative_path": "examples/EMPTY_ANALYSIS.json",
+      "locator": "structural_message",
+      "observed_byte_length": 1619,
+      "observed_sha256": "a2d0b5482596c54170a5968e780c44f8ea60b0d51c930a5c4833069e1d2dadb4",
+      "support": "The protected empty example directly pairs unresolved current relation with unresolved theme."
+    }
+  ],
+  "locked_mapping": {
+    "WITH": "MOTIVE search theme",
+    "AGAINST": "CORRECTIVE search theme",
+    "UNRESOLVED": "UNRESOLVED theme"
+  },
+  "meaning_boundary": {
+    "motive_or_corrective_is_search_theme": true,
+    "validated_pattern_claim": false,
+    "caller_supplies_relation": true,
+    "relation_inference": false,
+    "fatality": false,
+    "structural_certification": false
+  },
+  "runtime_policy_separation": "Exact uppercase tokens and fail-closed malformed-input diagnostics are behavior-local Runtime policy. They do not change the protected definition or the lowercase protected output-schema vocabulary.",
+  "source_availability_note": "The raw Volume 1 transcript cited by P003 is not bundled. The protected source package states that its reviewed derived methodology documents remain authoritative when re-extraction is unavailable; no protected conflict was found.",
+  "conflicts": []
+}

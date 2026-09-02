@@ -1,0 +1,82 @@
+{
+  "reference_type": "OBSERVED_AND_PACKAGE_MANIFEST_BACKED",
+  "protected_brain_root": "C:\\ElliottCodex\\Brain_LOCKED",
+  "protected_version": "0.1.0",
+  "package_manifest": {
+    "path": "PACKAGE_MANIFEST.json",
+    "byte_length": 5126,
+    "sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatches": []
+  },
+  "required_protected_files": [
+    {
+      "path": "AGENTS.md",
+      "byte_length": 2625,
+      "sha256": "72e9e6f9efec167d8f5ee4e6e723bb57b4a7209abb3a7b417ec4b98d87049b6e"
+    },
+    {
+      "path": "VERSION",
+      "byte_length": 6,
+      "sha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67"
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "byte_length": 5126,
+      "sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a"
+    },
+    {
+      "path": "docs/elliott/SOURCE_POLICY.md",
+      "byte_length": 2354,
+      "sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29"
+    },
+    {
+      "path": "docs/elliott/MASTER_PROTOCOL.md",
+      "byte_length": 4543,
+      "sha256": "a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6"
+    },
+    {
+      "path": "docs/elliott/PATTERN_BRAIN.md",
+      "byte_length": 4415,
+      "sha256": "d7cd7ef46829e84f71cf8e6b452246d63b8c8eac1c0eef28030d51c3f7d59209"
+    },
+    {
+      "path": "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "byte_length": 3768,
+      "sha256": "b8cb7bf124845420fc26f2e95cf863171dc3b195908c1bd79c57d6ab47daac9f"
+    },
+    {
+      "path": "docs/elliott/EVIDENCE_BRAIN.md",
+      "byte_length": 4300,
+      "sha256": "72c86b6d39374565d6df110c7c62283776a6eefeb37be4d7af4e32b21a367b1a"
+    },
+    {
+      "path": "docs/elliott/DECISION_BRAIN.md",
+      "byte_length": 3354,
+      "sha256": "ab07f00cc5271d2619e73d11f2264a32221539a7aefe47fd6d614076ac732569"
+    },
+    {
+      "path": "docs/elliott/OUTPUT_CONTRACT.md",
+      "byte_length": 1398,
+      "sha256": "3f47bc574ef838b9d2c1dd0498765fa8044d7021ef60bac1196afff0bc71fc55"
+    },
+    {
+      "path": "docs/elliott/SOURCE_EVIDENCE_MAP.json",
+      "byte_length": 8498,
+      "sha256": "c0239392469c990650dd01a3024d64bdf93cba3f167fd37e826bd415496edb51"
+    },
+    {
+      "path": "schemas/ANALYSIS_OUTPUT_SCHEMA.json",
+      "byte_length": 9603,
+      "sha256": "2bbd9c73b36631443dee14e6b23e8a7602667485dfffacdfa2186c8ce3bc9dc8"
+    },
+    {
+      "path": "tools/tradingview/tool_contract.json",
+      "byte_length": 962,
+      "sha256": "4a1ceda88ce07ce7d6b2c6538314bd809518cf65e301e080a73136575be8ac6c"
+    }
+  ],
+  "authority_statement": "These are observed and existing package-manifest-backed Brain references, not a newly invented authority or hash baseline.",
+  "brain_modified_during_baseline": false
+}
+

@@ -1,0 +1,42 @@
+{
+  "baseline_id": "SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1",
+  "limitations": [
+    "Both observed-price contracts are caller-constructed untrusted infrastructure, not validators, results, certificates, attestations, producers, or proof.",
+    "proposed_start and proposed_end are Runtime operand roles only and do not establish chronology, direction, wave origin, wave end, pivot, extreme, orthodox end, or completion.",
+    "observation_provenance_ref is exact opaque metadata; it does not authenticate a data provider, bar, timestamp, field, source record, or market observation.",
+    "The live observation object is its only contract identity; no separate observation ID, timestamp, bar reference, OHLC classification, timeframe, degree, wave label, or family is supplied.",
+    "Equal price values and one observation object in both endpoint roles are permitted without asserting validity or invalidity; later source-locked P005/P006 semantics must decide whether they are meaningful.",
+    "The contract deliberately exposes no calculated length, span, distance, delta, change, return, ratio, percentage, logarithm, overlap, or direction.",
+    "The approved P004-style numeric policy is isinstance-based, so int/float subclasses and IntEnum values are accepted; this transport performs no arithmetic, and future methodology validators must independently validate operands under their own approved numeric contract.",
+    "Very large integers for which math.isfinite cannot operate are rejected rather than coerced; no Decimal or string conversion is performed.",
+    "Exact common-subject identity is enforced only within one live process; matching IDs, mappings, duck types, subclasses, deserialized records, and reconstructed subjects cannot substitute for that identity.",
+    "Frozen slots and single-use constructors prevent ordinary mutation and reinitialization, but hostile same-process reflection, slot-descriptor calls, monkeypatching, object.__new__, object.__setattr__, custom metaclasses, or crafted pickle execution are outside the logical trust boundary.",
+    "A caller-controlled prefilled deepcopy memo can substitute an untrusted object; ordinary copy/deepcopy return the same immutable identity, and no substituted object gains certificate authority.",
+    "JSON-compatible reports are audit data only; explicitly reconstructed observations and pairs are distinct untrusted identities.",
+    "Neither structural-invalidity nor validated-family certification accepts these objects, and the validated-family registry remains empty and sealed.",
+    "No P005 measurement basis/endpoints/completion/scale/tie/comparison semantics or P006 orthodox-end/overlap/touch/direction/completion semantics are resolved by this infrastructure.",
+    "SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1 is a writable development logical baseline and is not physically sealed."
+  ],
+  "security_boundary": {
+    "exact_subject_type_required": true,
+    "exact_live_common_subject_identity_required": true,
+    "exact_observation_types_and_role_identities_retained": true,
+    "ordinary_reinitialization_or_reordering_prevented": true,
+    "ordinary_subclass_bypass_prevented": true,
+    "ordinary_mutation_prevented": true,
+    "price_arithmetic_present": false,
+    "methodology_validity_authority": false,
+    "certificate_issuance_authority": false,
+    "hostile_same_process_security": false,
+    "cross_process_identity": false,
+    "physical_immutability": false
+  },
+  "executable_methodology": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME"
+  ]
+}

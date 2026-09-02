@@ -1,0 +1,23 @@
+{
+  "status":"PASS",
+  "framework":"Python unittest",
+  "focused_p007":{"tests_run":18,"failures":0,"errors":0},
+  "focused_structural_certification":{"tests_run":31,"failures":0,"errors":0},
+  "complete_suite":{"tests_run":332,"failures":0,"errors":0,"elapsed_seconds":0.583},
+  "hardening_iterations":[
+    "Updated previously approved exact methodology-inventory guards from six to seven behaviors.",
+    "Updated structural producer guards from three to four producers.",
+    "Recorded that P007 result serialization is rejected because the retained OrderedChildBinding is deliberately non-pickleable; manual, copied, replaced, mapping, duck-typed, and subclassed lookalikes remain uncertifiable.",
+    "Removed a false-positive static assertion against the word volume because it occurs only in the required protected raw-source locator."
+  ],
+  "coverage":[
+    "exact three-child satisfaction and input identity/order retention",
+    "0, 1, 2, 4, 5, 6, and 20-child fatal violations",
+    "exact enum/raw scope and rejection of normalization, aliases, P003 themes/results, and spoofing",
+    "missing, wrong, mapping, duck, and subclassed input rejection",
+    "all provenance/status/fatality families",
+    "genuine violation certification and satisfied/unresolved rejection",
+    "manual, copied, replaced, serialized, duck, subclass, and core-field tamper resistance",
+    "four-producer sealing, empty family registry, dependency boundaries, and NOT_IMPLEMENTED orchestration regression"
+  ]
+}

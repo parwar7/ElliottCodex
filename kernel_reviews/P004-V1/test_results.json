@@ -1,0 +1,31 @@
+{
+  "command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -m unittest discover -s 'C:\\ElliottCodex\\Runtime_WORKSPACE\\tests' -p 'test_*.py' -v",
+  "python_version": "3.12.10",
+  "total": 51,
+  "passes": 51,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "unittest_elapsed_seconds": 0.128,
+  "observed_wall_elapsed_seconds": 0.44339,
+  "temporary_residue_count": 0,
+  "temporary_residue": [],
+  "test_temporary_boundary": "All test temporary files remained beneath C:\\ElliottCodex\\Runtime_WORKSPACE\\tests.",
+  "p004_coverage_groups": [
+    "upward boundary",
+    "downward boundary",
+    "equality",
+    "nextafter boundaries",
+    "invalid input",
+    "Boolean rejection",
+    "string rejection",
+    "integer acceptance",
+    "NaN/infinity rejection",
+    "scope",
+    "direction",
+    "fatal behavior",
+    "traceability",
+    "evidence non-override",
+    "dependency boundary"
+  ]
+}

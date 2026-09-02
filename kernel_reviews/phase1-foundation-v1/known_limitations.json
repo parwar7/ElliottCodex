@@ -1,0 +1,16 @@
+{
+  "limitations": [
+    "No Elliott methodology is implemented.",
+    "No TradingView integration is implemented.",
+    "No provider or network integration is implemented.",
+    "No resampling is implemented.",
+    "No exchange or market-session calendar is implemented.",
+    "Gap reporting assumes a constant supplied resolution and does not account for sessions or holidays.",
+    "OHLCV numeric transport uses binary float; Decimal adoption is deferred pending an approved exact JSON-number serialization contract.",
+    "Run immutability is logical development behavior, not physical filesystem immutability.",
+    "No frozen or separately protected Methodology Kernel artifact exists yet.",
+    "Naive timestamps are interpreted as UTC and explicitly marked by provenance.",
+    "The first pre-hardening development test run briefly used Windows TEMP; tests were corrected to use Runtime_WORKSPACE/tests."
+  ]
+}
+

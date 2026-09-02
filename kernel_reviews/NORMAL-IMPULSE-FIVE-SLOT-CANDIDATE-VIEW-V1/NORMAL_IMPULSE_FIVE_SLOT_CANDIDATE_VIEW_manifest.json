@@ -1,0 +1,275 @@
+{
+  "baseline_id": "NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "KERNEL_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "contract_names": [
+    "NormalImpulseFiveSlotCandidateView",
+    "NormalImpulseFiveSlotCardinalityError"
+  ],
+  "protected_principle_id": null,
+  "source_class": null,
+  "execution_role": null,
+  "classification_note": "This is non-authoritative five-position candidate-view infrastructure, not an Elliott rule, validated pattern, result, certificate, producer, or seventh executable methodology behavior.",
+  "public_api": {
+    "canonical_module": "elliott_methodology_kernel.contracts",
+    "implementation_module": "elliott_methodology_kernel.normal_impulse_five_slot_view",
+    "package_root_reexport": true,
+    "types": [
+      {
+        "name": "NormalImpulseFiveSlotCandidateView",
+        "fields": [
+          "binding"
+        ],
+        "derived_properties": [
+          "position_1",
+          "position_2",
+          "position_3",
+          "position_4",
+          "position_5"
+        ]
+      }
+    ],
+    "construction_errors": [
+      "NormalImpulseFiveSlotCardinalityError"
+    ],
+    "factory": null,
+    "validator": null,
+    "certifier": null,
+    "issuer": null,
+    "producer": null,
+    "registry": null
+  },
+  "contract_semantics": {
+    "construction": "Public caller construction creates only an untrusted candidate-position view over one existing binding.",
+    "input": "One exact OrderedChildBinding; detached IDs, strings, mappings, tuples, duck types and subclasses are rejected.",
+    "cardinality": "Exactly five binding children are required; every other count raises NormalImpulseFiveSlotCardinalityError as Runtime contract misuse.",
+    "binding_identity": "The exact supplied binding object is retained and view.binding is binding.",
+    "parent_identity": "The exact parent object remains reachable through the retained binding without proving parentage.",
+    "child_identity_and_order": "Each property directly returns the corresponding exact binding.ordered_children tuple object at indexes zero through four.",
+    "position_meaning": "Positions 1-5 are caller-proposed ordinal validation positions only and are not validated Elliott waves.",
+    "immutability": "Frozen and slotted at ordinary API level; weak-referenceable and identity-based with eq=False.",
+    "subclass_policy": "Ordinary direct, dynamic and multiple-inheritance subclass construction is sealed by a private metaclass with a subclass-hook defense in depth.",
+    "copy": "copy and deepcopy return the same immutable view identity under ordinary API use.",
+    "replacement": "Dataclass replacement creates a distinct untrusted view and revalidates the exact binding type and cardinality.",
+    "serialization": "Default pickle is rejected; JSON-compatible audit mappings and explicit reconstruction carry no authority.",
+    "certification": "The view is not a validator result, neither certifier accepts it, and no certificate can be minted from it.",
+    "security_boundary": "Logical same-process input identity only; no hostile-interpreter, cryptographic, provenance-authentication, cross-process, or physical-immutability guarantee."
+  },
+  "source_semantics": {
+    "five_logical_candidate_positions_supported": true,
+    "five_validated_waves_asserted": false,
+    "visible_swing_count_asserted": false,
+    "normal_impulse_5_3_5_3_5_asserted": false,
+    "new_protected_definition_or_rule_created": false,
+    "protected_principle_id_created": false
+  },
+  "preserved_contracts": {
+    "subject_binding": true,
+    "structural_invalidity_certification_algorithm": true,
+    "validated_internal_family_certification_algorithm": true,
+    "structural_producer_registry": true,
+    "validated_family_empty_sealed_registry": true,
+    "existing_behavior_semantics": true,
+    "existing_public_result_contracts": true,
+    "runtime_import_boundaries": true,
+    "methodology_kernel_analyze_not_implemented": true
+  },
+  "validated_family_registry_at_checkpoint": {
+    "sealed": true,
+    "expected_result_types": [],
+    "producer_count": 0,
+    "behavior_id_count": 0,
+    "issuance_count": 0,
+    "certificate_issuance_possible": false
+  },
+  "capabilities_present": {
+    "wave_validity": false,
+    "parentage_proof": false,
+    "family_validation": false,
+    "family_certificate_issuance": false,
+    "structural_invalidity_creation": false,
+    "p004_invocation": false,
+    "p005": false,
+    "p006": false,
+    "p010": false,
+    "normal_impulse_5_3_5_3_5": false,
+    "extension_or_truncation_or_diagonal_validation": false,
+    "candidate_generation": false,
+    "pattern_interpretation": false,
+    "completion_inference": false,
+    "degree_or_timeframe_inference": false,
+    "pivot_anchor_or_price_discovery": false,
+    "evidence_or_ranking": false,
+    "orchestration": false,
+    "provider_or_tradingview_operation": false,
+    "monitoring_or_alerting": false,
+    "network_or_process_execution": false
+  },
+  "executable_methodology_at_checkpoint": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME"
+  ],
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/normal_impulse_five_slot_view.py",
+      "byte_length": 3459,
+      "sha256": "8e401d2eb0f1b683ebfc9845f3a1f16f1a75bd125ef1825b0274ee68f63d31fa"
+    },
+    {
+      "path": "tests/test_normal_impulse_five_slot_view.py",
+      "byte_length": 19382,
+      "sha256": "6c33d7e8094b0110588f9a81945110c4806426b3636a14f638a4db8cd4ba57af"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/contracts.py",
+      "byte_length": 2337,
+      "sha256": "b057f31b8019baa90d1a1e1fd994afe2d17b9ce250e91cf487bd9058f9ea64de"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 4344,
+      "sha256": "eb161ec63d4bd170b5c1181af555c9b6e1505e20e4841195677419a10d1ef6eb"
+    },
+    {
+      "path": "tests/test_structural_invalidity_evidence_no_rescue.py",
+      "byte_length": 17307,
+      "sha256": "825c4cea94b88d12dd41472eb0ec68e809b57b21f9c293966433deef17f162f1"
+    }
+  ],
+  "unchanged_foundation_contracts": [
+    {
+      "path": "src/elliott_methodology_kernel/subject_binding.py",
+      "byte_length": 3441,
+      "sha256": "063de9702dd3837dbc4d1de3efa5633481eb6834991f066d418d042fe119f4aa"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+      "byte_length": 29951,
+      "sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc"
+    }
+  ],
+  "baseline_artifacts": [
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/BASELINE_README.md",
+      "byte_length": 3280,
+      "sha256": "2644b20b0f0c0032ce4d89df7f809f269964d70bbccba07e01654fd2d463550c"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/known_limitations.json",
+      "byte_length": 3836,
+      "sha256": "7de3d5212bd2a7a747fc90c88b39f61bea2d6b2e5b95aeb374a62b4bded9c062"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/prior_baseline_delta.json",
+      "byte_length": 5820,
+      "sha256": "dd86871cf1f95cbc1ed3988baaf59263463ba474d7521fbdb1a3f04e5cbc6f90"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/source_trace.json",
+      "byte_length": 4277,
+      "sha256": "8d662a7c8e4fcf10c78592e81ad68de0c576bd13d14f953ba5a7b540d03c436f"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/test_results.json",
+      "byte_length": 4072,
+      "sha256": "eb9081d32ee2a8b3150b872a4dbb3e13ffc609560aa3780fdbf4b5fc658a63c7"
+    }
+  ],
+  "prior_baselines": [
+    {
+      "baseline_id": "PHASE1-FOUNDATION-V1",
+      "manifest_path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "manifest_sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+    },
+    {
+      "baseline_id": "P004-V1",
+      "manifest_path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "manifest_sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"
+    },
+    {
+      "baseline_id": "DEGREE-PEER-V1",
+      "manifest_path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "manifest_sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6"
+    },
+    {
+      "baseline_id": "PARENT-CHILD-DEGREE-V1",
+      "manifest_path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "manifest_sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a"
+    },
+    {
+      "baseline_id": "P023-V1",
+      "manifest_path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "manifest_sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6"
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/STRUCTURAL_INVALIDITY_CONTRACT_manifest.json",
+      "manifest_sha256": "33d9b03cdecf321cc4526c2acc1d1b5cf7c01c96634201a3169bbd39cf52b8f1"
+    },
+    {
+      "baseline_id": "STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1",
+      "manifest_path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE_manifest.json",
+      "manifest_sha256": "c5923a1baa23650760dc66c8d11988e764f8931cc9803eb762eac40ebfb52cc3"
+    },
+    {
+      "baseline_id": "P003-V1",
+      "manifest_path": "kernel_reviews/P003-V1/P003_manifest.json",
+      "manifest_sha256": "f92271d1a88bb6b26b797fd5bfa7b2ff757dc3dd74940a0a82e4d569ec61911e"
+    },
+    {
+      "baseline_id": "VALIDATED-INTERNAL-FAMILY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/VALIDATED_INTERNAL_FAMILY_CONTRACT_manifest.json",
+      "manifest_sha256": "e602c60840b730dde6e84e22081965be26e312ece7d2bfd9eb8d380263c2ad0e"
+    },
+    {
+      "baseline_id": "SUBJECT-ORDERED-CHILD-BINDING-V1",
+      "manifest_path": "kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/SUBJECT_ORDERED_CHILD_BINDING_manifest.json",
+      "manifest_sha256": "0966f43f9518566b1618c190fd30104b41b29d18445b67152303dd7b8c7f0297"
+    }
+  ],
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_path": "C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count": 30,
+    "manifest_mismatch_count": 0
+  },
+  "tests": {
+    "focused": 23,
+    "focused_passes": 23,
+    "full": 287,
+    "full_passes": 287,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "adversarial_audit": {
+    "status": "PASS",
+    "ordinary_cardinality_or_subclass_bypass_remaining": false,
+    "hostile_same_process_security_claimed": false,
+    "independent_review_count": 3,
+    "semantic_redesign_required": false
+  },
+  "assurances": {
+    "network_used": false,
+    "packages_installed": false,
+    "git_mutation": false,
+    "brain_modified": false,
+    "prior_baseline_artifacts_modified": false,
+    "subject_binding_modified": false,
+    "certification_algorithms_modified": false,
+    "existing_methodology_semantics_modified": false,
+    "family_producer_added": false,
+    "runtime_integration_added": false
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, ACL protection, hostile same-process isolation, provenance authentication, cryptographic signing, or durable cross-process identity is claimed."
+}

@@ -1,0 +1,44 @@
+{
+  "baseline_id": "NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1",
+  "limitations": [
+    "NormalImpulseFiveSlotCandidateView is caller-constructed untrusted infrastructure, not a validator, result, certificate, attestation, producer, or proof.",
+    "The exact-five requirement creates only a candidate-view object; it is Runtime construction policy and does not establish Elliott structural validity or invalidity.",
+    "position_1 through position_5 are ordinal references to binding.ordered_children indexes zero through four and do not certify Waves 1 through 5.",
+    "The view retains one exact OrderedChildBinding but does not prove that its children belong to the parent or correspond to market structure.",
+    "Five logical candidate positions are not five validated waves and are not a visible-swing count; extensions may display more visible swings.",
+    "The protected package does not supply an executable normal-impulse 5-3-5-3-5 child-family requirement, so none is represented.",
+    "No child family, internal completion, required subdivision, pattern validity, structural validity, fatality, degree, timeframe, pivot, anchor, price, evidence, or ranking is established.",
+    "P004, P005, P006, P010 and every existing methodology behavior remain separate; constructing the view invokes none of them.",
+    "NormalImpulseFiveSlotCardinalityError is ordinary contract failure and has no methodology status, outcome, fatality, source, principle, or behavior metadata.",
+    "Only an exact OrderedChildBinding is accepted; detached IDs, strings, mappings, duck types, and binding subclasses are rejected.",
+    "Ordinary subclass routes are sealed, including multiple inheritance that suppresses cooperative subclass hooks, but hostile same-process custom metaclasses, type.__new__, reflection, monkeypatching, object.__new__, or object.__setattr__ are not a security boundary.",
+    "A hostile caller can fabricate or mutate an untrusted Python object in-process, but neither certifier accepts such an object and no certificate authority results.",
+    "A caller-controlled prefilled deepcopy memo or custom pickle dispatch can substitute or reconstruct untrusted objects; default copy/deepcopy and pickle behavior remain locked, and no reconstructed object gains authority.",
+    "JSON-compatible dataclass records are audit data only; explicitly reconstructed bindings and views are distinct untrusted identities.",
+    "Future methodology consumers must use exact-type checks and revalidate cardinality, binding identity, parent identity, all child identities, and tuple order at the point of use.",
+    "The existing structural-invalidity certificate is not subject-bound, and this baseline does not associate existing rule results with the five positions.",
+    "No validated-family producer exists, the family registry remains empty and sealed, and no family certificate can currently issue.",
+    "NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1 is a writable development logical baseline and is not physically sealed."
+  ],
+  "security_boundary": {
+    "exact_binding_required": true,
+    "exact_five_cardinality_required": true,
+    "exact_live_position_references_retained": true,
+    "ordinary_subclass_bypass_prevented": true,
+    "ordinary_mutation_prevented": true,
+    "wave_validity_authority": false,
+    "family_or_structural_validity_authority": false,
+    "certificate_issuance_authority": false,
+    "hostile_same_process_security": false,
+    "cross_process_identity": false,
+    "physical_immutability": false
+  },
+  "executable_methodology": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME"
+  ]
+}

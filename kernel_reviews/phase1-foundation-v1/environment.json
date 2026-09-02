@@ -1,0 +1,10 @@
+{
+  "os": "Microsoft Windows 10.0.26200",
+  "architecture": "X64",
+  "python_version": "3.12.10",
+  "runtime_root": "C:\\ElliottCodex\\Runtime_WORKSPACE",
+  "protected_brain_root": "C:\\ElliottCodex\\Brain_LOCKED",
+  "current_working_directory": "C:\\ElliottCodex\\Runtime_WORKSPACE",
+  "baseline_format_version": "1.0.0"
+}
+

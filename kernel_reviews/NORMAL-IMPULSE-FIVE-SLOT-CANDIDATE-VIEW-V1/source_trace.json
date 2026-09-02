@@ -1,0 +1,72 @@
+{
+  "baseline_id": "NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1",
+  "contract_names": [
+    "NormalImpulseFiveSlotCandidateView",
+    "NormalImpulseFiveSlotCardinalityError"
+  ],
+  "contract_classification": "KERNEL_INFRASTRUCTURE",
+  "protected_principle_id": null,
+  "source_class": null,
+  "execution_role": null,
+  "independent_methodology_behavior": false,
+  "source_semantics_decision": "The protected package supports representing five logical ordered positions in a proposed normal-impulse candidate, while candidate generation remains separate from validation. This combined support is not promoted into a new protected definition, rule, principle ID, or validity claim.",
+  "protected_sources_observed": [
+    {
+      "relative_path": "docs/elliott/SOURCE_POLICY.md",
+      "locator": "Sections 1-5",
+      "observed_byte_length": 2354,
+      "observed_sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29",
+      "boundary": "Unsupported methodology remains unresolved; the five-slot view is non-authoritative Runtime infrastructure and adds no source classification."
+    },
+    {
+      "relative_path": "docs/elliott/MASTER_PROTOCOL.md",
+      "locator": "Steps 3-6",
+      "observed_byte_length": 4543,
+      "observed_sha256": "a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6",
+      "boundary": "Parent-child ordering and candidate generation precede rules, required-subdivision checks, degree consistency and recursive internal validation; the view performs none of those checks."
+    },
+    {
+      "relative_path": "docs/elliott/PATTERN_BRAIN.md",
+      "locator": "Sections A-B",
+      "observed_byte_length": 4415,
+      "observed_sha256": "d7cd7ef46829e84f71cf8e6b452246d63b8c8eac1c0eef28030d51c3f7d59209",
+      "boundary": "Normal-impulse rules refer across Waves 1-5 and the extension section calls an impulse five-wave while permitting 9, 13 or more visible swings; five logical candidate positions are therefore distinct from visible swings and validated waves."
+    },
+    {
+      "relative_path": "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "locator": "Sections 1, 3, 5-7",
+      "observed_byte_length": 3768,
+      "observed_sha256": "b8cb7bf124845420fc26f2e95cf863171dc3b195908c1bd79c57d6ab47daac9f",
+      "boundary": "Parent-child order and inspection of each proposed wave are protected concepts, while validation, degree consistency, internals and unresolved visibility remain separate."
+    }
+  ],
+  "locked_runtime_view_policy": {
+    "input": "One exact existing OrderedChildBinding object.",
+    "cardinality": "Exactly five ordered child subjects; all other counts raise NormalImpulseFiveSlotCardinalityError as Runtime contract misuse.",
+    "binding_identity": "view.binding is the exact supplied binding object.",
+    "parent_identity": "The exact parent reference remains available only through that binding.",
+    "position_identity": "position_1 through position_5 directly return binding.ordered_children indexes zero through four.",
+    "position_meaning": "Caller-proposed ordinal validation positions only; no Elliott wave validity.",
+    "immutability": "Frozen and slotted at ordinary API level; ordinary subclass construction is sealed.",
+    "copy": "copy and deepcopy preserve the same immutable live view identity.",
+    "replacement": "Dataclass replacement creates a distinct untrusted view and revalidates exact type and cardinality.",
+    "serialization": "Default pickle is rejected; JSON-compatible records and explicit reconstruction are audit-only untrusted data."
+  },
+  "explicit_non_claims": [
+    "valid impulse parent",
+    "validated Waves 1-5",
+    "motive-five or corrective family",
+    "P004, P005, P006 or P010 result",
+    "required child subdivisions or 5-3-5-3-5",
+    "completion",
+    "extension, truncation or diagonal classification",
+    "degree, timeframe, pivot, anchor or price semantics",
+    "structural validity or fatality",
+    "principle, source, execution-role or behavior metadata",
+    "certificate, producer, issuer or registry authority"
+  ],
+  "synthetic_protected_id_created": false,
+  "protected_source_reclassification_performed": false,
+  "model_memory_used_for_elliott_methodology": false,
+  "external_elliott_source_used": false
+}
