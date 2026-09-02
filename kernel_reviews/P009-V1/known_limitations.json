@@ -1,0 +1,26 @@
+{
+  "satisfaction_proves_only":"The proposed TRIANGLE binding contains exactly five direct ordered child positions.",
+  "does_not_prove":[
+    "that the candidate is a triangle",
+    "A, B, C, D, or E labels",
+    "corrective-three family membership for any child",
+    "three-wave subdivision of any leg",
+    "contracting, ascending, descending, expanding, or other triangle subtype",
+    "triangle trend-line or boundary geometry",
+    "allowed position within a larger pattern",
+    "parent-child ownership beyond the supplied non-authoritative binding",
+    "chronology, degree, completion, endpoints, or price relationships",
+    "full structural or candidate validity"
+  ],
+  "does_not_perform":[
+    "candidate or pivot discovery",
+    "automatic binding construction",
+    "family certification",
+    "A/B/C/D/E label assignment",
+    "P005/P006 evaluation",
+    "evidence, ranking, orchestration, provider, TradingView, network, monitoring, alert, or execution work"
+  ],
+  "trust_boundary":"OrderedChildBinding preserves caller-established identity and order only. Exact-type acceptance does not elevate its assertions into independent methodology proof.",
+  "certification_boundary":"The certificate retains the exact genuine fatal result origin. Existing certified core fields are digest protected; the approved certificate does not claim protection against hostile same-interpreter reflection or independently promote the supplied binding to authoritative structure.",
+  "future_work":"Separate reviewed validators and genuine validated-family producers are required for triangle leg families, labels, geometry, subtype, allowed position, completion, and complete triangle validation."
+}

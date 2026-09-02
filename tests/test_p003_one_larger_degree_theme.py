@@ -342,7 +342,7 @@ class P003OneLargerDegreeThemeTests(unittest.TestCase):
         self.assertIn("status=KernelStatus.NOT_IMPLEMENTED", source)
         self.assertIs(KernelStatus.NOT_IMPLEMENTED, kernel.KernelStatus.NOT_IMPLEMENTED)
 
-    def test_executable_methodology_inventory_is_exactly_eight(self) -> None:
+    def test_executable_methodology_inventory_is_exactly_nine(self) -> None:
         observed = set()
         kernel_root = support.SRC / "elliott_methodology_kernel"
         special_names = {"NO_RESCUE_BEHAVIOR", "P003_BEHAVIOR"}
@@ -373,6 +373,7 @@ class P003OneLargerDegreeThemeTests(unittest.TestCase):
                 "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
                 "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
                 "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+                "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
             },
             observed,
         )

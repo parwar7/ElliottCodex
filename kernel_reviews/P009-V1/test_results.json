@@ -1,0 +1,22 @@
+{
+  "status":"PASS",
+  "framework":"Python unittest",
+  "focused_p009":{"tests_run":20,"failures":0,"errors":0},
+  "complete_suite":{"tests_run":372,"failures":0,"errors":0},
+  "hardening_record":[
+    "Updated exact repository inventory guards from eight to nine executable behaviors and five to six structural-invalidity producers.",
+    "Updated only dependent test-file byte/hash guards after the authorized inventory changes.",
+    "Covered exact enum and raw TRIANGLE scope, strict non-normalization, exact behavior-local input, exact OrderedChildBinding, and five-child cardinality-only semantics.",
+    "Covered fail-closed missing, malformed, mapping, duck-typed, input-subclass, and binding-subclass inputs; copied or reconstructed result lookalikes cannot certify, while an exact reconstructed OrderedChildBinding remains ordinary accepted caller input.",
+    "Covered genuine fatal violation certification, satisfied/unresolved rejection, retained origin identity, certified-core tamper resistance, prior-producer stability, empty validated-family registry, narrow dependencies, and NOT_IMPLEMENTED orchestration."
+  ],
+  "coverage":[
+    "exact five-child satisfaction and binding/ordered-child identity retention",
+    "resolved direct-child counts other than five violate and are fatal only to the scoped candidate",
+    "missing or malformed input and unsupported scope are unresolved and nonfatal",
+    "traceability, outcome, reason, source classification, execution role, and fatality across every status family",
+    "no family, label, geometry, subtype, position, completion, degree, endpoint, price, or full-validity promotion",
+    "genuine violation certification and rejection of manual, copied, replaced, mapping, duck-typed, subclassed, mutated, and serialized lookalikes",
+    "six-producer sealing, prior-five producer stability, empty validated-family registry, dependency boundaries, and exact nine-behavior inventory"
+  ]
+}

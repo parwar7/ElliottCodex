@@ -423,13 +423,13 @@ class ValidatedInternalFamilyFoundationTests(unittest.TestCase):
             support.RUNTIME_ROOT / "tests" / "test_structural_invalidity_contract.py"
         )
         test_bytes = structural_test.read_bytes()
-        self.assertEqual(32983, len(test_bytes))
+        self.assertEqual(33043, len(test_bytes))
         self.assertEqual(
-            "b102372e2b9f811ef511d21c9a342bc14c5f6c24939aea4391ee7c8f242f329c",
+            "4da83bdd2973c65353c72306aec1d95fa92410d973a2539f3db44a548f025157",
             hashlib.sha256(test_bytes).hexdigest(),
         )
         self.assertIs(True, structural_private._REGISTRY_SEALED)
-        self.assertEqual(5, len(structural_private._PRODUCERS))
+        self.assertEqual(6, len(structural_private._PRODUCERS))
         self.assertEqual(
             {
                 "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
@@ -437,13 +437,14 @@ class ValidatedInternalFamilyFoundationTests(unittest.TestCase):
                 "PARENT_CHILD_DEGREE_ADJACENCY",
                 "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
                 "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+                "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
             },
             {spec.behavior_id for spec in structural_private._PRODUCERS.values()},
         )
         origin = p004_result(violated=True)
         self.assertIs(origin, certify_structural_invalidity(origin).origin)
 
-    def test_executable_methodology_inventory_remains_exactly_eight(self) -> None:
+    def test_executable_methodology_inventory_remains_exactly_nine(self) -> None:
         observed = set()
         special_names = {"NO_RESCUE_BEHAVIOR", "P003_BEHAVIOR"}
         kernel_root = support.SRC / "elliott_methodology_kernel"
@@ -474,6 +475,7 @@ class ValidatedInternalFamilyFoundationTests(unittest.TestCase):
                 "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
                 "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
                 "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+                "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
             },
             observed,
         )

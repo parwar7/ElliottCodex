@@ -296,10 +296,10 @@ class P008FlatCardinalityTests(unittest.TestCase):
                 with self.assertRaises(StructuralInvalidityCertificationError):
                     _ = certificate.structural_validity
 
-    def test_p008_is_exactly_fifth_structural_producer_and_prior_four_unchanged(self) -> None:
+    def test_p008_remains_fifth_after_sixth_structural_producer(self) -> None:
         self.assertIs(structural_private._REGISTRY_SEALED, True)
-        self.assertEqual(5, len(structural_private._PRODUCERS))
-        self.assertEqual(5, len(structural_private._BEHAVIOR_IDS))
+        self.assertEqual(6, len(structural_private._PRODUCERS))
+        self.assertEqual(6, len(structural_private._BEHAVIOR_IDS))
         self.assertIn(P008FlatCardinalityResult, structural_private._PRODUCERS)
         self.assertEqual(
             {
@@ -308,6 +308,7 @@ class P008FlatCardinalityTests(unittest.TestCase):
                 "PARENT_CHILD_DEGREE_ADJACENCY",
                 "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
                 "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+                "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
             },
             structural_private._BEHAVIOR_IDS,
         )
@@ -372,7 +373,7 @@ class P008FlatCardinalityTests(unittest.TestCase):
         ):
             self.assertNotIn(forbidden, source_text)
 
-    def test_executable_inventory_is_exactly_eight_and_analyze_is_not_implemented(self) -> None:
+    def test_executable_inventory_is_exactly_nine_and_analyze_is_not_implemented(self) -> None:
         observed = set()
         special_names = {"NO_RESCUE_BEHAVIOR", "P003_BEHAVIOR"}
         root = support.SRC / "elliott_methodology_kernel"
@@ -398,6 +399,7 @@ class P008FlatCardinalityTests(unittest.TestCase):
                 "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
                 "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
                 "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+                "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
             },
             observed,
         )

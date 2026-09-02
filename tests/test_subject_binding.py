@@ -430,7 +430,7 @@ class SubjectOrderedChildBindingTests(unittest.TestCase):
                 self.assertEqual(expected_bytes, len(payload))
                 self.assertEqual(expected_hash, hashlib.sha256(payload).hexdigest())
         self.assertTrue(structural_private._REGISTRY_SEALED)
-        self.assertEqual(5, len(structural_private._PRODUCERS))
+        self.assertEqual(6, len(structural_private._PRODUCERS))
         self.assertTrue(family_private._REGISTRY_SEALED)
         self.assertEqual({}, family_private._PRODUCERS)
         self.assertEqual(set(), family_private._BEHAVIOR_IDS)
@@ -476,6 +476,7 @@ class SubjectOrderedChildBindingTests(unittest.TestCase):
                 "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
                 "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
                 "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+                "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
             },
             observed,
         )

@@ -69,6 +69,14 @@ from .p008_flat_cardinality import (
     P008FlatCardinalityResult,
     check_p008_flat_cardinality,
 )
+from .p009_triangle_cardinality import (
+    P009CandidateScope,
+    P009CardinalityStatus,
+    P009ExecutionRole,
+    P009TriangleCardinalityInput,
+    P009TriangleCardinalityResult,
+    check_p009_triangle_cardinality,
+)
 from ._structural_invalidity_certification import (
     _seal_structural_validator_registry,
 )
@@ -84,6 +92,7 @@ _seal_structural_validator_registry(
         ParentChildDegreeResult,
         P007SingleZigzagCardinalityResult,
         P008FlatCardinalityResult,
+        P009TriangleCardinalityResult,
     )
 )
 del _seal_structural_validator_registry
@@ -147,6 +156,11 @@ __all__ = [
     "P008ExecutionRole",
     "P008FlatCardinalityInput",
     "P008FlatCardinalityResult",
+    "P009CandidateScope",
+    "P009CardinalityStatus",
+    "P009ExecutionRole",
+    "P009TriangleCardinalityInput",
+    "P009TriangleCardinalityResult",
     "P023VisibilityCheckStatus",
     "P023VisibilityExecutionRole",
     "P023VisibilityInput",
@@ -172,6 +186,7 @@ __all__ = [
     "check_p004",
     "check_p007_single_zigzag_cardinality",
     "check_p008_flat_cardinality",
+    "check_p009_triangle_cardinality",
     "certify_structural_invalidity",
     "certify_validated_internal_family",
     "load_brain_manifest",

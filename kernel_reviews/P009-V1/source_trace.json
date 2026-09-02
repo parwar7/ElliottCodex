@@ -1,0 +1,36 @@
+{
+  "principle_id":"P009",
+  "behavior_id":"P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
+  "source_class":"SOURCE_DEFINITION",
+  "execution_role":"HARD_VALIDATION",
+  "protected_sources":[
+    "docs/elliott/SOURCE_EVIDENCE_MAP.json#P009",
+    "docs/elliott/PATTERN_BRAIN.md#H-triangle",
+    "docs/elliott/MASTER_PROTOCOL.md#step-4",
+    "docs/elliott/MASTER_PROTOCOL.md#step-5"
+  ],
+  "approved_raw_source":{
+    "transcript_path":"C:\\ElliottCodex\\Sources_LOCKED\\volume_04\\volume_04",
+    "transcript_byte_length":40509,
+    "transcript_sha256":"52c825b8cb1eaa915660a6afb105425d6c2947f45ead0fb1f3742e3e2b67789d",
+    "transcript_locators":[
+      "00:25:03.650-00:25:22.670",
+      "00:28:39.220-00:28:48.560"
+    ],
+    "video_path":"C:\\ElliottCodex\\Sources_LOCKED\\volume_04\\volume_04.mp4",
+    "video_byte_length":109784582,
+    "video_sha256":"693176803827b7fd0b43ef70a8f89b6934b1f78b97195a3ba4aa62325de2cefb",
+    "matching_video_frames_inspected":[
+      "00:25:20",
+      "00:28:47"
+    ],
+    "material_cardinality_qualifier_found":false
+  },
+  "raw_source_meaning":[
+    "The first range describes each triangle wave or leg as a three-wave structure; that family claim is not executed by this behavior.",
+    "The second range explicitly presents the triangle as A-B-C-D-E, supporting the five-position cardinality prerequisite."
+  ],
+  "source_meaning":"Triangle is A-B-C-D-E; this behavior executes only the exact five-direct-child cardinality prerequisite.",
+  "independent_from":["corrective/three-wave leg-family validation","A/B/C/D/E label validation","triangle geometry","triangle subtype","allowed pattern position","completion","degree","full triangle validity"],
+  "non_promotions":["No family proof","No A/B/C/D/E label proof","No subtype or geometry proof","No position proof","No complete triangle validation","No P005/P006 semantics"]
+}
