@@ -1,0 +1,85 @@
+{
+  "target_id": "FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1",
+  "target_kind": "SOURCE_REVIEW",
+  "is_methodology_behavior": false,
+  "is_infrastructure": false,
+  "protected_principle_id": null,
+  "source_classification": null,
+  "execution_role": null,
+  "purpose": "Determine whether the approved protected corpus supports one complete, non-circular, positive producer for exactly one existing ValidatedInternalFamily kind and lock all semantics required for a later implementation prompt.",
+  "exact_inputs": [
+    "Brain_LOCKED source policy, master protocol, pattern, degree recursion, evidence, decision, output contract, and source-evidence map",
+    "Sources_LOCKED manifest-verified transcripts and corresponding video only where a material transcript qualifier requires inspection",
+    "Current sealed ValidatedInternalFamily contract and its approved baseline",
+    "Current subject, ordered-child, observed-price, and normal-impulse candidate-view contracts",
+    "Current ten behavior implementations and seven structural producer attestations",
+    "All approved review conclusions, including frozen P005 and P006"
+  ],
+  "trust_requirements": [
+    "No model-memory or external Elliott doctrine.",
+    "No caller family label, slot label, endpoint, or completion assertion may be treated as proof.",
+    "Every positive family result must be issued by a reviewed source-specific complete validator and identity-bound to its exact subject.",
+    "Nested family inputs must be genuine ValidatedInternalFamily certificates whose producer, issuance, identity, digest, and provenance pass fail-closed verification.",
+    "A terminal/base case must be explicitly source-supported; absence must remain unresolved rather than be inferred.",
+    "P005 and P006 remain frozen unless newly approved protected authority resolves them."
+  ],
+  "outputs": {
+    "if_source_complete": [
+      "exact future producer behavior ID",
+      "fixed family kind",
+      "protected principle ID or null",
+      "source classification and execution role",
+      "exact trusted input types and identity bindings",
+      "complete positive, violated, and unresolved outcomes",
+      "fatality and structural-certification eligibility",
+      "terminal/base and finer-resolution behavior",
+      "producer registration and issuance requirements",
+      "complete adversarial test plan",
+      "exact prospective implementation files and baseline procedure"
+    ],
+    "if_not_source_complete": [
+      "UNRESOLVED or CONFLICT classification at each missing semantic",
+      "exact protected source gap or conflict",
+      "minimum additional approved source or proposed Brain change required",
+      "no implementation authorization"
+    ]
+  },
+  "methodology_status_semantics": null,
+  "fatality": null,
+  "certification_eligibility": false,
+  "shared_contract_impact": "No shared-contract change is authorized. The review must first test whether the current sealed family certificate contract can host the candidate producer unchanged. Any required contract change is a new approval boundary.",
+  "dependency_impact": "A successful locked producer design would directly open a path toward at least one family certificate and thereby one side of P007/P008/P009/P010 and diagonal composition dependencies. A review finding of silence/conflict prevents unsafe circular certification and identifies the exact next source authority needed.",
+  "selection_order": [
+    "Prefer a source-specific producer with no nested family prerequisite.",
+    "If none exists, prefer the producer with a protected finite terminal/base rule and the fewest nested family dependencies.",
+    "Do not select a producer merely because cardinality is implemented.",
+    "If both families remain circular or incomplete, select none and report the source gap."
+  ],
+  "likely_files_for_next_stage": [
+    "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/README.md",
+    "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/REVIEW_manifest.json",
+    "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/source_trace.json",
+    "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/family_candidate_matrix.json",
+    "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/semantic_decision.json",
+    "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/dependency_resolution.json",
+    "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/prospective_implementation_design.json"
+  ],
+  "required_tests": [
+    "Review-package JSON parses and contains exactly one resolved producer or an explicit no-producer result.",
+    "Every asserted semantic maps to an exact protected source locator and authorized source class.",
+    "Adversarial dependency matrix rejects cardinality-only, caller-labeled, manually constructed, copied, mutated, deserialized, cross-subject, wrong-position, and wrong-family inputs as proof.",
+    "Circularity analysis demonstrates a protected terminal/base route or reports unresolved.",
+    "P005/P006 freeze assertions remain unchanged.",
+    "No source review artifact is imported by Runtime code or registered as a producer.",
+    "Brain, Sources, all prior manifests, ten behaviors, seven structural producers, and the empty sealed family registry remain exact."
+  ],
+  "known_limitations": [
+    "The current approved corpus may not contain a non-circular positive family base case.",
+    "Resolving P005/P006 may require new approved source authority or an explicitly approved Brain change outside Runtime.",
+    "Completion and position authority may remain separate unresolved dependencies even after family composition wording is mapped.",
+    "The review cannot issue certificates, implement a validator, or establish methodology by assertion."
+  ],
+  "package_type": "SOURCE_SEMANTICS_REVIEW_DECISION",
+  "future_baseline_if_later_implemented": "A new additive methodology baseline only after a separate implementation approval, complete tests, audit, and unchanged protected integrity.",
+  "implementation_in_this_target": false
+}

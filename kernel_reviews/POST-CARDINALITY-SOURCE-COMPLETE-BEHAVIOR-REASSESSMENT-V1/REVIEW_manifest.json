@@ -1,0 +1,84 @@
+{
+  "review_id": "POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1",
+  "artifact_type": "METHODOLOGY_DEPENDENCY_SELECTION_REVIEW",
+  "status": "COMPLETED",
+  "review_outcome": "NEXT_SOURCE_REVIEW_REQUIRED",
+  "is_methodology_implementation_baseline": false,
+  "selected_target_id": "FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1",
+  "artifacts": [
+    {"path":"kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/README.md","byte_length":2102,"sha256":"1f5caebc21ed4b3b9f1600000049beab740e1b5ca6013eb95e953db166d247d7"},
+    {"path":"kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/candidate_inventory.json","byte_length":8890,"sha256":"b4ebc02d26c0b32280859dbb09dab2edcd198d20113f9ea90fc0a9dd777da947"},
+    {"path":"kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/dependency_graph.json","byte_length":3970,"sha256":"76e45fbc53fbd94e7050bca4f32411b4c811b4c2583d251ccb6eeb06a73ee488"},
+    {"path":"kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/selection_decision.json","byte_length":2465,"sha256":"d2915830a49a58353bef8b233a70420889b12af40e71dbae29349d3851f0dc8d"},
+    {"path":"kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/recommended_target_design.json","byte_length":6278,"sha256":"e2cc4dfb18bec7f139b3ac7bf3193ef1fe2694bf9ddeb01ba67297d4e0f14d77"},
+    {"path":"kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/deferred_behavior_register.json","byte_length":2084,"sha256":"c76259fe22f587683d41e6ba67992c3791c7b8244e61938ead553c241245220b"}
+  ],
+  "pre_review_git": {
+    "branch": "main",
+    "head": "cfe3f320df8965481c6f69fb1ed1d4a3216020ce",
+    "origin_main": "cfe3f320df8965481c6f69fb1ed1d4a3216020ce",
+    "working_tree_clean": true
+  },
+  "protected_brain": {
+    "root":"C:\\ElliottCodex\\Brain_LOCKED",
+    "version":"0.1.0",
+    "package_manifest_path":"C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "package_manifest_sha256":"81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "manifest_entry_count":30,
+    "manifest_mismatch_count":0
+  },
+  "protected_sources": {
+    "root":"C:\\ElliottCodex\\Sources_LOCKED",
+    "source_manifest_path":"C:\\ElliottCodex\\Sources_LOCKED\\SOURCE_MANIFEST.json",
+    "source_manifest_sha256":"61887c8ebabd990c669637df8ccf2975e7028c17e9b428d1a9181d1ef986cbdd",
+    "manifest_entry_count":20,
+    "manifest_mismatch_count":0,
+    "targeted_source_checks": [
+      {"candidate":"P010_X_CORRECTIVE_EXCLUSION","source":"volume_04/volume_04 and volume_10/volume_10.txt","finding":"X is described as corrective/three-wave, but no genuine family proof or trusted X-position authority currently exists.","material_video_qualifier_requiring_inspection":false},
+      {"candidate":"P009_CORRECTIVE_LEG_COMPOSITION","source":"volume_04/volume_04 00:25:03-00:25:22","finding":"Triangle legs are described as three-wave, but no genuine corrective-family producer exists.","material_video_qualifier_requiring_inspection":false},
+      {"candidate":"LEADING_DIAGONAL_ISOLATED_CONSTRAINT","source":"Brain PATTERN_BRAIN.md lines 45-53 and volume_03/volume_03.srt around 00:29:02","finding":"Leading and ending diagonals must remain separate; available wording does not lock a dependency-ready isolated leading-diagonal predicate.","material_video_qualifier_requiring_inspection":false}
+    ]
+  },
+  "approved_manifests": [
+    {"path":"kernel_reviews/phase1-foundation-v1/phase1_manifest.json","sha256":"f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"},
+    {"path":"kernel_reviews/P004-V1/P004_manifest.json","sha256":"cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"},
+    {"path":"kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json","sha256":"54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6"},
+    {"path":"kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json","sha256":"f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a"},
+    {"path":"kernel_reviews/P023-V1/P023_manifest.json","sha256":"fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6"},
+    {"path":"kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/STRUCTURAL_INVALIDITY_CONTRACT_manifest.json","sha256":"33d9b03cdecf321cc4526c2acc1d1b5cf7c01c96634201a3169bbd39cf52b8f1"},
+    {"path":"kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE_manifest.json","sha256":"c5923a1baa23650760dc66c8d11988e764f8931cc9803eb762eac40ebfb52cc3"},
+    {"path":"kernel_reviews/P003-V1/P003_manifest.json","sha256":"f92271d1a88bb6b26b797fd5bfa7b2ff757dc3dd74940a0a82e4d569ec61911e"},
+    {"path":"kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/VALIDATED_INTERNAL_FAMILY_CONTRACT_manifest.json","sha256":"e602c60840b730dde6e84e22081965be26e312ece7d2bfd9eb8d380263c2ad0e"},
+    {"path":"kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/SUBJECT_ORDERED_CHILD_BINDING_manifest.json","sha256":"0966f43f9518566b1618c190fd30104b41b29d18445b67152303dd7b8c7f0297"},
+    {"path":"kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/NORMAL_IMPULSE_FIVE_SLOT_CANDIDATE_VIEW_manifest.json","sha256":"361a3dab69f1053a69ffd0bbfcbc2c7c2f2e37d7782fa51549cdf06a8e62f880"},
+    {"path":"kernel_reviews/SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1/SUBJECT_BOUND_OBSERVED_PRICE_ENDPOINT_PAIR_manifest.json","sha256":"34b1cfa6c154bc83eddddb2ded7030b59ab91c35d0224075b49962ce80e876b1"},
+    {"path":"kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/REVIEW_manifest.json","sha256":"02040856567388d9c2c8c6d89c57eaf8895f43040522d6e84b5cd6a0d93bc356"},
+    {"path":"kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/REVIEW_manifest.json","sha256":"42f7a6d13065ff6a6d1c65b04bf1e41a32f256b2baa6b839ee44a423e59c5cfa"},
+    {"path":"kernel_reviews/POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT-V1/REVIEW_manifest.json","sha256":"8acbe6c28456b2817e31c178c48d3fd5d987afcc34e55371d4bc8e373a95bfaf"},
+    {"path":"kernel_reviews/P007-V1/P007_manifest.json","sha256":"da3d5333d6bf93990a39f6248dc909df7e503c83000f4e79ad657cdbcd6e212d"},
+    {"path":"kernel_reviews/P008-V1/P008_manifest.json","sha256":"e6ce2c9710ed7b7d43839f122add4db87213762a0f3aacf511dfe414ec8f84b1"},
+    {"path":"kernel_reviews/P009-V1/P009_manifest.json","sha256":"807812e011a5f8e5b85690cb6af6eb341ae3b6e55e957e8d11064b36de22e4fd"},
+    {"path":"kernel_reviews/ENDING-DIAGONAL-DIRECT-CHILD-CARDINALITY-V1/ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY_manifest.json","sha256":"1709948e9cc598eaeaff97f2005ed15afa1d1d1e91fc4de55569dd8e277d16a5"}
+  ],
+  "executable_methodology_at_checkpoint": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
+    "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
+    "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+    "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
+    "ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY"
+  ],
+  "registries": {
+    "structural_invalidity":{"sealed":true,"producer_count":7},
+    "validated_internal_family":{"sealed":true,"producer_count":0,"issuance_count":0,"certificate_issuance_possible":false}
+  },
+  "p005_p006_freeze":{"P005":"DEFERRED_SOURCE_SEMANTICS","P006":"DEFERRED_SOURCE_SEMANTICS","P006_source_conflict":"UNRESOLVED"},
+  "validation":{"runner":"python -m unittest discover -s tests -v","tests_run":392,"passed":392,"failed":0,"errors":0},
+  "implementation_state":{"new_methodology_behavior_added":false,"new_structural_producer_added":false,"new_family_producer_added":false,"new_certificate_issued":false,"runtime_source_modified":false,"tests_modified":false},
+  "assurances":{"network_used_for_methodology_research":false,"external_elliott_sources_used":false,"model_memory_used_to_fill_methodology_gaps":false,"packages_installed":false,"brain_modified":false,"sources_locked_modified":false,"prior_artifacts_modified":false},
+  "protection_status":"Logical additive review record only; no physical sealing, signing, methodology implementation, or family certification is claimed."
+}
