@@ -1,0 +1,24 @@
+{
+  "baseline_id": "SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1",
+  "python_version": "3.12.10",
+  "focused_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_single_candidate_orchestration.py'",
+  "focused_tests_run": 24,
+  "focused_passes": 24,
+  "focused_failures": 0,
+  "focused_errors": 0,
+  "full_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_*.py'",
+  "full_tests_run": 469,
+  "full_passes": 469,
+  "full_failures": 0,
+  "full_errors": 0,
+  "full_skipped": 0,
+  "adversarial_audit": "PASS",
+  "hardening": [
+    "Exact request, envelope, attachment, subject, resolution, and certificate identity boundaries fail closed.",
+    "Mappings, ducks, subclasses, unknown IDs, mismatched pairs, cross-subject objects, mutation, and pickle restoration are rejected.",
+    "Zero evaluations and uncertified fatal-looking results resolve conservatively to UNRESOLVED.",
+    "Genuine structural invalidity has precedence and retains its exact existing certificate without issuance.",
+    "Inventory reuses the candidate-envelope compatibility table and records all ten behaviors without inferring missing applicability.",
+    "Legacy AnalysisRequest options cannot inject candidate authority and protected output-schema behavior remains unchanged."
+  ]
+}

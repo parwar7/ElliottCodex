@@ -1,0 +1,222 @@
+{
+  "baseline_id": "SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "KERNEL_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "api_decision": {
+    "selected_shape": "SEPARATE_EXACT_TYPED_SAME_PROCESS_BOUNDARY",
+    "method": "MethodologyKernel.analyze_candidate",
+    "request_type": "SingleCandidateAnalysisRequest",
+    "result_type": "SingleCandidateAnalysisResult",
+    "legacy_method": "MethodologyKernel.analyze",
+    "legacy_behavior": "UNCHANGED_NOT_IMPLEMENTED",
+    "analysis_request_options_authority": false,
+    "reason": "A separate exact typed boundary preserves live candidate authority without weakening or reinterpreting the Phase 1 mapping-based transport contract."
+  },
+  "public_surface": {
+    "implementation_module": "elliott_methodology_kernel.single_candidate_orchestration",
+    "package_root_reexport": true,
+    "api_method": "MethodologyKernel.analyze_candidate",
+    "types": [
+      "SingleCandidateAnalysisRequest",
+      "SingleCandidateAnalysisResult",
+      "CandidateBehaviorExecution",
+      "CandidateEvaluationPresence",
+      "SingleCandidateExecutionSummary",
+      "SingleCandidateOrchestrationError"
+    ],
+    "request_fields": [
+      "request_id",
+      "requested_at_utc",
+      "candidate_envelope",
+      "provenance_refs"
+    ],
+    "result_fields": [
+      "request_id",
+      "candidate_envelope",
+      "candidate_subject",
+      "verified_evaluations",
+      "execution_inventory",
+      "operational_resolution",
+      "structural_invalidity_certificates",
+      "execution_summary",
+      "unresolved_reasons",
+      "brain_manifest_reference",
+      "kernel_version",
+      "provenance_refs"
+    ],
+    "certifiers": [],
+    "issuers": [],
+    "producers": [],
+    "registries": []
+  },
+  "execution_presence": {
+    "states": [
+      "SUPPLIED_AND_VERIFIED",
+      "NOT_SUPPLIED"
+    ],
+    "inventory_behavior_count": 10,
+    "compatibility_authority": "REUSES_CANDIDATE_ANALYSIS_ENVELOPE_PRIVATE_REVIEWED_TABLE",
+    "supplied_order": "PRESERVED_EXACTLY",
+    "missing_applicability_inferred": false,
+    "absence_treated_as_pass": false
+  },
+  "execution_summary": {
+    "states": [
+      "STRUCTURALLY_INVALID",
+      "UNRESOLVED",
+      "SUPPLIED_EVALUATIONS_REVIEWED"
+    ],
+    "precedence": [
+      "GENUINE_RETAINED_CERTIFIED_STRUCTURAL_INVALIDITY",
+      "UNRESOLVED_OPERATIONAL_OR_SUPPLIED_RESULT_STATE",
+      "SUPPLIED_EVALUATIONS_REVIEWED"
+    ],
+    "zero_evaluations": {
+      "summary": "UNRESOLVED",
+      "reason": "NO_METHODOLOGY_EVALUATIONS_SUPPLIED"
+    },
+    "uncertified_fatal_result": {
+      "summary": "UNRESOLVED",
+      "reason": "UNCERTIFIED_FATAL_RESULT_REQUIRES_CERTIFICATE"
+    },
+    "reviewed_limit": "Only supplied attachments revalidated with no current genuine invalidity or unresolved blocker; no candidate validity, family validity, completeness, correctness, rank, or all-required-behaviors claim."
+  },
+  "identity_and_security": {
+    "request_envelope": "EXACT_LIVE_CANDIDATE_ANALYSIS_ENVELOPE",
+    "candidate_subject": "EXACT_LIVE_IDENTITY",
+    "evaluation_objects": "EXACT_LIVE_IDENTITIES_AND_ORDER",
+    "operational_resolution": "EXACT_LIVE_IDENTITY_RETAINED",
+    "structural_certificate": "EXACT_EXISTING_LIVE_IDENTITY_RETAINED_NO_ISSUANCE",
+    "observations": "TRANSPORT_ONLY_UNINSPECTED_FOR_STRUCTURE",
+    "copy_deepcopy": "SAME_IMMUTABLE_IDENTITY_AFTER_REVALIDATION",
+    "pickle": "REJECTED",
+    "mapping_duck_subclass_substitution": "REJECTED",
+    "candidate_id_authority": false,
+    "arbitrary_id_authority": false,
+    "serialization_authority": false
+  },
+  "inventory_at_checkpoint": {
+    "executable_methodology": 10,
+    "structural_invalidity_registry_sealed": true,
+    "structural_invalidity_producers": 7,
+    "validated_family_registry_sealed": true,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "legacy_methodology_kernel_analyze": "NOT_IMPLEMENTED",
+    "p005": "UNCHANGED",
+    "p006": "UNCHANGED_UNRESOLVED_CONFLICT",
+    "source_derived_base_case_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+  },
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/single_candidate_orchestration.py",
+      "byte_length": 24092,
+      "sha256": "ccd315d1afe423772d4f4e9ee28e2ae2592c8b361dec5319da925fd66d1fec0e"
+    },
+    {
+      "path": "tests/test_single_candidate_orchestration.py",
+      "byte_length": 27572,
+      "sha256": "ba94940c71be75875dfd42f02d3adac71ccb82773b398fde371a3bc00542e26c"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/api.py",
+      "byte_length": 2676,
+      "sha256": "c047f03bff41193c013746e7380b2797f974fd295a32d5d2201bd406097aeaa0"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 8094,
+      "sha256": "d21b06ed5d15a2a8f4937d34db2c72b957fb3c4717e5edbba27c493a7ff79014"
+    }
+  ],
+  "unchanged_authority_contracts": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+      "byte_length": 29951,
+      "sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/bounded_recursive_analysis.py",
+      "byte_length": 21295,
+      "sha256": "5d7b078a8d246931f8af61def7b16effecbb769b3a806b0c9eeb68a0d2f696d4"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/candidate_analysis_envelope.py",
+      "byte_length": 27683,
+      "sha256": "30a81c5f7c2ea1d5d3b31a29e3b1878318b1ab9a6ba071b87461635ea4f5525c"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p023_visibility_guard.py",
+      "byte_length": 4082,
+      "sha256": "d5053ee43ad72f668bd3536d83393d2eae46c74c31189d13dc02b6bc852f94a2"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/models.py",
+      "byte_length": 5341,
+      "sha256": "3a724315d0c30dd54d404a3c0ae516945532366643039c8eb15d7e922d9ca56f"
+    }
+  ],
+  "baseline_artifacts": [
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/BASELINE_README.md",
+      "byte_length": 2622,
+      "sha256": "10b07f52b27e0767bb87dbe973ac9bfe99e690cd040168e54516592df611e5d4"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/known_limitations.json",
+      "byte_length": 1474,
+      "sha256": "2ae594bcca361f17b9760cccd1ef4834ee20a62b77d7acd05677a7db9807962a"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/prior_baseline_delta.json",
+      "byte_length": 1146,
+      "sha256": "aee7cfa2e02a8f546f3dc947e1d41bc6fd95af804ca5294f3913b5f99ad88760"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/source_trace.json",
+      "byte_length": 1133,
+      "sha256": "02b673f31caab1002ebe9967542426edbced04a0c2ddf3dab123b7ad02e49261"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/test_results.json",
+      "byte_length": 1463,
+      "sha256": "5218b73e5f0973da670da48f9d6c830dbd17a834bea719d2435984049f2a8c8a"
+    }
+  ],
+  "prior_review_manifest_count": 27,
+  "prior_review_manifests_modified": false,
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatch_count": 0
+  },
+  "protected_sources": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21,
+    "mismatch_count": 0,
+    "frost_prechter_byte_length": 69874756,
+    "frost_prechter_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  },
+  "tests": {
+    "focused": 24,
+    "focused_passes": 24,
+    "full": 469,
+    "full_passes": 469,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "adversarial_audit": "PASS"
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, hostile same-process isolation, cryptographic authenticity, or durable cross-process identity is claimed."
+}

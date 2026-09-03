@@ -143,6 +143,14 @@ from .candidate_analysis_envelope import (
     CandidateMethodologyEvaluation,
     CandidateObservationAttachment,
 )
+from .single_candidate_orchestration import (
+    CandidateBehaviorExecution,
+    CandidateEvaluationPresence,
+    SingleCandidateAnalysisRequest,
+    SingleCandidateAnalysisResult,
+    SingleCandidateExecutionSummary,
+    SingleCandidateOrchestrationError,
+)
 
 __all__ = [
     "AnalysisRequest",
@@ -160,6 +168,8 @@ __all__ = [
     "CandidateAnalysisEnvelopeError",
     "CandidateMethodologyEvaluation",
     "CandidateObservationAttachment",
+    "CandidateBehaviorExecution",
+    "CandidateEvaluationPresence",
     "CertifiedStructuralInvalidity",
     "CertifiedValidatedInternalFamily",
     "DegreePeerCheckStatus",
@@ -216,6 +226,10 @@ __all__ = [
     "ParentChildDegreeInput",
     "ParentChildDegreeResult",
     "RuleCheckStatus",
+    "SingleCandidateAnalysisRequest",
+    "SingleCandidateAnalysisResult",
+    "SingleCandidateExecutionSummary",
+    "SingleCandidateOrchestrationError",
     "StructuralInvalidityCertificationError",
     "StructuralInvalidityEvidenceNoRescueExecutionRole",
     "StructuralInvalidityEvidenceNoRescuePolicyStatus",

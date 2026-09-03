@@ -1,0 +1,35 @@
+{
+  "baseline_id": "SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1",
+  "prior_baseline_artifacts_modified": false,
+  "prior_review_manifest_count": 27,
+  "latest_prior_baseline": {
+    "baseline_id": "CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1",
+    "manifest_sha256": "d40d35074b67e7b592588f886765c075af0ec5cbea32f8247c4b53d87fbd6554"
+  },
+  "new_files": [
+    "src/elliott_methodology_kernel/single_candidate_orchestration.py",
+    "tests/test_single_candidate_orchestration.py"
+  ],
+  "modified_files": [
+    "src/elliott_methodology_kernel/__init__.py",
+    "src/elliott_methodology_kernel/api.py"
+  ],
+  "unchanged_boundaries": [
+    "Brain_LOCKED",
+    "Sources_LOCKED",
+    "all prior kernel_reviews artifacts",
+    "all methodology behavior implementations",
+    "certificate algorithms and registries",
+    "bounded_recursive_analysis.py",
+    "candidate_analysis_envelope.py",
+    "models.py",
+    "protected schemas",
+    "legacy MethodologyKernel.analyze"
+  ],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_id": "SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "source_class": null,
+  "protected_principle_id": null,
+  "methodology_behavior_added": false,
+  "authority_statement": "Orchestration verifies and summarizes authority already present in exact live envelope objects; it creates no methodology, structural, family, observation, or reporting authority.",
+  "invalidity_statement": "Only an existing genuine live CertifiedStructuralInvalidity retained through reviewed contracts can establish the STRUCTURALLY_INVALID summary; orchestration never issues one.",
+  "reviewed_statement": "SUPPLIED_EVALUATIONS_REVIEWED is an execution fact only and is not candidate validity, family validity, completeness, correctness, rank, or proof that all required behaviors were supplied.",
+  "locked_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "protected_methodology_changes": [],
+  "protected_ids_created": [],
+  "p005_status": "UNCHANGED",
+  "p006_status": "UNCHANGED_UNRESOLVED_CONFLICT"
+}

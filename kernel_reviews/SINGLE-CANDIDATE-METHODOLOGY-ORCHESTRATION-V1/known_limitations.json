@@ -1,0 +1,18 @@
+{
+  "baseline_id": "SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1",
+  "limitations": [
+    "V1 accepts only an already-supplied exact live CandidateAnalysisEnvelope and does not invoke any methodology validator.",
+    "The caller must construct behavior-local inputs and exact methodology-evaluation attachments before orchestration.",
+    "NOT_SUPPLIED is presence information only; orchestration neither infers applicability nor treats absence as pass or not-applicable.",
+    "SUPPLIED_EVALUATIONS_REVIEWED does not establish validity, family, completion, correctness, preferred status, or required-behavior coverage.",
+    "A fatal-looking structural result without a retained genuine certificate is conservatively unresolved, not structurally invalid.",
+    "Legacy subjectless behavior results remain transport-only; the orchestration layer does not invent subject authority.",
+    "Observations are retained unchanged and do not establish pivots, endpoints, direction, completion, pattern, or validity.",
+    "The live result is not a reporting snapshot and cannot restore authority across serialization or process boundaries.",
+    "The validated-family registry remains sealed with zero producers and zero issuances.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND and the P006 source conflict remain unresolved and unchanged."
+  ],
+  "physical_immutability_enforced": false,
+  "hostile_same_process_security_claimed": false,
+  "cross_process_authority_claimed": false
+}

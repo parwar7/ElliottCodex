@@ -10,6 +10,11 @@ from typing import Any, Mapping
 from .brain import BrainManifest, DEFAULT_PROTECTED_ROOT, load_brain_manifest
 from .models import AnalysisRequest, AnalysisResultEnvelope, KernelStatus, UnresolvedState
 from .schema import assert_valid, load_protected_output_schema
+from .single_candidate_orchestration import (
+    SingleCandidateAnalysisRequest,
+    SingleCandidateAnalysisResult,
+    _orchestrate_single_candidate,
+)
 
 
 KERNEL_VERSION = "0.1.0-phase1-contract"
@@ -51,3 +56,20 @@ class MethodologyKernel:
             kernel_version=KERNEL_VERSION,
         )
 
+    def analyze_candidate(
+        self,
+        request: SingleCandidateAnalysisRequest,
+    ) -> SingleCandidateAnalysisResult:
+        """Verify and summarize one exact caller-supplied candidate package."""
+        manifest_reference = hashlib.sha256(
+            json.dumps(
+                self._brain_manifest.observed_hashes,
+                sort_keys=True,
+                separators=(",", ":"),
+            ).encode("utf-8")
+        ).hexdigest()
+        return _orchestrate_single_candidate(
+            request,
+            brain_manifest_reference=manifest_reference,
+            kernel_version=KERNEL_VERSION,
+        )
