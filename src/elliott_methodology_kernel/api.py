@@ -15,6 +15,11 @@ from .single_candidate_orchestration import (
     SingleCandidateAnalysisResult,
     _orchestrate_single_candidate,
 )
+from .explicit_behavior_execution import (
+    ExplicitBehaviorExecutionRequest,
+    ExplicitBehaviorExecutionResult,
+    _execute_candidate_inputs,
+)
 
 
 KERNEL_VERSION = "0.1.0-phase1-contract"
@@ -73,3 +78,10 @@ class MethodologyKernel:
             brain_manifest_reference=manifest_reference,
             kernel_version=KERNEL_VERSION,
         )
+
+    def analyze_candidate_inputs(
+        self,
+        request: ExplicitBehaviorExecutionRequest,
+    ) -> ExplicitBehaviorExecutionResult:
+        """Execute exact supplied behavior inputs, then reuse candidate orchestration."""
+        return _execute_candidate_inputs(request, self.analyze_candidate)

@@ -151,6 +151,14 @@ from .single_candidate_orchestration import (
     SingleCandidateExecutionSummary,
     SingleCandidateOrchestrationError,
 )
+from .explicit_behavior_execution import (
+    ExplicitBehaviorExecutionError,
+    ExplicitBehaviorExecutionRecord,
+    ExplicitBehaviorExecutionRequest,
+    ExplicitBehaviorExecutionResult,
+    ExplicitBehaviorExecutionState,
+    ExplicitBehaviorInput,
+)
 
 __all__ = [
     "AnalysisRequest",
@@ -177,6 +185,12 @@ __all__ = [
     "DegreePeerConsistencyResult",
     "DegreePeerExecutionRole",
     "ExecutionRole",
+    "ExplicitBehaviorExecutionError",
+    "ExplicitBehaviorExecutionRecord",
+    "ExplicitBehaviorExecutionRequest",
+    "ExplicitBehaviorExecutionResult",
+    "ExplicitBehaviorExecutionState",
+    "ExplicitBehaviorInput",
     "EndingDiagonalCandidateScope",
     "EndingDiagonalCardinalityInput",
     "EndingDiagonalCardinalityResult",

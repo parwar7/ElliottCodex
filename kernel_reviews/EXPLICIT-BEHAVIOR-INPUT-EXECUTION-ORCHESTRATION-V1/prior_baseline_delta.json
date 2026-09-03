@@ -1,0 +1,37 @@
+{
+  "baseline_id": "EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1",
+  "prior_baseline_artifacts_modified": false,
+  "prior_review_manifest_count": 28,
+  "latest_prior_baseline": {
+    "baseline_id": "SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1",
+    "manifest_sha256": "1607b20f7ffe07e6d7593c184b240729ad1c6a501b48d60e4016a5a94367b759"
+  },
+  "new_files": [
+    "src/elliott_methodology_kernel/explicit_behavior_execution.py",
+    "tests/test_explicit_behavior_execution.py"
+  ],
+  "modified_files": [
+    "src/elliott_methodology_kernel/__init__.py",
+    "src/elliott_methodology_kernel/api.py"
+  ],
+  "unchanged_boundaries": [
+    "Brain_LOCKED",
+    "Sources_LOCKED",
+    "all prior kernel_reviews artifacts",
+    "all methodology behavior implementations",
+    "certificate algorithms and registries",
+    "bounded_recursive_analysis.py",
+    "candidate_analysis_envelope.py",
+    "single_candidate_orchestration.py",
+    "models.py",
+    "protected schemas",
+    "legacy MethodologyKernel.analyze",
+    "existing MethodologyKernel.analyze_candidate semantics"
+  ],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  }
+}

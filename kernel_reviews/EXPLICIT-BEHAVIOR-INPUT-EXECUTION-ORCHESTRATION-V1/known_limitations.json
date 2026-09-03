@@ -1,0 +1,17 @@
+{
+  "baseline_id": "EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1",
+  "limitations": [
+    "Callers must still construct exact behavior-local methodology input objects; no pivots, waves, labels, degrees, bindings, visibility facts, or applicability are inferred.",
+    "Legacy P004, degree-peer, parent-child degree, and P003 inputs/results expose no subject identity; execution transport adds no subject authority to them.",
+    "A fatal structural result is not automatically converted into CertifiedStructuralInvalidity; explicit certification remains a separate existing governance step.",
+    "An explicit no-rescue item with no certificate is blocked before methodology execution and suppresses downstream candidate orchestration for that request.",
+    "The execution result is a live same-process object and is not a reporting or serialization boundary.",
+    "Candidate observations and operational resolution remain exact transport and are not interpreted by this layer.",
+    "Multiple executions of one behavior with distinct input identities are ordered but not compared, selected, deduplicated by value, or ranked.",
+    "The validated-family registry remains sealed with zero producers and zero issuances.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND and the P006 source conflict remain unresolved and unchanged."
+  ],
+  "physical_immutability_enforced": false,
+  "hostile_same_process_security_claimed": false,
+  "cross_process_authority_claimed": false
+}

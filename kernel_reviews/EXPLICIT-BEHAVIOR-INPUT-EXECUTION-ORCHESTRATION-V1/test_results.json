@@ -1,0 +1,24 @@
+{
+  "baseline_id": "EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1",
+  "python_version": "3.12.10",
+  "focused_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_explicit_behavior_execution.py'",
+  "focused_tests_run": 24,
+  "focused_passes": 24,
+  "focused_failures": 0,
+  "focused_errors": 0,
+  "full_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_*.py'",
+  "full_tests_run": 493,
+  "full_passes": 493,
+  "full_failures": 0,
+  "full_errors": 0,
+  "full_skipped": 0,
+  "adversarial_audit": "PASS",
+  "hardening": [
+    "All request-wide type, subject, binding, duplicate, certificate, and recursive-mutation checks finish before validator dispatch.",
+    "The private immutable dispatch retains exact existing validator callable identities and accepts no caller-controlled callable or dynamic name.",
+    "Executed records, evaluation attachments, generated envelope, and candidate result preserve exact nested object identities and order.",
+    "Dependency-blocked no-rescue creates no methodology result and cannot produce a candidate validity or invalidity summary.",
+    "Low-level changes to inputs, executed results, blocked records, transport context, or aggregate results fail closed on reuse.",
+    "No automatic certification, discovery, market-data interpretation, ranking, schema change, or external capability was introduced."
+  ]
+}

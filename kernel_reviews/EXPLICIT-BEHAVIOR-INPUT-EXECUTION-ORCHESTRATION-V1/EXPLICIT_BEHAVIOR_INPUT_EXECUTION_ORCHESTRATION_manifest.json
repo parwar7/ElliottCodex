@@ -1,0 +1,265 @@
+{
+  "baseline_id": "EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "KERNEL_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "api": {
+    "method": "MethodologyKernel.analyze_candidate_inputs",
+    "request_type": "ExplicitBehaviorExecutionRequest",
+    "result_type": "ExplicitBehaviorExecutionResult",
+    "delegates_to": "MethodologyKernel.analyze_candidate",
+    "legacy_analyze": "UNCHANGED_NOT_IMPLEMENTED",
+    "existing_analyze_candidate_semantics": "UNCHANGED"
+  },
+  "public_surface": {
+    "module": "elliott_methodology_kernel.explicit_behavior_execution",
+    "package_root_reexport": true,
+    "types": [
+      "ExplicitBehaviorInput",
+      "ExplicitBehaviorExecutionRequest",
+      "ExplicitBehaviorExecutionRecord",
+      "ExplicitBehaviorExecutionResult",
+      "ExplicitBehaviorExecutionState",
+      "ExplicitBehaviorExecutionError"
+    ],
+    "request_fields": [
+      "request_id",
+      "requested_at_utc",
+      "subject",
+      "candidate_id",
+      "child_binding",
+      "behavior_inputs",
+      "observations",
+      "operational_resolution",
+      "provenance_refs"
+    ],
+    "behavior_input_fields": [
+      "behavior_id",
+      "input_object",
+      "provenance_refs"
+    ],
+    "result_fields": [
+      "request_id",
+      "subject",
+      "candidate_envelope",
+      "methodology_evaluations",
+      "execution_records",
+      "execution_unresolved_reasons",
+      "single_candidate_analysis_result",
+      "provenance_refs"
+    ],
+    "execution_record_fields": [
+      "behavior_id",
+      "input_object",
+      "result_object",
+      "execution_state",
+      "reason"
+    ],
+    "caller_supplied_validators": false,
+    "certifiers": [],
+    "issuers": [],
+    "producers": [],
+    "registries": []
+  },
+  "execution_dispatch": [
+    {
+      "behavior_id": "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+      "input_type": "P004Input",
+      "validator": "check_p004"
+    },
+    {
+      "behavior_id": "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+      "input_type": "DegreePeerConsistencyInput",
+      "validator": "check_degree_peer_consistency"
+    },
+    {
+      "behavior_id": "PARENT_CHILD_DEGREE_ADJACENCY",
+      "input_type": "ParentChildDegreeInput",
+      "validator": "check_parent_child_degree_adjacency"
+    },
+    {
+      "behavior_id": "P023_INTERNAL_VISIBILITY_GUARD",
+      "input_type": "P023VisibilityInput",
+      "validator": "evaluate_p023_visibility_for_subject",
+      "result_binding": "EXISTING_EXACT_SUBJECT_BOUND_WRAPPER"
+    },
+    {
+      "behavior_id": "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+      "input_type": "CertifiedStructuralInvalidity",
+      "validator": "apply_structural_invalidity_evidence_no_rescue"
+    },
+    {
+      "behavior_id": "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
+      "input_type": "P003OneLargerDegreeThemeInput",
+      "validator": "map_p003_one_larger_degree_theme"
+    },
+    {
+      "behavior_id": "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
+      "input_type": "P007SingleZigzagCardinalityInput",
+      "validator": "check_p007_single_zigzag_cardinality"
+    },
+    {
+      "behavior_id": "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+      "input_type": "P008FlatCardinalityInput",
+      "validator": "check_p008_flat_cardinality"
+    },
+    {
+      "behavior_id": "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
+      "input_type": "P009TriangleCardinalityInput",
+      "validator": "check_p009_triangle_cardinality"
+    },
+    {
+      "behavior_id": "ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY",
+      "input_type": "EndingDiagonalCardinalityInput",
+      "validator": "check_ending_diagonal_cardinality"
+    }
+  ],
+  "execution_policy": {
+    "applicability": "CALLER_SUPPLIED_INPUT_ONLY_NO_INFERENCE",
+    "not_supplied": "NOT_EXECUTED",
+    "successful_state": "EXECUTED",
+    "dependency_state": "BLOCKED_MISSING_TRUSTED_DEPENDENCY",
+    "missing_no_rescue_certificate_reason": "MISSING_TRUSTED_STRUCTURAL_INVALIDITY_CERTIFICATE",
+    "wrong_or_cross_context_input": "MALFORMED_EXECUTION_REQUEST_FAIL_CLOSED",
+    "duplicates": "SAME_BEHAVIOR_AND_EXACT_INPUT_IDENTITY_REJECTED",
+    "distinct_inputs_same_behavior": "ALLOWED_IN_CALLER_ORDER_WITHOUT_RANKING",
+    "automatic_certification": false,
+    "blocked_request_candidate_orchestration": "NOT_INVOKED",
+    "zero_inputs": "DELEGATED_TO_EXISTING_UNRESOLVED_NO_METHODOLOGY_EVALUATIONS_SUPPLIED"
+  },
+  "consistency": {
+    "subject": "Exact request subject is retained; subject-bound results and exposed certificate-origin bindings must match its identity.",
+    "legacy_subjectless": "No subject authority is invented for legacy behavior contracts that expose none.",
+    "binding": "Binding-consuming inputs must use the request's exact OrderedChildBinding and preserve child order.",
+    "p023": "The exact existing subject-bound evaluator is called with the request subject.",
+    "certificate": "No-rescue requires a genuine live exact certificate; certificate eligibility and issuance are unchanged.",
+    "evaluation": "Each executed item creates an exact CandidateMethodologyEvaluation retaining exact input and returned result identities.",
+    "envelope": "One exact CandidateAnalysisEnvelope is constructed and fully revalidated by its existing contract.",
+    "delegation": "The exact envelope is passed in an exact SingleCandidateAnalysisRequest to existing analyze_candidate.",
+    "observations": "Exact transport only; no structure is derived.",
+    "mutation": "Nested input, transport, execution record, result, envelope, and candidate-result state is revalidated and fails closed.",
+    "serialization": "Public execution objects reject pickle; mappings and serialized lookalikes have no authority."
+  },
+  "inventory_at_checkpoint": {
+    "executable_methodology": 10,
+    "structural_invalidity_registry_sealed": true,
+    "structural_invalidity_producers": 7,
+    "validated_family_registry_sealed": true,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p005": "UNCHANGED",
+    "p006": "UNCHANGED_UNRESOLVED_CONFLICT",
+    "source_derived_base_case_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+  },
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/explicit_behavior_execution.py",
+      "byte_length": 28745,
+      "sha256": "988d4245de714b3a7029e7aeb80c9a7ad6a59fb40ec4444c82ea20acda2d9df4"
+    },
+    {
+      "path": "tests/test_explicit_behavior_execution.py",
+      "byte_length": 27814,
+      "sha256": "3c2b6126bbd013604a84b753a8e6ddaa4560cce77b972a82e8b58fe876414d85"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/api.py",
+      "byte_length": 3133,
+      "sha256": "ae8743031e55405351b2a2fba4b80d7fe46ba6b51f41cc83fc76b4da86c09e44"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 8573,
+      "sha256": "d6d2f955f0da10800c6a3826873e90d8d8d7400ff872d24d6a461b082e9ecce7"
+    }
+  ],
+  "unchanged_authority_contracts": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+      "byte_length": 29951,
+      "sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/bounded_recursive_analysis.py",
+      "byte_length": 21295,
+      "sha256": "5d7b078a8d246931f8af61def7b16effecbb769b3a806b0c9eeb68a0d2f696d4"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/candidate_analysis_envelope.py",
+      "byte_length": 27683,
+      "sha256": "30a81c5f7c2ea1d5d3b31a29e3b1878318b1ab9a6ba071b87461635ea4f5525c"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/single_candidate_orchestration.py",
+      "byte_length": 24092,
+      "sha256": "ccd315d1afe423772d4f4e9ee28e2ae2592c8b361dec5319da925fd66d1fec0e"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/models.py",
+      "byte_length": 5341,
+      "sha256": "3a724315d0c30dd54d404a3c0ae516945532366643039c8eb15d7e922d9ca56f"
+    }
+  ],
+  "baseline_artifacts": [
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/BASELINE_README.md",
+      "byte_length": 3064,
+      "sha256": "ebab5b2f9147a321a59fb5de933240f6d348fca2d6f68db56dd8f4454216d4b9"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/known_limitations.json",
+      "byte_length": 1474,
+      "sha256": "69867ce161184fd4ed940cb4992efa06042e318115881ec00cfe25ea6e6f75bd"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/prior_baseline_delta.json",
+      "byte_length": 1254,
+      "sha256": "611fa8c655fa267fa460f90b62fd851faaaf8dd8c1c2ac97f15330ddbec4c85e"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/source_trace.json",
+      "byte_length": 1085,
+      "sha256": "d9be639cf43fef473dcabef0612123e5fd6b80fb18cccd5e646e4fc2645e95ce"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/test_results.json",
+      "byte_length": 1561,
+      "sha256": "405ca0b3377143ea940c7f30f2ab68b9b247909817deabaa04054e6b18783dc9"
+    }
+  ],
+  "prior_review_manifest_count": 28,
+  "prior_review_manifests_modified": false,
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatch_count": 0
+  },
+  "protected_sources": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21,
+    "mismatch_count": 0,
+    "frost_prechter_byte_length": 69874756,
+    "frost_prechter_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  },
+  "tests": {
+    "focused": 24,
+    "focused_passes": 24,
+    "full": 493,
+    "full_passes": 493,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "adversarial_audit": "PASS"
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, hostile same-process isolation, cryptographic authenticity, or durable cross-process identity is claimed."
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_id": "EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "source_class": null,
+  "protected_principle_id": null,
+  "methodology_behavior_added": false,
+  "authority_statement": "The execution layer invokes only exact existing reviewed validators with exact caller-supplied inputs and preserves their returned authority without expansion.",
+  "applicability_statement": "Supplying an exact input requests execution only; it does not establish that the behavior should apply. Absence means not executed and is never pass, skip, or not-applicable.",
+  "certification_statement": "The execution layer imports no certification function and creates no certificate. No-rescue executes only from an already-genuine exact certificate.",
+  "locked_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "protected_methodology_changes": [],
+  "protected_ids_created": [],
+  "p005_status": "UNCHANGED",
+  "p006_status": "UNCHANGED_UNRESOLVED_CONFLICT"
+}
