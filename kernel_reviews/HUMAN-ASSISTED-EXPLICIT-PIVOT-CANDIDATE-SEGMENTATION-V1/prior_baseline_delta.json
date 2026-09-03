@@ -1,0 +1,38 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1",
+  "prior_baseline_artifacts_modified": false,
+  "prior_review_manifest_count": 32,
+  "latest_prior_baseline": {
+    "baseline_id": "HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1",
+    "manifest_sha256": "8c56ece8a6aae3f25b1f85443c5839d8bd9c4624d5064e7eb9831ec9df2ca8b2"
+  },
+  "new_files": [
+    "src/elliott_methodology_kernel/explicit_pivot_candidate.py",
+    "tests/test_explicit_pivot_candidate.py",
+    "examples/explicit_pivot_candidate/README.md",
+    "examples/explicit_pivot_candidate/grouped_p004_zigzag.json",
+    "examples/explicit_pivot_candidate/pivots_only_no_inference.json"
+  ],
+  "modified_files": [
+    "src/elliott_methodology_kernel/api.py",
+    "src/elliott_methodology_kernel/__init__.py",
+    "src/elliott_runtime/manual_candidate_cli.py"
+  ],
+  "unchanged_boundaries": [
+    "Brain_LOCKED",
+    "Sources_LOCKED",
+    "all prior kernel_reviews artifacts",
+    "all executable methodology implementations",
+    "certificate algorithms and registries",
+    "bounded_manual_chart_analysis.py",
+    "human_readable_manual_candidate.py",
+    "manual_structure_candidate_builder.py",
+    "legacy MethodologyKernel.analyze"
+  ],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  }
+}

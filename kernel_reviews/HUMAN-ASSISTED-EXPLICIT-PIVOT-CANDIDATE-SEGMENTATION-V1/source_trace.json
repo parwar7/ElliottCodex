@@ -1,0 +1,18 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "pivot_classification": "CALLER_SUPPLIED_PIVOT_OBSERVATION",
+  "grouping_classification": "CALLER_SUPPLIED_STRUCTURE_DECLARATION",
+  "source_class": null,
+  "protected_principle_id": null,
+  "methodology_behavior_added": false,
+  "authority_statement": "Explicit pivots and groups are caller declarations only; they do not establish pivot discovery, wave endpoints, family, degree, methodology, or certificate authority.",
+  "fact_mapping_statement": "Only explicit role and existing manual-fact declarations generate existing manual facts.",
+  "delegation_statement": "MethodologyKernel.analyze_explicit_pivot_candidate delegates only to analyze_bounded_manual_chart.",
+  "protected_methodology_changes": [],
+  "protected_ids_created": [],
+  "p005_status": "UNCHANGED",
+  "p006_status": "UNCHANGED_UNRESOLVED_CONFLICT",
+  "locked_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "HUMAN_READABLE_EXPLICIT_PIVOT_CANDIDATE_V1",
+  "request_id": "pivots-only-request",
+  "requested_at_utc": "2026-09-03T12:00:00Z",
+  "candidate_id": "pivots-only-candidate",
+  "subject": {
+    "subject_id": "pivots-only-parent",
+    "observation_provenance_ref": "manual-chart:pivots-only"
+  },
+  "pivots": [
+    {
+      "pivot_id": "p0",
+      "timestamp_utc": "2026-09-03T08:00:00Z",
+      "observed_price": 100.0
+    },
+    {
+      "pivot_id": "p1",
+      "timestamp_utc": "2026-09-03T09:00:00Z",
+      "observed_price": 110.0
+    },
+    {
+      "pivot_id": "p2",
+      "timestamp_utc": "2026-09-03T10:00:00Z",
+      "observed_price": 105.0
+    },
+    {
+      "pivot_id": "p3",
+      "timestamp_utc": "2026-09-03T11:00:00Z",
+      "observed_price": 115.0
+    }
+  ],
+  "child_groups": [],
+  "facts": [],
+  "provenance_refs": [
+    "example:no-inference"
+  ]
+}

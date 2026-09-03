@@ -30,6 +30,11 @@ from .bounded_manual_chart_analysis import (
     BoundedManualChartAnalysisResult,
     _analyze_bounded_manual_chart,
 )
+from .explicit_pivot_candidate import (
+    ExplicitPivotCandidateBuildResult,
+    ExplicitPivotCandidateRequest,
+    _analyze_explicit_pivot_candidate,
+)
 
 
 KERNEL_VERSION = "0.1.0-phase1-contract"
@@ -109,3 +114,13 @@ class MethodologyKernel:
     ) -> BoundedManualChartAnalysisResult:
         """Run the bounded end-to-end workflow for one explicit manual candidate."""
         return _analyze_bounded_manual_chart(request, self.analyze_manual_candidate)
+
+    def analyze_explicit_pivot_candidate(
+        self,
+        request: ExplicitPivotCandidateRequest,
+    ) -> ExplicitPivotCandidateBuildResult:
+        """Build one caller-grouped pivot candidate, then reuse bounded analysis."""
+        return _analyze_explicit_pivot_candidate(
+            request,
+            self.analyze_bounded_manual_chart,
+        )

@@ -1,0 +1,18 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1",
+  "limitations": [
+    "All pivots, pivot order, child boundaries, parent/child subject IDs, behavior selectors, P004 roles, visibility, degree, and P003 relation must be supplied explicitly by a human.",
+    "The system does not detect pivots or swings, segment children, label waves, infer patterns or families, assign degrees, infer timeframe, or determine applicability.",
+    "Child groups may share an exact boundary pivot and may leave explicit gaps, but cannot overlap beyond a shared boundary or arrive out of order.",
+    "Parent pivot observations and child proposed endpoint pairs are non-authoritative observed-price transport only.",
+    "The JSON schema cannot import observations, existing bindings, operational resolutions, certificates, methodology results, validators, or constructors.",
+    "No-rescue cannot be requested through the pivot schema because genuine live certificates cannot be reconstructed from JSON.",
+    "The report is non-authoritative and cannot preserve live identity across serialization.",
+    "No recursive child analysis, multi-timeframe transport, lifecycle, ranking, visualization, TradingView, alert, or trading workflow is included.",
+    "The validated-family registry remains sealed with zero producers and zero issuances.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND and the P006 conflict remain unresolved and unchanged."
+  ],
+  "physical_immutability_enforced": false,
+  "serialized_authority_claimed": false,
+  "cross_process_authority_claimed": false
+}

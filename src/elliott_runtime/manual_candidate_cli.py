@@ -9,11 +9,16 @@ import sys
 from typing import NoReturn, TextIO
 
 from elliott_methodology_kernel import (
+    EXPLICIT_PIVOT_INPUT_SCHEMA_VERSION,
+    ExplicitPivotCandidateError,
+    ExplicitPivotCandidateRequest,
     HumanReadableManualCandidateError,
     INPUT_SCHEMA_VERSION,
     MethodologyKernel,
     SNAPSHOT_SCHEMA_VERSION,
+    parse_human_readable_explicit_pivot_candidate,
     parse_human_readable_manual_candidate,
+    render_explicit_pivot_report,
     render_manual_candidate_snapshot,
 )
 
@@ -64,7 +69,17 @@ def load_manual_candidate_file(path: str | Path):
         raise ManualCandidateCliError(
             f"Invalid JSON at line {error.lineno}, column {error.colno}: {error.msg}."
         ) from error
-    return parse_human_readable_manual_candidate(document)
+    if type(document) is not dict:
+        _fail("document must be one JSON object.")
+    version = document.get("schema_version")
+    if version == INPUT_SCHEMA_VERSION:
+        return parse_human_readable_manual_candidate(document)
+    if version == EXPLICIT_PIVOT_INPUT_SCHEMA_VERSION:
+        return parse_human_readable_explicit_pivot_candidate(document)
+    _fail(
+        "schema_version must be exactly one supported version: "
+        f"{INPUT_SCHEMA_VERSION}, {EXPLICIT_PIVOT_INPUT_SCHEMA_VERSION}."
+    )
 
 
 def _write_json(stream: TextIO, value: object) -> None:
@@ -84,10 +99,21 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     try:
         request = load_manual_candidate_file(args.input)
-        result = MethodologyKernel().analyze_bounded_manual_chart(request)
-        _write_json(sys.stdout, render_manual_candidate_snapshot(result))
+        kernel = MethodologyKernel()
+        if type(request) is ExplicitPivotCandidateRequest:
+            result = kernel.analyze_explicit_pivot_candidate(request)
+            snapshot = render_explicit_pivot_report(result)
+        else:
+            result = kernel.analyze_bounded_manual_chart(request)
+            snapshot = render_manual_candidate_snapshot(result)
+        _write_json(sys.stdout, snapshot)
         return 0
-    except (ManualCandidateCliError, TypeError, ValueError) as error:
+    except (
+        ExplicitPivotCandidateError,
+        ManualCandidateCliError,
+        TypeError,
+        ValueError,
+    ) as error:
         _write_json(
             sys.stderr,
             {"error": "INVALID_MANUAL_CANDIDATE_INPUT", "message": str(error)},

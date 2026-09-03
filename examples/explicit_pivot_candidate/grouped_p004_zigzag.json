@@ -1,0 +1,89 @@
+{
+  "schema_version": "HUMAN_READABLE_EXPLICIT_PIVOT_CANDIDATE_V1",
+  "request_id": "explicit-pivot-example-request",
+  "requested_at_utc": "2026-09-03T12:00:00Z",
+  "candidate_id": "explicit-pivot-example-candidate",
+  "subject": {
+    "subject_id": "explicit-parent",
+    "observation_provenance_ref": "manual-chart:explicit-parent"
+  },
+  "pivots": [
+    {
+      "pivot_id": "p0",
+      "timestamp_utc": "2026-09-03T08:00:00Z",
+      "observed_price": 100.0,
+      "provenance_refs": ["manual-pivot:p0"]
+    },
+    {
+      "pivot_id": "p1",
+      "timestamp_utc": "2026-09-03T09:00:00Z",
+      "observed_price": 110.0,
+      "provenance_refs": ["manual-pivot:p1"]
+    },
+    {
+      "pivot_id": "p2",
+      "timestamp_utc": "2026-09-03T10:00:00Z",
+      "observed_price": 105.0,
+      "provenance_refs": ["manual-pivot:p2"]
+    },
+    {
+      "pivot_id": "p3",
+      "timestamp_utc": "2026-09-03T11:00:00Z",
+      "observed_price": 115.0,
+      "provenance_refs": ["manual-pivot:p3"]
+    }
+  ],
+  "child_groups": [
+    {
+      "group_id": "g1",
+      "subject": {
+        "subject_id": "explicit-child-1",
+        "observation_provenance_ref": "manual-chart:explicit-child-1"
+      },
+      "start_pivot_id": "p0",
+      "end_pivot_id": "p1",
+      "provenance_refs": ["manual-group:g1"]
+    },
+    {
+      "group_id": "g2",
+      "subject": {
+        "subject_id": "explicit-child-2",
+        "observation_provenance_ref": "manual-chart:explicit-child-2"
+      },
+      "start_pivot_id": "p1",
+      "end_pivot_id": "p2",
+      "provenance_refs": ["manual-group:g2"]
+    },
+    {
+      "group_id": "g3",
+      "subject": {
+        "subject_id": "explicit-child-3",
+        "observation_provenance_ref": "manual-chart:explicit-child-3"
+      },
+      "start_pivot_id": "p2",
+      "end_pivot_id": "p3",
+      "provenance_refs": ["manual-group:g3"]
+    }
+  ],
+  "binding_id": "explicit-three-child-binding",
+  "facts": [
+    {
+      "type": "P004_PIVOT_ROLE",
+      "candidate_scope": "NORMAL_IMPULSE",
+      "direction": "UP",
+      "wave1_origin_pivot_id": "p0",
+      "wave2_end_pivot_id": "p2"
+    },
+    {
+      "type": "DIRECT_CHILD_CARDINALITY",
+      "behavior": "SINGLE_ZIGZAG"
+    },
+    {
+      "type": "P023_VISIBILITY",
+      "visibility_state": "VISIBLE"
+    }
+  ],
+  "provenance_refs": [
+    "example:human-assisted-explicit-pivots"
+  ]
+}

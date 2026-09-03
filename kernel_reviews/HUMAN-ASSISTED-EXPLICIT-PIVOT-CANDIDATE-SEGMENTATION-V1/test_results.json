@@ -1,0 +1,24 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1",
+  "python_version": "3.12.10",
+  "focused_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_explicit_pivot_candidate.py'",
+  "focused_tests_run": 25,
+  "focused_passes": 25,
+  "focused_failures": 0,
+  "focused_errors": 0,
+  "full_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_*.py'",
+  "full_tests_run": 591,
+  "full_passes": 591,
+  "full_failures": 0,
+  "full_errors": 0,
+  "full_skipped": 0,
+  "adversarial_audit": "PASS",
+  "hardening": [
+    "Strictly increasing UTC timestamps, unique pivot IDs and identities, exact group references, ordered non-overlap, and explicit binding IDs fail closed.",
+    "Low-level mutations of pivots, declarations, constructed bindings, bounded objects, parent observations, and child endpoint pairs are rejected on reuse.",
+    "P004 requires exact pivot-role references; pivot position alone creates no fact.",
+    "Child count creates no behavior; cardinality, P023, degree, and P003 remain explicit-only.",
+    "The CLI rejects unknown fields, duplicate keys, unknown pivot references, unknown fact types, direct price-based P004 declarations, and certificate-shaped authority.",
+    "The prior CLI schema remains backward-compatible and the pivot module contains no validator dispatch, certification, external capability, discovery, inference, ranking, or trading logic."
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "KERNEL_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "pivot_classification": "CALLER_SUPPLIED_PIVOT_OBSERVATION",
+  "grouping_classification": "CALLER_SUPPLIED_STRUCTURE_DECLARATION",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "public_surface": {
+    "module": "elliott_methodology_kernel.explicit_pivot_candidate",
+    "api_method": "MethodologyKernel.analyze_explicit_pivot_candidate",
+    "request_type": "ExplicitPivotCandidateRequest",
+    "result_type": "ExplicitPivotCandidateBuildResult",
+    "support_types": [
+      "ExplicitPivotObservation",
+      "ExplicitPivotChildGroup",
+      "ExplicitP004PivotRole",
+      "ExplicitPivotCandidateError"
+    ],
+    "request_fields": [
+      "request_id",
+      "requested_at_utc",
+      "candidate_id",
+      "parent_subject",
+      "ordered_pivots",
+      "ordered_child_groups",
+      "binding_id",
+      "manual_fact_declarations",
+      "provenance_refs"
+    ],
+    "result_fields": [
+      "request",
+      "child_binding",
+      "parent_pivot_observations",
+      "child_endpoint_pairs",
+      "generated_manual_facts",
+      "bounded_request",
+      "bounded_result",
+      "provenance_refs"
+    ]
+  },
+  "pivot_contract": {
+    "fields": [
+      "pivot_id",
+      "timestamp_utc",
+      "observed_price",
+      "provenance_refs"
+    ],
+    "pivot_id_authority": false,
+    "timestamp": "EXPLICIT_VALID_ISO8601_UTC_ENDING_Z",
+    "price": "EXPLICIT_FINITE_INT_OR_FLOAT_NO_COERCION",
+    "sequence": "CALLER_ORDER_PRESERVED_STRICTLY_INCREASING_TIMESTAMPS",
+    "duplicate_timestamp": "REJECTED",
+    "out_of_order": "REJECTED_WITHOUT_SORTING",
+    "duplicate_pivot_id": "REJECTED",
+    "duplicate_pivot_identity": "REJECTED",
+    "discovery": false,
+    "endpoint_authority": false,
+    "orthodox_endpoint_authority": false
+  },
+  "grouping_contract": {
+    "fields": [
+      "group_id",
+      "parent_subject",
+      "child_subject",
+      "start_pivot",
+      "end_pivot",
+      "provenance_refs"
+    ],
+    "boundary_representation": "EXACT_START_AND_END_PIVOT_IDENTITIES",
+    "foreign_or_unknown_pivots": "REJECTED",
+    "missing_boundary": "REJECTED",
+    "backward_or_zero_length_group": "REJECTED",
+    "shared_boundary": "ALLOWED",
+    "overlap_beyond_shared_boundary": "REJECTED",
+    "explicit_gaps": "PRESERVED_WITHOUT_FILLING",
+    "automatic_group_creation": false,
+    "automatic_segmentation": false,
+    "family_proof": false
+  },
+  "subject_binding_contract": {
+    "parent_subject": "EXACT_CALLER_CONSTRUCTED_SUBJECT",
+    "child_subjects": "EXACT_EXPLICIT_GROUP_SUBJECTS_ONLY",
+    "subject_identity_from_timestamp_price_position_or_count": false,
+    "binding_type": "OrderedChildBinding",
+    "binding_id": "EXPLICIT_REQUIRED_WHEN_GROUPS_EXIST",
+    "child_order": "EXACT_GROUP_ORDER",
+    "wave_position_inference": false,
+    "family_inference": false,
+    "completion_inference": false,
+    "required_child_completeness_inference": false
+  },
+  "observation_contract": {
+    "parent_pivot_mapping": "ONE_EXACT_SUBJECT_BOUND_OBSERVED_PRICE_OBSERVATION_PER_PIVOT",
+    "child_group_mapping": "ONE_EXACT_SUBJECT_BOUND_OBSERVED_PRICE_ENDPOINT_PAIR_PER_EXPLICIT_GROUP",
+    "parent_attachments_passed_downstream": true,
+    "child_endpoint_pairs_retained_in_build_result": true,
+    "exact_price_retained": true,
+    "structural_endpoint_authority": false,
+    "orthodox_endpoint_authority": false,
+    "direction_authority": false
+  },
+  "manual_fact_mapping": {
+    "order": "EXACT_DECLARATION_ORDER",
+    "p004": "EXPLICIT_P004_PIVOT_ROLE_REFERENCES_REQUIRED",
+    "p004_first_last_inference": false,
+    "cardinality": "EXPLICIT_EXISTING_SELECTOR_REQUIRED",
+    "cardinality_from_group_count": false,
+    "p023": "EXPLICIT_EXISTING_VISIBILITY_DECLARATION_ONLY",
+    "p023_from_pivot_count_or_detail": false,
+    "degree": "EXPLICIT_EXISTING_MANUAL_FACTS_ONLY",
+    "degree_from_timing_spacing_or_duration": false,
+    "p003": "EXPLICIT_EXISTING_RELATION_DECLARATION_ONLY",
+    "p003_from_price_direction": false,
+    "p005_or_p006_inputs": false,
+    "certificate_construction": false
+  },
+  "delegation": {
+    "chain": [
+      "ExplicitPivotCandidateRequest",
+      "MethodologyKernel.analyze_explicit_pivot_candidate",
+      "BoundedManualChartAnalysisRequest",
+      "MethodologyKernel.analyze_bounded_manual_chart",
+      "existing bounded manual candidate pipeline"
+    ],
+    "exact_bounded_request_retained": true,
+    "exact_bounded_result_retained": true,
+    "direct_validator_dispatch": false,
+    "direct_methodology_execution": false,
+    "certificate_issuance": false
+  },
+  "cli_contract": {
+    "existing_command": "elliott-manual-candidate",
+    "new_schema_version": "HUMAN_READABLE_EXPLICIT_PIVOT_CANDIDATE_V1",
+    "prior_schema_version": "HUMAN_READABLE_MANUAL_CANDIDATE_CLI_V1",
+    "prior_schema_backward_compatible": true,
+    "version_dispatch": "EXACT_AND_UNAMBIGUOUS",
+    "pivot_references": "PIVOT_ID_RESOLVED_TO_EXACT_LIVE_OBJECT_FROM_SAME_DOCUMENT",
+    "unknown_fields": "REJECTED",
+    "duplicate_json_keys": "REJECTED_BY_EXISTING_LOADER",
+    "unknown_pivot_ids": "REJECTED",
+    "direct_price_p004_in_pivot_schema": "REJECTED",
+    "serialized_certificates": "REJECTED",
+    "report_schema": "EXPLICIT_PIVOT_CANDIDATE_REPORT_V1",
+    "report_authority": "NON_AUTHORITATIVE_REPORTING_VIEW",
+    "report_reloadable_as_authority": false
+  },
+  "security_and_scope": {
+    "exact_types": true,
+    "mapping_duck_subclass_substitution": "REJECTED_AT_TYPED_BOUNDARIES",
+    "pickle_authority": "REJECTED",
+    "low_level_mutation": "FAIL_CLOSED_ON_REUSE_OR_REPORT",
+    "eval_or_exec": false,
+    "dynamic_import": false,
+    "callable_injection": false,
+    "arbitrary_module_path": false,
+    "network_or_process_capability": false,
+    "pivot_or_swing_detection": false,
+    "wave_detection_or_labeling": false,
+    "pattern_or_family_inference": false,
+    "degree_or_timeframe_inference": false,
+    "indicator_logic": false,
+    "ranking_logic": false,
+    "trading_logic": false
+  },
+  "inventory_at_checkpoint": {
+    "executable_methodology": 10,
+    "structural_invalidity_registry_sealed": true,
+    "structural_invalidity_producers": 7,
+    "validated_family_registry_sealed": true,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p005": "UNCHANGED",
+    "p006": "UNCHANGED_UNRESOLVED_CONFLICT",
+    "source_derived_base_case_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_methodology_kernel_analyze": "NOT_IMPLEMENTED"
+  },
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/explicit_pivot_candidate.py",
+      "byte_length": 38213,
+      "sha256": "b7bc0840cc2127f5268943bd7d0bfe270879bcd59f960cb503c15b1b78bde14f"
+    },
+    {
+      "path": "tests/test_explicit_pivot_candidate.py",
+      "byte_length": 22870,
+      "sha256": "0cef300e5839f90c970879286497721fbe2eb90b9a958fc24659aadcefe41081"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/api.py",
+      "byte_length": 4593,
+      "sha256": "1f8c34a42f551265af2e7cb45b07e3bdc10891d06bea029f29144dce869fff39"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 11289,
+      "sha256": "76127e0a87d40d60d8ba5b082b332a02a707f4686495aba6645f7a406b743511"
+    },
+    {
+      "path": "src/elliott_runtime/manual_candidate_cli.py",
+      "byte_length": 4679,
+      "sha256": "1e57b5668d96cf90f7ef23e4b0e8de1820135338b5b973caa2a01149a1239a4c"
+    },
+    {
+      "path": "examples/explicit_pivot_candidate/README.md",
+      "byte_length": 1044,
+      "sha256": "fdb09c9354c8885f58be4fa77c59c9c617f018f6df7e9bba3b8e84d1c0cf08db"
+    },
+    {
+      "path": "examples/explicit_pivot_candidate/grouped_p004_zigzag.json",
+      "byte_length": 2356,
+      "sha256": "7df0047834f721933dbc536d9091dbc16f68a480b823282883bebe2ddcd83775"
+    },
+    {
+      "path": "examples/explicit_pivot_candidate/pivots_only_no_inference.json",
+      "byte_length": 884,
+      "sha256": "0649d48178afdd15f9895129bd9090d02164bb5ab30e5246d10d22b886444f4e"
+    }
+  ],
+  "unchanged_pipeline_contracts": [
+    {
+      "path": "src/elliott_methodology_kernel/bounded_manual_chart_analysis.py",
+      "byte_length": 21677,
+      "sha256": "da2b99383c4b9281101b48ea337d574d79bd09b3910c494fa5c737e5223bce2f"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/human_readable_manual_candidate.py",
+      "byte_length": 13315,
+      "sha256": "8d2fc75ad9dc0a0e4fdfe6fe279a41aaa92c62cf3c7cdf879c39315cc83fdadf"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/manual_structure_candidate_builder.py",
+      "byte_length": 30746,
+      "sha256": "b59caa15d4bac404e0dc79d5e5ac4cc8ba95bbc697a60f3ba9e76ef58ffd6c74"
+    }
+  ],
+  "baseline_artifacts": [
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/BASELINE_README.md",
+      "byte_length": 2488,
+      "sha256": "62e75f0fffeee5683f6e123c7693e269c0a6294d5c2745cd599480e1a6593e0d"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/known_limitations.json",
+      "byte_length": 1584,
+      "sha256": "c2cf47e61ae785f7625360e578bff7e2083f5592d899938e61142d86b6cde1f0"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/prior_baseline_delta.json",
+      "byte_length": 1394,
+      "sha256": "7adadbdbac5a2eb47b01fc9a1d5cbaeb8cca7007663d4c383490b4eecbf01b71"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/source_trace.json",
+      "byte_length": 1090,
+      "sha256": "ae8e5e0afaf5098f3e71dd2f88de6249a2baf3cf2500d599bb4fc04d6df5d269"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/test_results.json",
+      "byte_length": 1609,
+      "sha256": "79eafbe743fb2d90e953d8d0a5c02c2f2094abf9dd4d4681d591b4e81a0c16ba"
+    }
+  ],
+  "prior_review_manifest_count": 32,
+  "prior_review_manifests_modified": false,
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatch_count": 0
+  },
+  "protected_sources": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21,
+    "mismatch_count": 0
+  },
+  "tests": {
+    "focused": 25,
+    "focused_passes": 25,
+    "full": 591,
+    "full_passes": 591,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "adversarial_audit": "PASS"
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, hostile same-process isolation, cryptographic authenticity, serialized authority, or durable cross-process identity is claimed."
+}
