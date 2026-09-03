@@ -1,0 +1,15 @@
+{
+  "review_id": "FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1",
+  "authority_status": "PENDING_SOURCE_MANIFEST_ACTIVATION",
+  "terminal_base_conflicts": [],
+  "material_conflict_found": false,
+  "ambiguities": [
+    {"id":"SIMPLEST_EXPRESSION_AMBIGUITY","page":122,"classification":"UNRESOLVED","description":"The phrase 'simplest expression' could be overread as terminal, but the passage supplies no Elliott-family qualification, completion boundary, or proof-stopping permission and states that the sequence can extend to infinity.","resolution":"Do not treat it as a terminal family primitive."}
+  ],
+  "p005_p006_incidental_leads": [
+    {"label":"INCIDENTAL_P005_P006_SOURCE_LEAD","principle":"P005","page":31,"description":"The book distinguishes percentage-movement satisfaction from an arithmetic-basis tendency. This is only a lead; existing measurement, direction, tie, timing, tolerance, and basis-disagreement questions remain frozen."},
+    {"label":"INCIDENTAL_P005_P006_SOURCE_LEAD","principle":"P006","page":31,"description":"The book states the cash-market overlap rule and discusses rare short-term futures extremes. This is only a lead; the existing protected-source conflict and equality, direction, timing, and orthodox-end gaps remain frozen."}
+  ],
+  "p005_status_changed": false,
+  "p006_status_changed": false
+}

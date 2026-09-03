@@ -1,0 +1,28 @@
+{
+  "review_id": "FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1",
+  "authority_status": "PENDING_SOURCE_MANIFEST_ACTIVATION",
+  "extraction": {
+    "method": "Local Windows PDF rendering plus Windows OCR; no network or external Elliott source used.",
+    "pdf_page_count": 256,
+    "embedded_text_layer_available": false,
+    "review_scope": "Terminal/base recursion, subdivision, degree, visibility, and completion only."
+  },
+  "book_locators": [
+    {"pages":[19,23,24,25],"topic":"recursive compound construction and constant form across degree"},
+    {"pages":[26,27,28],"topic":"indefinite lesser-degree subdivision, component waves, infinite degree progression, developing-degree uncertainty"},
+    {"pages":[41,52],"topic":"completion-dependent corrective recognition and premature triangle completion"},
+    {"pages":[60,61],"topic":"smaller-than-Subminuette transaction data and dependence on accurate price records"},
+    {"pages":[77,78],"topic":"shorter-term charts when larger pictures are unclear"},
+    {"pages":[92,95,96],"topic":"nonmechanical analysis, alternatives, and post-identification invalidation"},
+    {"page":122,"topic":"simplest mathematical expressions and sequence extending to infinity"},
+    {"page":127,"topic":"families and an open-ended tree of structural complexity"}
+  ],
+  "video_locators": [
+    {"source":"Volume 2 transcript","path":"volume_02/volume_02.srt","sha256":"d058141fa74cbe53baf8fcf1eb81dd419b4c54b40bc88b3c5bd9e4d928d1119d","locator":"00:22:49.640-00:23:09.320"},
+    {"source":"Volume 4 transcript","path":"volume_04/volume_04","sha256":"52c825b8cb1eaa915660a6afb105425d6c2947f45ead0fb1f3742e3e2b67789d","locators":["00:02:29.270-00:02:58.410","00:15:31.510-00:15:45.530"]},
+    {"source":"Volume 8 transcript","path":"volume_08/volume_08.srt","sha256":"038fdb559d13250f0eddce4c3be1e40c0c5b1a87c8ea39caddb2435964e0a2b8","locator":"00:07:00.990-00:08:05.970"},
+    {"source":"Volume 10 transcript","path":"volume_10/volume_10.txt","sha256":"624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25","locator":"00:01:18.480-00:03:54.920"}
+  ],
+  "external_sources_used": false,
+  "model_memory_used": false
+}

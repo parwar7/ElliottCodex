@@ -1,0 +1,112 @@
+{
+  "manifest_version": 1,
+  "source_root": "C:\\ElliottCodex\\Sources_LOCKED",
+  "file_count": 21,
+  "files": [
+    {
+      "relative_path": "volume_01\\Volume_01.mp4",
+      "bytes": 275486763,
+      "sha256": "9c809e464236aa4a3da0fa617fc9fc629e0c3b3ed5d645ef4c4af06ecea9bc00"
+    },
+    {
+      "relative_path": "volume_01\\Volume_01.srt",
+      "bytes": 189666,
+      "sha256": "c005460d847e2170595435dadc379444acca667c9ad0006969295b18915656ff"
+    },
+    {
+      "relative_path": "volume_02\\volume_02.mp4",
+      "bytes": 73006721,
+      "sha256": "5b8b766c4bffa5bce74a102489117090b3da11950ad494ef0645f8caa2fc1689"
+    },
+    {
+      "relative_path": "volume_02\\volume_02.srt",
+      "bytes": 49400,
+      "sha256": "d058141fa74cbe53baf8fcf1eb81dd419b4c54b40bc88b3c5bd9e4d928d1119d"
+    },
+    {
+      "relative_path": "volume_03\\volume_03.mp4",
+      "bytes": 83578275,
+      "sha256": "456bc8adf3cd597912775a51356142f5413b9af89e9582ef38084939ef01083c"
+    },
+    {
+      "relative_path": "volume_03\\volume_03.srt",
+      "bytes": 45347,
+      "sha256": "6cfbec4d3ac9af0e8a70414a5a2b7eb6884678eb59f929b2bf3614708a2568ba"
+    },
+    {
+      "relative_path": "volume_04\\volume_04",
+      "bytes": 40509,
+      "sha256": "52c825b8cb1eaa915660a6afb105425d6c2947f45ead0fb1f3742e3e2b67789d"
+    },
+    {
+      "relative_path": "volume_04\\volume_04.mp4",
+      "bytes": 109784582,
+      "sha256": "693176803827b7fd0b43ef70a8f89b6934b1f78b97195a3ba4aa62325de2cefb"
+    },
+    {
+      "relative_path": "volume_05\\volume_05.mp4",
+      "bytes": 152544683,
+      "sha256": "2ce6b5f5028898a63b94d278cee9a7a43c9bcbe45321f2cb5178958aac7b64c5"
+    },
+    {
+      "relative_path": "volume_05\\volume_05.srt",
+      "bytes": 41056,
+      "sha256": "2d8c8f5abec3d4ad42f36d58667ac7cd652d70e8e3743288dc918eebe2d3f50f"
+    },
+    {
+      "relative_path": "volume_06\\volume_06.mp4",
+      "bytes": 117727338,
+      "sha256": "1755c2a08462cdcc13e6d416125fe994cf4bbf346fd9cb2219d4e558e4ee861f"
+    },
+    {
+      "relative_path": "volume_06\\volume_06.srt",
+      "bytes": 44947,
+      "sha256": "6444bb436b3781bfdfaa174da21ff35f7685d64981548c8f2478975526eb974b"
+    },
+    {
+      "relative_path": "volume_07\\volume_07.mp4",
+      "bytes": 79056254,
+      "sha256": "095d88355b758bb299b2731ab23f648f91f8da23c916d0ee4cbd71720b1377f7"
+    },
+    {
+      "relative_path": "volume_07\\volume_07.srt",
+      "bytes": 38450,
+      "sha256": "5d80cafb6abb09abd86c012671cb8ba1abeaa160c7b9e506a19b03ec7b433571"
+    },
+    {
+      "relative_path": "volume_08\\volume_08.mp4",
+      "bytes": 153179411,
+      "sha256": "e32a8d384138923c2fe28da42188dcfc494b3e71aeddacb0cdd1d807e386179a"
+    },
+    {
+      "relative_path": "volume_08\\volume_08.srt",
+      "bytes": 49300,
+      "sha256": "038fdb559d13250f0eddce4c3be1e40c0c5b1a87c8ea39caddb2435964e0a2b8"
+    },
+    {
+      "relative_path": "volume_09\\volume_09.mp4",
+      "bytes": 124344053,
+      "sha256": "37618b8e403740366c9ade8b33338f6cb9cbe79a08273774249f7abf56d95484"
+    },
+    {
+      "relative_path": "volume_09\\volume_09.srt",
+      "bytes": 115575,
+      "sha256": "7c969bfe9715b7951e2d7c27e066280d9dadfbec1f5e49d36bc6d2dd9431cc85"
+    },
+    {
+      "relative_path": "volume_10\\volume_10.mp4",
+      "bytes": 104994994,
+      "sha256": "443ef09e3a4cfa5d6a6cb2ec3a7b7906fb9fded54bca13962f2f8ea80b0a15bf"
+    },
+    {
+      "relative_path": "volume_10\\volume_10.txt",
+      "bytes": 114279,
+      "sha256": "624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25"
+    },
+    {
+      "relative_path": "book_frost_prechter\\Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "bytes": 69874756,
+      "sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+    }
+  ]
+}

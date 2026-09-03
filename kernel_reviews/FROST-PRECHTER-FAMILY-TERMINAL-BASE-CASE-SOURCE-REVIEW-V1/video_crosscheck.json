@@ -1,0 +1,13 @@
+{
+  "review_id": "FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1",
+  "authority_status": "PENDING_SOURCE_MANIFEST_ACTIVATION",
+  "comparisons": [
+    {"book_finding":"Indefinite lesser-degree subdivision and infinite degree progression (pages 26-27).","video_evidence":"Volume 10 00:01:18.480-00:03:54.920 treats small wiggles as relevant and warns that bars conceal structure.","relation":"ADDS_NEW_AUTHORITY","reason":"The book makes the theoretical infinite/indefinite statement explicit; the video supplies compatible observation-resolution discipline."},
+    {"book_finding":"Use transaction or shorter-term data to see smaller subdivisions (pages 60, 77-78).","video_evidence":"Volume 2 00:22:49.640-00:23:09.320 says finer charts reveal subdivisions hidden on daily data.","relation":"CORROBORATES_VIDEO"},
+    {"book_finding":"Corrective recognition may remain uncertain until completion (page 41).","video_evidence":"Volume 4 pattern passages describe hidden subdivisions and contextual completion without a general completion test.","relation":"CORROBORATES_VIDEO"},
+    {"book_finding":"A pattern assumed complete may later be refuted by price action (pages 95-96).","video_evidence":"Volume 8 00:07:00.990-00:08:05.970 uses 'when it is over' only after a valid count is presumed.","relation":"CORROBORATES_VIDEO"},
+    {"book_finding":"Straight lines are simplest mathematical expressions (page 122).","video_evidence":"No approved video authorizes a straight-line family primitive.","relation":"VIDEO_SILENT"}
+  ],
+  "material_conflict_found": false,
+  "overall_result": "BOOK_AND_VIDEO_DO_NOT_AUTHORIZE_A_NONCIRCULAR_POSITIVE_BASE_CASE"
+}

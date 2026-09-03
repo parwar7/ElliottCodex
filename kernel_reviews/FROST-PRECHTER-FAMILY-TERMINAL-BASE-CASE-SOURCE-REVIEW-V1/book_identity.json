@@ -1,0 +1,21 @@
+{
+  "review_id": "FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1",
+  "source_kind": "BOOK",
+  "title": "Elliott Wave Principle — Key to Market Behavior",
+  "authors": ["A.J. Frost", "Robert R. Prechter, Jr."],
+  "edition_metadata_requested": "20th Anniversary Edition / 1998 publisher-note evidence",
+  "artifact_front_matter_evidence": {
+    "pdf_page_2": "Copyright 1978-2006; Tenth Edition: 2005; ISBN 978-0-932750-75-4.",
+    "pdf_page_3": "Publisher's Note for the 20th Anniversary Edition (1998)."
+  },
+  "original_user_supplied_filename": "652683649-A-J-Frost-Robert-R-Prechter-Elliott-Wave-ENGLISH.pdf",
+  "protected_path": "C:\\ElliottCodex\\Sources_LOCKED\\book_frost_prechter\\Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+  "byte_length": 69874756,
+  "sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+  "approval_status": "EXPLICIT_USER_APPROVAL",
+  "approval_provenance": "The user explicitly approved this exact protected artifact and identity for methodology-source use in the instruction authorizing this review.",
+  "approval_date": "2026-09-03",
+  "methodology_use_authorized": true,
+  "protected_manifest_membership": false,
+  "review_authority_status": "PENDING_SOURCE_MANIFEST_ACTIVATION"
+}

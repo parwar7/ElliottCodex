@@ -1,0 +1,10 @@
+{
+  "review_id": "FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1",
+  "protected_manifest_updated": false,
+  "current_protected_manifest_sha256": "61887c8ebabd990c669637df8ccf2975e7028c17e9b428d1a9181d1ef986cbdd",
+  "current_protected_source_count": 20,
+  "proposed_source_count": 21,
+  "book_review_authority_status": "PENDING_SOURCE_MANIFEST_ACTIVATION",
+  "proposed_manifest_path": "C:\\ElliottCodex\\Runtime_WORKSPACE\\source_staging\\SOURCE_MANIFEST.proposed.json",
+  "administrator_apply_instructions_path": "C:\\ElliottCodex\\Runtime_WORKSPACE\\source_staging\\SOURCE_MANIFEST_APPLY_INSTRUCTIONS.txt"
+}

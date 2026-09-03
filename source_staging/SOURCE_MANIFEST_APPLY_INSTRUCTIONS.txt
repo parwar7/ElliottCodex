@@ -1,0 +1,32 @@
+SOURCE_MANIFEST APPLY PROCEDURE — RUN ONLY IN AN ADMINISTRATOR POWERSHELL
+
+This procedure does not change ACLs. It refuses to proceed if the protected
+manifest or approved book has changed. Metadata not representable in the
+existing three-field source-entry schema is preserved in the accompanying
+review package's book_identity.json.
+
+$ErrorActionPreference = 'Stop'
+$oldManifest = 'C:\ElliottCodex\Sources_LOCKED\SOURCE_MANIFEST.json'
+$proposedManifest = 'C:\ElliottCodex\Runtime_WORKSPACE\source_staging\SOURCE_MANIFEST.proposed.json'
+$book = 'C:\ElliottCodex\Sources_LOCKED\book_frost_prechter\Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf'
+$backup = 'C:\ElliottCodex\Sources_LOCKED\SOURCE_MANIFEST.pre-frost-prechter-book.backup.json'
+$expectedOldHash = '61887c8ebabd990c669637df8ccf2975e7028c17e9b428d1a9181d1ef986cbdd'
+$expectedProposedHash = 'ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089'
+$expectedBookHash = 'c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e'
+$expectedBookBytes = 69874756
+
+if ((Get-FileHash -Algorithm SHA256 -LiteralPath $oldManifest).Hash.ToLowerInvariant() -ne $expectedOldHash) { throw 'Protected manifest identity changed; stop.' }
+if ((Get-FileHash -Algorithm SHA256 -LiteralPath $book).Hash.ToLowerInvariant() -ne $expectedBookHash) { throw 'Approved book hash mismatch; stop.' }
+if ((Get-Item -LiteralPath $book).Length -ne $expectedBookBytes) { throw 'Approved book byte length mismatch; stop.' }
+if ((Get-FileHash -Algorithm SHA256 -LiteralPath $proposedManifest).Hash.ToLowerInvariant() -ne $expectedProposedHash) { throw 'Proposed manifest identity mismatch; stop.' }
+if ((Get-Content -Raw -LiteralPath $oldManifest | ConvertFrom-Json).files.Count -ne 20) { throw 'Protected manifest does not contain 20 entries; stop.' }
+if ((Get-Content -Raw -LiteralPath $proposedManifest | ConvertFrom-Json).files.Count -ne 21) { throw 'Proposed manifest does not contain 21 entries; stop.' }
+if (Test-Path -LiteralPath $backup) { throw 'Backup path already exists; stop rather than overwrite it.' }
+
+Copy-Item -LiteralPath $oldManifest -Destination $backup
+Copy-Item -LiteralPath $proposedManifest -Destination $oldManifest -Force
+
+if ((Get-FileHash -Algorithm SHA256 -LiteralPath $oldManifest).Hash.ToLowerInvariant() -ne $expectedProposedHash) { throw 'Installed manifest hash verification failed.' }
+if ((Get-Content -Raw -LiteralPath $oldManifest | ConvertFrom-Json).files.Count -ne 21) { throw 'Installed manifest entry-count verification failed.' }
+
+Write-Output "SOURCE_MANIFEST activated with 21 entries; ACLs were not changed."
