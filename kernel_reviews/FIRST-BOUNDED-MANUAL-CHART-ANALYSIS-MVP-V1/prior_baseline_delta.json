@@ -1,0 +1,39 @@
+{
+  "baseline_id": "FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1",
+  "prior_baseline_artifacts_modified": false,
+  "prior_review_manifest_count": 30,
+  "latest_prior_baseline": {
+    "baseline_id": "MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1",
+    "manifest_sha256": "1c2dfd81ed8f6d9de583276398418a05faf8b2af9aad10cc45b280007f4e02b4"
+  },
+  "new_files": [
+    "src/elliott_methodology_kernel/bounded_manual_chart_analysis.py",
+    "tests/test_bounded_manual_chart_analysis.py"
+  ],
+  "modified_files": [
+    "src/elliott_methodology_kernel/__init__.py",
+    "src/elliott_methodology_kernel/api.py"
+  ],
+  "unchanged_boundaries": [
+    "Brain_LOCKED",
+    "Sources_LOCKED",
+    "all prior kernel_reviews artifacts",
+    "all methodology behavior implementations",
+    "certificate algorithms and registries",
+    "bounded_recursive_analysis.py",
+    "candidate_analysis_envelope.py",
+    "single_candidate_orchestration.py",
+    "explicit_behavior_execution.py",
+    "manual_structure_candidate_builder.py",
+    "models.py",
+    "protected schemas",
+    "legacy MethodologyKernel.analyze",
+    "all existing downstream API semantics"
+  ],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  }
+}

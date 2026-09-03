@@ -1,0 +1,267 @@
+{
+  "baseline_id": "FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "KERNEL_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "api": {
+    "method": "MethodologyKernel.analyze_bounded_manual_chart",
+    "request_type": "BoundedManualChartAnalysisRequest",
+    "result_type": "BoundedManualChartAnalysisResult",
+    "delegates_only_to": "MethodologyKernel.analyze_manual_candidate",
+    "downstream_chain": [
+      "MethodologyKernel.analyze_manual_candidate",
+      "MethodologyKernel.analyze_candidate_inputs",
+      "MethodologyKernel.analyze_candidate"
+    ],
+    "direct_validator_dispatch": false,
+    "input_builder_table": false,
+    "legacy_analyze": "UNCHANGED_NOT_IMPLEMENTED",
+    "downstream_semantics": "UNCHANGED"
+  },
+  "public_surface": {
+    "module": "elliott_methodology_kernel.bounded_manual_chart_analysis",
+    "package_root_reexport": true,
+    "types": [
+      "BoundedManualChartAnalysisRequest",
+      "BoundedManualChartAnalysisResult",
+      "BoundedManualChartAnalysisError",
+      "BoundedManualChartFinalSummary",
+      "BoundedManualChartCoverageState",
+      "BoundedManualChartCoverage",
+      "BoundedManualChartTrace"
+    ],
+    "request_fields": [
+      "request_id",
+      "requested_at_utc",
+      "subject",
+      "candidate_id",
+      "manual_behavior_facts",
+      "child_binding",
+      "ordered_child_subjects",
+      "constructed_binding_id",
+      "trusted_invalidity_certificates",
+      "no_rescue_requested",
+      "observations",
+      "operational_resolution",
+      "provenance_refs"
+    ],
+    "result_fields": [
+      "request_id",
+      "subject",
+      "candidate_id",
+      "manual_build_result",
+      "explicit_execution_result",
+      "candidate_analysis_result",
+      "final_summary",
+      "methodology_coverage",
+      "traceability",
+      "unresolved_reasons",
+      "structural_invalidity_certificates",
+      "provenance_refs"
+    ],
+    "certifiers": [],
+    "issuers": [],
+    "producers": [],
+    "registries": []
+  },
+  "final_summary_policy": {
+    "states": [
+      "STRUCTURALLY_INVALID",
+      "UNRESOLVED",
+      "CURRENT_SUPPLIED_SCOPE_REVIEWED"
+    ],
+    "precedence": [
+      "GENUINE_EXACT_RETAINED_STRUCTURAL_INVALIDITY_CERTIFICATE",
+      "DOWNSTREAM_OR_DEPENDENCY_UNRESOLVED_STATE",
+      "CURRENT_SUPPLIED_SCOPE_REVIEWED"
+    ],
+    "zero_manual_facts": "UNRESOLVED",
+    "uncertified_fatal_result": "UNRESOLVED",
+    "reviewed_limit": "At least one supplied evaluation executed and the current supplied scope has no certified invalidity or unresolved blocker; no validity, completeness, correctness, confirmation, family, rank, or trade authority is implied."
+  },
+  "coverage_policy": {
+    "record_count": 10,
+    "order": "EXACT_CANDIDATE_ENVELOPE_CANONICAL_BEHAVIOR_ORDER",
+    "states": [
+      "SUPPLIED_AND_EXECUTED",
+      "NOT_SUPPLIED",
+      "BLOCKED_MISSING_TRUSTED_DEPENDENCY"
+    ],
+    "pass_state": false,
+    "applicability_inferred": false,
+    "not_supplied_means_pass": false,
+    "public_record_fields": [
+      "behavior_id",
+      "state"
+    ]
+  },
+  "no_rescue_dependency_policy": {
+    "flag": "no_rescue_requested",
+    "certificate_required_when_requested": true,
+    "missing_certificate_reason": "MISSING_TRUSTED_STRUCTURAL_INVALIDITY_CERTIFICATE",
+    "missing_certificate_summary": "UNRESOLVED",
+    "missing_certificate_coverage": "BLOCKED_MISSING_TRUSTED_DEPENDENCY",
+    "input_fabrication": false,
+    "result_fabrication": false,
+    "certificate_synthesis": false,
+    "invalidity_synthesis": false
+  },
+  "traceability_policy": {
+    "chain": [
+      "manual_fact",
+      "explicit_input",
+      "validator_result",
+      "candidate_evaluation",
+      "candidate_envelope",
+      "candidate_result"
+    ],
+    "identity": "EXACT_LIVE_IN_PROCESS_IDENTITY",
+    "certificate_dependency": "EXACT_EXISTING_LIVE_PASS_THROUGH",
+    "serialization_authority": false
+  },
+  "security_and_authority": {
+    "request_mapping_duck_subclass": "REJECTED",
+    "result_mapping_duck_subclass": "REJECTED",
+    "low_level_mutation": "FAIL_CLOSED_ON_REUSE",
+    "pickle": "REJECTED",
+    "generic_json_methodology_authority": false,
+    "market_data_interpretation": false,
+    "chart_discovery": false,
+    "pivot_or_wave_discovery": false,
+    "pattern_or_family_inference": false,
+    "degree_or_timeframe_inference": false,
+    "indicator_logic": false,
+    "ranking_logic": false,
+    "tradingview_logic": false,
+    "alert_logic": false,
+    "network_or_process_capability": false,
+    "execution_or_trading_logic": false
+  },
+  "inventory_at_checkpoint": {
+    "executable_methodology": 10,
+    "structural_invalidity_registry_sealed": true,
+    "structural_invalidity_producers": 7,
+    "validated_family_registry_sealed": true,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p005": "UNCHANGED",
+    "p006": "UNCHANGED_UNRESOLVED_CONFLICT",
+    "source_derived_base_case_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+  },
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/bounded_manual_chart_analysis.py",
+      "byte_length": 21677,
+      "sha256": "da2b99383c4b9281101b48ea337d574d79bd09b3910c494fa5c737e5223bce2f"
+    },
+    {
+      "path": "tests/test_bounded_manual_chart_analysis.py",
+      "byte_length": 23753,
+      "sha256": "3b1d61dab7ae9baace5ae4e58f7a53a13bf9d8709475626be3c37e342b26b17b"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/api.py",
+      "byte_length": 4076,
+      "sha256": "c0356f42cb96d638abc40ce3e20f49ab272035ffcb24774b69718102e0731566"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 9982,
+      "sha256": "951531b93d93f5dafb86139d9d4d82ab2d89f0b6f339d20b2be41d7d000cd152"
+    }
+  ],
+  "unchanged_authority_contracts": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+      "byte_length": 29951,
+      "sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/manual_structure_candidate_builder.py",
+      "byte_length": 30746,
+      "sha256": "b59caa15d4bac404e0dc79d5e5ac4cc8ba95bbc697a60f3ba9e76ef58ffd6c74"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/explicit_behavior_execution.py",
+      "byte_length": 28745,
+      "sha256": "988d4245de714b3a7029e7aeb80c9a7ad6a59fb40ec4444c82ea20acda2d9df4"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/candidate_analysis_envelope.py",
+      "byte_length": 27683,
+      "sha256": "30a81c5f7c2ea1d5d3b31a29e3b1878318b1ab9a6ba071b87461635ea4f5525c"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/single_candidate_orchestration.py",
+      "byte_length": 24092,
+      "sha256": "ccd315d1afe423772d4f4e9ee28e2ae2592c8b361dec5319da925fd66d1fec0e"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/bounded_recursive_analysis.py",
+      "byte_length": 21295,
+      "sha256": "5d7b078a8d246931f8af61def7b16effecbb769b3a806b0c9eeb68a0d2f696d4"
+    }
+  ],
+  "baseline_artifacts": [
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/BASELINE_README.md",
+      "byte_length": 2965,
+      "sha256": "4eba3fa4ddad1f6d19870cbf0d617ba9f75a5c5a28ca63022fb5aa0afd40c0fb"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/known_limitations.json",
+      "byte_length": 1446,
+      "sha256": "7aa5b09ee18ad79b5f61ada54f7e8af27f27b0a0b63a0024389686d4a4c2c829"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/prior_baseline_delta.json",
+      "byte_length": 1314,
+      "sha256": "fb8748ca51b88102fd345340bc014ade7f651ab3e3d06721df8862332fe8ccb1"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/source_trace.json",
+      "byte_length": 979,
+      "sha256": "49975c0a4423b119e28d81237869ae23b7fab35329da3699d4cb621e59850711"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/test_results.json",
+      "byte_length": 1524,
+      "sha256": "b48fd5c25bdf252faa22209147e42644fb71824fe54ffc07158a3db714a89efd"
+    }
+  ],
+  "prior_review_manifest_count": 30,
+  "prior_review_manifests_modified": false,
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatch_count": 0
+  },
+  "protected_sources": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21,
+    "mismatch_count": 0,
+    "frost_prechter_byte_length": 69874756,
+    "frost_prechter_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  },
+  "tests": {
+    "focused": 25,
+    "focused_passes": 25,
+    "full": 548,
+    "full_passes": 548,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "adversarial_audit": "PASS"
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, hostile same-process isolation, cryptographic authenticity, or durable cross-process identity is claimed."
+}

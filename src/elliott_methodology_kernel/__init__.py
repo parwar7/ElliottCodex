@@ -172,6 +172,15 @@ from .manual_structure_candidate_builder import (
     ManualStructureCandidateBuilderError,
     ManualStructureCandidateRequest,
 )
+from .bounded_manual_chart_analysis import (
+    BoundedManualChartAnalysisError,
+    BoundedManualChartAnalysisRequest,
+    BoundedManualChartAnalysisResult,
+    BoundedManualChartCoverage,
+    BoundedManualChartCoverageState,
+    BoundedManualChartFinalSummary,
+    BoundedManualChartTrace,
+)
 
 __all__ = [
     "AnalysisRequest",
@@ -184,6 +193,13 @@ __all__ = [
     "BoundedRecursiveAnalysisContractError",
     "BoundedRecursiveAnalysisNode",
     "BoundedRecursiveAnalysisResolution",
+    "BoundedManualChartAnalysisError",
+    "BoundedManualChartAnalysisRequest",
+    "BoundedManualChartAnalysisResult",
+    "BoundedManualChartCoverage",
+    "BoundedManualChartCoverageState",
+    "BoundedManualChartFinalSummary",
+    "BoundedManualChartTrace",
     "CandidateScope",
     "CALLER_SUPPLIED_STRUCTURAL_FACT",
     "CandidateAnalysisEnvelope",

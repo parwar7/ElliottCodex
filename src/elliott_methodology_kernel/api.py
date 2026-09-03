@@ -25,6 +25,11 @@ from .manual_structure_candidate_builder import (
     ManualStructureCandidateRequest,
     _build_manual_candidate,
 )
+from .bounded_manual_chart_analysis import (
+    BoundedManualChartAnalysisRequest,
+    BoundedManualChartAnalysisResult,
+    _analyze_bounded_manual_chart,
+)
 
 
 KERNEL_VERSION = "0.1.0-phase1-contract"
@@ -97,3 +102,10 @@ class MethodologyKernel:
     ) -> ManualStructureCandidateBuildResult:
         """Build exact inputs from explicit manual facts, then reuse execution."""
         return _build_manual_candidate(request, self.analyze_candidate_inputs)
+
+    def analyze_bounded_manual_chart(
+        self,
+        request: BoundedManualChartAnalysisRequest,
+    ) -> BoundedManualChartAnalysisResult:
+        """Run the bounded end-to-end workflow for one explicit manual candidate."""
+        return _analyze_bounded_manual_chart(request, self.analyze_manual_candidate)

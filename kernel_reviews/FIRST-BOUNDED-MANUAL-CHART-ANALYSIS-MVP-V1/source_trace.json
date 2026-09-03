@@ -1,0 +1,16 @@
+{
+  "baseline_id": "FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "source_class": null,
+  "protected_principle_id": null,
+  "methodology_behavior_added": false,
+  "authority_statement": "The MVP summarizes and traces exact existing downstream objects only; its final summary and coverage add no methodology authority.",
+  "reviewed_statement": "CURRENT_SUPPLIED_SCOPE_REVIEWED is bounded workflow state, not validity, completeness, correctness, confirmation, family, rank, or trade authority.",
+  "delegation_statement": "The MVP invokes only analyze_manual_candidate and contains no methodology validator or input-constructor dispatch.",
+  "locked_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "protected_methodology_changes": [],
+  "protected_ids_created": [],
+  "p005_status": "UNCHANGED",
+  "p006_status": "UNCHANGED_UNRESOLVED_CONFLICT"
+}

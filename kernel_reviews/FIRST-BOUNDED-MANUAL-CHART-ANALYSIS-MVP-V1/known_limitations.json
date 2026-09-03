@@ -1,0 +1,17 @@
+{
+  "baseline_id": "FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1",
+  "limitations": [
+    "The caller must provide one exact same-process typed request and all candidate structure manually; no human-readable local config or CLI exists yet.",
+    "The MVP does not inspect market data, discover pivots or waves, infer pattern, family, direction, degree, timeframe, or behavior applicability.",
+    "CURRENT_SUPPLIED_SCOPE_REVIEWED means only that the supplied scope executed without a current certified-invalidity or unresolved blocker.",
+    "Coverage reports execution presence only; NOT_SUPPLIED is never pass or not-applicable and ten records do not imply complete methodology coverage.",
+    "The explicit missing no-rescue dependency flag is operational only and cannot construct a certificate, methodology result, or structural invalidity.",
+    "Traceability is live in-process object identity and is not durable or authoritative after serialization.",
+    "No reporting snapshot, natural-language Elliott interpretation, multi-candidate container, lifecycle, or multi-timeframe workflow is included.",
+    "The validated-family registry remains sealed with zero producers and zero issuances.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND and the P006 source conflict remain unresolved and unchanged."
+  ],
+  "physical_immutability_enforced": false,
+  "hostile_same_process_security_claimed": false,
+  "cross_process_authority_claimed": false
+}
