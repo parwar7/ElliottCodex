@@ -1,0 +1,15 @@
+{
+  "review_id":"FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1",
+  "search_root":"C:\\ElliottCodex",
+  "search_method":"Read-only filename inventory plus protected Brain and Sources manifest reference search; no network access.",
+  "candidate_extensions":["pdf","epub","mobi","azw","azw3","txt"],
+  "candidate_name_terms":["Frost","Prechter","Elliott Wave Principle"],
+  "approved_local_artifact_found":false,
+  "result":"NO_APPROVED_LOCAL_FROST_PRECHTER_SOURCE_AVAILABLE",
+  "path":null,
+  "sha256":null,
+  "edition_title_metadata":null,
+  "in_source_manifest":false,
+  "authorized_for_methodology_use":false,
+  "important_boundary":"Brain references to the supplied book do not establish that a local artifact exists. No internet copy was sought or used."
+}

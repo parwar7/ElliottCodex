@@ -1,0 +1,15 @@
+{
+  "review_id":"FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1",
+  "ranking": [
+    {"rank":1,"blocker":"BASE_CASE_UNRESOLVED","immediate_unlock":"One source-specific terminal family producer if the proposition includes primitive-local completion.","still_depends_immediately_on_another_blocker":false,"selected":true},
+    {"rank":2,"blocker":"COMPLETION_AUTHORITY_REQUIRED","immediate_unlock":"One completion validator/contract, but no family producer.","still_depends_immediately_on_another_blocker":true,"next_blocker":"BASE_CASE_UNRESOLVED","selected":false},
+    {"rank":3,"blocker":"STRUCTURAL_ENDPOINT_AUTHORITY_REQUIRED","immediate_unlock":"Potential endpoint authority, but orthodox meaning depends on wave identity and completion.","still_depends_immediately_on_another_blocker":true,"selected":false},
+    {"rank":4,"blocker":"POSITION_AUTHORITY_REQUIRED","immediate_unlock":"No safe position proof without validated parent/child methodology.","still_depends_immediately_on_another_blocker":true,"selected":false},
+    {"rank":5,"blocker":"P005_SOURCE_RESOLUTION","immediate_unlock":"No executable P005 without endpoint authority and timing semantics.","still_depends_immediately_on_another_blocker":true,"selected":false},
+    {"rank":6,"blocker":"P006_CONFLICT_RESOLUTION","immediate_unlock":"No executable P006 without orthodox-end authority, equality, and timing semantics.","still_depends_immediately_on_another_blocker":true,"selected":false}
+  ],
+  "selected_blocker":"BASE_CASE_UNRESOLVED",
+  "selection_boundary":"The requested authority is not a generic recursion limit. It must establish one exact family-specific completed primitive and explicitly authorize nested family proof to stop only for that primitive.",
+  "current_authority_status":"NEW_APPROVED_SOURCE_AUTHORITY_REQUIRED",
+  "implementation_status":"METHODOLOGY_IMPLEMENTATION_PAUSED_PENDING_SOURCE_AUTHORITY"
+}

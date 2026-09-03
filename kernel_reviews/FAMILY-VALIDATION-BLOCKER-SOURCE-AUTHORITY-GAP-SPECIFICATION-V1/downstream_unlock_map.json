@@ -1,0 +1,24 @@
+{
+  "review_id":"FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1",
+  "selected_blocker":"BASE_CASE_UNRESOLVED",
+  "conditional_on_exact_authority_and_separate_implementation_approval":true,
+  "direct_unlocks": [
+    {"target":"FIRST_TERMINAL_VALIDATED_INTERNAL_FAMILY_PRODUCER","condition":"The authority names one existing family kind and supplies complete deterministic primitive-local semantics.","immediacy":"DIRECT"},
+    {"target":"FIRST_CERTIFIED_VALIDATED_INTERNAL_FAMILY_ISSUANCE_PATH","condition":"The reviewed producer is admitted through the existing sealed-contract extension model and passes adversarial tests.","immediacy":"DIRECT_AFTER_IMPLEMENTATION"}
+  ],
+  "family_specific_secondary_unlocks": {
+    "if_motive_primitive":["motive inputs for P007 A/C","motive input for P008 C","motive contextual input for C-wave work"],
+    "if_corrective_primitive":["corrective input for P007 B","corrective inputs for P008 A/B","corrective legs for P009 and ending diagonal","corrective proof prerequisite for P010"],
+    "boundary":"Secondary consumers remain blocked until their other family, completion, position, endpoint, and pattern-specific requirements are separately met."
+  },
+  "not_unlocked": [
+    "complete normal impulse while P005/P006 remain unresolved",
+    "general family completion",
+    "trusted Elliott position proof",
+    "orthodox endpoint or pivot discovery",
+    "recursive status aggregation semantics",
+    "full P007/P008/P009/P010 or diagonal validation unless all remaining dependencies are satisfied"
+  ],
+  "current_unlocks":[],
+  "implementation_paused":true
+}

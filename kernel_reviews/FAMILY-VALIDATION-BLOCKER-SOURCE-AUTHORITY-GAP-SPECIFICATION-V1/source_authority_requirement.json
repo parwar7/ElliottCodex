@@ -1,0 +1,70 @@
+{
+  "review_id":"FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1",
+  "selected_blocker":"BASE_CASE_UNRESOLVED",
+  "QUESTION_TO_RESOLVE":"Does the approved methodology recognize one exact, completed, family-specific structural primitive whose MOTIVE_FIVE_WAVE_FAMILY or CORRECTIVE_THREE_WAVE_FAMILY status can be established without any nested CertifiedValidatedInternalFamily input; if so, what deterministic conditions define it?",
+  "WHY_REQUIRED":"Every documented nonterminal family form requires motive and/or corrective child-family proof. Without one protected primitive, the empty family registry cannot issue its first certificate and recursion has no positive finite terminus.",
+  "CURRENT_CONFLICT_OR_SILENCE":"SOURCE_SILENCE. The corpus defines unresolved handling when internals are concealed but neither defines nor conflicts about a positive terminal primitive.",
+  "MINIMUM_ACCEPTABLE_SOURCE_STATEMENT": [
+    "Explicitly name exactly one qualifying primitive and exactly one existing family kind it proves.",
+    "State that within a precisely bounded scope the primitive is structurally complete and does not require deeper family-certificate proof.",
+    "Define observable, deterministic qualification inputs and conditions; a label, visual impression, or matching cardinality is insufficient.",
+    "Define the primitive-local completion event or condition so completion is not caller asserted.",
+    "State that nested family proof stops at this primitive and nowhere else.",
+    "State how NOT_VISIBLE and UNKNOWN required internals remain unresolved under P023.",
+    "Define positive, violated, and unresolved machine boundaries, including malformed or missing input behavior."
+  ],
+  "REQUIRED_SCOPE": [
+    "Family kind: exactly MOTIVE_FIVE_WAVE_FAMILY or CORRECTIVE_THREE_WAVE_FAMILY.",
+    "Primitive pattern/form and any allowed direction, degree, asset, instrument, and data-resolution scope.",
+    "Exact analyzed-subject identity and observation provenance to which the determination belongs.",
+    "Whether the primitive is universal or limited to a named source context.",
+    "Whether completion is intrinsic to the primitive or separately evidenced."
+  ],
+  "REQUIRED_EXCEPTIONS": [
+    "Concealed or unavailable required subdivisions.",
+    "Developing or completion-unresolved instances.",
+    "Matching cardinality without structural proof.",
+    "Caller-declared family, completion, position, or endpoints.",
+    "Unsupported asset, direction, degree, or observation-resolution scope.",
+    "Any pattern-specific exception the source intends to permit."
+  ],
+  "REQUIRED_TERMINOLOGY": [
+    "terminal primitive",
+    "family kind",
+    "complete",
+    "developing",
+    "unresolved completion",
+    "visible required internals",
+    "concealed required internals",
+    "nested proof termination",
+    "exact subject"
+  ],
+  "REQUIRED_MACHINE_DECISION_BOUNDARY": {
+    "positive":"All explicitly required primitive conditions and primitive-local completion evidence are present for the exact subject; no nested family certificate is required only because the source expressly makes this form terminal.",
+    "violated":"A source-defined compulsory primitive condition is conclusively false for the exact subject.",
+    "unresolved":"Inputs, visibility, completion, scope, or required observation authority are absent, unknown, malformed, or not source-defined.",
+    "p023":"NOT_VISIBLE or UNKNOWN never maps to positive.",
+    "fatality":"Must be explicitly stated by source classification and scope; it cannot be inferred merely from producer status."
+  },
+  "WHAT_WOULD_NOT_BE_SUFFICIENT": [
+    "An unlabeled example or diagram without an explicit terminal proposition.",
+    "Statements that a structure looks clear, simple, typical, usual, or small.",
+    "A fixed timeframe, smallest observable degree, exhausted feed, or recursion limit.",
+    "Three or five visible swings or matching direct-child cardinality.",
+    "Caller, analyst, model, or generic AI judgment.",
+    "A completion assertion without a source-defined observable boundary.",
+    "A statement requiring an already validated member of the same empty family as its own prerequisite."
+  ],
+  "DOWNSTREAM_BEHAVIORS_UNLOCKED": [
+    "One first family-specific terminal producer and certificate issuance path.",
+    "Nested-family input availability for the pattern compositions that consume the selected family kind.",
+    "A finite anchor for later recursive INTERNALS_CONFIRMED propagation, after separate aggregation semantics are approved."
+  ],
+  "NOT_UNLOCKED_BY_THIS_AUTHORITY": ["P005","P006","general completion authority","general Elliott position authority","general structural endpoint discovery"],
+  "acceptable_future_source_types": [
+    {"type":"existing approved video or transcript passage","policy_status":"Permitted if an exact previously unmapped locator is identified and classified."},
+    {"type":"approved local Frost/Prechter book/page","policy_status":"Permitted by SOURCE_POLICY after the exact artifact, edition, hash, authorization, and manifest status are verified."},
+    {"type":"explicit user-approved methodology amendment","policy_status":"May be governance-authorized only as clearly labeled project policy; it is not automatically SOURCE_RULE or equivalent to source-derived authority."}
+  ],
+  "answer_supplied_by_this_specification":false
+}

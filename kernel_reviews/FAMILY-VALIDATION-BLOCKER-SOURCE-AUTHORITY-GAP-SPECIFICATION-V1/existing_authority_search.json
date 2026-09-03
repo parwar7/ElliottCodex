@@ -1,0 +1,18 @@
+{
+  "review_id":"FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1",
+  "selected_blocker":"BASE_CASE_UNRESOLVED",
+  "search_scope":["Brain_LOCKED","Sources_LOCKED","approved family/base-case and P005/P006 reviews"],
+  "search_terms":["terminal primitive","primitive structure","indivisible","does not require subdivision","smallest observable degree","finest resolution","all squiggles","internals unresolved","completed internals"],
+  "findings": [
+    {"source":"DEGREE_RECURSION_BRAIN.md sections 5-6","classification":"SOURCE_DEFINITION","result":"Defines recursion and unresolved finer-data handling, not a positive terminus."},
+    {"source":"Volume 10 transcript 00:01:18.480-00:03:54.920","path":"C:\\ElliottCodex\\Sources_LOCKED\\volume_10\\volume_10.txt","sha256":"624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25","classification":"SOURCE_DEFINITION","result":"Smallest observable resolution can mislead; all wiggles are considered. No terminal family primitive."},
+    {"source":"Volume 2 transcript 00:22:49.640-00:23:09.320","path":"C:\\ElliottCodex\\Sources_LOCKED\\volume_02\\volume_02.srt","sha256":"d058141fa74cbe53baf8fcf1eb81dd419b4c54b40bc88b3c5bd9e4d928d1119d","classification":"SOURCE_OBSERVATION","result":"Finer charts reveal subdivisions. No permission to stop proof positively."},
+    {"source":"Volume 4 transcript pattern sections","path":"C:\\ElliottCodex\\Sources_LOCKED\\volume_04\\volume_04","sha256":"52c825b8cb1eaa915660a6afb105425d6c2947f45ead0fb1f3742e3e2b67789d","classification":"SOURCE_DEFINITION","result":"Defines required family compositions and notes hidden subdivisions, but no non-recursive primitive."},
+    {"source":"FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1","sha256":"7f7d2c194fbfc32c11d0f4339af4dd785aa77e5885aadffdf4c63e47ddcca523","classification":"REVIEW_EVIDENCE","result":"Accepted NO_SOURCE_DERIVED_BASE_CASE and NO_SAFE_ENABLING_PROJECT_POLICY."}
+  ],
+  "unused_approved_authority_found":false,
+  "result":"NEW_APPROVED_SOURCE_AUTHORITY_REQUIRED",
+  "broad_reinterpretation_performed":false,
+  "video_inspection_required":false,
+  "reason_no_video":"The gap is absence of a proposition, not ambiguity caused by an unseen chart detail."
+}

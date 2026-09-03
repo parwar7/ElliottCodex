@@ -1,0 +1,81 @@
+{
+  "review_id": "FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1",
+  "nodes": [
+    {
+      "id":"BASE_CASE_UNRESOLVED",
+      "blocks_behaviors":["first terminal family producer","P007 5-3-5 composition","P008 3-3-5 composition","P009 corrective-leg composition","ending-diagonal leg composition","P010 X-family validation","recursive positive internal confirmation"],
+      "blocks_contracts":[],
+      "blocks_family_producers":["MOTIVE_FIVE_WAVE_FAMILY","CORRECTIVE_THREE_WAVE_FAMILY"],
+      "resolution_alone_unlocks_executable_work":true,
+      "unlock_condition":"The supplied authority must define one family-specific primitive and its own completed-state boundary, making one terminal producer implementable without nested family certificates.",
+      "immediate_dependency_after_resolution":null,
+      "methodology_risk":"Very high if terminality is inferred from visibility, depth, cardinality, or labels.",
+      "source_authority_requirement":"Explicit family-specific terminal primitive, deterministic qualification and completion conditions, P023 boundary, negative cases, and permission for nested proof to stop only there."
+    },
+    {
+      "id":"COMPLETION_AUTHORITY_REQUIRED",
+      "blocks_behaviors":["complete family producers","P005 definitive satisfaction","P006 endpoint timing","P022 completed-five handling"],
+      "blocks_contracts":["trusted completion result/certificate"],
+      "blocks_family_producers":["MOTIVE_FIVE_WAVE_FAMILY","CORRECTIVE_THREE_WAVE_FAMILY"],
+      "resolution_alone_unlocks_executable_work":true,
+      "unlock_condition":"Could enable a source-specific completion validator, but not positive family proof.",
+      "immediate_dependency_after_resolution":"BASE_CASE_UNRESOLVED",
+      "methodology_risk":"High if completion is inferred from latest bar, cardinality, or caller assertion.",
+      "source_authority_requirement":"Pattern-specific observable completion event with developing/complete/unresolved boundaries."
+    },
+    {
+      "id":"POSITION_AUTHORITY_REQUIRED",
+      "blocks_behaviors":["P010 X validation","triangle position","ending/leading diagonal position","contextual C-wave instruction"],
+      "blocks_contracts":["trusted Elliott-position binding"],
+      "blocks_family_producers":["position-restricted diagonal or corrective producers"],
+      "resolution_alone_unlocks_executable_work":false,
+      "immediate_dependency_after_resolution":"Family or parent-pattern validation is needed to prove the position rather than merely transport its label.",
+      "methodology_risk":"High caller-label promotion risk.",
+      "source_authority_requirement":"Deterministic proof relationship among a validated parent, exact child identity, and one allowed Elliott role."
+    },
+    {
+      "id":"STRUCTURAL_ENDPOINT_AUTHORITY_REQUIRED",
+      "blocks_behaviors":["P005 operands","P006 orthodox endpoints","zigzag B-origin relation","flat geometry","triangle/diagonal geometry"],
+      "blocks_contracts":["trusted structural/orthodox endpoint certificate"],
+      "blocks_family_producers":["normal impulse and endpoint-dependent corrective forms"],
+      "resolution_alone_unlocks_executable_work":false,
+      "immediate_dependency_after_resolution":"Wave identity, structure, and often completion must already be established before an endpoint can be orthodox for that wave.",
+      "methodology_risk":"Very high automatic-pivot invention risk.",
+      "source_authority_requirement":"Observable selection rule distinguishing proposed prices, pivots/extremes, structural endpoints, orthodox endpoints, and wave origins/ends."
+    },
+    {
+      "id":"P005_SOURCE_RESOLUTION",
+      "blocks_behaviors":["P005 implementation","complete normal-impulse validation"],
+      "blocks_contracts":[],
+      "blocks_family_producers":["normal-impulse MOTIVE_FIVE_WAVE_FAMILY producer"],
+      "resolution_alone_unlocks_executable_work":false,
+      "immediate_dependency_after_resolution":"STRUCTURAL_ENDPOINT_AUTHORITY_REQUIRED and completion timing remain unresolved.",
+      "methodology_risk":"High if formula, basis, ties, or tolerance are inferred.",
+      "source_authority_requirement":"Exact cross-direction measurement, arithmetic/percentage policy, ties, disagreement, timing, and precision semantics."
+    },
+    {
+      "id":"P006_CONFLICT_RESOLUTION",
+      "blocks_behaviors":["P006 implementation","complete normal-impulse validation"],
+      "blocks_contracts":[],
+      "blocks_family_producers":["normal-impulse MOTIVE_FIVE_WAVE_FAMILY producer"],
+      "resolution_alone_unlocks_executable_work":false,
+      "immediate_dependency_after_resolution":"STRUCTURAL_ENDPOINT_AUTHORITY_REQUIRED, equality, and completion timing remain unresolved unless expressly resolved by the authority.",
+      "methodology_risk":"Very high if futures qualification is silently discarded or generalized.",
+      "source_authority_requirement":"Approved adjudication of strict orthodox-end non-overlap versus the futures few-pennies/data-series qualification, including exact scope."
+    }
+  ],
+  "edges": [
+    {"from":"family producer","to":"BASE_CASE_UNRESOLVED"},
+    {"from":"family producer","to":"COMPLETION_AUTHORITY_REQUIRED"},
+    {"from":"position-restricted family producer","to":"POSITION_AUTHORITY_REQUIRED"},
+    {"from":"normal-impulse producer","to":"P005_SOURCE_RESOLUTION"},
+    {"from":"normal-impulse producer","to":"P006_CONFLICT_RESOLUTION"},
+    {"from":"P005_SOURCE_RESOLUTION","to":"STRUCTURAL_ENDPOINT_AUTHORITY_REQUIRED"},
+    {"from":"P006_CONFLICT_RESOLUTION","to":"STRUCTURAL_ENDPOINT_AUTHORITY_REQUIRED"},
+    {"from":"COMPLETION_AUTHORITY_REQUIRED","to":"BASE_CASE_UNRESOLVED","meaning":"Completion can be independently modeled but does not terminate family proof."},
+    {"from":"POSITION_AUTHORITY_REQUIRED","to":"family or parent-pattern proof"},
+    {"from":"STRUCTURAL_ENDPOINT_AUTHORITY_REQUIRED","to":"wave identity and completion context"}
+  ],
+  "smallest_useful_dependency_cut":"BASE_CASE_UNRESOLVED with primitive-local completion included in the required source proposition",
+  "reason":"It is the only single authority gap whose exact resolution can directly yield one first family producer instead of only a dormant contract or the next unresolved dependency."
+}

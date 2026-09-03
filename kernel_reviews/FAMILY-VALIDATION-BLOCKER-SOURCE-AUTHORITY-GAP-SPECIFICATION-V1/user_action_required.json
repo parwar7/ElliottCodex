@@ -1,0 +1,17 @@
+{
+  "review_id":"FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1",
+  "USER_ACTION_REQUIRED": {
+    "action":"PROVIDE_APPROVED_BOOK_SOURCE",
+    "instruction":"Provide a local, user-authorized Frost/Prechter Elliott Wave Principle source artifact with stable title and edition metadata for hash and SOURCE_MANIFEST authorization review.",
+    "next_review_scope":"Search only for an explicit family-specific terminal primitive, its deterministic qualification conditions, primitive-local completion boundary, nested-proof stopping rule, negative cases, and P023 interaction.",
+    "acceptance_requirements":[
+      "The artifact is supplied locally by the user; no internet copy is used.",
+      "The user explicitly authorizes the exact artifact for methodology review.",
+      "Title, edition, file path, byte length, and SHA-256 can be recorded.",
+      "Any addition to Sources_LOCKED or its manifest occurs only under separate explicit authorization."
+    ],
+    "why_this_action":"The current Source Policy already names this book family as authoritative, but no approved local artifact exists to search. Repeating the existing transcript review cannot resolve source silence."
+  },
+  "implementation_state":"METHODOLOGY_IMPLEMENTATION_PAUSED_PENDING_SOURCE_AUTHORITY",
+  "alternative_actions_offered":false
+}
