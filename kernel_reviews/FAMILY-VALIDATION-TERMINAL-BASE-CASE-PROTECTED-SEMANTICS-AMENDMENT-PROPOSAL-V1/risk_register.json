@@ -1,0 +1,17 @@
+{
+  "proposal_id": "FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1",
+  "risks": [
+    {"id":"R1","risk":"Resolution exhaustion is treated as positive family proof.","severity":"BLOCKING","control":"P023 branch remains unresolved; no NOT_VISIBLE-to-valid transition."},
+    {"id":"R2","risk":"Cardinality is promoted into family validity.","severity":"BLOCKING","control":"Preserve all cardinality-only result boundaries."},
+    {"id":"R3","risk":"A fixed recursion depth weakens exact certificate meaning.","severity":"BLOCKING","control":"Do not issue current family certificates for depth-scoped validation."},
+    {"id":"R4","risk":"Caller or human labels become proof.","severity":"BLOCKING","control":"Require separately reviewed deterministic producer authority; reject manual seed certificates."},
+    {"id":"R5","risk":"Completion is inferred from the latest bar or child count.","severity":"BLOCKING","control":"Default to UNRESOLVED_COMPLETION until a reviewed source-specific completion producer exists."},
+    {"id":"R6","risk":"P005/P006 are bypassed through a base-case exception.","severity":"BLOCKING","control":"Keep both frozen and compulsory for any complete normal-impulse route."},
+    {"id":"R7","risk":"Position or endpoint authority is silently bundled into terminal semantics.","severity":"HIGH","control":"Keep those dependencies separate and unresolved."},
+    {"id":"R8","risk":"A project policy is mislabeled as source-derived Elliott methodology.","severity":"BLOCKING","control":"Label every added proposition PROPOSED_PROJECT_POLICY and require explicit approval."},
+    {"id":"R9","risk":"A protective clarification is mistaken for an enabling base case.","severity":"HIGH","control":"State that it unlocks neither family and authorizes no implementation."},
+    {"id":"R10","risk":"Future source authority conflicts with the clarification.","severity":"MEDIUM","control":"Use an additive, replaceable section with retained historical audit evidence."}
+  ],
+  "residual_risk":"Positive family validation remains unavailable; this is deliberate fail-closed behavior, not an implementation defect.",
+  "approval_boundary":"Any Brain edit or Runtime family producer requires a new explicit user approval."
+}

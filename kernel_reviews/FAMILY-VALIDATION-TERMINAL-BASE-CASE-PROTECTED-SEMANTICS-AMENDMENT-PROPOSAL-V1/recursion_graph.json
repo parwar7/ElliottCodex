@@ -1,0 +1,25 @@
+{
+  "proposal_id": "FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1",
+  "source_derived_graphs": [
+    {"root":"NORMAL_IMPULSE","family":"MOTIVE_FIVE_WAVE_FAMILY","edges":["root -> required child families","root -> P004","root -> P005","root -> P006","child motive -> motive validation","child corrective -> corrective validation"],"terminal_node":null,"blockers":["P005 unresolved","P006 conflict","no primitive","completion unavailable"]},
+    {"root":"ENDING_DIAGONAL","family":"MOTIVE_FIVE_WAVE_FAMILY","edges":["root -> five corrective/three-wave legs","each leg -> corrective family validation","corrective pattern -> motive and/or corrective child validation"],"terminal_node":null,"blockers":["direct circularity through corrective family","completion unavailable","position authority unavailable"]},
+    {"root":"LEADING_DIAGONAL","family":"MOTIVE_FIVE_WAVE_FAMILY","edges":["root -> permitted but incompletely specified child-family alternatives","children -> motive/corrective validation"],"terminal_node":null,"blockers":["source ambiguity","no primitive","completion unavailable"]},
+    {"root":"SINGLE_ZIGZAG","family":"CORRECTIVE_THREE_WAVE_FAMILY","edges":["root -> A motive","root -> B corrective","root -> C motive","B -> corrective validation","A/C -> motive validation"],"terminal_node":null,"blockers":["self-cycle through B","motive producer absent"]},
+    {"root":"FLAT","family":"CORRECTIVE_THREE_WAVE_FAMILY","edges":["root -> A corrective","root -> B corrective","root -> C motive"],"terminal_node":null,"blockers":["self-cycle through A/B","motive producer absent"]},
+    {"root":"TRIANGLE","family":"CORRECTIVE_THREE_WAVE_FAMILY","edges":["root -> A corrective","root -> B corrective","root -> C corrective","root -> D corrective","root -> E corrective"],"terminal_node":null,"blockers":["five direct self-cycles"]},
+    {"root":"COMBINATION","family":"CORRECTIVE_THREE_WAVE_FAMILY","edges":["root -> validated corrective components","root -> validated corrective X","components -> nested family validation"],"terminal_node":null,"blockers":["all components presuppose family proof"]}
+  ],
+  "p023_branch": {
+    "required_internals_visible":"continue structural validation",
+    "required_internals_not_visible_or_unknown":"INTERNALS_UNRESOLVED",
+    "positive_terminal_edge":null
+  },
+  "project_policy_graphs": [
+    {"candidate":"resolution floor","would_terminate":true,"accepted":false,"reason":"termination would be validity by non-visibility"},
+    {"candidate":"fixed depth","would_terminate_computation":true,"would_prove_family":false,"accepted":false},
+    {"candidate":"manual seed","would_terminate":true,"accepted":false,"reason":"untrusted/non-deterministic family declaration"},
+    {"candidate":"atomic observation","would_terminate":true,"accepted":false,"reason":"not a defined family terminal"}
+  ],
+  "finite_protected_terminus_exists": false,
+  "noncircular_producer_path_exists": false
+}

@@ -1,0 +1,27 @@
+{
+  "proposal_id": "FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1",
+  "source_finding": "The corpus refers to complete and developing structures but does not define a general deterministic completion validator, authoritative completion event, or provisional positive family certification rule.",
+  "candidate_completion_criteria": [
+    {"criterion":"all required direct children structurally terminated","source_status":"UNRESOLVED","reason":"Structurally terminated is itself undefined and recursive."},
+    {"criterion":"orthodox end established","source_status":"PATTERN_SPECIFIC_AND_INSUFFICIENT","reason":"Orthodox-end meaning is partly documented, but discovery/authority and a general family-completion rule are absent."},
+    {"criterion":"subsequent price confirmation","source_status":"CONTEXTUAL_EVIDENCE_ONLY","reason":"Examples and decision guidance do not define one universal completion predicate."},
+    {"criterion":"last observed bar","source_status":"NOT_AUTHORIZED","reason":"No protected source makes the latest bar a structural completion event."},
+    {"criterion":"matching direct-child cardinality","source_status":"NOT_AUTHORIZED","reason":"Cardinality does not prove child completion or family."}
+  ],
+  "requested_state_distinction": {
+    "status":"PROPOSED_PROJECT_POLICY_VOCABULARY_ONLY",
+    "DEVELOPING":"May be used only when a future reviewed source-specific authority establishes that the structure is still developing; not eligible for complete-family certification.",
+    "COMPLETE":"May be used only when a future reviewed source-specific completion validator establishes completion; no such general validator currently exists.",
+    "UNRESOLVED_COMPLETION":"Required whenever neither a reviewed developing nor complete determination is available.",
+    "default_current_state":"UNRESOLVED_COMPLETION"
+  },
+  "family_certification_timing": {
+    "minimum_safe_condition":"COMPLETE plus every required structural rule/definition and every required genuine internal-family proof.",
+    "classification":"PROPOSED_PROJECT_POLICY",
+    "current_achievability":false,
+    "provisional_positive_certification_authorized":false
+  },
+  "forbidden_completion_inputs":["caller completion flag","caller family label","caller position label","cardinality alone","visibility alone","latest bar","exhausted data resolution"],
+  "completion_contract_recommended_now":false,
+  "reason_not_recommended":"A trusted contract without an approved completion producer would be dormant and would not solve the earlier terminal/base blocker."
+}

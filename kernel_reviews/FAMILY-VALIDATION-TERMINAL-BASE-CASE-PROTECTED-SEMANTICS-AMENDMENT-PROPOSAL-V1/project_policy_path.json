@@ -1,0 +1,22 @@
+{
+  "proposal_id": "FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1",
+  "path": "PATH_B_EXPLICIT_PROJECT_POLICY",
+  "result": "NO_SAFE_ENABLING_PROJECT_POLICY",
+  "evaluated_policies": [
+    {"policy":"MAXIMUM_AVAILABLE_RESOLUTION_IS_TERMINAL","status":"REJECTED","risk":"Converts inability to see required internals into validity and conflicts with P023."},
+    {"policy":"VISIBLE_CARDINALITY_AT_RESOLUTION_PROVES_FAMILY","status":"REJECTED","risk":"Substitutes swing count for family composition, rules, completion, and position."},
+    {"policy":"FIXED_RECURSION_DEPTH","status":"REJECTED","risk":"Stops computation but does not supply proof; issuing the current exact-family certificate would overstate the result."},
+    {"policy":"CALLER_OR_HUMAN_TERMINAL_ADJUDICATION","status":"REJECTED","risk":"Reintroduces a family/completion declaration as authority and is not deterministic from protected inputs."},
+    {"policy":"ATOMIC_PRICE_TRANSITION_PRIMITIVE","status":"REJECTED","risk":"An atomic observation is not source-defined as MOTIVE_FIVE_WAVE_FAMILY or CORRECTIVE_THREE_WAVE_FAMILY."},
+    {"policy":"DEPTH_SCOPED_OR_PROVISIONAL_FAMILY_CERTIFICATE","status":"REJECTED","risk":"Changes the meaning and likely the shape of the current certificate contract; it is not exact positive family proof."}
+  ],
+  "safe_non_enabling_governance_clarification": {
+    "classification":"PROPOSED_PROJECT_POLICY",
+    "purpose":"Make the current fail-closed boundary explicit without creating a base case.",
+    "text":"No positive internal-family certificate may be issued solely because the available data has reached its finest resolution, subdivisions are not visible, recursion depth is exhausted, direct-child cardinality matches, or a caller supplies family, completion, or position labels. Until separately approved protected authority defines a deterministic terminal primitive and applicable completion requirements, any branch that cannot complete required internal-family validation remains INTERNALS_UNRESOLVED.",
+    "enables_positive_family_producer":false
+  },
+  "methodology_risk":"Any enabling project policy presently available would add substantive Elliott validity not supported by the approved corpus or would weaken the current exact-family proof claim.",
+  "replacement_path":"If new approved source authority later defines a terminal primitive and completion semantics, replace the non-enabling clarification through a separately reviewed minimal Brain amendment and retain the historical proposal record.",
+  "selected_enabling_policy": null
+}

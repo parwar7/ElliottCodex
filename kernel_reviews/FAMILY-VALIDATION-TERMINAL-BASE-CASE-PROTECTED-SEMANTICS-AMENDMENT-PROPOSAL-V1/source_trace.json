@@ -1,0 +1,28 @@
+{
+  "proposal_id": "FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1",
+  "brain_sources": [
+    {"path":"docs/elliott/SOURCE_POLICY.md","sha256":"2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29","locator":"Sections 1, 3, 4","classification":"SOURCE_DEFINITION","finding":"Unsupported, ambiguous, conflicting, or incomplete claims remain unresolved; outside or remembered Elliott doctrine is excluded."},
+    {"path":"docs/elliott/MASTER_PROTOCOL.md","sha256":"a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6","locator":"Steps 4-7","classification":"SOURCE_DEFINITION","finding":"Candidates require subdivisions, pattern rules, degree consistency, recursive internals, and geometry; unresolved internals require finer data."},
+    {"path":"docs/elliott/PATTERN_BRAIN.md","sha256":"d7cd7ef46829e84f71cf8e6b452246d63b8c8eac1c0eef28030d51c3f7d59209","locator":"Sections A-L","classifications":["SOURCE_RULE","SOURCE_DEFINITION","SOURCE_GUIDELINE"],"finding":"Documented family forms have required internals, but no source-defined primitive family form is exempted from internal proof."},
+    {"path":"docs/elliott/DEGREE_RECURSION_BRAIN.md","sha256":"b8cb7bf124845420fc26f2e95cf863171dc3b195908c1bd79c57d6ab47daac9f","locator":"Sections 5-6 and 9-10","classification":"SOURCE_DEFINITION","finding":"Recursive validation and finer-data/unresolved behavior are explicit; a positive terminal/base rule and general completion authority are absent."},
+    {"path":"docs/elliott/OPEN_QUESTIONS.md","sha256":"fdedf732374efa52e051258a7916270135d44551bd39383bf1cbeea9ab92933b","locator":"entire document","classification":"UNRESOLVED","finding":"No existing open-question resolution supplies family terminal/base semantics."},
+    {"path":"docs/elliott/SOURCE_EVIDENCE_MAP.json","sha256":"c0239392469c990650dd01a3024d64bdf93cba3f167fd37e826bd415496edb51","locator":"P002, P007-P010, P022-P023","classifications":["SOURCE_DEFINITION","SOURCE_TRADING_PRACTICE"],"finding":"Canonical principles cover nesting, pattern composition, completion discipline, and hidden internals; none defines a positive family recursion terminus."}
+  ],
+  "transcript_sources": [
+    {"volume":2,"path":"volume_02/volume_02.srt","sha256":"d058141fa74cbe53baf8fcf1eb81dd419b4c54b40bc88b3c5bd9e4d928d1119d","locator":"00:22:49.640-00:23:09.320","classification":"SOURCE_OBSERVATION","finding":"Lower-timeframe charts reveal subdivisions hidden on daily data; this supports finer-data inspection, not positive termination."},
+    {"volume":4,"path":"volume_04/volume_04","sha256":"52c825b8cb1eaa915660a6afb105425d6c2947f45ead0fb1f3742e3e2b67789d","locators":["00:02:29.270-00:02:58.410","00:15:31.510-00:15:45.530","00:03:51.870-00:03:58.630","00:29:42.870-00:29:49.130"],"classification":"SOURCE_DEFINITION","finding":"Required subdivisions may be hidden at one chart resolution, while completion is referenced descriptively after a count; no general completion test or terminal primitive is supplied."},
+    {"volume":8,"path":"volume_08/volume_08.srt","sha256":"038fdb559d13250f0eddce4c3be1e40c0c5b1a87c8ea39caddb2435964e0a2b8","locator":"00:07:00.990-00:08:05.970","classification":"SOURCE_TRADING_PRACTICE","finding":"'When it is over' presumes that five waves have already been validly counted; it does not define completion authority or terminate recursive family proof."},
+    {"volume":10,"path":"volume_10/volume_10.txt","sha256":"624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25","locator":"00:01:18.480-00:03:54.920","classification":"SOURCE_DEFINITION","finding":"Small wiggles are not ignored and bar charts can conceal intrabar structure. The passage rejects assumptions at the smallest observable resolution; it does not authorize terminal validity."}
+  ],
+  "approved_review_evidence": [
+    {"path":"kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/REVIEW_manifest.json","sha256":"2d184d36c11d8f7af0dff5d375c261b929ff6b04403a0debaa77be51788d74c1","use":"Established BASE_CASE_UNRESOLVED, completion and position dependencies, empty family registry, and current contract compatibility."},
+    {"path":"kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/REVIEW_manifest.json","sha256":"42f7a6d13065ff6a6d1c65b04bf1e41a32f256b2baa6b839ee44a423e59c5cfa","use":"Preserves frozen P005 unresolved semantics and P006 source conflict."}
+  ],
+  "search_terms": ["smallest observable degree","smallest degree","finest","indivisible","does not subdivide","subdivisions not visible","completed internals","developing","provisional","confirmed","completion"],
+  "source_derived_terminal_found": false,
+  "source_conflict_about_terminal_case": false,
+  "video_inspection_required": false,
+  "video_reason": "The decisive issue is absent semantic authority, not an ambiguous chart-dependent transcript statement. Previously reviewed P005/P006 video findings remain unchanged.",
+  "external_sources_used": false,
+  "model_memory_used": false
+}

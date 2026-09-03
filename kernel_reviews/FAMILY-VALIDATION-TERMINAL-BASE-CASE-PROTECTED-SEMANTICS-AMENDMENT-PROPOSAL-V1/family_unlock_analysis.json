@@ -1,0 +1,22 @@
+{
+  "proposal_id": "FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1",
+  "path_a_source_derived": {
+    "MOTIVE_FIVE_WAVE_FAMILY":"NOT_UNLOCKED",
+    "CORRECTIVE_THREE_WAVE_FAMILY":"NOT_UNLOCKED",
+    "reason":"No source-derived finite positive terminus or general completion authority exists."
+  },
+  "path_b_project_policy": {
+    "MOTIVE_FIVE_WAVE_FAMILY":"NOT_UNLOCKED",
+    "CORRECTIVE_THREE_WAVE_FAMILY":"NOT_UNLOCKED",
+    "reason":"Every enabling policy candidate violates the approved trust or P023 boundary; only a non-enabling fail-closed clarification is safe."
+  },
+  "normal_impulse":"Still blocked independently by frozen P005 and P006 even if terminal semantics were later supplied.",
+  "ending_diagonal":"Still requires five genuine corrective-family leg proofs, completion, geometry, and position authority.",
+  "leading_diagonal":"Still source-ambiguous and separate from ending-diagonal semantics.",
+  "zigzag_flat_triangle_combinations":"Still circular because their required child families presuppose one or both empty family kinds.",
+  "position_authority":"Not solved by this proposal.",
+  "endpoint_authority":"Not solved by this proposal.",
+  "family_contract_extension":"Not required by current findings; existing dormant extension model remains compatible.",
+  "implementation_authorized":false,
+  "family_producer_selected":null
+}

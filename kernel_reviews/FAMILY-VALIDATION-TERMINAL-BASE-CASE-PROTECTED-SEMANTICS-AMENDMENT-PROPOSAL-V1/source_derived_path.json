@@ -1,0 +1,23 @@
+{
+  "proposal_id": "FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1",
+  "path": "PATH_A_SOURCE_DERIVED_ONLY",
+  "result": "NO_SOURCE_DERIVED_BASE_CASE",
+  "evaluated_candidates": [
+    {"candidate":"SOURCE_DEFINED_TERMINAL_WAVE","source_status":"UNRESOLVED","finding":"No protected source identifies a motive-five or corrective-three terminal wave exempt from further required internal-family proof."},
+    {"candidate":"VISIBLE_AND_COMPLETE_REQUIRED_INTERNALS","source_status":"INCOMPLETE","finding":"Visibility permits further validation but supplies neither recursive termination nor a general deterministic completion authority."},
+    {"candidate":"SOURCE_DEFINED_PRIMITIVE_FORM","source_status":"UNRESOLVED","finding":"No primitive form is defined that can establish either existing family kind without nested family proof."},
+    {"candidate":"SMALLEST_OBSERVABLE_DEGREE","source_status":"REJECTED_BY_SOURCE_BOUNDARY","finding":"Protected material warns that aggregation can hide structure and directs unresolved internals to finer data; smallest observable does not mean terminal valid."},
+    {"candidate":"CARDINALITY_AS_TERMINUS","source_status":"REJECTED_BY_EXISTING_CONTRACTS","finding":"Existing cardinality behaviors expressly prove only proposed direct-child count, not family, labels, completion, or validity."}
+  ],
+  "p023_relation": {
+    "visible":"Eligible for the next applicable structural checks only; visibility itself proves no family.",
+    "not_visible_or_unknown":"INTERNALS_UNRESOLVED and finer data may be requested.",
+    "forbidden_transition":"NOT_VISIBLE_TO_TERMINAL_VALID_FAMILY"
+  },
+  "completion_result":"NO_GENERAL_SOURCE_COMPLETE_COMPLETION_CRITERION",
+  "family_unlock": {
+    "MOTIVE_FIVE_WAVE_FAMILY": false,
+    "CORRECTIVE_THREE_WAVE_FAMILY": false
+  },
+  "amendment_text_available": false
+}
