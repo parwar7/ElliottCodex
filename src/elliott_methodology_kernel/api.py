@@ -20,6 +20,11 @@ from .explicit_behavior_execution import (
     ExplicitBehaviorExecutionResult,
     _execute_candidate_inputs,
 )
+from .manual_structure_candidate_builder import (
+    ManualStructureCandidateBuildResult,
+    ManualStructureCandidateRequest,
+    _build_manual_candidate,
+)
 
 
 KERNEL_VERSION = "0.1.0-phase1-contract"
@@ -85,3 +90,10 @@ class MethodologyKernel:
     ) -> ExplicitBehaviorExecutionResult:
         """Execute exact supplied behavior inputs, then reuse candidate orchestration."""
         return _execute_candidate_inputs(request, self.analyze_candidate)
+
+    def analyze_manual_candidate(
+        self,
+        request: ManualStructureCandidateRequest,
+    ) -> ManualStructureCandidateBuildResult:
+        """Build exact inputs from explicit manual facts, then reuse execution."""
+        return _build_manual_candidate(request, self.analyze_candidate_inputs)

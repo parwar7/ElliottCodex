@@ -1,0 +1,18 @@
+{
+  "baseline_id": "MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1",
+  "limitations": [
+    "A human or trusted upstream workflow must explicitly provide every supported structural fact; no chart or market-data interpretation occurs.",
+    "V1 supports six narrow declaration types and does not provide a generic fact bag, free-form local file format, CLI, or reporting snapshot.",
+    "Manual P004 prices are caller-designated observations; their names do not establish pivots, orthodox endpoints, or completion.",
+    "Degree values, direction, P003 relation, P023 visibility, cardinality target, subjects, child order, and binding identity are caller-supplied only.",
+    "Child count alone has no behavior or family meaning; the caller must explicitly select one cardinality behavior.",
+    "Legacy subjectless methodology contracts remain subjectless and gain no authority from manual transport.",
+    "The builder creates no structural certificate. Existing genuine certificates may only pass through unchanged under downstream checks.",
+    "The build result is a live same-process object and is not a durable reporting or serialization boundary.",
+    "The validated-family registry remains sealed with zero producers and zero issuances.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND and the P006 source conflict remain unresolved and unchanged."
+  ],
+  "physical_immutability_enforced": false,
+  "hostile_same_process_security_claimed": false,
+  "cross_process_authority_claimed": false
+}

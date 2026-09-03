@@ -1,0 +1,17 @@
+{
+  "baseline_id": "MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "manual_fact_classification": "CALLER_SUPPLIED_STRUCTURAL_FACT",
+  "source_class": null,
+  "protected_principle_id": null,
+  "methodology_behavior_added": false,
+  "authority_statement": "Manual facts are untrusted declarations used only to construct exact existing input contracts; existing validators remain the sole methodology-result authority.",
+  "inference_statement": "The builder performs no candidate, family, direction, degree, visibility, relation, price, child, wave, pivot, timeframe, or applicability inference.",
+  "certification_statement": "No manual fact creates a certificate. Only a separately supplied genuine live certificate may pass unchanged to existing no-rescue execution.",
+  "locked_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "protected_methodology_changes": [],
+  "protected_ids_created": [],
+  "p005_status": "UNCHANGED",
+  "p006_status": "UNCHANGED_UNRESOLVED_CONFLICT"
+}

@@ -1,0 +1,24 @@
+{
+  "baseline_id": "MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1",
+  "python_version": "3.12.10",
+  "focused_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_manual_structure_candidate_builder.py'",
+  "focused_tests_run": 30,
+  "focused_passes": 30,
+  "focused_failures": 0,
+  "focused_errors": 0,
+  "full_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_*.py'",
+  "full_tests_run": 523,
+  "full_passes": 523,
+  "full_failures": 0,
+  "full_errors": 0,
+  "full_skipped": 0,
+  "adversarial_audit": "PASS",
+  "hardening": [
+    "Six exact sealed fact types and one finite immutable nine-entry fact/selector mapping reject caller-controlled behavior IDs, constructors, functions, modules, and class names.",
+    "Manual facts, effective bindings, certificates, observation transport, constructed inputs, execution records, and downstream results are identity-checked and recursively revalidated.",
+    "Cross-subject P023 facts, bindings, and certificates fail before validator execution.",
+    "Cardinality requires an explicit selector and exact effective binding; child counts alone produce zero methodology inputs.",
+    "No-rescue has no ordinary manual fact mapping and certificate pass-through never synthesizes authority.",
+    "No discovery, market-data interpretation, timeframe mapping, degree inference, family inference, result manufacture, certification, ranking, or external capability was introduced."
+  ]
+}
