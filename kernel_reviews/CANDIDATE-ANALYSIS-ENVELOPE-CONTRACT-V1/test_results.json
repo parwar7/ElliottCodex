@@ -1,0 +1,23 @@
+{
+  "baseline_id": "CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1",
+  "python_version": "3.12.10",
+  "focused_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_candidate_analysis_envelope.py'",
+  "focused_tests_run": 22,
+  "focused_passes": 22,
+  "focused_failures": 0,
+  "focused_errors": 0,
+  "full_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_*.py'",
+  "full_tests_run": 445,
+  "full_passes": 445,
+  "full_failures": 0,
+  "full_errors": 0,
+  "full_skipped": 0,
+  "adversarial_audit": "PASS",
+  "hardening": [
+    "Exact compatibility uses a private ten-entry type table rather than names, caller maps, or dynamic imports.",
+    "Recursive identity snapshots cover nested dataclass and tuple content, including degree inputs and endpoint-pair observations.",
+    "P023 requires the existing live subject-bound result wrapper and exact visibility-token consistency.",
+    "Cardinality and no-rescue bindings are checked against exact subject and binding identities where exposed.",
+    "Duplicate behavior/input identity, cross-subject support, mismatched types, duck types, mappings, subclasses, mutation, and pickle restoration are rejected."
+  ]
+}

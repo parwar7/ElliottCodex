@@ -1,0 +1,35 @@
+{
+  "baseline_id": "CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1",
+  "prior_baseline_artifacts_modified": false,
+  "prior_review_manifest_count": 26,
+  "latest_prior_baseline": {
+    "baseline_id": "BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1",
+    "manifest_sha256": "895d98a67ad9056fd70d323517ea5c6cfee5cda706df8c66eec0e911f6d818da"
+  },
+  "new_files": [
+    "src/elliott_methodology_kernel/candidate_analysis_envelope.py",
+    "tests/test_candidate_analysis_envelope.py"
+  ],
+  "modified_files": [
+    "src/elliott_methodology_kernel/__init__.py"
+  ],
+  "unchanged_boundaries": [
+    "Brain_LOCKED",
+    "Sources_LOCKED",
+    "all prior kernel_reviews artifacts",
+    "all methodology behavior implementations",
+    "certificate algorithms",
+    "bounded_recursive_analysis.py",
+    "subject_binding.py",
+    "observed_price_binding.py",
+    "models.py",
+    "api.py",
+    "MethodologyKernel.analyze"
+  ],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  }
+}

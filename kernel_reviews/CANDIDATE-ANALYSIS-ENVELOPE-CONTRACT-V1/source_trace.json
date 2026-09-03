@@ -1,0 +1,16 @@
+{
+  "baseline_id": "CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "source_class": null,
+  "protected_principle_id": null,
+  "methodology_behavior_added": false,
+  "locked_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "authority_statement": "The envelope and attachments preserve only authority already held by exact existing live objects; they create no methodology authority.",
+  "subjectless_legacy_statement": "P004, peer-degree, parent-child degree, and P003 results expose no exact analyzed subject. Their envelope subject is transport context only and is not inferred to have been validated.",
+  "protected_methodology_changes": [],
+  "protected_ids_created": [],
+  "p005_status": "UNCHANGED",
+  "p006_status": "UNCHANGED_UNRESOLVED_CONFLICT",
+  "base_case_finding_changed": false
+}

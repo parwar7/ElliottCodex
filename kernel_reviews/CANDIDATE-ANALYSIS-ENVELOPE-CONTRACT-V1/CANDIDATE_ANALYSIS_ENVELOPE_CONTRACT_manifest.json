@@ -1,0 +1,217 @@
+{
+  "baseline_id": "CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "KERNEL_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "workflow_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "public_surface": {
+    "implementation_module": "elliott_methodology_kernel.candidate_analysis_envelope",
+    "package_root_reexport": true,
+    "types": [
+      "CandidateAnalysisEnvelope",
+      "CandidateMethodologyEvaluation",
+      "CandidateObservationAttachment",
+      "CandidateAnalysisEnvelopeError"
+    ],
+    "factories": [],
+    "validators": [],
+    "certifiers": [],
+    "issuers": [],
+    "producers": [],
+    "registries": []
+  },
+  "envelope_fields": [
+    "subject",
+    "candidate_id",
+    "child_binding",
+    "methodology_evaluations",
+    "observations",
+    "operational_resolution",
+    "provenance_refs"
+  ],
+  "behavior_compatibility": [
+    {
+      "behavior_id": "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+      "input_type": "P004Input",
+      "result_type": "P004Result",
+      "subject_authority": "LEGACY_RESULT_EXPOSES_NONE"
+    },
+    {
+      "behavior_id": "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+      "input_type": "DegreePeerConsistencyInput",
+      "result_type": "DegreePeerConsistencyResult",
+      "subject_authority": "LEGACY_RESULT_EXPOSES_NONE"
+    },
+    {
+      "behavior_id": "PARENT_CHILD_DEGREE_ADJACENCY",
+      "input_type": "ParentChildDegreeInput",
+      "result_type": "ParentChildDegreeResult",
+      "subject_authority": "LEGACY_RESULT_EXPOSES_NONE"
+    },
+    {
+      "behavior_id": "P023_INTERNAL_VISIBILITY_GUARD",
+      "input_type": "P023VisibilityInput",
+      "result_type": "SubjectBoundP023VisibilityResult wrapping exact P023VisibilityResult",
+      "subject_authority": "EXACT_LIVE_SUBJECT_IDENTITY_REQUIRED"
+    },
+    {
+      "behavior_id": "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+      "input_type": "CertifiedStructuralInvalidity",
+      "result_type": "StructuralInvalidityEvidenceNoRescueResult",
+      "subject_authority": "EXACT_ORIGIN_BINDING_PARENT_WHERE_EXPOSED"
+    },
+    {
+      "behavior_id": "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
+      "input_type": "P003OneLargerDegreeThemeInput",
+      "result_type": "P003OneLargerDegreeThemeResult",
+      "subject_authority": "LEGACY_RESULT_EXPOSES_NONE"
+    },
+    {
+      "behavior_id": "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
+      "input_type": "P007SingleZigzagCardinalityInput",
+      "result_type": "P007SingleZigzagCardinalityResult",
+      "subject_authority": "EXACT_BINDING_PARENT_IDENTITY_WHERE_EXPOSED"
+    },
+    {
+      "behavior_id": "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+      "input_type": "P008FlatCardinalityInput",
+      "result_type": "P008FlatCardinalityResult",
+      "subject_authority": "EXACT_BINDING_PARENT_IDENTITY_WHERE_EXPOSED"
+    },
+    {
+      "behavior_id": "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
+      "input_type": "P009TriangleCardinalityInput",
+      "result_type": "P009TriangleCardinalityResult",
+      "subject_authority": "EXACT_BINDING_PARENT_IDENTITY_WHERE_EXPOSED"
+    },
+    {
+      "behavior_id": "ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY",
+      "input_type": "EndingDiagonalCardinalityInput",
+      "result_type": "EndingDiagonalCardinalityResult",
+      "subject_authority": "EXACT_BINDING_PARENT_IDENTITY_WHERE_EXPOSED"
+    }
+  ],
+  "consistency_rules": {
+    "candidate_identity": "The exact AnalyzedWaveSubject is identity authority; candidate_id is opaque metadata only.",
+    "type_compatibility": "A private immutable reviewed tuple maps each exact behavior ID to exact input and result types. Unknown, mismatched, mapping, duck, subclass, and class-name lookalikes fail closed.",
+    "subject": "Envelope, attachments, observations, P023 support, operational resolution, and exposed binding parents must use the identical subject object.",
+    "binding": "A binding-consuming evaluation must expose the envelope's exact OrderedChildBinding. Result binding, when present, must be the exact input binding. Order is never normalized.",
+    "duplicates": "The same behavior with the same exact input identity cannot appear twice. Same-behavior evaluations with distinct input identities retain order and receive no ranking.",
+    "observation": "Only exact existing subject-bound price observation or endpoint-pair objects are accepted; no endpoint, pivot, wave, or completion authority is added.",
+    "resolution": "An optional exact existing BoundedRecursiveAnalysisResolution is revalidated, subject-matched, retained unchanged, and never created by the envelope.",
+    "mutation": "Recursive live-identity snapshots cover attachment fields and nested dataclass/tuple content and fail closed when consumed after low-level mutation.",
+    "serialization": "Envelope and attachments reject pickle; mappings and serialized lookalikes carry no live authority."
+  },
+  "inventory_at_checkpoint": {
+    "executable_methodology": 10,
+    "structural_invalidity_registry_sealed": true,
+    "structural_invalidity_producers": 7,
+    "validated_family_registry_sealed": true,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "methodology_kernel_analyze": "NOT_IMPLEMENTED",
+    "p005": "UNCHANGED",
+    "p006": "UNCHANGED_UNRESOLVED_CONFLICT",
+    "source_derived_base_case_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+  },
+  "artifacts": [
+    {
+      "path": "src/elliott_methodology_kernel/candidate_analysis_envelope.py",
+      "byte_length": 27683,
+      "sha256": "30a81c5f7c2ea1d5d3b31a29e3b1878318b1ab9a6ba071b87461635ea4f5525c"
+    },
+    {
+      "path": "tests/test_candidate_analysis_envelope.py",
+      "byte_length": 30128,
+      "sha256": "c41d2b5ceb3a15707bafd0752b41c9243860985e25e7a79b5273cb3eaca9f7f0"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 7610,
+      "sha256": "5fa06d0db004e5d0df959789a515d0417da13190580d02550536baf9e8a35260"
+    }
+  ],
+  "unchanged_authority_contracts": [
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+      "byte_length": 29951,
+      "sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/bounded_recursive_analysis.py",
+      "byte_length": 21295,
+      "sha256": "5d7b078a8d246931f8af61def7b16effecbb769b3a806b0c9eeb68a0d2f696d4"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p023_visibility_guard.py",
+      "byte_length": 4082,
+      "sha256": "d5053ee43ad72f668bd3536d83393d2eae46c74c31189d13dc02b6bc852f94a2"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/api.py",
+      "byte_length": 1889,
+      "sha256": "0540dc50e707ae7731b1b53711a226e4b5d18a87f0c9a1beee7ceac5526f7e1e"
+    }
+  ],
+  "baseline_artifacts": [
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/BASELINE_README.md",
+      "byte_length": 2778,
+      "sha256": "4b455b9f01f4ed67b10c6acbb148dbb060e4a45c63cb926ee6de1eca2254918c"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/known_limitations.json",
+      "byte_length": 1701,
+      "sha256": "026f8d5e48bd346341a6d5e3fb239cd97cae50e55c0d9ea02a44b095afd201d9"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/prior_baseline_delta.json",
+      "byte_length": 1087,
+      "sha256": "b9f03e8ebde5c77c2732301ee22992b900150515c010056781e089edce5e50a3"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/source_trace.json",
+      "byte_length": 921,
+      "sha256": "241fb4556fe4efd3295c5b14a03a921e2013c1e8d2a01a7b1c7885c54da4030e"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/test_results.json",
+      "byte_length": 1359,
+      "sha256": "fac955898ae665c2990d87b9d930243d9d6260eb1dbe39f4f3bff6d283204a6f"
+    }
+  ],
+  "prior_review_manifest_count": 26,
+  "prior_review_manifests_modified": false,
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatch_count": 0
+  },
+  "protected_sources": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21,
+    "mismatch_count": 0,
+    "frost_prechter_byte_length": 69874756,
+    "frost_prechter_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  },
+  "tests": {
+    "focused": 22,
+    "focused_passes": 22,
+    "full": 445,
+    "full_passes": 445,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "adversarial_audit": "PASS"
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, hostile same-process isolation, cryptographic authenticity, or durable cross-process identity is claimed."
+}

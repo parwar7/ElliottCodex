@@ -137,6 +137,12 @@ from .bounded_recursive_analysis import (
     aggregate_supplied_child_resolutions,
     evaluate_p023_visibility_for_subject,
 )
+from .candidate_analysis_envelope import (
+    CandidateAnalysisEnvelope,
+    CandidateAnalysisEnvelopeError,
+    CandidateMethodologyEvaluation,
+    CandidateObservationAttachment,
+)
 
 __all__ = [
     "AnalysisRequest",
@@ -150,6 +156,10 @@ __all__ = [
     "BoundedRecursiveAnalysisNode",
     "BoundedRecursiveAnalysisResolution",
     "CandidateScope",
+    "CandidateAnalysisEnvelope",
+    "CandidateAnalysisEnvelopeError",
+    "CandidateMethodologyEvaluation",
+    "CandidateObservationAttachment",
     "CertifiedStructuralInvalidity",
     "CertifiedValidatedInternalFamily",
     "DegreePeerCheckStatus",

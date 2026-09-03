@@ -1,0 +1,17 @@
+{
+  "baseline_id": "CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1",
+  "limitations": [
+    "The envelope transports a caller-proposed candidate and does not discover, segment, label, classify, complete, or rank it.",
+    "Legacy results without subject or binding identity cannot prove that they evaluated the envelope subject; the attachment adds no such authority.",
+    "Most current methodology results have no issuance attestation. Exact type, behavior ID, input identity, result identity, nested identity snapshots, and exposed binding consistency are checked, but the attachment does not certify causal production of a result by its input.",
+    "P023 subject identity is verified through the existing live wrapper. A distinct P023 input object carrying the identical immutable visibility token can transport that result, without adding authority or claiming originating-input identity.",
+    "A binding-consuming evaluation requires the envelope to carry the same exact binding; the envelope does not assert that the children are methodology-required or establish parentage.",
+    "Observation attachments are limited to existing observed-price contracts and provide no pivot, endpoint, completion, chronology, direction, or wave semantics.",
+    "The live envelope is not a durable reporting snapshot and cannot restore certificate authority across serialization or process boundaries.",
+    "The validated-family registry remains sealed with zero producers and zero issuances.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND remains unresolved and unchanged."
+  ],
+  "physical_immutability_enforced": false,
+  "hostile_same_process_security_claimed": false,
+  "cross_process_authority_claimed": false
+}
