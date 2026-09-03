@@ -1,0 +1,23 @@
+{
+  "review_id": "FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1",
+  "before": {
+    "manifest_sha256": "61887c8ebabd990c669637df8ccf2975e7028c17e9b428d1a9181d1ef986cbdd",
+    "entry_count": 20
+  },
+  "after": {
+    "manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21
+  },
+  "added_entries": [
+    {
+      "relative_path": "book_frost_prechter\\Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "bytes": 69874756,
+      "sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+    }
+  ],
+  "removed_entries": [],
+  "mutated_preexisting_entries": [],
+  "preexisting_entries_verified": 20,
+  "preexisting_file_mismatch_count": 0,
+  "delta_is_exactly_one_approved_book": true
+}

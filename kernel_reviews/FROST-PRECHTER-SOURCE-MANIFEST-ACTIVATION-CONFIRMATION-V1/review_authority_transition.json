@@ -1,0 +1,13 @@
+{
+  "review_id": "FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1",
+  "subject_review": "FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1",
+  "subject_review_manifest_sha256": "5e4ce0107400d0e24b4683bd57c0108d83963c243228d590cb4a9e3156344ab9",
+  "before": "PENDING_SOURCE_MANIFEST_ACTIVATION",
+  "after": "ACTIVE_APPROVED_SOURCE_AUTHORITY",
+  "authority_statement": "The book review findings are now officially backed by an active approved protected source artifact.",
+  "substantive_finding_before": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "substantive_finding_after": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "substantive_finding_changed": false,
+  "review_reinterpreted": false,
+  "implementation_authorized": false
+}

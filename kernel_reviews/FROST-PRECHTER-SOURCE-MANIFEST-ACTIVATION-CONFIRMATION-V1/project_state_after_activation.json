@@ -1,0 +1,23 @@
+{
+  "review_id": "FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1",
+  "executable_methodology_count": 10,
+  "structural_invalidity_registry": {
+    "sealed": true,
+    "producer_count": 7
+  },
+  "validated_family_registry": {
+    "sealed": true,
+    "producer_count": 0,
+    "issuance_count": 0
+  },
+  "P005": "UNCHANGED_DEFERRED_SOURCE_SEMANTICS",
+  "P006": "UNCHANGED_DEFERRED_SOURCE_SEMANTICS_WITH_UNRESOLVED_CONFLICT",
+  "terminal_base_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "first_family_producer_unlocked": false,
+  "brain_modified": false,
+  "sources_locked_modified_by_confirmation": false,
+  "runtime_methodology_modified": false,
+  "tests_modified": false,
+  "family_producer_added": false,
+  "family_certificate_issued": false
+}

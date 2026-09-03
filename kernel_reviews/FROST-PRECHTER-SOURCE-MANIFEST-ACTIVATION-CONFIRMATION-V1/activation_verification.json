@@ -1,0 +1,23 @@
+{
+  "review_id": "FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1",
+  "protected_manifest": {
+    "path": "C:\\ElliottCodex\\Sources_LOCKED\\SOURCE_MANIFEST.json",
+    "exists": true,
+    "sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "declared_entry_count": 21,
+    "actual_entry_count": 21,
+    "matches_staged_proposal_byte_for_byte": true,
+    "entry_mismatch_count": 0
+  },
+  "approved_book": {
+    "manifest_relative_path": "book_frost_prechter\\Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+    "protected_path": "C:\\ElliottCodex\\Sources_LOCKED\\book_frost_prechter\\Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+    "manifest_entry_count": 1,
+    "exists": true,
+    "byte_length": 69874756,
+    "sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+    "identity_matches_manifest": true
+  },
+  "sources_locked_modified_by_confirmation": false,
+  "result": "ACTIVATION_VERIFIED"
+}
