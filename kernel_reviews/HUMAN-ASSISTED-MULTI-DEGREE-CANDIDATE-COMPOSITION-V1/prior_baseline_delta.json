@@ -1,0 +1,39 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1",
+  "prior_checkpoint": {
+    "baseline_id": "MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1",
+    "git_head": "85f88b340d3f3319f5cf5f8a21076feda9985e64",
+    "manifest_sha256": "f275bb2ba037c39aa4845353b2f7202a222f6122d694aef5df7c5ecfae539383"
+  },
+  "additions": [
+    "CandidateDegreeDeclaration",
+    "SubjectDegreeInventoryEntry",
+    "DegreeCompositionEvaluation",
+    "DegreeCompositionDiagnostic",
+    "DegreeCompositionDiagnosticState",
+    "MultiDegreeCandidateCompositionRequest",
+    "MultiDegreeCandidateCompositionResult",
+    "MethodologyKernel.compose_multi_degree_candidate"
+  ],
+  "modified_existing_files": [
+    "src/elliott_methodology_kernel/api.py",
+    "src/elliott_methodology_kernel/__init__.py"
+  ],
+  "unchanged_shared_contracts": [
+    "src/elliott_methodology_kernel/models.py",
+    "src/elliott_methodology_kernel/multi_timeframe_observation_transport.py",
+    "src/elliott_methodology_kernel/recursive_candidate_composition.py",
+    "src/elliott_methodology_kernel/degree_peer_consistency.py",
+    "src/elliott_methodology_kernel/parent_child_degree_adjacency.py",
+    "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+    "src/elliott_methodology_kernel/_validated_internal_family_certification.py"
+  ],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "prior_review_manifest_count": 36,
+  "prior_review_manifests_modified": false
+}

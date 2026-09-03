@@ -1,0 +1,26 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1",
+  "focused_command": "python -m unittest discover -s tests -p 'test_multi_degree_candidate_composition.py'",
+  "focused_tests": 20,
+  "focused_passes": 20,
+  "full_command": "python -m unittest discover -s tests -p 'test_*.py'",
+  "full_tests": 665,
+  "full_passes": 665,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "coverage": [
+    "exact immutable caller declaration and existing degree representation",
+    "recursive parent, child, and descendant membership by exact identity",
+    "foreign, lookalike, duplicate, mapping, duck, subclass, pickle, and mutation rejection",
+    "partial declaration coverage as operational diagnostics only",
+    "exact peer and direct-edge input construction through established execution",
+    "matching, violated, and unresolved existing degree results retained",
+    "recursive edge order and parent-local peer grouping",
+    "no grandparent direct-edge shortcut or adjacent-degree autofill",
+    "exact optional multi-timeframe context with no degree inference",
+    "no P023, family, certificate, ranking, indicator, label, or trading authority",
+    "unchanged methodology and producer inventories"
+  ],
+  "adversarial_audit": "PASS"
+}

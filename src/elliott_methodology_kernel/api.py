@@ -45,6 +45,11 @@ from .multi_timeframe_observation_transport import (
     MultiTimeframeObservationTransportResult,
     _attach_multi_timeframe_observations,
 )
+from .multi_degree_candidate_composition import (
+    MultiDegreeCandidateCompositionRequest,
+    MultiDegreeCandidateCompositionResult,
+    _compose_multi_degree_candidate,
+)
 
 
 KERNEL_VERSION = "0.1.0-phase1-contract"
@@ -148,3 +153,10 @@ class MethodologyKernel:
     ) -> MultiTimeframeObservationTransportResult:
         """Attach exact normalized observations without methodology interpretation."""
         return _attach_multi_timeframe_observations(request)
+
+    def compose_multi_degree_candidate(
+        self,
+        request: MultiDegreeCandidateCompositionRequest,
+    ) -> MultiDegreeCandidateCompositionResult:
+        """Evaluate exact caller degree declarations over one recursive tree."""
+        return _compose_multi_degree_candidate(request, self.analyze_candidate_inputs)

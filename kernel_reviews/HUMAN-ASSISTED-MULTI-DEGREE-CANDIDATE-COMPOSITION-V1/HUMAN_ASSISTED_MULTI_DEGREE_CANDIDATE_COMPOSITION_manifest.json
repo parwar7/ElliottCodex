@@ -1,0 +1,148 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "KERNEL_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "degree_declaration_classification": "CALLER_SUPPLIED_DEGREE_DECLARATION",
+  "workflow_policy": "PROJECT_OPERATIONAL_POLICY",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "core_constraint": "TIMEFRAME_IS_NOT_DEGREE",
+  "public_surface": {
+    "module": "elliott_methodology_kernel.multi_degree_candidate_composition",
+    "api_method": "MethodologyKernel.compose_multi_degree_candidate",
+    "declaration_type": "CandidateDegreeDeclaration",
+    "request_type": "MultiDegreeCandidateCompositionRequest",
+    "result_type": "MultiDegreeCandidateCompositionResult",
+    "evaluation_type": "DegreeCompositionEvaluation",
+    "inventory_type": "SubjectDegreeInventoryEntry",
+    "diagnostic_type": "DegreeCompositionDiagnostic",
+    "request_fields": [
+      "request_id",
+      "requested_at_utc",
+      "recursive_candidate_result",
+      "degree_declarations",
+      "multi_timeframe_context",
+      "provenance_refs"
+    ],
+    "result_fields": [
+      "request_id",
+      "recursive_candidate_result",
+      "multi_timeframe_context",
+      "degree_declarations",
+      "degree_evaluations",
+      "subject_degree_inventory",
+      "degree_diagnostics",
+      "provenance_refs"
+    ]
+  },
+  "declaration_contract": {
+    "fields": ["subject", "degree", "degree_status", "provenance_refs"],
+    "authority": "UNTRUSTED_CALLER_HYPOTHESIS",
+    "degree_representation": "existing string-or-null representation",
+    "degree_status_type": "DegreeStatus",
+    "maximum_per_exact_subject": 1,
+    "caller_order_preserved": true,
+    "proof_or_confirmation_created": false
+  },
+  "tree_membership": {
+    "identity_basis": "exact live AnalyzedWaveSubject identity",
+    "foreign_subjects_rejected": true,
+    "lookalike_subjects_rejected": true,
+    "recursive_tree_order": "preorder",
+    "partial_coverage_allowed": true,
+    "missing_diagnostic": "NO_DEGREE_DECLARATION_SUPPLIED",
+    "missing_is_methodology_unresolved": false
+  },
+  "degree_execution": {
+    "execution_boundary": "MethodologyKernel.analyze_candidate_inputs",
+    "peer_behavior": "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "peer_input": "DegreePeerConsistencyInput",
+    "peer_scope": "complete explicitly declared direct-child tuple for one parent",
+    "adjacency_behavior": "PARENT_CHILD_DEGREE_ADJACENCY",
+    "adjacency_input": "ParentChildDegreeInput",
+    "adjacency_scope": "each explicitly declared direct parent-child edge",
+    "grandparent_shortcut": false,
+    "degree_autofill": false,
+    "exact_existing_results_retained": true,
+    "certificate_synthesized": false
+  },
+  "timeframe_orthogonality": {
+    "context_type": "MultiTimeframeObservationTransportResult",
+    "context_optional": true,
+    "same_recursive_result_identity_required": true,
+    "timeframe_consumed_by_degree_input": false,
+    "degree_derived_from_timeframe": false,
+    "timeframe_derived_from_degree": false
+  },
+  "authority_and_security": {
+    "p023_rerun": false,
+    "family_validation": false,
+    "pattern_or_wave_label_inference": false,
+    "ranking_or_trading": false,
+    "dynamic_import_or_callable_injection": false,
+    "mapping_duck_subclass_or_pickle_authority": false,
+    "low_level_mutation": "FAIL_CLOSED"
+  },
+  "inventory_at_checkpoint": {
+    "executable_methodology": 10,
+    "structural_invalidity_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p005": "UNCHANGED",
+    "p006": "UNCHANGED_UNRESOLVED_CONFLICT",
+    "terminal_base_case_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_analyze": "NOT_IMPLEMENTED"
+  },
+  "implementation_artifacts": [
+    {"path":"src/elliott_methodology_kernel/multi_degree_candidate_composition.py","byte_length":32244,"sha256":"2bfc809370f64e3934ade87a71b6b02fbe9e09d4c85b3dbd43ca99ea14eddd71"},
+    {"path":"tests/test_multi_degree_candidate_composition.py","byte_length":19648,"sha256":"bf0becf5d3d0cf7b2d7620fd29166621d7f969f43d6202686ec9739d548becfc"},
+    {"path":"src/elliott_methodology_kernel/api.py","byte_length":6065,"sha256":"36c02d821c9efd1accfe08c456bf0a66fb7e914fd57a9fb644cbda9168fce9ae"},
+    {"path":"src/elliott_methodology_kernel/__init__.py","byte_length":13605,"sha256":"30b067e3ab497df4e43107777b84d93e1a02704f25a50b774ed720e6bb88a1bf"}
+  ],
+  "baseline_artifacts": [
+    {"path":"kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/BASELINE_README.md","byte_length":2104,"sha256":"7a0a59f65add366f3db673e3c46be1d4f1f7fbe87f3a231d7bc2ebbba305fccd"},
+    {"path":"kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/source_trace.json","byte_length":1199,"sha256":"cea511ebe73e5356bd05432e79e3342d37956c4736fa5579744b2c23785562a0"},
+    {"path":"kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/test_results.json","byte_length":1260,"sha256":"9652b64e22440e421603fc9bb9c1fbc2fe7ae50f979d379d0f7861f3baefc45d"},
+    {"path":"kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/known_limitations.json","byte_length":1010,"sha256":"0827c6c8d5d4eb9ba962a56b479f98add8d92cee5cb096fc4e45b95221c010a6"},
+    {"path":"kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/prior_baseline_delta.json","byte_length":1586,"sha256":"038d80bed6303306ea62e2e61058a992aeb4983893bfd454a4aefcc4f889b4a6"}
+  ],
+  "unchanged_shared_contracts": [
+    "models.py",
+    "multi_timeframe_observation_transport.py",
+    "recursive_candidate_composition.py",
+    "degree_peer_consistency.py",
+    "parent_child_degree_adjacency.py",
+    "certificate algorithms"
+  ],
+  "prior_checkpoint": {
+    "baseline_id": "MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1",
+    "git_head": "85f88b340d3f3319f5cf5f8a21076feda9985e64",
+    "manifest_sha256": "f275bb2ba037c39aa4845353b2f7202a222f6122d694aef5df7c5ecfae539383"
+  },
+  "prior_review_manifest_count": 36,
+  "prior_review_manifests_modified": false,
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatch_count": 0
+  },
+  "protected_sources": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21,
+    "mismatch_count": 0
+  },
+  "tests": {
+    "focused": 20,
+    "focused_passes": 20,
+    "full": 665,
+    "full_passes": 665,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "adversarial_audit": "PASS"
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, hostile same-process isolation, cryptographic authenticity, serialized authority, or durable cross-process identity is claimed."
+}

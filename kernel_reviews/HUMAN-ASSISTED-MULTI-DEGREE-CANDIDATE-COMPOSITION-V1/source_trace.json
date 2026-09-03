@@ -1,0 +1,29 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "degree_declaration_classification": "CALLER_SUPPLIED_DEGREE_DECLARATION",
+  "workflow_policy": "PROJECT_OPERATIONAL_POLICY",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "core_constraint": "TIMEFRAME_IS_NOT_DEGREE",
+  "reused_methodology_behaviors": [
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY"
+  ],
+  "reused_protected_sources": [
+    "docs/elliott/SOURCE_POLICY.md",
+    "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+    "docs/elliott/MASTER_PROTOCOL.md"
+  ],
+  "authority_statement": "Caller degree declarations are hypotheses only. Exact existing degree behavior results retain all methodology authority.",
+  "protected_state": {
+    "brain_version": "0.1.0",
+    "brain_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "brain_entries": 30,
+    "brain_mismatches": 0,
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "source_entries": 21,
+    "source_mismatches": 0
+  }
+}

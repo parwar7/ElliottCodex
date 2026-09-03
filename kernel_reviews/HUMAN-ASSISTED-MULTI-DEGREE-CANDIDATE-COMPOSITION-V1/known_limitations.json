@@ -1,0 +1,15 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1",
+  "limitations": [
+    "Degree declarations are same-process typed caller hypotheses, not proof or certification.",
+    "At most one degree declaration per exact subject is supported; competing degree hypotheses are not represented.",
+    "Partial declaration coverage is retained without inferring missing degrees.",
+    "Only exact direct parent-child edges and complete direct-child peer groups are evaluated.",
+    "Existing degree violations are retained but no structural-invalidity certificate is synthesized.",
+    "Multi-timeframe context is transport only and is never degree evidence.",
+    "No cross-timeframe confirmation, P023 rerun, family validation, pattern inference, ranking, or trading logic is included.",
+    "P005 remains unchanged; P006 remains unchanged with its unresolved conflict.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND remains unchanged.",
+    "MethodologyKernel.analyze remains NOT_IMPLEMENTED."
+  ]
+}

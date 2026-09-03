@@ -225,6 +225,17 @@ from .multi_timeframe_observation_transport import (
     has_coarser_observation_data,
     has_finer_observation_data,
 )
+from .multi_degree_candidate_composition import (
+    DEGREE_DECLARATION_CLASSIFICATION,
+    CandidateDegreeDeclaration,
+    DegreeCompositionDiagnostic,
+    DegreeCompositionDiagnosticState,
+    DegreeCompositionEvaluation,
+    MultiDegreeCandidateCompositionError,
+    MultiDegreeCandidateCompositionRequest,
+    MultiDegreeCandidateCompositionResult,
+    SubjectDegreeInventoryEntry,
+)
 
 __all__ = [
     "AnalysisRequest",
@@ -258,6 +269,11 @@ __all__ = [
     "CandidateEvaluationPresence",
     "CertifiedStructuralInvalidity",
     "CertifiedValidatedInternalFamily",
+    "CandidateDegreeDeclaration",
+    "DEGREE_DECLARATION_CLASSIFICATION",
+    "DegreeCompositionDiagnostic",
+    "DegreeCompositionDiagnosticState",
+    "DegreeCompositionEvaluation",
     "DegreePeerCheckStatus",
     "DegreePeerConsistencyInput",
     "DegreePeerConsistencyResult",
@@ -298,6 +314,9 @@ __all__ = [
     "ManualStructureCandidateBuilderError",
     "ManualStructureCandidateRequest",
     "MethodologyKernel",
+    "MultiDegreeCandidateCompositionError",
+    "MultiDegreeCandidateCompositionRequest",
+    "MultiDegreeCandidateCompositionResult",
     "MultiTimeframeObservationBundle",
     "MultiTimeframeObservationTransportError",
     "MultiTimeframeObservationTransportRequest",
@@ -364,6 +383,7 @@ __all__ = [
     "SubjectBoundObservedPriceObservation",
     "SubjectBoundP023VisibilityResult",
     "SubjectObservationAttachment",
+    "SubjectDegreeInventoryEntry",
     "TIMEFRAME_IS_NOT_DEGREE",
     "ValidatedInternalFamilyCertificationError",
     "apply_structural_invalidity_evidence_no_rescue",
