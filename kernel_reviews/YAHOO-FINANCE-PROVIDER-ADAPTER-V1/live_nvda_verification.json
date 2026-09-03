@@ -1,0 +1,74 @@
+{
+  "baseline_id": "YAHOO-FINANCE-PROVIDER-ADAPTER-V1",
+  "verification_symbol": "NVDA",
+  "provider": "YAHOO_FINANCE_CHART",
+  "verification_date_utc": "2026-09-04",
+  "results": [
+    {
+      "interval": "1mo",
+      "requested_history": "maximum practical from Unix epoch",
+      "raw_rows": 334,
+      "normalized_bars": 334,
+      "first_utc": "1999-01-01T05:00:00+00:00",
+      "last_utc": "2026-09-03T20:00:00+00:00",
+      "dropped_null_ohlc_rows": 0,
+      "missing_volume_rows": 0,
+      "warnings": [],
+      "resampled": false
+    },
+    {
+      "interval": "1wk",
+      "requested_history": "maximum practical from Unix epoch",
+      "raw_rows": 1443,
+      "normalized_bars": 1443,
+      "first_utc": "1999-01-18T05:00:00+00:00",
+      "last_utc": "2026-09-03T20:00:00+00:00",
+      "dropped_null_ohlc_rows": 0,
+      "missing_volume_rows": 0,
+      "warnings": [],
+      "resampled": false
+    },
+    {
+      "interval": "1d",
+      "requested_history": "maximum practical from Unix epoch",
+      "raw_rows": 6947,
+      "normalized_bars": 6947,
+      "first_utc": "1999-01-22T14:30:00+00:00",
+      "last_utc": "2026-09-03T13:30:00+00:00",
+      "dropped_null_ohlc_rows": 0,
+      "missing_volume_rows": 0,
+      "warnings": [],
+      "resampled": false
+    },
+    {
+      "interval": "1h",
+      "requested_history": "730-day Yahoo retention window",
+      "raw_rows": 3505,
+      "normalized_bars": 3500,
+      "first_utc": "2024-09-04T13:30:00+00:00",
+      "last_utc": "2026-09-03T20:00:00+00:00",
+      "dropped_null_ohlc_rows": 5,
+      "missing_volume_rows": 0,
+      "warnings": [
+        "YAHOO_INTRADAY_RETENTION_LIMIT",
+        "YAHOO_NULL_OHLC_ROWS_DROPPED"
+      ],
+      "resampled": false
+    },
+    {
+      "interval": "15m",
+      "requested_history": "59-day maximum-practical window after exact 60-day boundary returned HTTP 422",
+      "raw_rows": 1119,
+      "normalized_bars": 1119,
+      "first_utc": "2026-07-07T13:30:00+00:00",
+      "last_utc": "2026-09-03T20:00:00+00:00",
+      "dropped_null_ohlc_rows": 0,
+      "missing_volume_rows": 0,
+      "warnings": ["YAHOO_INTRADAY_RETENTION_LIMIT"],
+      "resampled": false
+    }
+  ],
+  "four_hour_policy": "UNSUPPORTED_NOT_NATIVE_IN_V1_NO_RESAMPLING",
+  "normalization_result": "PASS",
+  "methodology_execution": false
+}

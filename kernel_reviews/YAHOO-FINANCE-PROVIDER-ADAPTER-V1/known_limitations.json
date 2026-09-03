@@ -1,0 +1,18 @@
+{
+  "baseline_id": "YAHOO-FINANCE-PROVIDER-ADAPTER-V1",
+  "limitations": [
+    "Yahoo chart endpoints are not a versioned contractual API and can change or rate-limit requests.",
+    "V1 performs one bounded request with no retry and no persistent cache.",
+    "4h is intentionally unsupported; no 1h-to-4h resampling occurs.",
+    "Yahoo limits 1h and 15m retention; missing history is not manufactured.",
+    "An exact rolling 60-day 15m live request returned HTTP 422; 59 days succeeded.",
+    "Monthly resolution_seconds uses a nominal 30-day transport value because the existing Timeframe model requires a positive integer.",
+    "The existing normalizer sorts out-of-order rows and retains duplicate timestamps while reporting them.",
+    "Required-OHLC null rows are excluded and reported; malformed non-null numbers fail closed.",
+    "Yahoo quote OHLC is used without independently applying adjusted close or interpreting corporate actions.",
+    "No pivot discovery, candidate generation, Elliott analysis, indicators, ranking, or trading is included.",
+    "P005 remains unchanged; P006 remains unchanged with its unresolved conflict.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND remains unchanged.",
+    "MethodologyKernel.analyze remains NOT_IMPLEMENTED."
+  ]
+}

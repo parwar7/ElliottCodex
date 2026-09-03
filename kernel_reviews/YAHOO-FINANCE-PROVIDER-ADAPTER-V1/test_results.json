@@ -1,0 +1,26 @@
+{
+  "baseline_id": "YAHOO-FINANCE-PROVIDER-ADAPTER-V1",
+  "focused_command": "python -m unittest discover -s tests -p 'test_yahoo_market_data_provider.py'",
+  "focused_tests": 24,
+  "focused_passes": 24,
+  "full_command": "python -m unittest discover -s tests -p 'test_*.py'",
+  "full_tests": 689,
+  "full_passes": 689,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "coverage": [
+    "request symbol, interval, UTC, range, include-prepost, and timeout validation",
+    "deterministic URL, explicit User-Agent, one request, and bounded response",
+    "valid response normalization and exact existing symbol/timeframe models",
+    "malformed JSON, missing/empty result, array mismatch, timezone, and numeric rejection",
+    "null required-OHLC exclusion with explicit row indices and no interpolation",
+    "duplicate retention and existing chronological sorting policy",
+    "missing volume as quality metadata only",
+    "all five V1 intervals, explicit 4h rejection, and intraday retention warning",
+    "raw Yahoo quote OHLC policy and exact response provenance",
+    "network/HTTP errors and no analytical, shell, eval, dynamic-import, or dependency leakage",
+    "unchanged methodology and producer inventories"
+  ],
+  "adversarial_audit": "PASS"
+}

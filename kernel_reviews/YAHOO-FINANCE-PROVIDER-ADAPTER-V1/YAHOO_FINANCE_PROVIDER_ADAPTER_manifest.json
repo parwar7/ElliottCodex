@@ -1,0 +1,165 @@
+{
+  "baseline_id": "YAHOO-FINANCE-PROVIDER-ADAPTER-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "RUNTIME_DATA_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "artifact_classification": "PROJECT_DATA_INFRASTRUCTURE",
+  "external_data_classification": "UNTRUSTED_EXTERNAL_MARKET_DATA",
+  "normalized_output_classification": "NORMALIZED_MARKET_OBSERVATIONS",
+  "provenance_classification": "DATA_PROVENANCE",
+  "methodology_behavior_added": false,
+  "core_constraint": "TIMEFRAME_IS_NOT_DEGREE",
+  "public_surface": {
+    "module": "elliott_runtime.market_data.yahoo",
+    "provider": "YahooFinanceProvider",
+    "request": "YahooHistoricalDataRequest",
+    "result": "YahooHistoricalDataResult",
+    "metadata": "YahooProviderMetadata",
+    "interval": "YahooInterval",
+    "error": "YahooFinanceProviderError",
+    "error_code": "YahooProviderErrorCode",
+    "warning": "YahooProviderWarning",
+    "method": "YahooFinanceProvider.fetch"
+  },
+  "request_contract": {
+    "fields": [
+      "symbol",
+      "market_type",
+      "interval",
+      "start_time_utc",
+      "end_time_utc",
+      "include_prepost",
+      "exchange"
+    ],
+    "utc_policy": "timezone-aware zero-offset UTC required",
+    "symbol_policy": "exact safe Yahoo symbol retained without case or alias rewriting",
+    "range_policy": "start strictly earlier than end"
+  },
+  "interval_contract": {
+    "supported": ["1mo", "1wk", "1d", "1h", "15m"],
+    "unsupported_4h": "REJECTED_NOT_NATIVE_IN_V1",
+    "resampling": false,
+    "monthly_resolution_seconds": 2592000,
+    "monthly_resolution_note": "nominal 30-day existing Timeframe transport representation only"
+  },
+  "network_contract": {
+    "scheme": "HTTPS",
+    "endpoint": "query1.finance.yahoo.com/v8/finance/chart",
+    "stdlib_only": true,
+    "third_party_dependencies_added": [],
+    "default_timeout_seconds": 30,
+    "maximum_timeout_seconds": 120,
+    "maximum_response_bytes": 67108864,
+    "retry_count": 0,
+    "persistent_cache": false,
+    "explicit_user_agent": true
+  },
+  "response_contract": {
+    "result_cardinality": 1,
+    "required_arrays": ["timestamp", "open", "high", "low", "close"],
+    "equal_array_lengths_required": true,
+    "finite_non_null_numeric_values_required": true,
+    "exchange_timezone_metadata_required": true,
+    "malformed_structure": "FAIL_CLOSED",
+    "empty_result": "YAHOO_EMPTY_RESULT"
+  },
+  "normalization_contract": {
+    "price_policy": "YAHOO_QUOTE_RAW_OHLC_NO_ADJCLOSE_MIXING",
+    "null_ohlc_policy": "DROP_ROW_RECORD_ZERO_BASED_RAW_INDEX_AND_WARNING",
+    "malformed_non_null_numeric_policy": "FAIL_CLOSED",
+    "interpolation": false,
+    "null_volume_policy": "PRESERVE_NULL_AND_REPORT_METADATA",
+    "duplicate_policy": "RETAIN_AND_REPORT",
+    "out_of_order_policy": "EXISTING_NORMALIZER_SORTS_AND_PROVIDER_REPORTS",
+    "corporate_action_interpretation": false,
+    "resampled": false
+  },
+  "provider_metadata": [
+    "provider and provider_symbol",
+    "request interval and URL",
+    "exchange timezone/currency/instrument metadata",
+    "raw price policy",
+    "raw and normalized counts",
+    "dropped-null row indices",
+    "missing-volume count",
+    "out-of-order pair count",
+    "UTC first/last coverage",
+    "response SHA-256"
+  ],
+  "retention_contract": {
+    "1h": "YAHOO_INTRADAY_RETENTION_LIMIT",
+    "15m": "YAHOO_INTRADAY_RETENTION_LIMIT",
+    "missing_history_manufactured": false,
+    "live_15m_boundary_note": "exact rolling 60 days returned HTTP 422; 59 days succeeded"
+  },
+  "live_nvda_verification": {
+    "status": "PASS",
+    "1mo": {"raw_rows":334,"normalized_bars":334,"first_utc":"1999-01-01T05:00:00+00:00","last_utc":"2026-09-03T20:00:00+00:00","dropped_null_ohlc_rows":0},
+    "1wk": {"raw_rows":1443,"normalized_bars":1443,"first_utc":"1999-01-18T05:00:00+00:00","last_utc":"2026-09-03T20:00:00+00:00","dropped_null_ohlc_rows":0},
+    "1d": {"raw_rows":6947,"normalized_bars":6947,"first_utc":"1999-01-22T14:30:00+00:00","last_utc":"2026-09-03T13:30:00+00:00","dropped_null_ohlc_rows":0},
+    "1h": {"raw_rows":3505,"normalized_bars":3500,"first_utc":"2024-09-04T13:30:00+00:00","last_utc":"2026-09-03T20:00:00+00:00","dropped_null_ohlc_rows":5},
+    "15m": {"raw_rows":1119,"normalized_bars":1119,"first_utc":"2026-07-07T13:30:00+00:00","last_utc":"2026-09-03T20:00:00+00:00","dropped_null_ohlc_rows":0,"requested_span_days":59}
+  },
+  "security_and_scope": {
+    "external_data_is_methodology_authority": false,
+    "pivot_or_swing_discovery": false,
+    "candidate_generation": false,
+    "degree_inference": false,
+    "pattern_inference": false,
+    "indicators": false,
+    "ranking_forecasting_or_trading": false,
+    "shell_eval_exec_or_dynamic_response_import": false
+  },
+  "inventory_at_checkpoint": {
+    "executable_methodology": 10,
+    "structural_invalidity_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p005": "UNCHANGED",
+    "p006": "UNCHANGED_UNRESOLVED_CONFLICT",
+    "terminal_base_case_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_analyze": "NOT_IMPLEMENTED"
+  },
+  "implementation_artifacts": [
+    {"path":"src/elliott_runtime/market_data/yahoo.py","byte_length":17784,"sha256":"db178343f70da99ecd602d29f7ff572d27e9542383d99a98b7b82d5af13ed14b"},
+    {"path":"tests/test_yahoo_market_data_provider.py","byte_length":18029,"sha256":"aec20b946a6fb00dc853bb5a95606bfc349fd3d31ba84f37d19af8ced34e12ee"},
+    {"path":"src/elliott_runtime/market_data/__init__.py","byte_length":701,"sha256":"4fbfebd823ef22dce8008df4234757a95370b6972d755875987c9a99aa606b19"}
+  ],
+  "baseline_artifacts": [
+    {"path":"kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/BASELINE_README.md","byte_length":2375,"sha256":"3fca3f5863561f6f8bc978aa58466dc2ff31cbc7baa07bd4bc77d4cad6802f55"},
+    {"path":"kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/source_trace.json","byte_length":1164,"sha256":"9ce7c99fca278d88bc5dd4565371fd159ae52f0da13baf20bbdb6b2fc721a087"},
+    {"path":"kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/test_results.json","byte_length":1257,"sha256":"661caa3b1c31d77c3383af8e3080d703f595900ed91659da4d0f97bdd14a57d5"},
+    {"path":"kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/live_nvda_verification.json","byte_length":2310,"sha256":"7020e8c348c4a75adfe47c9f31d4d059b2380efa511183bd4e8268b3cb1a4244"},
+    {"path":"kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/known_limitations.json","byte_length":1272,"sha256":"ce3f89ffa0993643bdcdaacf1bba1d5054bdb9c5886f6bd5fb56e12a70242b06"},
+    {"path":"kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/prior_baseline_delta.json","byte_length":1142,"sha256":"fdf01cca32aa9f0ae2a3f8b76e1e2035a2d08b02c54836d71276afa7261e90d6"}
+  ],
+  "prior_checkpoint": {
+    "baseline_id": "HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1",
+    "git_head": "b6c27bafd5f79fb685fcb62d72982464f03dc944",
+    "manifest_sha256": "d3afb2d9bf4fb3286bad76c0a6c52639d3d688f6d01a9e1ba3c569ecf36954ff"
+  },
+  "prior_review_manifest_count": 37,
+  "prior_review_manifests_modified": false,
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatch_count": 0
+  },
+  "protected_sources": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21,
+    "mismatch_count": 0
+  },
+  "tests": {
+    "focused": 24,
+    "focused_passes": 24,
+    "full": 689,
+    "full_passes": 689,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "adversarial_audit": "PASS"
+  },
+  "next_target": "AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1",
+  "protection_status": "Development logical baseline only; no physical immutability or guarantee of Yahoo endpoint stability is claimed."
+}

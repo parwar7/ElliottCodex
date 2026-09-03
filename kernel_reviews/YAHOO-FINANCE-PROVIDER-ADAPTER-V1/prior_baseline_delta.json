@@ -1,0 +1,36 @@
+{
+  "baseline_id": "YAHOO-FINANCE-PROVIDER-ADAPTER-V1",
+  "prior_checkpoint": {
+    "baseline_id": "HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1",
+    "git_head": "b6c27bafd5f79fb685fcb62d72982464f03dc944",
+    "manifest_sha256": "d3afb2d9bf4fb3286bad76c0a6c52639d3d688f6d01a9e1ba3c569ecf36954ff"
+  },
+  "additions": [
+    "YahooInterval",
+    "YahooHistoricalDataRequest",
+    "YahooProviderMetadata",
+    "YahooHistoricalDataResult",
+    "YahooFinanceProvider",
+    "YahooFinanceProviderError",
+    "YahooProviderErrorCode",
+    "YahooProviderWarning"
+  ],
+  "modified_existing_files": [
+    "src/elliott_runtime/market_data/__init__.py"
+  ],
+  "unchanged_shared_contracts": [
+    "src/elliott_runtime/market_data/ingestion.py",
+    "src/elliott_methodology_kernel/models.py",
+    "all methodology behaviors",
+    "all certificate algorithms"
+  ],
+  "dependency_delta": [],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "prior_review_manifest_count": 37,
+  "prior_review_manifests_modified": false
+}
