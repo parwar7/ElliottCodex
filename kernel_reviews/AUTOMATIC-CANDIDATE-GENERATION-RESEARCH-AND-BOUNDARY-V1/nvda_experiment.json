@@ -1,0 +1,14 @@
+{
+  "classification":"READ_ONLY_PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "provider":"YAHOO_FINANCE_CHART",
+  "symbol":"NVDA",
+  "geometry_config":{"method":"WINDOWED_LOCAL_EXTREMA","left_window_bars":2,"right_window_bars":2,"equal_extreme_policy":"LAST","include_developing":true},
+  "candidate_config":{"max_pivots_considered":8,"max_candidate_span_pivots":6,"max_skipped_pivots":1,"max_candidates_generated":100,"allowed_candidate_shapes":["THREE_SEGMENT_HYPOTHESIS","FIVE_SEGMENT_HYPOTHESIS"],"pivot_window":"LATEST"},
+  "results":{
+    "1mo":{"input_bars":334,"geometric_pivots":70,"generated":20,"structurally_invalid":0,"unresolved":20,"current_supplied_scope_reviewed":0,"rejected_by_span_or_skip_bounds":78,"pivots_excluded_by_window":62,"source_sha256":"debaacf8f32c95e6be57055fef295f73f698e1f8408b8e0cb87e8109129543a3","sample":{"candidate_id":"nvda-1mo-candidates:THREE_SEGMENT_HYPOTHESIS:62-63-64-65","selected":[["2023-10-01T04:00:00+00:00",39.22999954223633,"LOW"],["2024-06-01T04:00:00+00:00",140.75999450683594,"HIGH"],["2024-08-01T04:00:00+00:00",90.69000244140625,"LOW"],["2025-01-01T05:00:00+00:00",153.1300048828125,"HIGH"]],"behaviors":[],"result":"UNRESOLVED"}},
+    "1wk":{"input_bars":1443,"geometric_pivots":367,"generated":20,"structurally_invalid":0,"unresolved":20,"current_supplied_scope_reviewed":0,"rejected_by_span_or_skip_bounds":78,"pivots_excluded_by_window":359,"source_sha256":"79247d11a12bda4c84a6ff99b432075901cfd5c55c58905014f317c4230981cd","sample":{"candidate_id":"nvda-1wk-candidates:THREE_SEGMENT_HYPOTHESIS:359-360-361-362","selected":[["2026-03-16T04:00:00+00:00",188.8800048828125,"HIGH"],["2026-03-30T04:00:00+00:00",164.27000427246094,"LOW"],["2026-05-04T04:00:00+00:00",194.74000549316406,"LOW"],["2026-05-11T04:00:00+00:00",236.5399932861328,"HIGH"]],"behaviors":[],"result":"UNRESOLVED"}},
+    "1d":{"input_bars":6947,"geometric_pivots":1811,"generated":20,"structurally_invalid":0,"unresolved":20,"current_supplied_scope_reviewed":0,"rejected_by_span_or_skip_bounds":78,"pivots_excluded_by_window":1803,"source_sha256":"b2f552e3eeec7ffa1625ad5ab77d491989d411ca08659bced202e867877504fb","sample":{"candidate_id":"nvda-1d-candidates:THREE_SEGMENT_HYPOTHESIS:1803-1804-1805-1806","selected":[["2026-07-29T13:30:00+00:00",190.00999450683594,"LOW"],["2026-08-07T13:30:00+00:00",224.75999450683594,"HIGH"],["2026-08-11T13:30:00+00:00",216.1999969482422,"LOW"],["2026-08-17T13:30:00+00:00",227.9199981689453,"HIGH"]],"behaviors":[],"result":"UNRESOLVED"}}
+  },
+  "interpretation":"No sample is a valid, confirmed, correct or preferred Elliott count. No market forecast was produced.",
+  "external_data_warning":"Yahoo output is mutable external data and may change on later retrieval."
+}

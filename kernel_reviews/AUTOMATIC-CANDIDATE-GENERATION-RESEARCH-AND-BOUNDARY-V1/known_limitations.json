@@ -1,0 +1,18 @@
+{
+  "limitations":[
+    "V1 enumerates only one flat candidate layer; it does not create recursive child trees.",
+    "Neutral segment count is not a pattern family or internal-family proof.",
+    "No family names or Elliott slot labels are generated.",
+    "No HIGH/LOW alternation is enforced; adjacent selected pivots can have the same geometric kind.",
+    "The generator cannot decide which pivots are important.",
+    "Every operational limit is caller supplied and can materially change output.",
+    "The generator does not automatically translate geometric pivots into ExplicitPivotObservation or methodology roles.",
+    "Only exact caller-supplied bounded methodology requests can be delegated.",
+    "Absent exact methodology inputs, candidates remain unresolved rather than being discarded.",
+    "P005 and P006 remain unchanged; no complete impulse validator exists.",
+    "Validated-family registry remains sealed with no producers or issuances.",
+    "No degree, multi-timeframe agreement, P023 visibility fact, indicator, evidence, trap, fundamentals, ranking, forecast or trading behavior is inferred.",
+    "The live experiment used external Yahoo data and is not a durable price assertion."
+  ],
+  "next_target":"COMPETING-CANDIDATE-SET-CONTAINER-V1"
+}

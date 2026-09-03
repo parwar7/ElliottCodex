@@ -1,0 +1,10 @@
+{
+  "classification":"CALLER_SUPPLIED_OPERATIONAL_BOUND",
+  "required_bounds":["max_pivots_considered","max_candidate_span_pivots","max_skipped_pivots","max_candidates_generated","allowed_candidate_shapes","pivot_window"],
+  "implementation_ceiling":{"max_pivots_considered":10000,"max_candidates_generated":100000,"classification":"PROJECT_OPERATIONAL_RESOURCE_SAFETY"},
+  "algorithm":"Precompute eligible count using exact combinations mathematics. Fail before materialization if eligible count exceeds cap. Enumerate only tails inside each first-pivot bounded local span.",
+  "partial_result_on_cap":false,
+  "unbounded_all_subsets":false,
+  "rejected_count":"Total combinations minus eligible bounded combinations, calculated without traversing rejected combinations.",
+  "deterministic_order":"Caller shape order, then increasing first index, then lexicographic tail indices."
+}

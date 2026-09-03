@@ -1,0 +1,20 @@
+{
+  "review_id":"AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1",
+  "source_lock":"Protected Volumes 1-10/transcripts and approved Frost/Prechter book only",
+  "findings":[
+    {"topic":"source-supported candidate families","classification":"SOURCE_DEFINITION","finding":"Protected Pattern Brain documents normal impulse, diagonals, zigzags, flats, triangles, combinations and triple threes. This defines families that may be investigated but does not provide a mechanical visible-pivot generator.","refs":["docs/elliott/PATTERN_BRAIN.md","docs/elliott/MASTER_PROTOCOL.md step 4"]},
+    {"topic":"normal impulse hard constraints","classification":"SOURCE_RULE","finding":"P004 and the unresolved/frozen P005/P006 propositions are structural rules in protected scope. Only P004 is currently executable among those three.","refs":["docs/elliott/PATTERN_BRAIN.md section A","docs/elliott/SOURCE_EVIDENCE_MAP.json P004-P006"]},
+    {"topic":"single zigzag","classification":"SOURCE_DEFINITION","principle_id":"P007","finding":"A-B-C has 5-3-5 internals. Current executable P007 establishes only direct-child cardinality, not complete family validity."},
+    {"topic":"flat","classification":"SOURCE_DEFINITION","principle_id":"P008","finding":"The family has three direct components and 3-3-5 internals. Current executable P008 establishes only direct-child cardinality."},
+    {"topic":"triangle","classification":"SOURCE_DEFINITION","principle_id":"P009","finding":"A-B-C-D-E has five corrective-family legs. Current executable P009 establishes only direct-child cardinality."},
+    {"topic":"ending diagonal","classification":"SOURCE_DEFINITION","principle_id":null,"finding":"The protected model has five legs and terminal-position/subdivision constraints. Current executable behavior establishes only direct-child cardinality."},
+    {"topic":"motive versus corrective search theme","classification":"SOURCE_DEFINITION","principle_id":"P003","finding":"Theme depends on caller-established relation to one-larger-degree direction; it is not reducible to five up or three down."},
+    {"topic":"subdivisions and recursion","classification":"SOURCE_DEFINITION","finding":"Candidates require source-supported subdivisions and recursive internal validation. Hidden subdivisions must not be invented.","refs":["docs/elliott/MASTER_PROTOCOL.md steps 4 and 6","docs/elliott/DEGREE_RECURSION_BRAIN.md sections 5-6"]},
+    {"topic":"ambiguity and multiple counts","classification":"SOURCE_DEFINITION","finding":"The protocol distinguishes Preferred, Alternative and Remote roles after structural checks and evidence. Multiple source-supported interpretations can coexist; V1 does not rank or assign these roles.","refs":["docs/elliott/MASTER_PROTOCOL.md steps 5, 8 and 9","docs/elliott/OUTPUT_CONTRACT.md"]},
+    {"topic":"right look","classification":"SOURCE_GUIDELINE","finding":"A structurally legal candidate may be a poor fit; geometry and appearance cannot be promoted into a hard structural rule.","refs":["docs/elliott/PATTERN_BRAIN.md section M","docs/elliott/MASTER_PROTOCOL.md step 7"]},
+    {"topic":"labels before validation","classification":"SOURCE_DEFINITION","finding":"The protocol says not to decide a label from vague resemblance and requires candidates to pass position, subdivisions, rules and degree consistency. Neutral V1 omits Elliott labels."},
+    {"topic":"mechanical candidate generation from visible swings","classification":"UNRESOLVED","finding":"No protected source-authorized mechanical procedure, importance threshold, subset rule, origin rule or family assignment algorithm was found."},
+    {"topic":"dataset start or IPO as Elliott origin","classification":"UNRESOLVED","finding":"No source authorizes treating first available data as Wave 1, Cycle, Supercycle or impulse origin; maximum useful history and larger-context warnings prohibit that shortcut."},
+    {"topic":"validated family base case","classification":"UNRESOLVED","finding":"The active protected-source review remains SOURCE_DERIVED_BASE_CASE_NOT_FOUND; validated-family producers and issuances remain zero."}
+  ]
+}

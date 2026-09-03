@@ -1,0 +1,21 @@
+{
+  "framework":["PURE_COMBINATORIAL_INFRASTRUCTURE","PROJECT_OPERATIONAL_POLICY","ELLIOTT_METHODOLOGY_SENSITIVE","UNRESOLVED"],
+  "behaviors":[
+    {"behavior":"taking ordered subsets of pivots","classification":"PURE_COMBINATORIAL_INFRASTRUCTURE"},
+    {"behavior":"requiring chronological order and unique pivot identity","classification":"PURE_COMBINATORIAL_INFRASTRUCTURE"},
+    {"behavior":"mapping selected pivots to unlabeled ordinal positions","classification":"PURE_COMBINATORIAL_INFRASTRUCTURE"},
+    {"behavior":"consecutive-only selection","classification":"PROJECT_OPERATIONAL_POLICY","v1":"caller expresses with max_skipped_pivots=0"},
+    {"behavior":"skipping intermediate pivots","classification":"PROJECT_OPERATIONAL_POLICY","v1":"explicit caller bound"},
+    {"behavior":"three- or five-segment neutral shape","classification":"PROJECT_OPERATIONAL_POLICY","note":"segment count only; no family meaning"},
+    {"behavior":"HIGH/LOW alternation enforcement","classification":"PROJECT_OPERATIONAL_POLICY","v1":"not implemented"},
+    {"behavior":"assigning a pattern-family name","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","v1":"not implemented"},
+    {"behavior":"assigning 1-2-3-4-5, A-B-C or W-X-Y labels","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","v1":"not implemented"},
+    {"behavior":"dataset start or IPO as wave origin","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","v1":"prohibited"},
+    {"behavior":"choosing one candidate over another","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","v1":"not implemented"},
+    {"behavior":"pruning similar hypotheses","classification":"PROJECT_OPERATIONAL_POLICY","v1":"not implemented"},
+    {"behavior":"choosing important pivots","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","v1":"not implemented"},
+    {"behavior":"nested candidate creation","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","v1":"not implemented"},
+    {"behavior":"degree assignment","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","v1":"not implemented"},
+    {"behavior":"automatic visible-swing-to-family procedure","classification":"UNRESOLVED","v1":"not implemented"}
+  ]
+}

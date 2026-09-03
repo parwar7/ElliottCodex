@@ -1,0 +1,17 @@
+{
+  "prior_baseline":"AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1",
+  "prior_git_head":"be53c1cec1ed76c5405f2f0610fd65a955b0961a",
+  "prior_manifest_sha256":"0b276bfb25614a95321d93a9717ecfd4444cd79c67d72223841124de2e36aeb0",
+  "prior_review_manifest_count":38,
+  "previous_baseline_artifacts_modified":false,
+  "added_runtime_files":["src/elliott_runtime/analysis/__init__.py","src/elliott_runtime/analysis/candidate_generation.py","tests/test_candidate_generation.py"],
+  "modified_runtime_files":[],
+  "methodology_files_modified":[],
+  "protected_files_modified":[],
+  "methodology_behavior_delta":0,
+  "structural_invalidity_producer_delta":0,
+  "validated_family_producer_delta":0,
+  "validated_family_issuance_delta":0,
+  "ranking_added":false,
+  "next_target":"COMPETING-CANDIDATE-SET-CONTAINER-V1"
+}

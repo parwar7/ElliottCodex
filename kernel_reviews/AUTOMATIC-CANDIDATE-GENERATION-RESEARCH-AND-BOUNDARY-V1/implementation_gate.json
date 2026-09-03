@@ -1,0 +1,10 @@
+{
+  "gate":"NEUTRAL_AUTOMATIC_CANDIDATE_ENUMERATION_SAFE",
+  "reason":"Bounded ordered-subsequence enumeration is combinatorial infrastructure when neutral shape names and all authority-false fields are enforced. Elliott family, labels, degree, origin, ranking and evidence remain outside the generator.",
+  "module":"elliott_runtime.analysis.candidate_generation",
+  "methodology_behavior_added":false,
+  "generator_can_issue_invalidity":false,
+  "generator_can_issue_family_certificate":false,
+  "unsupported_methodology_state":"UNRESOLVED",
+  "next_target":"COMPETING-CANDIDATE-SET-CONTAINER-V1"
+}

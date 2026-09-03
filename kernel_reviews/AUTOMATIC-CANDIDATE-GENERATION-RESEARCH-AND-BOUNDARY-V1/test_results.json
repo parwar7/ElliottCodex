@@ -1,0 +1,26 @@
+{
+  "focused":{"tests":28,"passes":28,"failures":0,"errors":0,"skipped":0},
+  "full":{"tests":735,"passes":735,"failures":0,"errors":0,"skipped":0},
+  "coverage":[
+    "exact geometry and normalized-observation identities",
+    "mapping, duck, subclass, relationship and low-level mutation rejection",
+    "deterministic IDs, shape order and chronological unique selected pivots",
+    "caller consideration window, span, skip and candidate caps",
+    "eligible-count precomputation and bounded local enumeration",
+    "no partial result on cap",
+    "dataset start has no origin semantics",
+    "three segments do not imply ABC and five segments do not imply impulse",
+    "geometric kind creates no wave label",
+    "no degree, timeframe-degree, rank or confidence field",
+    "undelegated candidates retained unresolved",
+    "exact public Kernel delegation",
+    "genuine existing certified invalidity retained by exact identity",
+    "satisfied scope called reviewed, never valid",
+    "generator cannot issue certificates",
+    "no indicators, traps, fundamentals, network, dynamic code or trading logic",
+    "methodology and registry inventories unchanged"
+  ],
+  "hardening":"Eligible combination counts are computed before materialization; rejected global subsets are never traversed.",
+  "adversarial_audit":"PASS",
+  "live_nvda_experiment":"PASS"
+}

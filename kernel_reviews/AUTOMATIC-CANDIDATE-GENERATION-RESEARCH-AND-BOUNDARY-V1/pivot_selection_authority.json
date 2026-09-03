@@ -1,0 +1,14 @@
+{
+  "input":"exact GeometricPivotDiscoveryResult plus its exact NormalizedMarketObservations identity",
+  "pivot_authority":"GeometricPivotObservation.elliott_endpoint_authority remains false",
+  "selection":"Deterministic bounded subsequences in caller-provided shape order and lexicographic pivot-index order",
+  "consideration_window":["EARLIEST","LATEST"],
+  "importance_selection":false,
+  "alternation_enforced":false,
+  "endpoint_replacement":false,
+  "pruning":false,
+  "recursive_generation":false,
+  "multi_timeframe_merge":false,
+  "timeframe_degree_mapping":false,
+  "duplicate_usage":"Impossible within one hypothesis because combinations select unique indices; malformed geometric input fails deterministic revalidation."
+}

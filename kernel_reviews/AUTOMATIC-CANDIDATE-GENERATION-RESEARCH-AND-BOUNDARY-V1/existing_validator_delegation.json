@@ -1,0 +1,13 @@
+{
+  "delegation_type":"CandidateMethodologyDelegation",
+  "accepted_request":"exact BoundedManualChartAnalysisRequest",
+  "kernel_boundary":"exact MethodologyKernel through public analyze_bounded_manual_chart method",
+  "identity_requirements":["exact generated candidate_id","exact AnalyzedWaveSubject identity","live unchanged bounded request"],
+  "automatic_fact_construction":false,
+  "automatic_pivot_role_construction":false,
+  "automatic_family_selector":false,
+  "without_delegation":{"review_state":"UNRESOLVED","reason":"NO_EXACT_METHODOLOGY_INPUTS_SUPPLIED"},
+  "with_delegation":"Retain exact downstream BoundedManualChartAnalysisResult identity, trace behavior IDs, unresolved reasons and genuine existing certificates.",
+  "uncertified_fatal_result_policy":"Existing Kernel policy remains authoritative; generator does not convert fatality into a certificate.",
+  "methodology_duplication":false
+}

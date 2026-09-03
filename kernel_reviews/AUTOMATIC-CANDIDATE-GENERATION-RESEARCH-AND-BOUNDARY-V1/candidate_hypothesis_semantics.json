@@ -1,0 +1,13 @@
+{
+  "artifact":"GeneratedCandidateHypothesis",
+  "classification":"PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "safe_shapes":["THREE_SEGMENT_HYPOTHESIS","FIVE_SEGMENT_HYPOTHESIS"],
+  "shape_semantics":"The number of price segments between selected geometric pivots only.",
+  "candidate_slot_labels":"OMITTED",
+  "family_hypotheses":"OMITTED",
+  "authority":{"candidate_hypothesis_only":true,"elliott_validity_authority":false,"family_authority":false,"degree_authority":false},
+  "safe_review_states":["STRUCTURALLY_INVALID","UNRESOLVED","CURRENT_SUPPLIED_SCOPE_REVIEWED"],
+  "forbidden_states":["VALID_COUNT","CONFIRMED_COUNT","CORRECT_COUNT","PREFERRED"],
+  "ipo_data_start_policy":"The first bar or first geometric pivot has no automatic origin semantics.",
+  "retention_policy":"All generated candidates are retained regardless of current review state; no ranking or winner selection occurs."
+}
