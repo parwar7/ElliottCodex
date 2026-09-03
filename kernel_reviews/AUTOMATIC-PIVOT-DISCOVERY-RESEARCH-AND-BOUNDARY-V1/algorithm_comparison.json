@@ -1,0 +1,82 @@
+{
+  "algorithms": [
+    {
+      "algorithm":"WINDOWED_LOCAL_EXTREMA",
+      "parameters":["left window bars","right window bars","equal-extreme policy","include developing"],
+      "deterministic":true,
+      "repainting":"Only incomplete trailing-window observations can change; full-right-window observations remain stable under appends.",
+      "volatility_sensitivity":"Indirect; fixed bar windows do not normalize volatility.",
+      "timeframe_sensitivity":"High; bar aggregation changes extrema and window span.",
+      "hidden_methodology_risk":"Low only when all parameters are caller-supplied and output authority is explicitly false.",
+      "nested_scales":"Separate configs could produce geometry scales, but V1 exposes no hierarchy.",
+      "historical_change":"No change to confirmed pivots after later bars fall outside the bounded window.",
+      "degree_confusion_risk":"Low with explicit TIMEFRAME_IS_NOT_DEGREE boundary.",
+      "v1_decision":"IMPLEMENTED"
+    },
+    {
+      "algorithm":"PERCENTAGE_REVERSAL_ZIGZAG",
+      "parameters":["reversal percentage","seed policy","equal handling","endpoint replacement"],
+      "deterministic":true,
+      "repainting":"Developing endpoint moves until reversal confirmation.",
+      "volatility_sensitivity":"Fixed percentage behaves differently across volatility regimes.",
+      "timeframe_sensitivity":"Input aggregation changes reversal path.",
+      "hidden_methodology_risk":"Medium to high if percentage is presented as meaningful for waves.",
+      "nested_scales":"Possible via multiple thresholds, but thresholds are not degrees.",
+      "historical_change":"Last endpoint changes; seed policy can affect early path.",
+      "degree_confusion_risk":"High when thresholds are labeled as degree.",
+      "v1_decision":"NOT_IMPLEMENTED"
+    },
+    {
+      "algorithm":"ABSOLUTE_PRICE_REVERSAL_ZIGZAG",
+      "parameters":["absolute price reversal","seed policy","equal handling","endpoint replacement"],
+      "deterministic":true,
+      "repainting":"Developing endpoint moves until reversal confirmation.",
+      "volatility_sensitivity":"High and instrument-price-scale dependent.",
+      "timeframe_sensitivity":"Input aggregation changes path.",
+      "hidden_methodology_risk":"Medium if an arbitrary amount is treated as a wave threshold.",
+      "nested_scales":"Possible via multiple amounts, not methodology degrees.",
+      "historical_change":"Last endpoint changes.",
+      "degree_confusion_risk":"High when amount tiers are mislabeled.",
+      "v1_decision":"NOT_IMPLEMENTED"
+    },
+    {
+      "algorithm":"ATR_SCALED_REVERSAL_ZIGZAG",
+      "parameters":["true-range definition","ATR period","smoothing","ATR multiple","seed policy"],
+      "deterministic":true,
+      "repainting":"Last endpoint and threshold evolve with new bars.",
+      "volatility_sensitivity":"Explicitly volatility adaptive.",
+      "timeframe_sensitivity":"ATR and aggregation are timeframe dependent.",
+      "hidden_methodology_risk":"High if indicator choices are silently treated as Elliott evidence.",
+      "nested_scales":"Possible via multiples, not degrees.",
+      "historical_change":"Depends on streaming specification; developing tail changes.",
+      "degree_confusion_risk":"High.",
+      "v1_decision":"NOT_IMPLEMENTED"
+    },
+    {
+      "algorithm":"PROMINENCE_BASED_EXTREMA",
+      "parameters":["prominence definition","neighborhood","threshold","edge policy","tie policy"],
+      "deterministic":true,
+      "repainting":"Can change with expanded lookahead or global baselines.",
+      "volatility_sensitivity":"Threshold and baseline dependent.",
+      "timeframe_sensitivity":"High.",
+      "hidden_methodology_risk":"High when prominence is called importance.",
+      "nested_scales":"Possible via thresholds, not degrees.",
+      "historical_change":"Potentially broad unless lookahead is explicitly bounded.",
+      "degree_confusion_risk":"High.",
+      "v1_decision":"NOT_IMPLEMENTED"
+    },
+    {
+      "algorithm":"HYBRID_HIERARCHICAL_EXTREMA",
+      "parameters":["base extractor","multiple scale parameters","pruning","nesting","conflict resolution"],
+      "deterministic":true,
+      "repainting":"Depends on every combined method and hierarchy update policy.",
+      "volatility_sensitivity":"Configuration dependent.",
+      "timeframe_sensitivity":"High.",
+      "hidden_methodology_risk":"Highest; hierarchy is easily mistaken for Elliott degree.",
+      "nested_scales":"Native geometry hierarchy only.",
+      "historical_change":"Potentially cascading.",
+      "degree_confusion_risk":"Very high.",
+      "v1_decision":"NOT_IMPLEMENTED"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "baseline_id":"AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1",
+  "status":"APPROVED_CANDIDATE",
+  "baseline_type":"RUNTIME_DATA_ANALYSIS_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "implementation_gate":"PURE_GEOMETRIC_PIVOT_DISCOVERY_SAFE",
+  "artifact_classification":"PROJECT_DATA_ANALYSIS_INFRASTRUCTURE",
+  "parameter_classification":"CALLER_SUPPLIED_GEOMETRY_PARAMETER",
+  "methodology_behavior_added":false,
+  "core_constraints":["GEOMETRIC_PIVOT_IS_NOT_ELLIOTT_WAVE_ENDPOINT","AUTOMATIC_SWING_IS_NOT_ELLIOTT_WAVE","TIMEFRAME_IS_NOT_DEGREE"],
+  "public_surface": {
+    "module":"elliott_runtime.market_data.geometric_pivots",
+    "function":"discover_geometric_pivots",
+    "input":"GeometricPivotDiscoveryRequest containing exact NormalizedMarketObservations",
+    "config":"GeometricPivotDiscoveryConfig",
+    "observation":"GeometricPivotObservation",
+    "result":"GeometricPivotDiscoveryResult",
+    "method":"WINDOWED_LOCAL_EXTREMA",
+    "kinds":["HIGH","LOW"],
+    "states":["CONFIRMED_BY_GEOMETRY","DEVELOPING"],
+    "equal_extreme_policies":["FIRST","LAST"],
+    "elliott_endpoint_authority":false
+  },
+  "algorithm_contract": {
+    "left_window_bars":"required caller-supplied integer in [1,10000]",
+    "right_window_bars":"required caller-supplied integer in [1,10000]",
+    "include_developing":"required caller-supplied exact bool",
+    "confirmed":"complete bounded right window exists",
+    "developing":"bounded right window incomplete and may change or disappear",
+    "confirmed_append_stability":true,
+    "alternation_enforced":false,
+    "endpoint_replacement":false,
+    "pruning":false,
+    "hierarchy":false,
+    "same_bar_high_low":"excluded and diagnosed",
+    "duplicate_input_timestamps":"fail closed"
+  },
+  "authority_boundary": {
+    "wave_labels":false,
+    "candidate_generation":false,
+    "family_inference":false,
+    "pattern_inference":false,
+    "degree_inference":false,
+    "timeframe_degree_mapping":false,
+    "structural_validity":false,
+    "methodology_certificates":false,
+    "indicators":false,
+    "ranking":false,
+    "forecast":false,
+    "trading":false,
+    "automatic_conversion_to_explicit_pivot_contracts":false
+  },
+  "nvda_experiment": {
+    "provider":"YAHOO_FINANCE_CHART",
+    "configuration":"WINDOWED_LOCAL_EXTREMA left=2 right=2 equal=LAST include_developing=true",
+    "1mo":{"input_bars":334,"geometric_pivots":70,"developing":0},
+    "1wk":{"input_bars":1443,"geometric_pivots":367,"developing":0},
+    "1d":{"input_bars":6947,"geometric_pivots":1811,"developing":1},
+    "elliott_interpretation":false
+  },
+  "implementation_artifacts": [
+    {"path":"src/elliott_runtime/market_data/geometric_pivots.py","byte_length":11168,"sha256":"df47c8b5ab727b8077122a0e5bce8f4712c5a9a39ee1e45b179d178898e75608"},
+    {"path":"tests/test_geometric_pivots.py","byte_length":12198,"sha256":"c5ca9c8b57a10b4ecc3b22c7a6f51374344de9e15290eb3487c2b4b11a272588"},
+    {"path":"src/elliott_runtime/market_data/__init__.py","byte_length":1441,"sha256":"1242a512ca276a94e3d45bfac5c48746a9dc152c0ed8da66febd873d14431ade"}
+  ],
+  "baseline_artifacts": [
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/algorithm_comparison.json","byte_length":4653,"sha256":"ed339af13be5d696f33b396539494e831ec6c1110ced3de3aac5f20498bf4fb9"},
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/BASELINE_README.md","byte_length":2417,"sha256":"a3ea2de97939af2a7e04926fdb843a41eff9e476cf78ee79ed8a315e4e5d32cb"},
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/boundary_decision.json","byte_length":1450,"sha256":"61364668e51d92df811291e9cef40f55c05c9d2ff694f7490cf94c46d784707d"},
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/geometry_methodology_classification.json","byte_length":3152,"sha256":"0231dfe26a5b70ec293f5bb6db141db0b2723e91c70bec5bb9e1722c8d4379ad"},
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/known_limitations.json","byte_length":1502,"sha256":"35d70fe6addd07bb2db2584e650b97d3c2db330bd0e9841cb0aa41bbdf7741f6"},
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/nvda_geometry_experiment.json","byte_length":2422,"sha256":"16e80fce773b01d7ba98210ca1b4da82b8f21978ed5f33068fc7b155871b0ade"},
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/parameter_authority.json","byte_length":1172,"sha256":"0c979be345c52d0ecec0ef7370c9c76696368a335c58f9331b66727c52df9f27"},
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/prior_baseline_delta.json","byte_length":751,"sha256":"49c03b154a367c54219f3c1434f8019aab55997d426b031a9a9b599e5f30db78"},
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/source_findings.json","byte_length":3300,"sha256":"26cd3c4ca2e10629da4e04f6d5d6c42e01032968a37a341b28a08bcaabbb6bcb"},
+    {"path":"kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/test_results.json","byte_length":971,"sha256":"56e068a8ba65dbcf07ae3dbc8c873e41ffc6fae17cb1a268544e89302631f033"}
+  ],
+  "prior_checkpoint": {
+    "baseline_id":"YAHOO-FINANCE-PROVIDER-ADAPTER-V1",
+    "git_head":"34c89ca1024ee8266f291a4c24b63313e7f99e42",
+    "manifest_sha256":"fc43fc6b207fbeeb2f628fdeadc50e3818c95dc2ead769240fd4c8bbee6c1351"
+  },
+  "prior_review_manifest_count":37,
+  "prior_review_manifests_modified":false,
+  "protected_brain":{"version":"0.1.0","package_manifest_sha256":"81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a","entry_count":30,"mismatch_count":0},
+  "protected_sources":{"source_manifest_sha256":"ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089","entry_count":21,"mismatch_count":0},
+  "tests":{"focused":18,"focused_passes":18,"full":707,"full_passes":707,"failures":0,"errors":0,"skipped":0,"adversarial_audit":"PASS"},
+  "inventory_at_checkpoint":{"executable_methodology":10,"structural_invalidity_producers":7,"validated_family_producers":0,"validated_family_issuances":0,"p005":"UNCHANGED","p006":"UNCHANGED_UNRESOLVED_CONFLICT","terminal_base_case_finding":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy_analyze":"NOT_IMPLEMENTED"},
+  "next_target":"AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1",
+  "protection_status":"Development logical baseline only; no physical immutability or Elliott endpoint authority is claimed."
+}

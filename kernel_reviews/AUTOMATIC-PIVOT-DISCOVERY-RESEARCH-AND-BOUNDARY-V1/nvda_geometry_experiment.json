@@ -1,0 +1,14 @@
+{
+  "experiment_classification":"READ_ONLY_PROJECT_DATA_ANALYSIS_INFRASTRUCTURE",
+  "provider":"YAHOO_FINANCE_CHART",
+  "symbol":"NVDA",
+  "requested_history_start_utc":"1970-01-01T00:00:00+00:00",
+  "configuration":{"method":"WINDOWED_LOCAL_EXTREMA","left_window_bars":2,"right_window_bars":2,"equal_extreme_policy":"LAST","include_developing":true,"authority":"CALLER_SUPPLIED_EXPERIMENT_CONFIGURATION"},
+  "results": {
+    "1mo":{"input_bars":334,"first_input_timestamp_utc":"1999-01-01T05:00:00+00:00","last_input_timestamp_utc":"2026-09-03T20:00:00+00:00","source_sha256":"27902e14d8f2a8956acd5119a842eb0e9e97062712c23a8c8433d742de0b9aba","geometric_pivot_count":70,"first_pivot":{"timestamp_utc":"1999-04-01T05:00:00+00:00","observed_price":0.03333299979567528,"pivot_kind":"LOW","state":"CONFIRMED_BY_GEOMETRY"},"last_pivot":{"timestamp_utc":"2026-05-01T04:00:00+00:00","observed_price":236.5399932861328,"pivot_kind":"HIGH","state":"CONFIRMED_BY_GEOMETRY"},"developing_pivot_count":0},
+    "1wk":{"input_bars":1443,"first_input_timestamp_utc":"1999-01-18T05:00:00+00:00","last_input_timestamp_utc":"2026-09-03T20:00:00+00:00","source_sha256":"fc6b20ebe438266365fe9686b1f9969922a51b6e7c4fe7cbdd4a3ced5b241096","geometric_pivot_count":367,"first_pivot":{"timestamp_utc":"1999-02-01T05:00:00+00:00","observed_price":0.03606799989938736,"pivot_kind":"LOW","state":"CONFIRMED_BY_GEOMETRY"},"last_pivot":{"timestamp_utc":"2026-07-27T04:00:00+00:00","observed_price":190.00999450683594,"pivot_kind":"LOW","state":"CONFIRMED_BY_GEOMETRY"},"developing_pivot_count":0},
+    "1d":{"input_bars":6947,"first_input_timestamp_utc":"1999-01-22T14:30:00+00:00","last_input_timestamp_utc":"2026-09-03T13:30:00+00:00","source_sha256":"864415ce6720ed73de986f6fbf24d3baed1e7d51277e5856e489c3defd3925ae","geometric_pivot_count":1811,"first_pivot":{"timestamp_utc":"1999-02-02T14:30:00+00:00","observed_price":0.03606799989938736,"pivot_kind":"LOW","state":"CONFIRMED_BY_GEOMETRY"},"last_pivot":{"timestamp_utc":"2026-09-03T13:30:00+00:00","observed_price":230.39999389648438,"pivot_kind":"HIGH","state":"DEVELOPING"},"developing_pivot_count":1}
+  },
+  "elliott_endpoint_authority":false,
+  "sensitivity_warning":"Counts and locations depend on bar aggregation, left/right windows, tie policy, incomplete periods, and future bars. They are not Elliott waves, degrees, or candidates. Yahoo responses are external and may later change."
+}

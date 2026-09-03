@@ -1,0 +1,14 @@
+{
+  "protected_methodology_parameter_values_found": [],
+  "policy": "Source silence cannot create methodology. Geometry parameters are explicit caller inputs or require separately approved project operational policy.",
+  "v1": {
+    "method": {"value":"WINDOWED_LOCAL_EXTREMA","authority":"EXPLICIT_IMPLEMENTED_GEOMETRY_METHOD"},
+    "left_window_bars": {"authority":"CALLER_SUPPLIED_GEOMETRY_PARAMETER","default":null,"range":[1,10000]},
+    "right_window_bars": {"authority":"CALLER_SUPPLIED_GEOMETRY_PARAMETER","default":null,"range":[1,10000]},
+    "equal_extreme_policy": {"authority":"CALLER_SUPPLIED_GEOMETRY_PARAMETER","allowed":["FIRST","LAST"],"default":null},
+    "include_developing": {"authority":"CALLER_SUPPLIED_GEOMETRY_PARAMETER","default":null},
+    "same_bar_high_low": {"authority":"PROJECT_OPERATIONAL_POLICY","value":"EXCLUDE_AND_DIAGNOSE","reason":"Preserves at most one pivot per timestamp without inventing direction."}
+  },
+  "not_implemented": ["reversal percentage","absolute price reversal","ATR period or multiple","minimum bar separation","prominence threshold","pruning threshold","hierarchy mapping"],
+  "universal_truth_claimed": false
+}

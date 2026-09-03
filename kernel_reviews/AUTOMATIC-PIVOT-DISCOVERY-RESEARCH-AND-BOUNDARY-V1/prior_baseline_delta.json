@@ -1,0 +1,17 @@
+{
+  "prior_baseline":"YAHOO-FINANCE-PROVIDER-ADAPTER-V1",
+  "prior_git_head":"34c89ca1024ee8266f291a4c24b63313e7f99e42",
+  "prior_manifest_count":37,
+  "previous_baseline_artifacts_modified":false,
+  "added_runtime_files":["src/elliott_runtime/market_data/geometric_pivots.py","tests/test_geometric_pivots.py"],
+  "modified_runtime_files":["src/elliott_runtime/market_data/__init__.py"],
+  "methodology_files_modified":[],
+  "protected_files_modified":[],
+  "methodology_behavior_delta":0,
+  "structural_invalidity_producer_delta":0,
+  "validated_family_producer_delta":0,
+  "validated_family_issuance_delta":0,
+  "provider_changes":[],
+  "candidate_generation_added":false,
+  "next_target":"AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1"
+}

@@ -1,0 +1,18 @@
+{
+  "limitations": [
+    "Only windowed local extrema is implemented; no reversal-threshold, ATR, prominence, or hierarchical algorithm exists.",
+    "No default configuration is supplied; callers own every geometry parameter.",
+    "The fixed bar window spans different clock time across timeframes and market closures.",
+    "DEVELOPING observations may move or disappear when later bars arrive.",
+    "An incomplete current Yahoo weekly or monthly bar is not separately tagged by the provider; geometry state refers only to the right-window contract.",
+    "A bar selected as both the local high and local low is excluded and diagnosed.",
+    "Duplicate input timestamps fail closed rather than being merged or selected.",
+    "No high/low alternation, endpoint replacement, pruning, minimum separation, or scale hierarchy is imposed.",
+    "No output proves importance, a completed Elliott swing, an Elliott endpoint, family, degree, validity, or forecast.",
+    "Automatic output cannot directly satisfy explicit-pivot or observed-price methodology contracts.",
+    "Timeframe and discovery parameters never imply Elliott degree.",
+    "The NVDA experiment is a transient external-data observation, not a durable market claim."
+  ],
+  "historical_immutability":"Only pivots with a complete bounded right window are stable under appended bars; this is algorithmic geometry stability, not physical artifact immutability.",
+  "next_target":"AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1"
+}

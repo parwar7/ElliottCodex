@@ -1,0 +1,22 @@
+{
+  "focused":{"tests":18,"passes":18,"failures":0,"errors":0,"skipped":0},
+  "full":{"tests":707,"passes":707,"failures":0,"errors":0,"skipped":0},
+  "coverage": [
+    "exact normalized input and identity",
+    "deterministic ordered HIGH/LOW output",
+    "caller window sensitivity",
+    "FIRST/LAST equal-extreme policy",
+    "same-bar high/low exclusion and no duplicate pivot timestamp",
+    "developing-tail mutation semantics",
+    "confirmed history stability under append",
+    "provenance",
+    "bounded exact parameter validation",
+    "mapping, duck, subclass, low-level mutation, duplicate timestamp, and nonfinite rejection",
+    "immutability and elliott_endpoint_authority=false",
+    "Yahoo-normalized provider-neutral compatibility",
+    "no methodology, candidate, degree, indicator, certification, network, or trading capability",
+    "unchanged methodology and certificate inventories"
+  ],
+  "adversarial_audit":"PASS",
+  "live_experiment":"PASS"
+}

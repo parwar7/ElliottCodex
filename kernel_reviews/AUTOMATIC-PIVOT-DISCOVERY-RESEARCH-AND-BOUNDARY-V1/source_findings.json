@@ -1,0 +1,59 @@
+{
+  "review_id": "AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1",
+  "source_lock": "Protected educational videos/transcripts and approved Frost/Prechter book only for Elliott methodology",
+  "findings": [
+    {
+      "topic": "mechanical pivot or ZigZag extractor",
+      "classification": "UNRESOLVED",
+      "finding": "No protected source defines or authorizes a mechanical price-geometry extraction algorithm or its parameters. Pattern-family uses of the term zigzag do not establish a charting ZigZag algorithm."
+    },
+    {
+      "topic": "meaningful swing or universal wave endpoint definition",
+      "classification": "UNRESOLVED",
+      "finding": "No source-complete machine rule defines importance, a minimum move, or a universal geometric endpoint selector."
+    },
+    {
+      "topic": "wave endpoints must always be new price extremes",
+      "classification": "UNRESOLVED",
+      "finding": "No universal rule was found. PATTERN_BRAIN truncation wording expressly prevents labeling solely from failure to make a new extreme and requires an internal fifth."
+    },
+    {
+      "topic": "hidden subdivisions and finer resolution",
+      "classification": "SOURCE_DEFINITION",
+      "principle_id": "P023",
+      "finding": "Bar aggregation can conceal lower-degree subdivisions. If internals are unresolved, finer data is requested; hidden pivots must not be invented.",
+      "protected_refs": [
+        "docs/elliott/DEGREE_RECURSION_BRAIN.md sections 6 and 9",
+        "docs/elliott/MASTER_PROTOCOL.md steps 4 and 7",
+        "docs/elliott/SOURCE_EVIDENCE_MAP.json P023"
+      ]
+    },
+    {
+      "topic": "visible swing count under extension",
+      "classification": "SOURCE_DEFINITION",
+      "finding": "PATTERN_BRAIN says an extended impulse may appear as 9, 13, or more visible swings. This is pattern context, not authorization for any pivot extractor.",
+      "protected_refs": ["docs/elliott/PATTERN_BRAIN.md section B"]
+    },
+    {
+      "topic": "timeframe, magnitude, or duration determines degree",
+      "classification": "SOURCE_DEFINITION",
+      "finding": "Timeframe is viewing resolution, not degree; a small five does not resolve its exact larger degree. No fixed magnitude or duration mapping is authorized.",
+      "protected_refs": [
+        "docs/elliott/MASTER_PROTOCOL.md steps 1 and 3",
+        "docs/elliott/DEGREE_RECURSION_BRAIN.md sections 2 and 9"
+      ]
+    },
+    {
+      "topic": "fixed percentage, ATR, bar-count, or prominence threshold",
+      "classification": "UNRESOLVED",
+      "finding": "No protected value was found; any such value is caller-supplied geometry or separately approved project operational policy, never source methodology by silence."
+    },
+    {
+      "topic": "approved Frost/Prechter source review",
+      "classification": "SOURCE_OBSERVATION",
+      "finding": "The active approved review records recursive subdivision, use of shorter-term data when unclear, and nonmechanical analysis with alternatives; it found no source-derived family terminal/base-case producer. It does not authorize a mechanical pivot endpoint rule.",
+      "review_ref": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1",
+      "substantive_result_unchanged": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+    }
+  ]
+}

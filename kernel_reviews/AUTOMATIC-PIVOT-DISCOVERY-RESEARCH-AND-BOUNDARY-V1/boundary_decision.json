@@ -1,0 +1,24 @@
+{
+  "gate":"PURE_GEOMETRIC_PIVOT_DISCOVERY_SAFE",
+  "artifact_classification":"PROJECT_DATA_ANALYSIS_INFRASTRUCTURE",
+  "input":"exact NormalizedMarketObservations",
+  "method":"WINDOWED_LOCAL_EXTREMA",
+  "elliott_endpoint_authority":false,
+  "safe_output_fields":["pivot_id","timestamp_utc","observed_price","pivot_kind","discovery_method","discovery_parameters","state","provenance_refs","elliott_endpoint_authority"],
+  "states": {
+    "CONFIRMED_BY_GEOMETRY":"The complete caller-sized right comparison window is present; this is not Elliott confirmation.",
+    "DEVELOPING":"The right comparison window is incomplete; the observation may change or disappear."
+  },
+  "compatibility": {
+    "ExplicitPivotObservation":"No automatic conversion. Existing object is a caller-supplied untrusted explicit observation and remains separate.",
+    "ExplicitPivotChildGroup":"Not accepted or created.",
+    "ExplicitPivotCandidateRequest":"Not accepted or created.",
+    "ManualP004Wave2OriginFact":"Not accepted or created.",
+    "SubjectBoundObservedPriceObservation":"Not accepted or created.",
+    "SubjectBoundObservedPriceEndpointPair":"Not accepted or created."
+  },
+  "prohibited_authority":["wave endpoint","wave label","family","pattern","degree","structural validity","candidate","certificate","indicator evidence","ranking","forecast","trade"],
+  "provider_dependency":false,
+  "timeframe_is_not_degree":true,
+  "candidate_generation":false
+}

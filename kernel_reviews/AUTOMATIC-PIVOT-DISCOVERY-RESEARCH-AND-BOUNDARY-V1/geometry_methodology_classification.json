@@ -1,0 +1,28 @@
+{
+  "classification_framework": [
+    "PURE_MARKET_GEOMETRY",
+    "PROJECT_OPERATIONAL_POLICY",
+    "ELLIOTT_METHODOLOGY_SENSITIVE",
+    "UNRESOLVED"
+  ],
+  "behaviors": [
+    {"behavior":"local high/low comparison","classification":"PURE_MARKET_GEOMETRY","note":"Factual comparison of observed OHLC values."},
+    {"behavior":"rolling-window extrema mechanism","classification":"PURE_MARKET_GEOMETRY","note":"The mechanism is geometry; the selected window values are caller-supplied policy."},
+    {"behavior":"minimum price reversal threshold","classification":"PROJECT_OPERATIONAL_POLICY","note":"No protected value; must be caller-supplied if introduced later."},
+    {"behavior":"percentage-reversal ZigZag","classification":"PROJECT_OPERATIONAL_POLICY","note":"Generic geometry algorithm whose reversal percentage is not Elliott authority."},
+    {"behavior":"ATR-scaled reversal","classification":"PROJECT_OPERATIONAL_POLICY","note":"ATR definition, period, and multiplier require explicit non-methodology choices."},
+    {"behavior":"minimum bar separation","classification":"PROJECT_OPERATIONAL_POLICY","note":"No protected bar count exists."},
+    {"behavior":"pivot prominence","classification":"PROJECT_OPERATIONAL_POLICY","note":"Prominence definition, neighborhood, and threshold require explicit choices."},
+    {"behavior":"equal-high/equal-low handling","classification":"PROJECT_OPERATIONAL_POLICY","note":"V1 requires explicit FIRST or LAST caller choice."},
+    {"behavior":"geometric high/low alternation enforcement","classification":"PROJECT_OPERATIONAL_POLICY","note":"Algorithm mechanics only; not motive/corrective alternation. Not implemented in V1."},
+    {"behavior":"endpoint replacement","classification":"PROJECT_OPERATIONAL_POLICY","note":"Streaming ZigZag mechanics; not implemented."},
+    {"behavior":"pivot pruning","classification":"PROJECT_OPERATIONAL_POLICY","note":"Would encode a significance choice; not implemented."},
+    {"behavior":"nested or multi-resolution geometric pivots","classification":"PROJECT_OPERATIONAL_POLICY","note":"May describe discovery scales only and must never imply Elliott degree. Not implemented."},
+    {"behavior":"important pivot","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","note":"Importance for a wave count is undefined by a geometric observation alone."},
+    {"behavior":"completed geometric local extremum","classification":"PURE_MARKET_GEOMETRY","note":"Only means its bounded right comparison window exists."},
+    {"behavior":"completed Elliott swing or wave","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","note":"Cannot be inferred by the V1 geometry state."},
+    {"behavior":"developing geometric extremum","classification":"PURE_MARKET_GEOMETRY","note":"Trailing comparison window is incomplete and may repaint."},
+    {"behavior":"geometric pivot as Elliott wave endpoint","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","note":"Explicitly false for every V1 output."},
+    {"behavior":"timeframe or geometric scale as Elliott degree","classification":"ELLIOTT_METHODOLOGY_SENSITIVE","note":"Protected sources reject timeframe-to-degree mapping."}
+  ]
+}
