@@ -1,0 +1,30 @@
+{
+  "schema_version": "HUMAN_READABLE_MANUAL_CANDIDATE_CLI_V1",
+  "request_id": "example-cardinality-request",
+  "requested_at_utc": "2026-09-03T12:00:00Z",
+  "subject": {
+    "subject_id": "example-parent",
+    "observation_provenance_ref": "manual-chart:parent"
+  },
+  "candidate_id": "example-zigzag-candidate",
+  "ordered_children": [
+    {
+      "subject_id": "example-child-a",
+      "observation_provenance_ref": "manual-chart:child-a"
+    },
+    {
+      "subject_id": "example-child-b",
+      "observation_provenance_ref": "manual-chart:child-b"
+    }
+  ],
+  "constructed_binding_id": "example-two-child-binding",
+  "facts": [
+    {
+      "type": "DIRECT_CHILD_CARDINALITY",
+      "behavior": "SINGLE_ZIGZAG"
+    }
+  ],
+  "provenance_refs": [
+    "example:human-entered"
+  ]
+}

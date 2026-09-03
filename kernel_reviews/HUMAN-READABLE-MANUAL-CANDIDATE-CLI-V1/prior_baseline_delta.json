@@ -1,0 +1,38 @@
+{
+  "baseline_id": "HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1",
+  "prior_baseline_artifacts_modified": false,
+  "prior_review_manifest_count": 31,
+  "latest_prior_baseline": {
+    "baseline_id": "FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1",
+    "manifest_sha256": "7956b0393396e42b20e20a319dc608b04de8532ef5ac9338250301b7dcbce1d4"
+  },
+  "new_files": [
+    "src/elliott_methodology_kernel/human_readable_manual_candidate.py",
+    "src/elliott_runtime/manual_candidate_cli.py",
+    "tests/test_manual_candidate_cli.py",
+    "examples/manual_candidate/README.md",
+    "examples/manual_candidate/p004_reviewed.json",
+    "examples/manual_candidate/cardinality_unresolved.json"
+  ],
+  "modified_files": [
+    "src/elliott_methodology_kernel/__init__.py",
+    "pyproject.toml"
+  ],
+  "unchanged_boundaries": [
+    "Brain_LOCKED",
+    "Sources_LOCKED",
+    "all prior kernel_reviews artifacts",
+    "all executable methodology implementations",
+    "certificate algorithms and registries",
+    "bounded_manual_chart_analysis.py",
+    "manual_structure_candidate_builder.py",
+    "api.py",
+    "legacy MethodologyKernel.analyze"
+  ],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  }
+}

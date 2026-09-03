@@ -181,6 +181,13 @@ from .bounded_manual_chart_analysis import (
     BoundedManualChartFinalSummary,
     BoundedManualChartTrace,
 )
+from .human_readable_manual_candidate import (
+    HumanReadableManualCandidateError,
+    INPUT_SCHEMA_VERSION,
+    SNAPSHOT_SCHEMA_VERSION,
+    parse_human_readable_manual_candidate,
+    render_manual_candidate_snapshot,
+)
 
 __all__ = [
     "AnalysisRequest",
@@ -200,6 +207,9 @@ __all__ = [
     "BoundedManualChartCoverageState",
     "BoundedManualChartFinalSummary",
     "BoundedManualChartTrace",
+    "HumanReadableManualCandidateError",
+    "INPUT_SCHEMA_VERSION",
+    "SNAPSHOT_SCHEMA_VERSION",
     "CandidateScope",
     "CALLER_SUPPLIED_STRUCTURAL_FACT",
     "CandidateAnalysisEnvelope",
@@ -307,5 +317,7 @@ __all__ = [
     "certify_validated_internal_family",
     "evaluate_p023_visibility_for_subject",
     "load_brain_manifest",
+    "parse_human_readable_manual_candidate",
+    "render_manual_candidate_snapshot",
     "map_p003_one_larger_degree_theme",
 ]

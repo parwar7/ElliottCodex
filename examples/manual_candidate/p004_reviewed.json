@@ -1,0 +1,22 @@
+{
+  "schema_version": "HUMAN_READABLE_MANUAL_CANDIDATE_CLI_V1",
+  "request_id": "example-p004-request",
+  "requested_at_utc": "2026-09-03T12:00:00Z",
+  "subject": {
+    "subject_id": "example-manual-subject",
+    "observation_provenance_ref": "manual-chart:example"
+  },
+  "candidate_id": "example-p004-candidate",
+  "facts": [
+    {
+      "type": "P004_WAVE2_ORIGIN",
+      "candidate_scope": "NORMAL_IMPULSE",
+      "direction": "UP",
+      "wave1_origin_price": 100.0,
+      "wave2_end_price": 101.0
+    }
+  ],
+  "provenance_refs": [
+    "example:human-entered"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "baseline_id": "HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1",
+  "python_version": "3.12.10",
+  "focused_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_manual_candidate_cli.py'",
+  "focused_tests_run": 18,
+  "focused_passes": 18,
+  "focused_failures": 0,
+  "focused_errors": 0,
+  "full_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_*.py'",
+  "full_tests_run": 566,
+  "full_passes": 566,
+  "full_failures": 0,
+  "full_errors": 0,
+  "full_skipped": 0,
+  "adversarial_audit": "PASS",
+  "hardening": [
+    "Duplicate JSON keys, non-finite tokens, invalid UTF-8, oversized input, unknown fields, missing fields, wrong enum tokens, mapping subclasses, and authority-shaped fields fail closed.",
+    "The public conversion adapter preserves the established Runtime-to-Kernel dependency boundary; Runtime imports only elliott_methodology_kernel.",
+    "A bounded result is revalidated before snapshot rendering, so low-level mutation fails closed.",
+    "The snapshot explicitly denies validity and cannot be parsed back through the input schema.",
+    "The CLI has no output-file writer, methodology dispatch, certificate issuer, external capability, discovery, inference, ranking, or trading behavior."
+  ],
+  "development_hardening_event": "The first full-suite run identified two Runtime import-boundary violations. Conversion was moved behind the approved public Kernel package boundary; the final focused and complete suites pass."
+}

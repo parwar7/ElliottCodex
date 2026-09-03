@@ -1,0 +1,17 @@
+{
+  "baseline_id": "HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1",
+  "limitations": [
+    "The CLI accepts exactly one local JSON candidate document per invocation.",
+    "The CLI does not accept serialized certificates, observations, operational resolutions, or existing same-process bindings.",
+    "Because certificates cannot be deserialized, the CLI cannot originate a STRUCTURALLY_INVALID result; fatal-looking results remain unresolved unless a genuine same-process certificate enters through another trusted API boundary.",
+    "The CLI does not read OHLCV, detect pivots, discover waves, segment candidates, infer pattern, family, direction, degree, timeframe, or applicability.",
+    "The output is a non-authoritative diagnostic snapshot and cannot preserve live object identity or be reloaded as methodology authority.",
+    "The CLI writes successful output only to standard output and errors only to standard error; it has no output-file or run-history persistence option.",
+    "No multi-candidate, multi-timeframe, lifecycle, ranking, Preferred/Alternative, TradingView, alert, or trading workflow is included.",
+    "The validated-family registry remains sealed with zero producers and zero issuances.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND and the P006 source conflict remain unresolved and unchanged."
+  ],
+  "physical_immutability_enforced": false,
+  "serialized_authority_claimed": false,
+  "cross_process_authority_claimed": false
+}

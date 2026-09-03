@@ -3,3 +3,6 @@ name = "elliott-runtime-foundation"
 version = "0.1.0-dev"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+elliott-manual-candidate = "elliott_runtime.manual_candidate_cli:main"
