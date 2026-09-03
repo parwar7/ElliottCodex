@@ -1,0 +1,30 @@
+{
+  "baseline_id": "BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1",
+  "prior_baseline_artifacts_modified": false,
+  "new_files": [
+    "src/elliott_methodology_kernel/bounded_recursive_analysis.py",
+    "tests/test_bounded_recursive_analysis.py"
+  ],
+  "modified_files": [
+    "src/elliott_methodology_kernel/__init__.py"
+  ],
+  "unchanged_boundaries": [
+    "Brain_LOCKED",
+    "Sources_LOCKED",
+    "all prior kernel_reviews artifacts",
+    "all ten methodology behavior implementations",
+    "both certificate algorithms",
+    "subject_binding.py",
+    "models.py",
+    "api.py",
+    "MethodologyKernel.analyze",
+    "P005 status",
+    "P006 unresolved conflict"
+  ],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "baseline_id": "BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1",
+  "python_version": "3.12.10",
+  "focused_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_bounded_recursive_analysis.py'",
+  "focused_tests_run": 31,
+  "focused_passes": 31,
+  "focused_failures": 0,
+  "focused_errors": 0,
+  "full_command": "$env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONPATH='C:\\ElliottCodex\\Runtime_WORKSPACE\\src'; python -B -m unittest discover -s tests -p 'test_*.py'",
+  "full_tests_run": 423,
+  "full_passes": 423,
+  "full_failures": 0,
+  "full_errors": 0,
+  "full_skipped": 0,
+  "adversarial_audit": "PASS",
+  "hardening": [
+    "Malformed P023 missing-input results are rejected rather than treated as approved UNKNOWN visibility.",
+    "P023 support retains a private live issuance attestation, exact subject identity, exact result identity, exact original visibility token, and certified-field snapshot.",
+    "Nodes and aggregation revalidate operational resolutions so low-level field mutation fails closed.",
+    "Invalid-child precedence is tested in both mixed-child orders.",
+    "Certificate and visibility mapping, duck type, subclass, manual construction, copy, pickle, arbitrary-ID, and cross-subject attacks are covered."
+  ]
+}

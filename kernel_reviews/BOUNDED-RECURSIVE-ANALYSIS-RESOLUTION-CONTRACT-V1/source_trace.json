@@ -1,0 +1,21 @@
+{
+  "baseline_id": "BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "operational_policy_classification": "PROJECT_OPERATIONAL_POLICY",
+  "source_class": null,
+  "protected_principle_id": null,
+  "methodology_behavior": false,
+  "locked_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "authority_boundaries": {
+    "validated_family": "Exact genuine live CertifiedValidatedInternalFamily and exact certified subject identity are required.",
+    "structural_invalidity": "Exact genuine live CertifiedStructuralInvalidity is required; exact origin binding parent identity is required where the origin exposes an OrderedChildBinding.",
+    "p023": "The unchanged P023 guard is invoked by a subject-bound infrastructure attestation. Only exact NOT_VISIBLE or UNKNOWN input/result pairs map to unresolved finer-data state.",
+    "dependency": "Only an exact project dependency code creates unresolved methodology-dependency state; it never creates validity."
+  },
+  "protected_methodology_changes": [],
+  "protected_ids_created": [],
+  "source_interpretation_changes": [],
+  "p005_status": "UNCHANGED",
+  "p006_status": "UNCHANGED_UNRESOLVED_CONFLICT",
+  "base_case_finding_changed": false
+}
