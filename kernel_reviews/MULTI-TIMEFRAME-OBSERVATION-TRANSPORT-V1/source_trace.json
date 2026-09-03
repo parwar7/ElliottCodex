@@ -1,0 +1,30 @@
+{
+  "baseline_id": "MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "association_classification": "CALLER_SUPPLIED_OBSERVATION_ASSOCIATION",
+  "workflow_policy": "PROJECT_OPERATIONAL_POLICY",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "core_constraint": "TIMEFRAME_IS_NOT_DEGREE",
+  "reused_contracts": [
+    "SymbolIdentity",
+    "Timeframe",
+    "NormalizedMarketObservations",
+    "DataProvenance",
+    "DataQualityReport",
+    "AnalyzedWaveSubject",
+    "RecursiveCandidateCompositionResult"
+  ],
+  "authority_statement": "All subject/observation associations are exact caller-supplied live identities and create no Elliott methodology authority.",
+  "protected_state": {
+    "brain_version": "0.1.0",
+    "brain_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "brain_entries": 30,
+    "brain_mismatches": 0,
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "source_entries": 21,
+    "source_mismatches": 0
+  }
+}
+

@@ -1,0 +1,39 @@
+{
+  "baseline_id": "MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1",
+  "prior_checkpoint": {
+    "baseline_id": "HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1",
+    "git_head": "741330b5a04b99d539cbdf0267f10906230b0fe4",
+    "manifest_sha256": "40661a96f0ccfbf98cd1d6d5b95e06ddbd2cccd94d10b9dfabaab0a9304f16bd"
+  },
+  "additions": [
+    "MultiTimeframeObservationBundle",
+    "SubjectObservationAttachment",
+    "ObservationAssociationRole",
+    "ObservationResolutionRelation",
+    "ObservationTransportDiagnostic",
+    "ObservationTransportDiagnosticState",
+    "MultiTimeframeObservationTransportRequest",
+    "MultiTimeframeObservationTransportResult",
+    "compare_observation_resolutions",
+    "has_finer_observation_data",
+    "has_coarser_observation_data",
+    "MethodologyKernel.attach_multi_timeframe_observations"
+  ],
+  "modified_existing_files": [
+    "src/elliott_methodology_kernel/api.py",
+    "src/elliott_methodology_kernel/__init__.py"
+  ],
+  "unchanged_shared_contracts": [
+    "src/elliott_methodology_kernel/models.py",
+    "src/elliott_methodology_kernel/recursive_candidate_composition.py",
+    "src/elliott_methodology_kernel/bounded_recursive_analysis.py"
+  ],
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "prior_review_manifest_count": 35,
+  "prior_review_manifests_modified": false
+}

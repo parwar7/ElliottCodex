@@ -1,0 +1,29 @@
+{
+  "baseline_id": "MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1",
+  "focused_command": "python -m unittest discover -s tests -p 'test_multi_timeframe_observation_transport.py' -v",
+  "focused_tests": 27,
+  "focused_passes": 27,
+  "full_command": "python -m unittest discover -s tests -v",
+  "full_tests": 645,
+  "full_passes": 645,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "coverage": [
+    "exact normalized observation identity",
+    "same-symbol field consistency",
+    "unique chart resolution_seconds",
+    "caller-order preservation and deterministic sampling-resolution order",
+    "exact recursive-tree subject inventory",
+    "exact subject/observation association",
+    "foreign and duplicate attachment rejection",
+    "finer/coarser availability as transport fact only",
+    "P023 NOT_VISIBLE and UNKNOWN non-interaction",
+    "data provenance, data quality, volume, date range, and resampled flag retention",
+    "mapping, duck, subclass, pickle, and mutation rejection",
+    "no fetching, resampling, interpretation, methodology, ranking, or trading",
+    "unchanged methodology and producer inventories"
+  ],
+  "adversarial_audit": "PASS"
+}
+

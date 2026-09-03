@@ -40,6 +40,11 @@ from .recursive_candidate_composition import (
     RecursiveCandidateCompositionResult,
     _compose_recursive_candidate,
 )
+from .multi_timeframe_observation_transport import (
+    MultiTimeframeObservationTransportRequest,
+    MultiTimeframeObservationTransportResult,
+    _attach_multi_timeframe_observations,
+)
 
 
 KERNEL_VERSION = "0.1.0-phase1-contract"
@@ -136,3 +141,10 @@ class MethodologyKernel:
     ) -> RecursiveCandidateCompositionResult:
         """Compose exact already-analyzed candidates without rerunning methodology."""
         return _compose_recursive_candidate(request)
+
+    def attach_multi_timeframe_observations(
+        self,
+        request: MultiTimeframeObservationTransportRequest,
+    ) -> MultiTimeframeObservationTransportResult:
+        """Attach exact normalized observations without methodology interpretation."""
+        return _attach_multi_timeframe_observations(request)

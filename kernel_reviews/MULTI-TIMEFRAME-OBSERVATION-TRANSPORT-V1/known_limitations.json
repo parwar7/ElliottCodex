@@ -1,0 +1,16 @@
+{
+  "baseline_id": "MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1",
+  "limitations": [
+    "Transport is same-process and typed; no authoritative JSON, pickle, CLI, or provider input is included.",
+    "Observation association is caller supplied and does not discover subjects or recursive relationships.",
+    "Finer-resolution availability does not establish visible internals or rerun P023.",
+    "Sampling-resolution ordering does not establish Elliott degree or parent/child hierarchy.",
+    "No cross-timeframe methodology validation or confirmation is performed.",
+    "No automatic resampling, market-data fetching, or provider integration is included.",
+    "No non-authoritative recursive multi-timeframe report is included.",
+    "P005 remains unchanged; P006 remains unchanged with its unresolved conflict.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND remains unchanged.",
+    "MethodologyKernel.analyze remains NOT_IMPLEMENTED."
+  ]
+}
+

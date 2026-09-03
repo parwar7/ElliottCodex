@@ -1,0 +1,190 @@
+{
+  "baseline_id": "MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "KERNEL_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "association_classification": "CALLER_SUPPLIED_OBSERVATION_ASSOCIATION",
+  "workflow_policy": "PROJECT_OPERATIONAL_POLICY",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "core_constraint": "TIMEFRAME_IS_NOT_DEGREE",
+  "public_surface": {
+    "module": "elliott_methodology_kernel.multi_timeframe_observation_transport",
+    "api_method": "MethodologyKernel.attach_multi_timeframe_observations",
+    "bundle_type": "MultiTimeframeObservationBundle",
+    "attachment_type": "SubjectObservationAttachment",
+    "request_type": "MultiTimeframeObservationTransportRequest",
+    "result_type": "MultiTimeframeObservationTransportResult",
+    "diagnostic_type": "ObservationTransportDiagnostic",
+    "request_fields": [
+      "request_id",
+      "recursive_candidate_result",
+      "observation_bundle",
+      "subject_attachments",
+      "provenance_refs"
+    ],
+    "result_fields": [
+      "request_id",
+      "recursive_candidate_result",
+      "observation_bundle",
+      "subject_attachments",
+      "subject_inventory",
+      "resolution_inventory",
+      "transport_diagnostics",
+      "provenance_refs"
+    ],
+    "helpers": [
+      "compare_observation_resolutions",
+      "has_finer_observation_data",
+      "has_coarser_observation_data"
+    ]
+  },
+  "bundle_contract": {
+    "symbol": "EXACT_SYMBOL_IDENTITY_WITH_VALUE_EQUIVALENCE_ACROSS_OBSERVATIONS",
+    "symbol_fields": [
+      "symbol",
+      "market_type",
+      "exchange",
+      "provider_symbol"
+    ],
+    "observation_sets": "EXACT_CALLER_ORDERED_TUPLE_OF_EXACT_NORMALIZED_MARKET_OBSERVATIONS",
+    "duplicate_resolution_seconds": "REJECTED",
+    "merge_or_provider_selection": false,
+    "second_ohlcv_model": false
+  },
+  "timeframe_semantics": {
+    "exact_timeframe_retained": true,
+    "caller_order_retained": true,
+    "resolution_inventory": "SAME_EXACT_OBSERVATIONS_SORTED_FINER_TO_COARSER_BY_RESOLUTION_SECONDS",
+    "relations": [
+      "FINER_THAN",
+      "SAME_RESOLUTION",
+      "COARSER_THAN"
+    ],
+    "elliott_degree_authority": false,
+    "parent_child_hierarchy_authority": false,
+    "label_normalization": false
+  },
+  "association_contract": {
+    "subject": "EXACT_ANALYZED_WAVE_SUBJECT",
+    "observations": "EXACT_BUNDLE_MEMBER_IDENTITY",
+    "roles": [
+      "REFERENCE_VIEW",
+      "ADDITIONAL_VIEW",
+      "FINER_RESOLUTION_VIEW"
+    ],
+    "role_is_operational_only": true,
+    "foreign_subject": "REJECTED",
+    "foreign_observation": "REJECTED",
+    "duplicate_subject_observation_identity": "REJECTED",
+    "multiple_distinct_resolutions_per_subject": "ALLOWED",
+    "automatic_subject_matching": false
+  },
+  "recursive_subject_inventory": {
+    "source": "EXACT_LIVE_RECURSIVE_CANDIDATE_TREE",
+    "ordering": "PREORDER_OVER_EXPLICIT_PARENT_AND_CHILD_NODES",
+    "parent_children_and_descendants_included": true,
+    "new_subjects_or_children_created": false,
+    "missing_attachment": "NO_OBSERVATION_ASSOCIATION_SUPPLIED",
+    "missing_attachment_is_methodology_unresolved": false
+  },
+  "availability_semantics": {
+    "finer": "EXPLICIT_ATTACHMENT_WITH_SMALLER_RESOLUTION_SECONDS",
+    "coarser": "EXPLICIT_ATTACHMENT_WITH_LARGER_RESOLUTION_SECONDS",
+    "internals_visible": false,
+    "p023_rerun_or_mutation": false,
+    "family_validity": false,
+    "cross_timeframe_confirmation": false
+  },
+  "data_preservation": {
+    "normalized_observation_identity": true,
+    "symbol_identity_or_value": true,
+    "timeframe_identity": true,
+    "bar_tuple_and_bar_identities": true,
+    "data_provenance_identity": true,
+    "data_quality_identity": true,
+    "volume_metadata_only": true,
+    "resampled_flag_retained": true,
+    "automatic_resampling": false,
+    "different_date_coverage_allowed": true,
+    "date_nesting_inference": false
+  },
+  "diagnostics": [
+    "SUBJECT_ATTACHED",
+    "SUBJECT_NO_OBSERVATIONS",
+    "MULTIPLE_RESOLUTIONS_ATTACHED",
+    "FINER_RESOLUTION_AVAILABLE",
+    "COARSER_RESOLUTION_AVAILABLE"
+  ],
+  "security_and_scope": {
+    "exact_types": true,
+    "mapping_duck_subclass": "REJECTED",
+    "pickle": "REJECTED_FOR_TRANSPORT_AUTHORITY_TYPES",
+    "low_level_mutation": "FAIL_CLOSED",
+    "dynamic_import_or_callable_injection": false,
+    "network_provider_or_process_capability": false,
+    "market_data_fetching": false,
+    "bar_pivot_wave_pattern_family_or_degree_interpretation": false,
+    "indicator_ranking_trading_or_alert_logic": false
+  },
+  "inventory_at_checkpoint": {
+    "executable_methodology": 10,
+    "structural_invalidity_registry_sealed": true,
+    "structural_invalidity_producers": 7,
+    "validated_family_registry_sealed": true,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p005": "UNCHANGED",
+    "p006": "UNCHANGED_UNRESOLVED_CONFLICT",
+    "source_derived_base_case_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_methodology_kernel_analyze": "NOT_IMPLEMENTED"
+  },
+  "implementation_artifacts": [
+    {"path":"src/elliott_methodology_kernel/multi_timeframe_observation_transport.py","byte_length":35887,"sha256":"94a990d63308a02e1940edc462fd2639d86a6f70f56c2301c298229f47ee664d"},
+    {"path":"tests/test_multi_timeframe_observation_transport.py","byte_length":28634,"sha256":"d4302eabaa071ced29831ed8699f7a7b05095b97de102d046cb32024a763ee76"},
+    {"path":"src/elliott_methodology_kernel/api.py","byte_length":5561,"sha256":"e4bab6acaf7d616f0d070c0c8103aaf04cc048c284416f0ec65f7e08aead520b"},
+    {"path":"src/elliott_methodology_kernel/__init__.py","byte_length":12861,"sha256":"283334797db688d2c9832e7eff17dfedd50435d7f5a630fee080296bed801590"}
+  ],
+  "baseline_artifacts": [
+    {"path":"kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/BASELINE_README.md","byte_length":2020,"sha256":"21b174d7ffca22f1c0a174ca56bceaaaf52a4123f015b3dc34a14c55f10fee12"},
+    {"path":"kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/source_trace.json","byte_length":1130,"sha256":"e94e8c6aa65742eade15546f0ed9166aa76e082be60943b44541c4dd2d1665f4"},
+    {"path":"kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/test_results.json","byte_length":1163,"sha256":"859250cf5138ec856aac98c7c006110f097d88e7a6f6d2d89bbd0e4cae2cf176"},
+    {"path":"kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/known_limitations.json","byte_length":941,"sha256":"92d6c212b511e117063b8fa2cb441374d54f50d1c5e2e70c0dcb2fdf3bbd844d"},
+    {"path":"kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/prior_baseline_delta.json","byte_length":1444,"sha256":"cb4dea27814ddad2b9cf4c1ec4d6cc25cc0e19823c05c4992cf8cec05b9cd267"}
+  ],
+  "unchanged_shared_contracts": [
+    "src/elliott_methodology_kernel/models.py",
+    "src/elliott_methodology_kernel/recursive_candidate_composition.py",
+    "src/elliott_methodology_kernel/bounded_recursive_analysis.py"
+  ],
+  "prior_checkpoint": {
+    "baseline_id": "HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1",
+    "git_head": "741330b5a04b99d539cbdf0267f10906230b0fe4",
+    "manifest_sha256": "40661a96f0ccfbf98cd1d6d5b95e06ddbd2cccd94d10b9dfabaab0a9304f16bd"
+  },
+  "prior_review_manifest_count": 35,
+  "prior_review_manifests_modified": false,
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatch_count": 0
+  },
+  "protected_sources": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21,
+    "mismatch_count": 0
+  },
+  "tests": {
+    "focused": 27,
+    "focused_passes": 27,
+    "full": 645,
+    "full_passes": 645,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "adversarial_audit": "PASS"
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, hostile same-process isolation, cryptographic authenticity, serialized authority, or durable cross-process identity is claimed."
+}
