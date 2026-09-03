@@ -202,6 +202,13 @@ from .explicit_pivot_candidate import (
     parse_human_readable_explicit_pivot_candidate,
     render_explicit_pivot_report,
 )
+from .recursive_candidate_composition import (
+    RELATIONSHIP_CLASSIFICATION,
+    RecursiveCandidateCompositionError,
+    RecursiveCandidateCompositionRequest,
+    RecursiveCandidateCompositionResult,
+    RecursiveCandidateCompositionSummary,
+)
 
 __all__ = [
     "AnalysisRequest",
@@ -289,6 +296,7 @@ __all__ = [
     "P004Input",
     "P004Result",
     "PIVOT_CLASSIFICATION",
+    "RELATIONSHIP_CLASSIFICATION",
     "P007CandidateScope",
     "P007CardinalityStatus",
     "P007ExecutionRole",
@@ -314,6 +322,10 @@ __all__ = [
     "ParentChildDegreeInput",
     "ParentChildDegreeResult",
     "RuleCheckStatus",
+    "RecursiveCandidateCompositionError",
+    "RecursiveCandidateCompositionRequest",
+    "RecursiveCandidateCompositionResult",
+    "RecursiveCandidateCompositionSummary",
     "SingleCandidateAnalysisRequest",
     "SingleCandidateAnalysisResult",
     "SingleCandidateExecutionSummary",

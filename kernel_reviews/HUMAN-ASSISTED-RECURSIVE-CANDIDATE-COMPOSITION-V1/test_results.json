@@ -1,0 +1,29 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1",
+  "focused_command": "python -m unittest discover -s tests -p 'test_recursive_candidate_composition.py' -v",
+  "focused_tests": 27,
+  "focused_passes": 27,
+  "full_command": "python -m unittest discover -s tests -v",
+  "full_tests": 618,
+  "full_passes": 618,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "coverage": [
+    "exact immutable request/result identities",
+    "exact parent/child subject and binding order",
+    "bounded recursive node reuse",
+    "invalid-before-unresolved aggregation",
+    "parent state separated from child aggregation",
+    "genuine invalidity evidence identity retention",
+    "all unresolved reasons retained",
+    "zero-child conservative semantics",
+    "one-level and two-level same-process nesting",
+    "descendant invalidity and unresolved propagation",
+    "duplicate, cycle, mutation, duck, mapping, subclass, and pickle rejection",
+    "no discovery, methodology dispatch, certificate issuance, or external capability",
+    "unchanged methodology and producer inventories"
+  ],
+  "adversarial_audit": "PASS"
+}
+

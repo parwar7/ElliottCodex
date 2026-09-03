@@ -1,0 +1,192 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1",
+  "status": "APPROVED_CANDIDATE",
+  "baseline_type": "KERNEL_INFRASTRUCTURE_LOGICAL_BASELINE",
+  "artifact_classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "relationship_classification": "CALLER_SUPPLIED_STRUCTURE_DECLARATION",
+  "workflow_policy": "PROJECT_OPERATIONAL_POLICY",
+  "protected_principle_id": null,
+  "source_class": null,
+  "methodology_behavior_added": false,
+  "public_surface": {
+    "module": "elliott_methodology_kernel.recursive_candidate_composition",
+    "api_method": "MethodologyKernel.compose_recursive_candidate",
+    "request_type": "RecursiveCandidateCompositionRequest",
+    "result_type": "RecursiveCandidateCompositionResult",
+    "summary_type": "RecursiveCandidateCompositionSummary",
+    "error_type": "RecursiveCandidateCompositionError",
+    "request_fields": [
+      "request_id",
+      "parent_candidate_result",
+      "ordered_child_candidate_results",
+      "child_binding",
+      "provenance_refs"
+    ],
+    "result_fields": [
+      "request_id",
+      "parent_candidate_result",
+      "ordered_child_candidate_results",
+      "child_binding",
+      "parent_node",
+      "child_nodes",
+      "child_aggregation",
+      "composed_summary",
+      "unresolved_reasons",
+      "structural_invalidity_evidence_refs",
+      "provenance_refs"
+    ]
+  },
+  "result_inputs": {
+    "parent": "ONE_EXACT_LIVE_BOUNDED_MANUAL_CHART_ANALYSIS_RESULT",
+    "children": "EXACT_ORDERED_TUPLE_OF_LIVE_BOUNDED_OR_RECURSIVE_RESULTS",
+    "serialized_authority": false,
+    "methodology_reexecution": false,
+    "candidate_discovery": false
+  },
+  "subject_binding_identity_rules": {
+    "parent": "BINDING_PARENT_IS_EXACT_PARENT_RESULT_SUBJECT",
+    "children": "BINDING_CHILDREN_ARE_EXACT_CHILD_RESULT_SUBJECTS_IN_EXACT_ORDER",
+    "wrong_lookalike_reordered_extra_or_missing": "REJECTED",
+    "duplicate_child_result_identity": "REJECTED",
+    "duplicate_child_subject_identity": "REJECTED",
+    "normalization_or_deduplication": false
+  },
+  "node_construction": {
+    "type": "BoundedRecursiveAnalysisNode",
+    "bounded_child": "ONE_CURRENT_COMPOSITION_LEAF_RETAINING_EXACT_SUBJECT_AND_OWN_OPERATIONAL_RESOLUTION",
+    "recursive_child": "REUSE_EXACT_LIVE_RECURSIVE_ROOT_NODE",
+    "parent": "EXACT_PARENT_SUBJECT_BINDING_CHILD_NODE_TUPLE_AND_OWN_OPERATIONAL_RESOLUTION",
+    "leaf_is_terminal_or_complete": false
+  },
+  "bounded_recursion_policy_extension": {
+    "justification": "A proven infrastructure gap prevented truthful node representation of reviewed and generic unresolved bounded results and prevented explicit descendant propagation.",
+    "new_resolution_states": [
+      "CURRENT_SUPPLIED_SCOPE_UNRESOLVED",
+      "CURRENT_SUPPLIED_SCOPE_REVIEWED"
+    ],
+    "new_states_are_methodology": false,
+    "new_states_accept_methodology_support": false,
+    "descendant_aggregation": "RECURSIVE_OVER_ONLY_EXPLICITLY_SUPPLIED_NODES",
+    "precedence_unchanged": [
+      "BLOCKED_BY_INVALID_CHILD",
+      "BLOCKED_BY_UNRESOLVED_CHILD",
+      "CHILDREN_OPERATIONALLY_RESOLVED"
+    ],
+    "methodology_or_certificate_contract_changed": false
+  },
+  "parent_child_precedence": {
+    "structural_block": "PARENT_GENUINE_INVALIDITY_OR_INVALID_CHILD_OR_DESCENDANT",
+    "unresolved_block": "NO_STRUCTURAL_INVALIDITY_AND_PARENT_OR_DESCENDANT_UNRESOLVED",
+    "reviewed": "PARENT_CURRENT_SCOPE_REVIEWED_AND_ALL_SUPPLIED_DESCENDANTS_OPERATIONALLY_RESOLVED",
+    "parent_own_state_retained_separately": true,
+    "child_aggregation_retained_separately": true,
+    "new_parent_invalidity_certificate": false
+  },
+  "composed_summary_states": [
+    "BLOCKED_BY_STRUCTURAL_INVALIDITY",
+    "BLOCKED_BY_UNRESOLVED_DESCENDANT",
+    "RECURSIVE_SCOPE_OPERATIONALLY_REVIEWED"
+  ],
+  "zero_child_semantics": {
+    "allowed": true,
+    "aggregation": "CHILDREN_OPERATIONALLY_RESOLVED",
+    "vacuous_only": true,
+    "terminality_family_completion_or_validity": false
+  },
+  "cycle_and_nesting": {
+    "same_process_nested_results": true,
+    "tested_depth": 2,
+    "parent_as_child": "REJECTED",
+    "ancestor_subject_reuse": "REJECTED",
+    "node_identity_reuse": "REJECTED",
+    "cycles": "REJECTED_FAIL_CLOSED",
+    "automatic_descendant_creation": false
+  },
+  "provenance_and_authority": {
+    "exact_parent_result_retained": true,
+    "exact_child_results_retained": true,
+    "exact_binding_retained": true,
+    "exact_nodes_retained": true,
+    "exact_aggregation_retained": true,
+    "all_unresolved_reasons_retained": true,
+    "exact_structural_invalidity_certificates_retained": true,
+    "family_certificate_issuance": false,
+    "structural_certificate_issuance": false,
+    "methodology_result": false,
+    "validity_family_completion_degree_timeframe_or_rank_authority": false
+  },
+  "serialization_and_security": {
+    "exact_types": true,
+    "mapping_duck_subclass": "REJECTED",
+    "pickle": "REJECTED",
+    "json_authority": false,
+    "low_level_mutation": "FAIL_CLOSED",
+    "dynamic_dispatch": false,
+    "callable_injection": false,
+    "network_process_browser_or_tradingview_capability": false
+  },
+  "scope_exclusions": {
+    "pivot_candidate_or_child_discovery": false,
+    "wave_label_or_pattern_inference": false,
+    "family_or_completion_proof": false,
+    "degree_or_timeframe_inference": false,
+    "indicator_fibonacci_or_channel_logic": false,
+    "ranking_or_trading_logic": false
+  },
+  "inventory_at_checkpoint": {
+    "executable_methodology": 10,
+    "structural_invalidity_registry_sealed": true,
+    "structural_invalidity_producers": 7,
+    "validated_family_registry_sealed": true,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p005": "UNCHANGED",
+    "p006": "UNCHANGED_UNRESOLVED_CONFLICT",
+    "source_derived_base_case_finding": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_methodology_kernel_analyze": "NOT_IMPLEMENTED"
+  },
+  "implementation_artifacts": [
+    {"path":"src/elliott_methodology_kernel/recursive_candidate_composition.py","byte_length":27633,"sha256":"70d724764c154bea438b47be952adbad05b5bcef4e3a6dfd85659a4c00599583"},
+    {"path":"src/elliott_methodology_kernel/bounded_recursive_analysis.py","byte_length":22908,"sha256":"26c4a764a8081463e3cee64b151d3532770fd64c7aac8d57e2e156df86c5cc98"},
+    {"path":"src/elliott_methodology_kernel/api.py","byte_length":5052,"sha256":"75df560ada68d6d8292e3c65831ddef42930399ec967b79465240675a8d0f53a"},
+    {"path":"src/elliott_methodology_kernel/__init__.py","byte_length":11744,"sha256":"4c2fcda4b1cac51718659cec251d59afd3f003996a5b8779e4029b8e6c12e464"},
+    {"path":"tests/test_recursive_candidate_composition.py","byte_length":28558,"sha256":"1f97e058117243d1421754a2835864c5f4d78fcc2d911813969e7892ed928350"},
+    {"path":"tests/test_bounded_recursive_analysis.py","byte_length":29950,"sha256":"70aa4fcb551f478c05dd00828dfc15f05730640b44672cc58ece7927dd28bea6"}
+  ],
+  "baseline_artifacts": [
+    {"path":"kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/BASELINE_README.md","byte_length":2323,"sha256":"fdf0c5289ec6c7b7be31a31e0b09379903cb3435c794bb297446d34de2865174"},
+    {"path":"kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/source_trace.json","byte_length":1116,"sha256":"bf02164f9fd00519f6e3558354bf641e177163fe061cd07ef323e66b759c258c"},
+    {"path":"kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/test_results.json","byte_length":1133,"sha256":"dc008c12d2f4a3594ae47ab3ebbede5443c9989fd25b9a87640d99a5c47990e0"},
+    {"path":"kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/known_limitations.json","byte_length":1103,"sha256":"cc835da63fefedf88a7edf72dd16b0adf6aba1c2feec801ff57431632629e514"},
+    {"path":"kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/prior_baseline_delta.json","byte_length":1445,"sha256":"bc4d3256b2d20e3ba8843d222c20d2ea568238a5014a7261f910d32c21d91b04"}
+  ],
+  "prior_checkpoint": {
+    "baseline_id": "HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1",
+    "git_head": "ad9d6c9059651fce0cbd7837c2a6e4234f46d727",
+    "manifest_sha256": "5cd924ecd0208a2134407dc7eace2af4426d9dfc5c75553d4772ef44b90a179b"
+  },
+  "prior_review_manifest_count": 34,
+  "prior_review_manifests_modified": false,
+  "protected_brain": {
+    "version": "0.1.0",
+    "package_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "entry_count": 30,
+    "mismatch_count": 0
+  },
+  "protected_sources": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "entry_count": 21,
+    "mismatch_count": 0
+  },
+  "tests": {
+    "focused": 27,
+    "focused_passes": 27,
+    "full": 618,
+    "full_passes": 618,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "adversarial_audit": "PASS"
+  },
+  "protection_status": "Development logical baseline only; no physical immutability, hostile same-process isolation, cryptographic authenticity, serialized authority, or durable cross-process identity is claimed."
+}

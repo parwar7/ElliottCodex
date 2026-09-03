@@ -37,6 +37,8 @@ class AnalysisResolutionState(StrEnum):
     STRUCTURALLY_INVALID = "STRUCTURALLY_INVALID"
     UNRESOLVED_FINER_DATA_REQUIRED = "UNRESOLVED_FINER_DATA_REQUIRED"
     UNRESOLVED_METHODOLOGY_DEPENDENCY = "UNRESOLVED_METHODOLOGY_DEPENDENCY"
+    CURRENT_SUPPLIED_SCOPE_UNRESOLVED = "CURRENT_SUPPLIED_SCOPE_UNRESOLVED"
+    CURRENT_SUPPLIED_SCOPE_REVIEWED = "CURRENT_SUPPLIED_SCOPE_REVIEWED"
 
 
 class MethodologyDependencyCode(StrEnum):
@@ -421,6 +423,16 @@ class BoundedRecursiveAnalysisResolution(metaclass=_SealedInfrastructureType):
                 )
             return
 
+        if self.state in (
+            AnalysisResolutionState.CURRENT_SUPPLIED_SCOPE_UNRESOLVED,
+            AnalysisResolutionState.CURRENT_SUPPLIED_SCOPE_REVIEWED,
+        ):
+            if supplied_support_count != 0 or self.dependency_code is not None:
+                raise BoundedRecursiveAnalysisContractError(
+                    "Current-scope operational states cannot carry methodology support."
+                )
+            return
+
         raise BoundedRecursiveAnalysisContractError("Unsupported resolution state.")
 
     def __copy__(self) -> BoundedRecursiveAnalysisResolution:
@@ -525,21 +537,42 @@ def aggregate_supplied_child_resolutions(
         raise BoundedRecursiveAnalysisContractError(
             "children must be one exact tuple of exact analysis nodes."
         )
-    for child in children:
-        child.__post_init__()
-    if any(
-        child.resolution.state is AnalysisResolutionState.STRUCTURALLY_INVALID
-        for child in children
-    ):
+    def subtree_flags(
+        node: BoundedRecursiveAnalysisNode,
+        active_node_ids: set[int],
+    ) -> tuple[bool, bool]:
+        node_id = id(node)
+        if node_id in active_node_ids:
+            raise BoundedRecursiveAnalysisContractError(
+                "Recursive analysis nodes cannot contain a cycle."
+            )
+        active_node_ids.add(node_id)
+        try:
+            node.__post_init__()
+            invalid = (
+                node.resolution.state
+                is AnalysisResolutionState.STRUCTURALLY_INVALID
+            )
+            unresolved = node.resolution.state in (
+                AnalysisResolutionState.UNRESOLVED_FINER_DATA_REQUIRED,
+                AnalysisResolutionState.UNRESOLVED_METHODOLOGY_DEPENDENCY,
+                AnalysisResolutionState.CURRENT_SUPPLIED_SCOPE_UNRESOLVED,
+            )
+            for descendant in node.children:
+                child_invalid, child_unresolved = subtree_flags(
+                    descendant,
+                    active_node_ids,
+                )
+                invalid = invalid or child_invalid
+                unresolved = unresolved or child_unresolved
+            return invalid, unresolved
+        finally:
+            active_node_ids.remove(node_id)
+
+    subtree_states = tuple(subtree_flags(child, set()) for child in children)
+    if any(invalid for invalid, _ in subtree_states):
         return OperationalAggregationState.BLOCKED_BY_INVALID_CHILD
-    if any(
-        child.resolution.state
-        in (
-            AnalysisResolutionState.UNRESOLVED_FINER_DATA_REQUIRED,
-            AnalysisResolutionState.UNRESOLVED_METHODOLOGY_DEPENDENCY,
-        )
-        for child in children
-    ):
+    if any(unresolved for _, unresolved in subtree_states):
         return OperationalAggregationState.BLOCKED_BY_UNRESOLVED_CHILD
     return OperationalAggregationState.CHILDREN_OPERATIONALLY_RESOLVED
 

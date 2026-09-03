@@ -134,6 +134,8 @@ class BoundedRecursiveAnalysisContractTests(unittest.TestCase):
                 "STRUCTURALLY_INVALID",
                 "UNRESOLVED_FINER_DATA_REQUIRED",
                 "UNRESOLVED_METHODOLOGY_DEPENDENCY",
+                "CURRENT_SUPPLIED_SCOPE_UNRESOLVED",
+                "CURRENT_SUPPLIED_SCOPE_REVIEWED",
             },
             {state.value for state in AnalysisResolutionState},
         )

@@ -35,6 +35,11 @@ from .explicit_pivot_candidate import (
     ExplicitPivotCandidateRequest,
     _analyze_explicit_pivot_candidate,
 )
+from .recursive_candidate_composition import (
+    RecursiveCandidateCompositionRequest,
+    RecursiveCandidateCompositionResult,
+    _compose_recursive_candidate,
+)
 
 
 KERNEL_VERSION = "0.1.0-phase1-contract"
@@ -124,3 +129,10 @@ class MethodologyKernel:
             request,
             self.analyze_bounded_manual_chart,
         )
+
+    def compose_recursive_candidate(
+        self,
+        request: RecursiveCandidateCompositionRequest,
+    ) -> RecursiveCandidateCompositionResult:
+        """Compose exact already-analyzed candidates without rerunning methodology."""
+        return _compose_recursive_candidate(request)

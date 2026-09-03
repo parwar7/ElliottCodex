@@ -1,0 +1,17 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1",
+  "limitations": [
+    "Composition accepts same-process exact live result objects only; it has no authoritative JSON or pickle representation.",
+    "The system does not discover candidates, pivots, children, bindings, or recursive relationships.",
+    "A composition leaf means only that no children were explicitly supplied at that node; it does not mean terminal, primitive, complete, or finished wave.",
+    "Reviewed parent and children establish only operational review of the supplied scope, never Elliott validity or family proof.",
+    "No validated internal-family producer or issuance exists.",
+    "No degree or timeframe relationship is inferred between parent and children.",
+    "No non-authoritative recursive report is included in V1.",
+    "No multi-timeframe observation transport is included in V1.",
+    "P005 remains unchanged; P006 remains unchanged with its unresolved conflict.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND remains unchanged.",
+    "MethodologyKernel.analyze remains NOT_IMPLEMENTED."
+  ]
+}
+

@@ -1,0 +1,33 @@
+{
+  "baseline_id": "HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1",
+  "prior_checkpoint": {
+    "baseline_id": "HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1",
+    "git_head": "ad9d6c9059651fce0cbd7837c2a6e4234f46d727",
+    "manifest_sha256": "5cd924ecd0208a2134407dc7eace2af4426d9dfc5c75553d4772ef44b90a179b"
+  },
+  "additions": [
+    "RecursiveCandidateCompositionRequest",
+    "RecursiveCandidateCompositionResult",
+    "RecursiveCandidateCompositionSummary",
+    "RecursiveCandidateCompositionError",
+    "MethodologyKernel.compose_recursive_candidate"
+  ],
+  "bounded_recursion_policy_delta": {
+    "proven_contract_gap": "Existing nodes could not truthfully represent an already-reviewed bounded candidate or a generic unresolved supplied scope, and direct-only aggregation could not propagate explicit descendant state.",
+    "added_resolution_states": [
+      "CURRENT_SUPPLIED_SCOPE_UNRESOLVED",
+      "CURRENT_SUPPLIED_SCOPE_REVIEWED"
+    ],
+    "aggregation_change": "The existing invalid-before-unresolved policy now traverses only explicitly supplied descendant nodes and rejects cycles.",
+    "methodology_change": false,
+    "certificate_change": false
+  },
+  "inventory_delta": {
+    "executable_methodology": 0,
+    "structural_invalidity_producers": 0,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "prior_review_manifest_count": 34,
+  "prior_review_manifests_modified": false
+}
