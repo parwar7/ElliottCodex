@@ -137,6 +137,23 @@ from .recursive_child_family_evaluation import (
     evaluate_recursive_child_family_hypotheses,
     validate_recursive_child_family_evaluation_result,
 )
+from .endpoint_path_evidence import (
+    ENDPOINT_AUTHORITY_CLASS,
+    ORTHODOX_ELLIOTT_ENDPOINT_AUTHORITY,
+    PATH_EXTREME_IS_NOT_ORTHODOX_ENDPOINT,
+    ROLE_CLASSIFICATION,
+    ComponentEndpointState,
+    EndpointPathEvidenceError,
+    EndpointPathEvidenceLimitExceeded,
+    EndpointPathEvidenceRequest,
+    EndpointPathEvidenceResult,
+    FamilyComponentEndpointEvidence,
+    FamilyComponentPathEvidence,
+    FamilyComponentRoleBinding,
+    ObservedComponentDirection,
+    build_endpoint_path_evidence,
+    validate_endpoint_path_evidence_result,
+)
 
 __all__ = [
     "ARTIFACT_CLASSIFICATION",
@@ -262,4 +279,19 @@ __all__ = [
     "RecursiveChildFamilyEvaluationResult",
     "evaluate_recursive_child_family_hypotheses",
     "validate_recursive_child_family_evaluation_result",
+    "ENDPOINT_AUTHORITY_CLASS",
+    "ORTHODOX_ELLIOTT_ENDPOINT_AUTHORITY",
+    "PATH_EXTREME_IS_NOT_ORTHODOX_ENDPOINT",
+    "ROLE_CLASSIFICATION",
+    "ComponentEndpointState",
+    "EndpointPathEvidenceError",
+    "EndpointPathEvidenceLimitExceeded",
+    "EndpointPathEvidenceRequest",
+    "EndpointPathEvidenceResult",
+    "FamilyComponentEndpointEvidence",
+    "FamilyComponentPathEvidence",
+    "FamilyComponentRoleBinding",
+    "ObservedComponentDirection",
+    "build_endpoint_path_evidence",
+    "validate_endpoint_path_evidence_result",
 ]
