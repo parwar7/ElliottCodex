@@ -1,0 +1,16 @@
+{
+  "attach_family_hypothesis_name": "SOURCE_DERIVED_EVALUATION_SCOPE",
+  "map_three_segments_to_single_zigzag_or_flat_evaluation": "SOURCE_DERIVED_EVALUATION_SCOPE",
+  "map_five_segments_to_triangle_or_ending_diagonal_evaluation": "SOURCE_DERIVED_EVALUATION_SCOPE",
+  "construct_neutral_child_subjects": "PURE_ANALYSIS_INFRASTRUCTURE",
+  "treat_each_segment_as_proposed_direct_child": "PROJECT_OPERATIONAL_POLICY",
+  "construct_ordered_child_binding": "PURE_ANALYSIS_INFRASTRUCTURE",
+  "construct_exact_existing_cardinality_fact": "SOURCE_DERIVED_EVALUATION_SCOPE",
+  "execute_existing_cardinality_behavior": "EXISTING_METHOD_EXECUTION",
+  "fan_out_all_compatible_allowed_hypotheses": "PROJECT_OPERATIONAL_POLICY",
+  "assign_elliott_slot_labels": "NOT_IMPLEMENTED",
+  "select_one_family": "PROHIBITED",
+  "rank_family_hypotheses": "PROHIBITED",
+  "normal_impulse_evaluation": "UNRESOLVED_INCOMPLETE_EXECUTABLE_METHODOLOGY",
+  "WXY_or_WXYXZ_evaluation": "METHODOLOGY_EXECUTION_UNAVAILABLE"
+}

@@ -1,0 +1,15 @@
+{
+  "fanout": {
+    "THREE_SEGMENT_HYPOTHESIS": ["SINGLE_ZIGZAG", "FLAT"],
+    "FIVE_SEGMENT_HYPOTHESIS": ["TRIANGLE", "ENDING_DIAGONAL"]
+  },
+  "fanout_semantics": "evaluate each compatible caller-allowed family independently; no selection or rank",
+  "segment_semantics": "each adjacent selected-pivot pair supplies one proposed direct child for the limited evaluation",
+  "child_classification": "CALLER_OR_GENERATOR_SUPPLIED_CHILD_HYPOTHESIS",
+  "child_is_validated_wave": false,
+  "binding_is_family_proof": false,
+  "labels_exposed": ["child_1", "child_2", "child_3", "child_4", "child_5"],
+  "elliott_labels_exposed": false,
+  "dataset_start_origin_semantics": false,
+  "geometric_pivot_endpoint_authority": false
+}

@@ -1,0 +1,15 @@
+{
+  "implementation_gate": "BOUNDED_FAMILY_HYPOTHESIS_BRIDGE_SAFE",
+  "module": "src/elliott_runtime/analysis/family_hypotheses.py",
+  "input": "exact issued CompetingCandidateSetResult",
+  "allowed_scope": "exact caller-supplied tuple of supported FamilyEvaluationKind",
+  "public_types": ["FamilyEvaluationKind", "ElliottFamilyEvaluationHypothesis", "FamilyHypothesisBridgeRequest", "CandidateFamilyEvaluation", "FamilyHypothesisBridgeResult", "FamilyHypothesisDiagnostic", "FamilyHypothesisDiagnosticCode"],
+  "public_function": "build_family_evaluation_hypotheses",
+  "hypothesis_only": true,
+  "family_validity_authority": false,
+  "completion_authority": false,
+  "degree_authority": false,
+  "ranking_authority": false,
+  "one_candidate_level_only": true,
+  "cross_timeframe_confirmation": false
+}

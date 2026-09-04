@@ -1,0 +1,12 @@
+{
+  "chain": ["GeneratedCandidateHypothesis", "ElliottFamilyEvaluationHypothesis", "ManualDirectChildCardinalityFact", "BoundedManualChartAnalysisRequest", "MethodologyKernel.analyze_bounded_manual_chart", "BoundedManualChartAnalysisResult"],
+  "manual_facts_per_hypothesis": 1,
+  "direct_validator_calls_in_runtime_bridge": 0,
+  "automatic_P003": false,
+  "automatic_P004": false,
+  "automatic_P023": false,
+  "automatic_degree_facts": false,
+  "certificate_issuance_by_bridge": false,
+  "downstream_request_result_identity_retained": true,
+  "neutral_candidate_identity_retained": true
+}

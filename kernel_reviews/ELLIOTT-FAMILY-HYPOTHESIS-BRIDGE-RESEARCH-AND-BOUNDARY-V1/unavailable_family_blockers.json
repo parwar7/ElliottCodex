@@ -1,0 +1,19 @@
+{
+  "NORMAL_IMPULSE": {
+    "status": "DEFERRED",
+    "reason": "P004 alone is not complete impulse validation; P005 is frozen/unresolved and P006 is frozen/unresolved/conflicted. No automatic Wave-1-origin or Wave-2-end role inference is authorized."
+  },
+  "LEADING_DIAGONAL": {
+    "status": "METHODOLOGY_EXECUTION_UNAVAILABLE",
+    "reason": "Protected source describes the family but no exact current executable family behavior exists."
+  },
+  "WXY": {
+    "status": "METHODOLOGY_EXECUTION_UNAVAILABLE",
+    "reason": "Protected source describes combinations and corrective X, but no exact current executable WXY family behavior exists."
+  },
+  "WXYXZ": {
+    "status": "METHODOLOGY_EXECUTION_UNAVAILABLE",
+    "reason": "Protected source describes triple three, but no exact current executable WXYXZ family behavior exists."
+  },
+  "source_derived_base_case": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+}

@@ -1,0 +1,14 @@
+{
+  "previous_baseline": "COMPETING-CANDIDATE-SET-CONTAINER-V1",
+  "previous_baseline_manifest_sha256": "c70233f206c09cbdb62272275e295cad291182ba9c749fb6717f361cbbea90fe",
+  "previous_git_head": "a8a9ccaad582972c1622ba1dc7f8dab38ec021fb",
+  "delta": [
+    "expose fail-closed competing-set result validation",
+    "add bounded family evaluate-as fan-out",
+    "construct neutral proposed-child identities and bindings",
+    "delegate exact cardinality facts through the existing bounded methodology API",
+    "retain candidate, request, result, and provenance identities"
+  ],
+  "methodology_delta": 0,
+  "prior_baseline_artifacts_modified": false
+}

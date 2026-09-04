@@ -1,0 +1,19 @@
+{
+  "focused_family_bridge": {"run": 33, "passed": 33, "failed": 0},
+  "focused_competing_set": {"run": 25, "passed": 25, "failed": 0},
+  "focused_candidate_generation": {"run": 28, "passed": 28, "failed": 0},
+  "complete_suite": {"run": 793, "passed": 793, "failed": 0},
+  "compileall": "PASS",
+  "git_diff_check": "PASS",
+  "coverage": [
+    "exact input identity and mutation rejection",
+    "source-bounded fan-out",
+    "neutral proposed child identity and order",
+    "one exact existing cardinality fact and bounded delegation",
+    "multiple-family coexistence without rank",
+    "prior genuine invalidity retained in neutral-candidate ancestry",
+    "no certificate or producer issuance",
+    "no impulse, combination, degree, indicator, forecast, or trading behavior",
+    "pickle, mapping, duck, subclass, dynamic-code, network, and process boundaries"
+  ]
+}

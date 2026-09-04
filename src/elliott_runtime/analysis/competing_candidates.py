@@ -394,6 +394,16 @@ def build_competing_candidate_set(
     return result._validated()
 
 
+def validate_competing_candidate_set_result(
+    result: object,
+) -> CompetingCandidateSetResult:
+    """Return one exact live issued and unchanged competing-set result."""
+
+    if type(result) is not CompetingCandidateSetResult:
+        _fail("Expected one exact CompetingCandidateSetResult.")
+    return result._validated()
+
+
 __all__ = [
     "ACTIVE_IS_NOT_VALIDITY",
     "ARTIFACT_CLASSIFICATION",
@@ -409,4 +419,5 @@ __all__ = [
     "CompetingCandidateSetRequest",
     "CompetingCandidateSetResult",
     "build_competing_candidate_set",
+    "validate_competing_candidate_set_result",
 ]

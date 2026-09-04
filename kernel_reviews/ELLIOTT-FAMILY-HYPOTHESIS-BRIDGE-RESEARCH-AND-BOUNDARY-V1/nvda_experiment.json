@@ -1,0 +1,15 @@
+{
+  "classification": "READ_ONLY_PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "provider": "YAHOO_FINANCE_CHART",
+  "symbol": "NVDA",
+  "retrieved_at_stage_date": "2026-09-04",
+  "external_data_warning": "Yahoo output is mutable external data and may change on later retrieval.",
+  "candidate_config": {"max_pivots_considered": 8, "max_candidate_span_pivots": 6, "max_skipped_pivots": 1, "max_candidates_generated": 100, "pivot_window": "LATEST"},
+  "results": {
+    "1mo": {"neutral_candidates": 20, "family_hypotheses": 40, "SINGLE_ZIGZAG": 17, "FLAT": 17, "TRIANGLE": 3, "ENDING_DIAGONAL": 3, "structurally_invalid": 0, "unresolved": 0, "current_supplied_scope_reviewed": 40, "source_sha256": "33e1d3b2a0a43bdebcfb9f0b40d254323813f2702485b1ea8c5b0f00678ff0f2"},
+    "1wk": {"neutral_candidates": 20, "family_hypotheses": 40, "SINGLE_ZIGZAG": 17, "FLAT": 17, "TRIANGLE": 3, "ENDING_DIAGONAL": 3, "structurally_invalid": 0, "unresolved": 0, "current_supplied_scope_reviewed": 40, "source_sha256": "ad68556e18ff97cfe414863d674d8e337d555965ea669c2ceb01bad7129dcdcc"},
+    "1d": {"neutral_candidates": 20, "family_hypotheses": 40, "SINGLE_ZIGZAG": 17, "FLAT": 17, "TRIANGLE": 3, "ENDING_DIAGONAL": 3, "structurally_invalid": 0, "unresolved": 0, "current_supplied_scope_reviewed": 40, "source_sha256": "61b3cecaa59aead0ff715c1727a90f91ae5b3682e5fddd5200806400cbf956bc"}
+  },
+  "unavailable_families": ["NORMAL_IMPULSE", "LEADING_DIAGONAL", "WXY", "WXYXZ"],
+  "interpretation": "Each result means only that the hypothesis was evaluated under its exact direct-child cardinality behavior and the current supplied cardinality scope was reviewed. It does not say NVDA is in any listed family."
+}

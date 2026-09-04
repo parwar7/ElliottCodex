@@ -1,0 +1,49 @@
+{
+  "baseline_id": "ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1",
+  "created_date": "2026-09-04",
+  "classification": "ADDITIVE_LOGICAL_RUNTIME_BASELINE",
+  "implementation_gate": "BOUNDED_FAMILY_HYPOTHESIS_BRIDGE_SAFE",
+  "prior_git_head": "a8a9ccaad582972c1622ba1dc7f8dab38ec021fb",
+  "protected_integrity": {
+    "brain_version": "0.1.0",
+    "brain_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "brain_entries": 30,
+    "brain_mismatches": 0,
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "source_entries": 21,
+    "source_mismatches": 0
+  },
+  "inventories": {
+    "executable_methodology": 10,
+    "structural_invalidity_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p005": "UNCHANGED_FROZEN_UNRESOLVED",
+    "p006": "UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
+    "source_derived_base_case": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_analyze": "NOT_IMPLEMENTED"
+  },
+  "implementation_artifacts": [
+    {"path": "src/elliott_runtime/analysis/__init__.py", "byte_length": 3503, "sha256": "bd2e4d7f2edea3e40728e554b8ed0564c78ef4fd2b5242e6cf79092a91ec70e6"},
+    {"path": "src/elliott_runtime/analysis/competing_candidates.py", "byte_length": 16417, "sha256": "1248b3b4616b270ed6a909f69cdbe675927c29f254afb7484f53fe470a299691"},
+    {"path": "src/elliott_runtime/analysis/family_hypotheses.py", "byte_length": 26737, "sha256": "ffecdbd70459261d83aed252df5942a4b743cbd7b56fee38f6f12fa481f573b8"},
+    {"path": "tests/test_family_hypotheses.py", "byte_length": 21888, "sha256": "1626e854cf572c0b00d76fe7cc1d5172903cb30a7807e2c4810439b1f2d98dfd"}
+  ],
+  "baseline_artifacts": [
+    {"path": "adversarial_audit.json", "byte_length": 682, "sha256": "e4561b9f5cf6ed91ea46f5123bb3e69d43b436c8c0a3278da827126759c52ab6"},
+    {"path": "authority_classification.json", "byte_length": 992, "sha256": "9ce8e482e5b6a5e08b41ba65d8a99216986bb4f435fa8c0eca85af6a8ad93783"},
+    {"path": "BASELINE_README.md", "byte_length": 1005, "sha256": "e89849affa5696d7270ce03e3c342ee471e6f50740212e4d08a13694298aa331"},
+    {"path": "bridge_contract.json", "byte_length": 805, "sha256": "410a37fe753903f57dc432a7c8c072f9933401508fffd47d7c8edc0e139d41c8"},
+    {"path": "current_family_executable_authority.json", "byte_length": 1067, "sha256": "b00bfeb493eafafc7ec0486a62654480e8776aca0b1636c3b9a9f1ac84d622e3"},
+    {"path": "fanout_child_label_decisions.json", "byte_length": 723, "sha256": "027eeb08096f2a30637fe5dea9728b2d210a73256708055bafb9baa09ccfbc0b"},
+    {"path": "known_limitations_and_next_stage.json", "byte_length": 707, "sha256": "1ff10fbdeda30a6cf676c9b86c3e0e9b1f6c80795d74a3a0d419c99f1f7fa006"},
+    {"path": "nvda_experiment.json", "byte_length": 1678, "sha256": "00a0544e700d20d00549265f39dc4b5922893ed962cba52cca16dbad680e6bd4"},
+    {"path": "prior_baseline_delta.json", "byte_length": 650, "sha256": "c77f70f4bd3ef9866dc0b030cb59c05660acb73480fc8fb297bcd2d0b9acf221"},
+    {"path": "source_findings.json", "byte_length": 4274, "sha256": "5b50f41dcd6661117145c57ce2b853f16dc4760fc8d876b946744a6244f2e978"},
+    {"path": "test_results.json", "byte_length": 870, "sha256": "1d13ed1d6e57ccfe6657c5012f3c7bdd00fc8f3084382e74d00946bc212a7be7"},
+    {"path": "unavailable_family_blockers.json", "byte_length": 905, "sha256": "6ced6b321b5c8af8f31c352d3bdc96ad59bb4ef2809dc3e49342830067780f9b"},
+    {"path": "validator_delegation.json", "byte_length": 590, "sha256": "a3092682c9d54cab7a290fea68f099f597f79b3a0d658b13944a167a312e64e0"}
+  ],
+  "tests": {"focused_family_bridge": 33, "complete_suite": 793, "failures": 0},
+  "next_stage": "FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1"
+}

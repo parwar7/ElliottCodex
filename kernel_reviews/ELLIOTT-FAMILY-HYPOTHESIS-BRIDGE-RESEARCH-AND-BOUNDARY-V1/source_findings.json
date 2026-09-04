@@ -1,0 +1,89 @@
+{
+  "source_policy": "Only protected Volumes 1-10/transcripts and the approved Frost/Prechter source may authorize Elliott claims; unsupported claims remain unresolved.",
+  "families": [
+    {
+      "family": "NORMAL_IMPULSE",
+      "classification": "SOURCE_RULE_AND_SOURCE_DEFINITION",
+      "direct_child_cardinality": 5,
+      "supported_structure": "Five-wave impulse; P004, P005 and P006 are pattern-scoped rules.",
+      "currently_executable": ["P004_NORMAL_IMPULSE_WAVE2_ORIGIN"],
+      "currently_non_executable": ["P005_WAVE3_NOT_SHORTEST", "P006_NORMAL_IMPULSE_WAVE4_NON_OVERLAP", "complete impulse family validation"],
+      "decision": "DEFER_FROM_V1"
+    },
+    {
+      "family": "LEADING_DIAGONAL",
+      "classification": "SOURCE_DEFINITION_AND_SOURCE_OBSERVATION",
+      "direct_child_cardinality": 5,
+      "supported_structure": "Protected Pattern Brain keeps leading diagonal distinct and records 5-3-5-3-5 plus observed 3-3-3-3-3 cases.",
+      "currently_executable": [],
+      "decision": "METHODOLOGY_EXECUTION_UNAVAILABLE"
+    },
+    {
+      "family": "ENDING_DIAGONAL",
+      "classification": "SOURCE_DEFINITION",
+      "direct_child_cardinality": 5,
+      "supported_structure": "Five legs; protected source also describes subdivision, terminal-position, overlap, and geometry constraints not executed here.",
+      "currently_executable": ["ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY"],
+      "decision": "CARDINALITY_EVALUATION_SCOPE_ONLY"
+    },
+    {
+      "family": "SINGLE_ZIGZAG",
+      "classification": "SOURCE_DEFINITION",
+      "principle_id": "P007",
+      "direct_child_cardinality": 3,
+      "supported_structure": "A-B-C with 5-3-5 internals.",
+      "currently_executable": ["P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY"],
+      "currently_non_executable": ["5-3-5 internal-family proof", "position", "completion"],
+      "decision": "CARDINALITY_EVALUATION_SCOPE_ONLY"
+    },
+    {
+      "family": "FLAT",
+      "classification": "SOURCE_DEFINITION",
+      "principle_id": "P008",
+      "direct_child_cardinality": 3,
+      "supported_structure": "A-B-C with 3-3-5 internals; subtype and price geometry require additional semantics.",
+      "currently_executable": ["P008_FLAT_DIRECT_CHILD_CARDINALITY"],
+      "currently_non_executable": ["3-3-5 internal-family proof", "subtype", "geometry", "completion"],
+      "decision": "CARDINALITY_EVALUATION_SCOPE_ONLY"
+    },
+    {
+      "family": "TRIANGLE",
+      "classification": "SOURCE_DEFINITION",
+      "principle_id": "P009",
+      "direct_child_cardinality": 5,
+      "supported_structure": "A-B-C-D-E; each leg corrective; position and geometry matter.",
+      "currently_executable": ["P009_TRIANGLE_DIRECT_CHILD_CARDINALITY"],
+      "currently_non_executable": ["corrective internal-family proof", "geometry", "position", "completion"],
+      "decision": "CARDINALITY_EVALUATION_SCOPE_ONLY"
+    },
+    {
+      "family": "WXY_COMBINATION",
+      "classification": "SOURCE_DEFINITION",
+      "direct_child_cardinality": 3,
+      "supported_structure": "Combination joins corrective patterns with corrective X and is distinct from double zigzag.",
+      "currently_executable": [],
+      "decision": "METHODOLOGY_EXECUTION_UNAVAILABLE"
+    },
+    {
+      "family": "WXYXZ_TRIPLE_THREE",
+      "classification": "SOURCE_DEFINITION",
+      "direct_child_cardinality": 5,
+      "supported_structure": "W-X-Y-X-Z with corrective components.",
+      "currently_executable": [],
+      "decision": "METHODOLOGY_EXECUTION_UNAVAILABLE"
+    }
+  ],
+  "protected_references": [
+    "Brain_LOCKED/docs/elliott/SOURCE_POLICY.md",
+    "Brain_LOCKED/docs/elliott/MASTER_PROTOCOL.md#steps-4-6",
+    "Brain_LOCKED/docs/elliott/PATTERN_BRAIN.md",
+    "Brain_LOCKED/docs/elliott/DEGREE_RECURSION_BRAIN.md",
+    "Brain_LOCKED/docs/elliott/SOURCE_EVIDENCE_MAP.json#P004-P010",
+    "Sources_LOCKED/volume_03/volume_03.srt@00:13:18.990-00:13:30.710",
+    "Sources_LOCKED/volume_04/volume_04@00:01:56.790-00:02:26.850",
+    "Sources_LOCKED/volume_04/volume_04@00:14:43.830-00:15:30.450",
+    "Sources_LOCKED/volume_04/volume_04@00:25:03.650-00:25:22.670",
+    "Sources_LOCKED/volume_04/volume_04@00:28:39.220-00:28:48.560",
+    "Sources_LOCKED/volume_05/volume_05.srt@00:09:58.980-00:10:29.030"
+  ]
+}

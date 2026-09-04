@@ -1,0 +1,20 @@
+{
+  "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY": {
+    "establishes": "exact single-zigzag direct-child cardinality only",
+    "does_not_establish": ["5-3-5 internals", "position", "degree", "completion", "full zigzag validity"]
+  },
+  "P008_FLAT_DIRECT_CHILD_CARDINALITY": {
+    "establishes": "exact flat direct-child cardinality only",
+    "does_not_establish": ["3-3-5 internals", "flat subtype", "geometry", "degree", "completion", "full flat validity"]
+  },
+  "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY": {
+    "establishes": "exact triangle direct-child cardinality only",
+    "does_not_establish": ["corrective internals", "contraction or expansion", "position", "degree", "completion", "full triangle validity"]
+  },
+  "ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY": {
+    "establishes": "exact ending-diagonal direct-child cardinality only",
+    "does_not_establish": ["internal subdivisions", "overlap", "geometry", "position", "degree", "completion", "full ending-diagonal validity"]
+  },
+  "validated_family_producers": 0,
+  "validated_family_issuances": 0
+}
