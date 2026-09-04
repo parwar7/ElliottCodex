@@ -154,6 +154,22 @@ from .endpoint_path_evidence import (
     build_endpoint_path_evidence,
     validate_endpoint_path_evidence_result,
 )
+from .flat_subtype_hypotheses import (
+    GENERIC_FLAT_IS_NOT_INVALIDATED_BY_SUBTYPE_RESULTS,
+    HYPOTHESIS_BOUND_ENDPOINT_IS_NOT_ORTHODOX_ENDPOINT,
+    IRREGULAR_EXPANDED_ALIAS_DECISION,
+    SUBTYPE_HYPOTHESIS_IS_NOT_SUBTYPE_CLASSIFICATION,
+    TAXONOMY_COMPLETENESS,
+    FlatSubtypeEvaluationHypothesis,
+    FlatSubtypeEvaluationKind,
+    FlatSubtypeHypothesisError,
+    FlatSubtypeHypothesisLimitExceeded,
+    FlatSubtypeHypothesisRequest,
+    FlatSubtypeHypothesisResult,
+    FlatSubtypeSourceKind,
+    build_flat_subtype_hypotheses,
+    validate_flat_subtype_hypothesis_result,
+)
 
 __all__ = [
     "ARTIFACT_CLASSIFICATION",
@@ -294,4 +310,18 @@ __all__ = [
     "ObservedComponentDirection",
     "build_endpoint_path_evidence",
     "validate_endpoint_path_evidence_result",
+    "GENERIC_FLAT_IS_NOT_INVALIDATED_BY_SUBTYPE_RESULTS",
+    "HYPOTHESIS_BOUND_ENDPOINT_IS_NOT_ORTHODOX_ENDPOINT",
+    "IRREGULAR_EXPANDED_ALIAS_DECISION",
+    "SUBTYPE_HYPOTHESIS_IS_NOT_SUBTYPE_CLASSIFICATION",
+    "TAXONOMY_COMPLETENESS",
+    "FlatSubtypeEvaluationHypothesis",
+    "FlatSubtypeEvaluationKind",
+    "FlatSubtypeHypothesisError",
+    "FlatSubtypeHypothesisLimitExceeded",
+    "FlatSubtypeHypothesisRequest",
+    "FlatSubtypeHypothesisResult",
+    "FlatSubtypeSourceKind",
+    "build_flat_subtype_hypotheses",
+    "validate_flat_subtype_hypothesis_result",
 ]

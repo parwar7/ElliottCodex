@@ -1,0 +1,15 @@
+{
+  "implementation_gate":"FLAT_SUBTYPE_HYPOTHESIS_BOUNDARY_SAFE",
+  "classification":"PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "module":"src/elliott_runtime/analysis/flat_subtype_hypotheses.py",
+  "public_types":["FlatSubtypeEvaluationKind","FlatSubtypeSourceKind","FlatSubtypeHypothesisRequest","FlatSubtypeEvaluationHypothesis","FlatSubtypeHypothesisResult","FlatSubtypeHypothesisError","FlatSubtypeHypothesisLimitExceeded"],
+  "public_functions":["build_flat_subtype_hypotheses","validate_flat_subtype_hypothesis_result"],
+  "inputs":["exact FamilyHypothesisBridgeResult or exact RecursiveChildFamilyEvaluationResult","one exact EndpointPathEvidenceResult per exact FLAT hypothesis","caller-supplied operational caps"],
+  "fanout_order":["REGULAR_FLAT","EXPANDED_FLAT","RUNNING_FLAT"],
+  "alias_transport":{"EXPANDED_FLAT":["IRREGULAR_FLAT"]},
+  "hard_endpoint_rules_implemented":0,
+  "new_methodology_behaviors":0,
+  "new_structural_invalidity_producers":0,
+  "all_authority_flags_false":["subtype_classification_authority","family_validity_authority","wave_validity_authority","completion_authority","degree_authority","ranking_authority"],
+  "security":["exact type checks","identity binding","weak issuance registries","mutation fail closed","pickle rejected","preflight resource caps","no partial results"]
+}

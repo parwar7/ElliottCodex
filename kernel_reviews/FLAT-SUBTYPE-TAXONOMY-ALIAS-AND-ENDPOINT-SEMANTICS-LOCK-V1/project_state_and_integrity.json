@@ -1,0 +1,10 @@
+{
+  "prior_git_head":"10cee7a7c6ec1c42c90e294e3206319e52fab0d9",
+  "prior_flat_baseline_manifest_sha256":"e286780d4c4c1c226870dae1cb953cd559b73972435cfc6437a73a5987ac0bca",
+  "brain":{"version":"0.1.0","manifest_sha256":"81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a","entries":30,"mismatches":0,"modified":false},
+  "sources":{"manifest_sha256":"ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089","entries":21,"mismatches":0,"modified":false},
+  "inventories":{"executable_methodology":10,"structural_invalidity_producers":7,"validated_family_producers":0,"validated_family_issuances":0},
+  "frozen_states":{"P005":"UNCHANGED_FROZEN_UNRESOLVED","P006":"UNCHANGED_FROZEN_UNRESOLVED_CONFLICT","base_case":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy_analyze":"NOT_IMPLEMENTED"},
+  "inventory_delta":{"executable_methodology":0,"structural_invalidity_producers":0,"validated_family_producers":0,"validated_family_issuances":0},
+  "historical_baselines_modified":false
+}

@@ -1,0 +1,19 @@
+{
+  "focused_tests":{"command":"python -B -m unittest discover -s tests -p test_flat_subtype_hypotheses.py","run":18,"passed":18,"failed":0},
+  "full_tests":{"command":"python -B -m unittest discover -s tests -p test_*.py","run":890,"passed":890,"failed":0},
+  "adversarial_audit":{
+    "subtype_hypothesis_is_not_subtype_classification":"PASS",
+    "generic_flat_not_erased":"PASS",
+    "irregular_not_distinct_from_expanded":"PASS",
+    "alias_does_not_broaden_semantics":"PASS",
+    "no_hard_rule_from_approximate_wording":"PASS",
+    "no_endpoint_authority_promotion":"PASS",
+    "no_developing_geometry_elimination":"PASS",
+    "no_family_cross_promotion":"PASS",
+    "no_closed_world_inference":"PASS",
+    "no_ranking_confidence_or_probability":"PASS",
+    "no_family_certificate":"PASS",
+    "no_methodology_hidden_in_runtime":"PASS",
+    "no_indicators_traps_fundamentals_forecast_or_trading":"PASS"
+  }
+}

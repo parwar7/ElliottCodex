@@ -1,0 +1,20 @@
+{
+  "scope":"exact ElliottFamilyEvaluationHypothesis with exact EndpointPathEvidenceResult",
+  "roles":{
+    "A_START":"first selected candidate pivot; proposed start boundary of component A",
+    "A_END":"end boundary pivot of proposed component A",
+    "B_END":"end boundary pivot of proposed component B",
+    "C_END":"end boundary pivot of proposed component C"
+  },
+  "identity_binding":"exact object identity retained",
+  "authority_class":"HYPOTHESIS_BOUND_COMPONENT_ENDPOINT",
+  "orthodox_elliott_endpoint_authority":false,
+  "geometric_pivot_global_wave_endpoint_authority":false,
+  "direction_basis":"factual comparison of exact A_START and A_END observed prices",
+  "direction_is_degree":false,
+  "whole_path_substitution":false,
+  "close_high_low_substitution":false,
+  "developing_endpoint_policy":"retained explicitly; no hard subtype invalidity issued",
+  "equality_policy":"UNRESOLVED_FOR_HARD_RULES",
+  "tolerance_policy":"NONE_INVENTED"
+}

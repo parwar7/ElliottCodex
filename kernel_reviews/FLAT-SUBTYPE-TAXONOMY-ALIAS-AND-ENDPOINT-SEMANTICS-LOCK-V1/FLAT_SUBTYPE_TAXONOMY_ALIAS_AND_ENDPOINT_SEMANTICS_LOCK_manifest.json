@@ -1,0 +1,33 @@
+{
+  "baseline_id":"FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1",
+  "created_date":"2026-09-04",
+  "classification":"ADDITIVE_LOGICAL_IMPLEMENTATION_BASELINE",
+  "implementation_gate":"FLAT_SUBTYPE_HYPOTHESIS_BOUNDARY_SAFE",
+  "prior_git_head":"10cee7a7c6ec1c42c90e294e3206319e52fab0d9",
+  "protected_integrity":{"brain_version":"0.1.0","brain_manifest_sha256":"81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a","brain_entries":30,"brain_mismatches":0,"source_manifest_sha256":"ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089","source_entries":21,"source_mismatches":0},
+  "prior_flat_baseline_manifest_sha256":"e286780d4c4c1c226870dae1cb953cd559b73972435cfc6437a73a5987ac0bca",
+  "taxonomy":{"known_subtypes":["REGULAR_FLAT","EXPANDED_FLAT","RUNNING_FLAT"],"completeness":"KNOWN_SUBTYPES_NON_EXHAUSTIVE","alias_decision":"IRREGULAR_IS_HISTORICAL_ALIAS_OF_EXPANDED"},
+  "implementation":{"performed":true,"hard_rules_added":0,"methodology_inventory_delta":0,"structural_producer_delta":0,"validated_family_producer_delta":0,"validated_family_issuance_delta":0},
+  "implementation_files":[
+    {"path":"src/elliott_runtime/analysis/__init__.py","byte_length":12334,"sha256":"489367667bbc87d038092187a18c0b7deae81e8d36b5377a9809926855e5c3ba"},
+    {"path":"src/elliott_runtime/analysis/flat_subtype_hypotheses.py","byte_length":19810,"sha256":"24e8daab47669e0b354942cdec3e7a1f1283c77e5ca3baf3a875fefc2aa8284c"},
+    {"path":"tests/test_flat_subtype_hypotheses.py","byte_length":13570,"sha256":"26e2c93f520ef546a60bc99b8a05d29dbedb5e9894b86de59bc62d9dcd48795b"}
+  ],
+  "baseline_artifacts":[
+    {"path":"BASELINE_README.md","byte_length":1776,"sha256":"0fff158e978109792e119791afe26b93ce6a9a685c291bd0e96fc50ea47c3d0b"},
+    {"path":"endpoint_semantics_lock.json","byte_length":957,"sha256":"2fb783b5fc57d7ed08bcfd36f87f0819a242ef5c7306a0884f4f12f1e48e7969"},
+    {"path":"hard_rule_freeze_and_next_stage.json","byte_length":779,"sha256":"03d80050094f08753b1a19519f7f3418943f5fb7f15de741185548c204e1103e"},
+    {"path":"implementation_gate_and_api.json","byte_length":1313,"sha256":"611484ddaccdeb03f32f20ceecc65df63d4efe25b4074529f98be0cba4f1a4ff"},
+    {"path":"nvda_experiment.json","byte_length":2672,"sha256":"fdaaf0b62f2b231071e030e57da4eefc6d53a2a93a95f99f136183b31a2a51bc"},
+    {"path":"project_state_and_integrity.json","byte_length":1002,"sha256":"9dbf8e0fa7dc4adaac3268ac0ce9fe8c95ae18023002a40445014c626262360b"},
+    {"path":"protected_source_findings.json","byte_length":2723,"sha256":"e8c43bed91c9a2864a35bbb6315067e0370b57fd684a72923b6952865ffc83e5"},
+    {"path":"taxonomy_alias_lock.json","byte_length":629,"sha256":"939cf4fbec5a26f2a10fbf34d73ba2b65d43c53172de6c598b7c0c3254a2364c"},
+    {"path":"tests_and_adversarial_audit.json","byte_length":915,"sha256":"142c5760729b79943209d8ba17d5fbce1e4c6eb097311ee5735771303e6ec880"}
+  ],
+  "tests":{"focused":18,"focused_passes":18,"full":890,"full_passes":890,"failures":0,"errors":0},
+  "nvda_experiment":{"parent_scopes":["Monthly","Weekly","Daily"],"child_scopes":["Weekly","Daily","1H"],"validated_flat_subtypes":0,"ranking":"NONE"},
+  "inventories":{"executable_methodology":10,"structural_invalidity_producers":7,"validated_family_producers":0,"validated_family_issuances":0,"p005":"UNCHANGED_FROZEN_UNRESOLVED","p006":"UNCHANGED_FROZEN_UNRESOLVED_CONFLICT","source_derived_base_case":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy_analyze":"NOT_IMPLEMENTED"},
+  "historical_baselines_modified":false,
+  "next_stage":"FLAT-SUBTYPE-ENDPOINT-HARD-RULE-SEMANTICS-LOCK-V2",
+  "protection_status":"Development logical baseline only; no physical immutability or subtype, family, endpoint, degree, ranking, forecast, or trading authority is claimed."
+}

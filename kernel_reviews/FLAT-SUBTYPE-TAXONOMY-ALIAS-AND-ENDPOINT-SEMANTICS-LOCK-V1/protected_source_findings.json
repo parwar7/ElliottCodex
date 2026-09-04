@@ -1,0 +1,14 @@
+{
+  "source_lock":["Brain_LOCKED approved methodology","Sources_LOCKED protected Volumes 1-10 and transcripts","Sources_LOCKED approved Frost/Prechter book"],
+  "findings":[
+    {"id":"FLAT_GENERIC_335","classification":"SOURCE_DEFINITION","meaning":"A Flat is an A-B-C 3-3-5 corrective family; this definition does not classify a subtype.","refs":["docs/elliott/PATTERN_BRAIN.md#G-flat-family","video_04/transcript.txt#00:14:43-00:15:30","book_frost_prechter#page-46"]},
+    {"id":"REGULAR_FLAT_SHAPE","classification":"SOURCE_DEFINITION","meaning":"Known Regular Flat shape: B ends about/near A start and C ends near or slightly beyond A end.","refs":["docs/elliott/PATTERN_BRAIN.md#G-flat-family","video_04/transcript.txt#00:14:43-00:15:30","book_frost_prechter#pages-45-46"],"executable_hard_rule":false,"blockers":["approximate magnitude unresolved","equality unresolved","completion/developing scope unresolved"]},
+    {"id":"EXPANDED_FLAT_SHAPE","classification":"SOURCE_DEFINITION","meaning":"Known Expanded Flat shape: B ends beyond A start and C ends more substantially beyond A end.","refs":["docs/elliott/PATTERN_BRAIN.md#G-flat-family","video_04/transcript.txt#00:18:50-00:20:41","book_frost_prechter#page-46"],"executable_hard_rule":false,"blockers":["substantial magnitude unresolved","equality unresolved","endpoint/path usage not uniformly explicit","completion/developing scope unresolved"]},
+    {"id":"RUNNING_FLAT_SHAPE","classification":"SOURCE_DEFINITION","meaning":"Known rare Running Flat shape: B ends beyond A start while C falls short of the A-end level.","refs":["docs/elliott/PATTERN_BRAIN.md#G-flat-family","video_10/transcript.txt#00:13:00.200-00:13:15.120","book_frost_prechter#page-48"],"executable_hard_rule":false,"blockers":["equality unresolved","rare completion/caution context","endpoint/path usage not uniformly explicit","developing scope unresolved"]},
+    {"id":"IRREGULAR_EXPANDED_ALIAS","classification":"SOURCE_DEFINITION","meaning":"Irregular Flat is Elliott's historical name for the variation Frost/Prechter calls Expanded Flat.","refs":["video_04/transcript.txt#00:18:50-00:19:55","book_frost_prechter#page-46"]},
+    {"id":"FLAT_C_BEYOND_A_GENERAL_EXPECTATION","classification":"SOURCE_GUIDELINE","meaning":"Look for C beyond A except the rare running case; this cannot create structural invalidity.","refs":["video_10/transcript.txt#00:13:00.200-00:13:15.120"]},
+    {"id":"FLAT_RIGHT_LOOK_CONTEXT","classification":"SOURCE_GUIDELINE","meaning":"Right-look discussion remains nonfatal evidence context and is not automated here.","refs":["video_10/transcript.txt#00:18:09.640-00:18:58"]}
+  ],
+  "external_elliott_sources_used":false,
+  "model_memory_rules_used":false
+}

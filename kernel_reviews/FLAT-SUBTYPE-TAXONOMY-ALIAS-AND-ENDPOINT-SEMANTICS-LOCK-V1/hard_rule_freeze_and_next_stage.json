@@ -1,0 +1,8 @@
+{
+  "hard_rule_decision":"NO_HARD_FLAT_SUBTYPE_ENDPOINT_RULE_IMPLEMENTED",
+  "frozen_source_manifest_sha256":"ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+  "blocked_semantics":["approximate/near/slightly/substantially/well-beyond magnitude","equality at A start and A end","completed versus developing endpoint scope","endpoint versus extreme-during-path basis","generic Flat versus subtype-specific applicability"],
+  "forbidden_until_separate_approval":["structural invalidity certificate","hard subtype elimination","subtype classification","closed-world Flat inference","ranking or confidence"],
+  "next_stage":"FLAT-SUBTYPE-ENDPOINT-HARD-RULE-SEMANTICS-LOCK-V2",
+  "next_stage_action":"READ_ONLY_SOURCE_SEMANTICS_LOCK_REQUIRED_BEFORE_ANY_HARD_RULE"
+}

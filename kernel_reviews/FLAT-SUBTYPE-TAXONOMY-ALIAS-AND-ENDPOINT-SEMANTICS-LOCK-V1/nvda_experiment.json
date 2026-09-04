@@ -1,0 +1,15 @@
+{
+  "experiment_id":"NVDA-FLAT-SUBTYPE-HYPOTHESIS-BOUNDARY-V1",
+  "retrieved_at_utc":"2026-09-04T17:52:58.814597Z",
+  "provider":"YahooFinanceProvider",
+  "authority":{"evaluate_as_only":true,"subtype_classification":false,"family_validity":false,"structural_invalidity":false,"ranking":false},
+  "configuration":{"family_scope":["FLAT"],"max_pivots_considered":6,"max_candidate_span_pivots":6,"max_skipped_pivots":0,"max_parent_candidates":10,"subtypes_per_flat":3,"retrieval_snapshot":"one cohesive four-resolution retrieval"},
+  "scopes":{
+    "Monthly":{"child_resolution":"Weekly","parent_bars":334,"finer_bars":1443,"geometric_pivots":71,"neutral_parent_candidates":4,"parent_family_hypotheses":3,"parent_flat_hypotheses":3,"parent_subtype_hypotheses":9,"parent_subtypes":{"REGULAR_FLAT":3,"EXPANDED_FLAT":3,"RUNNING_FLAT":3},"finer_selections":9,"child_candidates":17,"child_family_hypotheses":7,"child_flat_hypotheses":7,"child_subtype_hypotheses":21,"child_subtypes":{"REGULAR_FLAT":7,"EXPANDED_FLAT":7,"RUNNING_FLAT":7},"parent_source_sha256":"11aa8d276fe436ed6deeb0236010d76a23c66cade159271623d091a457ed16f9","finer_source_sha256":"ae100b8e31fa4cbf62c56d926a54e7eb9fe963a5243746934fffc8abbe0ab5d3"},
+    "Weekly":{"child_resolution":"Daily","parent_bars":1443,"finer_bars":6948,"geometric_pivots":369,"neutral_parent_candidates":4,"parent_family_hypotheses":3,"parent_flat_hypotheses":3,"parent_subtype_hypotheses":9,"parent_subtypes":{"REGULAR_FLAT":3,"EXPANDED_FLAT":3,"RUNNING_FLAT":3},"finer_selections":9,"child_candidates":10,"child_family_hypotheses":6,"child_flat_hypotheses":6,"child_subtype_hypotheses":18,"child_subtypes":{"REGULAR_FLAT":6,"EXPANDED_FLAT":6,"RUNNING_FLAT":6},"parent_source_sha256":"ae100b8e31fa4cbf62c56d926a54e7eb9fe963a5243746934fffc8abbe0ab5d3","finer_source_sha256":"fd5fd1aa03fb93cdfe4d16503c291e0918534cc3326eb6c8aafd70c1351f1a73"},
+    "Daily":{"child_resolution":"1H","parent_bars":6948,"finer_bars":3494,"geometric_pivots":1811,"neutral_parent_candidates":4,"parent_family_hypotheses":3,"parent_flat_hypotheses":3,"parent_subtype_hypotheses":9,"parent_subtypes":{"REGULAR_FLAT":3,"EXPANDED_FLAT":3,"RUNNING_FLAT":3},"finer_selections":9,"child_candidates":36,"child_family_hypotheses":18,"child_flat_hypotheses":18,"child_subtype_hypotheses":54,"child_subtypes":{"REGULAR_FLAT":18,"EXPANDED_FLAT":18,"RUNNING_FLAT":18},"parent_source_sha256":"fd5fd1aa03fb93cdfe4d16503c291e0918534cc3326eb6c8aafd70c1351f1a73","finer_source_sha256":"f3860d3c900718ef86cefb472a03e3a244c31aed757f0a46ff4941447a89ffe3"}
+  },
+  "structural_invalidity_certificates_created_by_subtype_layer":0,
+  "validated_flat_subtypes":0,
+  "ranking":"NONE"
+}
