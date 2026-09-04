@@ -1,0 +1,62 @@
+{
+  "review_id": "P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+  "decision": "BLOCKED_SOURCE_CONFLICT",
+  "implementation_authorized": false,
+  "ready_is_not_permission_to_implement": true,
+  "frozen_against": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+    "brain_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "approved_base": "0a5a24cbeaeea70e725342ecc789bab7f260ecac"
+  },
+  "resolved_semantics": [
+    "P005 is an existing SOURCE_RULE, not a new principle.",
+    "3 must not be strictly shortest among peer1/3/5 price movements; 3 need not be longest.",
+    "Qualitative applicability exists for both upward and downward structures.",
+    "Strict-shortest rejection is demonstrated during developing5 when fixed1 is already longer than3.",
+    "Origin/end roles and orthodox-versus-price-extreme distinction are documented.",
+    "Extensions and truncations do not authorize dropping a peer role or treating a geometric pivot as completed family proof."
+  ],
+  "unresolved_semantics": [
+    "Compulsory arithmetic+percentage versus percentage-sufficient policy: direct source conflict.",
+    "Tied shortest involving3 and all-equal: no exact adjudicated boundary located.",
+    "Universal percentage operation/denominator/domain and direction/sign treatment.",
+    "Universal P005 endpoint/whole-path/orthodox observation authority and numeric representation.",
+    "Issuance timing with mutable/developing endpoints; no deterministic completion or permanent-crossing evidence contract.",
+    "No P005 tolerance, rounding or tick-buffer authority located."
+  ],
+  "precise_missing_authority": [
+    {
+      "topic": "metric-policy",
+      "required": "An approved source-policy resolution of Volume10 28:14.840-28:25.640 versus book p31, specifying whether arithmetic failure can invalidate when the percentage sufficient condition holds.",
+      "cannot_substitute": "Choosing the newest-looking edition, the book by default, or treating both as approximate."
+    },
+    {
+      "topic": "ties",
+      "required": "A source-backed decision for L3=L1<L5, L3=L5<L1 and all equal.",
+      "cannot_substitute": "P004 equality, approximately equal extension drawings, or choosing < versus <= by taste."
+    },
+    {
+      "topic": "operands-and-timing",
+      "required": "A reviewed P005-specific mapping of each peer start/end/price basis, direction, arithmetic/percentage operations and authoritative developing/completed evaluation inputs.",
+      "cannot_substitute": "Global promotion of current geometric endpoints, a whole-path maximum by convenience, or synthetic terminal-family proof."
+    }
+  ],
+  "freeze_policy": "P005 remains unimplemented and frozen against these exact source hashes. Do not repeat this same corpus search as the proposed next stage. Reopening requires materially new approved evidence addressing a named gap or an explicit source-authority resolution supplied through the protected approval process; implementation still needs separate approval.",
+  "existing_runtime_metadata": "Preserved verbatim: P005 unresolved dependency remains unchanged in code. This additive review records the newly identified policy conflict without editing older reviews or runtime strings.",
+  "preserved_states": {
+    "inventories": [
+      10,
+      7,
+      0,
+      0
+    ],
+    "P006": "UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
+    "flat": "UNCHANGED_FROZEN",
+    "triangle": "TRIANGLE_E_C_CONFLICT_FROZEN_UNTIL_SOURCE_CORPUS_CHANGE",
+    "base_case": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_analyze": "NOT_IMPLEMENTED"
+  },
+  "project_manager_approval_claimed": false,
+  "next_stage_started": false
+}

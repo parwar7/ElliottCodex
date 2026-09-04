@@ -1,0 +1,282 @@
+{
+  "review_id": "P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+  "all_formulas_documentation_only": true,
+  "matrix": [
+    {
+      "topic": "core-prohibition",
+      "classification": "SOURCE_RULE",
+      "evidence_kind": "EXPLICIT",
+      "interpretation": "Compare the price movements of peer roles 1, 3 and 5 in the same proposed normal impulse. 3 may not be strictly smaller than both; 3 need not be largest.",
+      "refs": [
+        "v1-rule",
+        "v3-rule",
+        "v10-both",
+        "book-core",
+        "book-strict"
+      ],
+      "operands": "Authoritative comparable movements for roles 1/3/5, not every visible subwave.",
+      "boundary_cases": "Strict shortest fails; middle or largest does not violate this proposition on a settled basis. Ties require separate resolution.",
+      "unresolved_dependencies": "Measurement policy and operand authority.",
+      "executable": false
+    },
+    {
+      "topic": "strict-versus-tied",
+      "classification": "UNRESOLVED",
+      "evidence_kind": "EXPLICIT_WORDING_PLUS_NONEXECUTABLE_DERIVATION",
+      "interpretation": "The seminar says shorter than both, and examples use strict inequalities. The strict predicate excludes ties, but treating it as an exhaustive pass/fail definition is an additional assumption. The book gives a greater-than sufficient condition, not an explicit tied-shortest adjudication.",
+      "refs": [
+        "v10-both",
+        "book-core",
+        "book-strict",
+        "v5-points",
+        "book-equality"
+      ],
+      "operands": "Comparable L1,L3,L5 on an agreed basis.",
+      "boundary_cases": "L3=L1<L5; L3=L5<L1; all equal remain frozen. About equal on page 32 is not exact equality.",
+      "unresolved_dependencies": "Explicit equality boundary authority; P004 equality cannot be imported.",
+      "executable": false
+    },
+    {
+      "topic": "measurement-basis",
+      "classification": "CONFLICT",
+      "evidence_kind": "EXPLICIT_INCOMPATIBLE_POLICY",
+      "interpretation": "The seminar requires both arithmetic and percentage; the book says percentage exceeding either comparator suffices while arithmetic holds almost always.",
+      "refs": [
+        "v10-both",
+        "book-core",
+        "book-arithmetic"
+      ],
+      "operands": "Separate arithmetic and percentage comparison results.",
+      "boundary_cases": "Percentage non-shortest / arithmetic strictly shortest has incompatible policy outcomes. Agreement does not authorize ignoring the conflict globally.",
+      "unresolved_dependencies": "Source-policy-authorized resolution; no automatic preference for book or video.",
+      "executable": false
+    },
+    {
+      "topic": "price-not-time",
+      "classification": "SOURCE_RULE",
+      "evidence_kind": "EXPLICIT",
+      "interpretation": "P005 names price movement. Elapsed duration, slope, chart-pixel distance, volume and accumulated tick activity are not substitutes.",
+      "refs": [
+        "v1-rule",
+        "book-core"
+      ],
+      "operands": "Comparable price movement, not duration.",
+      "boundary_cases": "Time and price can order waves differently. Equality in time elsewhere is only a guideline.",
+      "unresolved_dependencies": "Exact arithmetic/percentage operations still need agreement.",
+      "executable": false
+    },
+    {
+      "topic": "point-distance",
+      "classification": "UNRESOLVED",
+      "evidence_kind": "ILLUSTRATIVE_EXAMPLE_AND_CONDITIONAL_DERIVATION",
+      "interpretation": "Subtraction of labeled prices is explicit in an upward diagonal example. Its translation to an absolute or direction-normalized displacement for arbitrary normal impulses is a proposed mathematical representation, not newly locked methodology.",
+      "refs": [
+        "v5-points",
+        "v7-measure",
+        "book-strict"
+      ],
+      "operands": "s_i,e_i: exact labeled start/end price values; d: explicit direction if normalization proposed.",
+      "boundary_cases": "Negative prices, opposite-direction pairs, zero movement and mixed units cannot be silently normalized into usable waves.",
+      "unresolved_dependencies": "Universal P005 metric policy and exact observation contract.",
+      "executable": false
+    },
+    {
+      "topic": "percentage-ratio-log",
+      "classification": "UNRESOLVED",
+      "evidence_kind": "EXAMPLES_NOT_UNIVERSAL_RULE",
+      "interpretation": "Book examples use percentage gains and distinguish chart projection from exactly equivalent gain. A starting-price denominator and simple return are plausible candidate formulas; no P005-specific universal denominator, negative/zero-price convention, or loss/magnitude operation is specified. Log chart scale is not itself a rule to compute P005 with log returns.",
+      "refs": [
+        "v10-both",
+        "v2-scale",
+        "book-core",
+        "book-ratios"
+      ],
+      "operands": "s_i,e_i with declared measurement basis and domain.",
+      "boundary_cases": "Zero denominator, negative starting value, downward percentage and simple-vs-log disagreement are not assigned methodology outcomes.",
+      "unresolved_dependencies": "Metric definition and its valid price domain; dual-basis policy conflict.",
+      "executable": false
+    },
+    {
+      "topic": "direction",
+      "classification": "SOURCE_OBSERVATION",
+      "evidence_kind": "EXPLICIT_APPLICATION_AND_CONDITIONAL_DERIVATION",
+      "interpretation": "Descending C example and book bull/bear drawings apply the structure in both directions. An exact signed/absolute numerical mapping is a proposed derivation; literal signed changes would wrongly equate more-negative with shorter.",
+      "refs": [
+        "v4-down",
+        "book-strict",
+        "book-truncation"
+      ],
+      "operands": "Explicit proposed direction and exact same-role boundaries.",
+      "boundary_cases": "Upward and downward mirror geometry; percentages need not be invariant under additive price reflection.",
+      "unresolved_dependencies": "No automatic pivot-kind or timeframe inference of direction; unresolved universal formula.",
+      "executable": false
+    },
+    {
+      "topic": "endpoints-path-orthodox",
+      "classification": "UNRESOLVED",
+      "evidence_kind": "EXPLICIT_DEFINITION_WITH_UNRESOLVED_APPLICATION",
+      "interpretation": "Labeled origin/end roles are supported, and orthodox end can differ from a whole-pattern extreme. Typical chapter-4 orthodox measurement is not a universal P005 requirement. No source establishes that any geometric pivot, close, intrabar high/low, accumulated path travel or whole-wave extreme may always substitute.",
+      "refs": [
+        "v7-measure",
+        "v4-orthodox",
+        "book-orthodox",
+        "book-truncation"
+      ],
+      "operands": "Proposed endpoint pair plus candidate/binding/role identity and price-basis provenance.",
+      "boundary_cases": "Intrawave extreme differs from terminal pivot; truncation makes parent extreme differ from termination; substituted equivalent-value identities are not authority.",
+      "unresolved_dependencies": "Exact P005 operands and conditional-hypothesis applicability; observation transport alone does not resolve source semantics.",
+      "executable": false
+    },
+    {
+      "topic": "developing-rejection",
+      "classification": "SOURCE_RULE",
+      "evidence_kind": "EXPLICIT_CONDITIONAL_EXAMPLE",
+      "interpretation": "A still-developing 5 can invalidate the drawn fixed labeling once longer than 3 while 1 already exceeds 3. Completion of 5 is not universally necessary to observe such a contradiction.",
+      "refs": [
+        "v1-developing",
+        "v5-points"
+      ],
+      "operands": "Established role1/3 measurements, current role5 displacement and fixed candidate ancestry.",
+      "boundary_cases": "Strict crossing in the example; equality not decided. A movable endpoint that later retreats does not establish permanent invalidity without an authorized extremum/endpoint policy.",
+      "unresolved_dependencies": "Irreversibility, exact active-wave observation transport, confirmed fixed operands and metric policy.",
+      "executable": false
+    },
+    {
+      "topic": "completion-satisfaction",
+      "classification": "UNRESOLVED",
+      "evidence_kind": "CONDITIONAL_DERIVATION_NOT_ISSUANCE_AUTHORITY",
+      "interpretation": "For fixed trustworthy lengths, L3>L1 means L3 cannot be shortest regardless of L5 under that same basis. This algebra does not supply completion evidence or permission to issue a runtime status on mutable/developing measurements.",
+      "refs": [
+        "book-core",
+        "v1-developing",
+        "book-truncation"
+      ],
+      "operands": "Role identity, established measurement basis and endpoint/completion evidence.",
+      "boundary_cases": "Developing L5 below threshold is not universal satisfaction; completed L5 with fixed lengths still does not confer family validity.",
+      "unresolved_dependencies": "No source-defined deterministic completion/terminality engine; family registry empty and base-case blocker active.",
+      "executable": false
+    },
+    {
+      "topic": "extensions",
+      "classification": "SOURCE_GUIDELINE",
+      "evidence_kind": "EXPLICIT_GUIDANCE",
+      "interpretation": "Extensions retain the three peer actionary roles; prominent subdivisions do not change comparison to every visible swing. Usual third-wave extension and suggested relabeling after failure are not mandatory recovery logic.",
+      "refs": [
+        "book-strict",
+        "book-equality",
+        "v8-extension"
+      ],
+      "operands": "Correctly scoped peer1/3/5 hypotheses.",
+      "boundary_cases": "Nine visible swings do not replace role1/3/5. About-equal 1 and3 followed by extended5 does not decide exact tie.",
+      "unresolved_dependencies": "No auto-extension or relabeling; no additional invalidator.",
+      "executable": false
+    },
+    {
+      "topic": "truncations",
+      "classification": "SOURCE_DEFINITION",
+      "evidence_kind": "EXPLICIT",
+      "interpretation": "A fifth may terminate without passing third's terminal price, subject to its required structure. That does not mean L5 is zero or absent, and does not waive P005.",
+      "refs": [
+        "v3-truncation",
+        "book-truncation"
+      ],
+      "operands": "Actual proposed fifth origin and ending, not third-to-fifth net difference.",
+      "boundary_cases": "Bull/bear truncations; internal validity cannot be fabricated from price failure to exceed3.",
+      "unresolved_dependencies": "Family/subdivision proof and orthodox endpoint authority remain unavailable.",
+      "executable": false
+    },
+    {
+      "topic": "tolerance",
+      "classification": "UNRESOLVED",
+      "evidence_kind": "NO_AUTHORITY_LOCATED",
+      "interpretation": "No P005-specific epsilon, tick allowance, rounding, approximate equality or minimum difference was found. Approximate relationships and gauge-imperfection warnings do not authorize numerical tolerance.",
+      "refs": [
+        "book-summary",
+        "book-equality",
+        "v10-both"
+      ],
+      "operands": "Exact declared numeric representation, if future contract approved.",
+      "boundary_cases": "Just below/above equality; rounding can turn strict shortest into a tie.",
+      "unresolved_dependencies": "No tolerance may be invented. Numeric representation is a future explicit contract choice, not a remembered Elliott convention.",
+      "executable": false
+    }
+  ],
+  "formula_candidates": [
+    {
+      "local_key": "strict-shortest",
+      "formula": "L3 < L1 AND L3 < L5",
+      "applicability": "Only fixed comparable lengths in one source-authorized basis; normal-impulse peer roles.",
+      "support": [
+        "v10-both",
+        "book-strict"
+      ],
+      "necessary_derivation": "Restates the strict illustrated comparison.",
+      "unsupported_assumption": "Making its logical complement a complete satisfaction rule would decide ties without explicit adjudication.",
+      "implementation_authorized": false
+    },
+    {
+      "local_key": "tied-minimum",
+      "formula": "L3 <= L1 AND L3 <= L5",
+      "applicability": "Hypothetical alternate reading of shortest, for contrast only.",
+      "support": [
+        "v1-rule",
+        "book-core"
+      ],
+      "unsupported_assumption": "Treats tied minimum (including all equal) as prohibited; not established by an explicit source boundary. Not selected.",
+      "implementation_authorized": false
+    },
+    {
+      "local_key": "price-distance",
+      "formula": "A_i = |e_i - s_i|, or A_i = d * (e_i - s_i) when d explicitly matches every actionary role.",
+      "applicability": "Fixed proposed start/end pairs in common units; second form requires direction-consistency checks.",
+      "support": [
+        "v5-points",
+        "v7-measure"
+      ],
+      "unsupported_assumption": "Generalizing an upward diagonal point example to universal normal-impulse operands, path choice and downward treatment. This is not an approved P005 formula.",
+      "implementation_authorized": false
+    },
+    {
+      "local_key": "simple-percentage",
+      "formula": "R_i = 100 * |e_i - s_i| / s_i, for s_i > 0",
+      "applicability": "Illustrative simple percentage on positive starting prices only.",
+      "support": [
+        "v10-both",
+        "book-core",
+        "book-ratios"
+      ],
+      "unsupported_assumption": "P005 starting-price denominator, magnitude treatment and positive-only domain are not explicitly settled as a universal contract. End-price/common denominator alternatives are not adopted.",
+      "implementation_authorized": false
+    },
+    {
+      "local_key": "log-distance",
+      "formula": "G_i = |log(e_i / s_i)|, for s_i > 0 and e_i > 0",
+      "applicability": "Mathematical candidate for semilog distance, not selected.",
+      "support": [
+        "v2-scale",
+        "book-ratios"
+      ],
+      "unsupported_assumption": "A recommendation for semilog charts is not P005 log-return authorization.",
+      "implementation_authorized": false
+    },
+    {
+      "local_key": "both-bases-versus-percentage",
+      "formula": "Video reading: reject when strict-shortest(A) OR strict-shortest(R). Book sufficient statement: R3 > R1 OR R3 > R5 establishes non-shortest regardless of arithmetic.",
+      "applicability": "Non-tied fully established hypothetical measurements.",
+      "support": [
+        "v10-both",
+        "book-core",
+        "book-arithmetic"
+      ],
+      "unsupported_assumption": "Choosing either as controlling source policy; neither selected.",
+      "implementation_authorized": false
+    }
+  ],
+  "current_contract_review": {
+    "path": "src/elliott_runtime/analysis/normal_impulse_partial_evaluation.py",
+    "approved_sha256": "c44bba244cf9ea0d04464486b22dba8b4a4362f35e632a7a7168f76f40ea3d29",
+    "finding": "Identity-repaired five-slot hypothesis retains exact generated candidate, binding, roles, selected pivots and P004 bounded request. It executes P004 only and exposes P005/P006 dependencies. These identities can support a future conditional input; they do not confer universal orthodox endpoint, percentage policy or completion authority.",
+    "shared_contracts_changed": false,
+    "P004_equality_imported": false
+  }
+}

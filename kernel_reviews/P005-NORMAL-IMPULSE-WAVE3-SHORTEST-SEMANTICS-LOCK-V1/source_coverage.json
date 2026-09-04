@@ -1,0 +1,1214 @@
+{
+  "review_id": "P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+  "previous_reviews_read_first": [
+    "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/P005_semantics.json",
+    "kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/P005_resolution.json",
+    "kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/remaining_gaps.json",
+    "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/protected_source_findings.json"
+  ],
+  "historical_reconciliation": "Earlier review had no locally available book. Its records are preserved; this review adds the activated book and finds a measurement-basis conflict, not a retroactive rewrite.",
+  "transcript_primary_regex": "shortest|shorter|arithmet|percent|logarith|orthodox|truncat|equal|tolerance|rounding",
+  "transcript_secondary_search": "equal|shorter|length|distance|logarith with neighboring wave/third/fifth/arithmetic context; entire ten files searched, including extensionless Volume 4 and Volume 10 .txt",
+  "transcripts": [
+    {
+      "path": "volume_01/Volume_01.srt",
+      "caption_blocks": 2898,
+      "primary_search_hit_count": 27,
+      "shortest_literal_hits": 5,
+      "full_text_searched": true,
+      "sha256": "c005460d847e2170595435dadc379444acca667c9ad0006969295b18915656ff"
+    },
+    {
+      "path": "volume_02/volume_02.srt",
+      "caption_blocks": 711,
+      "primary_search_hit_count": 8,
+      "shortest_literal_hits": 3,
+      "full_text_searched": true,
+      "sha256": "d058141fa74cbe53baf8fcf1eb81dd419b4c54b40bc88b3c5bd9e4d928d1119d"
+    },
+    {
+      "path": "volume_03/volume_03.srt",
+      "caption_blocks": 648,
+      "primary_search_hit_count": 5,
+      "shortest_literal_hits": 3,
+      "full_text_searched": true,
+      "sha256": "6cfbec4d3ac9af0e8a70414a5a2b7eb6884678eb59f929b2bf3614708a2568ba"
+    },
+    {
+      "path": "volume_04/volume_04",
+      "caption_blocks": 580,
+      "primary_search_hit_count": 6,
+      "shortest_literal_hits": 3,
+      "full_text_searched": true,
+      "sha256": "52c825b8cb1eaa915660a6afb105425d6c2947f45ead0fb1f3742e3e2b67789d"
+    },
+    {
+      "path": "volume_05/volume_05.srt",
+      "caption_blocks": 593,
+      "primary_search_hit_count": 11,
+      "shortest_literal_hits": 4,
+      "full_text_searched": true,
+      "sha256": "2d8c8f5abec3d4ad42f36d58667ac7cd652d70e8e3743288dc918eebe2d3f50f"
+    },
+    {
+      "path": "volume_06/volume_06.srt",
+      "caption_blocks": 628,
+      "primary_search_hit_count": 0,
+      "shortest_literal_hits": 0,
+      "full_text_searched": true,
+      "sha256": "6444bb436b3781bfdfaa174da21ff35f7685d64981548c8f2478975526eb974b"
+    },
+    {
+      "path": "volume_07/volume_07.srt",
+      "caption_blocks": 547,
+      "primary_search_hit_count": 9,
+      "shortest_literal_hits": 0,
+      "full_text_searched": true,
+      "sha256": "5d80cafb6abb09abd86c012671cb8ba1abeaa160c7b9e506a19b03ec7b433571"
+    },
+    {
+      "path": "volume_08/volume_08.srt",
+      "caption_blocks": 696,
+      "primary_search_hit_count": 12,
+      "shortest_literal_hits": 1,
+      "full_text_searched": true,
+      "sha256": "038fdb559d13250f0eddce4c3be1e40c0c5b1a87c8ea39caddb2435964e0a2b8"
+    },
+    {
+      "path": "volume_09/volume_09.srt",
+      "caption_blocks": 1691,
+      "primary_search_hit_count": 12,
+      "shortest_literal_hits": 0,
+      "full_text_searched": true,
+      "sha256": "7c969bfe9715b7951e2d7c27e066280d9dadfbec1f5e49d36bc6d2dd9431cc85"
+    },
+    {
+      "path": "volume_10/volume_10.txt",
+      "caption_blocks": 1689,
+      "primary_search_hit_count": 12,
+      "shortest_literal_hits": 0,
+      "full_text_searched": true,
+      "sha256": "624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25"
+    }
+  ],
+  "book": {
+    "path": "book_frost_prechter\\Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+    "sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+    "byte_length": 69874756,
+    "pdf_pages": 256,
+    "pages_ocr_searched": 256,
+    "embedded_text_layer": false,
+    "search_regex": "shortest|shorter|wave\\s*3|third\\s+wave|equal|arithmet|percent|semi.?log|logarith|orthodox|truncat|extens|tolerance|rounding|measur",
+    "search_hit_page_count": 120,
+    "method": "Windows PDF rendering and local Windows OCR in memory, in four 64-page batches; pdftoppm renders for key-page visual checks. No external source/network/OCR service.",
+    "search_terms": [
+      "shortest",
+      "shorter",
+      "wave 3",
+      "third wave",
+      "equal",
+      "arithmetic",
+      "percentage",
+      "semilog",
+      "logarith",
+      "orthodox",
+      "truncation",
+      "extension",
+      "tolerance",
+      "rounding",
+      "measurement"
+    ],
+    "ocr_page_character_counts": [
+      {
+        "page": 1,
+        "characters": 159
+      },
+      {
+        "page": 2,
+        "characters": 701
+      },
+      {
+        "page": 3,
+        "characters": 2425
+      },
+      {
+        "page": 4,
+        "characters": 708
+      },
+      {
+        "page": 5,
+        "characters": 2616
+      },
+      {
+        "page": 6,
+        "characters": 1019
+      },
+      {
+        "page": 7,
+        "characters": 1279
+      },
+      {
+        "page": 8,
+        "characters": 0
+      },
+      {
+        "page": 9,
+        "characters": 199
+      },
+      {
+        "page": 10,
+        "characters": 0
+      },
+      {
+        "page": 11,
+        "characters": 1972
+      },
+      {
+        "page": 12,
+        "characters": 2421
+      },
+      {
+        "page": 13,
+        "characters": 2163
+      },
+      {
+        "page": 14,
+        "characters": 507
+      },
+      {
+        "page": 15,
+        "characters": 1666
+      },
+      {
+        "page": 16,
+        "characters": 0
+      },
+      {
+        "page": 17,
+        "characters": 21
+      },
+      {
+        "page": 18,
+        "characters": 0
+      },
+      {
+        "page": 19,
+        "characters": 1993
+      },
+      {
+        "page": 20,
+        "characters": 1758
+      },
+      {
+        "page": 21,
+        "characters": 2180
+      },
+      {
+        "page": 22,
+        "characters": 1127
+      },
+      {
+        "page": 23,
+        "characters": 1358
+      },
+      {
+        "page": 24,
+        "characters": 1210
+      },
+      {
+        "page": 25,
+        "characters": 889
+      },
+      {
+        "page": 26,
+        "characters": 2212
+      },
+      {
+        "page": 27,
+        "characters": 1652
+      },
+      {
+        "page": 28,
+        "characters": 2327
+      },
+      {
+        "page": 29,
+        "characters": 2248
+      },
+      {
+        "page": 30,
+        "characters": 1473
+      },
+      {
+        "page": 31,
+        "characters": 2174
+      },
+      {
+        "page": 32,
+        "characters": 2014
+      },
+      {
+        "page": 33,
+        "characters": 214
+      },
+      {
+        "page": 34,
+        "characters": 1279
+      },
+      {
+        "page": 35,
+        "characters": 921
+      },
+      {
+        "page": 36,
+        "characters": 572
+      },
+      {
+        "page": 37,
+        "characters": 1345
+      },
+      {
+        "page": 38,
+        "characters": 1264
+      },
+      {
+        "page": 39,
+        "characters": 179
+      },
+      {
+        "page": 40,
+        "characters": 1386
+      },
+      {
+        "page": 41,
+        "characters": 2359
+      },
+      {
+        "page": 42,
+        "characters": 2264
+      },
+      {
+        "page": 43,
+        "characters": 157
+      },
+      {
+        "page": 44,
+        "characters": 25
+      },
+      {
+        "page": 45,
+        "characters": 717
+      },
+      {
+        "page": 46,
+        "characters": 1721
+      },
+      {
+        "page": 47,
+        "characters": 189
+      },
+      {
+        "page": 48,
+        "characters": 1056
+      },
+      {
+        "page": 49,
+        "characters": 2374
+      },
+      {
+        "page": 50,
+        "characters": 331
+      },
+      {
+        "page": 51,
+        "characters": 1382
+      },
+      {
+        "page": 52,
+        "characters": 2313
+      },
+      {
+        "page": 53,
+        "characters": 390
+      },
+      {
+        "page": 54,
+        "characters": 2514
+      },
+      {
+        "page": 55,
+        "characters": 2243
+      },
+      {
+        "page": 56,
+        "characters": 2331
+      },
+      {
+        "page": 57,
+        "characters": 2223
+      },
+      {
+        "page": 58,
+        "characters": 1325
+      },
+      {
+        "page": 59,
+        "characters": 1675
+      },
+      {
+        "page": 60,
+        "characters": 2480
+      },
+      {
+        "page": 61,
+        "characters": 605
+      },
+      {
+        "page": 62,
+        "characters": 0
+      },
+      {
+        "page": 63,
+        "characters": 1705
+      },
+      {
+        "page": 64,
+        "characters": 1601
+      },
+      {
+        "page": 65,
+        "characters": 570
+      },
+      {
+        "page": 66,
+        "characters": 743
+      },
+      {
+        "page": 67,
+        "characters": 2001
+      },
+      {
+        "page": 68,
+        "characters": 2467
+      },
+      {
+        "page": 69,
+        "characters": 1290
+      },
+      {
+        "page": 70,
+        "characters": 2379
+      },
+      {
+        "page": 71,
+        "characters": 2353
+      },
+      {
+        "page": 72,
+        "characters": 93
+      },
+      {
+        "page": 73,
+        "characters": 2314
+      },
+      {
+        "page": 74,
+        "characters": 1233
+      },
+      {
+        "page": 75,
+        "characters": 1460
+      },
+      {
+        "page": 76,
+        "characters": 2310
+      },
+      {
+        "page": 77,
+        "characters": 1563
+      },
+      {
+        "page": 78,
+        "characters": 2419
+      },
+      {
+        "page": 79,
+        "characters": 1539
+      },
+      {
+        "page": 80,
+        "characters": 2629
+      },
+      {
+        "page": 81,
+        "characters": 2484
+      },
+      {
+        "page": 82,
+        "characters": 1699
+      },
+      {
+        "page": 83,
+        "characters": 2494
+      },
+      {
+        "page": 84,
+        "characters": 2116
+      },
+      {
+        "page": 85,
+        "characters": 42
+      },
+      {
+        "page": 86,
+        "characters": 1943
+      },
+      {
+        "page": 87,
+        "characters": 2055
+      },
+      {
+        "page": 88,
+        "characters": 1615
+      },
+      {
+        "page": 89,
+        "characters": 1581
+      },
+      {
+        "page": 90,
+        "characters": 1916
+      },
+      {
+        "page": 91,
+        "characters": 1694
+      },
+      {
+        "page": 92,
+        "characters": 2470
+      },
+      {
+        "page": 93,
+        "characters": 2525
+      },
+      {
+        "page": 94,
+        "characters": 2341
+      },
+      {
+        "page": 95,
+        "characters": 2556
+      },
+      {
+        "page": 96,
+        "characters": 2503
+      },
+      {
+        "page": 97,
+        "characters": 1857
+      },
+      {
+        "page": 98,
+        "characters": 166
+      },
+      {
+        "page": 99,
+        "characters": 1811
+      },
+      {
+        "page": 100,
+        "characters": 2420
+      },
+      {
+        "page": 101,
+        "characters": 2522
+      },
+      {
+        "page": 102,
+        "characters": 2143
+      },
+      {
+        "page": 103,
+        "characters": 1410
+      },
+      {
+        "page": 104,
+        "characters": 1320
+      },
+      {
+        "page": 105,
+        "characters": 73
+      },
+      {
+        "page": 106,
+        "characters": 1659
+      },
+      {
+        "page": 107,
+        "characters": 2242
+      },
+      {
+        "page": 108,
+        "characters": 2207
+      },
+      {
+        "page": 109,
+        "characters": 1967
+      },
+      {
+        "page": 110,
+        "characters": 996
+      },
+      {
+        "page": 111,
+        "characters": 709
+      },
+      {
+        "page": 112,
+        "characters": 2291
+      },
+      {
+        "page": 113,
+        "characters": 312
+      },
+      {
+        "page": 114,
+        "characters": 1127
+      },
+      {
+        "page": 115,
+        "characters": 2531
+      },
+      {
+        "page": 116,
+        "characters": 537
+      },
+      {
+        "page": 117,
+        "characters": 158
+      },
+      {
+        "page": 118,
+        "characters": 200
+      },
+      {
+        "page": 119,
+        "characters": 81
+      },
+      {
+        "page": 120,
+        "characters": 2601
+      },
+      {
+        "page": 121,
+        "characters": 2545
+      },
+      {
+        "page": 122,
+        "characters": 2257
+      },
+      {
+        "page": 123,
+        "characters": 848
+      },
+      {
+        "page": 124,
+        "characters": 672
+      },
+      {
+        "page": 125,
+        "characters": 891
+      },
+      {
+        "page": 126,
+        "characters": 26
+      },
+      {
+        "page": 127,
+        "characters": 2292
+      },
+      {
+        "page": 128,
+        "characters": 814
+      },
+      {
+        "page": 129,
+        "characters": 2593
+      },
+      {
+        "page": 130,
+        "characters": 319
+      },
+      {
+        "page": 131,
+        "characters": 23
+      },
+      {
+        "page": 132,
+        "characters": 1344
+      },
+      {
+        "page": 133,
+        "characters": 1800
+      },
+      {
+        "page": 134,
+        "characters": 2349
+      },
+      {
+        "page": 135,
+        "characters": 1696
+      },
+      {
+        "page": 136,
+        "characters": 1318
+      },
+      {
+        "page": 137,
+        "characters": 1633
+      },
+      {
+        "page": 138,
+        "characters": 72
+      },
+      {
+        "page": 139,
+        "characters": 1520
+      },
+      {
+        "page": 140,
+        "characters": 2082
+      },
+      {
+        "page": 141,
+        "characters": 2365
+      },
+      {
+        "page": 142,
+        "characters": 283
+      },
+      {
+        "page": 143,
+        "characters": 1518
+      },
+      {
+        "page": 144,
+        "characters": 2455
+      },
+      {
+        "page": 145,
+        "characters": 1322
+      },
+      {
+        "page": 146,
+        "characters": 723
+      },
+      {
+        "page": 147,
+        "characters": 1937
+      },
+      {
+        "page": 148,
+        "characters": 1655
+      },
+      {
+        "page": 149,
+        "characters": 1944
+      },
+      {
+        "page": 150,
+        "characters": 2372
+      },
+      {
+        "page": 151,
+        "characters": 1284
+      },
+      {
+        "page": 152,
+        "characters": 1969
+      },
+      {
+        "page": 153,
+        "characters": 1964
+      },
+      {
+        "page": 154,
+        "characters": 1138
+      },
+      {
+        "page": 155,
+        "characters": 1851
+      },
+      {
+        "page": 156,
+        "characters": 2561
+      },
+      {
+        "page": 157,
+        "characters": 1091
+      },
+      {
+        "page": 158,
+        "characters": 26
+      },
+      {
+        "page": 159,
+        "characters": 2370
+      },
+      {
+        "page": 160,
+        "characters": 2288
+      },
+      {
+        "page": 161,
+        "characters": 30
+      },
+      {
+        "page": 162,
+        "characters": 2401
+      },
+      {
+        "page": 163,
+        "characters": 2379
+      },
+      {
+        "page": 164,
+        "characters": 739
+      },
+      {
+        "page": 165,
+        "characters": 2331
+      },
+      {
+        "page": 166,
+        "characters": 858
+      },
+      {
+        "page": 167,
+        "characters": 921
+      },
+      {
+        "page": 168,
+        "characters": 0
+      },
+      {
+        "page": 169,
+        "characters": 2032
+      },
+      {
+        "page": 170,
+        "characters": 2333
+      },
+      {
+        "page": 171,
+        "characters": 151
+      },
+      {
+        "page": 172,
+        "characters": 59
+      },
+      {
+        "page": 173,
+        "characters": 2285
+      },
+      {
+        "page": 174,
+        "characters": 35
+      },
+      {
+        "page": 175,
+        "characters": 2493
+      },
+      {
+        "page": 176,
+        "characters": 30
+      },
+      {
+        "page": 177,
+        "characters": 76
+      },
+      {
+        "page": 178,
+        "characters": 2358
+      },
+      {
+        "page": 179,
+        "characters": 1048
+      },
+      {
+        "page": 180,
+        "characters": 2503
+      },
+      {
+        "page": 181,
+        "characters": 1280
+      },
+      {
+        "page": 182,
+        "characters": 1076
+      },
+      {
+        "page": 183,
+        "characters": 1930
+      },
+      {
+        "page": 184,
+        "characters": 474
+      },
+      {
+        "page": 185,
+        "characters": 2390
+      },
+      {
+        "page": 186,
+        "characters": 33
+      },
+      {
+        "page": 187,
+        "characters": 2285
+      },
+      {
+        "page": 188,
+        "characters": 2567
+      },
+      {
+        "page": 189,
+        "characters": 1277
+      },
+      {
+        "page": 190,
+        "characters": 2320
+      },
+      {
+        "page": 191,
+        "characters": 2379
+      },
+      {
+        "page": 192,
+        "characters": 2369
+      },
+      {
+        "page": 193,
+        "characters": 2331
+      },
+      {
+        "page": 194,
+        "characters": 518
+      },
+      {
+        "page": 195,
+        "characters": 2430
+      },
+      {
+        "page": 196,
+        "characters": 2383
+      },
+      {
+        "page": 197,
+        "characters": 1177
+      },
+      {
+        "page": 198,
+        "characters": 1847
+      },
+      {
+        "page": 199,
+        "characters": 1947
+      },
+      {
+        "page": 200,
+        "characters": 2162
+      },
+      {
+        "page": 201,
+        "characters": 1113
+      },
+      {
+        "page": 202,
+        "characters": 1539
+      },
+      {
+        "page": 203,
+        "characters": 29
+      },
+      {
+        "page": 204,
+        "characters": 1782
+      },
+      {
+        "page": 205,
+        "characters": 2553
+      },
+      {
+        "page": 206,
+        "characters": 2474
+      },
+      {
+        "page": 207,
+        "characters": 2224
+      },
+      {
+        "page": 208,
+        "characters": 2626
+      },
+      {
+        "page": 209,
+        "characters": 2358
+      },
+      {
+        "page": 210,
+        "characters": 2435
+      },
+      {
+        "page": 211,
+        "characters": 605
+      },
+      {
+        "page": 212,
+        "characters": 0
+      },
+      {
+        "page": 213,
+        "characters": 8
+      },
+      {
+        "page": 214,
+        "characters": 0
+      },
+      {
+        "page": 215,
+        "characters": 1884
+      },
+      {
+        "page": 216,
+        "characters": 2184
+      },
+      {
+        "page": 217,
+        "characters": 50
+      },
+      {
+        "page": 218,
+        "characters": 2069
+      },
+      {
+        "page": 219,
+        "characters": 2422
+      },
+      {
+        "page": 220,
+        "characters": 1183
+      },
+      {
+        "page": 221,
+        "characters": 1982
+      },
+      {
+        "page": 222,
+        "characters": 464
+      },
+      {
+        "page": 223,
+        "characters": 1974
+      },
+      {
+        "page": 224,
+        "characters": 2042
+      },
+      {
+        "page": 225,
+        "characters": 962
+      },
+      {
+        "page": 226,
+        "characters": 1017
+      },
+      {
+        "page": 227,
+        "characters": 848
+      },
+      {
+        "page": 228,
+        "characters": 2056
+      },
+      {
+        "page": 229,
+        "characters": 2266
+      },
+      {
+        "page": 230,
+        "characters": 42
+      },
+      {
+        "page": 231,
+        "characters": 61
+      },
+      {
+        "page": 232,
+        "characters": 2594
+      },
+      {
+        "page": 233,
+        "characters": 1232
+      },
+      {
+        "page": 234,
+        "characters": 2185
+      },
+      {
+        "page": 235,
+        "characters": 2483
+      },
+      {
+        "page": 236,
+        "characters": 2390
+      },
+      {
+        "page": 237,
+        "characters": 1351
+      },
+      {
+        "page": 238,
+        "characters": 1424
+      },
+      {
+        "page": 239,
+        "characters": 2511
+      },
+      {
+        "page": 240,
+        "characters": 2354
+      },
+      {
+        "page": 241,
+        "characters": 2411
+      },
+      {
+        "page": 242,
+        "characters": 1030
+      },
+      {
+        "page": 243,
+        "characters": 2078
+      },
+      {
+        "page": 244,
+        "characters": 2497
+      },
+      {
+        "page": 245,
+        "characters": 2260
+      },
+      {
+        "page": 246,
+        "characters": 2133
+      },
+      {
+        "page": 247,
+        "characters": 3177
+      },
+      {
+        "page": 248,
+        "characters": 2112
+      },
+      {
+        "page": 249,
+        "characters": 2548
+      },
+      {
+        "page": 250,
+        "characters": 2604
+      },
+      {
+        "page": 251,
+        "characters": 674
+      },
+      {
+        "page": 252,
+        "characters": 1978
+      },
+      {
+        "page": 253,
+        "characters": 2061
+      },
+      {
+        "page": 254,
+        "characters": 1729
+      },
+      {
+        "page": 255,
+        "characters": 1952
+      },
+      {
+        "page": 256,
+        "characters": 632
+      }
+    ],
+    "context_pages_reviewed": [
+      2,
+      3,
+      20,
+      21,
+      24,
+      25,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      55,
+      69,
+      74,
+      76,
+      79,
+      86,
+      87,
+      88,
+      134,
+      135,
+      136,
+      137,
+      139,
+      148,
+      162,
+      163,
+      180,
+      201,
+      204,
+      247
+    ],
+    "visually_inspected_pages": [
+      31,
+      33,
+      35,
+      55,
+      69,
+      86
+    ],
+    "limitations": "All 256 pages searched via OCR, not all visually transcribed. Blank/decorative/chart/handwritten pages may have little or imperfect OCR. Relevant rule text and figures visually checked. Absence claims mean no authority located by this review, not proof that OCR cannot miss text.",
+    "edition_identity_note": "Approved filename includes 1998; scanned page 2 says Tenth Edition 2005 and copyright through 2006, and page 3 contains the 1998 publisher note. Authority is the exact approved SHA, not an inferred publication precedence; no alternate book substituted."
+  },
+  "video_figures_inspected": [
+    {
+      "path": "volume_01/Volume_01.mp4",
+      "timestamp": "01:32:27",
+      "observation": "Labeled rising schematic 1/2/3/4/5, 3 shorter than 1 and 5; no numeric axis or equality case."
+    },
+    {
+      "path": "volume_04/volume_04.mp4",
+      "timestamp": "00:12:37",
+      "observation": "Descending proposed C subdivision chart; matches qualitative transcript rejection, no precise downward magnitude formula."
+    },
+    {
+      "path": "volume_05/volume_05.mp4",
+      "timestamp": "00:04:47",
+      "observation": "Hourly upward diagonal, labeled turns and point-length projection. Exact equality is not separately demonstrated."
+    }
+  ],
+  "external_elliott_sources_used": false,
+  "model_memory_used": false
+}

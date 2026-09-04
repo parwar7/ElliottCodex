@@ -1,0 +1,74 @@
+{
+  "baseline_id": "P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+  "classification": "ADDITIVE_LOGICAL_SOURCE_REVIEW_BASELINE",
+  "approved_base_head": "0a5a24cbeaeea70e725342ecc789bab7f260ecac",
+  "decision": "BLOCKED_SOURCE_CONFLICT",
+  "implementation_authorized": false,
+  "project_manager_approval_claimed": false,
+  "historical_baselines_modified": false,
+  "executable_files_modified": [],
+  "existing_tests_modified": [],
+  "shared_contracts_modified": [],
+  "baseline_artifacts": [
+    {
+      "path": "audit.json",
+      "byte_length": 4072,
+      "sha256": "28d3bdf032a91054582c67d23dddf62ee181c699cc97487c2a7ecda6158bfd57"
+    },
+    {
+      "path": "boundary_cases.json",
+      "byte_length": 4422,
+      "sha256": "731e13e34595a9a46aae382519ca1b89d769843f4a5079d145cff4bcd3616c59"
+    },
+    {
+      "path": "decision.json",
+      "byte_length": 3827,
+      "sha256": "9512ac16fef3fbc59ccfb244f072cfa8ac309dd07e1d53b27813a2e65eecc1a5"
+    },
+    {
+      "path": "interpretation_matrix.json",
+      "byte_length": 15240,
+      "sha256": "4503c90362ccab704d685083d8692027120252a4a4a73644826641aa11646b5c"
+    },
+    {
+      "path": "protected_integrity.json",
+      "byte_length": 21353,
+      "sha256": "1f3b21775fea93d9ef9b2cf72719a490b1cc3b446575ea5ffb990aa79474a8ad"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 3760,
+      "sha256": "60f44ba10b9890590b80e1864dca6cfc54e502de7557505657d4647f29951e90"
+    },
+    {
+      "path": "source_coverage.json",
+      "byte_length": 23068,
+      "sha256": "7a6f8af5879dac14020cd941cedb3e3794d4d58b6fd4b14a5cdcab8e74582583"
+    },
+    {
+      "path": "source_findings.json",
+      "byte_length": 12726,
+      "sha256": "cbb5c6d0249a47e5c41d56c288bc373ffaedb61881f01682cee96737608ede50"
+    },
+    {
+      "path": "unchanged_tracked_inventory.json",
+      "byte_length": 114558,
+      "sha256": "617707dd0d65c4bd7e16dd97136626f457c417309a1008457aa1e7b27ba510d9"
+    }
+  ],
+  "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+  "brain_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+  "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+  "inventories": [
+    10,
+    7,
+    0,
+    0
+  ],
+  "hashing": {
+    "algorithm": "SHA-256",
+    "byte_length": "Exact on-disk bytes",
+    "manifest_self_included": false,
+    "physical_immutability": false
+  }
+}

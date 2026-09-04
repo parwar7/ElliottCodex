@@ -1,0 +1,153 @@
+{
+  "review_id": "P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+  "classification": "NON_EXECUTABLE_REVIEW_CASES",
+  "not_runtime_test_vectors": true,
+  "abstract_lengths_order": "[L1,L3,L5]; a single fixed, agreed basis is assumed for illustrative comparison only",
+  "cases": [
+    {
+      "case": "strict-shortest",
+      "lengths": [
+        10,
+        5,
+        8
+      ],
+      "finding": "Strictly shortest 3 contradicts the source proposition; no executable metric selected."
+    },
+    {
+      "case": "3-longest",
+      "lengths": [
+        5,
+        10,
+        8
+      ],
+      "finding": "Not shortest on the supplied basis; not family validity."
+    },
+    {
+      "case": "3-middle",
+      "lengths": [
+        10,
+        8,
+        5
+      ],
+      "finding": "Not shortest on the supplied basis; source does not require longest."
+    },
+    {
+      "case": "tie-with-1-at-minimum",
+      "lengths": [
+        5,
+        5,
+        8
+      ],
+      "finding": "UNRESOLVED exact tie."
+    },
+    {
+      "case": "tie-with-5-at-minimum",
+      "lengths": [
+        8,
+        5,
+        5
+      ],
+      "finding": "UNRESOLVED exact tie."
+    },
+    {
+      "case": "all-equal",
+      "lengths": [
+        5,
+        5,
+        5
+      ],
+      "finding": "UNRESOLVED; equality guideline does not settle."
+    },
+    {
+      "case": "other-two-tie",
+      "lengths": [
+        5,
+        8,
+        5
+      ],
+      "finding": "3 strictly exceeds both. Not a shortest-3 tie, but still no family validity."
+    },
+    {
+      "case": "near-equality",
+      "lengths": [
+        "5",
+        "5-delta",
+        "8"
+      ],
+      "finding": "For strictly positive exact delta, strict-shortest relation holds. No rounding/tick/epsilon permission; converting to exact market inputs remains unresolved."
+    },
+    {
+      "case": "developing-threshold",
+      "lengths": [
+        10,
+        8,
+        "7 -> 8 -> 9"
+      ],
+      "finding": "Below does not confer final satisfaction; equality unresolved; strict crossing contradicts the drawn fixed count. Persistent certificate from movable endpoints not authorized."
+    },
+    {
+      "case": "fixed-3-exceeds-1",
+      "lengths": [
+        5,
+        8,
+        "unknown/developing"
+      ],
+      "finding": "Conditional ordering cannot make 3 smallest on this fixed basis; does not create endpoint/completion/metric authority."
+    },
+    {
+      "case": "point-percentage-disagreement",
+      "proposed_upward_endpoints": [
+        100,
+        200,
+        190,
+        280,
+        250,
+        345
+      ],
+      "illustrative_arithmetic": [
+        100,
+        90,
+        95
+      ],
+      "illustrative_simple_start_based_percentages": [
+        "100",
+        "9000/190",
+        "38"
+      ],
+      "finding": "Arithmetic makes 3 strictly smallest; simple percentage makes 3 larger than5. Book sufficient condition and video both-bases policy diverge. Numbers are invented counterexample operands, NOT market data, source example or valid Elliott count."
+    },
+    {
+      "case": "downward",
+      "proposed_endpoints": [
+        1000,
+        900,
+        910,
+        820,
+        850,
+        755
+      ],
+      "illustrative_arithmetic": [
+        100,
+        90,
+        95
+      ],
+      "finding": "Magnitude interpretation gives strict-shortest3; signed deltas would invert magnitude comparison. General downward mapping remains a proposed derivation, not selected authority."
+    },
+    {
+      "case": "path-extreme-versus-terminal",
+      "finding": "If 5 earlier reached a displacement exceeding3 but its proposed orthodox end is shorter, endpoint and maximum-excursion tests differ. Do not choose maximum, close or terminal by convenience."
+    },
+    {
+      "case": "truncated-five",
+      "finding": "Measure hypothetical5 from its own origin, not from3's extreme, if future operand contract permits it; do not omit5 or infer completed internals."
+    },
+    {
+      "case": "extended-visible-swings",
+      "finding": "Compare same-parent role1/3/5, not arbitrary three sublegs or every one of nine visible swings."
+    },
+    {
+      "case": "missing-or-invalid-operands",
+      "finding": "Missing pair, mixed units, unbound identity, developing1/3, zero percentage denominator or unsupported signed-price domain lacks executable interpretation. No P005 verdict specified by this documentation."
+    }
+  ]
+}
