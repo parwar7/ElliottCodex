@@ -1,0 +1,64 @@
+{
+  "reproduction": {
+    "implementation_commit": "441020019e92ab03070c87b42db16a1273dd2d5a",
+    "tests_added_before_runtime_edit": true,
+    "methods_run": 9,
+    "failing_methods": 6,
+    "passing_methods": 3,
+    "failing_subcases": 68,
+    "errors": 0,
+    "paths": [
+      "parent",
+      "recursive_child"
+    ],
+    "validation_entries": [
+      "standalone roles 0-4",
+      "standalone hypothesis",
+      "evaluation",
+      "complete result"
+    ],
+    "failure_breakdown": {
+      "equivalent_binding_substitution": 16,
+      "foreign_parent_binding_substitution": 16,
+      "original_binding_parent_mutation": 11,
+      "equivalent_parent_identity_substitution": 11,
+      "children_reordering": 6,
+      "child_substitution": 8
+    },
+    "already_passing_controls": [
+      "P004 request binding substitution",
+      "P004 request subject substitution",
+      "untouched exact ancestry"
+    ]
+  },
+  "after_repair": {
+    "initial_regression_methods": 9,
+    "initial_regression_passed": 9,
+    "additional_hardening": [
+      "equivalent ordered-child tuple substitution",
+      "child subject provenance mutation",
+      "issuance evidence remains identical after repeated failed validation"
+    ],
+    "ancestry_methods": 12,
+    "focused": {
+      "run": 35,
+      "passed": 35,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 34.498
+    },
+    "full": {
+      "run": 923,
+      "passed": 923,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 104.947
+    }
+  },
+  "semantic_preservation": [
+    "existing P004 rising/falling pass/fail and equality tests unchanged and passing",
+    "existing hypothesis-local invalidity tests unchanged and passing",
+    "no existing tests weakened",
+    "no certificates or behavior registrations added"
+  ]
+}

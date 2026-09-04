@@ -1,0 +1,60 @@
+{
+  "baseline_id": "NORMAL-IMPULSE-ANCESTRY-BINDING-IDENTITY-REPAIR-V1",
+  "repair_base": "441020019e92ab03070c87b42db16a1273dd2d5a",
+  "last_approved_head_as_designated_by_user": "3aa2cf7d38765219d54c59b4a448eb09377dd26a",
+  "project_manager_approval_claimed": false,
+  "root_cause": "The sidecar pinned the five-slot view object but not its nested OrderedChildBinding identity or original parent. The shared view's post-init checked type/cardinality only; individual role checks compared only their current child.",
+  "fix": [
+    "Factory captures one tuple of issuance-time binding, binding ID, parent, ordered children and subject metadata in a private weak-key view registry.",
+    "Validation reads the tuple without refreshing or rewriting it.",
+    "Each role validates the entire original binding and its own exact boundaries; hypothesis validation requires every role to share its view and local hypothesis identity.",
+    "Hypotheses check parent bridge binding ancestry or exact recursive-child evidence and competing-set membership.",
+    "P004 request binding must be the same issued binding, with the exact candidate subject."
+  ],
+  "scope": [
+    "one Runtime module modified",
+    "one new regression test file",
+    "one additive repair baseline"
+  ],
+  "supersedes": {
+    "baseline": "NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1",
+    "manifest_sha256": "b750db98693887e39b19cded5f2ea1026b74876547a50161dd79bd3065211241",
+    "affected_guarantees": [
+      "nested view/binding/parent/child identity retention",
+      "standalone role and hypothesis mutation rejection",
+      "P004 request ancestry consistency"
+    ],
+    "affected_implementation": {
+      "path": "src/elliott_runtime/analysis/normal_impulse_partial_evaluation.py",
+      "previous_sha256": "c8527c27a0b5c96b5e4eec6764b1a46d804e4568072654100cc96bae7c150470",
+      "repaired_sha256": "c44bba244cf9ea0d04464486b22dba8b4a4362f35e632a7a7168f76f40ea3d29"
+    },
+    "historical_baseline_artifacts_modified": false,
+    "other_baseline_semantics_superseded": false
+  },
+  "audit": {
+    "public_dataclass_fields_unchanged": true,
+    "imports_unchanged": true,
+    "state_mapping_ast_unchanged": true,
+    "source_entry_construction_ast_unchanged": true,
+    "factory_ast_unchanged_except_identity_capture_and_check": true,
+    "kernel_files_changed": [],
+    "new_filesystem_network_process_capabilities": false,
+    "no_snapshot_refresh_during_validation": true
+  },
+  "inventories": {
+    "executable_methodology": 10,
+    "structural_invalidity_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "frozen_states": {
+    "p005": "UNCHANGED_FROZEN_UNRESOLVED",
+    "p006": "UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
+    "base_case": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "flat": "UNCHANGED_FROZEN",
+    "triangle": "TRIANGLE_E_C_CONFLICT_FROZEN_UNTIL_SOURCE_CORPUS_CHANGE",
+    "legacy_analyze": "NOT_IMPLEMENTED"
+  },
+  "next_stage_implemented": false
+}

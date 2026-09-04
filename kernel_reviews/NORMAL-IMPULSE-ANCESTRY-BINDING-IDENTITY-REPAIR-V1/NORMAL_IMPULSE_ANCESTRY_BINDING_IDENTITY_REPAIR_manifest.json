@@ -1,0 +1,75 @@
+{
+  "baseline_id": "NORMAL-IMPULSE-ANCESTRY-BINDING-IDENTITY-REPAIR-V1",
+  "classification": "ADDITIVE_LOGICAL_REPAIR_BASELINE",
+  "repair_base": "441020019e92ab03070c87b42db16a1273dd2d5a",
+  "last_approved_head_as_designated_by_user": "3aa2cf7d38765219d54c59b4a448eb09377dd26a",
+  "project_manager_approval_claimed": false,
+  "superseded_baseline_id": "NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1",
+  "original_baseline_manifest_sha256": "b750db98693887e39b19cded5f2ea1026b74876547a50161dd79bd3065211241",
+  "supersession_scope": "Affected nested ancestry/mutation guarantees and normal_impulse_partial_evaluation.py hash only. Historical artifacts remain unchanged.",
+  "implementation_files": [
+    {
+      "path": "src/elliott_runtime/analysis/normal_impulse_partial_evaluation.py",
+      "byte_length": 34676,
+      "sha256": "c44bba244cf9ea0d04464486b22dba8b4a4362f35e632a7a7168f76f40ea3d29"
+    },
+    {
+      "path": "tests/test_normal_impulse_ancestry_identity.py",
+      "byte_length": 7212,
+      "sha256": "cd7d8768ee02bfb2d7bdde900500eb67d43295f461b9a3ff725d00f5f29a28a3"
+    }
+  ],
+  "baseline_artifacts": [
+    {
+      "path": "protected_integrity.json",
+      "byte_length": 11572,
+      "sha256": "2876816adfbb10bf640cafc0013930642e8e13a9b389072c0cb4ad70c370a93c"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 2057,
+      "sha256": "e16e2d87d3addcf7d8cffb5e9a45581cbae50fcefc287e840c836ff56b0a49cb"
+    },
+    {
+      "path": "regression_and_tests.json",
+      "byte_length": 1781,
+      "sha256": "138d5f48d363ea6cd9c4d94375107bb8513b131acf264b7e4ef2c3a595055af4"
+    },
+    {
+      "path": "repair_scope_and_audit.json",
+      "byte_length": 3009,
+      "sha256": "07080a5425391b461d9ae98a9515b5618a3d1263daba8219f6fa0fb91d12f858"
+    }
+  ],
+  "tests": {
+    "reproduction_methods": 9,
+    "reproduction_failing_subcases": 68,
+    "reproduction_errors": 0,
+    "ancestry_methods_after": 12,
+    "focused_passed": 35,
+    "full_passed": 923,
+    "failures_after": 0,
+    "errors_after": 0
+  },
+  "protected_integrity": {
+    "brain_version": "0.1.0",
+    "brain_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "brain_entries": 30,
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "source_entries": 21,
+    "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+    "pre_write_mismatches": 0,
+    "final_mismatches": 0,
+    "all_entries_verified_both_phases": true
+  },
+  "inventories": {
+    "executable_methodology": 10,
+    "structural_invalidity_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "methodology_changed": false,
+  "historical_baselines_modified": false,
+  "next_stage_implemented": false,
+  "protection_status": "Logical development repair baseline; no physical sealing or project-manager approval claimed."
+}

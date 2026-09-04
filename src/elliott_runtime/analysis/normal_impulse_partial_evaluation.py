@@ -211,9 +211,7 @@ class NormalImpulseRoleBinding(metaclass=_Sealed):
         if type(self.generated_candidate) is not GeneratedCandidateHypothesis:
             _fail("Role binding lost its exact generated candidate.")
         self.generated_candidate._validated()
-        if type(self.five_slot_view) is not NormalImpulseFiveSlotCandidateView:
-            _fail("Role binding requires the exact existing five-slot view.")
-        self.five_slot_view.__post_init__()
+        _validate_issued_view(self.five_slot_view, self.generated_candidate)
         if type(self.child_index) is not int or not 0 <= self.child_index < 5:
             _fail("Role index is outside the five-slot scope.")
         if self.component_role != _ROLES[self.child_index]:
@@ -262,6 +260,7 @@ class NormalImpulseEvaluationHypothesis(metaclass=_Sealed):
         current = tuple(getattr(self, name) for name in self.__dataclass_fields__ if name != "_snapshot")
         if len(current) != len(self._snapshot) or any(a is not b for a, b in zip(current, self._snapshot, strict=True)):
             _fail("Normal Impulse hypothesis changed after issuance.")
+        original_binding = _validate_issued_view(self.five_slot_view, self.generated_candidate)
         _validate_source(self.source)
         validate_competing_candidate_set_result(self.competing_candidate_set)
         if type(self.generated_candidate) is not GeneratedCandidateHypothesis:
@@ -271,11 +270,27 @@ class NormalImpulseEvaluationHypothesis(metaclass=_Sealed):
             _fail("Only an exact five-segment neutral candidate may form this hypothesis.")
         if not any(self.generated_candidate is item for item in self.competing_candidate_set.ordered_candidates):
             _fail("Hypothesis candidate is foreign to its exact competing set.")
+        if type(self.source) is FamilyHypothesisBridgeResult:
+            if self.competing_candidate_set is not self.source.competing_candidate_set or not any(
+                item.generated_candidate is self.generated_candidate and item.child_binding is original_binding
+                for item in self.source.candidate_evaluations
+            ):
+                _fail("Normal Impulse parent binding ancestry changed.")
+        elif not any(
+            item is self.generated_child_evidence and item.competing_candidate_set is self.competing_candidate_set
+            for item in self.source.generated_child_evidence
+        ):
+            _fail("Normal Impulse recursive-child ancestry changed.")
         if type(self.role_bindings) is not tuple or len(self.role_bindings) != 5:
             _fail("Normal Impulse hypothesis requires five exact role bindings.")
         for index, binding in enumerate(self.role_bindings):
             binding._validated()
-            if binding.generated_candidate is not self.generated_candidate or binding.child_index != index:
+            if (
+                binding.generated_candidate is not self.generated_candidate
+                or binding.child_index != index
+                or binding.five_slot_view is not self.five_slot_view
+                or binding.hypothesis_id is not self.hypothesis_id
+            ):
                 _fail("Normal Impulse role membership or order changed.")
         if self.family_scope is not NormalImpulseFamilyScope.NORMAL_IMPULSE:
             _fail("Normal Impulse family scope changed.")
@@ -318,6 +333,11 @@ class NormalImpulsePartialEvaluation(metaclass=_Sealed):
             _fail("Evaluation requires the exact existing P004 fact type.")
         if type(self.bounded_request) is not BoundedManualChartAnalysisRequest or type(self.bounded_result) is not BoundedManualChartAnalysisResult:
             _fail("Evaluation requires exact existing bounded methodology objects.")
+        if (
+            self.bounded_request.child_binding is not self.hypothesis.five_slot_view.binding
+            or self.bounded_request.subject is not self.hypothesis.generated_candidate.subject
+        ):
+            _fail("P004 request lost the exact hypothesis binding or candidate subject.")
         copy.copy(self.bounded_request)
         copy.copy(self.bounded_result)
         if self.bounded_request.manual_behavior_facts != (self.p004_fact,):
@@ -399,6 +419,30 @@ _ISSUED_ROLES: weakref.WeakKeyDictionary[NormalImpulseRoleBinding, GeneratedCand
 _ISSUED_HYPOTHESES: weakref.WeakKeyDictionary[NormalImpulseEvaluationHypothesis, GeneratedCandidateHypothesis] = weakref.WeakKeyDictionary()
 _ISSUED_EVALUATIONS: weakref.WeakKeyDictionary[NormalImpulsePartialEvaluation, P004Result] = weakref.WeakKeyDictionary()
 _ISSUED_RESULTS: weakref.WeakKeyDictionary[NormalImpulsePartialEvaluationResult, tuple[NormalImpulsePartialEvaluation, ...]] = weakref.WeakKeyDictionary()
+# Values contain no view reference, so the weak key can expire with its hypothesis.
+# Capture once in the factory; validation never writes or refreshes this evidence.
+_ISSUED_VIEWS: weakref.WeakKeyDictionary[NormalImpulseFiveSlotCandidateView, tuple[object, ...]] = weakref.WeakKeyDictionary()
+
+
+def _validate_issued_view(view, candidate) -> OrderedChildBinding:
+    if type(view) is not NormalImpulseFiveSlotCandidateView or type(candidate) is not GeneratedCandidateHypothesis:
+        _fail("Normal Impulse ancestry requires an exact issued view and candidate.")
+    evidence = _ISSUED_VIEWS.get(view)
+    if evidence is None:
+        _fail("Normal Impulse view has no issuance-time binding evidence.")
+    binding, binding_id, parent, children, subject_fields = evidence
+    if (
+        view.binding is not binding
+        or binding.binding_id is not binding_id
+        or binding.parent_subject is not parent
+        or candidate.subject is not parent
+        or binding.ordered_children is not children
+    ):
+        _fail("Normal Impulse view binding, parent, or ordered children changed after issuance.")
+    for subject, subject_id, provenance in subject_fields:
+        if subject.subject_id is not subject_id or subject.observation_provenance_ref is not provenance:
+            _fail("Normal Impulse subject identity metadata changed after issuance.")
+    return binding
 
 
 def _source_entries(request: NormalImpulsePartialEvaluationRequest):
@@ -462,6 +506,12 @@ def evaluate_normal_impulse_partial_scope(
     )
     for index, (candidate_set, candidate, binding, child_evidence) in enumerate(entries, 1):
         view = NormalImpulseFiveSlotCandidateView(binding)
+        _ISSUED_VIEWS[view] = (
+            binding, binding.binding_id, binding.parent_subject, binding.ordered_children,
+            tuple((subject, subject.subject_id, subject.observation_provenance_ref)
+                  for subject in (binding.parent_subject, *binding.ordered_children)),
+        )
+        _validate_issued_view(view, candidate)
         hypothesis_id = f"{request.request_id}:{candidate.candidate_id}:evaluate-as:NORMAL_IMPULSE"
         role_items = []
         for child_index, role in enumerate(_ROLES):
