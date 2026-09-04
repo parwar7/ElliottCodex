@@ -1,0 +1,11 @@
+{
+  "current_contracts":{
+    "GeometricPivotObservation":"project-data geometry only; elliott_endpoint_authority is always false",
+    "GeneratedCandidateHypothesis":"ordered selected pivots are retained exactly but candidate_hypothesis_only is true",
+    "ElliottFamilyEvaluationHypothesis":"evaluate-as family scope only; family validity and completion authority are false",
+    "SubjectBoundObservedPriceObservation":"untrusted caller-designated observed-price transport; establishes no endpoint, pivot, extreme or completion authority"
+  },
+  "prohibited_substitutions":["geometric pivot for orthodox Elliott endpoint","candidate segment endpoint for confirmed wave endpoint","close for high/low/extreme","endpoint-only comparison for whole-path territory","finer timeframe for lower Elliott degree"],
+  "triangle_e_c_rule":{"required_operand":"exact ending points of proposed C and E with source-authorized wave-end semantics","currently_available":false,"status":"SHARED_CONTRACT_REQUIRED","safe_future_contract":"identity-bound endpoint/path evidence that states its authority and price basis without validating a family"},
+  "developing_geometry":"UNRESOLVED_DEVELOPING_GEOMETRY; no permanent invalidity may be issued from a developing required endpoint under the current boundary"
+}

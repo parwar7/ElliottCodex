@@ -1,0 +1,16 @@
+{
+  "prior_git_head":"d224d13b061884c2e54002962f0cddffb0bcc614",
+  "change_scope":"new additive review artifacts only",
+  "runtime_source_files_modified":0,
+  "kernel_source_files_modified":0,
+  "test_files_modified":0,
+  "historical_baseline_files_modified":0,
+  "methodology_inventory_before":10,
+  "methodology_inventory_after":10,
+  "structural_producers_before":7,
+  "structural_producers_after":7,
+  "validated_family_producers_before":0,
+  "validated_family_producers_after":0,
+  "validated_family_issuances_before":0,
+  "validated_family_issuances_after":0
+}

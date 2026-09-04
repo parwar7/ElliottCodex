@@ -1,0 +1,19 @@
+{
+  "executed":false,
+  "reason":"No executable family-geometry behavior or safe nonfatal evaluator crossed the implementation gate. Running the existing Yahoo-to-recursive-family pipeline again would produce cardinality/internal-scope results but no new geometry result and could misleadingly imply evaluation.",
+  "prior_pipeline_state":"Monthly-to-Weekly, Weekly-to-Daily and Daily-to-1H mappings remain available as observation-resolution choices only.",
+  "parent_family_hypotheses_evaluated":0,
+  "child_family_hypotheses_evaluated":0,
+  "geometry_checks_executed":0,
+  "hard_satisfied":0,
+  "hard_violated":0,
+  "hard_unresolved":0,
+  "guideline_satisfied":0,
+  "guideline_not_satisfied":0,
+  "guideline_unresolved":0,
+  "new_structural_invalidity_certificates":0,
+  "family_hypotheses_eliminated":0,
+  "requirements_satisfied":0,
+  "validated_families":0,
+  "ranking":"none"
+}

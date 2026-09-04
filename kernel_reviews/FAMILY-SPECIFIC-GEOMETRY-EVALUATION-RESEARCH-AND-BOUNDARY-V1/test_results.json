@@ -1,0 +1,10 @@
+{
+  "complete":{"command":"python -m unittest discover -s tests","run":857,"passed":857,"failed":0,"errors":0,"seconds":50.129},
+  "focused_geometry":{"run":0,"passed":0,"failed":0,"reason":"Research-only gate; no executable geometry implementation or tests were added."},
+  "source_authority_checks":"PASS",
+  "endpoint_safety_checks":"PASS_BY_NON_IMPLEMENTATION",
+  "family_isolation_checks":"PASS_BY_NON_IMPLEMENTATION",
+  "authority_checks":"PASS_BY_NON_IMPLEMENTATION",
+  "resource_security_checks":"PASS_BY_NON_IMPLEMENTATION",
+  "forbidden_feature_checks":"PASS"
+}

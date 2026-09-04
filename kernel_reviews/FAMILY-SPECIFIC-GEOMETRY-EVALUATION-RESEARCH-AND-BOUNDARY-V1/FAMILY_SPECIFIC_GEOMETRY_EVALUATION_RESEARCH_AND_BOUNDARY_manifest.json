@@ -1,0 +1,32 @@
+{
+  "baseline_id":"FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1",
+  "created_date":"2026-09-04",
+  "classification":"ADDITIVE_LOGICAL_RESEARCH_BASELINE",
+  "implementation_gate":"FAMILY_GEOMETRY_BOUNDARY_ONLY",
+  "prior_git_head":"d224d13b061884c2e54002962f0cddffb0bcc614",
+  "protected_integrity":{"brain_version":"0.1.0","brain_manifest_sha256":"81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a","brain_entries":30,"brain_mismatches":0,"source_manifest_sha256":"ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089","source_entries":21,"source_mismatches":0},
+  "inventories":{"executable_methodology":10,"structural_invalidity_producers":7,"validated_family_producers":0,"validated_family_issuances":0,"p005":"UNCHANGED_FROZEN_UNRESOLVED","p006":"UNCHANGED_FROZEN_UNRESOLVED_CONFLICT","source_derived_base_case":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy_analyze":"NOT_IMPLEMENTED"},
+  "implementation":{"performed":false,"kernel_files_modified":0,"runtime_files_modified":0,"test_files_modified":0,"methodology_inventory_delta":0,"structural_producer_delta":0},
+  "decision":{"strongest_hard_finding":"TRIANGLE_E_MUST_NOT_EXCEED_C_ENDING_POINT","classification":"SOURCE_RULE","principle_id":null,"execution_status":"SHARED_CONTRACT_REQUIRED","blocker":"STRUCTURAL_ENDPOINT_AUTHORITY_REQUIRED"},
+  "baseline_artifacts":[
+    {"path":"adversarial_audit.json","byte_length":581,"sha256":"8651defaca3c82d8f6f71be668e21fbb97bac251e1c74878903455d10419f8bc"},
+    {"path":"BASELINE_README.md","byte_length":1367,"sha256":"c8c51bc8bdb07e8d9ff5f34534a9ab42c708792c660c27cbbcfb98fb97efd729"},
+    {"path":"direction_equality_semantics.json","byte_length":737,"sha256":"9c0eeead12633094b6a7df7da880846d9033214a8ac83badbb3cd80fdd6788b2"},
+    {"path":"endpoint_path_authority.json","byte_length":1293,"sha256":"baaa3e87dedd4750fcfcd8ec84a8d4a782b9c7a475ba21c962c6904b6d3e8d95"},
+    {"path":"geometry_authority_matrix.json","byte_length":1889,"sha256":"92f92410f9f4657fba2d7cc63b36012098b4985370124c536e1daed2084bafe6"},
+    {"path":"implementation_gate.json","byte_length":688,"sha256":"85e3db4a4686a4747c993c770987368b8fe78c06e76f78af6e6b30dee67a6955"},
+    {"path":"known_limitations_and_next_stage.json","byte_length":899,"sha256":"654be2d71f9bc441cd2585188bff9b4b8e06d7940364acaa2bd23eb9a17ab2e0"},
+    {"path":"nvda_experiment.json","byte_length":885,"sha256":"9799872fef418620ae07ab100597d41a7520bfe3312d781768426b80811c5485"},
+    {"path":"parent_child_integration_assessment.json","byte_length":729,"sha256":"fac2cf947f0b9a3e5bff5d4bd8e018830d9b7d42137e8bb3a245bfced816fa6c"},
+    {"path":"prior_baseline_delta.json","byte_length":567,"sha256":"97c3684276d5a6224c6635f6bc42812d823491f451a25bac2c1c4c048fe03fe5"},
+    {"path":"protected_source_findings.json","byte_length":3170,"sha256":"23ab8851dd7e9a5c682651ff83bfa6b49987e68c9ae0c051d600b431ebeefcb2"},
+    {"path":"test_results.json","byte_length":572,"sha256":"688a4ae70ef4a9d0df9eef017541d04c2c1acd9b081bc150f5d8d848c9444b73"}
+  ],
+  "tests":{"complete_suite":857,"passes":857,"failures":0,"errors":0,"focused_geometry":0,"adversarial_audit":"PASS"},
+  "prior_checkpoint":{"baseline_id":"RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1","manifest_sha256":"eaa3a9f2cd2ae7e0e685f7d456dbeb8f465b28c111a812e943ed9434a1597ef7"},
+  "prior_review_manifest_count":46,
+  "historical_baselines_modified":false,
+  "nvda_experiment":"NOT_RUN_NO_EXECUTABLE_GEOMETRY_GATE",
+  "next_stage":"ENDPOINT-PATH-EVIDENCE-CONTRACT-V1",
+  "protection_status":"Development logical baseline only; no physical immutability, Elliott endpoint, family, degree, rank, forecast or trading authority is claimed."
+}

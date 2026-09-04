@@ -1,0 +1,11 @@
+{
+  "implemented":false,
+  "triangle_e_c_rule":{
+    "direction":"UNRESOLVED until an approved endpoint/path evidence contract defines same-side comparison for rising and falling triangle hypotheses",
+    "equality":"Source wording 'must not exceed' suggests equality is non-violating, but no executable behavior is created before operand and direction authority are locked",
+    "tolerance":"none authorized",
+    "floating_basis":"no arithmetic behavior implemented",
+    "price_basis":"UNRESOLVED; high, low, close, intrabar extreme and orthodox endpoint are not silently substituted"
+  },
+  "reason":"Direction and equality cannot make an unauthorized operand authoritative. They belong in the proposed contract semantics review."
+}

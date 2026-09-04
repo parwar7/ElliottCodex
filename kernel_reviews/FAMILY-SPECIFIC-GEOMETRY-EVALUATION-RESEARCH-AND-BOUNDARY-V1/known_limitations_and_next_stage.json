@@ -1,0 +1,13 @@
+{
+  "known_limitations":[
+    "No source-authorized Elliott endpoint or whole-path evidence transport exists.",
+    "Triangle E-versus-C is source-rule-supported but not executable against neutral geometric endpoints.",
+    "Flat geometry is subtype-dependent and current hypotheses do not encode subtypes.",
+    "Triangle boundary subtype and trendline semantics remain unresolved.",
+    "Ending-diagonal position and geometry remain non-executable.",
+    "No right-look, Fibonacci, channel, indicator, rank, forecast or trade layer was added.",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND remains binding."
+  ],
+  "exact_next_stage":"ENDPOINT-PATH-EVIDENCE-CONTRACT-V1",
+  "selection_reason":"The narrow exact triangle rule is blocked specifically by missing identity-bound wave-end/path operand authority. Resolving that transport boundary is prerequisite to honest structural geometry execution."
+}

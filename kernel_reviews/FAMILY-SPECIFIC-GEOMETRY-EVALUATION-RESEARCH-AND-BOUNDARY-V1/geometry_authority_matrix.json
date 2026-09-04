@@ -1,0 +1,13 @@
+{
+  "matrix":[
+    {"family":"SINGLE_ZIGZAG","property":"relative A/C length or Fibonacci relation","classification":"SOURCE_GUIDELINE_OR_OBSERVATION","structural_invalidator":false,"reason":"No universal compulsory threshold and no broad Fibonacci authority."},
+    {"family":"FLAT","property":"B return and C endpoint relationship","classification":"SOURCE_DEFINITION_WITH_SUBTYPE_DEPENDENCY","structural_invalidator":false,"reason":"Regular, expanded and running cases differ; approximate wording and absent subtype authority prevent one generic predicate."},
+    {"family":"TRIANGLE","property":"contracting/expanding/ascending/descending boundary form","classification":"SOURCE_DEFINITION","structural_invalidator":false,"reason":"Subtype and trendline semantics are not represented; contraction cannot be imposed on all triangles."},
+    {"family":"TRIANGLE","property":"E must not exceed C ending point","classification":"SOURCE_RULE","structural_invalidator":false,"reason":"Rule authority is exact, but required wave-end operand authority is absent from current contracts."},
+    {"family":"ENDING_DIAGONAL","property":"wave-one/four overlap","classification":"SOURCE_GUIDELINE","structural_invalidator":false,"reason":"Protected wording is permissive and usual, not compulsory."},
+    {"family":"ENDING_DIAGONAL","property":"wedge/converging boundary appearance","classification":"SOURCE_GUIDELINE","structural_invalidator":false,"reason":"Typical geometry and right-look context are nonfatal."},
+    {"family":"ENDING_DIAGONAL","property":"terminal position","classification":"SOURCE_DEFINITION","structural_invalidator":false,"reason":"Current hypothesis lacks trusted position context."}
+  ],
+  "guideline_policy":"A guideline, observation or trading practice cannot create CertifiedStructuralInvalidity and is not converted into a score.",
+  "closed_world_inference":false
+}

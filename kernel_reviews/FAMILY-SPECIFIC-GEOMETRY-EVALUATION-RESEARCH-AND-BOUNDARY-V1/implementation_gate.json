@@ -1,0 +1,10 @@
+{
+  "gate":"FAMILY_GEOMETRY_BOUNDARY_ONLY",
+  "implementation_performed":false,
+  "methodology_behavior_added":false,
+  "runtime_geometry_evaluator_added":false,
+  "structural_invalidity_producer_added":false,
+  "nonfatal_guideline_observer_added":false,
+  "reason":"The only narrow exact hard discriminator found requires trusted wave-end operands absent from the current hypothesis and observed-price transport contracts. Other family geometry is guideline-, subtype-, position-, path- or right-look-dependent.",
+  "approval_boundary":"A source-neutral endpoint/path evidence contract must be designed and reviewed before the triangle rule can be proposed as executable methodology."
+}
