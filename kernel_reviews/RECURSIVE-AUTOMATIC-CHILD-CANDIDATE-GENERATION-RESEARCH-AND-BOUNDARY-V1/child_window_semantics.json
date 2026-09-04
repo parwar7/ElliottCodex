@@ -1,0 +1,10 @@
+{
+  "classification":"PROPOSED_CHILD_EVALUATION_WINDOW",
+  "boundaries":"exact adjacent selected parent-pivot identities",
+  "inclusion":"inclusive of both exact boundary pivots and every exact source geometric pivot between them",
+  "outside_pivots":"excluded",
+  "observation_ancestry":"full exact NormalizedMarketObservations and GeometricPivotDiscoveryResult identities retained",
+  "synthetic_ohlcv":false,
+  "window_is_elliott_endpoint_authority":false,
+  "insufficient_pivots":"recorded as INSUFFICIENT_GEOMETRIC_PIVOTS without window expansion"
+}

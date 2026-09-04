@@ -1,0 +1,11 @@
+{
+  "automatic_child_levels":1,
+  "same_timeframe_only":true,
+  "finer_timeframe_selection":false,
+  "timeframe_implies_degree":false,
+  "recursive_depth_implies_degree":false,
+  "automatic_degree_assignment":false,
+  "p023_invoked_or_mutated":false,
+  "finer_data_would_imply_visibility":false,
+  "future_finer_resolution_data":"must be explicit caller/workflow selection and remains separate from Elliott degree"
+}

@@ -1,0 +1,18 @@
+{
+  "implementation_gate":"BOUNDED_RECURSIVE_CHILD_CANDIDATE_GENERATION_SAFE",
+  "classification":"PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "public_api":{
+    "entrypoint":"generate_child_candidate_evidence",
+    "request":"RecursiveChildCandidateGenerationRequest",
+    "config":"ChildCandidateGenerationConfig",
+    "result":"RecursiveChildCandidateGenerationResult",
+    "window":"ProposedChildEvaluationWindow",
+    "evidence":"GeneratedChildCandidateEvidence",
+    "outcome":"ChildRequirementGenerationOutcome",
+    "diagnostic":"ChildCandidateGenerationDiagnostic"
+  },
+  "scope_extension":"CandidateGenerationRequest.scoped_pivots accepts an optional exact identity-bound subset of its existing GeometricPivotDiscoveryResult.",
+  "preflight":"estimate_candidate_generation_demand computes bounded candidate demand before materialization.",
+  "automatic_levels":1,
+  "methodology_behaviors_added":0
+}

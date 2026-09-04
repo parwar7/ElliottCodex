@@ -1,0 +1,8 @@
+{
+  "classification":"CALLER_SUPPLIED_OPERATIONAL_BOUND",
+  "required_explicit_bounds":["max_requirements_processed","max_total_child_windows","max_pivots_per_child_window","max_child_candidate_span_pivots","max_child_skipped_pivots","max_child_candidates_per_requirement","max_total_child_candidates","allowed_child_candidate_shapes"],
+  "enforcement":"fail closed before candidate materialization",
+  "unbounded_combinatorics":false,
+  "hidden_elliott_thresholds":false,
+  "candidate_order":"existing deterministic enumeration order"
+}

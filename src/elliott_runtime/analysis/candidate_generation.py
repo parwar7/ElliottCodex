@@ -214,6 +214,7 @@ class CandidateGenerationRequest(metaclass=_SealedCandidateType):
     config: CandidateGenerationConfig
     methodology_delegations: tuple[CandidateMethodologyDelegation, ...]
     provenance_refs: tuple[str, ...]
+    scoped_pivots: tuple[GeometricPivotObservation, ...] | None = None
     _snapshot: tuple[object, ...] = field(init=False, repr=False)
 
     def __post_init__(self) -> None:
@@ -222,6 +223,7 @@ class CandidateGenerationRequest(metaclass=_SealedCandidateType):
         if type(self.subject) is not AnalyzedWaveSubject:
             _fail("subject must be one exact AnalyzedWaveSubject.")
         _validate_geometry_relationship(self.observations, self.geometric_pivots)
+        _validate_scoped_pivots(self.scoped_pivots, self.geometric_pivots)
         if type(self.config) is not CandidateGenerationConfig:
             _fail("config must be one exact CandidateGenerationConfig.")
         self.config._validated()
@@ -253,6 +255,7 @@ class CandidateGenerationRequest(metaclass=_SealedCandidateType):
                 self.config,
                 self.methodology_delegations,
                 self.provenance_refs,
+                self.scoped_pivots,
             ),
         )
 
@@ -268,6 +271,7 @@ class CandidateGenerationRequest(metaclass=_SealedCandidateType):
             self.config,
             self.methodology_delegations,
             self.provenance_refs,
+            self.scoped_pivots,
         )
         if len(current) != len(self._snapshot) or any(
             observed is not expected
@@ -449,8 +453,20 @@ class CandidateGenerationResult(metaclass=_SealedCandidateType):
             _fail("Candidate-generation result lost exact request ancestry.")
         if type(self.candidates) is not tuple:
             _fail("Candidate-generation result candidates must be one exact tuple.")
+        permitted = (
+            self.input_geometric_pivots.pivots
+            if self.request.scoped_pivots is None
+            else self.request.scoped_pivots
+        )
+        permitted_by_id = {id(pivot): pivot for pivot in permitted}
         for candidate in self.candidates:
             candidate._validated()
+            if any(
+                id(pivot) not in permitted_by_id
+                or permitted_by_id[id(pivot)] is not pivot
+                for pivot in candidate.ordered_selected_pivots
+            ):
+                _fail("A generated candidate escaped the exact supplied pivot scope.")
         if type(self.diagnostics) is not tuple:
             _fail("Candidate-generation diagnostics must be one exact tuple.")
         for diagnostic in self.diagnostics:
@@ -537,28 +553,48 @@ def _validate_geometry_relationship(
     return result
 
 
+def _validate_scoped_pivots(
+    scoped_pivots: object,
+    result: GeometricPivotDiscoveryResult,
+) -> tuple[GeometricPivotObservation, ...] | None:
+    if scoped_pivots is None:
+        return None
+    if type(scoped_pivots) is not tuple or any(
+        type(pivot) is not GeometricPivotObservation for pivot in scoped_pivots
+    ):
+        _fail("scoped_pivots must be None or one exact tuple of exact pivots.")
+    source_by_id = {id(pivot): pivot for pivot in result.pivots}
+    seen: set[int] = set()
+    previous = None
+    for pivot in scoped_pivots:
+        if id(pivot) not in source_by_id or source_by_id[id(pivot)] is not pivot:
+            _fail("Every scoped pivot must retain exact source-result identity.")
+        if id(pivot) in seen:
+            _fail("scoped_pivots cannot contain duplicate pivot identities.")
+        if previous is not None and pivot.timestamp_utc <= previous:
+            _fail("scoped_pivots must retain strict source chronology.")
+        seen.add(id(pivot))
+        previous = pivot.timestamp_utc
+    return scoped_pivots
+
+
 def _candidate_specs(
     request: CandidateGenerationRequest,
 ) -> tuple[list[tuple[str, CandidateHypothesisShape, tuple[GeometricPivotObservation, ...]]], int, int]:
-    pivots = request.geometric_pivots.pivots
+    source_pivots = request.geometric_pivots.pivots
+    pivots = (
+        source_pivots
+        if request.scoped_pivots is None
+        else request.scoped_pivots
+    )
+    source_indices = {id(pivot): index for index, pivot in enumerate(source_pivots)}
     considered_count = min(len(pivots), request.config.max_pivots_considered)
     offset = 0 if request.config.pivot_window is CandidatePivotWindow.EARLIEST else len(pivots) - considered_count
     specs: list[tuple[str, CandidateHypothesisShape, tuple[GeometricPivotObservation, ...]]] = []
-    rejected = 0
-    eligible = 0
-    for shape in request.config.allowed_candidate_shapes:
-        required = shape.selected_pivot_count
-        allowed_span = min(
-            request.config.max_candidate_span_pivots,
-            required + request.config.max_skipped_pivots,
-        )
-        shape_eligible = sum(
-            comb(min(considered_count - first - 1, allowed_span - 1), required - 1)
-            for first in range(considered_count)
-            if min(considered_count - first - 1, allowed_span - 1) >= required - 1
-        )
-        eligible += shape_eligible
-        rejected += comb(considered_count, required) - shape_eligible
+    eligible, rejected = estimate_candidate_generation_demand(
+        considered_count,
+        request.config,
+    )
     if eligible > request.config.max_candidates_generated:
         raise CandidateGenerationLimitExceeded(
             "Candidate enumeration exceeds max_candidates_generated; no candidate enumeration or partial result occurred."
@@ -574,17 +610,54 @@ def _candidate_specs(
             end = min(considered_count, first + allowed_span)
             for tail in combinations(range(first + 1, end), required - 1):
                 indices = (first,) + tail
-                absolute = tuple(offset + index for index in indices)
+                selected_indices = tuple(offset + index for index in indices)
+                absolute = tuple(
+                    source_indices[id(pivots[index])] for index in selected_indices
+                )
                 candidate_id = (
                     f"{request.request_id}:{shape.value}:"
                     + "-".join(str(index) for index in absolute)
                 )
-                selected = tuple(pivots[index] for index in absolute)
+                selected = tuple(pivots[index] for index in selected_indices)
                 specs.append((candidate_id, shape, selected))
     if len(specs) != eligible:
         _fail("Bounded candidate enumeration differed from its precomputed count.")
-    excluded = len(pivots) - considered_count
+    excluded = len(source_pivots) - considered_count
     return specs, rejected, excluded
+
+
+def estimate_candidate_generation_demand(
+    pivot_count: int,
+    config: CandidateGenerationConfig,
+) -> tuple[int, int]:
+    """Return exact eligible/rejected counts without materializing candidates."""
+
+    if type(pivot_count) is not int or pivot_count < 0:
+        _fail("pivot_count must be one exact non-negative integer.")
+    if type(config) is not CandidateGenerationConfig:
+        _fail("config must be one exact CandidateGenerationConfig.")
+    config._validated()
+    considered_count = min(pivot_count, config.max_pivots_considered)
+    eligible = 0
+    rejected = 0
+    for shape in config.allowed_candidate_shapes:
+        required = shape.selected_pivot_count
+        allowed_span = min(
+            config.max_candidate_span_pivots,
+            required + config.max_skipped_pivots,
+        )
+        shape_eligible = sum(
+            comb(min(considered_count - first - 1, allowed_span - 1), required - 1)
+            for first in range(considered_count)
+            if min(considered_count - first - 1, allowed_span - 1) >= required - 1
+        )
+        eligible += shape_eligible
+        rejected += (
+            comb(considered_count, required) - shape_eligible
+            if considered_count >= required
+            else 0
+        )
+    return eligible, rejected
 
 
 def _review_state(
@@ -708,5 +781,6 @@ __all__ = [
     "GeneratedCandidateHypothesis",
     "GeneratedCandidateReviewState",
     "generate_candidate_hypotheses",
+    "estimate_candidate_generation_demand",
     "validate_candidate_generation_result",
 ]

@@ -780,6 +780,16 @@ def evaluate_family_internal_subdivisions(
     return result._validated()
 
 
+def validate_family_internal_subdivision_evaluation_result(
+    result: object,
+) -> FamilyInternalSubdivisionEvaluationResult:
+    """Return one exact live issued and unchanged internal-evaluation result."""
+
+    if type(result) is not FamilyInternalSubdivisionEvaluationResult:
+        _fail("Expected one exact FamilyInternalSubdivisionEvaluationResult.")
+    return result._validated()
+
+
 __all__ = [
     "ARTIFACT_CLASSIFICATION",
     "CHILD_EVIDENCE_CLASSIFICATION",
@@ -803,4 +813,5 @@ __all__ = [
     "InternalRequirementStatus",
     "RequiredInternalShape",
     "evaluate_family_internal_subdivisions",
+    "validate_family_internal_subdivision_evaluation_result",
 ]

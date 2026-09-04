@@ -1,0 +1,13 @@
+{
+  "source_lock":["protected educational videos Volumes 1-10 and transcripts","approved Frost/Prechter book"],
+  "finding":"Protected sources define internal subdivision expectations for supported family hypotheses but do not provide a terminal/base-case family producer or a mechanical automatic child-family discovery procedure.",
+  "supported_requirement_matrix":{
+    "SINGLE_ZIGZAG":["MOTIVE_FIVE_FAMILY_REQUIRED","CORRECTIVE_THREE_FAMILY_REQUIRED","MOTIVE_FIVE_FAMILY_REQUIRED"],
+    "FLAT":["CORRECTIVE_THREE_FAMILY_REQUIRED","CORRECTIVE_THREE_FAMILY_REQUIRED","MOTIVE_FIVE_FAMILY_REQUIRED"],
+    "TRIANGLE":["CORRECTIVE_FAMILY_REQUIRED","CORRECTIVE_FAMILY_REQUIRED","CORRECTIVE_FAMILY_REQUIRED","CORRECTIVE_FAMILY_REQUIRED","CORRECTIVE_FAMILY_REQUIRED"],
+    "ENDING_DIAGONAL":["THREE_WAVE_STRUCTURE_REQUIRED","THREE_WAVE_STRUCTURE_REQUIRED","THREE_WAVE_STRUCTURE_REQUIRED","THREE_WAVE_STRUCTURE_REQUIRED","THREE_WAVE_STRUCTURE_REQUIRED"]
+  },
+  "authority_boundary":"Automatic child enumeration is PROJECT_ANALYSIS_INFRASTRUCTURE and cannot convert a requirement into proof.",
+  "blocked_families":["NORMAL_IMPULSE","LEADING_DIAGONAL","WXY","WXYXZ"],
+  "unchanged_blockers":["P005 frozen/unresolved","P006 frozen/unresolved/conflicted","SOURCE_DERIVED_BASE_CASE_NOT_FOUND"]
+}

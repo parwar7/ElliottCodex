@@ -1,0 +1,6 @@
+{
+  "known_limitations":["same-timeframe exact child windows may contain too few geometric pivots for any neutral child shape","no automatic finer-resolution observation selection","one automatic child level only","requirements remain expectations rather than proof","no terminal/base-case family authority","no degree assignment","no family ranking","P005 unresolved","P006 unresolved/conflicted"],
+  "actual_nvda_blocker":"All Monthly, Weekly, and Daily exact child windows were insufficient under the explicit experiment configuration.",
+  "next_stage":"EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1",
+  "next_stage_reason":"The first empirical blocker is absence of explicit finer-resolution observations inside exact child intervals; any such selection must remain caller/workflow-controlled and must not imply lower Elliott degree or P023 visibility."
+}

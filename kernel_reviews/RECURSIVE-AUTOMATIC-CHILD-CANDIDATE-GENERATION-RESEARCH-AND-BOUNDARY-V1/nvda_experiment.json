@@ -1,0 +1,16 @@
+{
+  "classification":"READ_ONLY_PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "provider":"YAHOO_FINANCE_CHART",
+  "symbol":"NVDA",
+  "retrieved_at_stage_date":"2026-09-04",
+  "external_data_warning":"Yahoo output is mutable external data and may change on later retrieval.",
+  "geometry_config":{"method":"WINDOWED_LOCAL_EXTREMA","left_window_bars":2,"right_window_bars":2,"equal_extreme_policy":"LAST","include_developing":true},
+  "parent_candidate_config":{"max_pivots_considered":8,"max_candidate_span_pivots":6,"max_skipped_pivots":1,"max_candidates_generated":100,"allowed_candidate_shapes":["THREE_SEGMENT_HYPOTHESIS","FIVE_SEGMENT_HYPOTHESIS"],"pivot_window":"LATEST"},
+  "child_config":{"max_requirements_processed":200,"max_total_child_windows":200,"max_pivots_per_child_window":8,"max_child_candidate_span_pivots":6,"max_child_skipped_pivots":1,"max_child_candidates_per_requirement":50,"max_total_child_candidates":2000,"allowed_child_candidate_shapes":["THREE_SEGMENT_HYPOTHESIS","FIVE_SEGMENT_HYPOTHESIS"]},
+  "results":{
+    "1mo":{"input_bars":334,"geometric_pivots":71,"parent_neutral_candidates":20,"family_hypotheses":40,"internal_requirements":132,"requirements_processed":132,"sufficient_interval_requirements":0,"requirements_with_generated_evidence":0,"insufficient_interval_requirements":132,"child_competing_sets":0,"neutral_child_candidates":0,"resource_bound_rejections":0,"developing_windows":10,"structurally_blocked_family_hypotheses":0,"internally_unresolved_family_hypotheses":40,"current_internal_scope_reviewed_hypotheses":0,"base_case_blocked_counts":0,"source_sha256":"25b0876b6a58e4b591f8566900678751837fbe0f16e973675195f4ed6de2ad1a","warnings":[]},
+    "1wk":{"input_bars":1443,"geometric_pivots":369,"parent_neutral_candidates":20,"family_hypotheses":40,"internal_requirements":132,"requirements_processed":132,"sufficient_interval_requirements":0,"requirements_with_generated_evidence":0,"insufficient_interval_requirements":132,"child_competing_sets":0,"neutral_child_candidates":0,"resource_bound_rejections":0,"developing_windows":10,"structurally_blocked_family_hypotheses":0,"internally_unresolved_family_hypotheses":40,"current_internal_scope_reviewed_hypotheses":0,"base_case_blocked_counts":0,"source_sha256":"a4901dd9211ba7a58460ee3d55025b409033121e7e6db45264e5afe70c6a4c23","warnings":[]},
+    "1d":{"input_bars":6948,"geometric_pivots":1811,"parent_neutral_candidates":20,"family_hypotheses":40,"internal_requirements":132,"requirements_processed":132,"sufficient_interval_requirements":0,"requirements_with_generated_evidence":0,"insufficient_interval_requirements":132,"child_competing_sets":0,"neutral_child_candidates":0,"resource_bound_rejections":0,"developing_windows":10,"structurally_blocked_family_hypotheses":0,"internally_unresolved_family_hypotheses":40,"current_internal_scope_reviewed_hypotheses":0,"base_case_blocked_counts":0,"source_sha256":"ead0229954da129a3c96da85b773e96523fb9d40e2f828fb15d4e0977534c963","warnings":[]}
+  },
+  "interpretation":"All exact same-timeframe child windows lacked enough geometric pivots for either permitted neutral shape. Every requirement remained unresolved; no window was expanded and no child evidence or family assertion was fabricated."
+}

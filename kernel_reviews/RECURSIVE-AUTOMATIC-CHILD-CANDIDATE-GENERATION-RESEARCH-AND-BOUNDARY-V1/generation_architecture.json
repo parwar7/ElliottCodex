@@ -1,0 +1,12 @@
+{
+  "pipeline":["exact family-internal evaluation","missing internal requirement","exact proposed-child evaluation window","existing neutral candidate generator","existing competing-candidate set","existing unresolved recursive node","existing family-internal evaluator"],
+  "candidate_shapes":["THREE_SEGMENT_HYPOTHESIS","FIVE_SEGMENT_HYPOTHESIS"],
+  "requirement_narrows_shape":false,
+  "candidate_is_validated_child_wave":false,
+  "candidate_is_validated_internal_family":false,
+  "candidate_satisfies_requirement":false,
+  "candidate_has_degree_authority":false,
+  "family_assignment":false,
+  "ranking":false,
+  "methodology_certificate_issuance":false
+}

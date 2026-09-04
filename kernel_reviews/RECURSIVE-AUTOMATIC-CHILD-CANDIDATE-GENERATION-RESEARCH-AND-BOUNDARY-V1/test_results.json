@@ -1,0 +1,5 @@
+{
+  "focused":{"command":"python -m unittest discover -s tests -p test_recursive_child_candidate_generation.py","tests":17,"failures":0,"errors":0,"result":"PASS"},
+  "complete":{"command":"python -m unittest discover -s tests","tests":830,"failures":0,"errors":0,"result":"PASS"},
+  "coverage_topics":["exact identity ancestry","inclusive child windows","outside-pivot exclusion","existing generator reuse","existing competing-set reuse","neutral-shape non-authority","insufficient-pivot unresolved state","developing-state retention","scope rejection","resource caps","exact-type and mutation rejection","one-level recursion","degree/timeframe/P023 separation","family isolation","registry/base-case invariants","forbidden-feature absence","methodology inventory"]
+}

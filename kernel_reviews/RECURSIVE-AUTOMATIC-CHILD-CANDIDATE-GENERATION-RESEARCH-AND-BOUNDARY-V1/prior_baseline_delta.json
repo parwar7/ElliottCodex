@@ -1,0 +1,7 @@
+{
+  "prior_baseline":"FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1",
+  "prior_manifest_sha256":"5e7d29eec61ade0d975b2dea2bbcdd17a7e3f8283c7f3d6f93b197ace3bfbd84",
+  "prior_git_head":"83ed6a02f52ee83a0e08a781157aa362a4e5ed10",
+  "additions":["exact optional pivot scope for existing neutral generator","candidate-demand preflight","one-level bounded neutral child evidence generation","exact internal-evaluation result validator","focused tests","this additive baseline"],
+  "unchanged":["10 executable methodology behaviors","7 structural-invalidity producers","0 validated-family producers","0 validated-family issuances","P005","P006 conflict","SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy analyze NOT_IMPLEMENTED","all historical baselines"]
+}
