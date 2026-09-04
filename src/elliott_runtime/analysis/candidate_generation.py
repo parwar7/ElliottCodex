@@ -14,6 +14,7 @@ from enum import StrEnum
 from itertools import combinations
 from math import comb
 from typing import NoReturn
+import weakref
 
 from elliott_methodology_kernel import (
     AnalyzedWaveSubject,
@@ -43,6 +44,9 @@ DEGREE_AUTHORITY = False
 TIMEFRAME_IS_NOT_DEGREE = True
 _MAX_PIVOTS_CONSIDERED = 10_000
 _MAX_CANDIDATES_GENERATED = 100_000
+_ISSUED_RESULTS: weakref.WeakKeyDictionary[
+    CandidateGenerationResult, tuple[GeneratedCandidateHypothesis, ...]
+] = weakref.WeakKeyDictionary()
 
 
 class CandidateGenerationError(ValueError):
@@ -279,15 +283,28 @@ class CandidateGenerationDiagnostic(metaclass=_SealedCandidateType):
     code: str
     count: int
     detail: str
+    _snapshot: tuple[object, ...] = field(init=False, repr=False)
 
     def __post_init__(self) -> None:
         _text(self.code, "diagnostic code")
         _text(self.detail, "diagnostic detail")
         if type(self.count) is not int or self.count < 0:
             _fail("diagnostic count must be one non-negative exact integer.")
+        object.__setattr__(self, "_snapshot", (self.code, self.count, self.detail))
+
+    def _validated(self) -> CandidateGenerationDiagnostic:
+        if type(self) is not CandidateGenerationDiagnostic:
+            _fail("Candidate diagnostic must have its exact reviewed type.")
+        current = (self.code, self.count, self.detail)
+        if len(current) != len(self._snapshot) or any(
+            observed is not expected
+            for observed, expected in zip(current, self._snapshot, strict=True)
+        ):
+            _fail("Candidate diagnostic changed after construction.")
+        return self
 
 
-@dataclass(frozen=True, slots=True, eq=False)
+@dataclass(frozen=True, slots=True, eq=False, weakref_slot=True)
 class GeneratedCandidateHypothesis(metaclass=_SealedCandidateType):
     candidate_id: str
     subject: AnalyzedWaveSubject
@@ -306,6 +323,7 @@ class GeneratedCandidateHypothesis(metaclass=_SealedCandidateType):
     elliott_validity_authority: bool = False
     family_authority: bool = False
     degree_authority: bool = False
+    _snapshot: tuple[object, ...] = field(init=False, repr=False)
 
     def __post_init__(self) -> None:
         if self.candidate_hypothesis_only is not True or any(
@@ -317,9 +335,73 @@ class GeneratedCandidateHypothesis(metaclass=_SealedCandidateType):
             )
         ):
             _fail("Generated candidates cannot carry Elliott authority.")
+        if type(self.candidate_id) is not str or self.candidate_id.strip() == "":
+            _fail("Generated candidate_id must be one exact non-blank string.")
+        if type(self.subject) is not AnalyzedWaveSubject:
+            _fail("Generated candidate subject must have its exact reviewed type.")
+        if type(self.source_observations) is not NormalizedMarketObservations:
+            _fail("Generated candidate observations must have their exact type.")
+        if type(self.source_geometric_pivots) is not GeometricPivotDiscoveryResult:
+            _fail("Generated candidate geometric ancestry must have its exact type.")
+        if type(self.ordered_selected_pivots) is not tuple or any(
+            type(pivot) is not GeometricPivotObservation
+            for pivot in self.ordered_selected_pivots
+        ):
+            _fail("Generated candidate pivots must be one exact tuple.")
+        if type(self.candidate_shape) is not CandidateHypothesisShape:
+            _fail("Generated candidate shape must have its exact reviewed type.")
+        if len(self.ordered_selected_pivots) != self.candidate_shape.selected_pivot_count:
+            _fail("Generated candidate shape and selected-pivot count differ.")
+        if type(self.generation_config) is not CandidateGenerationConfig:
+            _fail("Generated candidate config must have its exact reviewed type.")
+        _text(self.generation_reason, "generation_reason")
+        _refs(self.existing_behaviors_executed, "existing_behaviors_executed")
+        if type(self.review_state) is not GeneratedCandidateReviewState:
+            _fail("Generated candidate review state must have its exact reviewed type.")
+        _refs(self.unresolved_reasons, "unresolved_reasons")
+        if self.downstream_methodology_result is not None:
+            if type(self.downstream_methodology_result) is not BoundedManualChartAnalysisResult:
+                _fail("Downstream methodology result has an unexpected type.")
+            try:
+                copy.copy(self.downstream_methodology_result)
+            except Exception as error:
+                raise CandidateGenerationError("Downstream methodology result changed.") from error
+        _refs(self.provenance_refs)
+        object.__setattr__(
+            self,
+            "_snapshot",
+            tuple(
+                getattr(self, name)
+                for name in self.__dataclass_fields__
+                if name != "_snapshot"
+            ),
+        )
+
+    def _validated(self) -> GeneratedCandidateHypothesis:
+        if type(self) is not GeneratedCandidateHypothesis:
+            _fail("Generated candidate must have its exact reviewed type.")
+        current = tuple(
+            getattr(self, name)
+            for name in self.__dataclass_fields__
+            if name != "_snapshot"
+        )
+        if len(current) != len(self._snapshot) or any(
+            observed is not expected
+            for observed, expected in zip(current, self._snapshot, strict=True)
+        ):
+            _fail("Generated candidate changed after creation.")
+        if self.downstream_methodology_result is not None:
+            try:
+                copy.copy(self.downstream_methodology_result)
+            except Exception as error:
+                raise CandidateGenerationError("Downstream methodology result changed.") from error
+        return self
+
+    def __reduce_ex__(self, protocol: int) -> object:
+        raise TypeError("Generated candidate hypotheses cannot be pickled.")
 
 
-@dataclass(frozen=True, slots=True, eq=False)
+@dataclass(frozen=True, slots=True, eq=False, init=False, weakref_slot=True)
 class CandidateGenerationResult(metaclass=_SealedCandidateType):
     request: CandidateGenerationRequest
     input_observations: NormalizedMarketObservations
@@ -327,6 +409,96 @@ class CandidateGenerationResult(metaclass=_SealedCandidateType):
     candidates: tuple[GeneratedCandidateHypothesis, ...]
     diagnostics: tuple[CandidateGenerationDiagnostic, ...]
     provenance_refs: tuple[str, ...]
+    _snapshot: tuple[object, ...]
+
+    def __init__(self, *args: object, **kwargs: object) -> None:
+        raise TypeError("Candidate-generation results are created only by the generator.")
+
+    def _validated(self) -> CandidateGenerationResult:
+        if type(self) is not CandidateGenerationResult:
+            _fail("Candidate-generation result must have its exact reviewed type.")
+        try:
+            snapshot = object.__getattribute__(self, "_snapshot")
+            issued = _ISSUED_RESULTS.get(self)
+        except Exception as error:
+            raise CandidateGenerationError("Candidate-generation result is malformed.") from error
+        current = (
+            self.request,
+            self.input_observations,
+            self.input_geometric_pivots,
+            self.candidates,
+            self.diagnostics,
+            self.provenance_refs,
+        )
+        if issued is None or len(current) != len(snapshot) or any(
+            observed is not expected
+            for observed, expected in zip(current, snapshot, strict=True)
+        ):
+            _fail("Candidate-generation result is unissued or changed after creation.")
+        if len(issued) != len(self.candidates) or any(
+            observed is not expected
+            for observed, expected in zip(self.candidates, issued, strict=True)
+        ):
+            _fail("Candidate membership differs from the issued generation result.")
+        self.request._validated()
+        if (
+            self.input_observations is not self.request.observations
+            or self.input_geometric_pivots is not self.request.geometric_pivots
+            or self.provenance_refs is not self.request.provenance_refs
+        ):
+            _fail("Candidate-generation result lost exact request ancestry.")
+        if type(self.candidates) is not tuple:
+            _fail("Candidate-generation result candidates must be one exact tuple.")
+        for candidate in self.candidates:
+            candidate._validated()
+        if type(self.diagnostics) is not tuple:
+            _fail("Candidate-generation diagnostics must be one exact tuple.")
+        for diagnostic in self.diagnostics:
+            diagnostic._validated()
+        return self
+
+    def __copy__(self) -> CandidateGenerationResult:
+        return self._validated()
+
+    def __deepcopy__(
+        self, memo: dict[int, object]
+    ) -> CandidateGenerationResult:
+        memo[id(self)] = self
+        return self._validated()
+
+    def __reduce_ex__(self, protocol: int) -> object:
+        raise TypeError("Candidate-generation results cannot be pickled.")
+
+
+def validate_candidate_generation_result(
+    result: object,
+) -> CandidateGenerationResult:
+    """Return one exact live issued and unchanged generation result."""
+
+    if type(result) is not CandidateGenerationResult:
+        _fail("Expected one exact CandidateGenerationResult.")
+    return result._validated()
+
+
+def _new_generation_result(
+    request: CandidateGenerationRequest,
+    candidates: tuple[GeneratedCandidateHypothesis, ...],
+    diagnostics: tuple[CandidateGenerationDiagnostic, ...],
+) -> CandidateGenerationResult:
+    result = object.__new__(CandidateGenerationResult)
+    values = {
+        "request": request,
+        "input_observations": request.observations,
+        "input_geometric_pivots": request.geometric_pivots,
+        "candidates": candidates,
+        "diagnostics": diagnostics,
+        "provenance_refs": request.provenance_refs,
+    }
+    for name, value in values.items():
+        object.__setattr__(result, name, value)
+    object.__setattr__(result, "_snapshot", tuple(values.values()))
+    _ISSUED_RESULTS[result] = candidates
+    return result._validated()
 
 
 def _validate_geometry_relationship(
@@ -512,14 +684,7 @@ def generate_candidate_hypotheses(
             "Enumeration count only; generation is not Elliott confirmation.",
         ),
     )
-    return CandidateGenerationResult(
-        request=request,
-        input_observations=request.observations,
-        input_geometric_pivots=request.geometric_pivots,
-        candidates=tuple(candidates),
-        diagnostics=diagnostics,
-        provenance_refs=request.provenance_refs,
-    )
+    return _new_generation_result(request, tuple(candidates), diagnostics)
 
 
 __all__ = [
@@ -543,4 +708,5 @@ __all__ = [
     "GeneratedCandidateHypothesis",
     "GeneratedCandidateReviewState",
     "generate_candidate_hypotheses",
+    "validate_candidate_generation_result",
 ]

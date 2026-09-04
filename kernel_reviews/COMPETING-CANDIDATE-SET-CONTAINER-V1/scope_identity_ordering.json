@@ -1,0 +1,12 @@
+{
+  "membership_semantics": "CALLER_OR_GENERATOR_SUPPLIED_CANDIDATE_MEMBERSHIP",
+  "membership_is_not_validity": true,
+  "ordering_semantics": "PROJECT_OPERATIONAL_POLICY",
+  "container_order_is_not_rank": true,
+  "identity_policy": "exact candidate objects from one exact issued CandidateGenerationResult",
+  "ancestry_policy": "exact normalized observations and geometric-pivot result identities are retained",
+  "duplicate_candidate_identity": "FAIL_CLOSED",
+  "duplicate_candidate_id": "FAIL_CLOSED",
+  "foreign_candidate": "FAIL_CLOSED",
+  "timeframe_is_not_degree": true
+}

@@ -1,0 +1,12 @@
+{
+  "previous_baseline": "AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1",
+  "previous_baseline_manifest_sha256": "27706b62ed95ec5b126220df9a6c958b38662b5217d45c484902a7979bc0cd7e",
+  "previous_git_head": "0063bc940aad15573b1c7ed3f648892aea97c1de",
+  "delta": [
+    "harden CandidateGenerationResult as an exact issued identity-bound input",
+    "add immutable CompetingCandidateSetRequest and CompetingCandidateSetResult",
+    "add full membership, state views, operational active view, diagnostics, and tests"
+  ],
+  "methodology_delta": 0,
+  "prior_baseline_artifacts_modified": false
+}

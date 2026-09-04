@@ -1,0 +1,19 @@
+{
+  "complete_membership_states": [
+    "STRUCTURALLY_INVALID",
+    "UNRESOLVED",
+    "CURRENT_SUPPLIED_SCOPE_REVIEWED"
+  ],
+  "active_view_includes": [
+    "UNRESOLVED",
+    "CURRENT_SUPPLIED_SCOPE_REVIEWED"
+  ],
+  "active_view_excludes": [
+    "STRUCTURALLY_INVALID"
+  ],
+  "active_is_not_validity": true,
+  "invalid_candidates_retained_in_full_membership": true,
+  "all_invalid_allows_empty_active_view": true,
+  "one_candidate_does_not_imply_preference": true,
+  "one_candidate_failure_does_not_validate_siblings": true
+}

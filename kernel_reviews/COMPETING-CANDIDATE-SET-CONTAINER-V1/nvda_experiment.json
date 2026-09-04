@@ -1,0 +1,28 @@
+{
+  "classification": "READ_ONLY_PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "provider": "YAHOO_FINANCE_CHART",
+  "symbol": "NVDA",
+  "retrieved_at_stage_date": "2026-09-04",
+  "external_data_warning": "Yahoo output is mutable external data and may change on later retrieval.",
+  "geometry_config": {
+    "method": "WINDOWED_LOCAL_EXTREMA",
+    "left_window_bars": 2,
+    "right_window_bars": 2,
+    "equal_extreme_policy": "LAST",
+    "include_developing": true
+  },
+  "candidate_config": {
+    "max_pivots_considered": 8,
+    "max_candidate_span_pivots": 6,
+    "max_skipped_pivots": 1,
+    "max_candidates_generated": 100,
+    "allowed_candidate_shapes": ["THREE_SEGMENT_HYPOTHESIS", "FIVE_SEGMENT_HYPOTHESIS"],
+    "pivot_window": "LATEST"
+  },
+  "results": {
+    "1mo": {"input_bars": 334, "geometric_pivots": 70, "generated": 20, "structurally_invalid": 0, "unresolved": 20, "current_supplied_scope_reviewed": 0, "active": 20, "source_sha256": "7745443f5a7c1c265b4fa27e3f89e71246c08d2a395e9c8a670c0ec740925b88"},
+    "1wk": {"input_bars": 1443, "geometric_pivots": 367, "generated": 20, "structurally_invalid": 0, "unresolved": 20, "current_supplied_scope_reviewed": 0, "active": 20, "source_sha256": "58c79008d50ff6e4479c67886149740cdde1461a606afc3293bb8904b106fa47"},
+    "1d": {"input_bars": 6946, "geometric_pivots": 1811, "generated": 20, "structurally_invalid": 0, "unresolved": 20, "current_supplied_scope_reviewed": 0, "active": 20, "source_sha256": "1dd783dbaf19c8663e5421df12b0a4600807fbed69eaf940ebefe31d443bf925"}
+  },
+  "interpretation": "No candidate is declared valid, confirmed, preferred, correct, family-validated, or degree-validated. No forecast was produced."
+}

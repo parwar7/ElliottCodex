@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "assertions": {
+    "membership_is_not_validity": true,
+    "container_order_is_not_rank": true,
+    "active_is_not_validity": true,
+    "generated_is_not_preferred": true,
+    "geometric_pivot_is_not_wave_endpoint": true,
+    "three_segments_is_not_abc": true,
+    "five_segments_is_not_impulse": true,
+    "dataset_start_is_not_wave_origin": true,
+    "no_candidate_discarded_due_to_unresolved_methodology": true,
+    "no_family_certificate_created": true,
+    "no_degree_inferred": true,
+    "no_confidence_or_ranking": true,
+    "no_indicators_traps_fundamentals_forecast_or_trading": true,
+    "no_network_or_process_capability_in_container": true
+  }
+}

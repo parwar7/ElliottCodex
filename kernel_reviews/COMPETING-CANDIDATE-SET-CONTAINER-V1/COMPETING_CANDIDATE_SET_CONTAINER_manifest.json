@@ -1,0 +1,41 @@
+{
+  "baseline_id": "COMPETING-CANDIDATE-SET-CONTAINER-V1",
+  "created_date": "2026-09-04",
+  "classification": "ADDITIVE_LOGICAL_RUNTIME_BASELINE",
+  "prior_git_head": "0063bc940aad15573b1c7ed3f648892aea97c1de",
+  "protected_integrity": {
+    "brain_version": "0.1.0",
+    "brain_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "brain_entries": 30,
+    "brain_mismatches": 0,
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "source_entries": 21,
+    "source_mismatches": 0
+  },
+  "inventories": {
+    "executable_methodology": 10,
+    "structural_invalidity_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "implementation_artifacts": [
+    {"path": "src/elliott_runtime/analysis/__init__.py", "byte_length": 2176, "sha256": "f6c560d935a142e0da07a2cfbc815780ce7f9520a536f34587a47fd65fe95ae4"},
+    {"path": "src/elliott_runtime/analysis/candidate_generation.py", "byte_length": 30713, "sha256": "e8435d7797c794fc21976b8e0422ed507c8d608adeb47e1f387a3696613c781c"},
+    {"path": "src/elliott_runtime/analysis/competing_candidates.py", "byte_length": 16041, "sha256": "858df563088b92de29cb32cba62446adc3b8842e76d64ac0f1c532ce2a75a2ad"},
+    {"path": "tests/test_competing_candidates.py", "byte_length": 19579, "sha256": "3339b69ae33a3af21b496009fd46dac7dde5886ddad18137d7bc4947852ff1dd"}
+  ],
+  "baseline_artifacts": [
+    {"path": "adversarial_audit.json", "byte_length": 684, "sha256": "12c150b343a212d0577a82ef379342b8f694603d5c2df826e1c7c05c70d93343"},
+    {"path": "BASELINE_README.md", "byte_length": 962, "sha256": "fe75c0de1b136fb8be668045efc1a63d1ce02226cb8ece7107e9950ff4b80f57"},
+    {"path": "contract_surface.json", "byte_length": 525, "sha256": "b0f12b43b5890b7ad0888543e78c243f8af659b0ad56ed854cd084af0f37b65a"},
+    {"path": "known_limitations.json", "byte_length": 648, "sha256": "051606b528919dee23ca1a162353d44503752e0d2b5606082132a50e51a2e891"},
+    {"path": "nvda_experiment.json", "byte_length": 1681, "sha256": "7fe72722231be2b8830678252c297a4ecd270edafd74556207ad3dce07efc944"},
+    {"path": "prior_baseline_delta.json", "byte_length": 599, "sha256": "e5517c263836e16302d637f4979c3fd018932c52ff5ee13fee5accd2d0dfc3b2"},
+    {"path": "provenance_immutability.json", "byte_length": 585, "sha256": "7a10dca9027a161d6fb34c88abf7f400a77f96bf4d07ce0755a034a86a1c5a1a"},
+    {"path": "scope_identity_ordering.json", "byte_length": 579, "sha256": "d68f75e6993d6c401fb8d9c310837a2e8e57000a42abf180c4c683495232ff17"},
+    {"path": "state_active_policy.json", "byte_length": 526, "sha256": "a8274d7ba1b9edf834e3f05df8376d50d5d3eaf44c025c66b91cca7d6cb8df1d"},
+    {"path": "test_results.json", "byte_length": 666, "sha256": "a8c1907ca5916b1966d246207cac6131b92cd36be67140c0508edf14d79afd60"}
+  ],
+  "test_result": {"run": 760, "passed": 760, "failed": 0},
+  "next_stage": "ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1"
+}

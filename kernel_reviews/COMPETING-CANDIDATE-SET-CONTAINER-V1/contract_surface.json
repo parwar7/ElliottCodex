@@ -1,0 +1,14 @@
+{
+  "baseline_id": "COMPETING-CANDIDATE-SET-CONTAINER-V1",
+  "classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "input": "exact issued CandidateGenerationResult",
+  "request": "CompetingCandidateSetRequest",
+  "result": "CompetingCandidateSetResult",
+  "builder": "build_competing_candidate_set",
+  "minimum_membership": 1,
+  "single_candidate_allowed": true,
+  "cross_generation_mix_allowed": false,
+  "cross_timeframe_mix_allowed": false,
+  "methodology_execution": false,
+  "methodology_certificate_issuance": false
+}

@@ -1,0 +1,14 @@
+{
+  "snapshot": "immutable identity-bound Runtime snapshot",
+  "issued_generation_result_required": true,
+  "issued_container_result_required": true,
+  "private_weak_issuance_registries": true,
+  "manual_result_construction": "REJECTED",
+  "mapping_duck_subclass_substitution": "REJECTED",
+  "post_construction_mutation": "FAIL_CLOSED",
+  "pickle_round_trip": "REJECTED",
+  "copy_behavior": "validated identity preserving",
+  "source_observation_identity_preserved": true,
+  "geometric_pivot_result_identity_preserved": true,
+  "candidate_generation_result_identity_preserved": true
+}

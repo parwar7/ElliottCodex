@@ -1,0 +1,16 @@
+{
+  "focused_container_tests": {"run": 25, "passed": 25, "failed": 0},
+  "candidate_generation_regression_tests": {"run": 28, "passed": 28, "failed": 0},
+  "complete_suite": {"run": 760, "passed": 760, "failed": 0},
+  "compileall": "PASS",
+  "git_diff_check": "PASS",
+  "test_scope": [
+    "exact ancestry and identity",
+    "ordering and membership",
+    "state partitions and active policy",
+    "factory issuance and immutability",
+    "mutation, copy, pickle, duck, mapping, and subclass attacks",
+    "single, multiple, mixed-state, and all-invalid sets",
+    "no methodology execution, certification, ranking, labels, indicators, networking, or trading"
+  ]
+}
