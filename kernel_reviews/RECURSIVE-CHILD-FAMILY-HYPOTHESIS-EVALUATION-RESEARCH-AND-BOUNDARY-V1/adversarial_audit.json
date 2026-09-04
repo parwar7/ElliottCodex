@@ -1,0 +1,6 @@
+{
+  "checks":{"hypothesis_not_classification":"PASS","matching_cardinality_not_family_validity":"PASS","requirement_not_satisfaction":"PASS","all_executable_invalid_not_closed_world_proof":"PASS","no_base_case":"PASS","no_family_certificate":"PASS","no_degree_or_timeframe_mapping":"PASS","no_p023_visibility_inference":"PASS","no_ranking_or_confidence":"PASS","no_indicators_traps_fundamentals_forecast_or_trading":"PASS","exact_identity_chain":"PASS","resource_preflight":"PASS","one_family_evaluation_level":"PASS"},
+  "methodology_changes":0,
+  "new_protected_ids":0,
+  "result":"PASS"
+}

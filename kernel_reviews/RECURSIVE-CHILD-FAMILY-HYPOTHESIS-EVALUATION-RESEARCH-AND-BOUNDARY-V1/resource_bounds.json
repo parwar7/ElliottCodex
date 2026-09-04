@@ -1,0 +1,9 @@
+{
+  "classification":"CALLER_SUPPLIED_OPERATIONAL_BOUND",
+  "preflight_before_materialization":true,
+  "bounds":["max_requirements_processed","max_child_candidate_sets_processed","max_child_candidates_processed","max_family_hypotheses_per_child_candidate","max_total_child_family_hypotheses","max_total_methodology_evaluations"],
+  "failure":"RecursiveChildFamilyEvaluationLimitExceeded",
+  "partial_result_on_failure":false,
+  "enumeration_order":"exact existing child-evidence order, candidate order, and bridge family order",
+  "ranking":false
+}

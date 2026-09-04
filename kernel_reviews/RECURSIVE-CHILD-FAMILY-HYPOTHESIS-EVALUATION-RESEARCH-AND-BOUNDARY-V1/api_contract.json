@@ -1,0 +1,10 @@
+{
+  "module":"src/elliott_runtime/analysis/recursive_child_family_evaluation.py",
+  "types":["ChildFamilyCoverageState","ChildCandidateFamilyEvaluationState","ChildFamilyEvaluationConfig","ChildRequirementFamilyScope","ChildCandidateFamilyEvaluation","RecursiveChildFamilyEvaluationRequest","RecursiveChildFamilyEvaluationResult"],
+  "functions":["evaluate_recursive_child_family_hypotheses","validate_recursive_child_family_evaluation_result"],
+  "existing_bridge_reused":"build_family_evaluation_hypotheses",
+  "bridge_preflight_reused":"estimate_family_hypothesis_demand",
+  "exact_levels":1,
+  "authority":{"family_validity":false,"requirement_satisfaction":false,"degree":false,"ranking":false,"terminality":false},
+  "identity_chain":["parent family hypothesis","internal requirement","proposed child window","selected finer observations when supplied","finer geometric pivots","neutral child generation result","competing child candidate set","child family bridge result"]
+}

@@ -606,6 +606,22 @@ def build_family_evaluation_hypotheses(
     return result._validated()
 
 
+def estimate_family_hypothesis_demand(
+    candidate_set: CompetingCandidateSetResult,
+    allowed_family_kinds: tuple[FamilyEvaluationKind, ...],
+) -> tuple[int, int]:
+    """Return (total, per-candidate maximum) from the bridge's own scope table."""
+
+    source = validate_competing_candidate_set_result(candidate_set)
+    kinds = _validate_kinds(allowed_family_kinds)
+    allowed = set(kinds)
+    counts = tuple(
+        sum(kind in allowed for kind in _SHAPE_FAMILIES[candidate.candidate_shape])
+        for candidate in source.ordered_candidates
+    )
+    return sum(counts), max(counts, default=0)
+
+
 def validate_family_hypothesis_bridge_result(
     result: object,
 ) -> FamilyHypothesisBridgeResult:
@@ -635,5 +651,6 @@ __all__ = [
     "FamilyHypothesisDiagnostic",
     "FamilyHypothesisDiagnosticCode",
     "build_family_evaluation_hypotheses",
+    "estimate_family_hypothesis_demand",
     "validate_family_hypothesis_bridge_result",
 ]

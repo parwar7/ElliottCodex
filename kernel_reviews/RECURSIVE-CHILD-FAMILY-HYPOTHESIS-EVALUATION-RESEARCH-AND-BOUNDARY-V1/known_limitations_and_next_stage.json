@@ -1,0 +1,6 @@
+{
+  "limitations":["No validated-family producer or issuance exists.","SOURCE_DERIVED_BASE_CASE_NOT_FOUND remains binding.","Motive-five has no executable family coverage.","Corrective coverage is non-exhaustive.","Three-wave-structure-to-family compatibility is unresolved.","Only existing cardinality behaviors execute; matching cardinality is not full family validity.","No grandchildren are generated or evaluated."],
+  "next_stage":"FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1",
+  "selection_reason":"The immediate safe discriminator gap is family-specific geometry under source lock. It can potentially eliminate hypotheses without ranking and without manufacturing a terminal family proof.",
+  "not_implemented":true
+}

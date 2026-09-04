@@ -1,0 +1,11 @@
+{
+  "classification":"SOURCE_DERIVED_EVALUATION_SCOPE",
+  "closed_world":false,
+  "matrix":[
+    {"requirement":"MOTIVE_FIVE_FAMILY_REQUIRED","coverage":"NO_EXECUTABLE_FAMILY_COVERAGE","executable_family_kinds":[],"unavailable":["NORMAL_IMPULSE","LEADING_DIAGONAL"],"blocker":"MOTIVE_FIVE_EXECUTABLE_FAMILY_COVERAGE_UNAVAILABLE"},
+    {"requirement":"CORRECTIVE_THREE_FAMILY_REQUIRED","coverage":"PARTIAL_EXECUTABLE_FAMILY_COVERAGE","executable_family_kinds":["SINGLE_ZIGZAG","FLAT"],"unavailable":["DOUBLE_ZIGZAG","TRIPLE_ZIGZAG","WXY","WXYXZ"],"blocker":"CORRECTIVE_THREE_COVERAGE_IS_NOT_EXHAUSTIVE"},
+    {"requirement":"CORRECTIVE_FAMILY_REQUIRED","coverage":"PARTIAL_EXECUTABLE_FAMILY_COVERAGE","executable_family_kinds":["SINGLE_ZIGZAG","FLAT","TRIANGLE"],"unavailable":["DOUBLE_ZIGZAG","TRIPLE_ZIGZAG","WXY","WXYXZ"],"blocker":"CORRECTIVE_FAMILY_COVERAGE_IS_NOT_EXHAUSTIVE"},
+    {"requirement":"THREE_WAVE_STRUCTURE_REQUIRED","coverage":"UNRESOLVED_COMPATIBILITY","executable_family_kinds":[],"unavailable":[],"blocker":"THREE_WAVE_STRUCTURE_FAMILY_COMPATIBILITY_UNRESOLVED"}
+  ],
+  "interpretation":"Compatibility authorizes evaluate-as scope only. It is neither requirement satisfaction nor family proof."
+}

@@ -1,0 +1,5 @@
+{
+  "focused":{"command":"python -m unittest discover -s tests -p test_recursive_child_family_evaluation.py -v","run":13,"passed":13,"failed":0,"seconds":15.282},
+  "complete":{"command":"python -m unittest discover -s tests","run":857,"passed":857,"failed":0,"seconds":47.068},
+  "coverage_topics":["exact ancestry","source-safe requirement mapping","unresolved compatibility","existing bridge reuse","no authority issuance","caller scope","all resource caps","exact types and immutability","no ranking/degree/visibility/recursion","determinism","capability boundary"]
+}

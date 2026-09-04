@@ -1,0 +1,29 @@
+{
+  "baseline_id":"RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1",
+  "created_date":"2026-09-04",
+  "classification":"ADDITIVE_LOGICAL_RUNTIME_BASELINE",
+  "implementation_gate":"BOUNDED_CHILD_FAMILY_HYPOTHESIS_EVALUATION_SAFE",
+  "prior_git_head":"5ff64f60162ed8b1f2381a6072acf9ee29ecc9d0",
+  "protected_integrity":{"brain_version":"0.1.0","brain_manifest_sha256":"81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a","brain_entries":30,"brain_mismatches":0,"source_manifest_sha256":"ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089","source_entries":21,"source_mismatches":0},
+  "inventories":{"executable_methodology":10,"structural_invalidity_producers":7,"validated_family_producers":0,"validated_family_issuances":0,"p005":"UNCHANGED_FROZEN_UNRESOLVED","p006":"UNCHANGED_FROZEN_UNRESOLVED_CONFLICT","source_derived_base_case":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy_analyze":"NOT_IMPLEMENTED"},
+  "implementation_artifacts":[
+    {"path":"src/elliott_runtime/analysis/__init__.py","byte_length":10075,"sha256":"ee1c78f2ff5d7c3b31bf06340df36b89d81b5a7dcbc2c35c690d328bd2cdf254"},
+    {"path":"src/elliott_runtime/analysis/family_hypotheses.py","byte_length":27765,"sha256":"e423e8868790b80760497b3a178f9810215d76312fe6e473d92436426bf223f3"},
+    {"path":"src/elliott_runtime/analysis/recursive_child_family_evaluation.py","byte_length":19890,"sha256":"df7b4463279485261a50a40e2716b1eadbc0a411beb903b7b625640b323baa64"},
+    {"path":"tests/test_recursive_child_family_evaluation.py","byte_length":11107,"sha256":"bca9a4c84888cf7e2b2c4ff15fccebaf7aca4b676ce57c16598720d55184ccb9"}
+  ],
+  "baseline_artifacts":[
+    {"path":"adversarial_audit.json","byte_length":592,"sha256":"c87373dbb39597bb01de70b98a5abba036fbc21de70cffffffebd57e942d8a0b"},
+    {"path":"api_contract.json","byte_length":982,"sha256":"5d3a51ce3226ac0c26b0ba379065aaccc882e56924e4a40f947f0ff824f8d8ca"},
+    {"path":"BASELINE_README.md","byte_length":1143,"sha256":"b1a18039975088c263c938d1a19f5024d23f8371ec8b84076188ad032e57206b"},
+    {"path":"known_limitations_and_next_stage.json","byte_length":743,"sha256":"c9c551eab3118989dcb02fc2fbe00ee0c348c9660d01474254452d4885098b31"},
+    {"path":"nvda_experiment.json","byte_length":4129,"sha256":"80aff899f13ef7d82c9916dd6ff2f5df6c56dc12d03a150a13ec9682c2a15a23"},
+    {"path":"prior_baseline_delta.json","byte_length":737,"sha256":"5981fd1c12ec832bb5a4da6b8e2241989fc18e490d6f2b0a4616ae23a396add0"},
+    {"path":"requirement_compatibility_matrix.json","byte_length":1218,"sha256":"faddf311a703500bbe16e9c4f2bb2ca5923540c2bf61fca48ca9d8c32f4a5c6f"},
+    {"path":"resource_bounds.json","byte_length":549,"sha256":"04d086f2c8ac2bbc41f0ddb26c0cab0425e6ae903d482a03cb35171ee80751c6"},
+    {"path":"source_findings.json","byte_length":1447,"sha256":"2848956df2f707203c8827f742d1c221802efb00ae2e23f80d4d3c454bfdb893"},
+    {"path":"test_results.json","byte_length":572,"sha256":"18be30656d62ebec1877ed5f94b2937430effe4f5e36ba274a7bb24ae7da05ac"}
+  ],
+  "tests":{"focused":13,"complete_suite":857,"failures":0},
+  "next_stage":"FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1"
+}

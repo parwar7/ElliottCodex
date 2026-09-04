@@ -54,6 +54,7 @@ from .family_hypotheses import (
     FamilyHypothesisDiagnostic,
     FamilyHypothesisDiagnosticCode,
     build_family_evaluation_hypotheses,
+    estimate_family_hypothesis_demand,
     validate_family_hypothesis_bridge_result,
 )
 from .family_internal_subdivisions import (
@@ -118,6 +119,23 @@ from .finer_child_observation_selection import (
     SelectedChildObservationWindow,
     select_finer_child_observations,
     validate_child_observation_selection_result,
+)
+from .recursive_child_family_evaluation import (
+    ALL_EXECUTABLE_HYPOTHESES_INVALID_IS_NOT_CLOSED_WORLD_PROOF,
+    EXACT_CHILD_FAMILY_EVALUATION_LEVELS,
+    FAMILY_HYPOTHESIS_IS_NOT_FAMILY_CLASSIFICATION,
+    INTERNAL_REQUIREMENT_IS_NOT_SATISFIED,
+    ChildCandidateFamilyEvaluation,
+    ChildCandidateFamilyEvaluationState,
+    ChildFamilyCoverageState,
+    ChildFamilyEvaluationConfig,
+    ChildRequirementFamilyScope,
+    RecursiveChildFamilyEvaluationError,
+    RecursiveChildFamilyEvaluationLimitExceeded,
+    RecursiveChildFamilyEvaluationRequest,
+    RecursiveChildFamilyEvaluationResult,
+    evaluate_recursive_child_family_hypotheses,
+    validate_recursive_child_family_evaluation_result,
 )
 
 __all__ = [
@@ -222,10 +240,26 @@ __all__ = [
     "build_competing_candidate_set",
     "validate_competing_candidate_set_result",
     "build_family_evaluation_hypotheses",
+    "estimate_family_hypothesis_demand",
     "validate_family_hypothesis_bridge_result",
     "evaluate_family_internal_subdivisions",
     "validate_family_internal_subdivision_evaluation_result",
     "generate_child_candidate_evidence",
     "select_finer_child_observations",
     "validate_child_observation_selection_result",
+    "ALL_EXECUTABLE_HYPOTHESES_INVALID_IS_NOT_CLOSED_WORLD_PROOF",
+    "EXACT_CHILD_FAMILY_EVALUATION_LEVELS",
+    "FAMILY_HYPOTHESIS_IS_NOT_FAMILY_CLASSIFICATION",
+    "INTERNAL_REQUIREMENT_IS_NOT_SATISFIED",
+    "ChildCandidateFamilyEvaluation",
+    "ChildCandidateFamilyEvaluationState",
+    "ChildFamilyCoverageState",
+    "ChildFamilyEvaluationConfig",
+    "ChildRequirementFamilyScope",
+    "RecursiveChildFamilyEvaluationError",
+    "RecursiveChildFamilyEvaluationLimitExceeded",
+    "RecursiveChildFamilyEvaluationRequest",
+    "RecursiveChildFamilyEvaluationResult",
+    "evaluate_recursive_child_family_hypotheses",
+    "validate_recursive_child_family_evaluation_result",
 ]

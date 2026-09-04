@@ -1,0 +1,11 @@
+{
+  "source_lock":["protected educational videos Volumes 1-10 and transcripts","approved Frost/Prechter book"],
+  "findings":[
+    {"family":"SINGLE_ZIGZAG","direct_children":3,"internal_requirements":["MOTIVE_FIVE_FAMILY_REQUIRED","CORRECTIVE_THREE_FAMILY_REQUIRED","MOTIVE_FIVE_FAMILY_REQUIRED"],"source_class":"SOURCE_DEFINITION","principle_id":"P007"},
+    {"family":"FLAT","direct_children":3,"internal_requirements":["CORRECTIVE_THREE_FAMILY_REQUIRED","CORRECTIVE_THREE_FAMILY_REQUIRED","MOTIVE_FIVE_FAMILY_REQUIRED"],"source_class":"SOURCE_DEFINITION","principle_id":"P008"},
+    {"family":"TRIANGLE","direct_children":5,"internal_requirements":["CORRECTIVE_FAMILY_REQUIRED","CORRECTIVE_FAMILY_REQUIRED","CORRECTIVE_FAMILY_REQUIRED","CORRECTIVE_FAMILY_REQUIRED","CORRECTIVE_FAMILY_REQUIRED"],"source_class":"SOURCE_DEFINITION","principle_id":"P009"},
+    {"family":"ENDING_DIAGONAL","direct_children":5,"internal_requirements":["THREE_WAVE_STRUCTURE_REQUIRED","THREE_WAVE_STRUCTURE_REQUIRED","THREE_WAVE_STRUCTURE_REQUIRED","THREE_WAVE_STRUCTURE_REQUIRED","THREE_WAVE_STRUCTURE_REQUIRED"],"source_class":"SOURCE_DEFINITION","principle_id":null}
+  ],
+  "blocked_families":{"NORMAL_IMPULSE":"P005 unresolved; P006 unresolved/conflicted; complete family validation unavailable","LEADING_DIAGONAL":"no executable family behavior","WXY_WXYXZ":"no executable family behavior"},
+  "source_derived_base_case":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+}
