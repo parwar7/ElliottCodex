@@ -540,6 +540,7 @@ def _validate_geometry_relationship(
                 observations,
                 result.config,
                 result.provenance_refs,
+                result.scoped_bars,
             )
         )
     except Exception as error:

@@ -1,0 +1,11 @@
+{
+  "view":"SelectedChildObservationWindow",
+  "interval":"inclusive exact UTC timestamps from the existing proposed child window",
+  "bar_identity":"every and only exact source-bar object inside the interval",
+  "source_observation_identity":"retained",
+  "provider_provenance":"retained without replacement or new claim",
+  "synthetic_observations":false,
+  "interval_expansion":false,
+  "boundary_price_snapping":false,
+  "elliott_endpoint_authority":false
+}

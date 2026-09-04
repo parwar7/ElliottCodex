@@ -1,0 +1,7 @@
+{
+  "public_function":"select_finer_child_observations",
+  "types":["ChildObservationSelectionConfig","ChildObservationSelectionRequest","ChildObservationSelectionResult","SelectedChildObservationWindow","ChildObservationCoverageState","ChildObservationSelectionDiagnostic"],
+  "request_inputs":["selection_id","exact internal_requirement","exact proposed_child_window","exact live multi_timeframe_context","exact selected_observations","exact explicit geometry_config","explicit selection config","provenance_refs"],
+  "result_outputs":["exact request","identity-bound selected window","FINER_THAN relation","optional exact finer geometric result","coverage diagnostics","provenance_refs"],
+  "exact_type_and_mutation_policy":"fail closed"
+}

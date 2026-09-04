@@ -1,0 +1,11 @@
+{
+  "finer_timeframe_is_lower_degree":false,
+  "coarser_timeframe_is_higher_degree":false,
+  "resolution_ordering_is_elliott_hierarchy":false,
+  "recursive_depth_is_degree":false,
+  "finer_data_available_is_internals_visible":false,
+  "finer_data_selected_is_child_family_validated":false,
+  "cross_timeframe_observation_is_confirmation":false,
+  "p023_called_or_mutated":false,
+  "automatic_timeframe_selection":false
+}

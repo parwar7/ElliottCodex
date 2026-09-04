@@ -72,6 +72,7 @@ class GeometricPivotDiscoveryRequest:
     observations: NormalizedMarketObservations
     config: GeometricPivotDiscoveryConfig
     provenance_refs: tuple[str, ...]
+    scoped_bars: tuple[Bar, ...] | None = None
 
     def __post_init__(self) -> None:
         _validate_request(self)
@@ -104,6 +105,7 @@ class GeometricPivotDiscoveryResult:
     config: GeometricPivotDiscoveryConfig
     diagnostics: tuple[str, ...]
     provenance_refs: tuple[str, ...]
+    scoped_bars: tuple[Bar, ...] | None = None
 
 
 def _fail(message: str) -> None:
@@ -184,9 +186,26 @@ def _validate_request(value: object) -> GeometricPivotDiscoveryRequest:
         _fail("request must be one exact GeometricPivotDiscoveryRequest.")
     if type(value.request_id) is not str or value.request_id.strip() == "":
         _fail("request_id must be one exact non-blank string.")
-    _validate_observations(value.observations)
+    observations = _validate_observations(value.observations)
     _validate_config(value.config)
     _refs(value.provenance_refs, "provenance_refs")
+    if value.scoped_bars is not None:
+        if type(value.scoped_bars) is not tuple or not value.scoped_bars or any(
+            type(bar) is not Bar for bar in value.scoped_bars
+        ):
+            _fail("scoped_bars must be None or one non-empty exact tuple of exact bars.")
+        source_by_id = {id(bar): bar for bar in observations.bars}
+        seen: set[int] = set()
+        previous: datetime | None = None
+        for bar in value.scoped_bars:
+            if id(bar) not in source_by_id or source_by_id[id(bar)] is not bar:
+                _fail("Every scoped bar must retain exact source-observation identity.")
+            if id(bar) in seen:
+                _fail("scoped_bars cannot repeat a bar identity.")
+            if previous is not None and bar.timestamp_utc <= previous:
+                _fail("scoped_bars must retain strict source chronology.")
+            seen.add(id(bar))
+            previous = bar.timestamp_utc
     return value
 
 
@@ -206,7 +225,7 @@ def discover_geometric_pivots(
     request = _validate_request(request)
     observations = request.observations
     config = request.config
-    bars = observations.bars
+    bars = observations.bars if request.scoped_bars is None else request.scoped_bars
     pivots: list[GeometricPivotObservation] = []
     ambiguous = 0
 
@@ -264,8 +283,17 @@ def discover_geometric_pivots(
             )
         )
 
+    scope_diagnostics = (
+        (
+            f"SOURCE_DATASET_BAR_COUNT={len(observations.bars)}",
+            "EXACT_BAR_SCOPE_APPLIED=True",
+        )
+        if request.scoped_bars is not None
+        else ()
+    )
     diagnostics = (
         f"INPUT_BAR_COUNT={len(bars)}",
+        *scope_diagnostics,
         f"GEOMETRIC_PIVOT_COUNT={len(pivots)}",
         f"AMBIGUOUS_SAME_BAR_HIGH_LOW_EXCLUDED={ambiguous}",
         "GEOMETRIC_PIVOT_IS_NOT_ELLIOTT_WAVE_ENDPOINT",
@@ -278,6 +306,7 @@ def discover_geometric_pivots(
         config=config,
         diagnostics=diagnostics,
         provenance_refs=request.provenance_refs,
+        scoped_bars=request.scoped_bars,
     )
 
 

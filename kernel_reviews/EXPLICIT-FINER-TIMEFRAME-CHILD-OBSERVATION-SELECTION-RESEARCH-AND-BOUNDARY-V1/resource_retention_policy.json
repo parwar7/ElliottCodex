@@ -1,0 +1,11 @@
+{
+  "explicit_bounds":["max_bars_per_selected_window","max_geometric_pivots_per_window","max_requirements_with_finer_selection","max_total_finer_geometric_pivots","max_child_candidates_per_requirement","max_total_child_candidates"],
+  "silent_truncation":false,
+  "bound_failure":"FINER_WINDOW_RESOURCE_BOUND_EXCEEDED or CHILD_GENERATION_BOUND_EXCEEDED; infrastructure only",
+  "provider_history":"Yahoo retention and warnings remain exact provider facts",
+  "hourly_retention":"used only where supplied dataset coverage is assessed",
+  "fifteen_minute":"not used",
+  "native_4h":false,
+  "resampling":false,
+  "missing_history_fabricated":false
+}

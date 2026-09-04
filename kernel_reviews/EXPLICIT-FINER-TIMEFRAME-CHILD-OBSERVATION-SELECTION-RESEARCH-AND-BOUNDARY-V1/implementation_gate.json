@@ -1,0 +1,7 @@
+{
+  "implementation_gate":"BOUNDED_FINER_CHILD_OBSERVATION_SELECTION_SAFE",
+  "classification":"PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "shared_data_extension":"GeometricPivotDiscoveryRequest and Result accept an optional exact identity-bound scoped_bars tuple while retaining the original NormalizedMarketObservations identity and provenance.",
+  "methodology_behaviors_added":0,
+  "certificate_semantics_changed":false
+}

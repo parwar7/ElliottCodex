@@ -1,0 +1,13 @@
+{
+  "geometry":"existing discover_geometric_pivots with explicit caller configuration and exact scoped bars",
+  "geometry_parameter_scaling_by_timeframe":false,
+  "geometric_pivot_is_wave_endpoint":false,
+  "child_generation":"existing generate_child_candidate_evidence",
+  "candidate_generation":"existing generate_candidate_hypotheses",
+  "competing_set":"existing build_competing_candidate_set",
+  "available_status":"FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE",
+  "three_segments_is_corrective_proof":false,
+  "five_segments_is_motive_proof":false,
+  "requirement_satisfied":false,
+  "family_validated":false
+}

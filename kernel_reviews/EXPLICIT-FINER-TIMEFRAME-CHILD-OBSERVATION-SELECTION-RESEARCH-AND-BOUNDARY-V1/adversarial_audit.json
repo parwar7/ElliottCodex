@@ -1,0 +1,5 @@
+{
+  "result":"PASS",
+  "confirmed":["finer timeframe != lower Elliott degree","finer selection != P023 visibility","finer data != internal-family proof","resolution ordering != Elliott hierarchy","no automatic timeframe choice","no interval expansion","no boundary-price replacement","no synthetic market data","no 4H fabrication","no resampling","child candidate existence != requirement satisfaction","no cross-timeframe confirmation","no ranking","family registry remains sealed and empty"],
+  "forbidden_features_absent":["wave labels","family classification","confidence","indicators","Fibonacci","right-look scoring","traps","fundamentals","forecast","trading"]
+}

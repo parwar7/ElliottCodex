@@ -1,0 +1,35 @@
+{
+  "baseline_id":"EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1",
+  "created_date":"2026-09-04",
+  "classification":"ADDITIVE_LOGICAL_RUNTIME_BASELINE",
+  "implementation_gate":"BOUNDED_FINER_CHILD_OBSERVATION_SELECTION_SAFE",
+  "prior_git_head":"d2efd027b2dcb1b6348fbc1f08d67b4bb807b6ca",
+  "protected_integrity":{"brain_version":"0.1.0","brain_manifest_sha256":"81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a","brain_entries":30,"brain_mismatches":0,"source_manifest_sha256":"ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089","source_entries":21,"source_mismatches":0},
+  "inventories":{"executable_methodology":10,"structural_invalidity_producers":7,"validated_family_producers":0,"validated_family_issuances":0,"p005":"UNCHANGED_FROZEN_UNRESOLVED","p006":"UNCHANGED_FROZEN_UNRESOLVED_CONFLICT","source_derived_base_case":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy_analyze":"NOT_IMPLEMENTED"},
+  "implementation_artifacts":[
+    {"path":"src/elliott_runtime/analysis/__init__.py","byte_length":8608,"sha256":"c484616546400d7c69f2a7693acc347e446a1e6f7353dbb23e74328d06037549"},
+    {"path":"src/elliott_runtime/analysis/candidate_generation.py","byte_length":33742,"sha256":"58879b7e860b3966c2f438dd53e93bafbbf8f8b9b92f3e85afa983f5f53a7d36"},
+    {"path":"src/elliott_runtime/analysis/finer_child_observation_selection.py","byte_length":21413,"sha256":"f8b7719d8087328cacf02fc1d5a1564521209d8e57105f4aad46b27c1d02c4b5"},
+    {"path":"src/elliott_runtime/analysis/recursive_child_candidate_generation.py","byte_length":42112,"sha256":"ac6da651505293bc3c238b14b85984891624c5d5a2a168b8a99c9c819a923ea0"},
+    {"path":"src/elliott_runtime/market_data/geometric_pivots.py","byte_length":12567,"sha256":"3f64b125a0a43966cdb22ac9c043b0eaa9eebf00a06e876583ee5aa0ed835550"},
+    {"path":"tests/test_finer_child_observation_selection.py","byte_length":18276,"sha256":"3bcd61742d4bd5ddbd9061b392389ced4b0ab7bd41df2c7653591959fcd354d1"}
+  ],
+  "baseline_artifacts":[
+    {"path":"adversarial_audit.json","byte_length":670,"sha256":"cf5d44793025e4fb142113050cd25b70f6d7afe1fd571157dd81b06c00278bc5"},
+    {"path":"api_contract.json","byte_length":743,"sha256":"2d11c1c23aa39ec906fdd8be84b1dd6e135a518d9d9f4d2939fd526c9e660d0a"},
+    {"path":"BASELINE_README.md","byte_length":1081,"sha256":"682e2231481bd33532e1034bb7c751f9ebe0d34e98ab0f739c9a1cf4878412e5"},
+    {"path":"geometry_child_integration.json","byte_length":622,"sha256":"189cb87f81f4694b6fedad800bfa4cc508e99d3c8d2153377db1b72bd799e75b"},
+    {"path":"implementation_gate.json","byte_length":419,"sha256":"d051adc9f6db72d5a38344d5a53c00395ecf8731d7b0460b38d0d0bbb6e82c89"},
+    {"path":"known_limitations_and_next_stage.json","byte_length":746,"sha256":"52257853fe180a0e79b366653a26459fa5994fd592dd3cebb45796525130f325"},
+    {"path":"nvda_experiment.json","byte_length":3660,"sha256":"cf21db4573e94b6fa35666963617188d6dd2d6b2df75897172e4655c45622260"},
+    {"path":"observation_window_view.json","byte_length":462,"sha256":"c9094f72d7e5fbeb6b2bad7eeda6c9fce4061ebf129e6db840799d416f189f58"},
+    {"path":"prior_baseline_delta.json","byte_length":832,"sha256":"9ac2c7b66ae7fa27ff23bfa7f424cfcf4acaf0ffb060088708432896ca5b1b85"},
+    {"path":"resource_retention_policy.json","byte_length":648,"sha256":"19f4dd9bd1632fdda4cdb47f6314b4fb203ee2f1df34ff1afc4b2c7af08805c4"},
+    {"path":"selection_authority.json","byte_length":380,"sha256":"48f5c79882756118628230a80b2faef402056f4169d6fd27312ac174fbcd75d8"},
+    {"path":"symbol_resolution_coverage.json","byte_length":963,"sha256":"16a31ce95e952660a2f6750aac34e649f661882d9a53f798d846ccea5eaaa8ef"},
+    {"path":"test_results.json","byte_length":529,"sha256":"daf4cb34786ac986eab0420ae73ba2911bc83e5a6ef1ba854b2fae7c3d9b41ad"},
+    {"path":"timeframe_degree_p023.json","byte_length":421,"sha256":"5c1a4a8a7fc26143de3fc8ac0e0af0753a8077e77f7782b2361fac76d16e0be1"}
+  ],
+  "tests":{"focused":14,"complete_suite":844,"failures":0},
+  "next_stage":"RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1"
+}

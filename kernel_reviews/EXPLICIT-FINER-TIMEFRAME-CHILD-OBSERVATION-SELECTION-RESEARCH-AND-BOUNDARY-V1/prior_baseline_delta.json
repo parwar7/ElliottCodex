@@ -1,0 +1,7 @@
+{
+  "prior_baseline":"RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1",
+  "prior_manifest_sha256":"9ac46ba253d8a4bf30a6fe85aaf6def6404223970756f2056d11ca8d84ceb914",
+  "prior_git_head":"d2efd027b2dcb1b6348fbc1f08d67b4bb807b6ca",
+  "additions":["exact finer observation selection","identity-bound normalized bar view","scoped existing geometry discovery","finer selection integration into existing child generator","coverage diagnostics","finer resource caps","focused tests","this additive baseline"],
+  "unchanged":["all historical baselines","Brain_LOCKED","Sources_LOCKED","10 executable methodology behaviors","7 structural-invalidity producers","0 validated-family producers","0 validated-family issuances","P005","P006 conflict","SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy analyze NOT_IMPLEMENTED"]
+}

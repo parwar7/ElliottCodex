@@ -1,0 +1,7 @@
+{
+  "selection":"CALLER_SUPPLIED_OBSERVATION_SELECTION",
+  "infrastructure":"PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "resolution_relationship":"PROJECT_OPERATIONAL_POLICY",
+  "geometry_parameters":"CALLER_SUPPLIED_GEOMETRY_PARAMETER",
+  "not_authority":["SOURCE_RULE","Elliott degree","P023 visibility","child family","structural validity","cross-timeframe confirmation","ranking"]
+}

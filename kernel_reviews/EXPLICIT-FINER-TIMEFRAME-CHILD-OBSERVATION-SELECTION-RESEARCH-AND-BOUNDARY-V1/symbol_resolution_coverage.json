@@ -1,0 +1,11 @@
+{
+  "symbol_consistency":"selected observations must retain the same SymbolIdentity field values as the exact parent observations and be an exact member of the supplied transport bundle",
+  "accepted_relation":"FINER_THAN",
+  "rejected_relations":["SAME_RESOLUTION","COARSER_THAN"],
+  "relation_basis":"existing resolution_seconds chart-sampling comparison only",
+  "coverage_states":["FULL_WINDOW_COVERAGE","PARTIAL_WINDOW_COVERAGE","NO_WINDOW_COVERAGE"],
+  "full_coverage_rule":"at least one exact bar lies inside the inclusive UTC interval and the selected source dataset timestamp extent brackets both parent interval boundaries",
+  "partial_coverage_rule":"at least one exact bar lies inside but the source timestamp extent does not bracket both boundaries",
+  "no_coverage_rule":"no exact source bar timestamp lies inside the interval",
+  "partial_or_no_coverage_effect":"infrastructure unresolved; no geometry, child candidate, or structural invalidity"
+}

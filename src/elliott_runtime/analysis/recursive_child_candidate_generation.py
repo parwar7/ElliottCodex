@@ -82,6 +82,11 @@ class ChildRequirementGenerationStatus(StrEnum):
         "NEUTRAL_CHILD_CANDIDATE_EVIDENCE_AVAILABLE"
     )
     INSUFFICIENT_GEOMETRIC_PIVOTS = "INSUFFICIENT_GEOMETRIC_PIVOTS"
+    FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE = (
+        "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE"
+    )
+    PARTIAL_FINER_OBSERVATION_COVERAGE = "PARTIAL_FINER_OBSERVATION_COVERAGE"
+    NO_FINER_OBSERVATION_COVERAGE = "NO_FINER_OBSERVATION_COVERAGE"
 
 
 class ChildCandidateGenerationDiagnosticCode(StrEnum):
@@ -93,6 +98,8 @@ class ChildCandidateGenerationDiagnosticCode(StrEnum):
     NEUTRAL_CHILD_CANDIDATES_CREATED = "NEUTRAL_CHILD_CANDIDATES_CREATED"
     DEVELOPING_WINDOWS_PRESENT = "DEVELOPING_WINDOWS_PRESENT"
     BASE_CASE_REMAINS_BLOCKED = "BASE_CASE_REMAINS_BLOCKED"
+    FINER_SELECTIONS_APPLIED = "FINER_SELECTIONS_APPLIED"
+    FINER_COVERAGE_FAILURES = "FINER_COVERAGE_FAILURES"
 
 
 class _SealedChildType(type):
@@ -130,6 +137,8 @@ class ChildCandidateGenerationConfig(metaclass=_SealedChildType):
     max_child_candidates_per_requirement: int
     max_total_child_candidates: int
     allowed_child_candidate_shapes: tuple[CandidateHypothesisShape, ...]
+    max_requirements_with_finer_selection: int = 100_000
+    max_total_finer_geometric_pivots: int = 1_000_000
     _snapshot: tuple[object, ...] = field(init=False, repr=False)
 
     def __post_init__(self) -> None:
@@ -140,6 +149,8 @@ class ChildCandidateGenerationConfig(metaclass=_SealedChildType):
             ("max_child_candidate_span_pivots", self.max_child_candidate_span_pivots, 10_000),
             ("max_child_candidates_per_requirement", self.max_child_candidates_per_requirement, 100_000),
             ("max_total_child_candidates", self.max_total_child_candidates, _MAX_TOTAL_CANDIDATES),
+            ("max_requirements_with_finer_selection", self.max_requirements_with_finer_selection, _MAX_REQUIREMENTS),
+            ("max_total_finer_geometric_pivots", self.max_total_finer_geometric_pivots, 1_000_000),
         ):
             if type(value) is not int or not 1 <= value <= maximum:
                 _fail(f"{name} must be one exact integer within [1, {maximum}].")
@@ -238,6 +249,7 @@ class GeneratedChildCandidateEvidence(metaclass=_SealedChildType):
     validated_internal_family: bool = False
     requirement_satisfied: bool = False
     degree_authority: bool = False
+    finer_observation_selection: object | None = None
     _snapshot: tuple[object, ...] = field(init=False, repr=False)
 
     def __post_init__(self) -> None:
@@ -255,8 +267,30 @@ class GeneratedChildCandidateEvidence(metaclass=_SealedChildType):
             _fail("Competing child set lost exact generation-result identity.")
         if generation.request.subject is not self.internal_requirement.child_subject:
             _fail("Child generation belongs to another subject identity.")
-        if generation.request.scoped_pivots is not self.evaluation_window.ordered_interval_pivots:
-            _fail("Child generation lost exact interval-pivot tuple identity.")
+        if self.finer_observation_selection is None:
+            if generation.request.scoped_pivots is not self.evaluation_window.ordered_interval_pivots:
+                _fail("Child generation lost exact interval-pivot tuple identity.")
+        else:
+            from .finer_child_observation_selection import (
+                ChildObservationCoverageState,
+                ChildObservationSelectionResult,
+                validate_child_observation_selection_result,
+            )
+            if type(self.finer_observation_selection) is not ChildObservationSelectionResult:
+                _fail("Finer child evidence requires one exact selection result.")
+            selection = validate_child_observation_selection_result(
+                self.finer_observation_selection
+            )
+            if (
+                selection.request.internal_requirement is not self.internal_requirement
+                or selection.request.proposed_child_window is not self.evaluation_window
+                or selection.selected_window.coverage_state
+                is not ChildObservationCoverageState.FULL_WINDOW_COVERAGE
+                or generation.request.observations is not selection.request.selected_observations
+                or generation.request.geometric_pivots is not selection.finer_geometric_pivots
+                or generation.request.scoped_pivots is not selection.finer_geometric_pivots.pivots
+            ):
+                _fail("Finer child evidence lost exact selection ancestry or full coverage.")
         if any((self.validated_child_wave, self.validated_internal_family, self.requirement_satisfied, self.degree_authority)):
             _fail("Neutral child evidence cannot carry wave, family, satisfaction, or degree authority.")
         _refs(self.provenance_refs)
@@ -298,7 +332,10 @@ class ChildRequirementGenerationOutcome(metaclass=_SealedChildType):
             _fail("Outcome and window requirement identities differ.")
         if type(self.status) is not ChildRequirementGenerationStatus:
             _fail("Outcome status has an unexpected type.")
-        if self.status is ChildRequirementGenerationStatus.NEUTRAL_CHILD_CANDIDATE_EVIDENCE_AVAILABLE:
+        if self.status in (
+            ChildRequirementGenerationStatus.NEUTRAL_CHILD_CANDIDATE_EVIDENCE_AVAILABLE,
+            ChildRequirementGenerationStatus.FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE,
+        ):
             if type(self.generated_evidence) is not GeneratedChildCandidateEvidence:
                 _fail("Available status requires exact generated child evidence.")
             self.generated_evidence._validated()
@@ -353,6 +390,7 @@ class RecursiveChildCandidateGenerationRequest(metaclass=_SealedChildType):
     internal_subdivision_result: FamilyInternalSubdivisionEvaluationResult
     config: ChildCandidateGenerationConfig
     provenance_refs: tuple[str, ...]
+    finer_observation_selections: tuple[object, ...] = ()
     _snapshot: tuple[object, ...] = field(init=False, repr=False)
 
     def __post_init__(self) -> None:
@@ -363,15 +401,34 @@ class RecursiveChildCandidateGenerationRequest(metaclass=_SealedChildType):
             _fail("Request config must have its exact type.")
         self.config._validated()
         _refs(self.provenance_refs)
+        if type(self.finer_observation_selections) is not tuple:
+            _fail("finer_observation_selections must be one exact tuple.")
+        from .finer_child_observation_selection import (
+            ChildObservationSelectionResult,
+            validate_child_observation_selection_result,
+        )
+        seen_requirements: set[int] = set()
+        for selection in self.finer_observation_selections:
+            if type(selection) is not ChildObservationSelectionResult:
+                _fail("Every finer observation selection must have its exact result type.")
+            validate_child_observation_selection_result(selection)
+            requirement = selection.request.internal_requirement
+            if not any(requirement is item for item in self.internal_subdivision_result.internal_requirements):
+                _fail("A finer selection belongs to a foreign internal requirement.")
+            if requirement.supplied_child_evidence is not None:
+                _fail("A finer selection cannot replace already supplied child evidence.")
+            if id(requirement) in seen_requirements:
+                _fail("Only one explicit finer observation selection is allowed per requirement.")
+            seen_requirements.add(id(requirement))
         object.__setattr__(self, "_snapshot", (
             self.request_id, self.requested_at_utc, self.internal_subdivision_result,
-            self.config, self.provenance_refs,
+            self.config, self.provenance_refs, self.finer_observation_selections,
         ))
 
     def _validated(self):
         if type(self) is not RecursiveChildCandidateGenerationRequest:
             _fail("Child-generation request must have its exact type.")
-        current = (self.request_id, self.requested_at_utc, self.internal_subdivision_result, self.config, self.provenance_refs)
+        current = (self.request_id, self.requested_at_utc, self.internal_subdivision_result, self.config, self.provenance_refs, self.finer_observation_selections)
         if len(current) != len(self._snapshot) or any(
             observed is not expected for observed, expected in zip(current, self._snapshot, strict=True)
         ):
@@ -543,14 +600,51 @@ def generate_child_candidate_evidence(
         raise RecursiveChildCandidateGenerationLimitExceeded(
             "CHILD_GENERATION_BOUND_EXCEEDED: max_total_child_windows; no child candidates were materialized."
         )
-    windows = tuple(_window(item, request.provenance_refs) for item in pending)
-    if any(len(window.ordered_interval_pivots) > request.config.max_pivots_per_child_window for window in windows):
+    selection_by_requirement = {
+        id(selection.request.internal_requirement): selection
+        for selection in request.finer_observation_selections
+    }
+    if len(selection_by_requirement) > request.config.max_requirements_with_finer_selection:
+        raise RecursiveChildCandidateGenerationLimitExceeded(
+            "CHILD_GENERATION_BOUND_EXCEEDED: max_requirements_with_finer_selection; no child candidates were materialized."
+        )
+    windows = tuple(
+        selection_by_requirement[id(item)].request.proposed_child_window
+        if id(item) in selection_by_requirement
+        else _window(item, request.provenance_refs)
+        for item in pending
+    )
+    if any(
+        len(window.ordered_interval_pivots) > request.config.max_pivots_per_child_window
+        for window in windows
+        if id(window.internal_requirement) not in selection_by_requirement
+    ):
         raise RecursiveChildCandidateGenerationLimitExceeded(
             "CHILD_GENERATION_BOUND_EXCEEDED: max_pivots_per_child_window; no child candidates were materialized."
         )
+    finer_pivot_total = sum(
+        0 if selection.finer_geometric_pivots is None else len(selection.finer_geometric_pivots.pivots)
+        for selection in request.finer_observation_selections
+    )
+    if finer_pivot_total > request.config.max_total_finer_geometric_pivots:
+        raise RecursiveChildCandidateGenerationLimitExceeded(
+            "CHILD_GENERATION_BOUND_EXCEEDED: max_total_finer_geometric_pivots; no child candidates were materialized."
+        )
     candidate_config = _candidate_config(request.config)
     demands = tuple(
-        estimate_candidate_generation_demand(len(window.ordered_interval_pivots), candidate_config)[0]
+        estimate_candidate_generation_demand(
+            len(selection_by_requirement[id(window.internal_requirement)].finer_geometric_pivots.pivots)
+            if (
+                id(window.internal_requirement) in selection_by_requirement
+                and selection_by_requirement[id(window.internal_requirement)].finer_geometric_pivots is not None
+            )
+            else (
+                0
+                if id(window.internal_requirement) in selection_by_requirement
+                else len(window.ordered_interval_pivots)
+            ),
+            candidate_config,
+        )[0]
         for window in windows
     )
     if any(count > request.config.max_child_candidates_per_requirement for count in demands):
@@ -572,6 +666,23 @@ def generate_child_candidate_evidence(
     new_integration = []
     for window, demand in zip(windows, demands, strict=True):
         requirement = window.internal_requirement
+        selection = selection_by_requirement.get(id(requirement))
+        if selection is not None and selection.finer_geometric_pivots is None:
+            from .finer_child_observation_selection import ChildObservationCoverageState
+            state = selection.selected_window.coverage_state
+            status = (
+                ChildRequirementGenerationStatus.PARTIAL_FINER_OBSERVATION_COVERAGE
+                if state is ChildObservationCoverageState.PARTIAL_WINDOW_COVERAGE
+                else ChildRequirementGenerationStatus.NO_FINER_OBSERVATION_COVERAGE
+            )
+            outcomes.append(ChildRequirementGenerationOutcome(
+                requirement,
+                window,
+                status,
+                None,
+                "The explicit finer observation selection lacks full UTC-window coverage; no geometry or child candidates were created.",
+            ))
+            continue
         if demand == 0:
             outcomes.append(ChildRequirementGenerationOutcome(
                 requirement, window,
@@ -580,16 +691,31 @@ def generate_child_candidate_evidence(
                 "The inclusive child interval cannot form any allowed bounded neutral shape; the window was not expanded.",
             ))
             continue
+        generation_observations = (
+            requirement.parent_candidate.source_observations
+            if selection is None
+            else selection.request.selected_observations
+        )
+        generation_geometry = (
+            requirement.parent_candidate.source_geometric_pivots
+            if selection is None
+            else selection.finer_geometric_pivots
+        )
+        generation_scope = (
+            window.ordered_interval_pivots
+            if selection is None
+            else selection.finer_geometric_pivots.pivots
+        )
         generation_request = CandidateGenerationRequest(
             request_id=f"{request.request_id}:{requirement.requirement_id}:neutral-children",
             requested_at_utc=request.requested_at_utc,
             subject=requirement.child_subject,
-            observations=requirement.parent_candidate.source_observations,
-            geometric_pivots=requirement.parent_candidate.source_geometric_pivots,
+            observations=generation_observations,
+            geometric_pivots=generation_geometry,
             config=candidate_config,
             methodology_delegations=(),
             provenance_refs=request.provenance_refs + requirement.provenance_refs + ("one-level-neutral-child-generation",),
-            scoped_pivots=window.ordered_interval_pivots,
+            scoped_pivots=generation_scope,
         )
         generation = generate_candidate_hypotheses(generation_request)
         child_set = build_competing_candidate_set(CompetingCandidateSetRequest(
@@ -601,11 +727,16 @@ def generate_child_candidate_evidence(
         evidence = GeneratedChildCandidateEvidence(
             requirement, window, generation, child_set,
             request.provenance_refs + requirement.provenance_refs + ("neutral-child-evidence-available",),
+            finer_observation_selection=selection,
         )
         generated.append(evidence)
         outcomes.append(ChildRequirementGenerationOutcome(
             requirement, window,
-            ChildRequirementGenerationStatus.NEUTRAL_CHILD_CANDIDATE_EVIDENCE_AVAILABLE,
+            (
+                ChildRequirementGenerationStatus.NEUTRAL_CHILD_CANDIDATE_EVIDENCE_AVAILABLE
+                if selection is None
+                else ChildRequirementGenerationStatus.FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE
+            ),
             evidence,
             "Neutral child candidates exist; the internal-family requirement remains unresolved.",
         ))
@@ -643,8 +774,20 @@ def generate_child_candidate_evidence(
         if item.generated_evidence is None
     )
     developing = sum(
-        any(pivot.state is GeometricPivotState.DEVELOPING for pivot in window.ordered_interval_pivots)
+        any(
+            pivot.state is GeometricPivotState.DEVELOPING
+            for pivot in (
+                window.ordered_interval_pivots
+                if id(window.internal_requirement) not in selection_by_requirement
+                or selection_by_requirement[id(window.internal_requirement)].finer_geometric_pivots is None
+                else selection_by_requirement[id(window.internal_requirement)].finer_geometric_pivots.pivots
+            )
+        )
         for window in windows
+    )
+    finer_coverage_failures = sum(
+        selection.finer_geometric_pivots is None
+        for selection in request.finer_observation_selections
     )
     diagnostics = tuple(
         ChildCandidateGenerationDiagnostic(code, count, detail)
@@ -657,6 +800,8 @@ def generate_child_candidate_evidence(
             (ChildCandidateGenerationDiagnosticCode.NEUTRAL_CHILD_CANDIDATES_CREATED, sum(len(item.candidate_generation_result.candidates) for item in generated_tuple), "Neutral candidates retained without family, degree, or rank."),
             (ChildCandidateGenerationDiagnosticCode.DEVELOPING_WINDOWS_PRESENT, developing, "Developing geometric status retained without confirmation."),
             (ChildCandidateGenerationDiagnosticCode.BASE_CASE_REMAINS_BLOCKED, len(generated_tuple), SOURCE_DERIVED_BASE_CASE_NOT_FOUND),
+            (ChildCandidateGenerationDiagnosticCode.FINER_SELECTIONS_APPLIED, len(request.finer_observation_selections), "Exact caller-supplied finer observation selections applied without degree inference."),
+            (ChildCandidateGenerationDiagnosticCode.FINER_COVERAGE_FAILURES, finer_coverage_failures, "Partial/no coverage remained infrastructure-unresolved without structural invalidity."),
         )
     )
     values = {
