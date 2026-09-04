@@ -1,0 +1,6 @@
+{
+  "known_limitations":["P004 is the only executable Normal Impulse rule in this scope.","P005 measurement and boundary semantics remain unresolved.","P006 endpoint/equality/futures semantics remain unresolved/conflicted.","Leading Diagonal execution is unavailable.","MOTIVE_FIVE coverage is partial and open-world.","No validated-family producer or recursive source-derived base case exists.","Geometric pivots and candidate boundaries are conditional hypothesis operands, not globally confirmed Elliott endpoints.","Only one existing recursive child generation layer is evaluated."],
+  "next_stage":"P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+  "selection_reason":"After safe P004 delegation, P005 is the next narrow source rule in the protected Normal Impulse sequence and could materially increase structural discrimination, but its recorded measurement, direction, tie, tolerance, and timing ambiguities require a read-only semantics lock before any implementation.",
+  "implemented_next_stage":false
+}

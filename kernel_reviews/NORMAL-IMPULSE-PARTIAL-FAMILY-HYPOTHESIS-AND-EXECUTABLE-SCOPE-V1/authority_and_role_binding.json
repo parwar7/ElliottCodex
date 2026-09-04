@@ -1,0 +1,35 @@
+{
+  "implementation_gate":"NORMAL_IMPULSE_PARTIAL_EXECUTION_SAFE",
+  "family_scope":"NORMAL_IMPULSE",
+  "authority":{
+    "classification":"SOURCE_DERIVED_EVALUATION_SCOPE",
+    "hypothesis_only":true,
+    "family_validity":false,
+    "wave_validity":false,
+    "completion":false,
+    "terminality":false,
+    "degree":false,
+    "ranking":false
+  },
+  "role_binding":{
+    "classification":"HYPOTHESIS_ROLE_METADATA",
+    "ordered_roles":["1","2","3","4","5"],
+    "segment_mapping":{"1":"pivot[0] -> pivot[1]","2":"pivot[1] -> pivot[2]","3":"pivot[2] -> pivot[3]","4":"pivot[3] -> pivot[4]","5":"pivot[4] -> pivot[5]"},
+    "global_wave_label_authority":false,
+    "exact_boundary_identity_required":true
+  },
+  "p004_binding":{
+    "classification":"HYPOTHESIS_CONDITIONAL_STRUCTURAL_TEST",
+    "wave1_origin":"exact candidate pivot[0] observed_price",
+    "wave1_end_direction_operand":"exact candidate pivot[1] observed_price",
+    "wave2_end":"exact candidate pivot[2] observed_price",
+    "direction":"factual direction of pivot[0] to pivot[1] transported into the existing ManualP004Wave2OriginFact",
+    "decision_owner":"existing MethodologyKernel P004 behavior",
+    "runtime_rule_arithmetic":false,
+    "equality":"delegated unchanged to P004 and accepted",
+    "violation_scope":"exact NORMAL_IMPULSE hypothesis only"
+  },
+  "five_segments_is_not_normal_impulse":true,
+  "p004_pass_is_not_family_validity":true,
+  "p004_failure_is_not_sibling_family_invalidity":true
+}

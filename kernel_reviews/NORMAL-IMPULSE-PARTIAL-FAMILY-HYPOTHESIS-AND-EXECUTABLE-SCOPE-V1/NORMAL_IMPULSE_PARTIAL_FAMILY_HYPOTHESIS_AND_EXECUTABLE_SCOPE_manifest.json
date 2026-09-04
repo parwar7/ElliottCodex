@@ -1,0 +1,33 @@
+{
+  "baseline_id":"NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1",
+  "created_date":"2026-09-05",
+  "classification":"ADDITIVE_LOGICAL_IMPLEMENTATION_BASELINE",
+  "implementation_gate":"NORMAL_IMPULSE_PARTIAL_EXECUTION_SAFE",
+  "prior_git_head":"3aa2cf7d38765219d54c59b4a448eb09377dd26a",
+  "protected_integrity":{"brain_version":"0.1.0","brain_manifest_sha256":"81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a","brain_entries":30,"brain_mismatches":0,"source_manifest_sha256":"ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089","source_entries":21,"source_mismatches":0},
+  "prior_flat_baseline_manifest_sha256":"551eaa587436f31d12f2f3d5e763a2c7db65fab84f06bcceafe42be7385d56",
+  "implementation":{"performed":true,"methodology_behaviors_added":0,"structural_producers_added":0,"family_producers_added":0,"family_issuances_added":0,"existing_p004_delegated":true,"p005_implemented":false,"p006_implemented":false},
+  "implementation_files":[
+    {"path":"src/elliott_runtime/analysis/__init__.py","byte_length":13769,"sha256":"9c2cd7fabb2ced4e394a3dffc6334a193044a3c905ee184a5c0c0a315068162b"},
+    {"path":"src/elliott_runtime/analysis/normal_impulse_partial_evaluation.py","byte_length":31782,"sha256":"c8527c27a0b5c96b5e4eec6764b1a46d804e4568072654100cc96bae7c150470"},
+    {"path":"src/elliott_runtime/analysis/recursive_child_family_evaluation.py","byte_length":20125,"sha256":"2717f0eb21bd1fa0a3ad59228957cbde634ff2c94536c520d9ac6c3d133e917a"},
+    {"path":"tests/test_normal_impulse_partial_evaluation.py","byte_length":18456,"sha256":"9ad3d8e2d39e3b9cc45be7758d87ebb879c26eac39ea039988f79f48ac4a8b4c"},
+    {"path":"tests/test_recursive_child_family_evaluation.py","byte_length":11378,"sha256":"7ae32dbbe59925f028a1316f1df0304e0839d7dde9661581c3ccf794fd82a91c"}
+  ],
+  "baseline_artifacts":[
+    {"path":"authority_and_role_binding.json","byte_length":1483,"sha256":"010dfb001cc8a19e64aae8899e84d0e3c44d40001015f70ea5332a941e488229"},
+    {"path":"BASELINE_README.md","byte_length":1764,"sha256":"0b3704ef47e1e42ea5598c478229c6ddbd08c47db706e5e5d8799d2516c68fd4"},
+    {"path":"implementation_and_integration.json","byte_length":2361,"sha256":"1f2c5d9c39b552548e7a5f53b1c631d26cce985d81f572d0485002f578d2cf7e"},
+    {"path":"known_limitations_and_next_stage.json","byte_length":1022,"sha256":"5526b72f20ca4fd551c9069df8aabbb577d494cc9aa9cf290a71152883034dcd"},
+    {"path":"nvda_experiment.json","byte_length":3720,"sha256":"ad7950613097ae2c0f0962a6c09267bce0d8e441479300ce8f18c038bc176280"},
+    {"path":"project_state_and_integrity.json","byte_length":1146,"sha256":"972a57f5e71542593bce494bafad4e1f547e4be5630721a802a624969dbec3da"},
+    {"path":"protected_source_findings.json","byte_length":2317,"sha256":"d94908726caa5430584654726d4e9ff16cf51025f9cad0d0b1b03a9f1876afa9"},
+    {"path":"tests_and_adversarial_audit.json","byte_length":1227,"sha256":"b11559d3441264235c500abd2f7785696d7470d86d2c9ad89822c86f094d7ca9"}
+  ],
+  "tests":{"focused_normal_impulse":21,"focused_recursive_scope":13,"focused_boundaries":2,"full":911,"full_passes":911,"failures":0,"errors":0},
+  "nvda_experiment":{"parent_scopes":["Monthly","Weekly","Daily"],"child_scopes":["Weekly","Daily","1H"],"parent_p004_certificates":2,"child_p004_certificates":5,"requirements_satisfied":0,"validated_normal_impulses":0,"validated_motive_families":0,"ranking":"NONE"},
+  "inventories":{"executable_methodology":10,"structural_invalidity_producers":7,"validated_family_producers":0,"validated_family_issuances":0,"p005":"UNCHANGED_FROZEN_UNRESOLVED","p006":"UNCHANGED_FROZEN_UNRESOLVED_CONFLICT","source_derived_base_case":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy_analyze":"NOT_IMPLEMENTED"},
+  "historical_baselines_modified":false,
+  "next_stage":"P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+  "protection_status":"Development logical baseline only; no physical immutability or impulse, motive-family, requirement-satisfaction, endpoint, degree, ranking, forecast, or trading authority is claimed."
+}

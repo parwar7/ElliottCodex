@@ -90,7 +90,7 @@ class RecursiveChildFamilyEvaluationTests(unittest.TestCase):
     def test_source_safe_requirement_matrix_is_exact_and_non_exhaustive(self):
         result = evaluate()
         expected = {
-            RequiredInternalShape.MOTIVE_FIVE_FAMILY_REQUIRED: (ChildFamilyCoverageState.NO_EXECUTABLE_FAMILY_COVERAGE, ()),
+            RequiredInternalShape.MOTIVE_FIVE_FAMILY_REQUIRED: (ChildFamilyCoverageState.PARTIAL_EXECUTABLE_FAMILY_COVERAGE, ()),
             RequiredInternalShape.CORRECTIVE_THREE_FAMILY_REQUIRED: (ChildFamilyCoverageState.PARTIAL_EXECUTABLE_FAMILY_COVERAGE, (FamilyEvaluationKind.SINGLE_ZIGZAG, FamilyEvaluationKind.FLAT)),
             RequiredInternalShape.CORRECTIVE_FAMILY_REQUIRED: (ChildFamilyCoverageState.PARTIAL_EXECUTABLE_FAMILY_COVERAGE, (FamilyEvaluationKind.SINGLE_ZIGZAG, FamilyEvaluationKind.FLAT, FamilyEvaluationKind.TRIANGLE)),
         }
@@ -137,7 +137,14 @@ class RecursiveChildFamilyEvaluationTests(unittest.TestCase):
         self.assertTrue(all(h.family_kind is FamilyEvaluationKind.FLAT for h in result.family_hypotheses))
         empty = evaluate(configured=config(allowed_family_kinds=(FamilyEvaluationKind.ENDING_DIAGONAL,)))
         self.assertEqual((), empty.family_hypotheses)
-        self.assertTrue(all(s.coverage_state is ChildFamilyCoverageState.NO_EXECUTABLE_FAMILY_COVERAGE for s in empty.requirement_scopes))
+        self.assertTrue(all(
+            s.coverage_state is (
+                ChildFamilyCoverageState.PARTIAL_EXECUTABLE_FAMILY_COVERAGE
+                if s.internal_requirement.required_internal_shape is RequiredInternalShape.MOTIVE_FIVE_FAMILY_REQUIRED
+                else ChildFamilyCoverageState.NO_EXECUTABLE_FAMILY_COVERAGE
+            )
+            for s in empty.requirement_scopes
+        ))
         self.assertTrue(all(
             item.evaluation_state is ChildCandidateFamilyEvaluationState.NO_EXECUTABLE_COMPATIBLE_CHILD_FAMILY_HYPOTHESIS
             for item in empty.child_evaluations

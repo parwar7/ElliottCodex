@@ -1,0 +1,37 @@
+{
+  "classification":"SOURCE_LOCKED_REVIEW",
+  "allowed_corpus":["protected educational videos Volumes 1-10 and transcripts","approved Frost/Prechter book"],
+  "findings":[
+    {
+      "topic":"NORMAL_IMPULSE_FIVE_POSITION_SEQUENCE",
+      "source_class":"SOURCE_DEFINITION",
+      "meaning":"The protected corpus presents the normal impulse as an ordered five-wave sequence. Runtime roles 1-5 are hypothesis-local evaluation metadata only.",
+      "refs":["docs/elliott/PATTERN_BRAIN.md#A-normal-impulse","Sources_LOCKED/volume_01/Volume_01.srt@00:29:45.679-00:31:41.909","Sources_LOCKED/volume_03/volume_03.srt@00:10:21.900-00:10:32.460"]
+    },
+    {
+      "topic":"P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+      "principle_id":"P004",
+      "source_class":"SOURCE_RULE",
+      "meaning":"Under a Normal Impulse hypothesis, Wave 2 cannot move beyond Wave 1 origin; equality is allowed by the approved executable behavior.",
+      "refs":["docs/elliott/PATTERN_BRAIN.md#A-normal-impulse-rule-1","docs/elliott/SOURCE_EVIDENCE_MAP.json#P004","docs/elliott/MASTER_PROTOCOL.md#step-5","Sources_LOCKED/volume_01/Volume_01.srt@00:30:04.000-00:30:16.320","Sources_LOCKED/volume_03/volume_03.srt@00:04:15.450-00:04:24.850"]
+    },
+    {
+      "topic":"P005_WAVE3_NOT_SHORTEST",
+      "principle_id":"P005",
+      "source_class":"SOURCE_RULE",
+      "status":"UNCHANGED_FROZEN_UNRESOLVED",
+      "unresolved":["general formula","measurement basis","downward treatment","arithmetic versus percentage treatment","timing","ties","tolerance"],
+      "refs":["docs/elliott/PATTERN_BRAIN.md#A-normal-impulse-rule-2","Sources_LOCKED/volume_01/Volume_01.srt@00:30:29.840-00:31:00.389","Sources_LOCKED/volume_03/volume_03.srt@00:04:12.690-00:04:14.830"]
+    },
+    {
+      "topic":"P006_WAVE4_WAVE1_RELATIONSHIP",
+      "principle_id":"P006",
+      "source_class":"SOURCE_RULE",
+      "status":"UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
+      "unresolved":["orthodox endpoint semantics","equality boundary","futures-specific qualification"],
+      "refs":["docs/elliott/PATTERN_BRAIN.md#A-normal-impulse-rule-3","Sources_LOCKED/volume_01/Volume_01.srt@00:31:00.399-00:31:41.909","Sources_LOCKED/volume_03/volume_03.srt@00:04:18.490-00:04:24.850"]
+    }
+  ],
+  "external_elliott_sources_used":false,
+  "new_methodology_behavior_added":false
+}

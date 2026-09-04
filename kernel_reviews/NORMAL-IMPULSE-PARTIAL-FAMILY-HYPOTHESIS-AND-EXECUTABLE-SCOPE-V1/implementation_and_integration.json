@@ -1,0 +1,19 @@
+{
+  "implementation":{
+    "performed":true,
+    "module":"src/elliott_runtime/analysis/normal_impulse_partial_evaluation.py",
+    "architecture":"narrow sidecar over the unified family bridge and recursive child-generation contracts",
+    "reason_for_sidecar":"The existing family bridge result denotes its currently executable family behavior scope and cannot safely claim complete Normal Impulse review when only P004 is executable.",
+    "public_api":["NormalImpulsePartialEvaluationRequest","NormalImpulsePartialEvaluationResult","NormalImpulseEvaluationHypothesis","NormalImpulseRoleBinding","NormalImpulsePartialEvaluation","NormalImpulseMethodologyDependency","NormalImpulsePartialEvaluationState","evaluate_normal_impulse_partial_scope","validate_normal_impulse_partial_evaluation_result"]
+  },
+  "partial_state_model":["P004_SATISFIED_WITH_UNRESOLVED_METHODOLOGY_DEPENDENCIES","P004_VIOLATED_STRUCTURALLY_INVALID_HYPOTHESIS","P004_UNRESOLVED_WITH_UNRESOLVED_METHODOLOGY_DEPENDENCIES"],
+  "unresolved_dependencies":["P005_UNRESOLVED_METHODOLOGY_DEPENDENCY","P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT","COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"],
+  "resource_bounds":{"max_normal_impulse_hypotheses":"caller supplied; 1..100000","max_p004_evaluations":"caller supplied; 1..100000","max_total_partial_family_evaluations":"caller supplied; 1..100000","preflight_before_materialization":true,"silent_truncation":false},
+  "parent_integration":{"input":"exact FamilyHypothesisBridgeResult","candidate_filter":"exact FIVE_SEGMENT_HYPOTHESIS only","candidate_and_competing_set_identity_retained":true},
+  "child_integration":{"input":"exact RecursiveChildCandidateGenerationResult","requirement_filter":"MOTIVE_FIVE_FAMILY_REQUIRED only","exact generated child evidence and finer observation ancestry retained":true,"grandchildren":false},
+  "motive_five_coverage":{"before":"NO_EXECUTABLE_FAMILY_COVERAGE","after":"PARTIAL_EXECUTABLE_FAMILY_COVERAGE","requirement_satisfaction":false,"compatible_complete_bridge_families":[],"blockers":["NORMAL_IMPULSE_P005_UNRESOLVED","NORMAL_IMPULSE_P006_UNRESOLVED_CONFLICT","LEADING_DIAGONAL_EXECUTION_UNAVAILABLE","MOTIVE_FIVE_COVERAGE_IS_NOT_EXHAUSTIVE"]},
+  "ending_diagonal_promoted_to_generic_motive_coverage":false,
+  "new_methodology_behaviors":0,
+  "new_structural_producers":0,
+  "new_family_producers":0
+}

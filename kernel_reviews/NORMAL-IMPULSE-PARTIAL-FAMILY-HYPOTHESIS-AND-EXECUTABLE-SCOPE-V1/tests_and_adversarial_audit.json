@@ -1,0 +1,7 @@
+{
+  "focused_tests":{"normal_impulse_partial_evaluation":{"run":21,"passed":21,"failed":0},"recursive_child_family_evaluation":{"run":13,"passed":13,"failed":0},"dependency_boundaries":{"run":2,"passed":2,"failed":0}},
+  "full_regression":{"run":911,"passed":911,"failed":0,"errors":0,"duration_seconds":70.576},
+  "adversarial_audit":{"five_segments_not_impulse":true,"roles_not_confirmed_waves":true,"p004_pass_not_valid_impulse":true,"p004_failure_hypothesis_local":true,"p005_not_interpreted":true,"p006_not_interpreted":true,"partial_scope_not_hidden_as_complete_review":true,"motive_partial_coverage_not_requirement_satisfaction":true,"closed_world_family_reasoning":false,"degree_inference":false,"ranking":false,"indicators":false,"trading":false,"runtime_p004_arithmetic":false,"structural_certificate_forgery":false,"mapping_duck_subclass_rejected":true,"mutation_fails_closed":true,"pickle_authority_restore":false,"eval_exec":false},
+  "dependency_boundary":"Runtime imports only the approved public elliott_methodology_kernel package API.",
+  "methodology_leakage":"No P005, P006, Leading Diagonal, WXY/WXYXZ, indicator, evidence scoring, forecast, target, trade, degree-assignment, or ranking logic was added."
+}
