@@ -1,0 +1,32 @@
+{
+  "baseline_id":"FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1",
+  "created_date":"2026-09-04",
+  "classification":"ADDITIVE_LOGICAL_RUNTIME_BASELINE",
+  "implementation_gate":"BOUNDED_INTERNAL_SUBDIVISION_EVALUATION_SAFE",
+  "prior_git_head":"efe734d8d0aa49eef0b0ae95c97664f11efe5144",
+  "protected_integrity":{"brain_version":"0.1.0","brain_manifest_sha256":"81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a","brain_entries":30,"brain_mismatches":0,"source_manifest_sha256":"ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089","source_entries":21,"source_mismatches":0},
+  "inventories":{"executable_methodology":10,"structural_invalidity_producers":7,"validated_family_producers":0,"validated_family_issuances":0,"p005":"UNCHANGED_FROZEN_UNRESOLVED","p006":"UNCHANGED_FROZEN_UNRESOLVED_CONFLICT","source_derived_base_case":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND","legacy_analyze":"NOT_IMPLEMENTED"},
+  "implementation_artifacts":[
+    {"path":"src/elliott_runtime/analysis/__init__.py","byte_length":5287,"sha256":"211b43b63a174df4351402b5874277ae5d905c55100a8c8905836aa07b2082d8"},
+    {"path":"src/elliott_runtime/analysis/family_hypotheses.py","byte_length":27118,"sha256":"9fa76e4043556cb6fac75d9353b493e7ef7a66213d7e0ab99b64bd2a4f07533e"},
+    {"path":"src/elliott_runtime/analysis/family_internal_subdivisions.py","byte_length":35704,"sha256":"e9f5b17793b1e7c0bd1dbf7fed2193ab2595dadbbf092d112ed37812582a3179"},
+    {"path":"tests/test_family_internal_subdivisions.py","byte_length":19160,"sha256":"6cc35bc97c0033125410d6269211c7be5765898da28dd74e5c3239a7fa62f46b"}
+  ],
+  "baseline_artifacts":[
+    {"path":"adversarial_audit.json","byte_length":803,"sha256":"139f9dfa06d9ef4a0ad1bef76c2def80fa252c3dda017cf80ec2c2a904e10f92"},
+    {"path":"BASELINE_README.md","byte_length":1217,"sha256":"f214ab291f495ba01a5bbb6e274fa53f031cf9076726806b2e0a2ca4634728c8"},
+    {"path":"child_candidate_semantics.json","byte_length":834,"sha256":"4b2a57eda0c8d9264335347c88dff4e726846b8a35c0e0806f0b8fbf191c36d7"},
+    {"path":"data_timeframe_p023.json","byte_length":604,"sha256":"7f82f3208afc9427b0b7f182b148b07e4111b6167975fa37b906247e4b30d2ce"},
+    {"path":"family_requirement_matrix.json","byte_length":878,"sha256":"778f91166fa98440fa2272165e637be2972dd9baf5e86f462e0c109b85d11cc4"},
+    {"path":"implementation_gate_api.json","byte_length":1025,"sha256":"059e91dcaa6db0755f447995e81379aad6d98fda9205afc38f8e47b31574ea53"},
+    {"path":"known_limitations_and_next_stage.json","byte_length":946,"sha256":"f2b58b1e5a23945547f593e391b42ae3d73bf7d4a5f990f281a3f4dd24db7b53"},
+    {"path":"nvda_experiment.json","byte_length":2671,"sha256":"f5ddc31365bd035ea8ac89e9ba87650ee4ed3e2dd8f8f8d27715e62b06114208"},
+    {"path":"prior_baseline_delta.json","byte_length":731,"sha256":"1392ca0d6596fbb7a348e22614f49a1acbfa5320465622f67056ef245af0cad6"},
+    {"path":"protected_source_findings.json","byte_length":3212,"sha256":"88914f855f56c4a675c105cc3d9ed43913826d0fa52e0e53a9453539af2a6a61"},
+    {"path":"recursive_base_case_blocker.json","byte_length":817,"sha256":"3b77433e8f8fb807c937b0268f41ddb3947871569dba68d8f807652c129aabdc"},
+    {"path":"requirement_authority.json","byte_length":550,"sha256":"227dd21a270f6f0c12fc200cbef2be9a63f7508e39eace8abd04a5c3d868d896"},
+    {"path":"test_results.json","byte_length":902,"sha256":"58ebe4acc7c1d9f4a90841ddf988a8cf17672f467d559016339936d31ecf9205"}
+  ],
+  "tests":{"focused":20,"upstream_family_bridge":33,"complete_suite":813,"failures":0},
+  "next_stage":"RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1"
+}

@@ -606,6 +606,16 @@ def build_family_evaluation_hypotheses(
     return result._validated()
 
 
+def validate_family_hypothesis_bridge_result(
+    result: object,
+) -> FamilyHypothesisBridgeResult:
+    """Return one exact live issued and unchanged family-bridge result."""
+
+    if type(result) is not FamilyHypothesisBridgeResult:
+        _fail("Expected one exact FamilyHypothesisBridgeResult.")
+    return result._validated()
+
+
 __all__ = [
     "ARTIFACT_CLASSIFICATION",
     "CARDINALITY_MATCH_IS_NOT_FULL_FAMILY_VALIDITY",
@@ -625,4 +635,5 @@ __all__ = [
     "FamilyHypothesisDiagnostic",
     "FamilyHypothesisDiagnosticCode",
     "build_family_evaluation_hypotheses",
+    "validate_family_hypothesis_bridge_result",
 ]

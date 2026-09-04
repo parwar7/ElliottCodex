@@ -1,0 +1,6 @@
+{
+  "known_limitations":["No exact child candidate nodes are generated automatically.","No validated-family producer exists, so positive recursive family proof cannot terminate.","Ending-diagonal overlap, geometry and position remain unavailable.","Flat subtype geometry and triangle geometry/position remain unavailable.","P005 remains frozen/unresolved; P006 remains frozen/unresolved/conflicted.","Normal impulse, leading diagonal, WXY and WXYXZ are blocker documentation only.","No child data-window bridge is present."],
+  "exact_next_stage":"RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1",
+  "selection_reason":"The immediate operational blocker exposed by the NVDA experiment is zero supplied child evidence. A source-neutral, explicitly bounded child-window and candidate-generation review is the narrowest next question; it must not infer family, degree, visibility or terminality.",
+  "not_implemented":true
+}

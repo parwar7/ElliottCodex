@@ -1,0 +1,10 @@
+{
+  "gate":"BOUNDED_INTERNAL_SUBDIVISION_EVALUATION_SAFE",
+  "reason":"The protected definitions support deterministic requirement construction, while exact supplied recursive evidence can be aggregated without creating family or terminal authority.",
+  "module":"src/elliott_runtime/analysis/family_internal_subdivisions.py",
+  "types":["RequiredInternalShape","InternalRequirementStatus","FamilyInternalOperationalSummary","FamilyChildCandidateEvidence","FamilyInternalSubdivisionEvaluationRequest","FamilyInternalSubdivisionRequirement","FamilyInternalHypothesisEvaluation","FamilyInternalSubdivisionEvaluationResult"],
+  "function":"evaluate_family_internal_subdivisions(request)",
+  "bridge_validation":"validate_family_hypothesis_bridge_result(result)",
+  "summaries":["BLOCKED_BY_STRUCTURAL_INVALIDITY","BLOCKED_BY_UNRESOLVED_INTERNAL_STRUCTURE","CURRENT_INTERNAL_SCOPE_REVIEWED"],
+  "not_implemented":["automatic child discovery","family certificate issuance","family classification","degree assignment","ranking"]
+}

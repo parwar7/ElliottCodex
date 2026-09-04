@@ -1,0 +1,14 @@
+{
+  "requirement_classification":"SOURCE_DERIVED_INTERNAL_SUBDIVISION_EXPECTATION",
+  "source_class":"SOURCE_DEFINITION",
+  "child_evidence_classification":"CALLER_SUPPLIED_OPERATIONAL_CHILD_EVIDENCE",
+  "summary_classification":"PROJECT_OPERATIONAL_POLICY",
+  "invariants":{
+    "internal_requirement_is_not_internal_proof":true,
+    "reviewed_child_is_not_validated_family":true,
+    "recursive_review_is_not_elliott_terminality":true,
+    "timeframe_is_not_degree":true
+  },
+  "certificate_authority":false,
+  "methodology_behavior_added":false
+}

@@ -1,0 +1,8 @@
+{
+  "child_window":"No child observation window is created in V1. Consequently no data can be silently extended beyond proposed child endpoints.",
+  "automatic_resolution_selection":false,
+  "timeframe_is_not_degree":true,
+  "recursive_depth_is_not_degree":true,
+  "finer_data":"May be supplied by a later explicit workflow, but availability alone is not visibility or lower degree.",
+  "p023":"Only an exact existing subject-bound P023 unresolved result may support UNRESOLVED_FINER_DATA_REQUIRED. This evaluator does not mutate or rerun P023 and never converts finer-data availability into VISIBLE."
+}

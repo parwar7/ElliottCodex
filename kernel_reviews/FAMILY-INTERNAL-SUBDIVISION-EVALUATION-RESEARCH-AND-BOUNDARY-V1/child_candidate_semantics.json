@@ -1,0 +1,11 @@
+{
+  "accepted":"At most one exact caller-supplied BoundedRecursiveAnalysisNode per exact family-hypothesis child requirement in V1.",
+  "identity":"family hypothesis, child index, child subject and node subject must retain exact live identity",
+  "missing":"NO_CHILD_EVIDENCE_SUPPLIED and unresolved",
+  "invalid":"genuine structural invalidity is retained by exact certificate identity and blocks only the evaluated hypothesis path",
+  "unresolved":"existing recursive unresolved states remain unresolved",
+  "reviewed":"CURRENT_SUPPLIED_SCOPE_REVIEWED remains blocked by the base-case gap and is not child-family proof",
+  "positive":"Only genuine VALIDATED_FAMILY support could review a requirement; current sealed registry makes that unavailable",
+  "automatic_child_enumeration":false,
+  "family_inference_from_segments":false
+}

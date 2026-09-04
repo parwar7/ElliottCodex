@@ -1,0 +1,6 @@
+{
+  "focused":{"command":"python -m unittest discover -s tests -p 'test_family_internal_subdivisions.py' -v","tests":20,"failures":0,"errors":0},
+  "upstream_family_bridge":{"command":"python -m unittest discover -s tests -p 'test_family_hypotheses.py' -v","tests":33,"failures":0,"errors":0},
+  "complete":{"command":"python -m unittest discover -s tests -v","tests":813,"failures":0,"errors":0},
+  "coverage":["exact-type and identity binding","four protected requirement matrices","source classifications and principle IDs","missing/reviewed/unresolved/P023/invalid child states","existing recursive aggregation","genuine structural-certificate retention","cross-family non-promotion","mutation, mapping, duck, subclass and serialization rejection","sealed empty family registry","no degree, ranking, indicators, traps, fundamentals, forecast or trading","legacy analyze remains NOT_IMPLEMENTED"]
+}

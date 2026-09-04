@@ -1,0 +1,8 @@
+{
+  "existing_recursion_reused":["BoundedRecursiveAnalysisNode","BoundedRecursiveAnalysisResolution","aggregate_supplied_child_resolutions"],
+  "source_derived_base_case":"SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "proof_blocker":"INTERNAL_FAMILY_PROOF_BLOCKED_BY_NO_SOURCE_DERIVED_BASE_CASE",
+  "exact_block_point":"A CURRENT_SUPPLIED_SCOPE_REVIEWED child is operationally reviewed but is not VALIDATED_FAMILY support. Positive internal-family proof therefore cannot advance without a genuine validated-family certificate.",
+  "operational_termination":"Evaluation stops when no more exact child nodes were supplied; this is not Elliott terminality.",
+  "prohibited_base_cases":["terminal wave","primitive wave","smallest visible wave","smallest timeframe","three swings prove corrective","five swings prove motive"]
+}

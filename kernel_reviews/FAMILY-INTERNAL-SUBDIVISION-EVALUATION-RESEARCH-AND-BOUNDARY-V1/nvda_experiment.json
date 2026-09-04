@@ -1,0 +1,16 @@
+{
+  "classification":"READ_ONLY_PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "provider":"YAHOO_FINANCE_CHART",
+  "symbol":"NVDA",
+  "retrieved_at_stage_date":"2026-09-04",
+  "external_data_warning":"Yahoo output is mutable external data and may change on later retrieval.",
+  "geometry_config":{"method":"WINDOWED_LOCAL_EXTREMA","left_window_bars":2,"right_window_bars":2,"equal_extreme_policy":"LAST","include_developing":true},
+  "candidate_config":{"max_pivots_considered":8,"max_candidate_span_pivots":6,"max_skipped_pivots":1,"max_candidates_generated":100,"allowed_candidate_shapes":["THREE_SEGMENT_HYPOTHESIS","FIVE_SEGMENT_HYPOTHESIS"],"pivot_window":"LATEST"},
+  "child_evidence":"none supplied; automatic child enumeration is intentionally deferred",
+  "results":{
+    "1mo":{"input_bars":334,"geometric_pivots":70,"neutral_candidates":20,"family_hypotheses":40,"family_counts":{"SINGLE_ZIGZAG":17,"FLAT":17,"TRIANGLE":3,"ENDING_DIAGONAL":3},"internal_requirements":132,"requirements_with_child_evidence":0,"structurally_blocked_family_hypotheses":0,"internally_unresolved_family_hypotheses":40,"current_internal_scope_reviewed_hypotheses":0,"base_case_blocked_requirements":0,"missing_child_evidence_requirements":132,"source_sha256":"c9b64fe133ecdf663ccf8333a5c9f28cf4738905e8b772206d165e0a13828d97","warnings":[]},
+    "1wk":{"input_bars":1443,"geometric_pivots":367,"neutral_candidates":20,"family_hypotheses":40,"family_counts":{"SINGLE_ZIGZAG":17,"FLAT":17,"TRIANGLE":3,"ENDING_DIAGONAL":3},"internal_requirements":132,"requirements_with_child_evidence":0,"structurally_blocked_family_hypotheses":0,"internally_unresolved_family_hypotheses":40,"current_internal_scope_reviewed_hypotheses":0,"base_case_blocked_requirements":0,"missing_child_evidence_requirements":132,"source_sha256":"6580d8d5a259054a94ddaa3ad850fdbd1387d5ee0b1f824d4eaffa278f4211ac","warnings":[]},
+    "1d":{"input_bars":6946,"geometric_pivots":1811,"neutral_candidates":20,"family_hypotheses":40,"family_counts":{"SINGLE_ZIGZAG":17,"FLAT":17,"TRIANGLE":3,"ENDING_DIAGONAL":3},"internal_requirements":132,"requirements_with_child_evidence":0,"structurally_blocked_family_hypotheses":0,"internally_unresolved_family_hypotheses":40,"current_internal_scope_reviewed_hypotheses":0,"base_case_blocked_requirements":0,"missing_child_evidence_requirements":132,"source_sha256":"58ef0116887924da42dc58be4116a8c96bbc8ac078e6611e28d131c6f48263e0","warnings":["YAHOO_NULL_OHLC_ROWS_DROPPED"]}
+  },
+  "interpretation":"Each candidate was evaluated only under a family hypothesis. No exact child evidence was supplied, so every hypothesis remains internally unresolved. No result says NVDA is any family."
+}
