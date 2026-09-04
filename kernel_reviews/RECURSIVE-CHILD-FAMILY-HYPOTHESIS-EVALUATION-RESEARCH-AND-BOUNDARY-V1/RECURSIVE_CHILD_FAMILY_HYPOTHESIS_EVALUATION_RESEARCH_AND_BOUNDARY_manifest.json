@@ -17,7 +17,7 @@
     {"path":"api_contract.json","byte_length":982,"sha256":"5d3a51ce3226ac0c26b0ba379065aaccc882e56924e4a40f947f0ff824f8d8ca"},
     {"path":"BASELINE_README.md","byte_length":1143,"sha256":"b1a18039975088c263c938d1a19f5024d23f8371ec8b84076188ad032e57206b"},
     {"path":"known_limitations_and_next_stage.json","byte_length":743,"sha256":"c9c551eab3118989dcb02fc2fbe00ee0c348c9660d01474254452d4885098b31"},
-    {"path":"nvda_experiment.json","byte_length":4129,"sha256":"80aff899f13ef7d82c9916dd6ff2f5df6c56dc12d03a150a13ec9682c2a15a23"},
+    {"path":"nvda_experiment.json","byte_length":4197,"sha256":"ea3a377eadf45f448f09119746604d20b22222110733196f107a3ed055bee9b3"},
     {"path":"prior_baseline_delta.json","byte_length":737,"sha256":"5981fd1c12ec832bb5a4da6b8e2241989fc18e490d6f2b0a4616ae23a396add0"},
     {"path":"requirement_compatibility_matrix.json","byte_length":1218,"sha256":"faddf311a703500bbe16e9c4f2bb2ca5923540c2bf61fca48ca9d8c32f4a5c6f"},
     {"path":"resource_bounds.json","byte_length":549,"sha256":"04d086f2c8ac2bbc41f0ddb26c0cab0425e6ae903d482a03cb35171ee80751c6"},
