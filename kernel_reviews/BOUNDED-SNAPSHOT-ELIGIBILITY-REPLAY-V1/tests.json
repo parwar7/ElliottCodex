@@ -1,0 +1,36 @@
+{
+  "focused": {
+    "command": "python -B -m unittest test_bounded_snapshot_replay test_nvda_post_p005_experiment test_p005_percentage_sufficiency test_normal_impulse_partial_evaluation",
+    "tests": 87,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 93.425
+  },
+  "full": {
+    "command": "python -B -m unittest discover -s tests",
+    "tests": 1017,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 191.433
+  },
+  "environment": {
+    "PYTHONPATH": "src;tests;tools",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "new_tests": 20,
+  "final_focused_runs": 1,
+  "final_full_runs": 1,
+  "development_findings": [
+    {
+      "kind": "NEW_TEST_EXPECTATION_ERROR",
+      "detail": "Initial focused run: 87 tests, 1 failure; hard-coded zero-based source-record indices differed from fixture provenance starting at 1. Corrected test to compare actual source indices. No implementation or existing test was changed."
+    },
+    {
+      "kind": "NEW_AUDIT_FIELD_NAME_ERROR",
+      "detail": "Initial read-only audit used kind instead of the existing pivot_kind field. Corrected audit only; final independent audit passed."
+    }
+  ],
+  "market_network_in_new_tests": false,
+  "existing_mock_failure_output": "Yahoo retrieval/INCOMPLETE traceback is the pre-existing intentionally mocked provider-failure test, not a live retrieval or suite failure.",
+  "execution": "Local foreground process sessions; Codex Process Jobs previously reported unsupported win32. No detached job or permission change."
+}

@@ -1,0 +1,109 @@
+{
+  "baseline_id": "BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1",
+  "classification": "ADDITIVE_LOGICAL_DIAGNOSTIC_REPLAY_BASELINE",
+  "approved_base": "380bb7224847226f80f46eddc52066fc66ab4b15",
+  "status": "EXECUTED_TESTED_AUDITED",
+  "project_manager_approval_claimed": false,
+  "previous_baseline_manifest_sha256": "b244a8dc73b5585aee44c6102039352579f327b2d0a0e9c9eea41d227c448d09",
+  "protected_state_unchanged": true,
+  "methodology_code_unchanged": true,
+  "historical_baselines_unchanged": true,
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances": 0
+  },
+  "tests": {
+    "focused": 87,
+    "full": 1017,
+    "new": 20,
+    "failures": 0,
+    "errors": 0
+  },
+  "replay": {
+    "cutoffs": 3,
+    "scopes": 9,
+    "endpoint_checks": 240,
+    "comparably_keyed_rows": 10,
+    "comparable_eligibility_changes": 0,
+    "confirmation_count": 0,
+    "not_point_in_time_history": true
+  },
+  "next_stage": "CAPTURE-TIME-OBSERVATION-AVAILABILITY-CONTRACT-V1",
+  "hashing": "SHA-256 of actual UTF-8 file bytes; manifest excludes itself. Logical write-once baseline, not physical sealing.",
+  "runtime_files": [
+    {
+      "path": "tools/bounded_snapshot_replay.py",
+      "byte_length": 14043,
+      "sha256": "fac583c43f4ca90585ebde05ea1c2571a3b751d06a1b8af3eaeb0bce1f3f65e5"
+    },
+    {
+      "path": "tests/test_bounded_snapshot_replay.py",
+      "byte_length": 12936,
+      "sha256": "d1bb63a51dc6faba3e4b11ff666ff7661784c919728acd6961f1099b2f32a1f7"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/adversarial_audit.json",
+      "byte_length": 3092,
+      "sha256": "2d43cfdf64acbdd446f6c8f6629361404b658bfe5f2ff7f69c19b51591b7096e"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/audit_replay.py",
+      "byte_length": 13922,
+      "sha256": "cdb060b7f6838d40cd1c5aa2123972883735e352f09b739f3d5447816cf71204"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/audit_results.json",
+      "byte_length": 99499,
+      "sha256": "7d69e659ffa85a576e8c3fe33671a3a76b065b200dc35c9a12dc4fdadc0c1614"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/configuration.json",
+      "byte_length": 3310,
+      "sha256": "bc2fe78cffecca9de374fe78d16a48639c4fc9ef045a07cbfd30e882f06c7853"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/final_integrity.json",
+      "byte_length": 9584,
+      "sha256": "ffe503f66b28aaf4930eafa94b8f64c2368f7dfb45972e70455e4707d80999ba"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/next_stage.json",
+      "byte_length": 1505,
+      "sha256": "b1734af6b1d1e0b6ba8c3243ab1e2110c695aeefe11e1faf592d5518f3b97c34"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/operational_summary.json",
+      "byte_length": 58055,
+      "sha256": "180e746f4a774330471793f8714572b9c55777994523785b70c813f8ac714209"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/pre_write_integrity.json",
+      "byte_length": 9588,
+      "sha256": "b76c51c2f4fe33f8432971183b6e5f4f1892afd8c29c72f05f6be5253a5ec8c8"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/preserved_files.json",
+      "byte_length": 131345,
+      "sha256": "e711e6b91f706ead46b0bce4917d02ca5d86a26c2c9b570ca8c18ea0609fdda2"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/README.md",
+      "byte_length": 10112,
+      "sha256": "60ca9919b685870659ae9ed7a0959fb640f7132022d9f6030cb09e397a1e6bd8"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/replay_results.json",
+      "byte_length": 1499685,
+      "sha256": "f73f0e27ad3f9fe1c996fd7225a7f7e2e0661eecc77f03592d5aaacca24101a1"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1/tests.json",
+      "byte_length": 1498,
+      "sha256": "7f50fe54566798c4da12a079e18c824e297ea50c85b08ac66b64f68e99fb75e3"
+    }
+  ]
+}

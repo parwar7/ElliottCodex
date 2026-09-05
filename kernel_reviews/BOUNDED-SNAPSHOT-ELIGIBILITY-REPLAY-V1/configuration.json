@@ -1,0 +1,100 @@
+{
+  "approved_base": "380bb7224847226f80f46eddc52066fc66ab4b15",
+  "budget": {
+    "child_levels": 1,
+    "cutoffs": 3,
+    "pairs_per_cutoff": 3,
+    "scope_evaluations": 9
+  },
+  "capture_requested_at_utc": "2026-09-05T09:09:19+00:00",
+  "caveat": "Diagnostic replay of later-captured values, NOT a lookahead-free historical backtest. Timestamp membership does not mean final OHLC values were known at bar opening. No exchange calendar, bar-close or completion authority.",
+  "cutoff_selection": "Last two UTC calendar month-ends before capture, then capture; independent of outcomes.",
+  "cutoffs_utc": [
+    "2026-07-31T23:59:59+00:00",
+    "2026-08-31T23:59:59+00:00",
+    "2026-09-05T09:09:19+00:00"
+  ],
+  "membership": "Include recorded bars with timestamp_utc <= cutoff; exact inclusive UTC comparison.",
+  "network_retrieval": false,
+  "pipeline_bounds": {
+    "automatic_child_levels": 1,
+    "child": {
+      "allowed_child_candidate_shapes": [
+        "THREE_SEGMENT_HYPOTHESIS",
+        "FIVE_SEGMENT_HYPOTHESIS"
+      ],
+      "max_child_candidate_span_pivots": 6,
+      "max_child_candidates_per_requirement": 10,
+      "max_child_skipped_pivots": 0,
+      "max_pivots_per_child_window": 6,
+      "max_requirements_processed": 100,
+      "max_requirements_with_finer_selection": 100,
+      "max_total_child_candidates": 500,
+      "max_total_child_windows": 100,
+      "max_total_finer_geometric_pivots": 10000
+    },
+    "child_family": {
+      "allowed_family_kinds": [
+        "SINGLE_ZIGZAG",
+        "FLAT",
+        "TRIANGLE",
+        "ENDING_DIAGONAL"
+      ],
+      "max_child_candidate_sets_processed": 100,
+      "max_child_candidates_processed": 500,
+      "max_family_hypotheses_per_child_candidate": 3,
+      "max_requirements_processed": 100,
+      "max_total_child_family_hypotheses": 1500,
+      "max_total_methodology_evaluations": 1500
+    },
+    "child_normal_impulse_cap": 1000,
+    "child_pivot_window": "EARLIEST (existing child generator)",
+    "classification": "CALLER_SUPPLIED_OPERATIONAL_BOUND",
+    "geometry": {
+      "equal_extreme_policy": "LAST",
+      "include_developing": true,
+      "left_window_bars": 2,
+      "method": "WINDOWED_LOCAL_EXTREMA",
+      "right_window_bars": 2
+    },
+    "parent": {
+      "allowed_candidate_shapes": [
+        "THREE_SEGMENT_HYPOTHESIS",
+        "FIVE_SEGMENT_HYPOTHESIS"
+      ],
+      "max_candidate_span_pivots": 6,
+      "max_candidates_generated": 10,
+      "max_pivots_considered": 6,
+      "max_skipped_pivots": 0,
+      "pivot_window": "LATEST"
+    },
+    "parent_family_kinds": [
+      "SINGLE_ZIGZAG",
+      "FLAT",
+      "TRIANGLE",
+      "ENDING_DIAGONAL"
+    ],
+    "parent_normal_impulse_cap": 100,
+    "scope_note": "Latest six parent pivots; earliest six per child window. No skipped pivots, degree assignment, resampling or ranking.",
+    "selection": {
+      "max_bars_per_selected_window": 10000,
+      "max_geometric_pivots_per_window": 5000
+    },
+    "timeframe_pairs": [
+      [
+        "1mo",
+        "1wk"
+      ],
+      [
+        "1wk",
+        "1d"
+      ],
+      [
+        "1d",
+        "1h"
+      ]
+    ]
+  },
+  "snapshot_policy": "Reconstruct from original capture independently at every cutoff; never extend or mutate earlier snapshots.",
+  "stage": "BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1"
+}

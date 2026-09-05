@@ -1,0 +1,16 @@
+{
+  "recommendation": "CAPTURE-TIME-OBSERVATION-AVAILABILITY-CONTRACT-V1",
+  "classification": "ENGINEERING_CONTRACT_DESIGN_REQUIRES_SEPARATE_STAGE_APPROVAL",
+  "question": "How can successive provider capture versions retain exactly what was observed at retrieval time, separately from bar timestamps, so snapshot lifecycle comparisons do not claim that later-captured OHLC was available historically?",
+  "evidence": {
+    "comparable_contextual_rows": 10,
+    "comparable_eligibility_changes": 0,
+    "pooled_evaluations": 40,
+    "unresolved_developing": 20,
+    "final_weekly_partial_requirement_contexts": 4
+  },
+  "reason": "This replay resolves deterministic rebuild, non-rescue and replacement reporting, but cannot establish historical value availability from a single later capture. Repeating unchanged-corpus cutoffs cannot supply that evidence.",
+  "scope": "Design a bounded append-only capture/version and availability-provenance contract using existing observation transports where sufficient. Preserve actual retrieval timestamps and values; distinguish recorded bar timestamp, capture availability, geometric eligibility and Elliott completion. No invented bar-close calendar, no change to P005 eligibility, no forced persistent endpoints.",
+  "source_authority_boundary": "Engineering provenance cannot solve P006 conflict, Flat/Triangle freezes or SOURCE_DERIVED_BASE_CASE_NOT_FOUND; these remain separately source-authority blocked and are not reopened.",
+  "not_implemented": true
+}

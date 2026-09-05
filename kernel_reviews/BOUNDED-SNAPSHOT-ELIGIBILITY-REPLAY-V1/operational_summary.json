@@ -1,0 +1,1560 @@
+{
+  "classification": "PROJECT_ANALYSIS_INFRASTRUCTURE_DIAGNOSTIC_REPLAY",
+  "caveat": "Diagnostic replay of later-captured values, NOT a lookahead-free historical backtest. Timestamp membership does not mean final OHLC values were known at bar opening. No exchange calendar, bar-close or completion authority.",
+  "cutoffs": [
+    {
+      "cutoff_utc": "2026-07-31T23:59:59+00:00",
+      "scopes": [
+        {
+          "parent_resolution": "1mo",
+          "child_resolution": "1wk",
+          "parent_bars": 331,
+          "finer_bars": 1437,
+          "geometric_pivots": 70,
+          "neutral_parent_candidates": 4,
+          "parent_family_hypotheses": 8,
+          "neutral_child_candidates": 46,
+          "child_family_hypotheses": 40,
+          "requirements_with_partial_normal_impulse_execution": 3,
+          "coverage_counts": {
+            "FULL_WINDOW_COVERAGE": 28
+          },
+          "child_generation_counts": {
+            "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 16,
+            "INSUFFICIENT_GEOMETRIC_PIVOTS": 12
+          },
+          "caps_exhausted": false,
+          "search_exhaustive": false,
+          "parent_generation_diagnostics": [
+            {
+              "code": "INPUT_GEOMETRIC_PIVOTS",
+              "count": 70,
+              "detail": "Exact geometric observations supplied; none has Elliott endpoint authority."
+            },
+            {
+              "code": "PIVOTS_EXCLUDED_BY_CONSIDERATION_WINDOW",
+              "count": 64,
+              "detail": "Caller bound excluded these pivots before enumeration."
+            },
+            {
+              "code": "SUBSEQUENCES_REJECTED_BY_SPAN_OR_SKIP_BOUNDS",
+              "count": 12,
+              "detail": "Combinatorial count outside caller span or skip bounds; these combinations were never enumerated."
+            },
+            {
+              "code": "GENERATED_CANDIDATE_HYPOTHESES",
+              "count": 4,
+              "detail": "Enumeration count only; generation is not Elliott confirmation."
+            }
+          ],
+          "child_generation_diagnostics": [
+            {
+              "code": "REQUIREMENTS_PROCESSED",
+              "count": 28,
+              "detail": "Exact missing-evidence requirements processed once."
+            },
+            {
+              "code": "CHILD_WINDOWS_CREATED",
+              "count": 28,
+              "detail": "Inclusive exact-pivot transport windows created."
+            },
+            {
+              "code": "SUFFICIENT_INTERVAL_PIVOTS",
+              "count": 16,
+              "detail": "Windows supporting at least one neutral child candidate set."
+            },
+            {
+              "code": "INSUFFICIENT_INTERVAL_PIVOTS",
+              "count": 12,
+              "detail": "Windows left unresolved without expansion."
+            },
+            {
+              "code": "NEUTRAL_CHILD_EVIDENCE_CREATED",
+              "count": 16,
+              "detail": "Evidence availability only; no requirement satisfaction."
+            },
+            {
+              "code": "NEUTRAL_CHILD_CANDIDATES_CREATED",
+              "count": 46,
+              "detail": "Neutral candidates retained without family, degree, or rank."
+            },
+            {
+              "code": "DEVELOPING_WINDOWS_PRESENT",
+              "count": 22,
+              "detail": "Developing geometric status retained without confirmation."
+            },
+            {
+              "code": "BASE_CASE_REMAINS_BLOCKED",
+              "count": 16,
+              "detail": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+            },
+            {
+              "code": "FINER_SELECTIONS_APPLIED",
+              "count": 28,
+              "detail": "Exact caller-supplied finer observation selections applied without degree inference."
+            },
+            {
+              "code": "FINER_COVERAGE_FAILURES",
+              "count": 0,
+              "detail": "Partial/no coverage remained infrastructure-unresolved without structural invalidity."
+            }
+          ],
+          "internal_requirements": 28,
+          "requirements_satisfied": 0,
+          "motive_five_requirements": 9,
+          "finer_pivots_excluded_by_per_window_six_bound": 6,
+          "parent": {
+            "hypotheses": 1,
+            "p004": {
+              "RULE_VIOLATED": 1
+            },
+            "p005": {
+              "SUFFICIENT_CONDITION_ESTABLISHED": 1
+            },
+            "p005_unresolved_reasons": {},
+            "p004_invalid_despite_p005_sufficiency": 1,
+            "p004_certificates": 1,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          },
+          "child": {
+            "hypotheses": 3,
+            "p004": {
+              "RULE_VIOLATED": 3
+            },
+            "p005": {
+              "SUFFICIENT_CONDITION_ESTABLISHED": 2,
+              "UNRESOLVED": 1
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 2,
+            "p004_certificates": 3,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          }
+        },
+        {
+          "parent_resolution": "1wk",
+          "child_resolution": "1d",
+          "parent_bars": 1437,
+          "finer_bars": 6923,
+          "geometric_pivots": 368,
+          "neutral_parent_candidates": 4,
+          "parent_family_hypotheses": 8,
+          "neutral_child_candidates": 8,
+          "child_family_hypotheses": 8,
+          "requirements_with_partial_normal_impulse_execution": 0,
+          "coverage_counts": {
+            "FULL_WINDOW_COVERAGE": 28
+          },
+          "child_generation_counts": {
+            "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 4,
+            "INSUFFICIENT_GEOMETRIC_PIVOTS": 24
+          },
+          "caps_exhausted": false,
+          "search_exhaustive": false,
+          "parent_generation_diagnostics": [
+            {
+              "code": "INPUT_GEOMETRIC_PIVOTS",
+              "count": 368,
+              "detail": "Exact geometric observations supplied; none has Elliott endpoint authority."
+            },
+            {
+              "code": "PIVOTS_EXCLUDED_BY_CONSIDERATION_WINDOW",
+              "count": 362,
+              "detail": "Caller bound excluded these pivots before enumeration."
+            },
+            {
+              "code": "SUBSEQUENCES_REJECTED_BY_SPAN_OR_SKIP_BOUNDS",
+              "count": 12,
+              "detail": "Combinatorial count outside caller span or skip bounds; these combinations were never enumerated."
+            },
+            {
+              "code": "GENERATED_CANDIDATE_HYPOTHESES",
+              "count": 4,
+              "detail": "Enumeration count only; generation is not Elliott confirmation."
+            }
+          ],
+          "child_generation_diagnostics": [
+            {
+              "code": "REQUIREMENTS_PROCESSED",
+              "count": 28,
+              "detail": "Exact missing-evidence requirements processed once."
+            },
+            {
+              "code": "CHILD_WINDOWS_CREATED",
+              "count": 28,
+              "detail": "Inclusive exact-pivot transport windows created."
+            },
+            {
+              "code": "SUFFICIENT_INTERVAL_PIVOTS",
+              "count": 4,
+              "detail": "Windows supporting at least one neutral child candidate set."
+            },
+            {
+              "code": "INSUFFICIENT_INTERVAL_PIVOTS",
+              "count": 24,
+              "detail": "Windows left unresolved without expansion."
+            },
+            {
+              "code": "NEUTRAL_CHILD_EVIDENCE_CREATED",
+              "count": 4,
+              "detail": "Evidence availability only; no requirement satisfaction."
+            },
+            {
+              "code": "NEUTRAL_CHILD_CANDIDATES_CREATED",
+              "count": 8,
+              "detail": "Neutral candidates retained without family, degree, or rank."
+            },
+            {
+              "code": "DEVELOPING_WINDOWS_PRESENT",
+              "count": 28,
+              "detail": "Developing geometric status retained without confirmation."
+            },
+            {
+              "code": "BASE_CASE_REMAINS_BLOCKED",
+              "count": 4,
+              "detail": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+            },
+            {
+              "code": "FINER_SELECTIONS_APPLIED",
+              "count": 28,
+              "detail": "Exact caller-supplied finer observation selections applied without degree inference."
+            },
+            {
+              "code": "FINER_COVERAGE_FAILURES",
+              "count": 0,
+              "detail": "Partial/no coverage remained infrastructure-unresolved without structural invalidity."
+            }
+          ],
+          "internal_requirements": 28,
+          "requirements_satisfied": 0,
+          "motive_five_requirements": 9,
+          "finer_pivots_excluded_by_per_window_six_bound": 0,
+          "parent": {
+            "hypotheses": 1,
+            "p004": {
+              "RULE_SATISFIED": 1
+            },
+            "p005": {
+              "UNRESOLVED": 1
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 0,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          },
+          "child": {
+            "hypotheses": 0,
+            "p004": {},
+            "p005": {},
+            "p005_unresolved_reasons": {},
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 0,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          }
+        },
+        {
+          "parent_resolution": "1d",
+          "child_resolution": "1h",
+          "parent_bars": 6923,
+          "finer_bars": 3317,
+          "geometric_pivots": 1805,
+          "neutral_parent_candidates": 4,
+          "parent_family_hypotheses": 8,
+          "neutral_child_candidates": 88,
+          "child_family_hypotheses": 77,
+          "requirements_with_partial_normal_impulse_execution": 4,
+          "coverage_counts": {
+            "FULL_WINDOW_COVERAGE": 28
+          },
+          "child_generation_counts": {
+            "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 28
+          },
+          "caps_exhausted": false,
+          "search_exhaustive": false,
+          "parent_generation_diagnostics": [
+            {
+              "code": "INPUT_GEOMETRIC_PIVOTS",
+              "count": 1805,
+              "detail": "Exact geometric observations supplied; none has Elliott endpoint authority."
+            },
+            {
+              "code": "PIVOTS_EXCLUDED_BY_CONSIDERATION_WINDOW",
+              "count": 1799,
+              "detail": "Caller bound excluded these pivots before enumeration."
+            },
+            {
+              "code": "SUBSEQUENCES_REJECTED_BY_SPAN_OR_SKIP_BOUNDS",
+              "count": 12,
+              "detail": "Combinatorial count outside caller span or skip bounds; these combinations were never enumerated."
+            },
+            {
+              "code": "GENERATED_CANDIDATE_HYPOTHESES",
+              "count": 4,
+              "detail": "Enumeration count only; generation is not Elliott confirmation."
+            }
+          ],
+          "child_generation_diagnostics": [
+            {
+              "code": "REQUIREMENTS_PROCESSED",
+              "count": 28,
+              "detail": "Exact missing-evidence requirements processed once."
+            },
+            {
+              "code": "CHILD_WINDOWS_CREATED",
+              "count": 28,
+              "detail": "Inclusive exact-pivot transport windows created."
+            },
+            {
+              "code": "SUFFICIENT_INTERVAL_PIVOTS",
+              "count": 28,
+              "detail": "Windows supporting at least one neutral child candidate set."
+            },
+            {
+              "code": "INSUFFICIENT_INTERVAL_PIVOTS",
+              "count": 0,
+              "detail": "Windows left unresolved without expansion."
+            },
+            {
+              "code": "NEUTRAL_CHILD_EVIDENCE_CREATED",
+              "count": 28,
+              "detail": "Evidence availability only; no requirement satisfaction."
+            },
+            {
+              "code": "NEUTRAL_CHILD_CANDIDATES_CREATED",
+              "count": 88,
+              "detail": "Neutral candidates retained without family, degree, or rank."
+            },
+            {
+              "code": "DEVELOPING_WINDOWS_PRESENT",
+              "count": 16,
+              "detail": "Developing geometric status retained without confirmation."
+            },
+            {
+              "code": "BASE_CASE_REMAINS_BLOCKED",
+              "count": 28,
+              "detail": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+            },
+            {
+              "code": "FINER_SELECTIONS_APPLIED",
+              "count": 28,
+              "detail": "Exact caller-supplied finer observation selections applied without degree inference."
+            },
+            {
+              "code": "FINER_COVERAGE_FAILURES",
+              "count": 0,
+              "detail": "Partial/no coverage remained infrastructure-unresolved without structural invalidity."
+            }
+          ],
+          "internal_requirements": 28,
+          "requirements_satisfied": 0,
+          "motive_five_requirements": 9,
+          "finer_pivots_excluded_by_per_window_six_bound": 34,
+          "parent": {
+            "hypotheses": 1,
+            "p004": {
+              "RULE_SATISFIED": 1
+            },
+            "p005": {
+              "UNRESOLVED": 1
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 0,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          },
+          "child": {
+            "hypotheses": 4,
+            "p004": {
+              "RULE_SATISFIED": 2,
+              "RULE_VIOLATED": 2
+            },
+            "p005": {
+              "SUFFICIENT_CONDITION_ESTABLISHED": 2,
+              "UNRESOLVED": 2
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1,
+              "ZERO_OR_OPPOSING_ROLE_MOVEMENT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 2,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "cutoff_utc": "2026-08-31T23:59:59+00:00",
+      "scopes": [
+        {
+          "parent_resolution": "1mo",
+          "child_resolution": "1wk",
+          "parent_bars": 332,
+          "finer_bars": 1442,
+          "geometric_pivots": 70,
+          "neutral_parent_candidates": 4,
+          "parent_family_hypotheses": 8,
+          "neutral_child_candidates": 46,
+          "child_family_hypotheses": 40,
+          "requirements_with_partial_normal_impulse_execution": 3,
+          "coverage_counts": {
+            "FULL_WINDOW_COVERAGE": 28
+          },
+          "child_generation_counts": {
+            "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 16,
+            "INSUFFICIENT_GEOMETRIC_PIVOTS": 12
+          },
+          "caps_exhausted": false,
+          "search_exhaustive": false,
+          "parent_generation_diagnostics": [
+            {
+              "code": "INPUT_GEOMETRIC_PIVOTS",
+              "count": 70,
+              "detail": "Exact geometric observations supplied; none has Elliott endpoint authority."
+            },
+            {
+              "code": "PIVOTS_EXCLUDED_BY_CONSIDERATION_WINDOW",
+              "count": 64,
+              "detail": "Caller bound excluded these pivots before enumeration."
+            },
+            {
+              "code": "SUBSEQUENCES_REJECTED_BY_SPAN_OR_SKIP_BOUNDS",
+              "count": 12,
+              "detail": "Combinatorial count outside caller span or skip bounds; these combinations were never enumerated."
+            },
+            {
+              "code": "GENERATED_CANDIDATE_HYPOTHESES",
+              "count": 4,
+              "detail": "Enumeration count only; generation is not Elliott confirmation."
+            }
+          ],
+          "child_generation_diagnostics": [
+            {
+              "code": "REQUIREMENTS_PROCESSED",
+              "count": 28,
+              "detail": "Exact missing-evidence requirements processed once."
+            },
+            {
+              "code": "CHILD_WINDOWS_CREATED",
+              "count": 28,
+              "detail": "Inclusive exact-pivot transport windows created."
+            },
+            {
+              "code": "SUFFICIENT_INTERVAL_PIVOTS",
+              "count": 16,
+              "detail": "Windows supporting at least one neutral child candidate set."
+            },
+            {
+              "code": "INSUFFICIENT_INTERVAL_PIVOTS",
+              "count": 12,
+              "detail": "Windows left unresolved without expansion."
+            },
+            {
+              "code": "NEUTRAL_CHILD_EVIDENCE_CREATED",
+              "count": 16,
+              "detail": "Evidence availability only; no requirement satisfaction."
+            },
+            {
+              "code": "NEUTRAL_CHILD_CANDIDATES_CREATED",
+              "count": 46,
+              "detail": "Neutral candidates retained without family, degree, or rank."
+            },
+            {
+              "code": "DEVELOPING_WINDOWS_PRESENT",
+              "count": 22,
+              "detail": "Developing geometric status retained without confirmation."
+            },
+            {
+              "code": "BASE_CASE_REMAINS_BLOCKED",
+              "count": 16,
+              "detail": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+            },
+            {
+              "code": "FINER_SELECTIONS_APPLIED",
+              "count": 28,
+              "detail": "Exact caller-supplied finer observation selections applied without degree inference."
+            },
+            {
+              "code": "FINER_COVERAGE_FAILURES",
+              "count": 0,
+              "detail": "Partial/no coverage remained infrastructure-unresolved without structural invalidity."
+            }
+          ],
+          "internal_requirements": 28,
+          "requirements_satisfied": 0,
+          "motive_five_requirements": 9,
+          "finer_pivots_excluded_by_per_window_six_bound": 6,
+          "parent": {
+            "hypotheses": 1,
+            "p004": {
+              "RULE_VIOLATED": 1
+            },
+            "p005": {
+              "SUFFICIENT_CONDITION_ESTABLISHED": 1
+            },
+            "p005_unresolved_reasons": {},
+            "p004_invalid_despite_p005_sufficiency": 1,
+            "p004_certificates": 1,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          },
+          "child": {
+            "hypotheses": 3,
+            "p004": {
+              "RULE_VIOLATED": 3
+            },
+            "p005": {
+              "SUFFICIENT_CONDITION_ESTABLISHED": 2,
+              "UNRESOLVED": 1
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 2,
+            "p004_certificates": 3,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          }
+        },
+        {
+          "parent_resolution": "1wk",
+          "child_resolution": "1d",
+          "parent_bars": 1442,
+          "finer_bars": 6944,
+          "geometric_pivots": 369,
+          "neutral_parent_candidates": 4,
+          "parent_family_hypotheses": 8,
+          "neutral_child_candidates": 28,
+          "child_family_hypotheses": 28,
+          "requirements_with_partial_normal_impulse_execution": 0,
+          "coverage_counts": {
+            "FULL_WINDOW_COVERAGE": 28
+          },
+          "child_generation_counts": {
+            "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 14,
+            "INSUFFICIENT_GEOMETRIC_PIVOTS": 14
+          },
+          "caps_exhausted": false,
+          "search_exhaustive": false,
+          "parent_generation_diagnostics": [
+            {
+              "code": "INPUT_GEOMETRIC_PIVOTS",
+              "count": 369,
+              "detail": "Exact geometric observations supplied; none has Elliott endpoint authority."
+            },
+            {
+              "code": "PIVOTS_EXCLUDED_BY_CONSIDERATION_WINDOW",
+              "count": 363,
+              "detail": "Caller bound excluded these pivots before enumeration."
+            },
+            {
+              "code": "SUBSEQUENCES_REJECTED_BY_SPAN_OR_SKIP_BOUNDS",
+              "count": 12,
+              "detail": "Combinatorial count outside caller span or skip bounds; these combinations were never enumerated."
+            },
+            {
+              "code": "GENERATED_CANDIDATE_HYPOTHESES",
+              "count": 4,
+              "detail": "Enumeration count only; generation is not Elliott confirmation."
+            }
+          ],
+          "child_generation_diagnostics": [
+            {
+              "code": "REQUIREMENTS_PROCESSED",
+              "count": 28,
+              "detail": "Exact missing-evidence requirements processed once."
+            },
+            {
+              "code": "CHILD_WINDOWS_CREATED",
+              "count": 28,
+              "detail": "Inclusive exact-pivot transport windows created."
+            },
+            {
+              "code": "SUFFICIENT_INTERVAL_PIVOTS",
+              "count": 14,
+              "detail": "Windows supporting at least one neutral child candidate set."
+            },
+            {
+              "code": "INSUFFICIENT_INTERVAL_PIVOTS",
+              "count": 14,
+              "detail": "Windows left unresolved without expansion."
+            },
+            {
+              "code": "NEUTRAL_CHILD_EVIDENCE_CREATED",
+              "count": 14,
+              "detail": "Evidence availability only; no requirement satisfaction."
+            },
+            {
+              "code": "NEUTRAL_CHILD_CANDIDATES_CREATED",
+              "count": 28,
+              "detail": "Neutral candidates retained without family, degree, or rank."
+            },
+            {
+              "code": "DEVELOPING_WINDOWS_PRESENT",
+              "count": 28,
+              "detail": "Developing geometric status retained without confirmation."
+            },
+            {
+              "code": "BASE_CASE_REMAINS_BLOCKED",
+              "count": 14,
+              "detail": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+            },
+            {
+              "code": "FINER_SELECTIONS_APPLIED",
+              "count": 28,
+              "detail": "Exact caller-supplied finer observation selections applied without degree inference."
+            },
+            {
+              "code": "FINER_COVERAGE_FAILURES",
+              "count": 0,
+              "detail": "Partial/no coverage remained infrastructure-unresolved without structural invalidity."
+            }
+          ],
+          "internal_requirements": 28,
+          "requirements_satisfied": 0,
+          "motive_five_requirements": 9,
+          "finer_pivots_excluded_by_per_window_six_bound": 0,
+          "parent": {
+            "hypotheses": 1,
+            "p004": {
+              "RULE_SATISFIED": 1
+            },
+            "p005": {
+              "UNRESOLVED": 1
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 0,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          },
+          "child": {
+            "hypotheses": 0,
+            "p004": {},
+            "p005": {},
+            "p005_unresolved_reasons": {},
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 0,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          }
+        },
+        {
+          "parent_resolution": "1d",
+          "child_resolution": "1h",
+          "parent_bars": 6944,
+          "finer_bars": 3464,
+          "geometric_pivots": 1810,
+          "neutral_parent_candidates": 4,
+          "parent_family_hypotheses": 8,
+          "neutral_child_candidates": 96,
+          "child_family_hypotheses": 82,
+          "requirements_with_partial_normal_impulse_execution": 7,
+          "coverage_counts": {
+            "FULL_WINDOW_COVERAGE": 28
+          },
+          "child_generation_counts": {
+            "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 24,
+            "INSUFFICIENT_GEOMETRIC_PIVOTS": 4
+          },
+          "caps_exhausted": false,
+          "search_exhaustive": false,
+          "parent_generation_diagnostics": [
+            {
+              "code": "INPUT_GEOMETRIC_PIVOTS",
+              "count": 1810,
+              "detail": "Exact geometric observations supplied; none has Elliott endpoint authority."
+            },
+            {
+              "code": "PIVOTS_EXCLUDED_BY_CONSIDERATION_WINDOW",
+              "count": 1804,
+              "detail": "Caller bound excluded these pivots before enumeration."
+            },
+            {
+              "code": "SUBSEQUENCES_REJECTED_BY_SPAN_OR_SKIP_BOUNDS",
+              "count": 12,
+              "detail": "Combinatorial count outside caller span or skip bounds; these combinations were never enumerated."
+            },
+            {
+              "code": "GENERATED_CANDIDATE_HYPOTHESES",
+              "count": 4,
+              "detail": "Enumeration count only; generation is not Elliott confirmation."
+            }
+          ],
+          "child_generation_diagnostics": [
+            {
+              "code": "REQUIREMENTS_PROCESSED",
+              "count": 28,
+              "detail": "Exact missing-evidence requirements processed once."
+            },
+            {
+              "code": "CHILD_WINDOWS_CREATED",
+              "count": 28,
+              "detail": "Inclusive exact-pivot transport windows created."
+            },
+            {
+              "code": "SUFFICIENT_INTERVAL_PIVOTS",
+              "count": 24,
+              "detail": "Windows supporting at least one neutral child candidate set."
+            },
+            {
+              "code": "INSUFFICIENT_INTERVAL_PIVOTS",
+              "count": 4,
+              "detail": "Windows left unresolved without expansion."
+            },
+            {
+              "code": "NEUTRAL_CHILD_EVIDENCE_CREATED",
+              "count": 24,
+              "detail": "Evidence availability only; no requirement satisfaction."
+            },
+            {
+              "code": "NEUTRAL_CHILD_CANDIDATES_CREATED",
+              "count": 96,
+              "detail": "Neutral candidates retained without family, degree, or rank."
+            },
+            {
+              "code": "DEVELOPING_WINDOWS_PRESENT",
+              "count": 16,
+              "detail": "Developing geometric status retained without confirmation."
+            },
+            {
+              "code": "BASE_CASE_REMAINS_BLOCKED",
+              "count": 24,
+              "detail": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+            },
+            {
+              "code": "FINER_SELECTIONS_APPLIED",
+              "count": 28,
+              "detail": "Exact caller-supplied finer observation selections applied without degree inference."
+            },
+            {
+              "code": "FINER_COVERAGE_FAILURES",
+              "count": 0,
+              "detail": "Partial/no coverage remained infrastructure-unresolved without structural invalidity."
+            }
+          ],
+          "internal_requirements": 28,
+          "requirements_satisfied": 0,
+          "motive_five_requirements": 9,
+          "finer_pivots_excluded_by_per_window_six_bound": 20,
+          "parent": {
+            "hypotheses": 1,
+            "p004": {
+              "RULE_VIOLATED": 1
+            },
+            "p005": {
+              "UNRESOLVED": 1
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 1,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          },
+          "child": {
+            "hypotheses": 7,
+            "p004": {
+              "RULE_SATISFIED": 7
+            },
+            "p005": {
+              "UNRESOLVED": 7
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 3,
+              "ZERO_OR_OPPOSING_ROLE_MOVEMENT": 4
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 0,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "cutoff_utc": "2026-09-05T09:09:19+00:00",
+      "scopes": [
+        {
+          "parent_resolution": "1mo",
+          "child_resolution": "1wk",
+          "parent_bars": 334,
+          "finer_bars": 1443,
+          "geometric_pivots": 71,
+          "neutral_parent_candidates": 4,
+          "parent_family_hypotheses": 8,
+          "neutral_child_candidates": 52,
+          "child_family_hypotheses": 36,
+          "requirements_with_partial_normal_impulse_execution": 5,
+          "coverage_counts": {
+            "FULL_WINDOW_COVERAGE": 28
+          },
+          "child_generation_counts": {
+            "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 16,
+            "INSUFFICIENT_GEOMETRIC_PIVOTS": 12
+          },
+          "caps_exhausted": false,
+          "search_exhaustive": false,
+          "parent_generation_diagnostics": [
+            {
+              "code": "INPUT_GEOMETRIC_PIVOTS",
+              "count": 71,
+              "detail": "Exact geometric observations supplied; none has Elliott endpoint authority."
+            },
+            {
+              "code": "PIVOTS_EXCLUDED_BY_CONSIDERATION_WINDOW",
+              "count": 65,
+              "detail": "Caller bound excluded these pivots before enumeration."
+            },
+            {
+              "code": "SUBSEQUENCES_REJECTED_BY_SPAN_OR_SKIP_BOUNDS",
+              "count": 12,
+              "detail": "Combinatorial count outside caller span or skip bounds; these combinations were never enumerated."
+            },
+            {
+              "code": "GENERATED_CANDIDATE_HYPOTHESES",
+              "count": 4,
+              "detail": "Enumeration count only; generation is not Elliott confirmation."
+            }
+          ],
+          "child_generation_diagnostics": [
+            {
+              "code": "REQUIREMENTS_PROCESSED",
+              "count": 28,
+              "detail": "Exact missing-evidence requirements processed once."
+            },
+            {
+              "code": "CHILD_WINDOWS_CREATED",
+              "count": 28,
+              "detail": "Inclusive exact-pivot transport windows created."
+            },
+            {
+              "code": "SUFFICIENT_INTERVAL_PIVOTS",
+              "count": 16,
+              "detail": "Windows supporting at least one neutral child candidate set."
+            },
+            {
+              "code": "INSUFFICIENT_INTERVAL_PIVOTS",
+              "count": 12,
+              "detail": "Windows left unresolved without expansion."
+            },
+            {
+              "code": "NEUTRAL_CHILD_EVIDENCE_CREATED",
+              "count": 16,
+              "detail": "Evidence availability only; no requirement satisfaction."
+            },
+            {
+              "code": "NEUTRAL_CHILD_CANDIDATES_CREATED",
+              "count": 52,
+              "detail": "Neutral candidates retained without family, degree, or rank."
+            },
+            {
+              "code": "DEVELOPING_WINDOWS_PRESENT",
+              "count": 20,
+              "detail": "Developing geometric status retained without confirmation."
+            },
+            {
+              "code": "BASE_CASE_REMAINS_BLOCKED",
+              "count": 16,
+              "detail": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+            },
+            {
+              "code": "FINER_SELECTIONS_APPLIED",
+              "count": 28,
+              "detail": "Exact caller-supplied finer observation selections applied without degree inference."
+            },
+            {
+              "code": "FINER_COVERAGE_FAILURES",
+              "count": 0,
+              "detail": "Partial/no coverage remained infrastructure-unresolved without structural invalidity."
+            }
+          ],
+          "internal_requirements": 28,
+          "requirements_satisfied": 0,
+          "motive_five_requirements": 9,
+          "finer_pivots_excluded_by_per_window_six_bound": 8,
+          "parent": {
+            "hypotheses": 1,
+            "p004": {
+              "RULE_VIOLATED": 1
+            },
+            "p005": {
+              "UNRESOLVED": 1
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 1,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          },
+          "child": {
+            "hypotheses": 5,
+            "p004": {
+              "RULE_SATISFIED": 2,
+              "RULE_VIOLATED": 3
+            },
+            "p005": {
+              "SUFFICIENT_CONDITION_ESTABLISHED": 3,
+              "UNRESOLVED": 2
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 2
+            },
+            "p004_invalid_despite_p005_sufficiency": 3,
+            "p004_certificates": 3,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          }
+        },
+        {
+          "parent_resolution": "1wk",
+          "child_resolution": "1d",
+          "parent_bars": 1443,
+          "finer_bars": 6948,
+          "geometric_pivots": 369,
+          "neutral_parent_candidates": 4,
+          "parent_family_hypotheses": 8,
+          "neutral_child_candidates": 28,
+          "child_family_hypotheses": 28,
+          "requirements_with_partial_normal_impulse_execution": 0,
+          "coverage_counts": {
+            "FULL_WINDOW_COVERAGE": 24,
+            "PARTIAL_WINDOW_COVERAGE": 4
+          },
+          "child_generation_counts": {
+            "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 14,
+            "INSUFFICIENT_GEOMETRIC_PIVOTS": 10,
+            "PARTIAL_FINER_OBSERVATION_COVERAGE": 4
+          },
+          "caps_exhausted": false,
+          "search_exhaustive": false,
+          "parent_generation_diagnostics": [
+            {
+              "code": "INPUT_GEOMETRIC_PIVOTS",
+              "count": 369,
+              "detail": "Exact geometric observations supplied; none has Elliott endpoint authority."
+            },
+            {
+              "code": "PIVOTS_EXCLUDED_BY_CONSIDERATION_WINDOW",
+              "count": 363,
+              "detail": "Caller bound excluded these pivots before enumeration."
+            },
+            {
+              "code": "SUBSEQUENCES_REJECTED_BY_SPAN_OR_SKIP_BOUNDS",
+              "count": 12,
+              "detail": "Combinatorial count outside caller span or skip bounds; these combinations were never enumerated."
+            },
+            {
+              "code": "GENERATED_CANDIDATE_HYPOTHESES",
+              "count": 4,
+              "detail": "Enumeration count only; generation is not Elliott confirmation."
+            }
+          ],
+          "child_generation_diagnostics": [
+            {
+              "code": "REQUIREMENTS_PROCESSED",
+              "count": 28,
+              "detail": "Exact missing-evidence requirements processed once."
+            },
+            {
+              "code": "CHILD_WINDOWS_CREATED",
+              "count": 28,
+              "detail": "Inclusive exact-pivot transport windows created."
+            },
+            {
+              "code": "SUFFICIENT_INTERVAL_PIVOTS",
+              "count": 14,
+              "detail": "Windows supporting at least one neutral child candidate set."
+            },
+            {
+              "code": "INSUFFICIENT_INTERVAL_PIVOTS",
+              "count": 14,
+              "detail": "Windows left unresolved without expansion."
+            },
+            {
+              "code": "NEUTRAL_CHILD_EVIDENCE_CREATED",
+              "count": 14,
+              "detail": "Evidence availability only; no requirement satisfaction."
+            },
+            {
+              "code": "NEUTRAL_CHILD_CANDIDATES_CREATED",
+              "count": 28,
+              "detail": "Neutral candidates retained without family, degree, or rank."
+            },
+            {
+              "code": "DEVELOPING_WINDOWS_PRESENT",
+              "count": 28,
+              "detail": "Developing geometric status retained without confirmation."
+            },
+            {
+              "code": "BASE_CASE_REMAINS_BLOCKED",
+              "count": 14,
+              "detail": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+            },
+            {
+              "code": "FINER_SELECTIONS_APPLIED",
+              "count": 28,
+              "detail": "Exact caller-supplied finer observation selections applied without degree inference."
+            },
+            {
+              "code": "FINER_COVERAGE_FAILURES",
+              "count": 4,
+              "detail": "Partial/no coverage remained infrastructure-unresolved without structural invalidity."
+            }
+          ],
+          "internal_requirements": 28,
+          "requirements_satisfied": 0,
+          "motive_five_requirements": 9,
+          "finer_pivots_excluded_by_per_window_six_bound": 0,
+          "parent": {
+            "hypotheses": 1,
+            "p004": {
+              "RULE_SATISFIED": 1
+            },
+            "p005": {
+              "UNRESOLVED": 1
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 0,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          },
+          "child": {
+            "hypotheses": 0,
+            "p004": {},
+            "p005": {},
+            "p005_unresolved_reasons": {},
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 0,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          }
+        },
+        {
+          "parent_resolution": "1d",
+          "child_resolution": "1h",
+          "parent_bars": 6948,
+          "finer_bars": 3493,
+          "geometric_pivots": 1811,
+          "neutral_parent_candidates": 4,
+          "parent_family_hypotheses": 8,
+          "neutral_child_candidates": 112,
+          "child_family_hypotheses": 89,
+          "requirements_with_partial_normal_impulse_execution": 9,
+          "coverage_counts": {
+            "FULL_WINDOW_COVERAGE": 28
+          },
+          "child_generation_counts": {
+            "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 28
+          },
+          "caps_exhausted": false,
+          "search_exhaustive": false,
+          "parent_generation_diagnostics": [
+            {
+              "code": "INPUT_GEOMETRIC_PIVOTS",
+              "count": 1811,
+              "detail": "Exact geometric observations supplied; none has Elliott endpoint authority."
+            },
+            {
+              "code": "PIVOTS_EXCLUDED_BY_CONSIDERATION_WINDOW",
+              "count": 1805,
+              "detail": "Caller bound excluded these pivots before enumeration."
+            },
+            {
+              "code": "SUBSEQUENCES_REJECTED_BY_SPAN_OR_SKIP_BOUNDS",
+              "count": 12,
+              "detail": "Combinatorial count outside caller span or skip bounds; these combinations were never enumerated."
+            },
+            {
+              "code": "GENERATED_CANDIDATE_HYPOTHESES",
+              "count": 4,
+              "detail": "Enumeration count only; generation is not Elliott confirmation."
+            }
+          ],
+          "child_generation_diagnostics": [
+            {
+              "code": "REQUIREMENTS_PROCESSED",
+              "count": 28,
+              "detail": "Exact missing-evidence requirements processed once."
+            },
+            {
+              "code": "CHILD_WINDOWS_CREATED",
+              "count": 28,
+              "detail": "Inclusive exact-pivot transport windows created."
+            },
+            {
+              "code": "SUFFICIENT_INTERVAL_PIVOTS",
+              "count": 28,
+              "detail": "Windows supporting at least one neutral child candidate set."
+            },
+            {
+              "code": "INSUFFICIENT_INTERVAL_PIVOTS",
+              "count": 0,
+              "detail": "Windows left unresolved without expansion."
+            },
+            {
+              "code": "NEUTRAL_CHILD_EVIDENCE_CREATED",
+              "count": 28,
+              "detail": "Evidence availability only; no requirement satisfaction."
+            },
+            {
+              "code": "NEUTRAL_CHILD_CANDIDATES_CREATED",
+              "count": 112,
+              "detail": "Neutral candidates retained without family, degree, or rank."
+            },
+            {
+              "code": "DEVELOPING_WINDOWS_PRESENT",
+              "count": 22,
+              "detail": "Developing geometric status retained without confirmation."
+            },
+            {
+              "code": "BASE_CASE_REMAINS_BLOCKED",
+              "count": 28,
+              "detail": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+            },
+            {
+              "code": "FINER_SELECTIONS_APPLIED",
+              "count": 28,
+              "detail": "Exact caller-supplied finer observation selections applied without degree inference."
+            },
+            {
+              "code": "FINER_COVERAGE_FAILURES",
+              "count": 0,
+              "detail": "Partial/no coverage remained infrastructure-unresolved without structural invalidity."
+            }
+          ],
+          "internal_requirements": 28,
+          "requirements_satisfied": 0,
+          "motive_five_requirements": 9,
+          "finer_pivots_excluded_by_per_window_six_bound": 22,
+          "parent": {
+            "hypotheses": 1,
+            "p004": {
+              "RULE_VIOLATED": 1
+            },
+            "p005": {
+              "UNRESOLVED": 1
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 1
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 1,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          },
+          "child": {
+            "hypotheses": 9,
+            "p004": {
+              "RULE_SATISFIED": 7,
+              "RULE_VIOLATED": 2
+            },
+            "p005": {
+              "UNRESOLVED": 9
+            },
+            "p005_unresolved_reasons": {
+              "DEVELOPING_REQUIRED_ENDPOINT": 5,
+              "ZERO_OR_OPPOSING_ROLE_MOVEMENT": 4
+            },
+            "p004_invalid_despite_p005_sufficiency": 0,
+            "p004_certificates": 2,
+            "family_validity": 0,
+            "diagnostics": [
+              "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
+              "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
+              "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+              "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+              "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
+              "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+              "NO_DEGREE_RANKING_OR_FAMILY_CERTIFICATE"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "comparison_summary": [
+    {
+      "before": "2026-07-31T23:59:59+00:00",
+      "after": "2026-08-31T23:59:59+00:00",
+      "parent_resolution": "1mo",
+      "coverage": {
+        "added_window_contexts": 0,
+        "ambiguous_common_contexts_excluded": 0,
+        "changes": [],
+        "disappeared_window_contexts": 0
+      },
+      "paths": [
+        {
+          "path": "parent",
+          "same_sequence_count": 1,
+          "before_duplicate_sequence_evaluations": 0,
+          "after_duplicate_sequence_evaluations": 0,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 1,
+          "added_sequences": 0,
+          "disappeared_sequences": 0
+        },
+        {
+          "path": "child",
+          "same_sequence_count": 2,
+          "before_duplicate_sequence_evaluations": 1,
+          "after_duplicate_sequence_evaluations": 1,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 3,
+          "added_sequences": 0,
+          "disappeared_sequences": 0
+        }
+      ]
+    },
+    {
+      "before": "2026-07-31T23:59:59+00:00",
+      "after": "2026-08-31T23:59:59+00:00",
+      "parent_resolution": "1wk",
+      "coverage": {
+        "added_window_contexts": 22,
+        "ambiguous_common_contexts_excluded": 0,
+        "changes": [],
+        "disappeared_window_contexts": 22
+      },
+      "paths": [
+        {
+          "path": "parent",
+          "same_sequence_count": 0,
+          "before_duplicate_sequence_evaluations": 0,
+          "after_duplicate_sequence_evaluations": 0,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 0,
+          "added_sequences": 1,
+          "disappeared_sequences": 1
+        },
+        {
+          "path": "child",
+          "same_sequence_count": 0,
+          "before_duplicate_sequence_evaluations": 0,
+          "after_duplicate_sequence_evaluations": 0,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 0,
+          "added_sequences": 0,
+          "disappeared_sequences": 0
+        }
+      ]
+    },
+    {
+      "before": "2026-07-31T23:59:59+00:00",
+      "after": "2026-08-31T23:59:59+00:00",
+      "parent_resolution": "1d",
+      "coverage": {
+        "added_window_contexts": 28,
+        "ambiguous_common_contexts_excluded": 0,
+        "changes": [],
+        "disappeared_window_contexts": 28
+      },
+      "paths": [
+        {
+          "path": "parent",
+          "same_sequence_count": 0,
+          "before_duplicate_sequence_evaluations": 0,
+          "after_duplicate_sequence_evaluations": 0,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 0,
+          "added_sequences": 1,
+          "disappeared_sequences": 1
+        },
+        {
+          "path": "child",
+          "same_sequence_count": 0,
+          "before_duplicate_sequence_evaluations": 1,
+          "after_duplicate_sequence_evaluations": 3,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 0,
+          "added_sequences": 4,
+          "disappeared_sequences": 3
+        }
+      ]
+    },
+    {
+      "before": "2026-08-31T23:59:59+00:00",
+      "after": "2026-09-05T09:09:19+00:00",
+      "parent_resolution": "1mo",
+      "coverage": {
+        "added_window_contexts": 16,
+        "ambiguous_common_contexts_excluded": 0,
+        "changes": [],
+        "disappeared_window_contexts": 16
+      },
+      "paths": [
+        {
+          "path": "parent",
+          "same_sequence_count": 0,
+          "before_duplicate_sequence_evaluations": 0,
+          "after_duplicate_sequence_evaluations": 0,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 0,
+          "added_sequences": 1,
+          "disappeared_sequences": 1
+        },
+        {
+          "path": "child",
+          "same_sequence_count": 1,
+          "before_duplicate_sequence_evaluations": 1,
+          "after_duplicate_sequence_evaluations": 3,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 2,
+          "added_sequences": 1,
+          "disappeared_sequences": 1
+        }
+      ]
+    },
+    {
+      "before": "2026-08-31T23:59:59+00:00",
+      "after": "2026-09-05T09:09:19+00:00",
+      "parent_resolution": "1wk",
+      "coverage": {
+        "added_window_contexts": 4,
+        "ambiguous_common_contexts_excluded": 0,
+        "changes": [],
+        "disappeared_window_contexts": 4
+      },
+      "paths": [
+        {
+          "path": "parent",
+          "same_sequence_count": 0,
+          "before_duplicate_sequence_evaluations": 0,
+          "after_duplicate_sequence_evaluations": 0,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 0,
+          "added_sequences": 1,
+          "disappeared_sequences": 1
+        },
+        {
+          "path": "child",
+          "same_sequence_count": 0,
+          "before_duplicate_sequence_evaluations": 0,
+          "after_duplicate_sequence_evaluations": 0,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 0,
+          "added_sequences": 0,
+          "disappeared_sequences": 0
+        }
+      ]
+    },
+    {
+      "before": "2026-08-31T23:59:59+00:00",
+      "after": "2026-09-05T09:09:19+00:00",
+      "parent_resolution": "1d",
+      "coverage": {
+        "added_window_contexts": 18,
+        "ambiguous_common_contexts_excluded": 0,
+        "changes": [],
+        "disappeared_window_contexts": 18
+      },
+      "paths": [
+        {
+          "path": "parent",
+          "same_sequence_count": 0,
+          "before_duplicate_sequence_evaluations": 0,
+          "after_duplicate_sequence_evaluations": 0,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 0,
+          "added_sequences": 1,
+          "disappeared_sequences": 1
+        },
+        {
+          "path": "child",
+          "same_sequence_count": 3,
+          "before_duplicate_sequence_evaluations": 3,
+          "after_duplicate_sequence_evaluations": 4,
+          "comparable_eligibility_changes": 0,
+          "confirmation_count": 0,
+          "matched_contextual_rows": 4,
+          "added_sequences": 2,
+          "disappeared_sequences": 1
+        }
+      ]
+    }
+  ],
+  "pooled_evaluation_totals_not_independent_hypotheses": {
+    "evaluations": 40,
+    "p004": {
+      "RULE_VIOLATED": 18,
+      "RULE_SATISFIED": 22
+    },
+    "p005": {
+      "SUFFICIENT_CONDITION_ESTABLISHED": 11,
+      "UNRESOLVED": 29
+    },
+    "unresolved_reasons": {
+      "DEVELOPING_REQUIRED_ENDPOINT": 20,
+      "ZERO_OR_OPPOSING_ROLE_MOVEMENT": 9
+    },
+    "p004_invalid_despite_p005_sufficiency": 9
+  }
+}
