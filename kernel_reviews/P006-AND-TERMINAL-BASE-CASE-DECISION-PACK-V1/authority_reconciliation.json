@@ -1,0 +1,53 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "status": "CURRENT_APPROVED_AUTHORITY_RESOLVED_WITHOUT_HISTORICAL_EDITS",
+  "transitions": [
+    {
+      "historical": "Raw/machine review said no book locally available; no book locator mapped for then-reviewed P005/P006 gaps.",
+      "current": "Book is active in the 21-entry manifest. Historical scope statements remain intact; they are not current availability claims.",
+      "effect": "Does not retroactively resolve the P006 frozen predicate. The book's page-31 P006 passage remains a recorded incidental lead, not an adopted numerical exception.",
+      "evidence_refs": [
+        "MACHINE-P006",
+        "BOOK-INCIDENTAL",
+        "ACTIVATION",
+        "BOOK-CORPUS"
+      ]
+    },
+    {
+      "historical": "Frost/Prechter review and its manifest recorded PENDING_SOURCE_MANIFEST_ACTIVATION under the earlier 20-source manifest.",
+      "current": "ACTIVE_APPROVED_SOURCE_AUTHORITY under manifest ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089, confirmed by the activation checkpoint and all current entry hashes.",
+      "effect": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND and GENERAL_COMPLETION_AUTHORITY_NOT_FOUND remain unchanged; no new family producer follows from activation.",
+      "evidence_refs": [
+        "ACTIVATION",
+        "BOOK-BASE",
+        "BOOK-COMPLETION",
+        "BOOK-CORPUS"
+      ]
+    },
+    {
+      "historical": "Early terminal graph and family-contract checkpoints described P005 as wholly unavailable and methodology inventories of six or ten.",
+      "current": "Eleven executable behaviors include bounded P005 percentage sufficiency; no negative P005/full-family authority. P006 remains frozen/conflicted.",
+      "effect": "P005-specific progress does not discharge any P006, orthodox-end, completion or terminal-proof gap.",
+      "evidence_refs": [
+        "POLICY",
+        "P005",
+        "NORMAL-PARTIAL"
+      ]
+    },
+    {
+      "historical": "Terminal proposal contained a non-enabling Section 6A governance diff.",
+      "current": "Current protected DEGREE_RECURSION_BRAIN has no Section 6A; proposal was not applied.",
+      "effect": "No base case or completion semantics are invented; no need to adopt the old clarification as a supposed enabling fix.",
+      "evidence_refs": [
+        "TERMINAL-OLD-DIFF",
+        "RECURSION"
+      ]
+    }
+  ],
+  "current_brain_version": "0.1.0",
+  "current_brain_entries": 30,
+  "current_sources_entries": 21,
+  "source_classifications_preserved": true,
+  "protected_package_amended": false,
+  "historical_files_amended": false
+}

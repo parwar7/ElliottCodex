@@ -1,0 +1,153 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "scope": "P006",
+  "principle_id": "P006",
+  "status": "BLOCKED_SOURCE_CONFLICT_AND_MISSING_AUTHORITY",
+  "identifier_namespace": "LOCAL_DECISION_PACK_IDS_NOT_NEW_PROTECTED_PRINCIPLES",
+  "rows": [
+    {
+      "id": "P006-PROPOSITION",
+      "classification": "SOURCE_RULE",
+      "statement": "The normal-impulse hard proposition compares orthodox Wave 4 and Wave 1 ends; diagonals are separate.",
+      "evidence_refs": [
+        "P006-BRAIN",
+        "V5-STRICT",
+        "V10-STRICT"
+      ],
+      "affected_behavior": "P006 hard validation",
+      "decision_needed": "No change to the proposition. A future evaluator still needs all independent eligibility, conflict, operand and boundary gates.",
+      "unlocks": "Only the conceptual rule and applicable family are established.",
+      "does_not_unlock": "No executable predicate, endpoint authority or positive family proof.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "P006-FUTURES-CONFLICT",
+      "classification": "CONFLICT",
+      "statement": "Strict endpoint wording and the Volume 2 futures qualification have not been adjudicated. The qualification's nature (hard exception, data issue, guideline context or practical allowance) is not settled.",
+      "evidence_refs": [
+        "MACHINE-P006",
+        "MACHINE-GAPS",
+        "V2-QUALIFICATION",
+        "V2-EXAMPLE",
+        "V5-STRICT",
+        "V10-STRICT",
+        "BOOK-INCIDENTAL",
+        "POLICY"
+      ],
+      "affected_behavior": "P006 source-selection/scope gate",
+      "decision_needed": "An explicit narrow user policy under protected governance, or a concrete approved source correction resolving the qualification's meaning, series authority and scope. No automatic later-volume or book precedence.",
+      "unlocks": "A scoped policy could decide which proposition governs only its declared scope.",
+      "does_not_unlock": "It cannot supply orthodox endpoints, equality, timing, numeric domain or family proof; futures and unknown scopes remain blocked under the optional cash-only proposal.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "P006-ORTHODOX-DEFINITION",
+      "classification": "SOURCE_DEFINITION",
+      "statement": "Orthodox end is the structural terminating point, not necessarily the pattern's highest or lowest price. The later review resolved this concept, not a discovery algorithm.",
+      "evidence_refs": [
+        "V4-ORTHODOX",
+        "MACHINE-P006"
+      ],
+      "affected_behavior": "P006 operand meaning",
+      "decision_needed": "Preserve the established definition and obtain separate authority for recognizing the actual terminating observation.",
+      "unlocks": "Meaning of the conceptual operands is known.",
+      "does_not_unlock": "Neither geometric pivot nor caller-marked end becomes authoritative.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "P006-OPERAND-AUTHORITY",
+      "classification": "UNRESOLVED",
+      "statement": "Current hypothesis roles retain exact subjects, observations and proposed endpoint identities; that proves provenance, not orthodox termination.",
+      "evidence_refs": [
+        "MACHINE-P006",
+        "V4-ORTHODOX",
+        "NORMAL-PARTIAL",
+        "P005",
+        "FAMILY-CONTRACT"
+      ],
+      "affected_behavior": "P006 Wave 1/Wave 4 input authority",
+      "decision_needed": "Explicit source-supported endpoint/completion qualification and observation-price-field mapping, then separately approved producer/contract design. Merely asking callers to assert orthodox ends does not resolve this.",
+      "unlocks": "A future genuine authority could make operands eligible, within its exact scope.",
+      "does_not_unlock": "No current producer exists; the P005 hypothesis-bound endpoint convention cannot be transferred. A changed conditional product claim would be a separate unapproved decision.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "P006-EQUALITY",
+      "classification": "UNRESOLVED",
+      "statement": "Exact Wave 4/Wave 1 orthodox-end equality or touch is not classified by the recorded reviews. Drawn proximity is not a metrically exact case.",
+      "evidence_refs": [
+        "RAW-P006",
+        "MACHINE-P006",
+        "MACHINE-GAPS"
+      ],
+      "affected_behavior": "P006 boundary comparison",
+      "decision_needed": "An explicit approved exact-touch source statement or separately approved project convention; a future deliberately partial scope could leave equality unresolved, but cannot claim full P006.",
+      "unlocks": "Only the equality branch if explicitly decided, or an explicit non-decision branch if separately approved.",
+      "does_not_unlock": "No implication from P004 equality, P005 ties, strict prose alone or a freehand diagram; other P006 gates remain.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "P006-DIRECTION",
+      "classification": "SOURCE_OBSERVATION",
+      "statement": "Bullish examples approach the Wave 1 boundary from above; bearish examples rally toward it from below. Later review resolves qualitative direction, not a complete machine predicate.",
+      "evidence_refs": [
+        "RAW-P006",
+        "MACHINE-P006",
+        "V2-QUALIFICATION"
+      ],
+      "affected_behavior": "P006 direction normalization",
+      "decision_needed": "Future exact comparison must bind explicit direction to authoritative operands after scope/equality decisions. No percentages or P005 measurement arithmetic are imported.",
+      "unlocks": "Qualitative orientation only.",
+      "does_not_unlock": "No complete predicate, tolerance or completion timing is established by examples.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "P006-NUMERIC-DOMAIN",
+      "classification": "UNRESOLVED",
+      "statement": "No complete P006 contract establishes accepted price domain, representation, missing-value handling, field substitution, cash/futures data authority or precision adjustment.",
+      "evidence_refs": [
+        "MACHINE-P006",
+        "MACHINE-GAPS",
+        "V2-EXAMPLE",
+        "POLICY"
+      ],
+      "affected_behavior": "P006 eligibility/numerical transport",
+      "decision_needed": "Separately approved exact input-domain and fail-closed transport conventions consistent with the source-resolved operands. Source evidence is needed for substantive series equivalence or any claimed allowance.",
+      "unlocks": "A reviewed transport could reject malformed inputs without claiming an Elliott result.",
+      "does_not_unlock": "No guessed pennies/ticks/epsilon, close/high/low substitution, inferred positive-only domain or silently chosen futures-to-cash transform. P005's positive-price policy is not P006 authority.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "P006-TIMING",
+      "classification": "UNRESOLVED",
+      "statement": "The rule uses an orthodox end. Developing or non-developing geometry and immutable snapshots do not prove that end is authoritative; whole-path entry alone cannot establish permanent endpoint invalidity.",
+      "evidence_refs": [
+        "MACHINE-P006",
+        "TERMINAL-COMPLETION",
+        "NORMAL-PARTIAL",
+        "POLICY"
+      ],
+      "affected_behavior": "P006 definitive satisfaction/violation timing",
+      "decision_needed": "Concrete approved source authority for the relevant structural endpoint and completion event, with snapshot/revision semantics separately reviewed. Missing timing remains unresolved.",
+      "unlocks": "Only the stated pattern-specific timing boundary if genuinely established.",
+      "does_not_unlock": "No universal completion, early irreversible rejection or family certificate; P004/P005 timing cannot be borrowed.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "P006-PATH-GUIDELINE",
+      "classification": "SOURCE_GUIDELINE",
+      "statement": "Avoidance by any part of Wave 4 of Waves 1/2 price territory is a strong whole-path guideline, separate from the orthodox-end hard rule.",
+      "evidence_refs": [
+        "V10-GUIDELINE",
+        "V5-STRICT",
+        "PROTOCOL",
+        "MACHINE-P006"
+      ],
+      "affected_behavior": "Potential future nonfatal evidence, not P006 hard certificate",
+      "decision_needed": "No classification decision is needed: preserve nonfatal status. Any future observation implementation still needs its own exact path/territory contract and approval.",
+      "unlocks": "Only nonfatal source-guideline interpretation in its own future scope.",
+      "does_not_unlock": "Cannot create structural invalidity, ranking, full validity or substitute endpoint-only arithmetic for a whole-path observation.",
+      "ready_for_implementation": false
+    }
+  ]
+}

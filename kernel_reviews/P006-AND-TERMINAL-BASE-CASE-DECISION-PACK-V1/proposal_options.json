@@ -1,0 +1,81 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "status": "PROPOSALS_ONLY_NOT_ADOPTED",
+  "source_policy_effect": "No current effect. Optional scope choice would require separate explicit user approval and protected adoption; none occurs in this stage.",
+  "options": [
+    {
+      "id": "KEEP_FREEZE",
+      "disposition": "RECOMMENDED_CURRENT_BOUNDARY",
+      "proposal": "Retain P006 frozen/conflicted and exact-family certification unavailable; use only the existing bounded non-certifying outputs.",
+      "unlocks": "No new behavior; current reporting remains available.",
+      "does_not_unlock": "P006, orthodox endpoints, completion or terminal family proof."
+    },
+    {
+      "id": "P006_CASH_ONLY_EXPLICIT_ADJUDICATION",
+      "disposition": "OPTIONAL_NON_ENABLING_POLICY_PROPOSAL_NOT_APPLIED",
+      "classification": "UNAPPROVED_PROJECT_POLICY",
+      "text": "### P006 non-futures cash-market scope decision (project policy)\n\nFor P006 in normal impulses only, the project elects to use the strict orthodox-end proposition stated in Volume 5 (00:00:46.560-00:01:13.280) and Volume 10 (00:30:52.600-00:31:08.400) within a future separately approved evaluator restricted to explicitly identified non-futures cash-market instruments. This is an explicit project scope/adjudication choice, not a conclusion that excluding futures by itself resolves the source conflict.\n\nPreserve the Volume 2 futures qualification (00:16:58.520-00:17:14.520), its apparent-overlap example (00:06:51.350-00:07:30.160), and the approved book's recorded page-31 futures lead with their existing classifications and conflict history. Futures and unverified instrument/price-series scope remain unresolved. Do not infer a numerical allowance, substitute a cash series for futures, or declare what the qualification meant. This decision establishes neither general seminar precedence nor book precedence and does not transfer the P005 policy to P006.\n\nThis scope choice supplies no orthodox-end recognition or certification authority, equality/touch convention, price domain or numerical tolerance, observation-field mapping, completion event, snapshot timing, or machine predicate. Hypothesis-bound endpoints remain hypotheses. Whole-path territory guidance remains nonfatal and separate. P006 implementation, structural certification and positive family certification remain unavailable until those independent requirements receive separate authority and approval.",
+      "target": "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\SOURCE_POLICY.md",
+      "insertion_anchor": "## 5. Source trace",
+      "evidence_refs": [
+        "POLICY",
+        "V5-STRICT",
+        "V10-STRICT",
+        "V2-QUALIFICATION",
+        "V2-EXAMPLE",
+        "BOOK-INCIDENTAL",
+        "MACHINE-P006"
+      ],
+      "would_unlock": "Only a future non-futures scope's choice of governing proposition if explicitly adopted; not implementation readiness.",
+      "would_not_unlock": [
+        "Global futures conflict",
+        "Cash/futures series eligibility contract",
+        "Orthodox endpoint identity/authority",
+        "Equality and numeric domain",
+        "Completion and timing",
+        "P006 producer",
+        "Positive family producer"
+      ],
+      "formal_adoption": "Requires a separately authorized protected policy edit and computed update to only its PACKAGE_MANIFEST entry. The current P005 API pins the whole SOURCE_POLICY hash: policy adoption alone would make it fail closed until a separately approved Runtime/Kernel hash-admission transition and verification preserved P005 semantics. Neither adoption nor that transition is authorized here; no prospective manifest hash is asserted.",
+      "approval_requested_now": false
+    },
+    {
+      "id": "SILENT_CASH_ONLY_FILTER",
+      "disposition": "REJECTED",
+      "proposal": "Skip futures and assume the global freeze disappears.",
+      "reason": "Instrument exclusion is not an adjudication authorized by the current policy, nor proof of endpoint/equality/timing semantics."
+    },
+    {
+      "id": "P006_STRICT_ALL_INSTRUMENTS",
+      "disposition": "NOT_SELECTED_NO_ENABLING_DIFF",
+      "proposal": "Override the futures qualification for all instruments.",
+      "reason": "This would be a broader user methodology choice, not a source-established reconciliation; unnecessary to the smallest scope and still leaves all operand/timing gaps."
+    },
+    {
+      "id": "P006_NUMERIC_FUTURES_ALLOWANCE",
+      "disposition": "UNRESOLVED_NO_DEFENSIBLE_NUMERIC_PROPOSAL",
+      "proposal": null,
+      "reason": "Few pennies does not specify exact domain, threshold, comparison basis, instrument/series identity or exception semantics. No epsilon or tick amount is invented."
+    },
+    {
+      "id": "PROPOSED_ENDPOINT_ONLY_P006",
+      "disposition": "UNAPPROVED_CHANGED_CLAIM_NOT_A_REPAIR",
+      "proposal": null,
+      "reason": "A conditional comparison of proposed endpoints could be a different product/methodology scope, but current identity binding does not establish orthodox ends. No P006 implementation or certificate proposal is made."
+    },
+    {
+      "id": "TERMINAL_PROVISIONAL_OR_DEPTH_CERTIFICATE",
+      "disposition": "REJECTED_NO_ENABLING_DIFF",
+      "proposal": null,
+      "reason": "Rejected in the existing terminal proposal; weaker scoped claims cannot be relabeled as exact family validity."
+    }
+  ],
+  "terminal_proposal_status": "NO_SAFE_BASE_CASE_PROPOSAL_AVAILABLE",
+  "historical_terminal_diff": {
+    "evidence_ref": "TERMINAL-OLD-DIFF",
+    "status": "NOT_APPLIED_NON_ENABLING_GOVERNANCE_ONLY",
+    "current_section_6A_present": false,
+    "reissued": false,
+    "reason": "It defines no primitive or completion proof, so copying/adopting it would unlock neither family. No terminal amendment is proposed for adoption here."
+  }
+}

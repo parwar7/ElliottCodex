@@ -1,0 +1,79 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "packages": [
+    {
+      "package": "P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1",
+      "manifest_path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/REVIEW_manifest.json",
+      "sha256": "02040856567388d9c2c8c6d89c57eaf8895f43040522d6e84b5cd6a0d93bc356",
+      "review_artifact_entries_checked": 5,
+      "historical_implementation_references": []
+    },
+    {
+      "package": "P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1",
+      "manifest_path": "kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/REVIEW_manifest.json",
+      "sha256": "42f7a6d13065ff6a6d1c65b04bf1e41a32f256b2baa6b839ee44a423e59c5cfa",
+      "review_artifact_entries_checked": 5,
+      "historical_implementation_references": []
+    },
+    {
+      "package": "FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1",
+      "manifest_path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/PROPOSAL_manifest.json",
+      "sha256": "7f7d2c194fbfc32c11d0f4339af4dd785aa77e5885aadffdf4c63e47ddcca523",
+      "review_artifact_entries_checked": 9,
+      "historical_implementation_references": []
+    },
+    {
+      "package": "FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1",
+      "manifest_path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/REVIEW_manifest.json",
+      "sha256": "5e4ce0107400d0e24b4683bd57c0108d83963c243228d590cb4a9e3156344ab9",
+      "review_artifact_entries_checked": 11,
+      "historical_implementation_references": []
+    },
+    {
+      "package": "FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1",
+      "manifest_path": "kernel_reviews/FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1/REVIEW_manifest.json",
+      "sha256": "2f05d32d4e99c9b2509637ce706e3770171476232160f130bc5886aadb3ae066",
+      "review_artifact_entries_checked": 5,
+      "historical_implementation_references": []
+    },
+    {
+      "package": "VALIDATED-INTERNAL-FAMILY-CONTRACT-V1",
+      "manifest_path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/VALIDATED_INTERNAL_FAMILY_CONTRACT_manifest.json",
+      "sha256": "e602c60840b730dde6e84e22081965be26e312ece7d2bfd9eb8d380263c2ad0e",
+      "review_artifact_entries_checked": 0,
+      "historical_implementation_references": [
+        {
+          "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+          "historical_sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc",
+          "current_sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc",
+          "note": "Historical implementation reference, not asserted to be the current approved implementation baseline."
+        },
+        {
+          "path": "src/elliott_methodology_kernel/contracts.py",
+          "historical_sha256": "5ebf4a1eee479954d77fd01d438573fe7ca7c0ab4d14a92608d6c6202b4fb995",
+          "current_sha256": "9e6537102992e725cc999542c90bba28f23b117612d6191e21d599b4f455c237",
+          "note": "Historical implementation reference, not asserted to be the current approved implementation baseline."
+        },
+        {
+          "path": "src/elliott_methodology_kernel/__init__.py",
+          "historical_sha256": "db11300347191417e2680ec035f6ac5b07337b9805c31b29619a238d6ca8cd09",
+          "current_sha256": "04a6a59cc7d2c5609c1037538e4d57f0e9cbed0b32b18f13a1df177bc2ae25c2",
+          "note": "Historical implementation reference, not asserted to be the current approved implementation baseline."
+        },
+        {
+          "path": "tests/test_validated_internal_family_contract.py",
+          "historical_sha256": "3016a3dbefeac54da7c8b57413bab18b1acb53861fcdc52d92cf4c4766da0a5b",
+          "current_sha256": "2fd8e8085db3039e840974ed78f7faf4e8945c741ad52d9ea6577a2503994b62",
+          "note": "Historical implementation reference, not asserted to be the current approved implementation baseline."
+        },
+        {
+          "path": "tests/test_structural_invalidity_evidence_no_rescue.py",
+          "historical_sha256": "6d6a48d4b5b59adecd625f47b005934ef297222dae807ae3c29e1301c8a744ba",
+          "current_sha256": "a31669efaabec74cb88f39c2cabc39a218b1367316919dcc32cba580d1a4e674",
+          "note": "Historical implementation reference, not asserted to be the current approved implementation baseline."
+        }
+      ]
+    }
+  ],
+  "note": "Historical implementation hashes are point-in-time references, not asserted as current. All referenced historical review artifacts passed their recorded hashes; all current tracked bytes are separately pinned to this approved base."
+}

@@ -1,0 +1,54 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "approved_base": "f62405b80d5752d2737715f461ff814b2428b70a",
+  "decision": "NO_SAFE_P006_OR_POSITIVE_FAMILY_IMPLEMENTATION_AVAILABLE",
+  "authority": "DOCUMENTATION_DECISION_PACK_ONLY",
+  "project_manager_approval_claimed": false,
+  "recommended_next_action": {
+    "id": "USER_PRODUCT_CLAIM_BOUNDARY_DECISION",
+    "text": "Explicitly retain the existing exact-family proof contract and accept bounded non-certifying evaluate-as reporting as the currently deliverable scope; leave P006 policy proposals unadopted and positive family validation blocked.",
+    "why": "The current evidence can support scoped checks and unresolved reporting, but not an enabling P006 or terminal proof contract. A policy-only cash carve-out would remove at most one gate and cannot deliver further exact family validation.",
+    "implementation_authorized_by_this_recommendation": false
+  },
+  "user_questions": [
+    {
+      "id": "CLAIM_BOUNDARY",
+      "question": "Do you accept bounded, non-certifying evaluate-as reporting as the current deliverable while retaining the exact-family certificate claim and leaving P006 and positive family validation blocked until the specified source authority exists?",
+      "effect": "An explicit product-scope decision only; no new behavior, certificate, protected amendment or different validity claim is authorized."
+    }
+  ],
+  "if_exact_positive_claim_is_required": {
+    "action": "Do not implement a workaround. A user must supply/identify concrete additional approved authority satisfying the P006 and terminal matrix requirements, or separately authorize consideration of a different product/methodology claim. Neither is supplied or adopted by this package.",
+    "source_acceptance_requirements": [
+      "Exact protected source artifact/locator and immutable identity",
+      "Proposition scope and rule/definition/guideline classification",
+      "Resolution of P006 futures/series authority if relevant",
+      "Observable orthodox-end qualification and price mapping",
+      "Explicit equality or permitted unresolved boundary and applicable domain/timing",
+      "Positive family-specific proof termination and completion authority, with exceptions/refusal cases",
+      "Explicit reconciliation of conflicts with existing recursive/source statements",
+      "Separate methodology/producer/contract review and approval before implementation"
+    ],
+    "no_promise_other_source_contains_a_base_case": true
+  },
+  "proposals": {
+    "p006_cash_only": "UNAPPROVED_NOT_APPLIED_NON_ENABLING_BY_ITSELF",
+    "terminal_enabling": "NONE_JUSTIFIED",
+    "historical_terminal_governance": "NOT_APPLIED_NOT_AN_ENABLING_FIX"
+  },
+  "preserved": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p004": "UNCHANGED",
+    "p005": "UNCHANGED_APPROVED_PERCENTAGE_SUFFICIENCY_ONLY",
+    "p006": "UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
+    "flat_triangle_freezes": "UNCHANGED",
+    "base_case": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_analyze": "NOT_IMPLEMENTED"
+  },
+  "no_broad_research_loop": true,
+  "no_capture_stage_recommended": true,
+  "runtime_tests": "NOT_RERUN_DOCUMENTATION_ONLY"
+}

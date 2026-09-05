@@ -1,0 +1,17 @@
+--- a/docs/elliott/SOURCE_POLICY.md
++++ b/docs/elliott/SOURCE_POLICY.md
+@@ -82,6 +82,14 @@
+ 
+ This adoption authorizes no negative P005 validator, structural or family certificate, complete impulse validation, P006 change, or general book precedence. The protected-state transition remains subject to project-manager review.
+ 
++### P006 non-futures cash-market scope decision (project policy)
++
++For P006 in normal impulses only, the project elects to use the strict orthodox-end proposition stated in Volume 5 (00:00:46.560-00:01:13.280) and Volume 10 (00:30:52.600-00:31:08.400) within a future separately approved evaluator restricted to explicitly identified non-futures cash-market instruments. This is an explicit project scope/adjudication choice, not a conclusion that excluding futures by itself resolves the source conflict.
++
++Preserve the Volume 2 futures qualification (00:16:58.520-00:17:14.520), its apparent-overlap example (00:06:51.350-00:07:30.160), and the approved book's recorded page-31 futures lead with their existing classifications and conflict history. Futures and unverified instrument/price-series scope remain unresolved. Do not infer a numerical allowance, substitute a cash series for futures, or declare what the qualification meant. This decision establishes neither general seminar precedence nor book precedence and does not transfer the P005 policy to P006.
++
++This scope choice supplies no orthodox-end recognition or certification authority, equality/touch convention, price domain or numerical tolerance, observation-field mapping, completion event, snapshot timing, or machine predicate. Hypothesis-bound endpoints remain hypotheses. Whole-path territory guidance remains nonfatal and separate. P006 implementation, structural certification and positive family certification remain unavailable until those independent requirements receive separate authority and approval.
++
+ ## 5. Source trace
+ 
+ Each analysis should include a `source_trace` field containing the source principles actually used.

@@ -1,0 +1,20 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "status": "NOT_APPLIED",
+  "proposal_id": "P006_CASH_ONLY_EXPLICIT_ADJUDICATION",
+  "classification": "UNAPPROVED_PROJECT_POLICY",
+  "target": "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\SOURCE_POLICY.md",
+  "diff": "proposed_P006_SOURCE_POLICY.diff",
+  "anchor": "## 5. Source trace",
+  "original_sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018",
+  "original_byte_length": 5475,
+  "unapplied_preview_sha256": "1132cbe355148d67a46f67154c4814dae65a0d25ab51bf727311a9a0906a9fa3",
+  "unapplied_preview_byte_length": 7056,
+  "preview_hash_is_current_protected_hash": false,
+  "current_package_manifest_unchanged": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338",
+  "manifest_update_not_prepared": "Only an actual separately authorized adoption can compute the corresponding entry transition. No other protected entry should change.",
+  "p005_guard_dependency": "api.py compares the entire policy hash with p005_percentage_sufficiency.POLICY_SHA256. This preview would change that input. Adoption without separate approved hash-admission reconciliation would fail closed; no such change is performed or authorized.",
+  "enables_p006_implementation": false,
+  "enables_family_producer": false,
+  "terminal_enabling_diff": null
+}

@@ -1,0 +1,154 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "status": "DEPENDENCY_ANALYSIS_NOT_IMPLEMENTATION",
+  "claim_boundary": "Exact validated-family proof and bounded evaluate-as reporting are different claims; success of the latter does not repair the former.",
+  "gates": [
+    {
+      "id": "PROTECTED_POLICY_TRANSITION",
+      "requires": ["Explicit approval for optional policy adoption", "Updated corresponding protected manifest entry", "Separately approved P005 whole-policy hash-admission transition with unchanged P005 semantics"],
+      "affects": ["Continuing to admit the expected protected package in the dedicated P005 API"],
+      "not_sufficient_for": ["P006 machine semantics", "Orthodox endpoints", "Terminal proof", "Positive family certification"]
+    },
+    {
+      "id": "P006_RULE_SCOPE",
+      "requires": [
+        "Explicit adjudication or new approved corrective source authority"
+      ],
+      "affects": [
+        "Future P006 predicate applicability"
+      ],
+      "not_sufficient_for": [
+        "P006_OPERANDS",
+        "P006_BOUNDARIES",
+        "TERMINAL_PROOF",
+        "COMPLETION",
+        "POSITIVE_FAMILY"
+      ]
+    },
+    {
+      "id": "P006_OPERANDS",
+      "requires": [
+        "Source-supported orthodox-end recognition",
+        "Exact observation/series binding"
+      ],
+      "affects": [
+        "Eligibility of P006 O1/O4"
+      ],
+      "not_sufficient_for": [
+        "P006_RULE_SCOPE",
+        "P006_BOUNDARIES",
+        "TERMINAL_PROOF",
+        "POSITIVE_FAMILY"
+      ]
+    },
+    {
+      "id": "P006_BOUNDARIES",
+      "requires": [
+        "Equality decision or approved unresolved branch",
+        "Direction/domain/representation contract",
+        "Timing/completion authority"
+      ],
+      "affects": [
+        "Future narrow P006 result semantics"
+      ],
+      "not_sufficient_for": [
+        "TERMINAL_PROOF",
+        "POSITIVE_FAMILY"
+      ]
+    },
+    {
+      "id": "TERMINAL_PROOF",
+      "requires": [
+        "New approved family-specific finite positive proof authority",
+        "No unsupported shortcut"
+      ],
+      "affects": [
+        "Recursive proof termination within its exact scope"
+      ],
+      "not_sufficient_for": [
+        "All other family rules",
+        "Position/endpoint authority",
+        "Completion unless expressly included",
+        "Registry producer approval"
+      ]
+    },
+    {
+      "id": "COMPLETION",
+      "requires": [
+        "Source-backed observable completion qualification for the claimed family/endpoint"
+      ],
+      "affects": [
+        "When a specific proof could be issued"
+      ],
+      "not_sufficient_for": [
+        "Structural and internal-family proof"
+      ]
+    },
+    {
+      "id": "POSITIVE_FAMILY",
+      "requires": [
+        "All relevant pattern rules and positions",
+        "Genuine required child-family proofs or approved positive terminal basis",
+        "Applicable completion/endpoint authority",
+        "Separately reviewed trusted producer and tests"
+      ],
+      "affects": [
+        "Only producer-fixed exact family claim"
+      ],
+      "not_sufficient_for": [
+        "Other families or degrees",
+        "Rank/confidence",
+        "Forecast/trading"
+      ]
+    }
+  ],
+  "family_dependencies": [
+    {
+      "family": "NORMAL_IMPULSE",
+      "requirements": "Motive/corrective child-family proof plus applicable normal-impulse rules.",
+      "current": "P004 exists; P005 only its adopted sufficient condition; P006 frozen/conflicted. Positive child-family proof and completion unavailable.",
+      "p006_policy_alone_unlocks": false
+    },
+    {
+      "family": "SINGLE_ZIGZAG",
+      "requirements": "Source-derived 5-3-5 internal expectations: motive/corrective/motive proof dependencies.",
+      "current": "Direct-child cardinality and internal requirements are executable scopes, not validated child families.",
+      "p006_policy_alone_unlocks": false
+    },
+    {
+      "family": "FLAT",
+      "requirements": "Source-derived 3-3-5 expectations: corrective/corrective/motive proof dependencies.",
+      "current": "Cardinality remains available; existing Flat freeze and positive-family blockers unchanged.",
+      "p006_policy_alone_unlocks": false
+    },
+    {
+      "family": "TRIANGLE",
+      "requirements": "Five corrective-family/three-wave leg expectations, preserving source exceptions rather than requiring five simple zigzags.",
+      "current": "Five corrective-family dependencies do not generate a terminal proof. Existing Triangle freeze unchanged.",
+      "p006_policy_alone_unlocks": false
+    },
+    {
+      "family": "ENDING_DIAGONAL",
+      "requirements": "Five source-defined three-wave/corrective internal expectations; separate geometry/position/completion authority.",
+      "current": "Cardinality/requirements do not certify legs; leading-diagonal rules are not imported.",
+      "p006_policy_alone_unlocks": false
+    },
+    {
+      "family": "LEADING_DIAGONAL_AND_COMBINATIONS",
+      "requirements": "Separate source-specific family scopes; not authorized by ending diagonal or neutral child cardinality.",
+      "current": "Unsupported family completion/execution cannot be inferred from present infrastructure.",
+      "p006_policy_alone_unlocks": false
+    }
+  ],
+  "inference_note": "Dependency cycles summarize existing reviewed requirements; they are not a new Elliott rule or a theorem that no future source-supported validation claim could ever exist.",
+  "evidence_refs": [
+    "PATTERN",
+    "RECURSION",
+    "TERMINAL-GRAPH",
+    "BOOK-BASE",
+    "FAMILY-CONTRACT",
+    "FAMILY-SEAL",
+    "INTERNALS",
+    "NORMAL-PARTIAL"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "result": "PASS",
+  "json_documents_checked": 13,
+  "matrix_schema_checks": 2,
+  "evidence_file_identity_checks": 31,
+  "evidence_references_checked": 104,
+  "previously_tracked_files_unchanged": 606,
+  "untracked_scope": "ONLY_NEW_DECISION_PACK",
+  "policy_diff_and_preview": "MATCH_NOT_APPLIED",
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "family_registry_sealed": true,
+  "runtime_tests": "NOT_RERUN_DOCUMENTATION_ONLY",
+  "behavior_ids": [
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
+    "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
+    "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+    "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
+    "ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY",
+    "P005_NORMAL_IMPULSE_PERCENTAGE_SUFFICIENCY"
+  ],
+  "audit_scope": "Additive documentation, source-reference and preservation audit; no executable methodology validation claimed.",
+  "schema_scope": "matrix_schema.json validates the two blocker matrices. All other JSON artifacts parsed and checked by stage-specific identity/reference/integrity assertions, not presented as protected output-schema instances.",
+  "validation_checkpoint": "Counts of JSON documents above describe the substantive-artifact audit before adding this audit, final integrity evidence and the manifest.",
+  "pre_write_and_final_protected_entries_match": true,
+  "brain_version": "0.1.0",
+  "protected_write_attempts": 0,
+  "historical_baseline_edits": 0,
+  "tracked_raw_byte_identity_inventory": "preservation_inventory.json",
+  "regression_suite": {
+    "executed": false,
+    "reason": "Documentation-only additions; all 606 previously tracked files including Runtime, Kernel, tests and shared contracts remain byte-for-byte unchanged."
+  },
+  "adversarial_review": {
+    "source_rule_vs_guideline": "Separated; whole-path guideline cannot issue hard invalidity.",
+    "p006_conflict": "Frozen; optional cash-scope adjudication is NOT APPLIED and not an automatic conflict resolution.",
+    "orthodox_endpoint_authority": "Not supplied by geometric pivots, hypothesis binding, P005 or caller labels.",
+    "numeric_timing_boundaries": "Unresolved; illustrative boundary cases do not create predicates, tolerances or completion.",
+    "terminality": "No finest timeframe, depth, cardinality, atomic movement, caller label or provisional certificate promoted to positive exact-family proof.",
+    "source_activation": "Current active book authority distinguished from historical pending/unavailable labels; original no-base-case result unchanged.",
+    "p005_policy_guard": "Optional protected policy insertion changes the pinned whole-policy hash; separately approved policy/manifest and hash-admission transition would be necessary. No transition applied.",
+    "proposals": "Optional policy exact diff verified in memory against current protected bytes; terminal enabling diff absent; no protected adoption.",
+    "product_claim": "Current bounded evaluate-as reporting remains non-certifying; different claim would require explicit unapproved product/methodology decision.",
+    "next_action": "Exactly one product-claim boundary decision, one user question, no generic repeat research or capture-stage recommendation."
+  },
+  "preserved_states": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0,
+    "p004": "UNCHANGED",
+    "p005": "UNCHANGED_APPROVED_PERCENTAGE_SUFFICIENCY_ONLY",
+    "p006": "UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
+    "flat_triangle_freezes": "UNCHANGED",
+    "base_case": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_analyze": "NOT_IMPLEMENTED"
+  },
+  "verification_notes": [
+    "Git whitespace checking flags the three single-space blank-context markers inside the literal unified-diff artifact. Those markers are required diff syntax, not proposed policy trailing whitespace; the complete diff and preview bytes were independently verified in memory. They are intentionally retained.",
+    "Read-only verifier initially traversed matrix-schema property declarations as though they were instance references; traversal corrected to exclude schema declarations. No artifact defect, methodology issue or file alteration resulted.",
+    "Read-only imports used python -B; no certificate issuance invoked.",
+    "No external methodology, broad corpus research, new video/PDF interpretation, market data retrieval, protected write or runtime execution experiment."
+  ],
+  "project_manager_approval_claimed": false
+}

@@ -1,0 +1,116 @@
+{
+  "baseline_id": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "artifact_kind": "ADDITIVE_DOCUMENTATION_DECISION_PACK",
+  "approved_base": "f62405b80d5752d2737715f461ff814b2428b70a",
+  "authority": "PROPOSAL_AND_CONSOLIDATION_ONLY",
+  "project_manager_approval_claimed": false,
+  "decision": "NO_SAFE_P006_OR_POSITIVE_FAMILY_IMPLEMENTATION_AVAILABLE",
+  "protected_state": {
+    "brain_version": "0.1.0",
+    "brain_entries": 30,
+    "brain_manifest_sha256": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338",
+    "source_policy_sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018",
+    "sources_entries": 21,
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+    "pre_write_mismatches": 0,
+    "final_mismatches": 0,
+    "modified": false
+  },
+  "previously_tracked_files_unchanged": 606,
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "full_runtime_tests": "NOT_RERUN_DOCUMENTATION_ONLY",
+  "hash_policy": "SHA-256 of exact artifact bytes; paths relative to this directory. This manifest is excluded from its own entries; its SHA-256 is reported at delivery. Logical audit record, not enforced physical immutability.",
+  "files": [
+    {
+      "path": "audit.json",
+      "byte_length": 4859,
+      "sha256": "3bd569f0be7f426d4e11770bfcb4997ab441b4997e7cab8e1ae312d6046d1ad4"
+    },
+    {
+      "path": "authority_reconciliation.json",
+      "byte_length": 2604,
+      "sha256": "8c0d1375d7738af4a632efe8a5e4b6a8133160ceb3ab524795c4332cc81f92d3"
+    },
+    {
+      "path": "boundary_cases.json",
+      "byte_length": 3369,
+      "sha256": "9efcc5e0498ed32b0d9f6e171848f367c4f754ac109a0ae4b73883f19190708f"
+    },
+    {
+      "path": "decision.json",
+      "byte_length": 3275,
+      "sha256": "658335e20538d85cf8a0b8eb00893da9c27d464c48730699e67c6ba4a9e5c198"
+    },
+    {
+      "path": "dependency_analysis.json",
+      "byte_length": 5655,
+      "sha256": "e037cc5c1856139e85ebfa2f6fe62ef8da3ea0eabd9dc7f281555b626a4386e2"
+    },
+    {
+      "path": "evidence_register.json",
+      "byte_length": 19993,
+      "sha256": "2470f3fa2721423a2bb8b5229aacd0b56548d0cabc5cccfbabd709f4b68a8084"
+    },
+    {
+      "path": "final_integrity.json",
+      "byte_length": 9476,
+      "sha256": "50b55a04869b77678317c42266fee966a2af05cb04e77a23839b9fee60473cd0"
+    },
+    {
+      "path": "matrix_schema.json",
+      "byte_length": 2417,
+      "sha256": "143dc7fc93e24ac0dc6ea1322315a54c4627fe92a2ccc6cbc889e1d7c24b73ba"
+    },
+    {
+      "path": "p006_decision_matrix.json",
+      "byte_length": 8805,
+      "sha256": "118784914b2379bbc19b13ebd43e6507e031e23c8c38af741153f19280efb668"
+    },
+    {
+      "path": "policy_proposal_status.json",
+      "byte_length": 1336,
+      "sha256": "6f6d1e5f9b61787a944b60111783f59ed99572b3a3d6d80565b2df9f2f2b0858"
+    },
+    {
+      "path": "pre_write_integrity.json",
+      "byte_length": 9588,
+      "sha256": "330a05a6df3d6652cb53dd52b49e125e67370b216a8a34122880f7970d143baf"
+    },
+    {
+      "path": "preservation_inventory.json",
+      "byte_length": 134298,
+      "sha256": "34a09f01184df42de806465c88c9af8aa95e99b01a8c38c23fb09040e7996e87"
+    },
+    {
+      "path": "proposal_options.json",
+      "byte_length": 5845,
+      "sha256": "02ac262d31a8d54713025fe387642959cf51543a63578bc9098503e9f4e70471"
+    },
+    {
+      "path": "proposed_P006_SOURCE_POLICY.diff",
+      "byte_length": 2039,
+      "sha256": "6f66aad43a8deaafe558037da08312a6d66b2249f4fb4a9d64a260808dce00f3"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 10811,
+      "sha256": "4396544cb8161bcc72770295ab80fbf6037b7873d9ff13f38ec2e397f9d29a4f"
+    },
+    {
+      "path": "reused_review_manifests.json",
+      "byte_length": 4703,
+      "sha256": "ce13e720264705c719c3580013376cdeb21da0cece6e73280a344cab056f8eaf"
+    },
+    {
+      "path": "terminal_decision_matrix.json",
+      "byte_length": 6103,
+      "sha256": "a212e7a6c484153eb5a861fd1386ff62d31204f9b9955f38f4f7137afb664938"
+    }
+  ]
+}

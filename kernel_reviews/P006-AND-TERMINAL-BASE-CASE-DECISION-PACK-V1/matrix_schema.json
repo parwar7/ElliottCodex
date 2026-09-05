@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Decision-pack blocker matrix, documentation only",
+  "type": "object",
+  "required": [
+    "stage",
+    "scope",
+    "principle_id",
+    "status",
+    "identifier_namespace",
+    "rows"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "stage": {
+      "const": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1"
+    },
+    "scope": {
+      "enum": [
+        "P006",
+        "TERMINAL_BASE_CASE"
+      ]
+    },
+    "principle_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "identifier_namespace": {
+      "const": "LOCAL_DECISION_PACK_IDS_NOT_NEW_PROTECTED_PRINCIPLES"
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "classification",
+          "statement",
+          "evidence_refs",
+          "affected_behavior",
+          "decision_needed",
+          "unlocks",
+          "does_not_unlock",
+          "ready_for_implementation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "classification": {
+            "enum": [
+              "SOURCE_RULE",
+              "SOURCE_DEFINITION",
+              "SOURCE_GUIDELINE",
+              "SOURCE_OBSERVATION",
+              "SOURCE_TRADING_PRACTICE",
+              "CONFLICT",
+              "UNRESOLVED"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_refs": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "affected_behavior": {
+            "type": "string",
+            "minLength": 1
+          },
+          "decision_needed": {
+            "type": "string",
+            "minLength": 1
+          },
+          "unlocks": {
+            "type": "string",
+            "minLength": 1
+          },
+          "does_not_unlock": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ready_for_implementation": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

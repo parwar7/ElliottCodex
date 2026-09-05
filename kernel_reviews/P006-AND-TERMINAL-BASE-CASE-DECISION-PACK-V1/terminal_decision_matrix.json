@@ -1,0 +1,102 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "scope": "TERMINAL_BASE_CASE",
+  "principle_id": null,
+  "status": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+  "identifier_namespace": "LOCAL_DECISION_PACK_IDS_NOT_NEW_PROTECTED_PRINCIPLES",
+  "rows": [
+    {
+      "id": "TERMINAL-RECURSIVE-DEPENDENCY",
+      "classification": "SOURCE_DEFINITION",
+      "statement": "Required child families feed back into motive/corrective validation; the reviewed construction has no approved positive finite proof leaf.",
+      "evidence_refs": [
+        "PATTERN",
+        "RECURSION",
+        "TERMINAL-GRAPH",
+        "BOOK-BASE"
+      ],
+      "affected_behavior": "Positive MOTIVE_FIVE_WAVE_FAMILY / CORRECTIVE_THREE_WAVE_FAMILY claims",
+      "decision_needed": "Explicit approved evidence establishing a family-specific, positively terminating proof basis without assuming the same unproved child-family claims.",
+      "unlocks": "Could resolve a particular proof dependency only if exact family scope and qualification are established.",
+      "does_not_unlock": "A recursion loop or runtime depth cap cannot prove its own leaf; no promise that another source supplies such authority.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "TERMINAL-NO-BASE-CASE",
+      "classification": "UNRESOLVED",
+      "statement": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND remains the active reviewed finding. The book's recursive/infinite degree descriptions and simplest-expression discussion supply no certified primitive.",
+      "evidence_refs": [
+        "BOOK-BASE",
+        "BOOK-TRACE",
+        "ACTIVATION",
+        "TERMINAL-PROPOSAL"
+      ],
+      "affected_behavior": "First positive family producer",
+      "decision_needed": "Concrete new approved source locator defining applicable family, exact observable qualification, explicit proof-stopping permission, completion, exceptions and refusal cases; address any conflict with existing recursive descriptions under SOURCE_POLICY.",
+      "unlocks": "Only the specific source-authorized base/finite-proof scope, followed by separate methodology/producer review.",
+      "does_not_unlock": "Source silence, a mathematical straight line or a new source's mere availability does not establish either family.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "TERMINAL-COMPLETION",
+      "classification": "UNRESOLVED",
+      "statement": "Visibility and contextual completion discussion do not establish a general deterministic family-completion boundary.",
+      "evidence_refs": [
+        "BOOK-COMPLETION",
+        "TERMINAL-COMPLETION",
+        "RECURSION"
+      ],
+      "affected_behavior": "Positive family completion and endpoint authority",
+      "decision_needed": "Source-supported completion evidence for the relevant structure with observable boundaries, evolving-data handling and unresolved cases, not a caller complete flag.",
+      "unlocks": "Could establish only the completion facts explicitly supported.",
+      "does_not_unlock": "Completion alone does not discharge family rules, position, internals or the proof-termination gate.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "TERMINAL-REJECTED-SHORTCUTS",
+      "classification": "UNRESOLVED",
+      "statement": "Finest timeframe, fixed depth, visible cardinality, atomic price movement, caller/human labels and provisional certificates do not establish current exact family validity.",
+      "evidence_refs": [
+        "TERMINAL-PROPOSAL",
+        "TERMINAL-COMPLETION",
+        "FAMILY-BASELINE",
+        "RECURSION"
+      ],
+      "affected_behavior": "Any attempted shortcut producer",
+      "decision_needed": "Do not implement. A different scoped product claim would require an explicit unapproved product/methodology decision and must not reuse the exact-family certificate's meaning.",
+      "unlocks": "Operational stopping can bound computation and preserve unresolved outcomes.",
+      "does_not_unlock": "No positive terminality, completion, provisional exact-family certificate or caller-to-authority conversion.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "TERMINAL-CERTIFICATE-GATE",
+      "classification": "UNRESOLVED",
+      "statement": "The live exact-family registry is sealed and empty; dormant certification machinery cannot manufacture missing source proof.",
+      "evidence_refs": [
+        "FAMILY-CONTRACT",
+        "FAMILY-SEAL",
+        "FAMILY-BASELINE"
+      ],
+      "affected_behavior": "certify_validated_internal_family / future registered producer",
+      "decision_needed": "Only after source sufficiency: explicit producer, result/subject/provenance binding, completion and nested-proof specification; positive/adversarial tests; approval and new baseline.",
+      "unlocks": "A genuinely reviewed producer could then issue only its exact authorized family proof.",
+      "does_not_unlock": "Adding a trusted shell or registering an unproved primitive does not meet the claim.",
+      "ready_for_implementation": false
+    },
+    {
+      "id": "TERMINAL-BOUNDED-REPORTING",
+      "classification": "UNRESOLVED",
+      "statement": "Exact family validity remains unresolved, while existing project contracts support bounded evaluate-as reporting. An operational leaf means no further supplied evidence, not an Elliott terminal wave.",
+      "evidence_refs": [
+        "INTERNALS",
+        "NORMAL-PARTIAL",
+        "FAMILY-CONTRACT"
+      ],
+      "affected_behavior": "Existing bounded hypothesis/reporting product",
+      "decision_needed": "No new methodology approval is needed to describe already available scoped results accurately. Any increased claim requires separate approval.",
+      "unlocks": "Existing P004 checks, P005 sufficiency, cardinality scopes, explicit internals/child review and unresolved diagnostics remain usable.",
+      "does_not_unlock": "All supplied checks passing does not imply complete P006, full impulse/family validity, confirmation, ranking or a proof-contract solution.",
+      "ready_for_implementation": false
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "stage": "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1",
+  "status": "NON_EXECUTABLE_ILLUSTRATIONS_ONLY",
+  "notation": "O1/O4 mean hypothetical already-authoritative orthodox-end prices. These examples do NOT establish that such authority exists; no input convention or comparator is adopted.",
+  "cases": [
+    {
+      "id": "EQUALITY",
+      "input": "O1=100, O4=100",
+      "assessment": "UNRESOLVED. No exact-touch convention is adopted; neither strict nor non-strict comparator may be inferred.",
+      "evidence_refs": [
+        "MACHINE-P006"
+      ]
+    },
+    {
+      "id": "UP_INTERIOR",
+      "input": "Upward normal-impulse hypothesis; O1=100, O4=99",
+      "assessment": "Illustrates the prohibited qualitative direction only, conditional on authoritative operands and a resolved governing scope; not an issued P006 violation.",
+      "evidence_refs": [
+        "RAW-P006",
+        "MACHINE-P006"
+      ]
+    },
+    {
+      "id": "DOWN_INTERIOR",
+      "input": "Downward normal-impulse hypothesis; O1=100, O4=101",
+      "assessment": "Illustrates the bearish orientation only; no universal machine predicate, equality result or futures exception is supplied.",
+      "evidence_refs": [
+        "MACHINE-P006",
+        "V2-QUALIFICATION"
+      ]
+    },
+    {
+      "id": "EXCURSION_RETREAT",
+      "input": "Upward hypothesis; O1=100; path includes 99; O4 eventually asserted as 101",
+      "assessment": "If O4 were independently authoritative outside the boundary, the excursion alone is not the endpoint hard-rule violation. Guideline assessment would need an exact whole-path contract. An asserted eventual end is not proof.",
+      "evidence_refs": [
+        "V10-GUIDELINE",
+        "MACHINE-P006",
+        "V4-ORTHODOX"
+      ]
+    },
+    {
+      "id": "FUTURES_SMALL_OVERLAP",
+      "input": "Futures series; O1=100, proposed end=99.99",
+      "assessment": "UNRESOLVED. No significance is assigned to 0.01; pennies/ticks/series transformations are not authorized.",
+      "evidence_refs": [
+        "V2-QUALIFICATION",
+        "V2-EXAMPLE",
+        "MACHINE-GAPS"
+      ]
+    },
+    {
+      "id": "DEVELOPING_ENDPOINT",
+      "input": "Any proposed endpoint, whether geometry is developing or confirmed",
+      "assessment": "Geometry state does not establish structural termination/completion. Do not issue or permanently carry a P006 result from that fact alone.",
+      "evidence_refs": [
+        "NORMAL-PARTIAL",
+        "TERMINAL-COMPLETION"
+      ]
+    },
+    {
+      "id": "MISSING_OR_UNSUPPORTED_NUMERIC",
+      "input": "Missing price, Boolean, nonfinite value, unapproved sign/domain or mismatched observation field/series",
+      "assessment": "No P006 result or family authority can be claimed. A future contract must choose malformed-input rejection versus unresolved explicitly; this documentation defines neither API nor new domain.",
+      "evidence_refs": [
+        "MACHINE-P006",
+        "POLICY"
+      ]
+    },
+    {
+      "id": "FINAL_RECURSIVE_LEAF",
+      "input": "No more explicit children supplied; finest available observation resolution reached",
+      "assessment": "Operationally bounded, structurally unresolved; not a terminal wave, completed primitive or family proof.",
+      "evidence_refs": [
+        "RECURSION",
+        "TERMINAL-PROPOSAL",
+        "BOOK-BASE",
+        "INTERNALS"
+      ]
+    }
+  ]
+}
