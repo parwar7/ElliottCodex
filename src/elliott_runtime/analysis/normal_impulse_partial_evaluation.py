@@ -29,6 +29,9 @@ from elliott_methodology_kernel import (
     P004Result,
     P005PercentageSufficiencyInput,
     P005PercentageSufficiencyResult,
+    P005GeometryWindow,
+    P005PriceBasis,
+    bind_p005_observations,
     SubjectBoundObservedPriceObservation,
     SubjectBoundObservedPriceEndpointPair,
     RuleCheckStatus,
@@ -39,7 +42,7 @@ from .candidate_generation import (
     CandidateHypothesisShape,
     GeneratedCandidateHypothesis,
 )
-from ..market_data.geometric_pivots import GeometricPivotState
+from ..market_data.geometric_pivots import GeometricPivotState, GeometricPivotKind, GeometricPivotDiscoveryMethod
 from .competing_candidates import (
     CompetingCandidateSetResult,
     validate_competing_candidate_set_result,
@@ -353,8 +356,8 @@ class NormalImpulsePartialEvaluation(metaclass=_Sealed):
                 pair.subject is not role.child_subject
                 or pair.proposed_start.price is not role.start_boundary.observed_price
                 or pair.proposed_end.price is not role.end_boundary.observed_price
-                or self.p005_input.endpoint_identity_refs[2 * index] is not role.start_boundary
-                or self.p005_input.endpoint_identity_refs[2 * index + 1] is not role.end_boundary
+                or self.p005_input.observation_binding.geometry_windows[2 * index].provenance_ref is not role.start_boundary
+                or self.p005_input.observation_binding.geometry_windows[2 * index + 1].provenance_ref is not role.end_boundary
             ):
                 _fail("P005 exact role endpoint binding changed.")
         if type(self.p004_fact) is not ManualP004Wave2OriginFact:
@@ -625,14 +628,33 @@ def evaluate_normal_impulse_partial_scope(
                                                  f"{role.end_boundary.pivot_id}:proposed-end"),
         ) for role in roles[::2])
         endpoints = tuple(pivot for role in roles[::2] for pivot in (role.start_boundary, role.end_boundary))
-        eligibility = tuple(
-            True if pivot.state is GeometricPivotState.CONFIRMED_BY_GEOMETRY
-            else False if pivot.state is GeometricPivotState.DEVELOPING else None
-            for pivot in endpoints
+        geometry = candidate.source_geometric_pivots
+        if geometry.input_observations is not candidate.source_observations:
+            _fail("P005 geometric source is foreign to the exact candidate observations.")
+        bars_by_time = {bar.timestamp_utc: bar for bar in candidate.source_observations.bars}
+        endpoint_bars = tuple(bars_by_time.get(pivot.timestamp_utc) for pivot in endpoints)
+        bases, windows = [], []
+        for pivot in endpoints:
+            if (pivot.discovery_parameters is not geometry.config
+                or pivot.discovery_method is not GeometricPivotDiscoveryMethod.WINDOWED_LOCAL_EXTREMA
+                or type(pivot.pivot_kind) is not GeometricPivotKind):
+                _fail("P005 endpoint lacks its exact existing geometry provenance.")
+            bases.append(P005PriceBasis.HIGH if pivot.pivot_kind is GeometricPivotKind.HIGH else P005PriceBasis.LOW)
+            windows.append(P005GeometryWindow(
+                geometry.config.left_window_bars, geometry.config.right_window_bars,
+                geometry.config.equal_extreme_policy.value, geometry.scoped_bars, pivot,
+            ))
+        observation_binding = bind_p005_observations(
+            view, candidate.source_observations, endpoint_bars, tuple(bases), tuple(windows),
         )
+        eligibility = observation_binding.endpoint_eligibility
+        for pivot, eligible in zip(endpoints, eligibility, strict=True):
+            expected_state = GeometricPivotState.CONFIRMED_BY_GEOMETRY if eligible else GeometricPivotState.DEVELOPING
+            if pivot.state is not expected_state:
+                _fail("Recorded geometric state contradicts its verified observation window.")
         p005_input = P005PercentageSufficiencyInput(
             view, direction, endpoint_pairs, candidate.source_observations,
-            eligibility, hypothesis.provenance_refs, endpoints,
+            eligibility, hypothesis.provenance_refs, endpoint_bars, observation_binding,
         )
         p005_result = methodology_kernel.evaluate_p005_percentage_sufficiency(p005_input)
         certificate = (

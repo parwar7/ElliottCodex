@@ -1,0 +1,108 @@
+{
+  "baseline_id": "P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1",
+  "classification": "ADDITIVE_LOGICAL_INPUT_EVIDENCE_REPAIR_BASELINE",
+  "actual_repair_base": "14f61b8a3964d71100af6334be6e1fad3dbe21f1",
+  "last_approved_git_HEAD": "7b8f4efd38694eef76eea05459973081026269ba",
+  "status": "IMPLEMENTED_TESTED_AUDITED_USER_AUTHORIZED",
+  "project_manager_approval_claimed": false,
+  "prior_baseline_manifest_sha256": "958d6e66e58deb1765bed371a7256fe1f4b68337b84b268aeb9e019326d7bc58",
+  "limited_supersession": "Only previous P005 input-binding guarantees, affected implementation hashes and positive fixtures; not measurement semantics, protected state, historical artifacts or approval.",
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances": 0
+  },
+  "tests": {
+    "reproduction_before_failures": 3,
+    "reproduction_after_pass": 3,
+    "focused_pass": 128,
+    "full_pass": 986,
+    "failures": 0,
+    "errors": 0
+  },
+  "protected_hashes": {
+    "source_policy": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018",
+    "brain_manifest": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338",
+    "sources_manifest": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "book": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  },
+  "runtime_files": [
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 14335,
+      "sha256": "04a6a59cc7d2c5609c1037538e4d57f0e9cbed0b32b18f13a1df177bc2ae25c2",
+      "repair_base_byte_length": 14029,
+      "repair_base_sha256": "b66fcff452e7c328e0ab3dbafbdc499c19c7e027b14b15638e2aad5de47aa5b9"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p005_percentage_sufficiency.py",
+      "byte_length": 11910,
+      "sha256": "86069cd4a55872e6741c514166028cf3ef0b6d3f4345998bec4bd505d9ec6423",
+      "repair_base_byte_length": 9979,
+      "repair_base_sha256": "dea10de2e94c852f31fef590e42e4d147fef15011ef0e8265c6a339d58856014"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/normal_impulse_partial_evaluation.py",
+      "byte_length": 39338,
+      "sha256": "053961fd951c99c5f486d6c40baf616b991c3bbc48a635d6270642bcd17952d0",
+      "repair_base_byte_length": 37660,
+      "repair_base_sha256": "63d9840c87cee32729fc16647f036bd5a81440aa9a1ecf4a8c9df4e146579220"
+    },
+    {
+      "path": "tests/test_p005_percentage_sufficiency.py",
+      "byte_length": 18151,
+      "sha256": "cd43913e3f8c1f23596b69b445394e952f2557375bce36089f5f9ab05d946632",
+      "repair_base_byte_length": 15999,
+      "repair_base_sha256": "456c8f6d34aa5675fb03aa10d3dea1bc5ce78af5bb9d5f52f3006ab622edb52a"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p005_observation_binding.py",
+      "byte_length": 10278,
+      "sha256": "a19b30f4da1607121fd0fdbe4f53c552a48603c6869a35225c8594b471a886f5"
+    },
+    {
+      "path": "tests/test_p005_observation_binding.py",
+      "byte_length": 15158,
+      "sha256": "d1dbe1111127e254258056b1cd19692d5a0162fa44d9e7d81952873c21523ce8"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/audit.json",
+      "byte_length": 2144,
+      "sha256": "2a579f803eb56c31a90e077e11045d0fae578e91dc09ba54cc9871bc89781ec3"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/final_integrity.json",
+      "byte_length": 9476,
+      "sha256": "50b55a04869b77678317c42266fee966a2af05cb04e77a23839b9fee60473cd0"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/pre_write_integrity.json",
+      "byte_length": 9476,
+      "sha256": "50b55a04869b77678317c42266fee966a2af05cb04e77a23839b9fee60473cd0"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/preserved_files.json",
+      "byte_length": 123380,
+      "sha256": "8236541eec71268730d1ace80262e4fc9f317ef7b30fc5a322b1f22e497bbac7"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/README.md",
+      "byte_length": 3848,
+      "sha256": "ebf7a5ad98146933b4f2f2c0dff514de29000a1901db0254adefde5c7e16dc1a"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/repair_contract.json",
+      "byte_length": 5110,
+      "sha256": "da51426bbf14dc0f366b0fbc894224dd0e62f991cf6dbd74045f345edb4d8f83"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/tests.json",
+      "byte_length": 4210,
+      "sha256": "85a165c6e5aa296f5806ad7a00b30af7e2a436100e7a165bad40b4bb2500ca0a"
+    }
+  ],
+  "self_hash_excluded": true
+}

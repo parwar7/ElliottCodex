@@ -1,0 +1,60 @@
+{
+  "stage": "P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1",
+  "actual_repair_base": "14f61b8a3964d71100af6334be6e1fad3dbe21f1",
+  "last_approved_git_HEAD": "7b8f4efd38694eef76eea05459973081026269ba",
+  "adopted_protected_state": "USER_AUTHORIZED_ADOPTED_UNCHANGED",
+  "project_manager_approval_claimed": false,
+  "original_baseline_manifest_sha256": "958d6e66e58deb1765bed371a7256fe1f4b68337b84b268aeb9e019326d7bc58",
+  "root_cause": "P005 input issuance captured identity of arbitrary references, independently supplied prices and booleans without proving their relationship to snapshot observations. The public Kernel policy gate did not establish this missing evidence relationship.",
+  "public_contract": {
+    "types": [
+      "P005ObservationBinding",
+      "P005ObservationBindingError",
+      "P005GeometryWindow",
+      "P005PriceBasis"
+    ],
+    "factory": "bind_p005_observations(five_slot_view, observation_snapshot, endpoint_bars, price_fields, geometry_windows)",
+    "input_extension": "P005PercentageSufficiencyInput.observation_binding (optional only for explicit missing evidence)",
+    "endpoint_reference_change": "Six exact Bar objects belonging by identity to the supplied snapshot, instead of arbitrary object/geometric-pivot references.",
+    "price_basis": "Explicit HIGH or LOW only, matching the current geometric observation contract; no silent CLOSE or other substitution.",
+    "geometry_source": "src/elliott_runtime/market_data/geometric_pivots.py::discover_geometric_pivots, existing WINDOWED_LOCAL_EXTREMA operational behavior, not Elliott authority."
+  },
+  "validation_chain": [
+    "Verify exact NormalImpulseFiveSlotCandidateView, original OrderedChildBinding, parent and five ordered child subjects.",
+    "Validate exact NormalizedMarketObservations and Bar/provenance types, source identity, finite OHLC, UTC chronology.",
+    "Resolve six distinct, strictly chronological endpoint Bars by identity within the supplied snapshot.",
+    "Read each represented price directly from the explicitly selected observed HIGH/LOW field.",
+    "For each known geometry window verify exact scope Bar membership/order, bounded left/right counts, FIRST/LAST equal-extreme selection, and non-ambiguous local extremum for the chosen field.",
+    "Derive nondeveloping eligibility only from the verified geometry and availability of its required right-window observations. Missing window -> None; incomplete right window -> False.",
+    "Record external issuance-time field/identity snapshots in weak-key registries; pin the first ancestry/snapshot/endpoint/window binding for each view. Revalidation/reissuance never refreshes altered evidence.",
+    "At input construction and every public Kernel invocation compare exact view/snapshot/Bar references, role 1/3/5 subjects, represented pair prices, and compatibility eligibility fields against verified binding.",
+    "Delegate unchanged exact Fraction percentage formula and sufficiency-only comparison after evidence validation."
+  ],
+  "malformed_or_foreign": "Reject with ValueError-compatible binding/input error; never establish sufficiency.",
+  "genuine_missing_or_developing": "Remain UNRESOLVED; no automatic Elliott completion.",
+  "opaque_provenance": "Geometry windows may retain the original Runtime pivot as opaque provenance for identity/mutation pinning. Its supplied prices, state and attributes are NOT used by the Kernel factory to derive prices or eligibility. Tests prove a decorative nondeveloping claim cannot override actual incomplete geometry.",
+  "runtime_adaptation": "Parent and recursive-child paths resolve actual snapshot Bars from their exact geometric pivots, transport explicit basis/window, retain original pivot provenance, and require recorded Runtime state to agree with independently verified Kernel evidence.",
+  "mathematical_semantics_unchanged": true,
+  "preserved": [
+    "P004 implementation, outcomes, equality and hypothesis-local invalidity",
+    "Exact P005 direction/domain/percentage arithmetic",
+    "P005 result states and lack of negative invalidator",
+    "No completion or family certificate",
+    "P006 frozen/conflicted",
+    "Flat/Triangle freezes",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "Legacy analyze NOT_IMPLEMENTED"
+  ],
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances": 0
+  },
+  "limited_supersession": "Only the previous P005 naked-reference input/evidence guarantees, affected implementation hashes, and their positive fixtures are superseded. Historical baseline artifacts and all approved measurement/policy semantics are preserved.",
+  "limits": [
+    "Logical same-process identity evidence, not physical sealing or cryptographic protection against arbitrary private-registry tampering.",
+    "Validates the relationship to the supplied normalized snapshot; does not independently authenticate an external market feed or reconstruct its unavailable raw payload.",
+    "No orthodox endpoint, Elliott completion, complete P005/impulse/family validity, or next-stage authority."
+  ]
+}

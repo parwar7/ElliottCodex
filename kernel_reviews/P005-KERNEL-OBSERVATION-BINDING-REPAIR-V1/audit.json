@@ -1,0 +1,62 @@
+{
+  "actual_repair_base": "14f61b8a3964d71100af6334be6e1fad3dbe21f1",
+  "last_approved_git_HEAD": "7b8f4efd38694eef76eea05459973081026269ba",
+  "prior_baseline_manifest_sha256": "958d6e66e58deb1765bed371a7256fe1f4b68337b84b268aeb9e019326d7bc58",
+  "tracked_files": 560,
+  "unchanged_files_checked": 556,
+  "changed_existing_files": [
+    "src/elliott_methodology_kernel/__init__.py",
+    "src/elliott_methodology_kernel/p005_percentage_sufficiency.py",
+    "src/elliott_runtime/analysis/normal_impulse_partial_evaluation.py",
+    "tests/test_p005_percentage_sufficiency.py"
+  ],
+  "unchanged_AST": [
+    "_evaluate_p005_percentage_sufficiency",
+    "_issue",
+    "P005PercentageSufficiencyResult",
+    "P005PercentageSufficiencyStatus",
+    "_state",
+    "_validate_issued_view"
+  ],
+  "kernel_import_audit": {
+    "src/elliott_methodology_kernel/p005_observation_binding.py": [
+      "dataclasses",
+      "enum",
+      "datetime",
+      "candidate_analysis_envelope",
+      "contracts",
+      "models",
+      "normal_impulse_five_slot_view",
+      "subject_binding",
+      "math",
+      "weakref"
+    ],
+    "src/elliott_methodology_kernel/p005_percentage_sufficiency.py": [
+      "dataclasses",
+      "enum",
+      "fractions",
+      "candidate_analysis_envelope",
+      "contracts",
+      "normal_impulse_five_slot_view",
+      "observed_price_binding",
+      "p004",
+      "subject_binding",
+      "p005_observation_binding",
+      "math",
+      "weakref"
+    ]
+  },
+  "adversarial_checks": {
+    "arbitrary_refs_not_accepted": true,
+    "independently_supplied_prices_checked_against_exact_fields": true,
+    "same_value_different_snapshot_rejected": true,
+    "eligibility_verified_not_trusted": true,
+    "mutated_or_rebound_issuance_not_refreshed": true,
+    "factory_checks_actual_observations_not_just_wrapper_issuance": true,
+    "original_pivots_preserved_only_as_non_authoritative_provenance": true,
+    "kernel_independent_of_Runtime": true,
+    "no_new_methodology_or_certificate_producer": true,
+    "no_protected_write_or_policy_rollback": true,
+    "no_new_network_provider_indicators_ranking_forecast_or_trading": true
+  }
+}

@@ -16,6 +16,7 @@ from .normal_impulse_five_slot_view import NormalImpulseFiveSlotCandidateView
 from .observed_price_binding import SubjectBoundObservedPriceEndpointPair, SubjectBoundObservedPriceObservation
 from .p004 import ImpulseDirection
 from .subject_binding import OrderedChildBinding, AnalyzedWaveSubject
+from .p005_observation_binding import P005ObservationBinding
 
 P005_BEHAVIOR_ID = "P005_NORMAL_IMPULSE_PERCENTAGE_SUFFICIENCY"
 POLICY_SHA256 = "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018"
@@ -54,6 +55,7 @@ class P005PercentageSufficiencyInput(metaclass=_Sealed):
     endpoint_eligibility: tuple[bool | None, ...]
     provenance_refs: tuple[str, ...]
     endpoint_identity_refs: tuple[object, ...]
+    observation_binding: P005ObservationBinding | None = None
 
     def __post_init__(self):
         if self in _INPUTS:
@@ -90,10 +92,35 @@ class P005PercentageSufficiencyInput(metaclass=_Sealed):
             raise P005PercentageSufficiencyError("Six exact eligibility facts required.")
         if type(self.provenance_refs) is not tuple or any(type(v) is not str or not v.strip() for v in self.provenance_refs):
             raise P005PercentageSufficiencyError("Exact provenance tuple required.")
-        if type(self.endpoint_identity_refs) is not tuple or len(self.endpoint_identity_refs) != 6 or any(v is None for v in self.endpoint_identity_refs) or len({id(v) for v in self.endpoint_identity_refs}) != 6:
-            raise P005PercentageSufficiencyError("Six distinct source endpoint identities required.")
+        self._verify_observation_binding()
         # Stored externally once. Validation never refreshes this identity evidence.
         _INPUTS[self] = tuple(_snapshot(getattr(self, f.name)) for f in fields(self))
+
+    def _verify_observation_binding(self):
+        refs = self.endpoint_identity_refs
+        if type(refs) is not tuple or len(refs) != 6:
+            raise P005PercentageSufficiencyError("Six exact endpoint evidence slots required.")
+        evidence = self.observation_binding
+        if evidence is None:
+            if any(v is not None for v in refs) or any(p is not None for p in self.endpoint_pairs) or any(v is not None for v in self.endpoint_eligibility):
+                raise P005PercentageSufficiencyError("Unbound prices/references/eligibility cannot support P005.")
+            return  # Explicit absence of all endpoint evidence remains unresolved.
+        if type(evidence) is not P005ObservationBinding:
+            raise P005PercentageSufficiencyError("Exact verified observation binding required.")
+        evidence.validated()
+        if evidence.five_slot_view is not self.five_slot_view or evidence.observation_snapshot is not self.observation_snapshot:
+            raise P005PercentageSufficiencyError("Foreign view or observation snapshot.")
+        if any(a is not b for a, b in zip(refs, evidence.endpoint_bars, strict=True)):
+            raise P005PercentageSufficiencyError("Endpoint identities/order differ from verified observations.")
+        if any(a is not b for a, b in zip(self.endpoint_eligibility, evidence.endpoint_eligibility, strict=True)):
+            raise P005PercentageSufficiencyError("Eligibility must derive from verified geometry evidence.")
+        for i, pair in enumerate(self.endpoint_pairs):
+            if pair is None:
+                continue
+            for endpoint, price in zip((pair.proposed_start, pair.proposed_end), evidence.endpoint_prices[2*i:2*i+2], strict=True):
+                value = endpoint.price
+                if type(value) not in (int, float) or (type(value) is float and not math.isfinite(value)) or Fraction(value) != Fraction(price):
+                    raise P005PercentageSufficiencyError("Endpoint price differs from its exact observed field value.")
 
     def validated(self):
         expected = _INPUTS.get(self) if type(self) is P005PercentageSufficiencyInput else None
@@ -102,6 +129,7 @@ class P005PercentageSufficiencyInput(metaclass=_Sealed):
             for f, old in zip(fields(self), expected, strict=True)
         ):
             raise P005PercentageSufficiencyError("P005 input is unissued or mutated.")
+        self._verify_observation_binding()
         return self
 
     def __reduce_ex__(self, protocol):

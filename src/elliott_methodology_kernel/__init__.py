@@ -6,6 +6,10 @@ from .p005_percentage_sufficiency import (
     P005PercentageSufficiencyStatus, P005PercentageSufficiencyError,
 )
 from .behavior_inventory import EXECUTABLE_BEHAVIOR_IDS
+from .p005_observation_binding import (
+    P005ObservationBinding, P005ObservationBindingError, P005GeometryWindow,
+    P005PriceBasis, bind_p005_observations,
+)
 from .brain import BrainIntegrityError, BrainManifest, load_brain_manifest
 from .contracts import (
     AnalysisRequest,
@@ -243,6 +247,11 @@ from .multi_degree_candidate_composition import (
 )
 
 __all__ = [
+    "P005ObservationBinding",
+    "P005ObservationBindingError",
+    "P005GeometryWindow",
+    "P005PriceBasis",
+    "bind_p005_observations",
     "P005PercentageSufficiencyInput",
     "P005PercentageSufficiencyResult",
     "P005PercentageSufficiencyStatus",

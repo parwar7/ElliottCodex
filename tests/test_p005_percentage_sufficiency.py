@@ -6,6 +6,8 @@ import math
 from pathlib import Path
 import pickle
 import unittest
+from datetime import datetime, timedelta, timezone
+import json
 
 import support
 from elliott_methodology_kernel import (
@@ -16,7 +18,10 @@ from elliott_methodology_kernel import (
     P005PercentageSufficiencyInput as Input,
     P005PercentageSufficiencyStatus as Status,
     P005PercentageSufficiencyError, EXECUTABLE_BEHAVIOR_IDS,
+    P005GeometryWindow, P005PriceBasis, bind_p005_observations,
 )
+from elliott_methodology_kernel.contracts import SymbolIdentity, MarketType, Timeframe
+from elliott_runtime.market_data.ingestion import _normalize
 from elliott_methodology_kernel.p005_percentage_sufficiency import P005_BEHAVIOR_ID
 from test_candidate_generation import market_observations
 from test_normal_impulse_partial_evaluation import evaluate, parent_bridge, child_result, equality_bridge
@@ -26,11 +31,33 @@ def metric_input(prices=((100, 110), (100, 120), (100, 110)), direction=ImpulseD
     parent = AnalyzedWaveSubject("parent", "test:parent")
     children = tuple(AnalyzedWaveSubject(f"child:{i}", "test:child") for i in range(5))
     view = NormalImpulseFiveSlotCandidateView(OrderedChildBinding("test:binding", parent, children))
-    pairs = tuple(Pair(Observation(children[i], start, "test:start"), Observation(children[i], end, "test:end"))
-                  for i, (start, end) in zip((0, 2, 4), prices, strict=True))
+    # Each price is an actual bar HIGH, surrounded by lower bars. Geometry is
+    # verified against those observations, not asserted using object() tokens.
+    records = []
+    for value in (v for pair in prices for v in pair):
+        if type(value) not in (int, float) or not math.isfinite(value):
+            raise ValueError("Malformed fixture price")
+        lower = math.nextafter(float(value), -math.inf)
+        lowest = math.nextafter(lower, -math.inf)
+        for high, low in ((lower, lowest), (value, lower), (lower, lowest)):
+            records.append(dict(timestamp=(datetime(2024, 1, 1, tzinfo=timezone.utc) + timedelta(days=len(records))).isoformat(),
+                                open=high, high=high, low=low, close=high, volume=1))
+    snapshot = _normalize(records, json.dumps(records).encode(), "test", "p005-bound-observations",
+                          SymbolIdentity("TEST", MarketType.STOCK), Timeframe("1d", 86400))
+    selected = tuple(snapshot.bars[i] for i in (1, 4, 7, 10, 13, 16))
+    facts = changes.pop("endpoint_eligibility", (True,) * 6)
+    windows = tuple(None if fact is None else P005GeometryWindow(1, 1, "FIRST",
+                    (snapshot.bars[3*i], selected[i]) if fact is False else None)
+                    for i, fact in enumerate(facts))
+    evidence = bind_p005_observations(view, snapshot, selected, (P005PriceBasis.HIGH,) * 6, windows)
+    pairs = tuple(Pair(Observation(children[i], evidence.endpoint_prices[i], "test:start"),
+                       Observation(children[i], evidence.endpoint_prices[i+1], "test:end")) for i in (0, 2, 4))
     values = dict(five_slot_view=view, direction=direction, endpoint_pairs=pairs,
-                  observation_snapshot=market_observations(8), endpoint_eligibility=(True,) * 6,
-                  provenance_refs=("test:approved-metric",), endpoint_identity_refs=tuple(object() for _ in range(6)))
+                  observation_snapshot=snapshot, endpoint_eligibility=evidence.endpoint_eligibility,
+                  provenance_refs=("test:approved-metric",), endpoint_identity_refs=selected, observation_binding=evidence)
+    if "observation_snapshot" in changes and changes["observation_snapshot"] is None:
+        values.update(endpoint_pairs=(None,) * 3, endpoint_identity_refs=(None,) * 6,
+                      endpoint_eligibility=(None,) * 6, observation_binding=None)
     values.update(changes)
     return Input(**values)
 
@@ -236,8 +263,9 @@ class P005RuntimeBindingTests(unittest.TestCase):
                 self.assertIs(e.p005_input.observation_snapshot, h.generated_candidate.source_observations)
                 for i, role in enumerate(h.role_bindings[::2]):
                     self.assertIs(e.p005_input.endpoint_pairs[i].subject, role.child_subject)
-                    self.assertIs(e.p005_input.endpoint_identity_refs[2*i], role.start_boundary)
-                    self.assertIs(e.p005_input.endpoint_identity_refs[2*i+1], role.end_boundary)
+                    self.assertIs(e.p005_input.observation_binding.geometry_windows[2*i].provenance_ref, role.start_boundary)
+                    self.assertIs(e.p005_input.observation_binding.geometry_windows[2*i+1].provenance_ref, role.end_boundary)
+                    self.assertTrue(any(e.p005_input.endpoint_identity_refs[2*i] is bar for bar in h.generated_candidate.source_observations.bars))
                 self.assertIs(e.p005_result.input_snapshot, e.p005_input)
                 e._validated()
 

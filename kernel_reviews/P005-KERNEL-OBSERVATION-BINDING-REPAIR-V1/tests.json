@@ -1,0 +1,40 @@
+{
+  "reproduction": {
+    "public_api": "MethodologyKernel.evaluate_p005_percentage_sufficiency",
+    "policy_gate": "Real adopted policy active; no mock or private evaluator",
+    "before": {
+      "run": 3,
+      "failures": 3,
+      "reason": "Expected malformed-evidence rejection was absent"
+    },
+    "after": {
+      "same_regressions_pass": 3
+    },
+    "raw_before_output": "test_public_api_rejects_fabricated_nondeveloping_eligibility (test_p005_observation_binding.P005PublicVulnerabilityRegressions.test_public_api_rejects_fabricated_nondeveloping_eligibility) ... FAIL\r\ntest_public_api_rejects_six_arbitrary_object_references (test_p005_observation_binding.P005PublicVulnerabilityRegressions.test_public_api_rejects_six_arbitrary_object_references) ... FAIL\r\ntest_public_api_rejects_unrelated_observations_and_independent_prices (test_p005_observation_binding.P005PublicVulnerabilityRegressions.test_public_api_rejects_unrelated_observations_and_independent_prices) ... FAIL\r\n\r\n======================================================================\r\nFAIL: test_public_api_rejects_fabricated_nondeveloping_eligibility (test_p005_observation_binding.P005PublicVulnerabilityRegressions.test_public_api_rejects_fabricated_nondeveloping_eligibility)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\ElliottCodex\\Runtime_WORKSPACE\\tests\\test_p005_observation_binding.py\", line 41, in test_public_api_rejects_fabricated_nondeveloping_eligibility\r\n    with self.assertRaises(ValueError):\r\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: ValueError not raised\r\n\r\n======================================================================\r\nFAIL: test_public_api_rejects_six_arbitrary_object_references (test_p005_observation_binding.P005PublicVulnerabilityRegressions.test_public_api_rejects_six_arbitrary_object_references)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\ElliottCodex\\Runtime_WORKSPACE\\tests\\test_p005_observation_binding.py\", line 33, in test_public_api_rejects_six_arbitrary_object_references\r\n    with self.assertRaises(ValueError):\r\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: ValueError not raised\r\n\r\n======================================================================\r\nFAIL: test_public_api_rejects_unrelated_observations_and_independent_prices (test_p005_observation_binding.P005PublicVulnerabilityRegressions.test_public_api_rejects_unrelated_observations_and_independent_prices)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\ElliottCodex\\Runtime_WORKSPACE\\tests\\test_p005_observation_binding.py\", line 37, in test_public_api_rejects_unrelated_observations_and_independent_prices\r\n    with self.assertRaises(ValueError):\r\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: ValueError not raised\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.102s\r\n\r\nFAILED (failures=3)\r\n"
+  },
+  "focused": {
+    "run": 128,
+    "passed": 128,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 40.926,
+    "command": "PYTHONPATH=src;tests python -B -m unittest test_p005_observation_binding test_p005_percentage_sufficiency test_normal_impulse_partial_evaluation test_normal_impulse_ancestry_identity test_p004 -q"
+  },
+  "full": {
+    "run": 986,
+    "passed": 986,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 95.804,
+    "command": "PYTHONPATH=src;tests python -B -m unittest discover -s tests -q"
+  },
+  "prior_full_before_final_provenance_hardening": {
+    "run": 984,
+    "passed": 984,
+    "failures": 0
+  },
+  "new_repair_tests": 28,
+  "unchanged_mathematical_assertions": "Existing price/domain/direction/tie/near-boundary and P004 non-rescue expectations preserved; positive fixtures now use real normalized OHLC bars and verified geometry windows.",
+  "geometry_parity": "Both FIRST/LAST policies and full/scoped observations checked against existing Runtime discovery.",
+  "no_integrity_bypass": true
+}
