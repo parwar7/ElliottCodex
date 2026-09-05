@@ -423,9 +423,9 @@ class ValidatedInternalFamilyFoundationTests(unittest.TestCase):
             support.RUNTIME_ROOT / "tests" / "test_structural_invalidity_contract.py"
         )
         test_bytes = structural_test.read_bytes()
-        self.assertEqual(33103, len(test_bytes))
+        self.assertEqual(33164, len(test_bytes))
         self.assertEqual(
-            "019642f5a2d689f0bb88e5212c6cb9e561c016b7199d9ec7715b589964a38238",
+            "b60fe5f0c763098eefbab15ad7dfba0cf98055f619bea437894eb620c28a34d3",
             hashlib.sha256(test_bytes).hexdigest(),
         )
         self.assertIs(True, structural_private._REGISTRY_SEALED)
@@ -478,6 +478,7 @@ class ValidatedInternalFamilyFoundationTests(unittest.TestCase):
                 "P008_FLAT_DIRECT_CHILD_CARDINALITY",
                 "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
                 "ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY",
+                "P005_NORMAL_IMPULSE_PERCENTAGE_SUFFICIENCY",
             },
             observed,
         )

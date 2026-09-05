@@ -69,6 +69,17 @@ class MethodologyKernel:
     def validate_analysis_output(self, output: Mapping[str, Any]) -> None:
         assert_valid(dict(output), self._schema)
 
+    def evaluate_p005_percentage_sufficiency(self, request):
+        """Evaluate only the adopted, snapshot-bound percentage sufficiency."""
+        from .p005_percentage_sufficiency import (
+            POLICY_SHA256, P005PercentageSufficiencyError,
+            _evaluate_p005_percentage_sufficiency,
+        )
+        manifest = load_brain_manifest(self._brain_manifest.protected_root)
+        if manifest.observed_hashes.get("docs/elliott/SOURCE_POLICY.md") != POLICY_SHA256:
+            raise P005PercentageSufficiencyError("Approved P005 policy is not active.")
+        return _evaluate_p005_percentage_sufficiency(request)
+
     def analyze(self, request: AnalysisRequest) -> AnalysisResultEnvelope:
         """Return an explicit unresolved result until reviewed methodology exists."""
         manifest_reference = hashlib.sha256(

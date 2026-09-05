@@ -1,0 +1,33 @@
+{
+  "stage": "P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1",
+  "approved_base": "7b8f4efd38694eef76eea05459973081026269ba",
+  "authorization": "Explicit user approval of bounded implementation, original reviewed metric-policy insertion, and separate measurement conventions; resumed after owner granted access.",
+  "protected_write_exception": [
+    "C:/ElliottCodex/Brain_LOCKED/docs/elliott/SOURCE_POLICY.md",
+    "C:/ElliottCodex/Brain_LOCKED/PACKAGE_MANIFEST.json (corresponding policy entry only)"
+  ],
+  "source_precedence_scope": "Book's percentage sufficient condition controls ONLY P005 conflict with Volume 10 both-bases statement. Arithmetic failure cannot override percentage sufficiency; no general book precedence.",
+  "source_classes": {
+    "book_sufficient_condition": "SOURCE_RULE",
+    "volume_10_both_bases": "SOURCE_RULE",
+    "book_almost_always_arithmetic": "SOURCE_GUIDELINE",
+    "original_measurement_conflict": "CONFLICT_PRESERVED_POLICY_RESOLVED_ONLY_FOR_THIS_SCOPE"
+  },
+  "measurement_authority": "USER_APPROVED_PROJECT_CONVENTIONS",
+  "formula": "For each of roles 1, 3, 5 independently: R = 100 * abs(end - start) / start; exact represented int/float converted to Fraction before arithmetic.",
+  "eligibility": "Finite strictly positive prices; nonzero movement of all three peers in the exact hypothesis direction; exact identity-bound proposed endpoints; every endpoint requires known nondeveloping geometry.",
+  "positive_condition": "R3 > R1 OR R3 > R5 establishes ONLY the book's sufficient condition for this immutable snapshot.",
+  "other_cases": "Unresolved, including ties at shortest, all equal, strict shortest, developing or missing eligibility. Malformed transport or mutation fails closed.",
+  "prohibitions": [
+    "No negative P005 validator",
+    "No structural or family certificate",
+    "No complete P005/impulse/family validation",
+    "No completion authority from nondeveloping geometry",
+    "No P004 rescue",
+    "No P006/unrelated freeze changes",
+    "No rounding/tolerance/epsilon/tick buffer",
+    "No ACL or execution identity changes"
+  ],
+  "protected_transition_status": "APPLIED_BY_USER_AUTHORIZATION_SUBJECT_TO_PROJECT_MANAGER_REVIEW",
+  "project_manager_approval_claimed": false
+}

@@ -708,6 +708,7 @@ class CandidateAnalysisEnvelopeTests(unittest.TestCase):
                 "P008_FLAT_DIRECT_CHILD_CARDINALITY",
                 "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
                 "ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY",
+                "P005_NORMAL_IMPULSE_PERCENTAGE_SUFFICIENCY",
             },
             observed,
         )

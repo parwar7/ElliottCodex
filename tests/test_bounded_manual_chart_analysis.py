@@ -452,7 +452,7 @@ class BoundedManualChartAnalysisTests(unittest.TestCase):
                     for target in targets:
                         if isinstance(target, ast.Name) and target.id.endswith(("BEHAVIOR_ID", "BEHAVIOR")) and isinstance(node.value, ast.Constant) and isinstance(node.value.value, str):
                             observed.add(node.value.value)
-        self.assertEqual(10, len(observed))
+        self.assertEqual(11, len(observed))
         self.assertTrue(structural_private._REGISTRY_SEALED)
         self.assertEqual(7, len(structural_private._PRODUCERS))
         self.assertTrue(family_private._REGISTRY_SEALED)

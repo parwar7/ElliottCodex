@@ -1,0 +1,15 @@
+{
+  "old_policy_sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29",
+  "old_policy_byte_length": 2354,
+  "new_policy_sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018",
+  "new_policy_byte_length": 5475,
+  "old_manifest_sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+  "new_manifest_sha256": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338",
+  "exact_reviewed_insertion_present": true,
+  "untouched_manifest_entry_count": 29,
+  "manifest_diff_is_only_entry_hash_and_length": true,
+  "status": "APPLIED_USER_AUTHORIZED_SUBJECT_TO_PROJECT_MANAGER_REVIEW",
+  "identity": "PARWAR\\Parwa",
+  "acl_or_identity_changes": false,
+  "read_only_recovery_copies": true
+}

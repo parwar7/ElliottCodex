@@ -1,0 +1,252 @@
+{
+  "baseline_id": "P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1",
+  "classification": "ADDITIVE_LOGICAL_METHODOLOGY_AND_PROTECTED_POLICY_TRANSITION_BASELINE",
+  "approved_base": "7b8f4efd38694eef76eea05459973081026269ba",
+  "status": "IMPLEMENTED_TESTED_AUDITED_USER_AUTHORIZED",
+  "project_manager_approval_claimed": false,
+  "protected_transition_subject_to_project_manager_review": true,
+  "previous_P005_baseline_manifest_sha256": "581900c466e10355df073b90c1c8c7f98bdf13a611f78fbe2314bc3cb62bb571",
+  "limited_supersession": "Previous P005-unimplemented statements only for the approved nonfatal percentage sufficiency; no exhaustive P005, negative validator or family validity. Historical baselines unchanged.",
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances": 0
+  },
+  "tests": {
+    "focused_pass": 100,
+    "full_pass": 958,
+    "failures": 0
+  },
+  "protected_hashes": {
+    "original_brain_manifest": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "current_brain_manifest": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338",
+    "sources_manifest": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "book": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  },
+  "runtime_files": [
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 14029,
+      "sha256": "b66fcff452e7c328e0ab3dbafbdc499c19c7e027b14b15638e2aad5de47aa5b9"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/api.py",
+      "byte_length": 6695,
+      "sha256": "43a79d87cb21fd4193f8c97402a296c0fa750c3ae097fb4a4850e9b8a95dc7a8"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/behavior_inventory.py",
+      "byte_length": 467,
+      "sha256": "5a8fdd83a5ebefbe432f279ec020cf0cfe7bec62a92be7787075abb79aa7781a"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p005_percentage_sufficiency.py",
+      "byte_length": 9979,
+      "sha256": "dea10de2e94c852f31fef590e42e4d147fef15011ef0e8265c6a339d58856014"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/normal_impulse_partial_evaluation.py",
+      "byte_length": 37660,
+      "sha256": "63d9840c87cee32729fc16647f036bd5a81440aa9a1ecf4a8c9df4e146579220"
+    },
+    {
+      "path": "tests/test_bounded_manual_chart_analysis.py",
+      "byte_length": 23753,
+      "sha256": "39c60e43663e34fd37ad6196b285285f4e3115db65a591204dbd8dd794633165"
+    },
+    {
+      "path": "tests/test_bounded_recursive_analysis.py",
+      "byte_length": 30012,
+      "sha256": "6f1069db302acb629808652f7f1da3268fb538802d56864b86b203d34f92e41f"
+    },
+    {
+      "path": "tests/test_candidate_analysis_envelope.py",
+      "byte_length": 30190,
+      "sha256": "8925b4bc8f719253cc132c1a47d180dabf51c03f8a341f73f4a97744aa1a1613"
+    },
+    {
+      "path": "tests/test_candidate_generation.py",
+      "byte_length": 21414,
+      "sha256": "fb982dfad4d61a2c78ba936d7bef8700e4b4f35aaa1df69e5beae607923b6dd2"
+    },
+    {
+      "path": "tests/test_competing_candidates.py",
+      "byte_length": 19579,
+      "sha256": "3936229cd7d54e58fdfa75802ec89970b754ceb409bcb8423de0eb1438435521"
+    },
+    {
+      "path": "tests/test_ending_diagonal_cardinality.py",
+      "byte_length": 22142,
+      "sha256": "912aff90c9d31fd9b24e6449d2e5900900ee8c60cbfa7b3152700bbcbd027521"
+    },
+    {
+      "path": "tests/test_explicit_behavior_execution.py",
+      "byte_length": 27814,
+      "sha256": "a28d927b1bbe1275a0bf30ffd402680ff2d3ac60f09a3214b2e3a23d9a766b6b"
+    },
+    {
+      "path": "tests/test_family_hypotheses.py",
+      "byte_length": 21888,
+      "sha256": "ddd66a26912607f636d726c01eb6c188c868b54dc69840d8231a20a13a15954c"
+    },
+    {
+      "path": "tests/test_finer_child_observation_selection.py",
+      "byte_length": 18276,
+      "sha256": "c74a381dcdc0a93bd13c135ff8fcdf15e0804a8c70757974c2be6f3ff1a7f2ba"
+    },
+    {
+      "path": "tests/test_geometric_pivots.py",
+      "byte_length": 12198,
+      "sha256": "89c55b93d8f74cff44bc61ae9749b692549acea00b6770561aa883f3b2c57573"
+    },
+    {
+      "path": "tests/test_manual_structure_candidate_builder.py",
+      "byte_length": 28001,
+      "sha256": "efcc764b5c4c2bbf1e85685ef4350f489ba7d6019e4843dc19a84775ea9c7583"
+    },
+    {
+      "path": "tests/test_normal_impulse_five_slot_view.py",
+      "byte_length": 19679,
+      "sha256": "596813b54594d97083f9f54f883304c497829daf8631e7f26ff386fea70560a9"
+    },
+    {
+      "path": "tests/test_observed_price_binding.py",
+      "byte_length": 26497,
+      "sha256": "e88ac2898167e0b0d932235584b8064cac40616858a3345bae1f89e8c58f3036"
+    },
+    {
+      "path": "tests/test_p003_one_larger_degree_theme.py",
+      "byte_length": 16368,
+      "sha256": "e3f1207d0bcddb1b05ceb30a8dcfa8b5e959df58136ecc4f634f41a8834af123"
+    },
+    {
+      "path": "tests/test_p005_percentage_sufficiency.py",
+      "byte_length": 15999,
+      "sha256": "456c8f6d34aa5675fb03aa10d3dea1bc5ce78af5bb9d5f52f3006ab622edb52a"
+    },
+    {
+      "path": "tests/test_p008_flat_cardinality.py",
+      "byte_length": 19128,
+      "sha256": "de15761adabe8eb75eac951afafbdf46fad5ef46bc2531a31561273e1aa4cf9f"
+    },
+    {
+      "path": "tests/test_p009_triangle_cardinality.py",
+      "byte_length": 23688,
+      "sha256": "3b0f4630956300d05e765d05a966eec98b32fdc02d4465a6f285efeb9edfe2e8"
+    },
+    {
+      "path": "tests/test_recursive_child_candidate_generation.py",
+      "byte_length": 19771,
+      "sha256": "d5c8996ec6b043300a4266aa81fbfc9f79257c99185043523bb8987034b3d0c8"
+    },
+    {
+      "path": "tests/test_single_candidate_orchestration.py",
+      "byte_length": 27634,
+      "sha256": "f4a5d77e3ff043cab50c42c2d6886399a5672508a61074a51d670258a73b8c37"
+    },
+    {
+      "path": "tests/test_structural_invalidity_contract.py",
+      "byte_length": 33164,
+      "sha256": "b60fe5f0c763098eefbab15ad7dfba0cf98055f619bea437894eb620c28a34d3"
+    },
+    {
+      "path": "tests/test_subject_binding.py",
+      "byte_length": 21122,
+      "sha256": "61e762943ea340617901442edf695601445a63dfec03f37bab0887183162a7b5"
+    },
+    {
+      "path": "tests/test_validated_internal_family_contract.py",
+      "byte_length": 23827,
+      "sha256": "2fd8e8085db3039e840974ed78f7faf4e8945c741ad52d9ea6577a2503994b62"
+    },
+    {
+      "path": "tests/test_yahoo_market_data_provider.py",
+      "byte_length": 18029,
+      "sha256": "be4ce5619240edb89b9472c4d85801e41452b3f848eb4b37621161e449b495f3"
+    }
+  ],
+  "baseline_artifacts": [
+    {
+      "path": "adopted_PACKAGE_MANIFEST.json",
+      "byte_length": 5126,
+      "sha256": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338"
+    },
+    {
+      "path": "adopted_SOURCE_POLICY.md",
+      "byte_length": 5475,
+      "sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018"
+    },
+    {
+      "path": "audit.json",
+      "byte_length": 3020,
+      "sha256": "585ee72a2138ddbb83134141c074615d85967ac2d53c5ab08107ae153ba5d0dc"
+    },
+    {
+      "path": "authorization_record.json",
+      "byte_length": 2259,
+      "sha256": "dc146dfbc20dc719095a5348b2fe7294c4a65d640a4ea076a81066147f58219e"
+    },
+    {
+      "path": "combined_SOURCE_POLICY.diff",
+      "byte_length": 3559,
+      "sha256": "056a120058cc2a4ea2ea2247c4fd41d6f99bff25ecc4a4b1645aac4b15de2691"
+    },
+    {
+      "path": "final_protected_integrity.json",
+      "byte_length": 9476,
+      "sha256": "50b55a04869b77678317c42266fee966a2af05cb04e77a23839b9fee60473cd0"
+    },
+    {
+      "path": "implementation_scope.json",
+      "byte_length": 3300,
+      "sha256": "6e26f0aa0166c15606607ba22c206bd471337a93705787f1675d7baff2aed0be"
+    },
+    {
+      "path": "original_PACKAGE_MANIFEST.json",
+      "byte_length": 5126,
+      "sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a"
+    },
+    {
+      "path": "original_SOURCE_POLICY.md",
+      "byte_length": 2354,
+      "sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29"
+    },
+    {
+      "path": "PACKAGE_MANIFEST_entry.diff",
+      "byte_length": 434,
+      "sha256": "7e782862596b019b6456e350bb21c3cc98e07aa1332192fe46ebf9ff6031cf24"
+    },
+    {
+      "path": "pre_write_integrity.json",
+      "byte_length": 9476,
+      "sha256": "ad1d3bd6eb6b7829882f842d649d4c4f28e32bda51213ffa9c50e2165bfb2584"
+    },
+    {
+      "path": "preserved_tracked_inventory.json",
+      "byte_length": 112233,
+      "sha256": "2e69788f5f9eecb0189e6ce03ea587e5ef65846c9f438a833877d532c03a0c75"
+    },
+    {
+      "path": "protected_policy_transition.json",
+      "byte_length": 755,
+      "sha256": "2009b7af884765aef85eef0efb8ef604bd96d12806cad65d40d880f7b018c06c"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 3902,
+      "sha256": "f9941f6119cb61396cac06cbc8d479cd26d29946de677a80245d62a346928cd5"
+    },
+    {
+      "path": "source_traceability.json",
+      "byte_length": 2419,
+      "sha256": "c3380cd5a677136e63b647c699bf5841ad077fedc904d2179aefb7d2f36da859"
+    },
+    {
+      "path": "tests.json",
+      "byte_length": 1556,
+      "sha256": "f6bdc257b5856e5f7ee90aa18747d0f8a6bc60faaf71f152dcd25fd3920f67dc"
+    }
+  ],
+  "self_hash_policy": "This manifest is excluded from its own entries. SHA-256 is reported externally; logical baseline, not physical sealing."
+}

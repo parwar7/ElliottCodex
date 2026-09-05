@@ -1,6 +1,11 @@
 """Public surface for the Phase 1 Methodology Kernel contract."""
 
 from .api import MethodologyKernel
+from .p005_percentage_sufficiency import (
+    P005PercentageSufficiencyInput, P005PercentageSufficiencyResult,
+    P005PercentageSufficiencyStatus, P005PercentageSufficiencyError,
+)
+from .behavior_inventory import EXECUTABLE_BEHAVIOR_IDS
 from .brain import BrainIntegrityError, BrainManifest, load_brain_manifest
 from .contracts import (
     AnalysisRequest,
@@ -238,6 +243,11 @@ from .multi_degree_candidate_composition import (
 )
 
 __all__ = [
+    "P005PercentageSufficiencyInput",
+    "P005PercentageSufficiencyResult",
+    "P005PercentageSufficiencyStatus",
+    "P005PercentageSufficiencyError",
+    "EXECUTABLE_BEHAVIOR_IDS",
     "AnalysisRequest",
     "AnalysisResultEnvelope",
     "AnalysisResolutionState",

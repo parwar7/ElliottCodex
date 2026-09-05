@@ -556,7 +556,7 @@ class ManualStructureCandidateBuilderTests(unittest.TestCase):
                             and isinstance(node.value.value, str)
                         ):
                             observed.add(node.value.value)
-        self.assertEqual(10, len(observed))
+        self.assertEqual(11, len(observed))
         self.assertTrue(structural_private._REGISTRY_SEALED)
         self.assertEqual(7, len(structural_private._PRODUCERS))
         self.assertTrue(family_private._REGISTRY_SEALED)

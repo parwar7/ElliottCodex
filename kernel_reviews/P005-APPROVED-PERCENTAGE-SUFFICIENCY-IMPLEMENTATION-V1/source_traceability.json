@@ -1,0 +1,47 @@
+{
+  "provenance_mode": "Reuse of the approved P005 review; no new source search or outside methodology.",
+  "prior_review": "../P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/source_references.json",
+  "prior_manifest_sha256": "581900c466e10355df073b90c1c8c7f98bdf13a611f78fbe2314bc3cb62bb571",
+  "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+  "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+  "findings": [
+    {
+      "ref_id": "book-core",
+      "path": "Sources_LOCKED/book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF/printed page 31, Motive Waves",
+      "source_class": "SOURCE_RULE",
+      "excerpt": "a greater percentage movement than either wave 1 or 5",
+      "implemented_authority": "Only the sufficient condition; not an exhaustive pass/fail rule."
+    },
+    {
+      "ref_id": "book-arithmetic",
+      "path": "Sources_LOCKED/book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF/printed page 31, Motive Waves",
+      "source_class": "SOURCE_GUIDELINE",
+      "excerpt": "It almost always holds on an arithmetic basis as well.",
+      "implemented_authority": "No compulsory arithmetic veto; no guideline code or scoring added."
+    },
+    {
+      "ref_id": "v10-both",
+      "path": "Sources_LOCKED/volume_10/volume_10.txt",
+      "locator": "00:28:14.840-00:28:25.640",
+      "source_class": "SOURCE_RULE",
+      "excerpt": "The answer is both.",
+      "implemented_authority": "Original conflict retained; narrow user-authorized metric policy favors the book condition."
+    }
+  ],
+  "protected_principle": "docs/elliott/SOURCE_EVIDENCE_MAP.json#P005",
+  "adopted_policy": "docs/elliott/SOURCE_POLICY.md",
+  "adopted_policy_sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018",
+  "conventions_not_source_discoveries": [
+    "Percentage denominator and absolute movement formula",
+    "Finite positive input domain and direction requirement",
+    "Hypothesis-bound endpoint authority",
+    "Snapshot-only nondeveloping eligibility",
+    "Exact Fraction arithmetic for represented floats",
+    "Unresolved residual including exact shortest ties"
+  ],
+  "source_conflict_erased": false,
+  "general_book_precedence": false,
+  "new_protected_principle_invented": false
+}

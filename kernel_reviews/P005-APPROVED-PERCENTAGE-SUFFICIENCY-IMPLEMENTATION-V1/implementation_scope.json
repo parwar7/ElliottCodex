@@ -1,0 +1,60 @@
+{
+  "kernel_api": "MethodologyKernel.evaluate_p005_percentage_sufficiency(P005PercentageSufficiencyInput) -> P005PercentageSufficiencyResult",
+  "input_fields": [
+    "five_slot_view",
+    "direction",
+    "endpoint_pairs (roles 1,3,5)",
+    "observation_snapshot",
+    "endpoint_eligibility (six True/False/None facts)",
+    "provenance_refs",
+    "endpoint_identity_refs"
+  ],
+  "output_statuses": [
+    "SUFFICIENT_CONDITION_ESTABLISHED",
+    "UNRESOLVED"
+  ],
+  "output_measurements": "Tuple of exact fractions, or empty when eligibility/inputs cannot support measurement.",
+  "output_authority": {
+    "fatal_to_candidate": false,
+    "family_validity_authority": false,
+    "completion_authority": false
+  },
+  "source_principle_id": "P005",
+  "behavior_id": "P005_NORMAL_IMPULSE_PERCENTAGE_SUFFICIENCY",
+  "metadata": {
+    "source_class": "SOURCE_RULE",
+    "measurement_class": "USER_APPROVED_PROJECT_CONVENTIONS"
+  },
+  "identity_contract": "Weak identity issuance records store original recursive field snapshots externally; validation never refreshes evidence. Validate input/result before reliance. Binding, child subjects, observation snapshot, endpoint references and their nested fields remain pinned. Copies/deserialization cannot restore result issuance.",
+  "runtime_integration": "Both existing parent bridge and recursive-child Normal Impulse paths bind role 1/3/5 observed endpoint pairs and delegate. The exact existing P004 direction is passed explicitly. Existing P004-only bounded request/result remains unchanged and independent.",
+  "developing_mapping": "Existing CONFIRMED_BY_GEOMETRY -> nondeveloping eligibility True; DEVELOPING -> False; unknown -> None. No Elliott completion claim.",
+  "p004_interaction": "Genuine P004 invalidity remains fatal and hypothesis-local even when P005 sufficient condition is established.",
+  "inventories": {
+    "before": {
+      "methodology": 10,
+      "structural_producers": 7,
+      "family_producers": 0,
+      "family_issuances": 0
+    },
+    "after": {
+      "methodology": 11,
+      "structural_producers": 7,
+      "family_producers": 0,
+      "family_issuances": 0
+    }
+  },
+  "inventory_boundaries": "behavior_inventory.EXECUTABLE_BEHAVIOR_IDS is the complete 11-behavior inventory. Legacy candidate-envelope/manual execution transport remains 10; dedicated P005 does not masquerade as a structural validator.",
+  "remaining_limits": [
+    "Exhaustive P005 validation unavailable; no negative consequence when sufficiency fails",
+    "Exact ties unresolved except OR comparison against a strictly smaller other peer",
+    "Only proposed endpoints; no orthodox-endpoint or path-extreme authority",
+    "No completion proof or developing-wave decision",
+    "P006 remains frozen/unresolved/conflicted",
+    "Flat/Triangle freezes unchanged",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND unchanged",
+    "No validated-family producer or issuance",
+    "Legacy analyze remains NOT_IMPLEMENTED",
+    "No ranking, indicators, forecast or trading"
+  ],
+  "limited_supersession": "Only prior blanket P005-unimplemented/unavailable statements are superseded within this dedicated percentage-sufficiency scope; historical artifacts stay unchanged. Existing P005 unresolved dependency labels refer to unavailable complete validation."
+}

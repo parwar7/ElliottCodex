@@ -358,7 +358,7 @@ class YahooMarketDataProviderTests(unittest.TestCase):
                     targets = node.targets if isinstance(node, ast.Assign) else (node.target,)
                     if any(isinstance(item, ast.Name) and item.id.endswith(("BEHAVIOR_ID", "BEHAVIOR")) for item in targets) and isinstance(node.value, ast.Constant) and isinstance(node.value.value, str):
                         observed.add(node.value.value)
-        self.assertEqual(10, len(observed))
+        self.assertEqual(11, len(observed))
         self.assertEqual(7, len(structural_private._PRODUCERS))
         self.assertEqual(0, len(family_private._PRODUCERS))
         self.assertEqual(0, len(family_private._ISSUED))

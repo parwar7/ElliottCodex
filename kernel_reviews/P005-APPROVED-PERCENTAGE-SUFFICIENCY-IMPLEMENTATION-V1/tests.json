@@ -1,0 +1,44 @@
+{
+  "focused": {
+    "command": "PYTHONPATH=src;tests python -B -m unittest test_p005_percentage_sufficiency test_normal_impulse_partial_evaluation test_normal_impulse_ancestry_identity test_p004 -q",
+    "run": 100,
+    "passed": 100,
+    "failed": 0,
+    "errors": 0,
+    "seconds": 42.678
+  },
+  "full": {
+    "command": "PYTHONPATH=src;tests python -B -m unittest discover -s tests -q",
+    "run": 958,
+    "passed": 958,
+    "failed": 0,
+    "errors": 0,
+    "seconds": 101.301
+  },
+  "new_p005_tests": 35,
+  "development_runs": [
+    {
+      "run": 1,
+      "errors": 1,
+      "cause": "Initial ancestry invocation omitted PYTHONPATH; corrected invocation without changing code."
+    },
+    {
+      "run": 953,
+      "failures": 22,
+      "cause": "Stale ten-behavior inventory expectations after the declared eleven-behavior delta."
+    },
+    {
+      "run": 953,
+      "failures": 9,
+      "cause": "Inventory scan naming reconciliation and one dependent test-file hash pin; no analytical failure."
+    },
+    {
+      "run": 958,
+      "failures": 1,
+      "cause": "Second dependent inventory-test file hash pin; reconciled to its reviewed inventory-only edit."
+    }
+  ],
+  "semantic_defects_discovered": false,
+  "execution": "Foreground, -B and PYTHONDONTWRITEBYTECODE=1, no package installation or external market-data retrieval.",
+  "regression_guards": "P004 pass/fail/equality and genuine fatal invalidity preserved; P005 sufficient condition cannot rescue it. Existing ancestry tests unchanged. Shared Kernel contract hashes unchanged."
+}

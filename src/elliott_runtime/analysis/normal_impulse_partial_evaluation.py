@@ -3,7 +3,8 @@
 The module interprets an exact neutral five-segment candidate only as an
 ``evaluate-as NORMAL_IMPULSE`` scope.  It binds five hypothesis-local roles,
 delegates the already-approved P004 fact through ``MethodologyKernel``, and
-keeps P005, P006, complete-family proof, degree, rank, and terminality absent.
+delegates bounded P005 percentage sufficiency separately, and keeps full P005,
+P006, complete-family proof, degree, rank, and terminality absent.
 """
 
 from __future__ import annotations
@@ -26,6 +27,10 @@ from elliott_methodology_kernel import (
     NormalImpulseFiveSlotCandidateView,
     OrderedChildBinding,
     P004Result,
+    P005PercentageSufficiencyInput,
+    P005PercentageSufficiencyResult,
+    SubjectBoundObservedPriceObservation,
+    SubjectBoundObservedPriceEndpointPair,
     RuleCheckStatus,
     certify_structural_invalidity,
 )
@@ -34,6 +39,7 @@ from .candidate_generation import (
     CandidateHypothesisShape,
     GeneratedCandidateHypothesis,
 )
+from ..market_data.geometric_pivots import GeometricPivotState
 from .competing_candidates import (
     CompetingCandidateSetResult,
     validate_competing_candidate_set_result,
@@ -310,6 +316,8 @@ class NormalImpulsePartialEvaluation(metaclass=_Sealed):
     bounded_request: BoundedManualChartAnalysisRequest
     bounded_result: BoundedManualChartAnalysisResult
     p004_result: P004Result
+    p005_input: P005PercentageSufficiencyInput
+    p005_result: P005PercentageSufficiencyResult
     state: NormalImpulsePartialEvaluationState
     unresolved_dependencies: tuple[NormalImpulseMethodologyDependency, ...]
     structural_invalidity_certificate: CertifiedStructuralInvalidity | None
@@ -329,6 +337,26 @@ class NormalImpulsePartialEvaluation(metaclass=_Sealed):
         if len(current) != len(self._snapshot) or any(a is not b for a, b in zip(current, self._snapshot, strict=True)):
             _fail("Normal Impulse evaluation changed after issuance.")
         self.hypothesis._validated()
+        if type(self.p005_input) is not P005PercentageSufficiencyInput or type(self.p005_result) is not P005PercentageSufficiencyResult:
+            _fail("Exact P005 sufficiency snapshot and result required.")
+        self.p005_result.validated()
+        if (
+            self.p005_result.input_snapshot is not self.p005_input
+            or self.p005_input.five_slot_view is not self.hypothesis.five_slot_view
+            or self.p005_input.observation_snapshot is not self.hypothesis.generated_candidate.source_observations
+            or self.p005_input.direction is not self.p004_fact.direction
+        ):
+            _fail("P005 snapshot lost its exact hypothesis ancestry.")
+        for index, role in enumerate(self.hypothesis.role_bindings[::2]):
+            pair = self.p005_input.endpoint_pairs[index]
+            if (
+                pair.subject is not role.child_subject
+                or pair.proposed_start.price is not role.start_boundary.observed_price
+                or pair.proposed_end.price is not role.end_boundary.observed_price
+                or self.p005_input.endpoint_identity_refs[2 * index] is not role.start_boundary
+                or self.p005_input.endpoint_identity_refs[2 * index + 1] is not role.end_boundary
+            ):
+                _fail("P005 exact role endpoint binding changed.")
         if type(self.p004_fact) is not ManualP004Wave2OriginFact:
             _fail("Evaluation requires the exact existing P004 fact type.")
         if type(self.bounded_request) is not BoundedManualChartAnalysisRequest or type(self.bounded_result) is not BoundedManualChartAnalysisResult:
@@ -483,7 +511,7 @@ def evaluate_normal_impulse_partial_scope(
     request: NormalImpulsePartialEvaluationRequest,
     methodology_kernel: MethodologyKernel,
 ) -> NormalImpulsePartialEvaluationResult:
-    """Fan out exact five-segment candidates and delegate only existing P004."""
+    """Delegate P004 and separately bounded nonfatal P005 sufficiency."""
     if type(request) is not NormalImpulsePartialEvaluationRequest:
         _fail("Evaluator requires one exact Normal Impulse request.")
     request._validated()
@@ -590,6 +618,23 @@ def evaluate_normal_impulse_partial_scope(
         if len(trace) != 1 or type(trace[0].result_object) is not P004Result:
             _fail("Existing bounded methodology did not return one exact P004 result.")
         p004_result = trace[0].result_object
+        endpoint_pairs = tuple(SubjectBoundObservedPriceEndpointPair(
+            SubjectBoundObservedPriceObservation(role.child_subject, role.start_boundary.observed_price,
+                                                 f"{role.start_boundary.pivot_id}:proposed-start"),
+            SubjectBoundObservedPriceObservation(role.child_subject, role.end_boundary.observed_price,
+                                                 f"{role.end_boundary.pivot_id}:proposed-end"),
+        ) for role in roles[::2])
+        endpoints = tuple(pivot for role in roles[::2] for pivot in (role.start_boundary, role.end_boundary))
+        eligibility = tuple(
+            True if pivot.state is GeometricPivotState.CONFIRMED_BY_GEOMETRY
+            else False if pivot.state is GeometricPivotState.DEVELOPING else None
+            for pivot in endpoints
+        )
+        p005_input = P005PercentageSufficiencyInput(
+            view, direction, endpoint_pairs, candidate.source_observations,
+            eligibility, hypothesis.provenance_refs, endpoints,
+        )
+        p005_result = methodology_kernel.evaluate_p005_percentage_sufficiency(p005_input)
         certificate = (
             certify_structural_invalidity(p004_result)
             if p004_result.status is RuleCheckStatus.RULE_VIOLATED
@@ -601,11 +646,13 @@ def evaluate_normal_impulse_partial_scope(
             "bounded_request": bounded_request,
             "bounded_result": bounded_result,
             "p004_result": p004_result,
+            "p005_input": p005_input,
+            "p005_result": p005_result,
             "state": _state(p004_result.status),
             "unresolved_dependencies": tuple(NormalImpulseMethodologyDependency),
             "structural_invalidity_certificate": certificate,
             "provenance_refs": hypothesis.provenance_refs + p004_result.protected_sources + (
-                "P005:UNCHANGED_FROZEN_UNRESOLVED",
+                "P005:PERCENTAGE_SUFFICIENCY_ONLY_FULL_VALIDATION_UNRESOLVED",
                 "P006:UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
                 SOURCE_DERIVED_BASE_CASE_NOT_FOUND,
             ),
@@ -631,7 +678,7 @@ def evaluate_normal_impulse_partial_scope(
         "p004_certificates": tuple(item.structural_invalidity_certificate for item in evaluations_t if item.structural_invalidity_certificate is not None),
         "diagnostics": (
             "FIVE_SEGMENTS_IS_NOT_NORMAL_IMPULSE",
-            "P004_ONLY_PARTIAL_EXECUTABLE_SCOPE",
+            "P004_AND_P005_PERCENTAGE_SUFFICIENCY_PARTIAL_EXECUTABLE_SCOPE",
             "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
             "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
             "MOTIVE_FIVE_REQUIREMENT_NOT_SATISFIED",
