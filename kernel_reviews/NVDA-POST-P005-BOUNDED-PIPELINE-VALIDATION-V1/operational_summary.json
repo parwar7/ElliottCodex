@@ -1,0 +1,139 @@
+{
+  "classification": "OPERATIONAL_EXPERIMENT_NOT_ELLIOTT_ANALYSIS",
+  "scopes": [
+    {
+      "parent_timeframe": "1mo",
+      "finer_timeframe": "1wk",
+      "neutral_parent_candidates": 4,
+      "parent_family_hypotheses": 8,
+      "neutral_child_candidates": 52,
+      "child_family_hypotheses": 36,
+      "internal_requirements": 28,
+      "coverage_counts": {
+        "FULL_WINDOW_COVERAGE": 28
+      },
+      "requirements_with_partial_normal_impulse_execution": 5,
+      "motive_five_requirements": 9,
+      "requirements_satisfied": 0,
+      "caps_exhausted": false,
+      "parent": {
+        "hypotheses": 1,
+        "p004_satisfied": 0,
+        "p004_violated": 1,
+        "p004_unresolved": 0,
+        "p005_sufficiency_established": 0,
+        "p005_unresolved": 1,
+        "unresolved_reasons": {
+          "DEVELOPING_REQUIRED_ENDPOINT": 1
+        },
+        "p004_invalid_despite_p005_sufficiency": 0
+      },
+      "child": {
+        "hypotheses": 5,
+        "p004_satisfied": 2,
+        "p004_violated": 3,
+        "p004_unresolved": 0,
+        "p005_sufficiency_established": 3,
+        "p005_unresolved": 2,
+        "unresolved_reasons": {
+          "DEVELOPING_REQUIRED_ENDPOINT": 2
+        },
+        "p004_invalid_despite_p005_sufficiency": 3
+      }
+    },
+    {
+      "parent_timeframe": "1wk",
+      "finer_timeframe": "1d",
+      "neutral_parent_candidates": 4,
+      "parent_family_hypotheses": 8,
+      "neutral_child_candidates": 28,
+      "child_family_hypotheses": 28,
+      "internal_requirements": 28,
+      "coverage_counts": {
+        "FULL_WINDOW_COVERAGE": 24,
+        "PARTIAL_WINDOW_COVERAGE": 4
+      },
+      "requirements_with_partial_normal_impulse_execution": 0,
+      "motive_five_requirements": 9,
+      "requirements_satisfied": 0,
+      "caps_exhausted": false,
+      "parent": {
+        "hypotheses": 1,
+        "p004_satisfied": 1,
+        "p004_violated": 0,
+        "p004_unresolved": 0,
+        "p005_sufficiency_established": 0,
+        "p005_unresolved": 1,
+        "unresolved_reasons": {
+          "DEVELOPING_REQUIRED_ENDPOINT": 1
+        },
+        "p004_invalid_despite_p005_sufficiency": 0
+      },
+      "child": {
+        "hypotheses": 0,
+        "p004_satisfied": 0,
+        "p004_violated": 0,
+        "p004_unresolved": 0,
+        "p005_sufficiency_established": 0,
+        "p005_unresolved": 0,
+        "unresolved_reasons": {},
+        "p004_invalid_despite_p005_sufficiency": 0
+      }
+    },
+    {
+      "parent_timeframe": "1d",
+      "finer_timeframe": "1h",
+      "neutral_parent_candidates": 4,
+      "parent_family_hypotheses": 8,
+      "neutral_child_candidates": 112,
+      "child_family_hypotheses": 89,
+      "internal_requirements": 28,
+      "coverage_counts": {
+        "FULL_WINDOW_COVERAGE": 28
+      },
+      "requirements_with_partial_normal_impulse_execution": 9,
+      "motive_five_requirements": 9,
+      "requirements_satisfied": 0,
+      "caps_exhausted": false,
+      "parent": {
+        "hypotheses": 1,
+        "p004_satisfied": 0,
+        "p004_violated": 1,
+        "p004_unresolved": 0,
+        "p005_sufficiency_established": 0,
+        "p005_unresolved": 1,
+        "unresolved_reasons": {
+          "DEVELOPING_REQUIRED_ENDPOINT": 1
+        },
+        "p004_invalid_despite_p005_sufficiency": 0
+      },
+      "child": {
+        "hypotheses": 9,
+        "p004_satisfied": 7,
+        "p004_violated": 2,
+        "p004_unresolved": 0,
+        "p005_sufficiency_established": 0,
+        "p005_unresolved": 9,
+        "unresolved_reasons": {
+          "DEVELOPING_REQUIRED_ENDPOINT": 5,
+          "ZERO_OR_OPPOSING_ROLE_MOVEMENT": 4
+        },
+        "p004_invalid_despite_p005_sufficiency": 0
+      }
+    }
+  ],
+  "units": "Distinct hypothesis objects per explicit parent requirement, not independent price episodes",
+  "shared_endpoint_sequences": {
+    "monthly_parent": 1,
+    "monthly_child": 2,
+    "weekly_parent": 1,
+    "weekly_child": 0,
+    "daily_parent": 1,
+    "daily_child": 5
+  },
+  "three_sufficiency_hypotheses_share_one_endpoint_sequence": true,
+  "requirements_satisfied": 0,
+  "validated_families": 0,
+  "ranking": "NONE",
+  "forecasts": "NONE"
+}

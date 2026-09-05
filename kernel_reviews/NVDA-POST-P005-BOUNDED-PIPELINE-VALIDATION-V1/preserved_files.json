@@ -1,0 +1,2856 @@
+{
+  "approved_base": "d16e0e5049206fd76a8753f8f2754c8ba3cd3246",
+  "count": 570,
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "byte_length": 147,
+      "sha256": "f63934bc35fc18f8534f4fa78e2620eceb9a33ad126110b6a1a51d98ad46ea96"
+    },
+    {
+      "path": ".gitignore",
+      "byte_length": 71,
+      "sha256": "f46fa514d94be87fecc28d33f57d1a27eac66bb8f605d1d33b5c619bebfc6586"
+    },
+    {
+      "path": "AGENTS.md",
+      "byte_length": 1228,
+      "sha256": "9f5353dcf028fbacd88b7243f598361b8de6b872820f0bcf42690305cfe969e1"
+    },
+    {
+      "path": "config/runtime.example.json",
+      "byte_length": 120,
+      "sha256": "c4051c249f86e6e657a6f29c37821256a8fa993281a08c6fbea81b154010e434"
+    },
+    {
+      "path": "examples/explicit_pivot_candidate/README.md",
+      "byte_length": 1044,
+      "sha256": "fdb09c9354c8885f58be4fa77c59c9c617f018f6df7e9bba3b8e84d1c0cf08db"
+    },
+    {
+      "path": "examples/explicit_pivot_candidate/grouped_p004_zigzag.json",
+      "byte_length": 2356,
+      "sha256": "7df0047834f721933dbc536d9091dbc16f68a480b823282883bebe2ddcd83775"
+    },
+    {
+      "path": "examples/explicit_pivot_candidate/pivots_only_no_inference.json",
+      "byte_length": 884,
+      "sha256": "0649d48178afdd15f9895129bd9090d02164bb5ab30e5246d10d22b886444f4e"
+    },
+    {
+      "path": "examples/manual_candidate/README.md",
+      "byte_length": 985,
+      "sha256": "23f5dd46af8c7dead38a82e3657e54d1f9c7ad8085a144742c771438f53839ec"
+    },
+    {
+      "path": "examples/manual_candidate/cardinality_unresolved.json",
+      "byte_length": 785,
+      "sha256": "b328a9754521971e1aa8c8e1284bf2252aa2c1e55b62c68d2efc00d6e35929ac"
+    },
+    {
+      "path": "examples/manual_candidate/p004_reviewed.json",
+      "byte_length": 571,
+      "sha256": "d80adf519014b68b8e55ff469f889624dbf8d1d10b14c7e11d047798cda765d8"
+    },
+    {
+      "path": "kernel_reviews/.gitkeep",
+      "byte_length": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/AUTOMATIC_CANDIDATE_GENERATION_RESEARCH_AND_BOUNDARY_manifest.json",
+      "byte_length": 7643,
+      "sha256": "27706b62ed95ec5b126220df9a6c958b38662b5217d45c484902a7979bc0cd7e"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/BASELINE_README.md",
+      "byte_length": 2309,
+      "sha256": "9cedb30dc17bc96a9f6e26345d61265d3a0afcf8be89ef29db32a5305548a0a6"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/candidate_hypothesis_semantics.json",
+      "byte_length": 891,
+      "sha256": "1e74d3c85baa0f2a6f84d0deca49b3f9d53ecc645c9f3e6f6fe087dc93826db0"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/combinatorial_bounds.json",
+      "byte_length": 884,
+      "sha256": "3b27bbf19a5e716ea5365397cb4a3ff59fd2cc90e3ee67f0fe49bbe894f1602f"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/existing_validator_delegation.json",
+      "byte_length": 912,
+      "sha256": "3f08681fedd066dee002b06bb5a48795b966aab1ce4784bc496c74070ecec543"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/generation_authority_classification.json",
+      "byte_length": 2141,
+      "sha256": "6a149e07828558a26ca458d77fd6cb7e9fc75f73e1b9e4be6d4e0b734ca31dd3"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/implementation_gate.json",
+      "byte_length": 601,
+      "sha256": "f383e8ad55c2ef156dea6d42e4b6729d3755435559a45e673197510a7cf1b8b9"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/known_limitations.json",
+      "byte_length": 1273,
+      "sha256": "8f725311e5469f139d936f8e3bb08b685aef2ba2361d40ab73deb76f4ceaca2d"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/nvda_experiment.json",
+      "byte_length": 2729,
+      "sha256": "a282d5c20440947e13e1d17c5aabbc97fb93c0915c1424d8d120439d6aa5bbb9"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/pivot_selection_authority.json",
+      "byte_length": 738,
+      "sha256": "b876daf5b8d16cf95c834d85e606603913f994adc460eb6b4172e1663d7c5ceb"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/prior_baseline_delta.json",
+      "byte_length": 815,
+      "sha256": "94c33050529afd655674d67d2d4b06fd52e0f69f0e3aaa1392247682ef941b53"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/source_findings.json",
+      "byte_length": 4121,
+      "sha256": "ee569434f431325f10672cbb2af62715dae9673d9a43d77fba3e51e72a941597"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/test_results.json",
+      "byte_length": 1360,
+      "sha256": "827c4fb9e2b25a85feaf423d18923fbcd4931f1dafad457711f94cae3db9d68a"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/AUTOMATIC_PIVOT_DISCOVERY_RESEARCH_AND_BOUNDARY_manifest.json",
+      "byte_length": 6424,
+      "sha256": "0b276bfb25614a95321d93a9717ecfd4444cd79c67d72223841124de2e36aeb0"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/BASELINE_README.md",
+      "byte_length": 2417,
+      "sha256": "a3ea2de97939af2a7e04926fdb843a41eff9e476cf78ee79ed8a315e4e5d32cb"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/algorithm_comparison.json",
+      "byte_length": 4653,
+      "sha256": "ed339af13be5d696f33b396539494e831ec6c1110ced3de3aac5f20498bf4fb9"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/boundary_decision.json",
+      "byte_length": 1450,
+      "sha256": "61364668e51d92df811291e9cef40f55c05c9d2ff694f7490cf94c46d784707d"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/geometry_methodology_classification.json",
+      "byte_length": 3152,
+      "sha256": "0231dfe26a5b70ec293f5bb6db141db0b2723e91c70bec5bb9e1722c8d4379ad"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/known_limitations.json",
+      "byte_length": 1502,
+      "sha256": "35d70fe6addd07bb2db2584e650b97d3c2db330bd0e9841cb0aa41bbdf7741f6"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/nvda_geometry_experiment.json",
+      "byte_length": 2422,
+      "sha256": "16e80fce773b01d7ba98210ca1b4da82b8f21978ed5f33068fc7b155871b0ade"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/parameter_authority.json",
+      "byte_length": 1172,
+      "sha256": "0c979be345c52d0ecec0ef7370c9c76696368a335c58f9331b66727c52df9f27"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/prior_baseline_delta.json",
+      "byte_length": 751,
+      "sha256": "49c03b154a367c54219f3c1434f8019aab55997d426b031a9a9b599e5f30db78"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/source_findings.json",
+      "byte_length": 3300,
+      "sha256": "26cd3c4ca2e10629da4e04f6d5d6c42e01032968a37a341b28a08bcaabbb6bcb"
+    },
+    {
+      "path": "kernel_reviews/AUTOMATIC-PIVOT-DISCOVERY-RESEARCH-AND-BOUNDARY-V1/test_results.json",
+      "byte_length": 971,
+      "sha256": "56e068a8ba65dbcf07ae3dbc8c873e41ffc6fae17cb1a268544e89302631f033"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1/BASELINE_README.md",
+      "byte_length": 2757,
+      "sha256": "8dbe61dd34787f022e40278c30bc2ea0dc8b957c2da0c0a2dd7e884e9f3de846"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1/BOUNDED_RECURSIVE_ANALYSIS_RESOLUTION_CONTRACT_manifest.json",
+      "byte_length": 7119,
+      "sha256": "895d98a67ad9056fd70d323517ea5c6cfee5cda706df8c66eec0e911f6d818da"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1/known_limitations.json",
+      "byte_length": 1494,
+      "sha256": "1f921b45be6b34aeb535ae6d8095d474b3f9303a70cb8d7d4dd9f12db1406797"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1/prior_baseline_delta.json",
+      "byte_length": 852,
+      "sha256": "5cbca229b0c7fc8299e5b16d9e17f01131bad6d1541a00381ac669ef984d0c5e"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1/source_trace.json",
+      "byte_length": 1258,
+      "sha256": "b6ddbabf7901637ab02b0505b422c7d355339296b4be20fcbe937626a3d1082a"
+    },
+    {
+      "path": "kernel_reviews/BOUNDED-RECURSIVE-ANALYSIS-RESOLUTION-CONTRACT-V1/test_results.json",
+      "byte_length": 1345,
+      "sha256": "8a50b660da9fe135d7d795ff8fb906b0c61191fb22a6b4d3e82cf52070343056"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/BASELINE_README.md",
+      "byte_length": 2778,
+      "sha256": "4b455b9f01f4ed67b10c6acbb148dbb060e4a45c63cb926ee6de1eca2254918c"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/CANDIDATE_ANALYSIS_ENVELOPE_CONTRACT_manifest.json",
+      "byte_length": 9244,
+      "sha256": "d40d35074b67e7b592588f886765c075af0ec5cbea32f8247c4b53d87fbd6554"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/known_limitations.json",
+      "byte_length": 1701,
+      "sha256": "026f8d5e48bd346341a6d5e3fb239cd97cae50e55c0d9ea02a44b095afd201d9"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/prior_baseline_delta.json",
+      "byte_length": 1087,
+      "sha256": "b9f03e8ebde5c77c2732301ee22992b900150515c010056781e089edce5e50a3"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/source_trace.json",
+      "byte_length": 921,
+      "sha256": "241fb4556fe4efd3295c5b14a03a921e2013c1e8d2a01a7b1c7885c54da4030e"
+    },
+    {
+      "path": "kernel_reviews/CANDIDATE-ANALYSIS-ENVELOPE-CONTRACT-V1/test_results.json",
+      "byte_length": 1359,
+      "sha256": "fac955898ae665c2990d87b9d930243d9d6260eb1dbe39f4f3bff6d283204a6f"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/BASELINE_README.md",
+      "byte_length": 962,
+      "sha256": "fe75c0de1b136fb8be668045efc1a63d1ce02226cb8ece7107e9950ff4b80f57"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/COMPETING_CANDIDATE_SET_CONTAINER_manifest.json",
+      "byte_length": 2985,
+      "sha256": "c70233f206c09cbdb62272275e295cad291182ba9c749fb6717f361cbbea90fe"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/adversarial_audit.json",
+      "byte_length": 684,
+      "sha256": "12c150b343a212d0577a82ef379342b8f694603d5c2df826e1c7c05c70d93343"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/contract_surface.json",
+      "byte_length": 525,
+      "sha256": "b0f12b43b5890b7ad0888543e78c243f8af659b0ad56ed854cd084af0f37b65a"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/known_limitations.json",
+      "byte_length": 648,
+      "sha256": "051606b528919dee23ca1a162353d44503752e0d2b5606082132a50e51a2e891"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/nvda_experiment.json",
+      "byte_length": 1681,
+      "sha256": "7fe72722231be2b8830678252c297a4ecd270edafd74556207ad3dce07efc944"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/prior_baseline_delta.json",
+      "byte_length": 599,
+      "sha256": "e5517c263836e16302d637f4979c3fd018932c52ff5ee13fee5accd2d0dfc3b2"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/provenance_immutability.json",
+      "byte_length": 585,
+      "sha256": "7a10dca9027a161d6fb34c88abf7f400a77f96bf4d07ce0755a034a86a1c5a1a"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/scope_identity_ordering.json",
+      "byte_length": 579,
+      "sha256": "d68f75e6993d6c401fb8d9c310837a2e8e57000a42abf180c4c683495232ff17"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/state_active_policy.json",
+      "byte_length": 526,
+      "sha256": "a8274d7ba1b9edf834e3f05df8376d50d5d3eaf44c025c66b91cca7d6cb8df1d"
+    },
+    {
+      "path": "kernel_reviews/COMPETING-CANDIDATE-SET-CONTAINER-V1/test_results.json",
+      "byte_length": 666,
+      "sha256": "a8c1907ca5916b1966d246207cac6131b92cd36be67140c0508edf14d79afd60"
+    },
+    {
+      "path": "kernel_reviews/DEGREE-PEER-V1/BASELINE_README.md",
+      "byte_length": 866,
+      "sha256": "9bdfd2405a49ccf918c92a461c376a675258683f1d3afe83b1f1660450027e43"
+    },
+    {
+      "path": "kernel_reviews/DEGREE-PEER-V1/DEGREE_PEER_manifest.json",
+      "byte_length": 3073,
+      "sha256": "54294ecdcc32c90b66ff28d8d4dce51cb1dd1e8dfc52434b402f71baf16275c6"
+    },
+    {
+      "path": "kernel_reviews/DEGREE-PEER-V1/known_limitations.json",
+      "byte_length": 935,
+      "sha256": "65e5c537a942b010bbbe3b1f6578dfc7ed54526e1a3577e1311afa1ace6b89c6"
+    },
+    {
+      "path": "kernel_reviews/DEGREE-PEER-V1/prior_baseline_delta.json",
+      "byte_length": 2083,
+      "sha256": "e8ed9970d2709842eb6ac17f4b4a34ca251ce84e368e1b042d5aa6d25db39806"
+    },
+    {
+      "path": "kernel_reviews/DEGREE-PEER-V1/source_trace.json",
+      "byte_length": 743,
+      "sha256": "187c5cee317956d13d4a65cf78be5e389dd7407205b0dfabaed852b4ecdea126"
+    },
+    {
+      "path": "kernel_reviews/DEGREE-PEER-V1/test_results.json",
+      "byte_length": 1106,
+      "sha256": "e40429b637efeff5dd5e7231176031ec57ae52d3a5a9e6a248867a86aa0a2c89"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/BASELINE_README.md",
+      "byte_length": 1005,
+      "sha256": "e89849affa5696d7270ce03e3c342ee471e6f50740212e4d08a13694298aa331"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/ELLIOTT_FAMILY_HYPOTHESIS_BRIDGE_RESEARCH_AND_BOUNDARY_manifest.json",
+      "byte_length": 3763,
+      "sha256": "2f2cf6fdcdb248360a3bd3ff6a75a7935be2dcb6c8f985c7aee6e8b348ede998"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/adversarial_audit.json",
+      "byte_length": 682,
+      "sha256": "e4561b9f5cf6ed91ea46f5123bb3e69d43b436c8c0a3278da827126759c52ab6"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/authority_classification.json",
+      "byte_length": 992,
+      "sha256": "9ce8e482e5b6a5e08b41ba65d8a99216986bb4f435fa8c0eca85af6a8ad93783"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/bridge_contract.json",
+      "byte_length": 805,
+      "sha256": "410a37fe753903f57dc432a7c8c072f9933401508fffd47d7c8edc0e139d41c8"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/current_family_executable_authority.json",
+      "byte_length": 1067,
+      "sha256": "b00bfeb493eafafc7ec0486a62654480e8776aca0b1636c3b9a9f1ac84d622e3"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/fanout_child_label_decisions.json",
+      "byte_length": 723,
+      "sha256": "027eeb08096f2a30637fe5dea9728b2d210a73256708055bafb9baa09ccfbc0b"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/known_limitations_and_next_stage.json",
+      "byte_length": 707,
+      "sha256": "1ff10fbdeda30a6cf676c9b86c3e0e9b1f6c80795d74a3a0d419c99f1f7fa006"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/nvda_experiment.json",
+      "byte_length": 1678,
+      "sha256": "00a0544e700d20d00549265f39dc4b5922893ed962cba52cca16dbad680e6bd4"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/prior_baseline_delta.json",
+      "byte_length": 650,
+      "sha256": "c77f70f4bd3ef9866dc0b030cb59c05660acb73480fc8fb297bcd2d0b9acf221"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/source_findings.json",
+      "byte_length": 4274,
+      "sha256": "5b50f41dcd6661117145c57ce2b853f16dc4760fc8d876b946744a6244f2e978"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/test_results.json",
+      "byte_length": 870,
+      "sha256": "1d13ed1d6e57ccfe6657c5012f3c7bdd00fc8f3084382e74d00946bc212a7be7"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/unavailable_family_blockers.json",
+      "byte_length": 905,
+      "sha256": "6ced6b321b5c8af8f31c352d3bdc96ad59bb4ef2809dc3e49342830067780f9b"
+    },
+    {
+      "path": "kernel_reviews/ELLIOTT-FAMILY-HYPOTHESIS-BRIDGE-RESEARCH-AND-BOUNDARY-V1/validator_delegation.json",
+      "byte_length": 590,
+      "sha256": "a3092682c9d54cab7a290fea68f099f597f79b3a0d658b13944a167a312e64e0"
+    },
+    {
+      "path": "kernel_reviews/ENDING-DIAGONAL-DIRECT-CHILD-CARDINALITY-V1/BASELINE_README.md",
+      "byte_length": 1516,
+      "sha256": "826ff8cfdbd5aba589d6720b662bc850c1f86f9b719f723675c8a762a26b1a84"
+    },
+    {
+      "path": "kernel_reviews/ENDING-DIAGONAL-DIRECT-CHILD-CARDINALITY-V1/ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY_manifest.json",
+      "byte_length": 9705,
+      "sha256": "1709948e9cc598eaeaff97f2005ed15afa1d1d1e91fc4de55569dd8e277d16a5"
+    },
+    {
+      "path": "kernel_reviews/ENDING-DIAGONAL-DIRECT-CHILD-CARDINALITY-V1/known_limitations.json",
+      "byte_length": 1665,
+      "sha256": "e98729649260cd21c0b0736ade7cb0f2e6665c9cee16bef32d196143e54a2a7a"
+    },
+    {
+      "path": "kernel_reviews/ENDING-DIAGONAL-DIRECT-CHILD-CARDINALITY-V1/prior_baseline_delta.json",
+      "byte_length": 1722,
+      "sha256": "f88509414a2b6f56a7e24164d8633bfd6f5009d1b47a6966878e74989ca67430"
+    },
+    {
+      "path": "kernel_reviews/ENDING-DIAGONAL-DIRECT-CHILD-CARDINALITY-V1/source_trace.json",
+      "byte_length": 1850,
+      "sha256": "9dddf5a6adb6a077693240031abb804cd912dc4308c88d3b16203dba796c85c8"
+    },
+    {
+      "path": "kernel_reviews/ENDING-DIAGONAL-DIRECT-CHILD-CARDINALITY-V1/test_results.json",
+      "byte_length": 1946,
+      "sha256": "57efcf6e05f136b55621e77489ba219af65324d8988e887e6ae1e7e3f7b86866"
+    },
+    {
+      "path": "kernel_reviews/ENDPOINT-PATH-EVIDENCE-CONTRACT-V1/BASELINE_README.md",
+      "byte_length": 1122,
+      "sha256": "13584b4b945be64e96e0ba776fdf6bbb4fe212c3ef426aab40a0f6b1337e08a7"
+    },
+    {
+      "path": "kernel_reviews/ENDPOINT-PATH-EVIDENCE-CONTRACT-V1/ENDPOINT_PATH_EVIDENCE_CONTRACT_manifest.json",
+      "byte_length": 2878,
+      "sha256": "919f702daee47704886517bfdd47cdb5850b4b6b00cd419a21aff002320ab8d7"
+    },
+    {
+      "path": "kernel_reviews/ENDPOINT-PATH-EVIDENCE-CONTRACT-V1/authority_and_semantics.json",
+      "byte_length": 1136,
+      "sha256": "008a6dfd116e54d547dc63e5ae36fc5a3cdcacc3587ecae40dcbaa306ea1a625"
+    },
+    {
+      "path": "kernel_reviews/ENDPOINT-PATH-EVIDENCE-CONTRACT-V1/implementation_and_integration.json",
+      "byte_length": 868,
+      "sha256": "4077369785e0af414b2bb090eb216bb67fc62384f733f1922adadaddff3e4f12"
+    },
+    {
+      "path": "kernel_reviews/ENDPOINT-PATH-EVIDENCE-CONTRACT-V1/known_limitations_and_next_stage.json",
+      "byte_length": 603,
+      "sha256": "18665e04325aa1ffab49e3a48801e9bc8d5f14483fe9744c66850a25c3508e90"
+    },
+    {
+      "path": "kernel_reviews/ENDPOINT-PATH-EVIDENCE-CONTRACT-V1/nvda_contract_experiment.json",
+      "byte_length": 810,
+      "sha256": "7dadc3dd9a715fe0986c3283f8b1ec048bdf93bfd8c7b724cd268df1acf6d777"
+    },
+    {
+      "path": "kernel_reviews/ENDPOINT-PATH-EVIDENCE-CONTRACT-V1/source_and_subtype_review.json",
+      "byte_length": 1768,
+      "sha256": "2dd08c1055bb27b2130c33258b66f2c155299fa5e68952d0899082e8db2c158f"
+    },
+    {
+      "path": "kernel_reviews/ENDPOINT-PATH-EVIDENCE-CONTRACT-V1/test_and_adversarial_audit.json",
+      "byte_length": 869,
+      "sha256": "13ea0e7071c48a68951ab3dbd42547586e03b6f01d1365fceee900e6f5a34fbd"
+    },
+    {
+      "path": "kernel_reviews/ENDPOINT-PATH-EVIDENCE-CONTRACT-V1/triangle_readiness.json",
+      "byte_length": 601,
+      "sha256": "28526e7dd12585fb9f5d08949883f3db240220c9fd6639dc2d5bf2af4fe36ff5"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/BASELINE_README.md",
+      "byte_length": 3064,
+      "sha256": "ebab5b2f9147a321a59fb5de933240f6d348fca2d6f68db56dd8f4454216d4b9"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/EXPLICIT_BEHAVIOR_INPUT_EXECUTION_ORCHESTRATION_manifest.json",
+      "byte_length": 10535,
+      "sha256": "48343922f1a35e7e08c854b080e3d9a34264177193b0b7713bd9ea6dfc8c588d"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/known_limitations.json",
+      "byte_length": 1474,
+      "sha256": "69867ce161184fd4ed940cb4992efa06042e318115881ec00cfe25ea6e6f75bd"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/prior_baseline_delta.json",
+      "byte_length": 1254,
+      "sha256": "611fa8c655fa267fa460f90b62fd851faaaf8dd8c1c2ac97f15330ddbec4c85e"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/source_trace.json",
+      "byte_length": 1085,
+      "sha256": "d9be639cf43fef473dcabef0612123e5fd6b80fb18cccd5e646e4fc2645e95ce"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-BEHAVIOR-INPUT-EXECUTION-ORCHESTRATION-V1/test_results.json",
+      "byte_length": 1561,
+      "sha256": "405ca0b3377143ea940c7f30f2ab68b9b247909817deabaa04054e6b18783dc9"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/BASELINE_README.md",
+      "byte_length": 1081,
+      "sha256": "682e2231481bd33532e1034bb7c751f9ebe0d34e98ab0f739c9a1cf4878412e5"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/EXPLICIT_FINER_TIMEFRAME_CHILD_OBSERVATION_SELECTION_RESEARCH_AND_BOUNDARY_manifest.json",
+      "byte_length": 4085,
+      "sha256": "324524d491981edb87cc8e47d31bd7112503d86ca6c2bfb6f9e453333859a5d3"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/adversarial_audit.json",
+      "byte_length": 670,
+      "sha256": "cf5d44793025e4fb142113050cd25b70f6d7afe1fd571157dd81b06c00278bc5"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/api_contract.json",
+      "byte_length": 743,
+      "sha256": "2d11c1c23aa39ec906fdd8be84b1dd6e135a518d9d9f4d2939fd526c9e660d0a"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/geometry_child_integration.json",
+      "byte_length": 622,
+      "sha256": "189cb87f81f4694b6fedad800bfa4cc508e99d3c8d2153377db1b72bd799e75b"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/implementation_gate.json",
+      "byte_length": 419,
+      "sha256": "d051adc9f6db72d5a38344d5a53c00395ecf8731d7b0460b38d0d0bbb6e82c89"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/known_limitations_and_next_stage.json",
+      "byte_length": 746,
+      "sha256": "52257853fe180a0e79b366653a26459fa5994fd592dd3cebb45796525130f325"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/nvda_experiment.json",
+      "byte_length": 3660,
+      "sha256": "cf21db4573e94b6fa35666963617188d6dd2d6b2df75897172e4655c45622260"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/observation_window_view.json",
+      "byte_length": 462,
+      "sha256": "c9094f72d7e5fbeb6b2bad7eeda6c9fce4061ebf129e6db840799d416f189f58"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/prior_baseline_delta.json",
+      "byte_length": 832,
+      "sha256": "9ac2c7b66ae7fa27ff23bfa7f424cfcf4acaf0ffb060088708432896ca5b1b85"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/resource_retention_policy.json",
+      "byte_length": 648,
+      "sha256": "19f4dd9bd1632fdda4cdb47f6314b4fb203ee2f1df34ff1afc4b2c7af08805c4"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/selection_authority.json",
+      "byte_length": 380,
+      "sha256": "48f5c79882756118628230a80b2faef402056f4169d6fd27312ac174fbcd75d8"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/symbol_resolution_coverage.json",
+      "byte_length": 963,
+      "sha256": "16a31ce95e952660a2f6750aac34e649f661882d9a53f798d846ccea5eaaa8ef"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/test_results.json",
+      "byte_length": 529,
+      "sha256": "daf4cb34786ac986eab0420ae73ba2911bc83e5a6ef1ba854b2fae7c3d9b41ad"
+    },
+    {
+      "path": "kernel_reviews/EXPLICIT-FINER-TIMEFRAME-CHILD-OBSERVATION-SELECTION-RESEARCH-AND-BOUNDARY-V1/timeframe_degree_p023.json",
+      "byte_length": 421,
+      "sha256": "5c1a4a8a7fc26143de3fc8ac0e0af0753a8077e77f7782b2361fac76d16e0be1"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/BASELINE_README.md",
+      "byte_length": 1217,
+      "sha256": "f214ab291f495ba01a5bbb6e274fa53f031cf9076726806b2e0a2ca4634728c8"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/FAMILY_INTERNAL_SUBDIVISION_EVALUATION_RESEARCH_AND_BOUNDARY_manifest.json",
+      "byte_length": 3621,
+      "sha256": "5e7d29eec61ade0d975b2dea2bbcdd17a7e3f8283c7f3d6f93b197ace3bfbd84"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/adversarial_audit.json",
+      "byte_length": 803,
+      "sha256": "139f9dfa06d9ef4a0ad1bef76c2def80fa252c3dda017cf80ec2c2a904e10f92"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/child_candidate_semantics.json",
+      "byte_length": 834,
+      "sha256": "4b2a57eda0c8d9264335347c88dff4e726846b8a35c0e0806f0b8fbf191c36d7"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/data_timeframe_p023.json",
+      "byte_length": 604,
+      "sha256": "7f82f3208afc9427b0b7f182b148b07e4111b6167975fa37b906247e4b30d2ce"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/family_requirement_matrix.json",
+      "byte_length": 878,
+      "sha256": "778f91166fa98440fa2272165e637be2972dd9baf5e86f462e0c109b85d11cc4"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/implementation_gate_api.json",
+      "byte_length": 1025,
+      "sha256": "059e91dcaa6db0755f447995e81379aad6d98fda9205afc38f8e47b31574ea53"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/known_limitations_and_next_stage.json",
+      "byte_length": 946,
+      "sha256": "f2b58b1e5a23945547f593e391b42ae3d73bf7d4a5f990f281a3f4dd24db7b53"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/nvda_experiment.json",
+      "byte_length": 2671,
+      "sha256": "f5ddc31365bd035ea8ac89e9ba87650ee4ed3e2dd8f8f8d27715e62b06114208"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/prior_baseline_delta.json",
+      "byte_length": 731,
+      "sha256": "1392ca0d6596fbb7a348e22614f49a1acbfa5320465622f67056ef245af0cad6"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/protected_source_findings.json",
+      "byte_length": 3212,
+      "sha256": "88914f855f56c4a675c105cc3d9ed43913826d0fa52e0e53a9453539af2a6a61"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/recursive_base_case_blocker.json",
+      "byte_length": 817,
+      "sha256": "3b77433e8f8fb807c937b0268f41ddb3947871569dba68d8f807652c129aabdc"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/requirement_authority.json",
+      "byte_length": 550,
+      "sha256": "227dd21a270f6f0c12fc200cbef2be9a63f7508e39eace8abd04a5c3d868d896"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-INTERNAL-SUBDIVISION-EVALUATION-RESEARCH-AND-BOUNDARY-V1/test_results.json",
+      "byte_length": 902,
+      "sha256": "58ebe4acc7c1d9f4a90841ddf988a8cf17672f467d559016339936d31ecf9205"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/BASELINE_README.md",
+      "byte_length": 1367,
+      "sha256": "c8c51bc8bdb07e8d9ff5f34534a9ab42c708792c660c27cbbcfb98fb97efd729"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/FAMILY_SPECIFIC_GEOMETRY_EVALUATION_RESEARCH_AND_BOUNDARY_manifest.json",
+      "byte_length": 3706,
+      "sha256": "f940345405f7d88503352b38543d7d0921e69fa166793435206a5eb2287b55d9"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/adversarial_audit.json",
+      "byte_length": 581,
+      "sha256": "8651defaca3c82d8f6f71be668e21fbb97bac251e1c74878903455d10419f8bc"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/direction_equality_semantics.json",
+      "byte_length": 737,
+      "sha256": "9c0eeead12633094b6a7df7da880846d9033214a8ac83badbb3cd80fdd6788b2"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/endpoint_path_authority.json",
+      "byte_length": 1293,
+      "sha256": "baaa3e87dedd4750fcfcd8ec84a8d4a782b9c7a475ba21c962c6904b6d3e8d95"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/geometry_authority_matrix.json",
+      "byte_length": 1889,
+      "sha256": "92f92410f9f4657fba2d7cc63b36012098b4985370124c536e1daed2084bafe6"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/implementation_gate.json",
+      "byte_length": 688,
+      "sha256": "85e3db4a4686a4747c993c770987368b8fe78c06e76f78af6e6b30dee67a6955"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/known_limitations_and_next_stage.json",
+      "byte_length": 899,
+      "sha256": "654be2d71f9bc441cd2585188bff9b4b8e06d7940364acaa2bd23eb9a17ab2e0"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/nvda_experiment.json",
+      "byte_length": 885,
+      "sha256": "9799872fef418620ae07ab100597d41a7520bfe3312d781768426b80811c5485"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/parent_child_integration_assessment.json",
+      "byte_length": 729,
+      "sha256": "fac2cf947f0b9a3e5bff5d4bd8e018830d9b7d42137e8bb3a245bfced816fa6c"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/prior_baseline_delta.json",
+      "byte_length": 567,
+      "sha256": "97c3684276d5a6224c6635f6bc42812d823491f451a25bac2c1c4c048fe03fe5"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/protected_source_findings.json",
+      "byte_length": 3170,
+      "sha256": "23ab8851dd7e9a5c682651ff83bfa6b49987e68c9ae0c051d600b431ebeefcb2"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-SPECIFIC-GEOMETRY-EVALUATION-RESEARCH-AND-BOUNDARY-V1/test_results.json",
+      "byte_length": 572,
+      "sha256": "688a4ae70ef4a9d0df9eef017541d04c2c1acd9b081bc150f5d8d848c9444b73"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1/README.md",
+      "byte_length": 1849,
+      "sha256": "7a24b69db307207fc732ec99b6ee2b1f1c43c2c8f69b9273191d9a97ec7661e7"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1/REVIEW_manifest.json",
+      "byte_length": 7967,
+      "sha256": "b553de2a78a9ffb29f7460c598350d1fa78e0671a86c000f85f066a75eaa7413"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1/blocker_dependency_graph.json",
+      "byte_length": 6297,
+      "sha256": "f2cfa5278ea2cdc88d4744db3de0d9bd35349f439d45c5303dbdeedd58017f67"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1/blocker_priority_decision.json",
+      "byte_length": 1915,
+      "sha256": "ec1c8951af13ea8e423ffe293db599f033eeb07ea288d600a0fde6931de28689"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1/downstream_unlock_map.json",
+      "byte_length": 1620,
+      "sha256": "51cedf6be5bffbd87ac5fc6876a2fe06d791dfd1eb07eca7c6c34975b42bd2f1"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1/existing_authority_search.json",
+      "byte_length": 2264,
+      "sha256": "f32d55b9194ea479fd90fdc9decb27a5d1549ae28664a6bace07cd2f1d6f1354"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1/frost_prechter_availability.json",
+      "byte_length": 778,
+      "sha256": "0ac24243e869377ed44107110aec678ab3d6f173f37f9db186d8040a49730f90"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1/source_authority_requirement.json",
+      "byte_length": 5409,
+      "sha256": "f22c776808f9900b37f40549fca6b3a124e7d4d7abd2ea3c1242d6a7f8ca2f1b"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-BLOCKER-SOURCE-AUTHORITY-GAP-SPECIFICATION-V1/user_action_required.json",
+      "byte_length": 1331,
+      "sha256": "36f8e1b02ebe8db25031f01097f883d4cce9f9dace692952995183b61f74f21a"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/PROPOSAL_manifest.json",
+      "byte_length": 8247,
+      "sha256": "7f7d2c194fbfc32c11d0f4339af4dd785aa77e5885aadffdf4c63e47ddcca523"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/README.md",
+      "byte_length": 1801,
+      "sha256": "b08bf95b69125d49b4d589077fd525cafbf73292f4a191ab51a4c21ec5cc91b0"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/completion_semantics.json",
+      "byte_length": 2594,
+      "sha256": "ebbf9be6c625bcfecda9ca259d87f46491ce7b4d0184c7e952dccf45ec66ec05"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/family_unlock_analysis.json",
+      "byte_length": 1390,
+      "sha256": "6fd5abac69b9fa8b4f945f6e3ded0a7cdba6972e23aa14faeb8f2966198d9363"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/project_policy_path.json",
+      "byte_length": 2598,
+      "sha256": "ea2f4682c4975268d6481cd26388fdb3736e956ee9d40cc19c6644fc82f1c8a4"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/proposed_brain_diff.md",
+      "byte_length": 3039,
+      "sha256": "fc647063ac4a48d521b8cc9b7b925f6ea7cc8f0dc98fbf8ac62cbb4fba1c70a9"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/recursion_graph.json",
+      "byte_length": 2971,
+      "sha256": "bcd8176075947797baeb6bb307d674cfed6a19dce221f61be37a0124b5359372"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/risk_register.json",
+      "byte_length": 2270,
+      "sha256": "42ca57b90b8dacc65197f49589a50cb9a27a1aea9c130af2968a072955976139"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/source_derived_path.json",
+      "byte_length": 1870,
+      "sha256": "c88f458c9a6af068e13b0ab06dfcdb0a6c48f2d3e0e586b85887fd237077bdd5"
+    },
+    {
+      "path": "kernel_reviews/FAMILY-VALIDATION-TERMINAL-BASE-CASE-PROTECTED-SEMANTICS-AMENDMENT-PROPOSAL-V1/source_trace.json",
+      "byte_length": 5033,
+      "sha256": "70db67abbf660a57e8c1f541aec1676281d210d69a4876fd1938b7103d0e187b"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/BASELINE_README.md",
+      "byte_length": 2965,
+      "sha256": "4eba3fa4ddad1f6d19870cbf0d617ba9f75a5c5a28ca63022fb5aa0afd40c0fb"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/FIRST_BOUNDED_MANUAL_CHART_ANALYSIS_MVP_manifest.json",
+      "byte_length": 9602,
+      "sha256": "7956b0393396e42b20e20a319dc608b04de8532ef5ac9338250301b7dcbce1d4"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/known_limitations.json",
+      "byte_length": 1446,
+      "sha256": "7aa5b09ee18ad79b5f61ada54f7e8af27f27b0a0b63a0024389686d4a4c2c829"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/prior_baseline_delta.json",
+      "byte_length": 1314,
+      "sha256": "fb8748ca51b88102fd345340bc014ade7f651ab3e3d06721df8862332fe8ccb1"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/source_trace.json",
+      "byte_length": 979,
+      "sha256": "49975c0a4423b119e28d81237869ae23b7fab35329da3699d4cb621e59850711"
+    },
+    {
+      "path": "kernel_reviews/FIRST-BOUNDED-MANUAL-CHART-ANALYSIS-MVP-V1/test_results.json",
+      "byte_length": 1524,
+      "sha256": "b48fd5c25bdf252faa22209147e42644fb71824fe54ffc07158a3db714a89efd"
+    },
+    {
+      "path": "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/README.md",
+      "byte_length": 2196,
+      "sha256": "0e4f3049e1a00af25d276e40b0dcbfa56b67fc8b6f2be217b84c0d9e0f34496e"
+    },
+    {
+      "path": "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/REVIEW_manifest.json",
+      "byte_length": 7006,
+      "sha256": "2d184d36c11d8f7af0dff5d375c261b929ff6b04403a0debaa77be51788d74c1"
+    },
+    {
+      "path": "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/dependency_resolution.json",
+      "byte_length": 4205,
+      "sha256": "79e997000f66e21342b604ffaee1aaf70e3d830960a49fbf065786cd003802bd"
+    },
+    {
+      "path": "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/family_candidate_matrix.json",
+      "byte_length": 10434,
+      "sha256": "c0e1e4b3fd2f05000704c1d15466ebca3be6ed35beaf61a7eec6e694c4c94e99"
+    },
+    {
+      "path": "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/prospective_implementation_design.json",
+      "byte_length": 1979,
+      "sha256": "771c0092cf7f18bec91c42451696967f54bf9733784cf531630537058f7410bb"
+    },
+    {
+      "path": "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/semantic_decision.json",
+      "byte_length": 2866,
+      "sha256": "7860ea0ee7d420c01b4471cc1f36b803ded6b0e5ccc319d53d72341e58647938"
+    },
+    {
+      "path": "kernel_reviews/FIRST-VALIDATED-INTERNAL-FAMILY-PRODUCER-SOURCE-SEMANTICS-REVIEW-V1/source_trace.json",
+      "byte_length": 6016,
+      "sha256": "aa01f93e723c02d7eca82140597737a58e3f2f075ab1b359c1de423772428bf0"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-HYPOTHESIS-AND-GEOMETRY-BOUNDARY-V1/BASELINE_README.md",
+      "byte_length": 708,
+      "sha256": "7834e51364cc8e47561c272aaf2e8d95978550434c413dfb8d8e91020d5f0f71"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-HYPOTHESIS-AND-GEOMETRY-BOUNDARY-V1/FLAT_SUBTYPE_HYPOTHESIS_AND_GEOMETRY_BOUNDARY_manifest.json",
+      "byte_length": 1137,
+      "sha256": "e286780d4c4c1c226870dae1cb953cd559b73972435cfc6437a73a5987ac0bca"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-HYPOTHESIS-AND-GEOMETRY-BOUNDARY-V1/decisions_tests_audit.json",
+      "byte_length": 890,
+      "sha256": "a0f0a29a5dbdf086f4393a89b9a977330fbf1bfe48b1228cd4f9a4f45adb077e"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-HYPOTHESIS-AND-GEOMETRY-BOUNDARY-V1/source_and_geometry_matrix.json",
+      "byte_length": 1344,
+      "sha256": "7e812ddf11bcc634e37b80fd601ae08cac891ae9443305f0131efa432d0de1e9"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/BASELINE_README.md",
+      "byte_length": 1776,
+      "sha256": "0fff158e978109792e119791afe26b93ce6a9a685c291bd0e96fc50ea47c3d0b"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/FLAT_SUBTYPE_TAXONOMY_ALIAS_AND_ENDPOINT_SEMANTICS_LOCK_manifest.json",
+      "byte_length": 3759,
+      "sha256": "551eaa587436f31d12f2f2f3d5e763a2c7db65fab84f06bcceafe42be7385d56"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/endpoint_semantics_lock.json",
+      "byte_length": 957,
+      "sha256": "2fb783b5fc57d7ed08bcfd36f87f0819a242ef5c7306a0884f4f12f1e48e7969"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/hard_rule_freeze_and_next_stage.json",
+      "byte_length": 779,
+      "sha256": "03d80050094f08753b1a19519f7f3418943f5fb7f15de741185548c204e1103e"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/implementation_gate_and_api.json",
+      "byte_length": 1313,
+      "sha256": "611484ddaccdeb03f32f20ceecc65df63d4efe25b4074529f98be0cba4f1a4ff"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/nvda_experiment.json",
+      "byte_length": 2672,
+      "sha256": "fdaaf0b62f2b231071e030e57da4eefc6d53a2a93a95f99f136183b31a2a51bc"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/project_state_and_integrity.json",
+      "byte_length": 1002,
+      "sha256": "9dbf8e0fa7dc4adaac3268ac0ce9fe8c95ae18023002a40445014c626262360b"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/protected_source_findings.json",
+      "byte_length": 2723,
+      "sha256": "e8c43bed91c9a2864a35bbb6315067e0370b57fd684a72923b6952865ffc83e5"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/taxonomy_alias_lock.json",
+      "byte_length": 629,
+      "sha256": "939cf4fbec5a26f2a10fbf34d73ba2b65d43c53172de6c598b7c0c3254a2364c"
+    },
+    {
+      "path": "kernel_reviews/FLAT-SUBTYPE-TAXONOMY-ALIAS-AND-ENDPOINT-SEMANTICS-LOCK-V1/tests_and_adversarial_audit.json",
+      "byte_length": 915,
+      "sha256": "142c5760729b79943209d8ba17d5fbce1e4c6eb097311ee5735771303e6ec880"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/README.md",
+      "byte_length": 1677,
+      "sha256": "11101d5158309c0143165e3445ae0925987d0cc1ca3a67c07829ce6dc01fa17c"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/REVIEW_manifest.json",
+      "byte_length": 9422,
+      "sha256": "5e4ce0107400d0e24b4683bd57c0108d83963c243228d590cb4a9e3156344ab9"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/book_identity.json",
+      "byte_length": 1273,
+      "sha256": "9bdd8219b979c41742a423dc893d969a8874875819d2226f76fd34d89f67c3b2"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/completion_findings.json",
+      "byte_length": 1192,
+      "sha256": "f8d0203b87be881329cd582e4e3f0ded3b50379eda561511985d6176d03ccffc"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/conflict_register.json",
+      "byte_length": 1352,
+      "sha256": "2110bd3d05286ca70a73167d3a791ad627b28f35e2d49f199b2ab048bf0aafcc"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/downstream_impact.json",
+      "byte_length": 909,
+      "sha256": "b16f302553902d56598469fe3f76e889ea88ea2a4ca402e0600df5f58f427a26"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/manifest_activation_status.json",
+      "byte_length": 620,
+      "sha256": "d73855bc314d63d27172b5490513fbd2030c130fc3450945f2727828735e0bfd"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/source_trace.json",
+      "byte_length": 2183,
+      "sha256": "f1d0fda4716c079c65a33ef12db85bfb35bb7f9397b46a006278a3464ec8d486"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/terminal_base_findings.json",
+      "byte_length": 2683,
+      "sha256": "08a346d491bce68344cc5278d13019558cffba5614398e984e7c845a5d412dc0"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-FAMILY-TERMINAL-BASE-CASE-SOURCE-REVIEW-V1/video_crosscheck.json",
+      "byte_length": 1664,
+      "sha256": "6617211a494d176b19b8c024df633b977de70d6dc51b33e9c51cffa0cc561a33"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1/README.md",
+      "byte_length": 1027,
+      "sha256": "720e86a1f45b0e920033f078cf31e04eb4f97691f7db15b9c68a18572d71a620"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1/REVIEW_manifest.json",
+      "byte_length": 3831,
+      "sha256": "2f05d32d4e99c9b2509637ce706e3770171476232160f130bc5886aadb3ae066"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1/activation_verification.json",
+      "byte_length": 1000,
+      "sha256": "6b3075f5c9449f266c5a0990d0972370bddeb7f169bbc72790333f0f84a28655"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1/project_state_after_activation.json",
+      "byte_length": 761,
+      "sha256": "cd62058cf95fb09424b858b665f6f30260ff9f41f772595421b140c381eeaab3"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1/review_authority_transition.json",
+      "byte_length": 739,
+      "sha256": "0ba5eface8141da2ea0f0f28d1704dc6846fb39e13a9dcdc06acfe7ab0ad0157"
+    },
+    {
+      "path": "kernel_reviews/FROST-PRECHTER-SOURCE-MANIFEST-ACTIVATION-CONFIRMATION-V1/source_inventory_delta.json",
+      "byte_length": 785,
+      "sha256": "a3585e370035d8b7ae7874d0ab93b1601b6e8022ac1fcf9f3669869887c1709a"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/BASELINE_README.md",
+      "byte_length": 2488,
+      "sha256": "62e75f0fffeee5683f6e123c7693e269c0a6294d5c2745cd599480e1a6593e0d"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/HUMAN_ASSISTED_EXPLICIT_PIVOT_CANDIDATE_SEGMENTATION_manifest.json",
+      "byte_length": 11043,
+      "sha256": "5cd924ecd0208a2134407dc7eace2af4426d9dfc5c75553d4772ef44b90a179b"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/known_limitations.json",
+      "byte_length": 1584,
+      "sha256": "c2cf47e61ae785f7625360e578bff7e2083f5592d899938e61142d86b6cde1f0"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/prior_baseline_delta.json",
+      "byte_length": 1394,
+      "sha256": "7adadbdbac5a2eb47b01fc9a1d5cbaeb8cca7007663d4c383490b4eecbf01b71"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/source_trace.json",
+      "byte_length": 1090,
+      "sha256": "ae8e5e0afaf5098f3e71dd2f88de6249a2baf3cf2500d599bb4fc04d6df5d269"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-EXPLICIT-PIVOT-CANDIDATE-SEGMENTATION-V1/test_results.json",
+      "byte_length": 1609,
+      "sha256": "79eafbe743fb2d90e953d8d0a5c02c2f2094abf9dd4d4681d591b4e81a0c16ba"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/BASELINE_README.md",
+      "byte_length": 2104,
+      "sha256": "7a0a59f65add366f3db673e3c46be1d4f1f7fbe87f3a231d7bc2ebbba305fccd"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/HUMAN_ASSISTED_MULTI_DEGREE_CANDIDATE_COMPOSITION_manifest.json",
+      "byte_length": 6912,
+      "sha256": "d3afb2d9bf4fb3286bad76c0a6c52639d3d688f6d01a9e1ba3c569ecf36954ff"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/known_limitations.json",
+      "byte_length": 1010,
+      "sha256": "0827c6c8d5d4eb9ba962a56b479f98add8d92cee5cb096fc4e45b95221c010a6"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/prior_baseline_delta.json",
+      "byte_length": 1586,
+      "sha256": "038d80bed6303306ea62e2e61058a992aeb4983893bfd454a4aefcc4f889b4a6"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/source_trace.json",
+      "byte_length": 1199,
+      "sha256": "cea511ebe73e5356bd05432e79e3342d37956c4736fa5579744b2c23785562a0"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-MULTI-DEGREE-CANDIDATE-COMPOSITION-V1/test_results.json",
+      "byte_length": 1260,
+      "sha256": "9652b64e22440e421603fc9bb9c1fbc2fe7ae50f979d379d0f7861f3baefc45d"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/BASELINE_README.md",
+      "byte_length": 2323,
+      "sha256": "fdf0c5289ec6c7b7be31a31e0b09379903cb3435c794bb297446d34de2865174"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/HUMAN_ASSISTED_RECURSIVE_CANDIDATE_COMPOSITION_manifest.json",
+      "byte_length": 9039,
+      "sha256": "40661a96f0ccfbf98cd1d6d5b95e06ddbd2cccd94d10b9dfabaab0a9304f16bd"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/known_limitations.json",
+      "byte_length": 1103,
+      "sha256": "cc835da63fefedf88a7edf72dd16b0adf6aba1c2feec801ff57431632629e514"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/prior_baseline_delta.json",
+      "byte_length": 1445,
+      "sha256": "bc4d3256b2d20e3ba8843d222c20d2ea568238a5014a7261f910d32c21d91b04"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/source_trace.json",
+      "byte_length": 1116,
+      "sha256": "bf02164f9fd00519f6e3558354bf641e177163fe061cd07ef323e66b759c258c"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-ASSISTED-RECURSIVE-CANDIDATE-COMPOSITION-V1/test_results.json",
+      "byte_length": 1133,
+      "sha256": "dc008c12d2f4a3594ae47ab3ebbede5443c9989fd25b9a87640d99a5c47990e0"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1/BASELINE_README.md",
+      "byte_length": 2117,
+      "sha256": "d20a3f5d77347750cf6308f4c2ca5dbd56fbf98d1cd3988f529e9a8afd288308"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1/HUMAN_READABLE_MANUAL_CANDIDATE_CLI_manifest.json",
+      "byte_length": 8570,
+      "sha256": "8c56ece8a6aae3f25b1f85443c5839d8bd9c4624d5064e7eb9831ec9df2ca8b2"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1/known_limitations.json",
+      "byte_length": 1452,
+      "sha256": "9b04d6a48a134b83c7d149b107c6f4a0e43cb16c4119a343957f1c6c7b164aaa"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1/prior_baseline_delta.json",
+      "byte_length": 1301,
+      "sha256": "afa5d6c5b8ee5591fa6c9bf9952dd4fa97dab295e99eae80a57b87560e2fc17e"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1/source_trace.json",
+      "byte_length": 1073,
+      "sha256": "6768c472e221e0067b1c4e806e45a8993de0bea0f459d2d6c0fafd1dd4ce7843"
+    },
+    {
+      "path": "kernel_reviews/HUMAN-READABLE-MANUAL-CANDIDATE-CLI-V1/test_results.json",
+      "byte_length": 1645,
+      "sha256": "0044c3b1506b1c1acbfe456b8756346b3fdd363ee4c3225ad15c01b2e3f8c1d1"
+    },
+    {
+      "path": "kernel_reviews/MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1/BASELINE_README.md",
+      "byte_length": 3093,
+      "sha256": "fb30d1c5b0de7c8c3d2e56adf502cc600154bff0c65fc8a1306ea9c7230d844f"
+    },
+    {
+      "path": "kernel_reviews/MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1/MANUAL_STRUCTURE_CANDIDATE_INPUT_BUILDER_manifest.json",
+      "byte_length": 11068,
+      "sha256": "1c2dfd81ed8f6d9de583276398418a05faf8b2af9aad10cc45b280007f4e02b4"
+    },
+    {
+      "path": "kernel_reviews/MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1/known_limitations.json",
+      "byte_length": 1491,
+      "sha256": "be9fbefe6943dd12e18240b88f978b15c5dbcbd5f245c4640834e16dd75a6a54"
+    },
+    {
+      "path": "kernel_reviews/MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1/prior_baseline_delta.json",
+      "byte_length": 1283,
+      "sha256": "1ee2b97d3c042de0e24ca0c199425e0735e415380d83b8af75fcc34b58fb171a"
+    },
+    {
+      "path": "kernel_reviews/MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1/source_trace.json",
+      "byte_length": 1110,
+      "sha256": "d01b4fdd4f54a61ace05766bbd216c0bd5bd3eb69fad53b66a95b260368a316f"
+    },
+    {
+      "path": "kernel_reviews/MANUAL-STRUCTURE-CANDIDATE-INPUT-BUILDER-V1/test_results.json",
+      "byte_length": 1629,
+      "sha256": "ad4e7424c7b6aa331941aac877f5abb0a967dc90c4dd5065a366c4c9773e8b26"
+    },
+    {
+      "path": "kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/BASELINE_README.md",
+      "byte_length": 2020,
+      "sha256": "21b174d7ffca22f1c0a174ca56bceaaaf52a4123f015b3dc34a14c55f10fee12"
+    },
+    {
+      "path": "kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/MULTI_TIMEFRAME_OBSERVATION_TRANSPORT_manifest.json",
+      "byte_length": 8152,
+      "sha256": "f275bb2ba037c39aa4845353b2f7202a222f6122d694aef5df7c5ecfae539383"
+    },
+    {
+      "path": "kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/known_limitations.json",
+      "byte_length": 941,
+      "sha256": "92d6c212b511e117063b8fa2cb441374d54f50d1c5e2e70c0dcb2fdf3bbd844d"
+    },
+    {
+      "path": "kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/prior_baseline_delta.json",
+      "byte_length": 1444,
+      "sha256": "cb4dea27814ddad2b9cf4c1ec4d6cc25cc0e19823c05c4992cf8cec05b9cd267"
+    },
+    {
+      "path": "kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/source_trace.json",
+      "byte_length": 1130,
+      "sha256": "e94e8c6aa65742eade15546f0ed9166aa76e082be60943b44541c4dd2d1665f4"
+    },
+    {
+      "path": "kernel_reviews/MULTI-TIMEFRAME-OBSERVATION-TRANSPORT-V1/test_results.json",
+      "byte_length": 1163,
+      "sha256": "859250cf5138ec856aac98c7c006110f097d88e7a6f6d2d89bbd0e4cae2cf176"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-ANCESTRY-BINDING-IDENTITY-REPAIR-V1/NORMAL_IMPULSE_ANCESTRY_BINDING_IDENTITY_REPAIR_manifest.json",
+      "byte_length": 2949,
+      "sha256": "36581947bf107f2abee08b50f94aa838413b2d50abbd50598bb0a986a90e9cb9"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-ANCESTRY-BINDING-IDENTITY-REPAIR-V1/README.md",
+      "byte_length": 2057,
+      "sha256": "e16e2d87d3addcf7d8cffb5e9a45581cbae50fcefc287e840c836ff56b0a49cb"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-ANCESTRY-BINDING-IDENTITY-REPAIR-V1/protected_integrity.json",
+      "byte_length": 11572,
+      "sha256": "2876816adfbb10bf640cafc0013930642e8e13a9b389072c0cb4ad70c370a93c"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-ANCESTRY-BINDING-IDENTITY-REPAIR-V1/regression_and_tests.json",
+      "byte_length": 1781,
+      "sha256": "138d5f48d363ea6cd9c4d94375107bb8513b131acf264b7e4ef2c3a595055af4"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-ANCESTRY-BINDING-IDENTITY-REPAIR-V1/repair_scope_and_audit.json",
+      "byte_length": 3009,
+      "sha256": "07080a5425391b461d9ae98a9515b5618a3d1263daba8219f6fa0fb91d12f858"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/BASELINE_README.md",
+      "byte_length": 3280,
+      "sha256": "2644b20b0f0c0032ce4d89df7f809f269964d70bbccba07e01654fd2d463550c"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/NORMAL_IMPULSE_FIVE_SLOT_CANDIDATE_VIEW_manifest.json",
+      "byte_length": 11925,
+      "sha256": "361a3dab69f1053a69ffd0bbfcbc2c7c2f2e37d7782fa51549cdf06a8e62f880"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/known_limitations.json",
+      "byte_length": 3836,
+      "sha256": "7de3d5212bd2a7a747fc90c88b39f61bea2d6b2e5b95aeb374a62b4bded9c062"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/prior_baseline_delta.json",
+      "byte_length": 5820,
+      "sha256": "dd86871cf1f95cbc1ed3988baaf59263463ba474d7521fbdb1a3f04e5cbc6f90"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/source_trace.json",
+      "byte_length": 4277,
+      "sha256": "8d662a7c8e4fcf10c78592e81ad68de0c576bd13d14f953ba5a7b540d03c436f"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-FIVE-SLOT-CANDIDATE-VIEW-V1/test_results.json",
+      "byte_length": 4072,
+      "sha256": "eb9081d32ee2a8b3150b872a4dbb3e13ffc609560aa3780fdbf4b5fc658a63c7"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/BASELINE_README.md",
+      "byte_length": 1764,
+      "sha256": "0b3704ef47e1e42ea5598c478229c6ddbd08c47db706e5e5d8799d2516c68fd4"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/NORMAL_IMPULSE_PARTIAL_FAMILY_HYPOTHESIS_AND_EXECUTABLE_SCOPE_manifest.json",
+      "byte_length": 4049,
+      "sha256": "b750db98693887e39b19cded5f2ea1026b74876547a50161dd79bd3065211241"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/authority_and_role_binding.json",
+      "byte_length": 1483,
+      "sha256": "010dfb001cc8a19e64aae8899e84d0e3c44d40001015f70ea5332a941e488229"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/implementation_and_integration.json",
+      "byte_length": 2361,
+      "sha256": "1f2c5d9c39b552548e7a5f53b1c631d26cce985d81f572d0485002f578d2cf7e"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/known_limitations_and_next_stage.json",
+      "byte_length": 1022,
+      "sha256": "5526b72f20ca4fd551c9069df8aabbb577d494cc9aa9cf290a71152883034dcd"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/nvda_experiment.json",
+      "byte_length": 3720,
+      "sha256": "ad7950613097ae2c0f0962a6c09267bce0d8e441479300ce8f18c038bc176280"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/project_state_and_integrity.json",
+      "byte_length": 1146,
+      "sha256": "972a57f5e71542593bce494bafad4e1f547e4be5630721a802a624969dbec3da"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/protected_source_findings.json",
+      "byte_length": 2317,
+      "sha256": "d94908726caa5430584654726d4e9ff16cf51025f9cad0d0b1b03a9f1876afa9"
+    },
+    {
+      "path": "kernel_reviews/NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/tests_and_adversarial_audit.json",
+      "byte_length": 1227,
+      "sha256": "b11559d3441264235c500abd2f7785696d7470d86d2c9ad89822c86f094d7ca9"
+    },
+    {
+      "path": "kernel_reviews/P003-V1/BASELINE_README.md",
+      "byte_length": 1895,
+      "sha256": "7f37afe1982ac61028fb1be1cd418b4ce7d2415f4a052b9b5fa3ef7b00616286"
+    },
+    {
+      "path": "kernel_reviews/P003-V1/P003_manifest.json",
+      "byte_length": 8005,
+      "sha256": "f92271d1a88bb6b26b797fd5bfa7b2ff757dc3dd74940a0a82e4d569ec61911e"
+    },
+    {
+      "path": "kernel_reviews/P003-V1/known_limitations.json",
+      "byte_length": 2229,
+      "sha256": "46f24ea1afc4e590d22adfc24f2cdb1ea1b3ec05bd6f1e2153cb8861d73c12ca"
+    },
+    {
+      "path": "kernel_reviews/P003-V1/prior_baseline_delta.json",
+      "byte_length": 4798,
+      "sha256": "70a9ca49b1eab8f1d93ec8f162d0d2b565dfb57009802bc3ff499f8a8ba0f4d7"
+    },
+    {
+      "path": "kernel_reviews/P003-V1/source_trace.json",
+      "byte_length": 3976,
+      "sha256": "bdaaf60baae00dbc9493f5b9a8a5e63becbd4927dddd1eca44e181bf5a239952"
+    },
+    {
+      "path": "kernel_reviews/P003-V1/test_results.json",
+      "byte_length": 2701,
+      "sha256": "381c3fa7fcf43c8e0b6d10647e752c831083b81e6a46833a7e8f571d03e58610"
+    },
+    {
+      "path": "kernel_reviews/P004-V1/BASELINE_README.md",
+      "byte_length": 810,
+      "sha256": "334fd599235482576fa6fd9a57bb726b389c64d2f687816767794944df6e55fd"
+    },
+    {
+      "path": "kernel_reviews/P004-V1/P004_manifest.json",
+      "byte_length": 2650,
+      "sha256": "cc21469ece0500e9873feed0fd6a11d94521942148c1011508029f88f7d0164b"
+    },
+    {
+      "path": "kernel_reviews/P004-V1/known_limitations.json",
+      "byte_length": 684,
+      "sha256": "780cd208a66778256f901b9b6e06005e2d6212b0106f81d29313a1ad18b892bb"
+    },
+    {
+      "path": "kernel_reviews/P004-V1/phase1_delta.json",
+      "byte_length": 1060,
+      "sha256": "11083a36daf9092dc3e5dbe7d338bae765f77a7def7c13e41c600d5045738d47"
+    },
+    {
+      "path": "kernel_reviews/P004-V1/source_trace.json",
+      "byte_length": 549,
+      "sha256": "ac6a082ef8d1cd7658e4181a428654949e4ce69d3d28d5772a5df928e4d675a8"
+    },
+    {
+      "path": "kernel_reviews/P004-V1/test_results.json",
+      "byte_length": 953,
+      "sha256": "e3e858bae0a97e368eee49fe18b901254661f45443f3522e4779d4ec18aec392"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/P005_APPROVED_PERCENTAGE_SUFFICIENCY_IMPLEMENTATION_manifest.json",
+      "byte_length": 9329,
+      "sha256": "958d6e66e58deb1765bed371a7256fe1f4b68337b84b268aeb9e019326d7bc58"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/PACKAGE_MANIFEST_entry.diff",
+      "byte_length": 434,
+      "sha256": "7e782862596b019b6456e350bb21c3cc98e07aa1332192fe46ebf9ff6031cf24"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/README.md",
+      "byte_length": 3902,
+      "sha256": "f9941f6119cb61396cac06cbc8d479cd26d29946de677a80245d62a346928cd5"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/adopted_PACKAGE_MANIFEST.json",
+      "byte_length": 5126,
+      "sha256": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/adopted_SOURCE_POLICY.md",
+      "byte_length": 5475,
+      "sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/audit.json",
+      "byte_length": 3020,
+      "sha256": "585ee72a2138ddbb83134141c074615d85967ac2d53c5ab08107ae153ba5d0dc"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/authorization_record.json",
+      "byte_length": 2259,
+      "sha256": "dc146dfbc20dc719095a5348b2fe7294c4a65d640a4ea076a81066147f58219e"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/combined_SOURCE_POLICY.diff",
+      "byte_length": 3559,
+      "sha256": "056a120058cc2a4ea2ea2247c4fd41d6f99bff25ecc4a4b1645aac4b15de2691"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/final_protected_integrity.json",
+      "byte_length": 9476,
+      "sha256": "50b55a04869b77678317c42266fee966a2af05cb04e77a23839b9fee60473cd0"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/implementation_scope.json",
+      "byte_length": 3300,
+      "sha256": "6e26f0aa0166c15606607ba22c206bd471337a93705787f1675d7baff2aed0be"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/original_PACKAGE_MANIFEST.json",
+      "byte_length": 5126,
+      "sha256": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/original_SOURCE_POLICY.md",
+      "byte_length": 2354,
+      "sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/pre_write_integrity.json",
+      "byte_length": 9476,
+      "sha256": "ad1d3bd6eb6b7829882f842d649d4c4f28e32bda51213ffa9c50e2165bfb2584"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/preserved_tracked_inventory.json",
+      "byte_length": 112233,
+      "sha256": "2e69788f5f9eecb0189e6ce03ea587e5ef65846c9f438a833877d532c03a0c75"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/protected_policy_transition.json",
+      "byte_length": 755,
+      "sha256": "2009b7af884765aef85eef0efb8ef604bd96d12806cad65d40d880f7b018c06c"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/source_traceability.json",
+      "byte_length": 2419,
+      "sha256": "c3380cd5a677136e63b647c699bf5841ad077fedc904d2179aefb7d2f36da859"
+    },
+    {
+      "path": "kernel_reviews/P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/tests.json",
+      "byte_length": 1556,
+      "sha256": "f6bdc257b5856e5f7ee90aa18747d0f8a6bc60faaf71f152dcd25fd3920f67dc"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/P005_BOOK_METRIC_POLICY_RESOLUTION_AND_REMAINING_SEMANTICS_manifest.json",
+      "byte_length": 2982,
+      "sha256": "581900c466e10355df073b90c1c8c7f98bdf13a611f78fbe2314bc3cb62bb571"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/README.md",
+      "byte_length": 4303,
+      "sha256": "0b13d9a0dfc339e5d52a5f8bfb05871f09d91809b1ed89d79e815f61e6dda561"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/audit.json",
+      "byte_length": 3335,
+      "sha256": "68b73a099e86d28b8d18f543e671fdaba79bc9e2fa977ad9f746a178b10a6cb5"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/authorization_record.json",
+      "byte_length": 2910,
+      "sha256": "bfaf2d65d630a03fd9718b87c1fc714be9a12421255943586fec53eefd66bb1a"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/policy_mechanism_and_adoption.json",
+      "byte_length": 2397,
+      "sha256": "6cf42704d334f3343715c64424dca2c3298849a97cf4e28d1b14e9917337e419"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/proposed_SOURCE_POLICY.diff",
+      "byte_length": 1317,
+      "sha256": "341dccb056ba4d7644151775980b6e7aaf468fe8d89b4057f82de48137f4f27c"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/protected_integrity.json",
+      "byte_length": 21180,
+      "sha256": "77d2902e1740b24a571fedcf97da4a89bd1b27f1b74c40b375c7aa6016758b09"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/readiness_and_blockers.json",
+      "byte_length": 3139,
+      "sha256": "7ea7167575639e57aaf08925c2176e8c40cadcc1cbc337bf11b23f0c97de9d07"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/remaining_semantics_matrix.json",
+      "byte_length": 16471,
+      "sha256": "2a722091bd1f1cdabc99990c18a771ed0b24cd3a1fa19237966358c7e4381768"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/source_references.json",
+      "byte_length": 11601,
+      "sha256": "0ef0553408c61185cbe6bb4f5842353d3898281cc3d75f10a73dc34a6d98aeb2"
+    },
+    {
+      "path": "kernel_reviews/P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1/unchanged_tracked_inventory.json",
+      "byte_length": 116891,
+      "sha256": "720e8a7429ade6477e3f21bbf2a759e7119b4d8f0987c1ff3d894ebb0d0ffdab"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/P005_KERNEL_OBSERVATION_BINDING_REPAIR_manifest.json",
+      "byte_length": 4649,
+      "sha256": "e1b727096644554cba4d1621879cea9196a28ad6fe9660e0d585a16177ab98f1"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/README.md",
+      "byte_length": 3848,
+      "sha256": "ebf7a5ad98146933b4f2f2c0dff514de29000a1901db0254adefde5c7e16dc1a"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/audit.json",
+      "byte_length": 2144,
+      "sha256": "2a579f803eb56c31a90e077e11045d0fae578e91dc09ba54cc9871bc89781ec3"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/final_integrity.json",
+      "byte_length": 9476,
+      "sha256": "50b55a04869b77678317c42266fee966a2af05cb04e77a23839b9fee60473cd0"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/pre_write_integrity.json",
+      "byte_length": 9476,
+      "sha256": "50b55a04869b77678317c42266fee966a2af05cb04e77a23839b9fee60473cd0"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/preserved_files.json",
+      "byte_length": 123380,
+      "sha256": "8236541eec71268730d1ace80262e4fc9f317ef7b30fc5a322b1f22e497bbac7"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/repair_contract.json",
+      "byte_length": 5110,
+      "sha256": "da51426bbf14dc0f366b0fbc894224dd0e62f991cf6dbd74045f345edb4d8f83"
+    },
+    {
+      "path": "kernel_reviews/P005-KERNEL-OBSERVATION-BINDING-REPAIR-V1/tests.json",
+      "byte_length": 4210,
+      "sha256": "85a165c6e5aa296f5806ad7a00b30af7e2a436100e7a165bad40b4bb2500ca0a"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/P005_NORMAL_IMPULSE_WAVE3_SHORTEST_SEMANTICS_LOCK_manifest.json",
+      "byte_length": 2444,
+      "sha256": "c305c08f9eb8e28c8a42c4aa58626d122e7cc7d9124494eaee4bd0bcefd251a5"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/README.md",
+      "byte_length": 3760,
+      "sha256": "60f44ba10b9890590b80e1864dca6cfc54e502de7557505657d4647f29951e90"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/audit.json",
+      "byte_length": 4072,
+      "sha256": "28d3bdf032a91054582c67d23dddf62ee181c699cc97487c2a7ecda6158bfd57"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/boundary_cases.json",
+      "byte_length": 4422,
+      "sha256": "731e13e34595a9a46aae382519ca1b89d769843f4a5079d145cff4bcd3616c59"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/decision.json",
+      "byte_length": 3827,
+      "sha256": "9512ac16fef3fbc59ccfb244f072cfa8ac309dd07e1d53b27813a2e65eecc1a5"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/interpretation_matrix.json",
+      "byte_length": 15240,
+      "sha256": "4503c90362ccab704d685083d8692027120252a4a4a73644826641aa11646b5c"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/protected_integrity.json",
+      "byte_length": 21353,
+      "sha256": "1f3b21775fea93d9ef9b2cf72719a490b1cc3b446575ea5ffb990aa79474a8ad"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/source_coverage.json",
+      "byte_length": 23068,
+      "sha256": "7a6f8af5879dac14020cd941cedb3e3794d4d58b6fd4b14a5cdcab8e74582583"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/source_findings.json",
+      "byte_length": 12726,
+      "sha256": "cbb5c6d0249a47e5c41d56c288bc373ffaedb61881f01682cee96737608ede50"
+    },
+    {
+      "path": "kernel_reviews/P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1/unchanged_tracked_inventory.json",
+      "byte_length": 114558,
+      "sha256": "617707dd0d65c4bd7e16dd97136626f457c417309a1008457aa1e7b27ba510d9"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/P005_resolution.json",
+      "byte_length": 7794,
+      "sha256": "e0e33ab67de58bb7fea2a5b02ac3c7ce54b567118907716f9779cabb38ef8cf1"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/P006_resolution.json",
+      "byte_length": 8260,
+      "sha256": "b73737de1b4273e01ed57e116fba9377c5a01495514b9e20f7ae0af60aeedc8c"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/README.md",
+      "byte_length": 3480,
+      "sha256": "f07e25e337c25b8534524b34ff64ff799fed3a5a50a2bfe7f9ee960d9a04b032"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/REVIEW_manifest.json",
+      "byte_length": 9626,
+      "sha256": "42f7a6d13065ff6a6d1c65b04bf1e41a32f256b2baa6b839ee44a423e59c5cfa"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/remaining_gaps.json",
+      "byte_length": 2975,
+      "sha256": "8c1e06cfb3d4aedeb2b7bb8b9742a502aa7be909247ee627e6718dce505721e2"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-MACHINE-SEMANTICS-SOURCE-RESOLUTION-V1/source_search_inventory.json",
+      "byte_length": 19947,
+      "sha256": "3a44f57bd673c074fdebd5dff31b4817e4015b4719f2965a505ca0d173e8ab10"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/P005_semantics.json",
+      "byte_length": 9676,
+      "sha256": "3cd4d501e251119a138a4c588b87740d478d677cd3221bda8ca538b9b0d2967e"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/P006_semantics.json",
+      "byte_length": 10723,
+      "sha256": "2dd1a684589ca7d1dd8504e05ad6aa48e2e7a3e61d1d22e4b2da27eabae22d09"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/README.md",
+      "byte_length": 3376,
+      "sha256": "4490e102015e44759097b2404489b8f29d51993edc6abf9c6863bb192a609fec"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/REVIEW_manifest.json",
+      "byte_length": 9110,
+      "sha256": "02040856567388d9c2c8c6d89c57eaf8895f43040522d6e84b5cd6a0d93bc356"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/source_inventory.json",
+      "byte_length": 6266,
+      "sha256": "e535aa5c45ce06adbb1ad356137b87b61a1ee6c951602ddfefc617d4670d7b8a"
+    },
+    {
+      "path": "kernel_reviews/P005-P006-RAW-SOURCE-SEMANTICS-REVIEW-V1/unresolved_conflicts.json",
+      "byte_length": 2142,
+      "sha256": "7009475fea93c36b1ef13172860cbf216e5f8d262f67a9037c9084ea581b395c"
+    },
+    {
+      "path": "kernel_reviews/P007-V1/BASELINE_README.md",
+      "byte_length": 1404,
+      "sha256": "cd54ab2b2e1bd4a6d7d6ebc171017c18712638ea41e1db9cd42494708d5dbdc9"
+    },
+    {
+      "path": "kernel_reviews/P007-V1/P007_manifest.json",
+      "byte_length": 7610,
+      "sha256": "da3d5333d6bf93990a39f6248dc909df7e503c83000f4e79ad657cdbcd6e212d"
+    },
+    {
+      "path": "kernel_reviews/P007-V1/known_limitations.json",
+      "byte_length": 1451,
+      "sha256": "661419743a5a82630b3917949ffc1a20eb3c39d893419a8a623898ae83d70ee4"
+    },
+    {
+      "path": "kernel_reviews/P007-V1/prior_baseline_delta.json",
+      "byte_length": 1461,
+      "sha256": "8ebe9c791eb8b6b8158daf7666e0a4f184edb13a6ceaac3fcb56f5ae2fb81a60"
+    },
+    {
+      "path": "kernel_reviews/P007-V1/source_trace.json",
+      "byte_length": 921,
+      "sha256": "42446a7b73f7779f4689a406ee853758f7de5a1f78c27ba73cbd78fddab70275"
+    },
+    {
+      "path": "kernel_reviews/P007-V1/test_results.json",
+      "byte_length": 1505,
+      "sha256": "326097c8fd9d9c6b81ce9904b7728116403956ccdb9a73c2d5b2fc39a6cdda37"
+    },
+    {
+      "path": "kernel_reviews/P008-V1/BASELINE_README.md",
+      "byte_length": 1348,
+      "sha256": "3a666952b0226b5a3fc36c2d8593175330e03c2dfae09bd2f010d997ba2f6a83"
+    },
+    {
+      "path": "kernel_reviews/P008-V1/P008_manifest.json",
+      "byte_length": 8302,
+      "sha256": "e6ce2c9710ed7b7d43839f122add4db87213762a0f3aacf511dfe414ec8f84b1"
+    },
+    {
+      "path": "kernel_reviews/P008-V1/known_limitations.json",
+      "byte_length": 1529,
+      "sha256": "285140bb9e738cdbfcddfd493cae4523e693279f584cd40fa50ce2d2f2b2ed7c"
+    },
+    {
+      "path": "kernel_reviews/P008-V1/prior_baseline_delta.json",
+      "byte_length": 1504,
+      "sha256": "b1b2bf72758b1d3df585e875a67669c62312faccc61c710e273552b78d7ba3e7"
+    },
+    {
+      "path": "kernel_reviews/P008-V1/source_trace.json",
+      "byte_length": 1310,
+      "sha256": "1a2ec1df44dbca68cac81af5ef9e873d20b6d38e75703992939b731c26de2385"
+    },
+    {
+      "path": "kernel_reviews/P008-V1/test_results.json",
+      "byte_length": 1669,
+      "sha256": "19c2d40e911986f2b6a525638e545381c3ee6913021266b5a3375228de7f0407"
+    },
+    {
+      "path": "kernel_reviews/P009-V1/BASELINE_README.md",
+      "byte_length": 1451,
+      "sha256": "a227162012a24b16818913d7003c4863ae536e377702340934ebdca92fea1c92"
+    },
+    {
+      "path": "kernel_reviews/P009-V1/P009_manifest.json",
+      "byte_length": 8921,
+      "sha256": "807812e011a5f8e5b85690cb6af6eb341ae3b6e55e957e8d11064b36de22e4fd"
+    },
+    {
+      "path": "kernel_reviews/P009-V1/known_limitations.json",
+      "byte_length": 1702,
+      "sha256": "17415d016be2fff6261a372bbe8687d9f4f20d10f5c4a1812a5a1b0b339aad17"
+    },
+    {
+      "path": "kernel_reviews/P009-V1/prior_baseline_delta.json",
+      "byte_length": 1590,
+      "sha256": "e3c387fcdde97a11a8bc0474d27490c7e304af47218649431e5a0db450ea5997"
+    },
+    {
+      "path": "kernel_reviews/P009-V1/source_trace.json",
+      "byte_length": 1864,
+      "sha256": "9b809380de9f85b65340353db8d2aa66115a9ad9225065f4ad7de405acdf949c"
+    },
+    {
+      "path": "kernel_reviews/P009-V1/test_results.json",
+      "byte_length": 1956,
+      "sha256": "b0a6746366cd77edcccdc33d685876f5e0bb842a8fe5ee2b2e1a140f2ec6361b"
+    },
+    {
+      "path": "kernel_reviews/P023-V1/BASELINE_README.md",
+      "byte_length": 1324,
+      "sha256": "3eba8660fe03336d98b85515b66b13dcc2295c50f050af31e09969fc7fc763bc"
+    },
+    {
+      "path": "kernel_reviews/P023-V1/P023_manifest.json",
+      "byte_length": 5333,
+      "sha256": "fce3439468c31ed949749adcf933c6345d3cf5e3b265cf5c217e4383775d0ec6"
+    },
+    {
+      "path": "kernel_reviews/P023-V1/known_limitations.json",
+      "byte_length": 3274,
+      "sha256": "f7919c7d76f5c2f604a7ef184d57ad69b5288638a409b9ca642910841b6502ae"
+    },
+    {
+      "path": "kernel_reviews/P023-V1/prior_baseline_delta.json",
+      "byte_length": 2618,
+      "sha256": "2c0a7517481f34f2868aeb124387d5db916373de73da9b83c1b44f757087ef2b"
+    },
+    {
+      "path": "kernel_reviews/P023-V1/source_trace.json",
+      "byte_length": 699,
+      "sha256": "d0bfb0af6c396716ed23b5dc69b6cded6f886315a9c6b3a6b4ed06ed7b323f01"
+    },
+    {
+      "path": "kernel_reviews/P023-V1/test_results.json",
+      "byte_length": 2142,
+      "sha256": "316da62b4e7d4e31321f123abce0cb0405ccd7f810be20a80829c44d2a5964da"
+    },
+    {
+      "path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/BASELINE_README.md",
+      "byte_length": 1011,
+      "sha256": "81dc4be5488cfdc612d8f7b04e327746f39a6d0b2bd23f0e24e614531acc3a14"
+    },
+    {
+      "path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/PARENT_CHILD_DEGREE_manifest.json",
+      "byte_length": 4173,
+      "sha256": "f1c92a98ee34083ac7c39800319a923386d7033eca716de14923632960a9939a"
+    },
+    {
+      "path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/known_limitations.json",
+      "byte_length": 1568,
+      "sha256": "f419f3596a30bb2c6ad40be83fa849a9ae8592119f6855040d1bb7c34d272e55"
+    },
+    {
+      "path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/prior_baseline_delta.json",
+      "byte_length": 1836,
+      "sha256": "2f06058106c7b3cf2756bb9410b991d5a72c2538b1da8237b770528f8d269750"
+    },
+    {
+      "path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/source_trace.json",
+      "byte_length": 1022,
+      "sha256": "38882a28690b8d449fa17a2a6d1a43fc2bdce0cac262fdcf4ff59bd5158154bc"
+    },
+    {
+      "path": "kernel_reviews/PARENT-CHILD-DEGREE-V1/test_results.json",
+      "byte_length": 1628,
+      "sha256": "02d5aa22e852ed88e153fc15e0eba58cc7b0cee972b739aaf86d3b62dac90569"
+    },
+    {
+      "path": "kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/README.md",
+      "byte_length": 2102,
+      "sha256": "1f5caebc21ed4b3b9f1600000049beab740e1b5ca6013eb95e953db166d247d7"
+    },
+    {
+      "path": "kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/REVIEW_manifest.json",
+      "byte_length": 8271,
+      "sha256": "f755b171f55e973e22a7c28e85de8ed7a7ff524feff1de79a2a92d9ebe837c77"
+    },
+    {
+      "path": "kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/candidate_inventory.json",
+      "byte_length": 8890,
+      "sha256": "b4ebc02d26c0b32280859dbb09dab2edcd198d20113f9ea90fc0a9dd777da947"
+    },
+    {
+      "path": "kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/deferred_behavior_register.json",
+      "byte_length": 2084,
+      "sha256": "c76259fe22f587683d41e6ba67992c3791c7b8244e61938ead553c241245220b"
+    },
+    {
+      "path": "kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/dependency_graph.json",
+      "byte_length": 3970,
+      "sha256": "76e45fbc53fbd94e7050bca4f32411b4c811b4c2583d251ccb6eeb06a73ee488"
+    },
+    {
+      "path": "kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/recommended_target_design.json",
+      "byte_length": 6278,
+      "sha256": "e2cc4dfb18bec7f139b3ac7bf3193ef1fe2694bf9ddeb01ba67297d4e0f14d77"
+    },
+    {
+      "path": "kernel_reviews/POST-CARDINALITY-SOURCE-COMPLETE-BEHAVIOR-REASSESSMENT-V1/selection_decision.json",
+      "byte_length": 2465,
+      "sha256": "d2915830a49a58353bef8b233a70420889b12af40e71dbae29349d3851f0dc8d"
+    },
+    {
+      "path": "kernel_reviews/POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT-V1/README.md",
+      "byte_length": 1664,
+      "sha256": "c622b7a93f4b6da644e5661f8ea6431c35b77b51fff67da91ada30472cb30370"
+    },
+    {
+      "path": "kernel_reviews/POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT-V1/REVIEW_manifest.json",
+      "byte_length": 5194,
+      "sha256": "8acbe6c28456b2817e31c178c48d3fd5d987afcc34e55371d4bc8e373a95bfaf"
+    },
+    {
+      "path": "kernel_reviews/POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT-V1/candidate_inventory.json",
+      "byte_length": 25084,
+      "sha256": "043ae2267d01a89cc3026a81e70910301b7e322480d807dff73d5ec2ef792a95"
+    },
+    {
+      "path": "kernel_reviews/POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT-V1/deferred_behavior_register.json",
+      "byte_length": 1804,
+      "sha256": "a76d635edad3b3de78cdf7f58a02724ef07edd0b0816bdf41681d9f10fa5c238"
+    },
+    {
+      "path": "kernel_reviews/POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT-V1/recommended_behavior_design.json",
+      "byte_length": 7017,
+      "sha256": "0425346899cc2956e0b7acad4ea8128779b1dd4e3f48f10509c6a721d80f58fa"
+    },
+    {
+      "path": "kernel_reviews/POST-P005-P006-SOURCE-COMPLETE-METHODOLOGY-BEHAVIOR-SELECTION-AUDIT-V1/selection_decision.json",
+      "byte_length": 1937,
+      "sha256": "c3d05479806c1e412ab26b2eb82423eb3f9dacbaf1373113962aebc03aaaeaad"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/BASELINE_README.md",
+      "byte_length": 1201,
+      "sha256": "279a571ce5ed396270b731a0c8be013e7ab10bf03cfe94fc3daaa807b3cf8e84"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/RECURSIVE_AUTOMATIC_CHILD_CANDIDATE_GENERATION_RESEARCH_AND_BOUNDARY_manifest.json",
+      "byte_length": 3786,
+      "sha256": "9ac46ba253d8a4bf30a6fe85aaf6def6404223970756f2056d11ca8d84ceb914"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/adversarial_audit.json",
+      "byte_length": 774,
+      "sha256": "31fcc178aee311b65e00eaad403b387bee1f244fe92d7bd65cec97a148d77237"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/child_window_semantics.json",
+      "byte_length": 555,
+      "sha256": "7e62028e0bedd71133967b26244bad5b8ee3cfb8176e5678ff97684e64d2820f"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/generation_architecture.json",
+      "byte_length": 660,
+      "sha256": "8bb85ab05bdc37b87ce444c2a077f31cd26278754b9e3d8c558f0074a6e38711"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/implementation_gate_api.json",
+      "byte_length": 902,
+      "sha256": "6f01b08d134a629bfad7effa5b4116d47d460325238822ded7ef0ccef3dcff7d"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/known_limitations_and_next_stage.json",
+      "byte_length": 892,
+      "sha256": "0fee7ee75c1a92385e3c5f5d9778ed96d08d040c5f65db942f673af825a70767"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/nvda_experiment.json",
+      "byte_length": 3236,
+      "sha256": "93cf5f6f1b43a83c70dde62a0bf88d43d5b725cf944b0155a7963bb82870a289"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/prior_baseline_delta.json",
+      "byte_length": 765,
+      "sha256": "dd94806a8a828735ce722e76819a354bb4332fe40eb7e9a3d6a8455ae22a6717"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/protected_source_findings.json",
+      "byte_length": 1286,
+      "sha256": "60092dcd394f8facb3b780679ed6122097280e1c6e4c4ab8484d5cd6f3b1f923"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/recursive_base_case.json",
+      "byte_length": 391,
+      "sha256": "efcc888f70b9112901832750b7ec6c392edefc1b9d38dcd8b4fe18d0ca28bd69"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/resource_bounds.json",
+      "byte_length": 538,
+      "sha256": "62acdc618bf9bd012933affcbc37b653c656704756f4ab061ba0ec3f87ed6955"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/test_results.json",
+      "byte_length": 769,
+      "sha256": "75df483f6d5b120f76b1580184b7e2e9a4e380cfdcb1945cc7a2b3fe7b22e4b3"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-AUTOMATIC-CHILD-CANDIDATE-GENERATION-RESEARCH-AND-BOUNDARY-V1/timeframe_degree_p023.json",
+      "byte_length": 417,
+      "sha256": "d2aaafcdd5b506dd72b998969a1a63c6d8569d1ce02a0f9feba2d945278f60ee"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/BASELINE_README.md",
+      "byte_length": 1143,
+      "sha256": "b1a18039975088c263c938d1a19f5024d23f8371ec8b84076188ad032e57206b"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/RECURSIVE_CHILD_FAMILY_HYPOTHESIS_EVALUATION_RESEARCH_AND_BOUNDARY_manifest.json",
+      "byte_length": 3163,
+      "sha256": "eaa3a9f2cd2ae7e0e685f7d456dbeb8f465b28c111a812e943ed9434a1597ef7"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/adversarial_audit.json",
+      "byte_length": 592,
+      "sha256": "c87373dbb39597bb01de70b98a5abba036fbc21de70cffffffebd57e942d8a0b"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/api_contract.json",
+      "byte_length": 982,
+      "sha256": "5d3a51ce3226ac0c26b0ba379065aaccc882e56924e4a40f947f0ff824f8d8ca"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/known_limitations_and_next_stage.json",
+      "byte_length": 743,
+      "sha256": "c9c551eab3118989dcb02fc2fbe00ee0c348c9660d01474254452d4885098b31"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/nvda_experiment.json",
+      "byte_length": 4197,
+      "sha256": "ea3a377eadf45f448f09119746604d20b22222110733196f107a3ed055bee9b3"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/prior_baseline_delta.json",
+      "byte_length": 737,
+      "sha256": "5981fd1c12ec832bb5a4da6b8e2241989fc18e490d6f2b0a4616ae23a396add0"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/requirement_compatibility_matrix.json",
+      "byte_length": 1218,
+      "sha256": "faddf311a703500bbe16e9c4f2bb2ca5923540c2bf61fca48ca9d8c32f4a5c6f"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/resource_bounds.json",
+      "byte_length": 549,
+      "sha256": "04d086f2c8ac2bbc41f0ddb26c0cab0425e6ae903d482a03cb35171ee80751c6"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/source_findings.json",
+      "byte_length": 1447,
+      "sha256": "2848956df2f707203c8827f742d1c221802efb00ae2e23f80d4d3c454bfdb893"
+    },
+    {
+      "path": "kernel_reviews/RECURSIVE-CHILD-FAMILY-HYPOTHESIS-EVALUATION-RESEARCH-AND-BOUNDARY-V1/test_results.json",
+      "byte_length": 572,
+      "sha256": "18be30656d62ebec1877ed5f94b2937430effe4f5e36ba274a7bb24ae7da05ac"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/BASELINE_README.md",
+      "byte_length": 2622,
+      "sha256": "10b07f52b27e0767bb87dbe973ac9bfe99e690cd040168e54516592df611e5d4"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/SINGLE_CANDIDATE_METHODOLOGY_ORCHESTRATION_manifest.json",
+      "byte_length": 8482,
+      "sha256": "1607b20f7ffe07e6d7593c184b240729ad1c6a501b48d60e4016a5a94367b759"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/known_limitations.json",
+      "byte_length": 1474,
+      "sha256": "2ae594bcca361f17b9760cccd1ef4834ee20a62b77d7acd05677a7db9807962a"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/prior_baseline_delta.json",
+      "byte_length": 1146,
+      "sha256": "aee7cfa2e02a8f546f3dc947e1d41bc6fd95af804ca5294f3913b5f99ad88760"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/source_trace.json",
+      "byte_length": 1133,
+      "sha256": "02b673f31caab1002ebe9967542426edbced04a0c2ddf3dab123b7ad02e49261"
+    },
+    {
+      "path": "kernel_reviews/SINGLE-CANDIDATE-METHODOLOGY-ORCHESTRATION-V1/test_results.json",
+      "byte_length": 1463,
+      "sha256": "5218b73e5f0973da670da48f9d6c830dbd17a834bea719d2435984049f2a8c8a"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/BASELINE_README.md",
+      "byte_length": 1941,
+      "sha256": "2414665a5f7168db94c26756f0b3f6841cf1576162586f8616f8ea430abaf0e5"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/STRUCTURAL_INVALIDITY_CONTRACT_manifest.json",
+      "byte_length": 7018,
+      "sha256": "33d9b03cdecf321cc4526c2acc1d1b5cf7c01c96634201a3169bbd39cf52b8f1"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/known_limitations.json",
+      "byte_length": 2432,
+      "sha256": "66b67f929a4d2299da74a9c18459363a4d48e47108dfa87b978faaee0d35580c"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/prior_baseline_delta.json",
+      "byte_length": 4862,
+      "sha256": "5024ee64585b00253894649a2be361b1ba456e3225ef9f8e2eb4495c45582bdd"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/source_trace.json",
+      "byte_length": 2165,
+      "sha256": "74d3b03043c65af9bad8b1e1b0b38824b69048982300de93bc7bdfe6578cf657"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-CONTRACT-V1/test_results.json",
+      "byte_length": 3103,
+      "sha256": "1cbee7d4c0fb3be965f2342c8179bbc0c82d2094862524ac180b01ae34bab183"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/BASELINE_README.md",
+      "byte_length": 1983,
+      "sha256": "4325b78682c90afc4069b39b7373e7c11b819e1f8f5bc66be2d7c6c8ea551187"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE_manifest.json",
+      "byte_length": 7338,
+      "sha256": "c5923a1baa23650760dc66c8d11988e764f8931cc9803eb762eac40ebfb52cc3"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/known_limitations.json",
+      "byte_length": 2166,
+      "sha256": "83dcb1d5a04e8b3945e06e0fb4f6b9f0cdb159aebf45647337185e0b3d5670a5"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/prior_baseline_delta.json",
+      "byte_length": 4383,
+      "sha256": "7a58ce1f22aa8c695f2e803625fc6e193693ae0d80b19e7b4e22bca1e1792fff"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/source_trace.json",
+      "byte_length": 2958,
+      "sha256": "2b18c3ade3efae8f0d9bac2e46202f8a9bd619c1409307ee5714c72c4a08eb6e"
+    },
+    {
+      "path": "kernel_reviews/STRUCTURAL-INVALIDITY-EVIDENCE-NO-RESCUE-V1/test_results.json",
+      "byte_length": 3241,
+      "sha256": "95c722f096cc30f194da191bd4990862942d76419c93c4a2cdf5941791c337c1"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1/BASELINE_README.md",
+      "byte_length": 3662,
+      "sha256": "dbda7934b7524e1d96e4c23cc57bd69a500cdc69013d16be72180b3f395a602e"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1/SUBJECT_BOUND_OBSERVED_PRICE_ENDPOINT_PAIR_manifest.json",
+      "byte_length": 14586,
+      "sha256": "34b1cfa6c154bc83eddddb2ded7030b59ab91c35d0224075b49962ce80e876b1"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1/known_limitations.json",
+      "byte_length": 3772,
+      "sha256": "46a159964a1b8bd16d519273c2d9f6b922a82da072a425cfdad7e019644ccce8"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1/prior_baseline_delta.json",
+      "byte_length": 6730,
+      "sha256": "4ede68aadeaa33ab4df26315d44bcec13ede6a7210d106708cca201e607c1ea5"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1/source_trace.json",
+      "byte_length": 5042,
+      "sha256": "47c374c0016c5b1126b7ec1eeaf6ce8039b4e072d9465f853dd53ccd0408d3ed"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-BOUND-OBSERVED-PRICE-ENDPOINT-PAIR-V1/test_results.json",
+      "byte_length": 4318,
+      "sha256": "98c9ca667fd9bec68aa0db7f72b26541e9774f23ce3f66f166e4b90e5b809999"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/BASELINE_README.md",
+      "byte_length": 2537,
+      "sha256": "d2374f18e08114cb9a6f4a82b47203370a8d24b2b33c923507787a446debeb2f"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/SUBJECT_ORDERED_CHILD_BINDING_manifest.json",
+      "byte_length": 9237,
+      "sha256": "0966f43f9518566b1618c190fd30104b41b29d18445b67152303dd7b8c7f0297"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/known_limitations.json",
+      "byte_length": 3419,
+      "sha256": "4d90007f999d8f95a8e137a0eada46d09be180e5c4154ce8577fdcff0e42363b"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/prior_baseline_delta.json",
+      "byte_length": 5294,
+      "sha256": "c073dc58378db5672576d87b0115821dc464fd09f631f7e44c9a0a7c6b925eca"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/source_trace.json",
+      "byte_length": 3573,
+      "sha256": "18be4090166e780812877f6bf016ad946b3965c6af8c3e52ba42226c5db27c0c"
+    },
+    {
+      "path": "kernel_reviews/SUBJECT-ORDERED-CHILD-BINDING-V1/test_results.json",
+      "byte_length": 2927,
+      "sha256": "1d33af8266927ec7877a97c127829baa6f7089bff2346920eafc04af06506381"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-COMPARISON-DIRECTION-SEMANTICS-LOCK-V1/BASELINE_README.md",
+      "byte_length": 1223,
+      "sha256": "ecf0f92a2b3cd485d1164c684592f6e7793ed9ba425a4e7ba6a8c1fcd9f34052"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-COMPARISON-DIRECTION-SEMANTICS-LOCK-V1/TRIANGLE_E_C_COMPARISON_DIRECTION_SEMANTICS_LOCK_manifest.json",
+      "byte_length": 2480,
+      "sha256": "c6a8c488b72843c648dff4221de047c57ac0771c327095c49185abed1b928e40"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-COMPARISON-DIRECTION-SEMANTICS-LOCK-V1/direction_and_authority_decision.json",
+      "byte_length": 1557,
+      "sha256": "aaba7c621c0b1c7b4b96cbc86f163b037e445dbd99dd5bba8e9586280dd1f2a8"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-COMPARISON-DIRECTION-SEMANTICS-LOCK-V1/inventory_and_next_stage.json",
+      "byte_length": 616,
+      "sha256": "9a24ab2d473ca0945d04d98a6f6f3e64d53091a0988edf339b2395821d382f78"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-COMPARISON-DIRECTION-SEMANTICS-LOCK-V1/semantics_and_gate.json",
+      "byte_length": 525,
+      "sha256": "22bfb16dc01dff548f2cab0496fb65238b36ea580e8aead42aeee904d18af622"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-COMPARISON-DIRECTION-SEMANTICS-LOCK-V1/source_trace.json",
+      "byte_length": 1171,
+      "sha256": "d89cf961294fa9de9b39b8ac4c0a40845d4909741a3ad166adeee2924e90590d"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-COMPARISON-DIRECTION-SEMANTICS-LOCK-V1/subtype_applicability_matrix.json",
+      "byte_length": 1070,
+      "sha256": "8a0c1354770d1fe4f2ee505ee567dcf76966179959b36126038240627a329af3"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-COMPARISON-DIRECTION-SEMANTICS-LOCK-V1/test_and_adversarial_audit.json",
+      "byte_length": 898,
+      "sha256": "5e341736610b22b7afe25baf3f358c8d62664c1574a299ebacaa13b8b1722bb3"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-SUBTYPE-APPLICABILITY-SOURCE-RESOLUTION-V1/BASELINE_README.md",
+      "byte_length": 847,
+      "sha256": "8195f722e24caed3504f1197a7ba1876a77179a295d66200137ab8bd860e9c63"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-SUBTYPE-APPLICABILITY-SOURCE-RESOLUTION-V1/TRIANGLE_E_C_SUBTYPE_APPLICABILITY_SOURCE_RESOLUTION_manifest.json",
+      "byte_length": 1753,
+      "sha256": "e8989a492f11e28800bd2f2c6a84531702ca852cbe74d0ebdf083ccbafc34096"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-SUBTYPE-APPLICABILITY-SOURCE-RESOLUTION-V1/decisions_and_next_scan.json",
+      "byte_length": 1270,
+      "sha256": "44798cf1a30dcf8ffffb681b39e498d763a2e82aef6a383322cdc45e87f39348"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-SUBTYPE-APPLICABILITY-SOURCE-RESOLUTION-V1/exhaustive_source_search.json",
+      "byte_length": 1301,
+      "sha256": "17eed391ad686aa2f2882de9b76e8f8f2e3e92119a173c4495f5fcb99c54316a"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-SUBTYPE-APPLICABILITY-SOURCE-RESOLUTION-V1/final_subtype_matrix.json",
+      "byte_length": 984,
+      "sha256": "4ae2e7f0ad9e19c34c310d5fdda94487bbf2cfa7ff0c86c29007fabc3c0140e3"
+    },
+    {
+      "path": "kernel_reviews/TRIANGLE-E-C-SUBTYPE-APPLICABILITY-SOURCE-RESOLUTION-V1/test_and_audit.json",
+      "byte_length": 797,
+      "sha256": "5576311872972636f4ddf9dce62152d448b02ce9550be6624cb01b923efe13c9"
+    },
+    {
+      "path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/BASELINE_README.md",
+      "byte_length": 2612,
+      "sha256": "c6fb78b3fe74efc3871602ee391f8556e60be5755aec1eee5b695bdc7a841d11"
+    },
+    {
+      "path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/VALIDATED_INTERNAL_FAMILY_CONTRACT_manifest.json",
+      "byte_length": 8369,
+      "sha256": "e602c60840b730dde6e84e22081965be26e312ece7d2bfd9eb8d380263c2ad0e"
+    },
+    {
+      "path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/known_limitations.json",
+      "byte_length": 3442,
+      "sha256": "73e599b1b3a952ee061a5170e99e4df600937e09890d41ddcb9d80ea2a7991ff"
+    },
+    {
+      "path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/prior_baseline_delta.json",
+      "byte_length": 4931,
+      "sha256": "febc482843810fec2227bb81b962417ab2c1499246793b5b46856825d7f9aef3"
+    },
+    {
+      "path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/source_trace.json",
+      "byte_length": 3210,
+      "sha256": "46a6235cb06ed0beb8b5adbb988e5ce7dea77201da1ed1823ef1a9517eb54c18"
+    },
+    {
+      "path": "kernel_reviews/VALIDATED-INTERNAL-FAMILY-CONTRACT-V1/test_results.json",
+      "byte_length": 2760,
+      "sha256": "51195cf3f97d32d4d4d6009c9d83d73ed516ba1c869afbb21739869b3054dca8"
+    },
+    {
+      "path": "kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/BASELINE_README.md",
+      "byte_length": 2375,
+      "sha256": "3fca3f5863561f6f8bc978aa58466dc2ff31cbc7baa07bd4bc77d4cad6802f55"
+    },
+    {
+      "path": "kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/YAHOO_FINANCE_PROVIDER_ADAPTER_manifest.json",
+      "byte_length": 7805,
+      "sha256": "fc43fc6b207fbeeb2f628fdeadc50e3818c95dc2ead769240fd4c8bbee6c1351"
+    },
+    {
+      "path": "kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/known_limitations.json",
+      "byte_length": 1272,
+      "sha256": "ce3f89ffa0993643bdcdaacf1bba1d5054bdb9c5886f6bd5fb56e12a70242b06"
+    },
+    {
+      "path": "kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/live_nvda_verification.json",
+      "byte_length": 2310,
+      "sha256": "7020e8c348c4a75adfe47c9f31d4d059b2380efa511183bd4e8268b3cb1a4244"
+    },
+    {
+      "path": "kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/prior_baseline_delta.json",
+      "byte_length": 1142,
+      "sha256": "fdf01cca32aa9f0ae2a3f8b76e1e2035a2d08b02c54836d71276afa7261e90d6"
+    },
+    {
+      "path": "kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/source_trace.json",
+      "byte_length": 1164,
+      "sha256": "9ce7c99fca278d88bc5dd4565371fd159ae52f0da13baf20bbdb6b2fc721a087"
+    },
+    {
+      "path": "kernel_reviews/YAHOO-FINANCE-PROVIDER-ADAPTER-V1/test_results.json",
+      "byte_length": 1257,
+      "sha256": "661caa3b1c31d77c3383af8e3080d703f595900ed91659da4d0f97bdd14a57d5"
+    },
+    {
+      "path": "kernel_reviews/phase1-foundation-v1/BASELINE_README.md",
+      "byte_length": 873,
+      "sha256": "5c9a04bad1b2c76f31de6f743772f627987e3b2bc4f47b5fcec954fdf497544d"
+    },
+    {
+      "path": "kernel_reviews/phase1-foundation-v1/brain_reference.json",
+      "byte_length": 2795,
+      "sha256": "34a92905f21f30881be33c02958daf2fbb01af33e461cc247776677a42c9c919"
+    },
+    {
+      "path": "kernel_reviews/phase1-foundation-v1/environment.json",
+      "byte_length": 325,
+      "sha256": "af2cb732697f773711ccdcbdc38d8d04c4ba0131dcb20d7b68144145674fcb08"
+    },
+    {
+      "path": "kernel_reviews/phase1-foundation-v1/git_state.txt",
+      "byte_length": 1432,
+      "sha256": "e45b01aea3b0ea037bfa74c923f7042c0f72d779e990908b0719e65dd4d61a74"
+    },
+    {
+      "path": "kernel_reviews/phase1-foundation-v1/known_limitations.json",
+      "byte_length": 920,
+      "sha256": "05052b69025f926e727992aab8cbc8f872d99c9132cb2c75807f1803a2d475f9"
+    },
+    {
+      "path": "kernel_reviews/phase1-foundation-v1/phase1_manifest.json",
+      "byte_length": 5219,
+      "sha256": "f3ea2115bc469e511753dcf1be1fd72d6d501a7bd0b6f95078c81247ad44c1ad"
+    },
+    {
+      "path": "kernel_reviews/phase1-foundation-v1/test_results.json",
+      "byte_length": 573,
+      "sha256": "ed8cd675419789394f65de61b90c1672737705fc176fe70d652354d5a2ae16ff"
+    },
+    {
+      "path": "pyproject.toml",
+      "byte_length": 203,
+      "sha256": "dbf1ac3111cdfbae11c004b347f98a1738c00f1360219bc48d51e44afeb27372"
+    },
+    {
+      "path": "source_staging/SOURCE_MANIFEST.proposed.json",
+      "byte_length": 3766,
+      "sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089"
+    },
+    {
+      "path": "source_staging/SOURCE_MANIFEST_APPLY_INSTRUCTIONS.txt",
+      "byte_length": 2619,
+      "sha256": "5637821cad8644f6aeb8f8b74e57e50b3aee272aaa96dcb04a01198338de2878"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/__init__.py",
+      "byte_length": 14335,
+      "sha256": "04a6a59cc7d2c5609c1037538e4d57f0e9cbed0b32b18f13a1df177bc2ae25c2"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_structural_invalidity_certification.py",
+      "byte_length": 20580,
+      "sha256": "b3f321a3e76f93ff37e995e9a1694a058fce68d0adbb20f6572ba2fc2082f615"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/_validated_internal_family_certification.py",
+      "byte_length": 29951,
+      "sha256": "88588fd60ec247d18c7f89ae4c8eda360f0b3f8d75272fe4d18a38a10201bdbc"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/api.py",
+      "byte_length": 6695,
+      "sha256": "43a79d87cb21fd4193f8c97402a296c0fa750c3ae097fb4a4850e9b8a95dc7a8"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/audit.py",
+      "byte_length": 1215,
+      "sha256": "474355fa5985871bc6e76d287e8660af53eeb5bd3782c0522dae85f1dcb4db6e"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/behavior_inventory.py",
+      "byte_length": 467,
+      "sha256": "5a8fdd83a5ebefbe432f279ec020cf0cfe7bec62a92be7787075abb79aa7781a"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/bounded_manual_chart_analysis.py",
+      "byte_length": 21677,
+      "sha256": "da2b99383c4b9281101b48ea337d574d79bd09b3910c494fa5c737e5223bce2f"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/bounded_recursive_analysis.py",
+      "byte_length": 22908,
+      "sha256": "26c4a764a8081463e3cee64b151d3532770fd64c7aac8d57e2e156df86c5cc98"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/brain.py",
+      "byte_length": 5988,
+      "sha256": "e1b878306a23562d880e78013ac0ac2f736ebd36aa03745dfbba4ad120739856"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/candidate_analysis_envelope.py",
+      "byte_length": 27683,
+      "sha256": "30a81c5f7c2ea1d5d3b31a29e3b1878318b1ab9a6ba071b87461635ea4f5525c"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/contracts.py",
+      "byte_length": 2551,
+      "sha256": "9e6537102992e725cc999542c90bba28f23b117612d6191e21d599b4f455c237"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/degree_peer_consistency.py",
+      "byte_length": 4615,
+      "sha256": "faf0fb3761d23190f2a5719ae2c62a2cb6c2aa64a739fd8761e709e9be7b4b07"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/ending_diagonal_cardinality.py",
+      "byte_length": 5448,
+      "sha256": "a8c77cd321742ee20c686912782d429d8e5dec8bb7c29da2c29694e89a30e2fa"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/explicit_behavior_execution.py",
+      "byte_length": 28745,
+      "sha256": "988d4245de714b3a7029e7aeb80c9a7ad6a59fb40ec4444c82ea20acda2d9df4"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/explicit_pivot_candidate.py",
+      "byte_length": 38213,
+      "sha256": "b7bc0840cc2127f5268943bd7d0bfe270879bcd59f960cb503c15b1b78bde14f"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/human_readable_manual_candidate.py",
+      "byte_length": 13315,
+      "sha256": "8d2fc75ad9dc0a0e4fdfe6fe279a41aaa92c62cf3c7cdf879c39315cc83fdadf"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/manual_structure_candidate_builder.py",
+      "byte_length": 30746,
+      "sha256": "b59caa15d4bac404e0dc79d5e5ac4cc8ba95bbc697a60f3ba9e76ef58ffd6c74"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/models.py",
+      "byte_length": 5341,
+      "sha256": "3a724315d0c30dd54d404a3c0ae516945532366643039c8eb15d7e922d9ca56f"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/multi_degree_candidate_composition.py",
+      "byte_length": 32244,
+      "sha256": "2bfc809370f64e3934ade87a71b6b02fbe9e09d4c85b3dbd43ca99ea14eddd71"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/multi_timeframe_observation_transport.py",
+      "byte_length": 35887,
+      "sha256": "94a990d63308a02e1940edc462fd2639d86a6f70f56c2301c298229f47ee664d"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/normal_impulse_five_slot_view.py",
+      "byte_length": 3459,
+      "sha256": "8e401d2eb0f1b683ebfc9845f3a1f16f1a75bd125ef1825b0274ee68f63d31fa"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/observed_price_binding.py",
+      "byte_length": 5857,
+      "sha256": "8f6cedddf10b4989552ed30eaad8375819359ccdf56b4bbcd5a226a1069f0ccb"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p003_one_larger_degree_theme.py",
+      "byte_length": 5201,
+      "sha256": "a01aceb6e9ae0d77d607ca899ed66f4430be0a9602408c364d5fcbc98a55a207"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p004.py",
+      "byte_length": 4509,
+      "sha256": "397a438f5710a5a138b112c473a512a0df930e33ed7f10279e74589501500d1c"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p005_observation_binding.py",
+      "byte_length": 10278,
+      "sha256": "a19b30f4da1607121fd0fdbe4f53c552a48603c6869a35225c8594b471a886f5"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p005_percentage_sufficiency.py",
+      "byte_length": 11910,
+      "sha256": "86069cd4a55872e6741c514166028cf3ef0b6d3f4345998bec4bd505d9ec6423"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p007_single_zigzag_cardinality.py",
+      "byte_length": 5104,
+      "sha256": "c8f288de9619c5decd6b99c82cee1d21a72ad0824921e9326472b0de35a3973f"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p008_flat_cardinality.py",
+      "byte_length": 4924,
+      "sha256": "824fdec5f57c813b1d2345a90d21ee2dc21cca0359bd64139f8f55dee22f7a08"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p009_triangle_cardinality.py",
+      "byte_length": 5118,
+      "sha256": "433628d09d6401edaae497329bd700b65490b00ef7240d591029d33606e12b46"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/p023_visibility_guard.py",
+      "byte_length": 4082,
+      "sha256": "d5053ee43ad72f668bd3536d83393d2eae46c74c31189d13dc02b6bc852f94a2"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/parent_child_degree_adjacency.py",
+      "byte_length": 5250,
+      "sha256": "a4fca4714c850c3ee2d20dbb245c6929119789b7fa10097c661b8c09db497131"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/recursive_candidate_composition.py",
+      "byte_length": 27633,
+      "sha256": "70d724764c154bea438b47be952adbad05b5bcef4e3a6dfd85659a4c00599583"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/schema.py",
+      "byte_length": 9015,
+      "sha256": "97f159542e3d03fb7ca4f55117f956b61f87b253c60811adbf2cc49f810c27a6"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/single_candidate_orchestration.py",
+      "byte_length": 24092,
+      "sha256": "ccd315d1afe423772d4f4e9ee28e2ae2592c8b361dec5319da925fd66d1fec0e"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/structural_invalidity_evidence_no_rescue.py",
+      "byte_length": 5690,
+      "sha256": "350734b130fb23ab9eed0954f30e34890541c4c2e157947f9066497ff03cb8d3"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/subject_binding.py",
+      "byte_length": 3441,
+      "sha256": "063de9702dd3837dbc4d1de3efa5633481eb6834991f066d418d042fe119f4aa"
+    },
+    {
+      "path": "src/elliott_methodology_kernel/traceability.py",
+      "byte_length": 605,
+      "sha256": "0837b775c2889247ad5681eb85859c38594f9cde08651269cde65e0e9b2fa658"
+    },
+    {
+      "path": "src/elliott_runtime/__init__.py",
+      "byte_length": 44,
+      "sha256": "00b7ddea5e9db30cdee4e68e770e299144c8bf94c533ab036bd3e73562da00cf"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/__init__.py",
+      "byte_length": 13769,
+      "sha256": "9c2cd7fabb2ced4e394a3dffc6334a193044a3c905ee184a5c0c0a315068162b"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/candidate_generation.py",
+      "byte_length": 33742,
+      "sha256": "58879b7e860b3966c2f438dd53e93bafbbf8f8b9b92f3e85afa983f5f53a7d36"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/competing_candidates.py",
+      "byte_length": 16417,
+      "sha256": "1248b3b4616b270ed6a909f69cdbe675927c29f254afb7484f53fe470a299691"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/endpoint_path_evidence.py",
+      "byte_length": 15078,
+      "sha256": "80e49f77dd1bbb261481e2638c40f08e48a409d94a159bacaf6ad3724fb0d4ef"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/family_hypotheses.py",
+      "byte_length": 27765,
+      "sha256": "e423e8868790b80760497b3a178f9810215d76312fe6e473d92436426bf223f3"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/family_internal_subdivisions.py",
+      "byte_length": 36158,
+      "sha256": "a6e4a8ea99c54b3a800444a0b80935f64fdb4f77715b59b3a47975884c3d6adc"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/finer_child_observation_selection.py",
+      "byte_length": 21413,
+      "sha256": "f8b7719d8087328cacf02fc1d5a1564521209d8e57105f4aad46b27c1d02c4b5"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/flat_subtype_hypotheses.py",
+      "byte_length": 19810,
+      "sha256": "24e8daab47669e0b354942cdec3e7a1f1283c77e5ca3baf3a875fefc2aa8284c"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/normal_impulse_partial_evaluation.py",
+      "byte_length": 39338,
+      "sha256": "053961fd951c99c5f486d6c40baf616b991c3bbc48a635d6270642bcd17952d0"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/recursive_child_candidate_generation.py",
+      "byte_length": 42112,
+      "sha256": "ac6da651505293bc3c238b14b85984891624c5d5a2a168b8a99c9c819a923ea0"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/recursive_child_family_evaluation.py",
+      "byte_length": 20125,
+      "sha256": "2717f0eb21bd1fa0a3ad59228957cbde634ff2c94536c520d9ac6c3d133e917a"
+    },
+    {
+      "path": "src/elliott_runtime/manual_candidate_cli.py",
+      "byte_length": 4679,
+      "sha256": "1e57b5668d96cf90f7ef23e4b0e8de1820135338b5b973caa2a01149a1239a4c"
+    },
+    {
+      "path": "src/elliott_runtime/market_data/__init__.py",
+      "byte_length": 1441,
+      "sha256": "1242a512ca276a94e3d45bfac5c48746a9dc152c0ed8da66febd873d14431ade"
+    },
+    {
+      "path": "src/elliott_runtime/market_data/geometric_pivots.py",
+      "byte_length": 12567,
+      "sha256": "3f64b125a0a43966cdb22ac9c043b0eaa9eebf00a06e876583ee5aa0ed835550"
+    },
+    {
+      "path": "src/elliott_runtime/market_data/ingestion.py",
+      "byte_length": 6530,
+      "sha256": "f4f2319df74744444f98f96cbac7247ef675648ee6b68e995bd062d5a536aed4"
+    },
+    {
+      "path": "src/elliott_runtime/market_data/yahoo.py",
+      "byte_length": 17784,
+      "sha256": "db178343f70da99ecd602d29f7ff572d27e9542383d99a98b7b82d5af13ed14b"
+    },
+    {
+      "path": "src/elliott_runtime/pipelines/__init__.py",
+      "byte_length": 26,
+      "sha256": "e628a039e29fa0bb4984ac6e9f235c1201e58eaa3df0479661848a879e44eb31"
+    },
+    {
+      "path": "src/elliott_runtime/pipelines/analyze.py",
+      "byte_length": 418,
+      "sha256": "05c0e261ee523819ae266e6cb961ac1d7fd4a16a333a6cb95ff86a6e63f825fa"
+    },
+    {
+      "path": "src/elliott_runtime/ports/__init__.py",
+      "byte_length": 33,
+      "sha256": "d0385fd26f0b58be0c60e556532d2b6cf405877e9fb1c8f7c9997f31cb1a2924"
+    },
+    {
+      "path": "src/elliott_runtime/ports/methodology_kernel.py",
+      "byte_length": 335,
+      "sha256": "b6879616b903593d7136e8d04684d2a1a689b0cdc8a8cc77649c87997cda9dcf"
+    },
+    {
+      "path": "tests/support.py",
+      "byte_length": 231,
+      "sha256": "f9934c5ce89e1bfcc9e3ce059a190caadcf023298e405167e80a2888373021f4"
+    },
+    {
+      "path": "tests/test_audit.py",
+      "byte_length": 1434,
+      "sha256": "503d688cfd5412214d1bb6fa9a63479d392a1ae3c6b3d19f407acbbb84d24984"
+    },
+    {
+      "path": "tests/test_boundaries.py",
+      "byte_length": 1917,
+      "sha256": "21680a969b3e7cac526c43dc77d7526ab231282f7eccbbf01d10aeeb2bef074a"
+    },
+    {
+      "path": "tests/test_bounded_manual_chart_analysis.py",
+      "byte_length": 23753,
+      "sha256": "39c60e43663e34fd37ad6196b285285f4e3115db65a591204dbd8dd794633165"
+    },
+    {
+      "path": "tests/test_bounded_recursive_analysis.py",
+      "byte_length": 30012,
+      "sha256": "6f1069db302acb629808652f7f1da3268fb538802d56864b86b203d34f92e41f"
+    },
+    {
+      "path": "tests/test_brain.py",
+      "byte_length": 1473,
+      "sha256": "a7b7ce50c1bafe101184212e43da17f72d30d96fef55d2c9f66a010be4317414"
+    },
+    {
+      "path": "tests/test_candidate_analysis_envelope.py",
+      "byte_length": 30190,
+      "sha256": "8925b4bc8f719253cc132c1a47d180dabf51c03f8a341f73f4a97744aa1a1613"
+    },
+    {
+      "path": "tests/test_candidate_generation.py",
+      "byte_length": 21414,
+      "sha256": "fb982dfad4d61a2c78ba936d7bef8700e4b4f35aaa1df69e5beae607923b6dd2"
+    },
+    {
+      "path": "tests/test_competing_candidates.py",
+      "byte_length": 19579,
+      "sha256": "3936229cd7d54e58fdfa75802ec89970b754ceb409bcb8423de0eb1438435521"
+    },
+    {
+      "path": "tests/test_degree_peer_consistency.py",
+      "byte_length": 8657,
+      "sha256": "b9e5ad981d6647222ff06bf6049590bc99950b33936eecc9166fb99ae5b27132"
+    },
+    {
+      "path": "tests/test_ending_diagonal_cardinality.py",
+      "byte_length": 22142,
+      "sha256": "912aff90c9d31fd9b24e6449d2e5900900ee8c60cbfa7b3152700bbcbd027521"
+    },
+    {
+      "path": "tests/test_endpoint_path_evidence.py",
+      "byte_length": 9813,
+      "sha256": "a220e7e4ddcf3f4d83ca7b102ac2a428fae511fbd217e1c866a37e6240ab5f6d"
+    },
+    {
+      "path": "tests/test_explicit_behavior_execution.py",
+      "byte_length": 27814,
+      "sha256": "a28d927b1bbe1275a0bf30ffd402680ff2d3ac60f09a3214b2e3a23d9a766b6b"
+    },
+    {
+      "path": "tests/test_explicit_pivot_candidate.py",
+      "byte_length": 22870,
+      "sha256": "0cef300e5839f90c970879286497721fbe2eb90b9a958fc24659aadcefe41081"
+    },
+    {
+      "path": "tests/test_family_hypotheses.py",
+      "byte_length": 21888,
+      "sha256": "ddd66a26912607f636d726c01eb6c188c868b54dc69840d8231a20a13a15954c"
+    },
+    {
+      "path": "tests/test_family_internal_subdivisions.py",
+      "byte_length": 19160,
+      "sha256": "6cc35bc97c0033125410d6269211c7be5765898da28dd74e5c3239a7fa62f46b"
+    },
+    {
+      "path": "tests/test_finer_child_observation_selection.py",
+      "byte_length": 18276,
+      "sha256": "c74a381dcdc0a93bd13c135ff8fcdf15e0804a8c70757974c2be6f3ff1a7f2ba"
+    },
+    {
+      "path": "tests/test_flat_subtype_hypotheses.py",
+      "byte_length": 13570,
+      "sha256": "26e2c93f520ef546a60bc99b8a05d29dbedb5e9894b86de59bc62d9dcd48795b"
+    },
+    {
+      "path": "tests/test_geometric_pivots.py",
+      "byte_length": 12198,
+      "sha256": "89c55b93d8f74cff44bc61ae9749b692549acea00b6770561aa883f3b2c57573"
+    },
+    {
+      "path": "tests/test_kernel.py",
+      "byte_length": 2101,
+      "sha256": "29c980fcc69960098bbdb290c00ae2edf1b36781331853eef9730e69a1fbf7ed"
+    },
+    {
+      "path": "tests/test_manual_candidate_cli.py",
+      "byte_length": 17321,
+      "sha256": "594e8e396dc8ce71e352dcea77a184f5b0daf2f0ee8ed132178bb723e1e44d03"
+    },
+    {
+      "path": "tests/test_manual_structure_candidate_builder.py",
+      "byte_length": 28001,
+      "sha256": "efcc764b5c4c2bbf1e85685ef4350f489ba7d6019e4843dc19a84775ea9c7583"
+    },
+    {
+      "path": "tests/test_market_data.py",
+      "byte_length": 3876,
+      "sha256": "8ef26426ca2a08db09f347392968e09e5dd6f9d1fe2444ff79bd745e8892f940"
+    },
+    {
+      "path": "tests/test_multi_degree_candidate_composition.py",
+      "byte_length": 19648,
+      "sha256": "bf0becf5d3d0cf7b2d7620fd29166621d7f969f43d6202686ec9739d548becfc"
+    },
+    {
+      "path": "tests/test_multi_timeframe_observation_transport.py",
+      "byte_length": 28634,
+      "sha256": "d4302eabaa071ced29831ed8699f7a7b05095b97de102d046cb32024a763ee76"
+    },
+    {
+      "path": "tests/test_normal_impulse_ancestry_identity.py",
+      "byte_length": 7212,
+      "sha256": "cd7d8768ee02bfb2d7bdde900500eb67d43295f461b9a3ff725d00f5f29a28a3"
+    },
+    {
+      "path": "tests/test_normal_impulse_five_slot_view.py",
+      "byte_length": 19679,
+      "sha256": "596813b54594d97083f9f54f883304c497829daf8631e7f26ff386fea70560a9"
+    },
+    {
+      "path": "tests/test_normal_impulse_partial_evaluation.py",
+      "byte_length": 18456,
+      "sha256": "9ad3d8e2d39e3b9cc45be7758d87ebb879c26eac39ea039988f79f48ac4a8b4c"
+    },
+    {
+      "path": "tests/test_observed_price_binding.py",
+      "byte_length": 26497,
+      "sha256": "e88ac2898167e0b0d932235584b8064cac40616858a3345bae1f89e8c58f3036"
+    },
+    {
+      "path": "tests/test_p003_one_larger_degree_theme.py",
+      "byte_length": 16368,
+      "sha256": "e3f1207d0bcddb1b05ceb30a8dcfa8b5e959df58136ecc4f634f41a8834af123"
+    },
+    {
+      "path": "tests/test_p004.py",
+      "byte_length": 10879,
+      "sha256": "70558d676c90afd39d3dd2db0394f72e1f1a355cf64b8a50056386e6c89ed83f"
+    },
+    {
+      "path": "tests/test_p005_observation_binding.py",
+      "byte_length": 15158,
+      "sha256": "d1dbe1111127e254258056b1cd19692d5a0162fa44d9e7d81952873c21523ce8"
+    },
+    {
+      "path": "tests/test_p005_percentage_sufficiency.py",
+      "byte_length": 18151,
+      "sha256": "cd43913e3f8c1f23596b69b445394e952f2557375bce36089f5f9ab05d946632"
+    },
+    {
+      "path": "tests/test_p007_single_zigzag_cardinality.py",
+      "byte_length": 15311,
+      "sha256": "9aced89485536137bc2e1b0aff9a49c4f7d325f63d23b2095432ff34305960aa"
+    },
+    {
+      "path": "tests/test_p008_flat_cardinality.py",
+      "byte_length": 19128,
+      "sha256": "de15761adabe8eb75eac951afafbdf46fad5ef46bc2531a31561273e1aa4cf9f"
+    },
+    {
+      "path": "tests/test_p009_triangle_cardinality.py",
+      "byte_length": 23688,
+      "sha256": "3b0f4630956300d05e765d05a966eec98b32fdc02d4465a6f285efeb9edfe2e8"
+    },
+    {
+      "path": "tests/test_p023_visibility_guard.py",
+      "byte_length": 21752,
+      "sha256": "01d73b41b842ac4ed7683db548a4a069e8be13837e4a0b8b6fabdc5b93aa21a0"
+    },
+    {
+      "path": "tests/test_parent_child_degree_adjacency.py",
+      "byte_length": 22002,
+      "sha256": "e90cc0b99495130fa883f0f90292b731b7d568d181820db7bee19b5b4ad7a630"
+    },
+    {
+      "path": "tests/test_recursive_candidate_composition.py",
+      "byte_length": 28558,
+      "sha256": "1f97e058117243d1421754a2835864c5f4d78fcc2d911813969e7892ed928350"
+    },
+    {
+      "path": "tests/test_recursive_child_candidate_generation.py",
+      "byte_length": 19771,
+      "sha256": "d5c8996ec6b043300a4266aa81fbfc9f79257c99185043523bb8987034b3d0c8"
+    },
+    {
+      "path": "tests/test_recursive_child_family_evaluation.py",
+      "byte_length": 11378,
+      "sha256": "7ae32dbbe59925f028a1316f1df0304e0839d7dde9661581c3ccf794fd82a91c"
+    },
+    {
+      "path": "tests/test_schema.py",
+      "byte_length": 2430,
+      "sha256": "1db8f1a3d3295f689f688159596bba82cb7c61aefcc996451e0452bf2e4c353e"
+    },
+    {
+      "path": "tests/test_single_candidate_orchestration.py",
+      "byte_length": 27634,
+      "sha256": "f4a5d77e3ff043cab50c42c2d6886399a5672508a61074a51d670258a73b8c37"
+    },
+    {
+      "path": "tests/test_structural_invalidity_contract.py",
+      "byte_length": 33164,
+      "sha256": "b60fe5f0c763098eefbab15ad7dfba0cf98055f619bea437894eb620c28a34d3"
+    },
+    {
+      "path": "tests/test_structural_invalidity_evidence_no_rescue.py",
+      "byte_length": 17307,
+      "sha256": "a31669efaabec74cb88f39c2cabc39a218b1367316919dcc32cba580d1a4e674"
+    },
+    {
+      "path": "tests/test_subject_binding.py",
+      "byte_length": 21122,
+      "sha256": "61e762943ea340617901442edf695601445a63dfec03f37bab0887183162a7b5"
+    },
+    {
+      "path": "tests/test_validated_internal_family_contract.py",
+      "byte_length": 23827,
+      "sha256": "2fd8e8085db3039e840974ed78f7faf4e8945c741ad52d9ea6577a2503994b62"
+    },
+    {
+      "path": "tests/test_yahoo_market_data_provider.py",
+      "byte_length": 18029,
+      "sha256": "be4ce5619240edb89b9472c4d85801e41452b3f848eb4b37621161e449b495f3"
+    }
+  ]
+}

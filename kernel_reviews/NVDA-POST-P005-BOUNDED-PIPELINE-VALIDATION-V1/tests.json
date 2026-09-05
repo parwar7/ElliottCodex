@@ -1,0 +1,39 @@
+{
+  "focused": {
+    "tests": 139,
+    "passed": 139,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 45.748
+  },
+  "full": {
+    "tests": 997,
+    "passed": 997,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 109.442
+  },
+  "focused_command": "python -B -m unittest test_nvda_post_p005_experiment test_p005_observation_binding test_p005_percentage_sufficiency test_normal_impulse_partial_evaluation test_normal_impulse_ancestry_identity test_p004 -q",
+  "full_command": "python -B -m unittest discover -s tests -q",
+  "environment": {
+    "PYTHONPATH": "src;tests",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "new_orchestration_tests": 11,
+  "focused_runs_after_final_changes": 1,
+  "full_runs_after_final_changes": 1,
+  "network_retrieval_in_tests": false,
+  "expected_negative_test_output": "The mocked provider-failure test prints a traceback and INCOMPLETE; both suites exit 0. This is not an actual Yahoo failure.",
+  "covered": [
+    "Lossless normalized snapshot roundtrip and exact float ratios",
+    "Prior bounds and exactly one child layer",
+    "Live trace roles, prices, snapshot and binding identities",
+    "Deterministic same-result reporting",
+    "Tampered outcome/reason/non-rescue totals rejected",
+    "False family validity rejected",
+    "Workspace-only, exclusive-create outputs",
+    "Snapshot hash tampering rejected",
+    "Provider failure cannot become a successful/synthetic NVDA run",
+    "End-to-end factory delegation on explicitly synthetic test-only observations"
+  ]
+}

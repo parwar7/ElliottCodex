@@ -1,0 +1,108 @@
+{
+  "configuration": {
+    "automatic_child_levels": 1,
+    "child": {
+      "allowed_child_candidate_shapes": [
+        "THREE_SEGMENT_HYPOTHESIS",
+        "FIVE_SEGMENT_HYPOTHESIS"
+      ],
+      "max_child_candidate_span_pivots": 6,
+      "max_child_candidates_per_requirement": 10,
+      "max_child_skipped_pivots": 0,
+      "max_pivots_per_child_window": 6,
+      "max_requirements_processed": 100,
+      "max_requirements_with_finer_selection": 100,
+      "max_total_child_candidates": 500,
+      "max_total_child_windows": 100,
+      "max_total_finer_geometric_pivots": 10000
+    },
+    "child_family": {
+      "allowed_family_kinds": [
+        "SINGLE_ZIGZAG",
+        "FLAT",
+        "TRIANGLE",
+        "ENDING_DIAGONAL"
+      ],
+      "max_child_candidate_sets_processed": 100,
+      "max_child_candidates_processed": 500,
+      "max_family_hypotheses_per_child_candidate": 3,
+      "max_requirements_processed": 100,
+      "max_total_child_family_hypotheses": 1500,
+      "max_total_methodology_evaluations": 1500
+    },
+    "child_normal_impulse_cap": 1000,
+    "child_pivot_window": "EARLIEST (existing child generator)",
+    "classification": "CALLER_SUPPLIED_OPERATIONAL_BOUND",
+    "geometry": {
+      "equal_extreme_policy": "LAST",
+      "include_developing": true,
+      "left_window_bars": 2,
+      "method": "WINDOWED_LOCAL_EXTREMA",
+      "right_window_bars": 2
+    },
+    "parent": {
+      "allowed_candidate_shapes": [
+        "THREE_SEGMENT_HYPOTHESIS",
+        "FIVE_SEGMENT_HYPOTHESIS"
+      ],
+      "max_candidate_span_pivots": 6,
+      "max_candidates_generated": 10,
+      "max_pivots_considered": 6,
+      "max_skipped_pivots": 0,
+      "pivot_window": "LATEST"
+    },
+    "parent_family_kinds": [
+      "SINGLE_ZIGZAG",
+      "FLAT",
+      "TRIANGLE",
+      "ENDING_DIAGONAL"
+    ],
+    "parent_normal_impulse_cap": 100,
+    "scope_note": "Latest six parent pivots; earliest six per child window. No skipped pivots, degree assignment, resampling or ranking.",
+    "selection": {
+      "max_bars_per_selected_window": 10000,
+      "max_geometric_pivots_per_window": 5000
+    },
+    "timeframe_pairs": [
+      [
+        "1mo",
+        "1wk"
+      ],
+      [
+        "1wk",
+        "1d"
+      ],
+      [
+        "1d",
+        "1h"
+      ]
+    ]
+  },
+  "exclusions": {
+    "1mo": {
+      "parent_pivots_excluded": 65,
+      "per_window_child_pivots_excluded_total": 8,
+      "maximum_finer_pivots_in_one_window": 7
+    },
+    "1wk": {
+      "parent_pivots_excluded": 363,
+      "per_window_child_pivots_excluded_total": 0,
+      "maximum_finer_pivots_in_one_window": 5
+    },
+    "1d": {
+      "parent_pivots_excluded": 1805,
+      "per_window_child_pivots_excluded_total": 22,
+      "maximum_finer_pivots_in_one_window": 7
+    }
+  },
+  "provider": {
+    "timeout_seconds": 30,
+    "max_response_bytes": 67108864,
+    "include_prepost": false,
+    "hourly_request_days": 729,
+    "other_intervals_request_start_utc": "1970-01-01T00:00:00+00:00"
+  },
+  "historical_bounds_source": "../NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/nvda_experiment.json",
+  "unreported_historical_details": "Previous summary did not record every selector/cap. This stage explicitly records LATEST parents, existing EARLIEST children and all additional safety ceilings.",
+  "exclusion_unit": "Counts per requirement window; overlapping windows can count the same geometric pivot repeatedly. Exclusion is operational search scope, never Elliott invalidity."
+}

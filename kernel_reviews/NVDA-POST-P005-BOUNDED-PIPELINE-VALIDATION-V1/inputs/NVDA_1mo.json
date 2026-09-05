@@ -1,0 +1,4407 @@
+{
+  "metadata": {
+    "currency": "USD",
+    "dropped_null_ohlc_row_indices": [],
+    "exchange_gmt_offset_seconds": -14400,
+    "exchange_name": "NMS",
+    "exchange_timezone_name": "America/New_York",
+    "first_timestamp_utc": "1999-01-01T05:00:00+00:00",
+    "instrument_type": "EQUITY",
+    "last_timestamp_utc": "2026-09-04T20:00:00+00:00",
+    "missing_volume_row_count": 0,
+    "normalized_bar_count": 334,
+    "out_of_order_pair_count": 0,
+    "provider": "YAHOO_FINANCE_CHART",
+    "provider_symbol": "NVDA",
+    "raw_price_policy": "YAHOO_QUOTE_RAW_OHLC_NO_ADJCLOSE_MIXING",
+    "raw_row_count": 334,
+    "requested_interval": "1mo",
+    "requested_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=0&period2=1788599359&interval=1mo&includePrePost=false&events=div%2Csplits&includeAdjustedClose=false",
+    "response_sha256": "269d8f373e35734174e81314cc8c5329c44acfad2750ff9c4e8d0197f71a7e3e"
+  },
+  "observations": {
+    "bars": [
+      {
+        "close": 0.0395830012857914,
+        "high": 0.04882799834012985,
+        "low": 0.038802001625299454,
+        "open": 0.04374999925494194,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 1,
+          "source_timestamp": "1999-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "1999-01-01T05:00:00+00:00",
+        "volume": 4284288000.0
+      },
+      {
+        "close": 0.04570300132036209,
+        "high": 0.054687999188899994,
+        "low": 0.03606799989938736,
+        "open": 0.0395830012857914,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 2,
+          "source_timestamp": "1999-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "1999-02-01T05:00:00+00:00",
+        "volume": 3146592000.0
+      },
+      {
+        "close": 0.04400999844074249,
+        "high": 0.04791700094938278,
+        "low": 0.03802099823951721,
+        "open": 0.046875,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 3,
+          "source_timestamp": "1999-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "1999-03-01T05:00:00+00:00",
+        "volume": 2014512000.0
+      },
+      {
+        "close": 0.03802099823951721,
+        "high": 0.04583299905061722,
+        "low": 0.03333299979567528,
+        "open": 0.04400999844074249,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 4,
+          "source_timestamp": "1999-04-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "1999-04-01T05:00:00+00:00",
+        "volume": 1767024000.0
+      },
+      {
+        "close": 0.03554699942469597,
+        "high": 0.044530998915433884,
+        "low": 0.03437500074505806,
+        "open": 0.03841099888086319,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 5,
+          "source_timestamp": "1999-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "1999-05-01T04:00:00+00:00",
+        "volume": 2482512000.0
+      },
+      {
+        "close": 0.03984399884939194,
+        "high": 0.03984399884939194,
+        "low": 0.03411500155925751,
+        "open": 0.03541700169444084,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 6,
+          "source_timestamp": "1999-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "1999-06-01T04:00:00+00:00",
+        "volume": 2366160000.0
+      },
+      {
+        "close": 0.041926998645067215,
+        "high": 0.048177000135183334,
+        "low": 0.035677000880241394,
+        "open": 0.03984399884939194,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 7,
+          "source_timestamp": "1999-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "1999-07-01T04:00:00+00:00",
+        "volume": 3764064000.0
+      },
+      {
+        "close": 0.05859399959445,
+        "high": 0.05911500006914139,
+        "low": 0.04062499850988388,
+        "open": 0.041926998645067215,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 8,
+          "source_timestamp": "1999-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "1999-08-01T04:00:00+00:00",
+        "volume": 7894800000.0
+      },
+      {
+        "close": 0.04010400176048279,
+        "high": 0.05859399959445,
+        "low": 0.03489600121974945,
+        "open": 0.05859399959445,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 9,
+          "source_timestamp": "1999-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "1999-09-01T04:00:00+00:00",
+        "volume": 6992640000.0
+      },
+      {
+        "close": 0.04609400033950806,
+        "high": 0.05208300054073334,
+        "low": 0.03776000067591667,
+        "open": 0.03945299983024597,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 10,
+          "source_timestamp": "1999-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "1999-10-01T04:00:00+00:00",
+        "volume": 7953504000.0
+      },
+      {
+        "close": 0.07213500142097473,
+        "high": 0.09244800359010696,
+        "low": 0.04531300067901611,
+        "open": 0.04531300067901611,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 11,
+          "source_timestamp": "1999-11-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "1999-11-01T05:00:00+00:00",
+        "volume": 13917936000.0
+      },
+      {
+        "close": 0.09778600186109543,
+        "high": 0.09882800281047821,
+        "low": 0.07213500142097473,
+        "open": 0.07213500142097473,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 12,
+          "source_timestamp": "1999-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "1999-12-01T05:00:00+00:00",
+        "volume": 4917552000.0
+      },
+      {
+        "close": 0.07721400260925293,
+        "high": 0.10052099823951721,
+        "low": 0.07291699945926666,
+        "open": 0.09843800216913223,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 13,
+          "source_timestamp": "2000-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2000-01-01T05:00:00+00:00",
+        "volume": 4941456000.0
+      },
+      {
+        "close": 0.1333329975605011,
+        "high": 0.14218799769878387,
+        "low": 0.07447899878025055,
+        "open": 0.07734400033950806,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 14,
+          "source_timestamp": "2000-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2000-02-01T05:00:00+00:00",
+        "volume": 9160848000.0
+      },
+      {
+        "close": 0.17600899934768677,
+        "high": 0.3125,
+        "low": 0.11979199945926666,
+        "open": 0.1333329975605011,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 15,
+          "source_timestamp": "2000-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2000-03-01T05:00:00+00:00",
+        "volume": 17552160000.0
+      },
+      {
+        "close": 0.18567700684070587,
+        "high": 0.2299479991197586,
+        "low": 0.11874999850988388,
+        "open": 0.1744139939546585,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 16,
+          "source_timestamp": "2000-04-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2000-04-01T05:00:00+00:00",
+        "volume": 6481728000.0
+      },
+      {
+        "close": 0.2377600073814392,
+        "high": 0.24570299685001373,
+        "low": 0.15729199349880219,
+        "open": 0.19270800054073334,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 17,
+          "source_timestamp": "2000-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2000-05-01T04:00:00+00:00",
+        "volume": 8695584000.0
+      },
+      {
+        "close": 0.26484400033950806,
+        "high": 0.3666670024394989,
+        "low": 0.2382809966802597,
+        "open": 0.24479199945926666,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 18,
+          "source_timestamp": "2000-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2000-06-01T04:00:00+00:00",
+        "volume": 13271304000.0
+      },
+      {
+        "close": 0.25,
+        "high": 0.32213500142097473,
+        "low": 0.20833300054073334,
+        "open": 0.2666670083999634,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 19,
+          "source_timestamp": "2000-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2000-07-01T04:00:00+00:00",
+        "volume": 7280352000.0
+      },
+      {
+        "close": 0.33072900772094727,
+        "high": 0.34375,
+        "low": 0.22499999403953552,
+        "open": 0.25,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 20,
+          "source_timestamp": "2000-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2000-08-01T04:00:00+00:00",
+        "volume": 6079248000.0
+      },
+      {
+        "close": 0.34114599227905273,
+        "high": 0.35572901368141174,
+        "low": 0.26041701436042786,
+        "open": 0.3375000059604645,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 21,
+          "source_timestamp": "2000-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2000-09-01T04:00:00+00:00",
+        "volume": 5868576000.0
+      },
+      {
+        "close": 0.25891900062561035,
+        "high": 0.359375,
+        "low": 0.21900999546051025,
+        "open": 0.3458330035209656,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 22,
+          "source_timestamp": "2000-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2000-10-01T04:00:00+00:00",
+        "volume": 8841576000.0
+      },
+      {
+        "close": 0.16875000298023224,
+        "high": 0.33333298563957214,
+        "low": 0.15156300365924835,
+        "open": 0.25260400772094727,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 23,
+          "source_timestamp": "2000-11-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2000-11-01T05:00:00+00:00",
+        "volume": 8675472000.0
+      },
+      {
+        "close": 0.13652299344539642,
+        "high": 0.2114579975605011,
+        "low": 0.11458300054073334,
+        "open": 0.1791670024394989,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 24,
+          "source_timestamp": "2000-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2000-12-01T05:00:00+00:00",
+        "volume": 14453208000.0
+      },
+      {
+        "close": 0.21510399878025055,
+        "high": 0.23749999701976776,
+        "low": 0.1177079975605011,
+        "open": 0.13750000298023224,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 25,
+          "source_timestamp": "2001-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2001-01-01T05:00:00+00:00",
+        "volume": 10728648000.0
+      },
+      {
+        "close": 0.18619799613952637,
+        "high": 0.25416699051856995,
+        "low": 0.17083300650119781,
+        "open": 0.21510399878025055,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 26,
+          "source_timestamp": "2001-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2001-02-01T05:00:00+00:00",
+        "volume": 11644824000.0
+      },
+      {
+        "close": 0.2705079913139343,
+        "high": 0.2986980080604553,
+        "low": 0.16666699945926666,
+        "open": 0.18385399878025055,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 27,
+          "source_timestamp": "2001-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2001-03-01T05:00:00+00:00",
+        "volume": 28940472000.0
+      },
+      {
+        "close": 0.3470830023288727,
+        "high": 0.37495800852775574,
+        "low": 0.22421899437904358,
+        "open": 0.26979199051856995,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 28,
+          "source_timestamp": "2001-04-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2001-04-01T05:00:00+00:00",
+        "volume": 31102920000.0
+      },
+      {
+        "close": 0.35670799016952515,
+        "high": 0.41666701436042786,
+        "low": 0.3147920072078705,
+        "open": 0.3483330011367798,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 29,
+          "source_timestamp": "2001-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2001-05-01T04:00:00+00:00",
+        "volume": 28041600000.0
+      },
+      {
+        "close": 0.38645800948143005,
+        "high": 0.41499999165534973,
+        "low": 0.34562501311302185,
+        "open": 0.3591670095920563,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 30,
+          "source_timestamp": "2001-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2001-06-01T04:00:00+00:00",
+        "volume": 20156760000.0
+      },
+      {
+        "close": 0.33708301186561584,
+        "high": 0.37791699171066284,
+        "low": 0.28025001287460327,
+        "open": 0.37116700410842896,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 31,
+          "source_timestamp": "2001-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2001-07-01T04:00:00+00:00",
+        "volume": 21604512000.0
+      },
+      {
+        "close": 0.35295799374580383,
+        "high": 0.3779999911785126,
+        "low": 0.3343749940395355,
+        "open": 0.34370800852775574,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 32,
+          "source_timestamp": "2001-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2001-08-01T04:00:00+00:00",
+        "volume": 29863464000.0
+      },
+      {
+        "close": 0.22891700267791748,
+        "high": 0.35199999809265137,
+        "low": 0.2125830054283142,
+        "open": 0.35199999809265137,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 33,
+          "source_timestamp": "2001-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2001-09-01T04:00:00+00:00",
+        "volume": 21169188000.0
+      },
+      {
+        "close": 0.35716700553894043,
+        "high": 0.42033299803733826,
+        "low": 0.18883299827575684,
+        "open": 0.22875000536441803,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 34,
+          "source_timestamp": "2001-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2001-10-01T04:00:00+00:00",
+        "volume": 26377200000.0
+      },
+      {
+        "close": 0.45533299446105957,
+        "high": 0.4665830135345459,
+        "low": 0.35624998807907104,
+        "open": 0.3617500066757202,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 35,
+          "source_timestamp": "2001-11-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2001-11-01T05:00:00+00:00",
+        "volume": 28734600000.0
+      },
+      {
+        "close": 0.5575000047683716,
+        "high": 0.5854169726371765,
+        "low": 0.44041699171066284,
+        "open": 0.44574999809265137,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 36,
+          "source_timestamp": "2001-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2001-12-01T05:00:00+00:00",
+        "volume": 17648640000.0
+      },
+      {
+        "close": 0.5478330254554749,
+        "high": 0.6054999828338623,
+        "low": 0.49799999594688416,
+        "open": 0.5599169731140137,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 37,
+          "source_timestamp": "2002-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2002-01-01T05:00:00+00:00",
+        "volume": 23589180000.0
+      },
+      {
+        "close": 0.4250830113887787,
+        "high": 0.5527499914169312,
+        "low": 0.41041699051856995,
+        "open": 0.5469170212745667,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 38,
+          "source_timestamp": "2002-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2002-02-01T05:00:00+00:00",
+        "volume": 30995268000.0
+      },
+      {
+        "close": 0.3696669936180115,
+        "high": 0.504082977771759,
+        "low": 0.34891700744628906,
+        "open": 0.4291670024394989,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 39,
+          "source_timestamp": "2002-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2002-03-01T05:00:00+00:00",
+        "volume": 27269724000.0
+      },
+      {
+        "close": 0.29008299112319946,
+        "high": 0.37241700291633606,
+        "low": 0.2530829906463623,
+        "open": 0.34916698932647705,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 40,
+          "source_timestamp": "2002-04-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2002-04-01T05:00:00+00:00",
+        "volume": 32098620000.0
+      },
+      {
+        "close": 0.2788330018520355,
+        "high": 0.3387500047683716,
+        "low": 0.2559170126914978,
+        "open": 0.2853330075740814,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 41,
+          "source_timestamp": "2002-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2002-05-01T04:00:00+00:00",
+        "volume": 27800688000.0
+      },
+      {
+        "close": 0.14316700398921967,
+        "high": 0.280333012342453,
+        "low": 0.13691699504852295,
+        "open": 0.27208301424980164,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 42,
+          "source_timestamp": "2002-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2002-06-01T04:00:00+00:00",
+        "volume": 28839096000.0
+      },
+      {
+        "close": 0.09224999696016312,
+        "high": 0.194582998752594,
+        "low": 0.09116700291633606,
+        "open": 0.14249999821186066,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 43,
+          "source_timestamp": "2002-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2002-07-01T04:00:00+00:00",
+        "volume": 32480220000.0
+      },
+      {
+        "close": 0.0841670036315918,
+        "high": 0.11208300292491913,
+        "low": 0.07074999809265137,
+        "open": 0.09300000220537186,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 44,
+          "source_timestamp": "2002-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2002-08-01T04:00:00+00:00",
+        "volume": 24041412000.0
+      },
+      {
+        "close": 0.07133299857378006,
+        "high": 0.09916699677705765,
+        "low": 0.069582998752594,
+        "open": 0.0801670029759407,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 45,
+          "source_timestamp": "2002-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2002-09-01T04:00:00+00:00",
+        "volume": 17827740000.0
+      },
+      {
+        "close": 0.09916699677705765,
+        "high": 0.09983299672603607,
+        "low": 0.05999999865889549,
+        "open": 0.07191699743270874,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 46,
+          "source_timestamp": "2002-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2002-10-01T04:00:00+00:00",
+        "volume": 18364572000.0
+      },
+      {
+        "close": 0.14274999499320984,
+        "high": 0.14816699922084808,
+        "low": 0.08516699820756912,
+        "open": 0.09766700118780136,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 47,
+          "source_timestamp": "2002-11-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2002-11-01T05:00:00+00:00",
+        "volume": 34187196000.0
+      },
+      {
+        "close": 0.0959170013666153,
+        "high": 0.1522500067949295,
+        "low": 0.09324999898672104,
+        "open": 0.1503330022096634,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 48,
+          "source_timestamp": "2002-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2002-12-01T05:00:00+00:00",
+        "volume": 21906672000.0
+      },
+      {
+        "close": 0.0860000029206276,
+        "high": 0.11566700041294098,
+        "low": 0.07966700196266174,
+        "open": 0.10000000149011612,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 49,
+          "source_timestamp": "2003-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2003-01-01T05:00:00+00:00",
+        "volume": 23529132000.0
+      },
+      {
+        "close": 0.10516700148582458,
+        "high": 0.11241699755191803,
+        "low": 0.07774999737739563,
+        "open": 0.08758299797773361,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 50,
+          "source_timestamp": "2003-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2003-02-01T05:00:00+00:00",
+        "volume": 21243756000.0
+      },
+      {
+        "close": 0.1073329970240593,
+        "high": 0.12358299642801285,
+        "low": 0.10000000149011612,
+        "open": 0.10641700029373169,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 51,
+          "source_timestamp": "2003-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2003-03-01T05:00:00+00:00",
+        "volume": 18003156000.0
+      },
+      {
+        "close": 0.11941699683666229,
+        "high": 0.12250000238418579,
+        "low": 0.10716699808835983,
+        "open": 0.10958299785852432,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 52,
+          "source_timestamp": "2003-04-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2003-04-01T05:00:00+00:00",
+        "volume": 12578136000.0
+      },
+      {
+        "close": 0.218082994222641,
+        "high": 0.22191700339317322,
+        "low": 0.117917001247406,
+        "open": 0.11858300119638443,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 53,
+          "source_timestamp": "2003-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2003-05-01T04:00:00+00:00",
+        "volume": 37281804000.0
+      },
+      {
+        "close": 0.1909170001745224,
+        "high": 0.23125000298023224,
+        "low": 0.18383300304412842,
+        "open": 0.22374999523162842,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 54,
+          "source_timestamp": "2003-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2003-06-01T04:00:00+00:00",
+        "volume": 23196180000.0
+      },
+      {
+        "close": 0.15908299386501312,
+        "high": 0.21458299458026886,
+        "low": 0.15299999713897705,
+        "open": 0.18850000202655792,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 55,
+          "source_timestamp": "2003-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2003-07-01T04:00:00+00:00",
+        "volume": 19904292000.0
+      },
+      {
+        "close": 0.15141700208187103,
+        "high": 0.17891700565814972,
+        "low": 0.1271670013666153,
+        "open": 0.15916700661182404,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 56,
+          "source_timestamp": "2003-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2003-08-01T04:00:00+00:00",
+        "volume": 21743736000.0
+      },
+      {
+        "close": 0.13308300077915192,
+        "high": 0.17891700565814972,
+        "low": 0.1308329999446869,
+        "open": 0.1540829986333847,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 57,
+          "source_timestamp": "2003-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2003-09-01T04:00:00+00:00",
+        "volume": 23588952000.0
+      },
+      {
+        "close": 0.14733299612998962,
+        "high": 0.15633299946784973,
+        "low": 0.13291700184345245,
+        "open": 0.1333329975605011,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 58,
+          "source_timestamp": "2003-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2003-10-01T04:00:00+00:00",
+        "volume": 13788444000.0
+      },
+      {
+        "close": 0.17691700160503387,
+        "high": 0.18433299660682678,
+        "low": 0.1450829952955246,
+        "open": 0.14658300578594208,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 59,
+          "source_timestamp": "2003-11-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2003-11-01T05:00:00+00:00",
+        "volume": 17760924000.0
+      },
+      {
+        "close": 0.1933329999446869,
+        "high": 0.20166699588298798,
+        "low": 0.16249999403953552,
+        "open": 0.17891700565814972,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 60,
+          "source_timestamp": "2003-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2003-12-01T05:00:00+00:00",
+        "volume": 12347688000.0
+      },
+      {
+        "close": 0.18541699647903442,
+        "high": 0.2156669944524765,
+        "low": 0.17624999582767487,
+        "open": 0.19641700387001038,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 61,
+          "source_timestamp": "2004-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2004-01-01T05:00:00+00:00",
+        "volume": 12401580000.0
+      },
+      {
+        "close": 0.18541699647903442,
+        "high": 0.20274999737739563,
+        "low": 0.18241700530052185,
+        "open": 0.1869170069694519,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 62,
+          "source_timestamp": "2004-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2004-02-01T05:00:00+00:00",
+        "volume": 11862804000.0
+      },
+      {
+        "close": 0.2199999988079071,
+        "high": 0.22233299911022186,
+        "low": 0.17191700637340546,
+        "open": 0.18491700291633606,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 63,
+          "source_timestamp": "2004-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2004-03-01T05:00:00+00:00",
+        "volume": 13192248000.0
+      },
+      {
+        "close": 0.17100000381469727,
+        "high": 0.22791700065135956,
+        "low": 0.17033299803733826,
+        "open": 0.2202499955892563,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 64,
+          "source_timestamp": "2004-04-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2004-04-01T05:00:00+00:00",
+        "volume": 12362592000.0
+      },
+      {
+        "close": 0.19541700184345245,
+        "high": 0.1965000033378601,
+        "low": 0.1658329963684082,
+        "open": 0.17283299565315247,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 65,
+          "source_timestamp": "2004-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2004-05-01T04:00:00+00:00",
+        "volume": 10290336000.0
+      },
+      {
+        "close": 0.17058299481868744,
+        "high": 0.20091700553894043,
+        "low": 0.16066700220108032,
+        "open": 0.19208300113677979,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 66,
+          "source_timestamp": "2004-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2004-06-01T04:00:00+00:00",
+        "volume": 9524892000.0
+      },
+      {
+        "close": 0.12849999964237213,
+        "high": 0.17274999618530273,
+        "low": 0.11533299833536148,
+        "open": 0.17249999940395355,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 67,
+          "source_timestamp": "2004-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2004-07-01T04:00:00+00:00",
+        "volume": 11743992000.0
+      },
+      {
+        "close": 0.10383299738168716,
+        "high": 0.1308329999446869,
+        "low": 0.07750000059604645,
+        "open": 0.12858299911022186,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 68,
+          "source_timestamp": "2004-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2004-08-01T04:00:00+00:00",
+        "volume": 22610472000.0
+      },
+      {
+        "close": 0.12099999934434891,
+        "high": 0.1264999955892563,
+        "low": 0.10116700083017349,
+        "open": 0.10249999910593033,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 69,
+          "source_timestamp": "2004-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2004-09-01T04:00:00+00:00",
+        "volume": 15624108000.0
+      },
+      {
+        "close": 0.12058299779891968,
+        "high": 0.1324169933795929,
+        "low": 0.10899999737739563,
+        "open": 0.1215829998254776,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 70,
+          "source_timestamp": "2004-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2004-10-01T04:00:00+00:00",
+        "volume": 16351632000.0
+      },
+      {
+        "close": 0.15941700339317322,
+        "high": 0.171083003282547,
+        "low": 0.12066700309515,
+        "open": 0.12224999815225601,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 71,
+          "source_timestamp": "2004-11-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2004-11-01T05:00:00+00:00",
+        "volume": 18380604000.0
+      },
+      {
+        "close": 0.19633300602436066,
+        "high": 0.20800000429153442,
+        "low": 0.1596670001745224,
+        "open": 0.16083300113677979,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 72,
+          "source_timestamp": "2004-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2004-12-01T05:00:00+00:00",
+        "volume": 17652936000.0
+      },
+      {
+        "close": 0.19099999964237213,
+        "high": 0.20600000023841858,
+        "low": 0.1704999953508377,
+        "open": 0.20316700637340546,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 73,
+          "source_timestamp": "2005-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2005-01-01T05:00:00+00:00",
+        "volume": 13718760000.0
+      },
+      {
+        "close": 0.24158300459384918,
+        "high": 0.2440830022096634,
+        "low": 0.1896670013666153,
+        "open": 0.19083300232887268,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 74,
+          "source_timestamp": "2005-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2005-02-01T05:00:00+00:00",
+        "volume": 17263920000.0
+      },
+      {
+        "close": 0.1979999989271164,
+        "high": 0.24666699767112732,
+        "low": 0.19558300077915192,
+        "open": 0.24266700446605682,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 75,
+          "source_timestamp": "2005-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2005-03-01T05:00:00+00:00",
+        "volume": 15128592000.0
+      },
+      {
+        "close": 0.18275000154972076,
+        "high": 0.2032500058412552,
+        "low": 0.17433300614356995,
+        "open": 0.20041699707508087,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 76,
+          "source_timestamp": "2005-04-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2005-04-01T05:00:00+00:00",
+        "volume": 9788556000.0
+      },
+      {
+        "close": 0.225832998752594,
+        "high": 0.23258300125598907,
+        "low": 0.17933300137519836,
+        "open": 0.18491700291633606,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 77,
+          "source_timestamp": "2005-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2005-05-01T04:00:00+00:00",
+        "volume": 14199696000.0
+      },
+      {
+        "close": 0.22266699373722076,
+        "high": 0.24491700530052185,
+        "low": 0.2147500067949295,
+        "open": 0.2243330031633377,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 78,
+          "source_timestamp": "2005-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2005-06-01T04:00:00+00:00",
+        "volume": 16206264000.0
+      },
+      {
+        "close": 0.22550000250339508,
+        "high": 0.2441670000553131,
+        "low": 0.21183300018310547,
+        "open": 0.22191700339317322,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 79,
+          "source_timestamp": "2005-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2005-07-01T04:00:00+00:00",
+        "volume": 13622904000.0
+      },
+      {
+        "close": 0.2556670010089874,
+        "high": 0.25883299112319946,
+        "low": 0.22533300518989563,
+        "open": 0.22683300077915192,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 80,
+          "source_timestamp": "2005-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2005-08-01T04:00:00+00:00",
+        "volume": 14333544000.0
+      },
+      {
+        "close": 0.2856670022010803,
+        "high": 0.28824999928474426,
+        "low": 0.24866700172424316,
+        "open": 0.2549169957637787,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 81,
+          "source_timestamp": "2005-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2005-09-01T04:00:00+00:00",
+        "volume": 11099136000.0
+      },
+      {
+        "close": 0.27958300709724426,
+        "high": 0.29958298802375793,
+        "low": 0.2542499899864197,
+        "open": 0.289000004529953,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 82,
+          "source_timestamp": "2005-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2005-10-01T04:00:00+00:00",
+        "volume": 9381960000.0
+      },
+      {
+        "close": 0.30125001072883606,
+        "high": 0.3208329975605011,
+        "low": 0.27366700768470764,
+        "open": 0.27958300709724426,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 83,
+          "source_timestamp": "2005-11-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2005-11-01T05:00:00+00:00",
+        "volume": 13110036000.0
+      },
+      {
+        "close": 0.30466699600219727,
+        "high": 0.3186669945716858,
+        "low": 0.2951669991016388,
+        "open": 0.30375000834465027,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 84,
+          "source_timestamp": "2005-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2005-12-01T05:00:00+00:00",
+        "volume": 7663404000.0
+      },
+      {
+        "close": 0.3746669888496399,
+        "high": 0.38966700434684753,
+        "low": 0.305417001247406,
+        "open": 0.30641698837280273,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 85,
+          "source_timestamp": "2006-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2006-01-01T05:00:00+00:00",
+        "volume": 9519288000.0
+      },
+      {
+        "close": 0.39274999499320984,
+        "high": 0.422666996717453,
+        "low": 0.35725000500679016,
+        "open": 0.367917001247406,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 86,
+          "source_timestamp": "2006-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2006-02-01T05:00:00+00:00",
+        "volume": 11871252000.0
+      },
+      {
+        "close": 0.477167010307312,
+        "high": 0.48524999618530273,
+        "low": 0.3855000138282776,
+        "open": 0.3941670060157776,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 87,
+          "source_timestamp": "2006-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2006-03-01T05:00:00+00:00",
+        "volume": 15777384000.0
+      },
+      {
+        "close": 0.4869999885559082,
+        "high": 0.5139999985694885,
+        "low": 0.46216699481010437,
+        "open": 0.4796670079231262,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 88,
+          "source_timestamp": "2006-04-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2006-04-01T05:00:00+00:00",
+        "volume": 13351836000.0
+      },
+      {
+        "close": 0.382999986410141,
+        "high": 0.5313330292701721,
+        "low": 0.3806670010089874,
+        "open": 0.4903329908847809,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 89,
+          "source_timestamp": "2006-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2006-05-01T04:00:00+00:00",
+        "volume": 14381178000.0
+      },
+      {
+        "close": 0.3548330068588257,
+        "high": 0.4115000069141388,
+        "low": 0.3186669945716858,
+        "open": 0.3873330056667328,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 90,
+          "source_timestamp": "2006-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2006-06-01T04:00:00+00:00",
+        "volume": 12274956000.0
+      },
+      {
+        "close": 0.36899998784065247,
+        "high": 0.3785000145435333,
+        "low": 0.2861669957637787,
+        "open": 0.3630000054836273,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 91,
+          "source_timestamp": "2006-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2006-07-01T04:00:00+00:00",
+        "volume": 12104742000.0
+      },
+      {
+        "close": 0.485166996717453,
+        "high": 0.492000013589859,
+        "low": 0.3474999964237213,
+        "open": 0.3644999861717224,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 92,
+          "source_timestamp": "2006-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2006-08-01T04:00:00+00:00",
+        "volume": 16247604000.0
+      },
+      {
+        "close": 0.4931670129299164,
+        "high": 0.5208330154418945,
+        "low": 0.4390000104904175,
+        "open": 0.4779999852180481,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 93,
+          "source_timestamp": "2006-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2006-09-01T04:00:00+00:00",
+        "volume": 11497302000.0
+      },
+      {
+        "close": 0.5811669826507568,
+        "high": 0.5811669826507568,
+        "low": 0.46116700768470764,
+        "open": 0.49083301424980164,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 94,
+          "source_timestamp": "2006-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2006-10-01T04:00:00+00:00",
+        "volume": 13568772000.0
+      },
+      {
+        "close": 0.6165000200271606,
+        "high": 0.6215000152587891,
+        "low": 0.5253329873085022,
+        "open": 0.5734999775886536,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 95,
+          "source_timestamp": "2006-11-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2006-11-01T05:00:00+00:00",
+        "volume": 13455474000.0
+      },
+      {
+        "close": 0.616832971572876,
+        "high": 0.6493330001831055,
+        "low": 0.5816670060157776,
+        "open": 0.6096670031547546,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 96,
+          "source_timestamp": "2006-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2006-12-01T05:00:00+00:00",
+        "volume": 10008768000.0
+      },
+      {
+        "close": 0.5108330249786377,
+        "high": 0.6253330111503601,
+        "low": 0.4984999895095825,
+        "open": 0.6178330183029175,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 97,
+          "source_timestamp": "2007-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2007-01-01T05:00:00+00:00",
+        "volume": 17067402000.0
+      },
+      {
+        "close": 0.5166670083999634,
+        "high": 0.581833004951477,
+        "low": 0.5049999952316284,
+        "open": 0.5059999823570251,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 98,
+          "source_timestamp": "2007-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2007-02-01T05:00:00+00:00",
+        "volume": 13470912000.0
+      },
+      {
+        "close": 0.4796670079231262,
+        "high": 0.5266669988632202,
+        "low": 0.46733298897743225,
+        "open": 0.5055000185966492,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 99,
+          "source_timestamp": "2007-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2007-03-01T05:00:00+00:00",
+        "volume": 14723250000.0
+      },
+      {
+        "close": 0.5481669902801514,
+        "high": 0.5656669735908508,
+        "low": 0.47133299708366394,
+        "open": 0.47850000858306885,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 100,
+          "source_timestamp": "2007-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2007-04-01T04:00:00+00:00",
+        "volume": 13520172000.0
+      },
+      {
+        "close": 0.5773329734802246,
+        "high": 0.6000000238418579,
+        "low": 0.536666989326477,
+        "open": 0.5581669807434082,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 101,
+          "source_timestamp": "2007-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2007-05-01T04:00:00+00:00",
+        "volume": 12620946000.0
+      },
+      {
+        "close": 0.6884999871253967,
+        "high": 0.7311670184135437,
+        "low": 0.5736669898033142,
+        "open": 0.5838329792022705,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 102,
+          "source_timestamp": "2007-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2007-06-01T04:00:00+00:00",
+        "volume": 14460498000.0
+      },
+      {
+        "close": 0.7626670002937317,
+        "high": 0.7988330125808716,
+        "low": 0.6961669921875,
+        "open": 0.6983330249786377,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 103,
+          "source_timestamp": "2007-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2007-07-01T04:00:00+00:00",
+        "volume": 10421874000.0
+      },
+      {
+        "close": 0.852666974067688,
+        "high": 0.8558329939842224,
+        "low": 0.675000011920929,
+        "open": 0.7516670227050781,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 104,
+          "source_timestamp": "2007-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2007-08-01T04:00:00+00:00",
+        "volume": 15690222000.0
+      },
+      {
+        "close": 0.906000018119812,
+        "high": 0.9300000071525574,
+        "low": 0.7957500219345093,
+        "open": 0.8565000295639038,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 105,
+          "source_timestamp": "2007-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2007-09-01T04:00:00+00:00",
+        "volume": 9779846000.0
+      },
+      {
+        "close": 0.8845000267028809,
+        "high": 0.9917500019073486,
+        "low": 0.8140000104904175,
+        "open": 0.9137499928474426,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 106,
+          "source_timestamp": "2007-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2007-10-01T04:00:00+00:00",
+        "volume": 10668964000.0
+      },
+      {
+        "close": 0.7885000109672546,
+        "high": 0.9549999833106995,
+        "low": 0.7277500033378601,
+        "open": 0.8707500100135803,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 107,
+          "source_timestamp": "2007-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2007-11-01T04:00:00+00:00",
+        "volume": 12056668000.0
+      },
+      {
+        "close": 0.8504999876022339,
+        "high": 0.9100000262260437,
+        "low": 0.7837499976158142,
+        "open": 0.800000011920929,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 108,
+          "source_timestamp": "2007-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2007-12-01T05:00:00+00:00",
+        "volume": 7581432000.0
+      },
+      {
+        "close": 0.6147500276565552,
+        "high": 0.856249988079071,
+        "low": 0.5582500100135803,
+        "open": 0.8529999852180481,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 109,
+          "source_timestamp": "2008-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2008-01-01T05:00:00+00:00",
+        "volume": 15496232000.0
+      },
+      {
+        "close": 0.5347499847412109,
+        "high": 0.6897500157356262,
+        "low": 0.5289999842643738,
+        "open": 0.6134999990463257,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 110,
+          "source_timestamp": "2008-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2008-02-01T05:00:00+00:00",
+        "volume": 13630144000.0
+      },
+      {
+        "close": 0.4947499930858612,
+        "high": 0.5417500138282776,
+        "low": 0.43274998664855957,
+        "open": 0.5339999794960022,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 111,
+          "source_timestamp": "2008-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2008-03-01T05:00:00+00:00",
+        "volume": 15935928000.0
+      },
+      {
+        "close": 0.5137500166893005,
+        "high": 0.5264999866485596,
+        "low": 0.4402500092983246,
+        "open": 0.5095000267028809,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 112,
+          "source_timestamp": "2008-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2008-04-01T04:00:00+00:00",
+        "volume": 16624308000.0
+      },
+      {
+        "close": 0.6175000071525574,
+        "high": 0.6327499747276306,
+        "low": 0.5174999833106995,
+        "open": 0.5199999809265137,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 113,
+          "source_timestamp": "2008-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2008-05-01T04:00:00+00:00",
+        "volume": 20393652000.0
+      },
+      {
+        "close": 0.46799999475479126,
+        "high": 0.6337500214576721,
+        "low": 0.4647499918937683,
+        "open": 0.6175000071525574,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 114,
+          "source_timestamp": "2008-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2008-06-01T04:00:00+00:00",
+        "volume": 17163856000.0
+      },
+      {
+        "close": 0.28600001335144043,
+        "high": 0.46950000524520874,
+        "low": 0.26750001311302185,
+        "open": 0.4625000059604645,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 115,
+          "source_timestamp": "2008-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2008-07-01T04:00:00+00:00",
+        "volume": 22761908000.0
+      },
+      {
+        "close": 0.3160000145435333,
+        "high": 0.3529999852180481,
+        "low": 0.26374998688697815,
+        "open": 0.2784999907016754,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 116,
+          "source_timestamp": "2008-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2008-08-01T04:00:00+00:00",
+        "volume": 18645488000.0
+      },
+      {
+        "close": 0.26774999499320984,
+        "high": 0.3240000009536743,
+        "low": 0.2199999988079071,
+        "open": 0.32124999165534973,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 117,
+          "source_timestamp": "2008-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2008-09-01T04:00:00+00:00",
+        "volume": 19722456000.0
+      },
+      {
+        "close": 0.21899999678134918,
+        "high": 0.2685000002384186,
+        "low": 0.14925000071525574,
+        "open": 0.26374998688697815,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 118,
+          "source_timestamp": "2008-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2008-10-01T04:00:00+00:00",
+        "volume": 20444772000.0
+      },
+      {
+        "close": 0.18674999475479126,
+        "high": 0.2277500033378601,
+        "low": 0.14374999701976776,
+        "open": 0.22374999523162842,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 119,
+          "source_timestamp": "2008-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2008-11-01T04:00:00+00:00",
+        "volume": 12201968000.0
+      },
+      {
+        "close": 0.2017499953508377,
+        "high": 0.23624999821186066,
+        "low": 0.16850000619888306,
+        "open": 0.17925000190734863,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 120,
+          "source_timestamp": "2008-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2008-12-01T05:00:00+00:00",
+        "volume": 11678692000.0
+      },
+      {
+        "close": 0.19875000417232513,
+        "high": 0.2357500046491623,
+        "low": 0.1770000010728836,
+        "open": 0.2017499953508377,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 121,
+          "source_timestamp": "2009-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2009-01-01T05:00:00+00:00",
+        "volume": 15267320000.0
+      },
+      {
+        "close": 0.2070000022649765,
+        "high": 0.24924999475479126,
+        "low": 0.18025000393390656,
+        "open": 0.19574999809265137,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 122,
+          "source_timestamp": "2009-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2009-02-01T05:00:00+00:00",
+        "volume": 16303064000.0
+      },
+      {
+        "close": 0.24650000035762787,
+        "high": 0.29624998569488525,
+        "low": 0.18674999475479126,
+        "open": 0.20200000703334808,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 123,
+          "source_timestamp": "2009-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2009-03-01T05:00:00+00:00",
+        "volume": 22188612000.0
+      },
+      {
+        "close": 0.28700000047683716,
+        "high": 0.3019999861717224,
+        "low": 0.2342499941587448,
+        "open": 0.2434999942779541,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 124,
+          "source_timestamp": "2009-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2009-04-01T04:00:00+00:00",
+        "volume": 17628704000.0
+      },
+      {
+        "close": 0.2607499957084656,
+        "high": 0.3097499907016754,
+        "low": 0.2082500010728836,
+        "open": 0.2862499952316284,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 125,
+          "source_timestamp": "2009-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2009-05-01T04:00:00+00:00",
+        "volume": 21404532000.0
+      },
+      {
+        "close": 0.28224998712539673,
+        "high": 0.3050000071525574,
+        "low": 0.25224998593330383,
+        "open": 0.26374998688697815,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 126,
+          "source_timestamp": "2009-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2009-06-01T04:00:00+00:00",
+        "volume": 14679120000.0
+      },
+      {
+        "close": 0.3232499957084656,
+        "high": 0.33024999499320984,
+        "low": 0.24275000393390656,
+        "open": 0.2840000092983246,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 127,
+          "source_timestamp": "2009-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2009-07-01T04:00:00+00:00",
+        "volume": 15994748000.0
+      },
+      {
+        "close": 0.3630000054836273,
+        "high": 0.37575000524520874,
+        "low": 0.3179999887943268,
+        "open": 0.3310000002384186,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 128,
+          "source_timestamp": "2009-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2009-08-01T04:00:00+00:00",
+        "volume": 13226924000.0
+      },
+      {
+        "close": 0.37575000524520874,
+        "high": 0.41449999809265137,
+        "low": 0.3487499952316284,
+        "open": 0.36274999380111694,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 129,
+          "source_timestamp": "2009-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2009-09-01T04:00:00+00:00",
+        "volume": 12076336000.0
+      },
+      {
+        "close": 0.29899999499320984,
+        "high": 0.37450000643730164,
+        "low": 0.29750001430511475,
+        "open": 0.37450000643730164,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 130,
+          "source_timestamp": "2009-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2009-10-01T04:00:00+00:00",
+        "volume": 15518708000.0
+      },
+      {
+        "close": 0.3264999985694885,
+        "high": 0.3477500081062317,
+        "low": 0.289000004529953,
+        "open": 0.2985000014305115,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 131,
+          "source_timestamp": "2009-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2009-11-01T04:00:00+00:00",
+        "volume": 12858216000.0
+      },
+      {
+        "close": 0.46700000762939453,
+        "high": 0.4737499952316284,
+        "low": 0.3264999985694885,
+        "open": 0.328249990940094,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 132,
+          "source_timestamp": "2009-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2009-12-01T05:00:00+00:00",
+        "volume": 16371668000.0
+      },
+      {
+        "close": 0.38475000858306885,
+        "high": 0.4740000069141388,
+        "low": 0.3787499964237213,
+        "open": 0.46274998784065247,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 133,
+          "source_timestamp": "2010-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2010-01-01T05:00:00+00:00",
+        "volume": 12898492000.0
+      },
+      {
+        "close": 0.4050000011920929,
+        "high": 0.44749999046325684,
+        "low": 0.382999986410141,
+        "open": 0.38624998927116394,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 134,
+          "source_timestamp": "2010-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2010-02-01T05:00:00+00:00",
+        "volume": 12861324000.0
+      },
+      {
+        "close": 0.4350000023841858,
+        "high": 0.4584999978542328,
+        "low": 0.4020000100135803,
+        "open": 0.40525001287460327,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 135,
+          "source_timestamp": "2010-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2010-03-01T05:00:00+00:00",
+        "volume": 11747816000.0
+      },
+      {
+        "close": 0.39274999499320984,
+        "high": 0.453249990940094,
+        "low": 0.39250001311302185,
+        "open": 0.43700000643730164,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 136,
+          "source_timestamp": "2010-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2010-04-01T04:00:00+00:00",
+        "volume": 17109980000.0
+      },
+      {
+        "close": 0.32850000262260437,
+        "high": 0.3970000147819519,
+        "low": 0.29624998569488525,
+        "open": 0.3947499990463257,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 137,
+          "source_timestamp": "2010-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2010-05-01T04:00:00+00:00",
+        "volume": 20772720000.0
+      },
+      {
+        "close": 0.2552500069141388,
+        "high": 0.32774999737739563,
+        "low": 0.2552500069141388,
+        "open": 0.3240000009536743,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 138,
+          "source_timestamp": "2010-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2010-06-01T04:00:00+00:00",
+        "volume": 13692592000.0
+      },
+      {
+        "close": 0.22975000739097595,
+        "high": 0.28700000047683716,
+        "low": 0.22300000488758087,
+        "open": 0.25600001215934753,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 139,
+          "source_timestamp": "2010-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2010-07-01T04:00:00+00:00",
+        "volume": 19236568000.0
+      },
+      {
+        "close": 0.23325000703334808,
+        "high": 0.2562499940395355,
+        "low": 0.2162500023841858,
+        "open": 0.23375000059604645,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 140,
+          "source_timestamp": "2010-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2010-08-01T04:00:00+00:00",
+        "volume": 19412856000.0
+      },
+      {
+        "close": 0.2919999957084656,
+        "high": 0.3089999854564667,
+        "low": 0.23350000381469727,
+        "open": 0.23675000667572021,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 141,
+          "source_timestamp": "2010-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2010-09-01T04:00:00+00:00",
+        "volume": 17533164000.0
+      },
+      {
+        "close": 0.3005000054836273,
+        "high": 0.3059999942779541,
+        "low": 0.25949999690055847,
+        "open": 0.29624998569488525,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 142,
+          "source_timestamp": "2010-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2010-10-01T04:00:00+00:00",
+        "volume": 15803184000.0
+      },
+      {
+        "close": 0.3402499854564667,
+        "high": 0.34599998593330383,
+        "low": 0.2985000014305115,
+        "open": 0.30250000953674316,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 143,
+          "source_timestamp": "2010-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2010-11-01T04:00:00+00:00",
+        "volume": 14539300000.0
+      },
+      {
+        "close": 0.38499999046325684,
+        "high": 0.3855000138282776,
+        "low": 0.3465000092983246,
+        "open": 0.34700000286102295,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 144,
+          "source_timestamp": "2010-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2010-12-01T05:00:00+00:00",
+        "volume": 11204136000.0
+      },
+      {
+        "close": 0.5979999899864197,
+        "high": 0.6262500286102295,
+        "low": 0.3855000138282776,
+        "open": 0.3880000114440918,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 145,
+          "source_timestamp": "2011-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2011-01-01T05:00:00+00:00",
+        "volume": 32736884000.0
+      },
+      {
+        "close": 0.5665000081062317,
+        "high": 0.6542500257492065,
+        "low": 0.5444999933242798,
+        "open": 0.6032500267028809,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 146,
+          "source_timestamp": "2011-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2011-02-01T05:00:00+00:00",
+        "volume": 24025764000.0
+      },
+      {
+        "close": 0.46149998903274536,
+        "high": 0.5747500061988831,
+        "low": 0.42524999380111694,
+        "open": 0.5674999952316284,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 147,
+          "source_timestamp": "2011-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2011-03-01T05:00:00+00:00",
+        "volume": 27597580000.0
+      },
+      {
+        "close": 0.5,
+        "high": 0.5109999775886536,
+        "low": 0.4207499921321869,
+        "open": 0.4675000011920929,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 148,
+          "source_timestamp": "2011-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2011-04-01T04:00:00+00:00",
+        "volume": 15322072000.0
+      },
+      {
+        "close": 0.5009999871253967,
+        "high": 0.5130000114440918,
+        "low": 0.42800000309944153,
+        "open": 0.5105000138282776,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 149,
+          "source_timestamp": "2011-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2011-05-01T04:00:00+00:00",
+        "volume": 17162516000.0
+      },
+      {
+        "close": 0.398499995470047,
+        "high": 0.49950000643730164,
+        "low": 0.3714999854564667,
+        "open": 0.4987500011920929,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 150,
+          "source_timestamp": "2011-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2011-06-01T04:00:00+00:00",
+        "volume": 15953784000.0
+      },
+      {
+        "close": 0.34575000405311584,
+        "high": 0.40700000524520874,
+        "low": 0.3397499918937683,
+        "open": 0.398499995470047,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 151,
+          "source_timestamp": "2011-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2011-07-01T04:00:00+00:00",
+        "volume": 14551656000.0
+      },
+      {
+        "close": 0.33274999260902405,
+        "high": 0.38449999690055847,
+        "low": 0.29124999046325684,
+        "open": 0.35374999046325684,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 152,
+          "source_timestamp": "2011-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2011-08-01T04:00:00+00:00",
+        "volume": 22571904000.0
+      },
+      {
+        "close": 0.3127500116825104,
+        "high": 0.4025000035762787,
+        "low": 0.3095000088214874,
+        "open": 0.3372499942779541,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 153,
+          "source_timestamp": "2011-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2011-09-01T04:00:00+00:00",
+        "volume": 20084740000.0
+      },
+      {
+        "close": 0.3700000047683716,
+        "high": 0.3972499966621399,
+        "low": 0.2867499887943268,
+        "open": 0.3087500035762787,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 154,
+          "source_timestamp": "2011-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2011-10-01T04:00:00+00:00",
+        "volume": 14851364000.0
+      },
+      {
+        "close": 0.390749990940094,
+        "high": 0.3917500078678131,
+        "low": 0.3375000059604645,
+        "open": 0.3564999997615814,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 155,
+          "source_timestamp": "2011-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2011-11-01T04:00:00+00:00",
+        "volume": 16166032000.0
+      },
+      {
+        "close": 0.3465000092983246,
+        "high": 0.4012500047683716,
+        "low": 0.32774999737739563,
+        "open": 0.38749998807907104,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 156,
+          "source_timestamp": "2011-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2011-12-01T05:00:00+00:00",
+        "volume": 9742340000.0
+      },
+      {
+        "close": 0.36924999952316284,
+        "high": 0.38100001215934753,
+        "low": 0.3375000059604645,
+        "open": 0.35749998688697815,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 157,
+          "source_timestamp": "2012-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2012-01-01T05:00:00+00:00",
+        "volume": 11596668000.0
+      },
+      {
+        "close": 0.3787499964237213,
+        "high": 0.42250001430511475,
+        "low": 0.3682500123977661,
+        "open": 0.3734999895095825,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 158,
+          "source_timestamp": "2012-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2012-02-01T05:00:00+00:00",
+        "volume": 13078296000.0
+      },
+      {
+        "close": 0.38499999046325684,
+        "high": 0.38999998569488525,
+        "low": 0.35600000619888306,
+        "open": 0.3802500069141388,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 159,
+          "source_timestamp": "2012-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2012-03-01T05:00:00+00:00",
+        "volume": 10325244000.0
+      },
+      {
+        "close": 0.32499998807907104,
+        "high": 0.38725000619888306,
+        "low": 0.3187499940395355,
+        "open": 0.3840000033378601,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 160,
+          "source_timestamp": "2012-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2012-04-01T04:00:00+00:00",
+        "volume": 9550924000.0
+      },
+      {
+        "close": 0.31075000762939453,
+        "high": 0.34200000762939453,
+        "low": 0.2957499921321869,
+        "open": 0.3232499957084656,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 161,
+          "source_timestamp": "2012-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2012-05-01T04:00:00+00:00",
+        "volume": 11370012000.0
+      },
+      {
+        "close": 0.34549999237060547,
+        "high": 0.3462499976158142,
+        "low": 0.29074999690055847,
+        "open": 0.30425000190734863,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 162,
+          "source_timestamp": "2012-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2012-06-01T04:00:00+00:00",
+        "volume": 11529368000.0
+      },
+      {
+        "close": 0.3384999930858612,
+        "high": 0.3474999964237213,
+        "low": 0.30399999022483826,
+        "open": 0.3472500145435333,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 163,
+          "source_timestamp": "2012-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2012-07-01T04:00:00+00:00",
+        "volume": 8499872000.0
+      },
+      {
+        "close": 0.35074999928474426,
+        "high": 0.3804999887943268,
+        "low": 0.32749998569488525,
+        "open": 0.34049999713897705,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 164,
+          "source_timestamp": "2012-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2012-08-01T04:00:00+00:00",
+        "volume": 9917124000.0
+      },
+      {
+        "close": 0.3334999978542328,
+        "high": 0.35225000977516174,
+        "low": 0.32374998927116394,
+        "open": 0.3449999988079071,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 165,
+          "source_timestamp": "2012-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2012-09-01T04:00:00+00:00",
+        "volume": 8749448000.0
+      },
+      {
+        "close": 0.2994999885559082,
+        "high": 0.3449999988079071,
+        "low": 0.2957499921321869,
+        "open": 0.33500000834465027,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 166,
+          "source_timestamp": "2012-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2012-10-01T04:00:00+00:00",
+        "volume": 8135772000.0
+      },
+      {
+        "close": 0.2992500066757202,
+        "high": 0.3269999921321869,
+        "low": 0.2787500023841858,
+        "open": 0.3009999990463257,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 167,
+          "source_timestamp": "2012-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2012-11-01T04:00:00+00:00",
+        "volume": 9985612000.0
+      },
+      {
+        "close": 0.30649998784065247,
+        "high": 0.320250004529953,
+        "low": 0.29249998927116394,
+        "open": 0.30300000309944153,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 168,
+          "source_timestamp": "2012-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2012-12-01T05:00:00+00:00",
+        "volume": 8037340000.0
+      },
+      {
+        "close": 0.30649998784065247,
+        "high": 0.3297500014305115,
+        "low": 0.29774999618530273,
+        "open": 0.3140000104904175,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 169,
+          "source_timestamp": "2013-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2013-01-01T05:00:00+00:00",
+        "volume": 9181612000.0
+      },
+      {
+        "close": 0.3165000081062317,
+        "high": 0.32124999165534973,
+        "low": 0.30125001072883606,
+        "open": 0.3089999854564667,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 170,
+          "source_timestamp": "2013-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2013-02-01T05:00:00+00:00",
+        "volume": 9901680000.0
+      },
+      {
+        "close": 0.32074999809265137,
+        "high": 0.32499998807907104,
+        "low": 0.30799999833106995,
+        "open": 0.31424999237060547,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 171,
+          "source_timestamp": "2013-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2013-03-01T05:00:00+00:00",
+        "volume": 6613708000.0
+      },
+      {
+        "close": 0.34424999356269836,
+        "high": 0.34424999356269836,
+        "low": 0.3009999990463257,
+        "open": 0.3199999928474426,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 172,
+          "source_timestamp": "2013-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2013-04-01T04:00:00+00:00",
+        "volume": 9386076000.0
+      },
+      {
+        "close": 0.3617500066757202,
+        "high": 0.37450000643730164,
+        "low": 0.33799999952316284,
+        "open": 0.34424999356269836,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 173,
+          "source_timestamp": "2013-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2013-05-01T04:00:00+00:00",
+        "volume": 8291540000.0
+      },
+      {
+        "close": 0.35100001096725464,
+        "high": 0.3869999945163727,
+        "low": 0.34575000405311584,
+        "open": 0.3622500002384186,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 174,
+          "source_timestamp": "2013-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2013-06-01T04:00:00+00:00",
+        "volume": 9295708000.0
+      },
+      {
+        "close": 0.3610000014305115,
+        "high": 0.3695000112056732,
+        "low": 0.3490000069141388,
+        "open": 0.35350000858306885,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 175,
+          "source_timestamp": "2013-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2013-07-01T04:00:00+00:00",
+        "volume": 5229992000.0
+      },
+      {
+        "close": 0.3687500059604645,
+        "high": 0.38499999046325684,
+        "low": 0.32774999737739563,
+        "open": 0.3622500002384186,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 176,
+          "source_timestamp": "2013-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2013-08-01T04:00:00+00:00",
+        "volume": 7857064000.0
+      },
+      {
+        "close": 0.3889999985694885,
+        "high": 0.4025000035762787,
+        "low": 0.36675000190734863,
+        "open": 0.3697499930858612,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 177,
+          "source_timestamp": "2013-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2013-09-01T04:00:00+00:00",
+        "volume": 4819932000.0
+      },
+      {
+        "close": 0.37975001335144043,
+        "high": 0.40024998784065247,
+        "low": 0.375,
+        "open": 0.3894999921321869,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 178,
+          "source_timestamp": "2013-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2013-10-01T04:00:00+00:00",
+        "volume": 5772612000.0
+      },
+      {
+        "close": 0.38999998569488525,
+        "high": 0.40799999237060547,
+        "low": 0.3630000054836273,
+        "open": 0.3817499876022339,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 179,
+          "source_timestamp": "2013-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2013-11-01T04:00:00+00:00",
+        "volume": 6629476000.0
+      },
+      {
+        "close": 0.40049999952316284,
+        "high": 0.4025000035762787,
+        "low": 0.3725000023841858,
+        "open": 0.38850000500679016,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 180,
+          "source_timestamp": "2013-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2013-12-01T05:00:00+00:00",
+        "volume": 6167976000.0
+      },
+      {
+        "close": 0.39250001311302185,
+        "high": 0.41100001335144043,
+        "low": 0.38324999809265137,
+        "open": 0.39800000190734863,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 181,
+          "source_timestamp": "2014-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2014-01-01T05:00:00+00:00",
+        "volume": 5421052000.0
+      },
+      {
+        "close": 0.4595000147819519,
+        "high": 0.4762499928474426,
+        "low": 0.382999986410141,
+        "open": 0.39524999260902405,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 182,
+          "source_timestamp": "2014-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2014-02-01T05:00:00+00:00",
+        "volume": 7722568000.0
+      },
+      {
+        "close": 0.4477500021457672,
+        "high": 0.4742499887943268,
+        "low": 0.4390000104904175,
+        "open": 0.4492500126361847,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 183,
+          "source_timestamp": "2014-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2014-03-01T05:00:00+00:00",
+        "volume": 7217988000.0
+      },
+      {
+        "close": 0.46175000071525574,
+        "high": 0.48649999499320984,
+        "low": 0.44699999690055847,
+        "open": 0.4620000123977661,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 184,
+          "source_timestamp": "2014-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2014-04-01T04:00:00+00:00",
+        "volume": 6937008000.0
+      },
+      {
+        "close": 0.4749999940395355,
+        "high": 0.47824999690055847,
+        "low": 0.4427500069141388,
+        "open": 0.46875,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 185,
+          "source_timestamp": "2014-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2014-05-01T04:00:00+00:00",
+        "volume": 5612600000.0
+      },
+      {
+        "close": 0.4634999930858612,
+        "high": 0.4932500123977661,
+        "low": 0.4557499885559082,
+        "open": 0.476500004529953,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 186,
+          "source_timestamp": "2014-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2014-06-01T04:00:00+00:00",
+        "volume": 5277132000.0
+      },
+      {
+        "close": 0.4375,
+        "high": 0.49000000953674316,
+        "low": 0.43549999594688416,
+        "open": 0.46299999952316284,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 187,
+          "source_timestamp": "2014-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2014-07-01T04:00:00+00:00",
+        "volume": 6269036000.0
+      },
+      {
+        "close": 0.48625001311302185,
+        "high": 0.4872500002384186,
+        "low": 0.4334999918937683,
+        "open": 0.4375,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 188,
+          "source_timestamp": "2014-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2014-08-01T04:00:00+00:00",
+        "volume": 6079852000.0
+      },
+      {
+        "close": 0.4612500071525574,
+        "high": 0.5037500262260437,
+        "low": 0.4555000066757202,
+        "open": 0.48750001192092896,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 189,
+          "source_timestamp": "2014-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2014-09-01T04:00:00+00:00",
+        "volume": 5512388000.0
+      },
+      {
+        "close": 0.4884999990463257,
+        "high": 0.48875001072883606,
+        "low": 0.4192500114440918,
+        "open": 0.4620000123977661,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 190,
+          "source_timestamp": "2014-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2014-10-01T04:00:00+00:00",
+        "volume": 6607212000.0
+      },
+      {
+        "close": 0.5242499709129333,
+        "high": 0.5272499918937683,
+        "low": 0.484499990940094,
+        "open": 0.4997499883174896,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 191,
+          "source_timestamp": "2014-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2014-11-01T04:00:00+00:00",
+        "volume": 4643096000.0
+      },
+      {
+        "close": 0.5012500286102295,
+        "high": 0.53125,
+        "low": 0.47749999165534973,
+        "open": 0.5220000147819519,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 192,
+          "source_timestamp": "2014-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2014-12-01T05:00:00+00:00",
+        "volume": 4257004000.0
+      },
+      {
+        "close": 0.47999998927116394,
+        "high": 0.518750011920929,
+        "low": 0.47699999809265137,
+        "open": 0.503250002861023,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 193,
+          "source_timestamp": "2015-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2015-01-01T05:00:00+00:00",
+        "volume": 4140352000.0
+      },
+      {
+        "close": 0.5515000224113464,
+        "high": 0.5625,
+        "low": 0.47350001335144043,
+        "open": 0.4830000102519989,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 194,
+          "source_timestamp": "2015-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2015-02-01T05:00:00+00:00",
+        "volume": 4193540000.0
+      },
+      {
+        "close": 0.5232499837875366,
+        "high": 0.5902500152587891,
+        "low": 0.5115000009536743,
+        "open": 0.550000011920929,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 195,
+          "source_timestamp": "2015-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2015-03-01T05:00:00+00:00",
+        "volume": 7310444000.0
+      },
+      {
+        "close": 0.5550000071525574,
+        "high": 0.5709999799728394,
+        "low": 0.5162500143051147,
+        "open": 0.5252500176429749,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 196,
+          "source_timestamp": "2015-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2015-04-01T04:00:00+00:00",
+        "volume": 5673652000.0
+      },
+      {
+        "close": 0.5532500147819519,
+        "high": 0.5720000267028809,
+        "low": 0.5095000267028809,
+        "open": 0.559499979019165,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 197,
+          "source_timestamp": "2015-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2015-05-01T04:00:00+00:00",
+        "volume": 7081336000.0
+      },
+      {
+        "close": 0.5027499794960022,
+        "high": 0.5649999976158142,
+        "low": 0.49924999475479126,
+        "open": 0.5567499995231628,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 198,
+          "source_timestamp": "2015-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2015-06-01T04:00:00+00:00",
+        "volume": 7333832000.0
+      },
+      {
+        "close": 0.4987500011920929,
+        "high": 0.5224999785423279,
+        "low": 0.47725000977516174,
+        "open": 0.515250027179718,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 199,
+          "source_timestamp": "2015-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2015-07-01T04:00:00+00:00",
+        "volume": 5480404000.0
+      },
+      {
+        "close": 0.5619999766349792,
+        "high": 0.5987499952316284,
+        "low": 0.4962500035762787,
+        "open": 0.5027499794960022,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 200,
+          "source_timestamp": "2015-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2015-08-01T04:00:00+00:00",
+        "volume": 9469492000.0
+      },
+      {
+        "close": 0.6162499785423279,
+        "high": 0.6169999837875366,
+        "low": 0.5350000262260437,
+        "open": 0.5457500219345093,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 201,
+          "source_timestamp": "2015-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2015-09-01T04:00:00+00:00",
+        "volume": 6480208000.0
+      },
+      {
+        "close": 0.7092499732971191,
+        "high": 0.7195000052452087,
+        "low": 0.5867499709129333,
+        "open": 0.6162499785423279,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 202,
+          "source_timestamp": "2015-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2015-10-01T04:00:00+00:00",
+        "volume": 8052316000.0
+      },
+      {
+        "close": 0.7929999828338623,
+        "high": 0.7985000014305115,
+        "low": 0.690750002861023,
+        "open": 0.7114999890327454,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 203,
+          "source_timestamp": "2015-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2015-11-01T04:00:00+00:00",
+        "volume": 7344816000.0
+      },
+      {
+        "close": 0.8240000009536743,
+        "high": 0.8485000133514404,
+        "low": 0.7992500066757202,
+        "open": 0.800000011920929,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 204,
+          "source_timestamp": "2015-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2015-12-01T05:00:00+00:00",
+        "volume": 5627172000.0
+      },
+      {
+        "close": 0.7322499752044678,
+        "high": 0.8360000252723694,
+        "low": 0.6612499952316284,
+        "open": 0.8072500228881836,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 205,
+          "source_timestamp": "2016-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2016-01-01T05:00:00+00:00",
+        "volume": 8138980000.0
+      },
+      {
+        "close": 0.7839999794960022,
+        "high": 0.8029999732971191,
+        "low": 0.6187499761581421,
+        "open": 0.7315000295639038,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 206,
+          "source_timestamp": "2016-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2016-02-01T05:00:00+00:00",
+        "volume": 9000048000.0
+      },
+      {
+        "close": 0.890749990940094,
+        "high": 0.90625,
+        "low": 0.7760000228881836,
+        "open": 0.7860000133514404,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 207,
+          "source_timestamp": "2016-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2016-03-01T05:00:00+00:00",
+        "volume": 6577904000.0
+      },
+      {
+        "close": 0.8882499933242798,
+        "high": 0.9365000128746033,
+        "low": 0.8657500147819519,
+        "open": 0.8852499723434448,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 208,
+          "source_timestamp": "2016-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2016-04-01T04:00:00+00:00",
+        "volume": 6734252000.0
+      },
+      {
+        "close": 1.1679999828338623,
+        "high": 1.1705000400543213,
+        "low": 0.8600000143051147,
+        "open": 0.8967499732971191,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 209,
+          "source_timestamp": "2016-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2016-05-01T04:00:00+00:00",
+        "volume": 10367836000.0
+      },
+      {
+        "close": 1.1752500534057617,
+        "high": 1.2135000228881836,
+        "low": 1.1142499446868896,
+        "open": 1.162500023841858,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 210,
+          "source_timestamp": "2016-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2016-06-01T04:00:00+00:00",
+        "volume": 8197900000.0
+      },
+      {
+        "close": 1.4275000095367432,
+        "high": 1.431249976158142,
+        "low": 1.1507500410079956,
+        "open": 1.1687500476837158,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 211,
+          "source_timestamp": "2016-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2016-07-01T04:00:00+00:00",
+        "volume": 7210052000.0
+      },
+      {
+        "close": 1.5334999561309814,
+        "high": 1.587499976158142,
+        "low": 1.3875000476837158,
+        "open": 1.433500051498413,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 212,
+          "source_timestamp": "2016-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2016-08-01T04:00:00+00:00",
+        "volume": 9305120000.0
+      },
+      {
+        "close": 1.7130000591278076,
+        "high": 1.7297500371932983,
+        "low": 1.4329999685287476,
+        "open": 1.534749984741211,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 213,
+          "source_timestamp": "2016-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2016-09-01T04:00:00+00:00",
+        "volume": 8665252000.0
+      },
+      {
+        "close": 1.7790000438690186,
+        "high": 1.8237500190734863,
+        "low": 1.5924999713897705,
+        "open": 1.7130000591278076,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 214,
+          "source_timestamp": "2016-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2016-10-01T04:00:00+00:00",
+        "volume": 6551568000.0
+      },
+      {
+        "close": 2.305000066757202,
+        "high": 2.3812499046325684,
+        "low": 1.6644999980926514,
+        "open": 1.7855000495910645,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 215,
+          "source_timestamp": "2016-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2016-11-01T04:00:00+00:00",
+        "volume": 12767464000.0
+      },
+      {
+        "close": 2.6684999465942383,
+        "high": 2.9982500076293945,
+        "low": 2.1192500591278076,
+        "open": 2.302500009536743,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 216,
+          "source_timestamp": "2016-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2016-12-01T05:00:00+00:00",
+        "volume": 18082228000.0
+      },
+      {
+        "close": 2.7295000553131104,
+        "high": 2.7972500324249268,
+        "low": 2.477750062942505,
+        "open": 2.609999895095825,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 217,
+          "source_timestamp": "2017-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2017-01-01T05:00:00+00:00",
+        "volume": 13396840000.0
+      },
+      {
+        "close": 2.5369999408721924,
+        "high": 3.0230000019073486,
+        "low": 2.3924999237060547,
+        "open": 2.7644999027252197,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 218,
+          "source_timestamp": "2017-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2017-02-01T05:00:00+00:00",
+        "volume": 14206788000.0
+      },
+      {
+        "close": 2.723249912261963,
+        "high": 2.75,
+        "low": 2.3792500495910645,
+        "open": 2.594749927520752,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 219,
+          "source_timestamp": "2017-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2017-03-01T05:00:00+00:00",
+        "volume": 14288960000.0
+      },
+      {
+        "close": 2.6075000762939453,
+        "high": 2.7412500381469727,
+        "low": 2.3872499465942383,
+        "open": 2.723750114440918,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 220,
+          "source_timestamp": "2017-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2017-04-01T04:00:00+00:00",
+        "volume": 9572572000.0
+      },
+      {
+        "close": 3.608750104904175,
+        "high": 3.674999952316284,
+        "low": 2.5577499866485596,
+        "open": 2.618499994277954,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 221,
+          "source_timestamp": "2017-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2017-05-01T04:00:00+00:00",
+        "volume": 19209444000.0
+      },
+      {
+        "close": 3.614000082015991,
+        "high": 4.212500095367432,
+        "low": 3.5527501106262207,
+        "open": 3.6247498989105225,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 222,
+          "source_timestamp": "2017-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2017-06-01T04:00:00+00:00",
+        "volume": 23445520000.0
+      },
+      {
+        "close": 4.062749862670898,
+        "high": 4.2482500076293945,
+        "low": 3.4644999504089355,
+        "open": 3.6262500286102295,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 223,
+          "source_timestamp": "2017-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2017-07-01T04:00:00+00:00",
+        "volume": 15491016000.0
+      },
+      {
+        "close": 4.236000061035156,
+        "high": 4.363999843597412,
+        "low": 3.8227500915527344,
+        "open": 4.053249835968018,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 224,
+          "source_timestamp": "2017-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2017-08-01T04:00:00+00:00",
+        "volume": 14728216000.0
+      },
+      {
+        "close": 4.469250202178955,
+        "high": 4.78000020980835,
+        "low": 4.067749977111816,
+        "open": 4.24875020980835,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 225,
+          "source_timestamp": "2017-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2017-09-01T04:00:00+00:00",
+        "volume": 14447336000.0
+      },
+      {
+        "close": 5.170249938964844,
+        "high": 5.197249889373779,
+        "low": 4.425000190734863,
+        "open": 4.519999980926514,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 226,
+          "source_timestamp": "2017-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2017-10-01T04:00:00+00:00",
+        "volume": 11422664000.0
+      },
+      {
+        "close": 5.017749786376953,
+        "high": 5.466750144958496,
+        "low": 4.780749797821045,
+        "open": 5.233749866485596,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 227,
+          "source_timestamp": "2017-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2017-11-01T04:00:00+00:00",
+        "volume": 11830896000.0
+      },
+      {
+        "close": 4.837500095367432,
+        "high": 5.007500171661377,
+        "low": 4.514500141143799,
+        "open": 4.982749938964844,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 228,
+          "source_timestamp": "2017-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2017-12-01T05:00:00+00:00",
+        "volume": 10112216000.0
+      },
+      {
+        "close": 6.144999980926514,
+        "high": 6.231750011444092,
+        "low": 4.862500190734863,
+        "open": 4.894499778747559,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 229,
+          "source_timestamp": "2018-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2018-01-01T05:00:00+00:00",
+        "volume": 11456216000.0
+      },
+      {
+        "close": 6.050000190734863,
+        "high": 6.29925012588501,
+        "low": 5.099999904632568,
+        "open": 5.9629998207092285,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 230,
+          "source_timestamp": "2018-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2018-02-01T05:00:00+00:00",
+        "volume": 14915528000.0
+      },
+      {
+        "close": 5.789750099182129,
+        "high": 6.362500190734863,
+        "low": 5.425000190734863,
+        "open": 6.047749996185303,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 231,
+          "source_timestamp": "2018-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2018-03-01T05:00:00+00:00",
+        "volume": 14118440000.0
+      },
+      {
+        "close": 5.622499942779541,
+        "high": 5.981249809265137,
+        "low": 5.257500171661377,
+        "open": 5.718500137329102,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 232,
+          "source_timestamp": "2018-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2018-04-01T04:00:00+00:00",
+        "volume": 11144008000.0
+      },
+      {
+        "close": 6.304749965667725,
+        "high": 6.512499809265137,
+        "low": 5.554999828338623,
+        "open": 5.614250183105469,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 233,
+          "source_timestamp": "2018-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2018-05-01T04:00:00+00:00",
+        "volume": 11978240000.0
+      },
+      {
+        "close": 5.922500133514404,
+        "high": 6.730000019073486,
+        "low": 5.875249862670898,
+        "open": 6.349999904632568,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 234,
+          "source_timestamp": "2018-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2018-06-01T04:00:00+00:00",
+        "volume": 8785540000.0
+      },
+      {
+        "close": 6.121500015258789,
+        "high": 6.414999961853027,
+        "low": 5.831500053405762,
+        "open": 5.852250099182129,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 235,
+          "source_timestamp": "2018-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2018-07-01T04:00:00+00:00",
+        "volume": 6321876000.0
+      },
+      {
+        "close": 7.017000198364258,
+        "high": 7.043000221252441,
+        "low": 5.9679999351501465,
+        "open": 6.153250217437744,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 236,
+          "source_timestamp": "2018-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2018-08-01T04:00:00+00:00",
+        "volume": 10917836000.0
+      },
+      {
+        "close": 7.0254998207092285,
+        "high": 7.130499839782715,
+        "low": 6.4670000076293945,
+        "open": 7.003749847412109,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 237,
+          "source_timestamp": "2018-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2018-09-01T04:00:00+00:00",
+        "volume": 6340200000.0
+      },
+      {
+        "close": 5.270750045776367,
+        "high": 7.318999767303467,
+        "low": 4.40024995803833,
+        "open": 7.104000091552734,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 238,
+          "source_timestamp": "2018-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2018-10-01T04:00:00+00:00",
+        "volume": 12977976000.0
+      },
+      {
+        "close": 4.085750102996826,
+        "high": 5.550000190734863,
+        "low": 3.332750082015991,
+        "open": 5.307499885559082,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 239,
+          "source_timestamp": "2018-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2018-11-01T04:00:00+00:00",
+        "volume": 16162340000.0
+      },
+      {
+        "close": 3.3375000953674316,
+        "high": 4.367000102996826,
+        "low": 3.1115000247955322,
+        "open": 4.315000057220459,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 240,
+          "source_timestamp": "2018-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2018-12-01T05:00:00+00:00",
+        "volume": 12451408000.0
+      },
+      {
+        "close": 3.59375,
+        "high": 4.021999835968018,
+        "low": 3.1922500133514404,
+        "open": 3.2660000324249268,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 241,
+          "source_timestamp": "2019-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2019-01-01T05:00:00+00:00",
+        "volume": 16870992000.0
+      },
+      {
+        "close": 3.8564999103546143,
+        "high": 4.131999969482422,
+        "low": 3.564500093460083,
+        "open": 3.612499952316284,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 242,
+          "source_timestamp": "2019-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2019-02-01T05:00:00+00:00",
+        "volume": 11445728000.0
+      },
+      {
+        "close": 4.488999843597412,
+        "high": 4.625,
+        "low": 3.619999885559082,
+        "open": 3.906749963760376,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 243,
+          "source_timestamp": "2019-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2019-03-01T05:00:00+00:00",
+        "volume": 12068540000.0
+      },
+      {
+        "close": 4.525000095367432,
+        "high": 4.836750030517578,
+        "low": 4.332499980926514,
+        "open": 4.581500053405762,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 244,
+          "source_timestamp": "2019-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2019-04-01T04:00:00+00:00",
+        "volume": 9437780000.0
+      },
+      {
+        "close": 3.3864998817443848,
+        "high": 4.6217498779296875,
+        "low": 3.3847498893737793,
+        "open": 4.577750205993652,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 245,
+          "source_timestamp": "2019-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2019-05-01T04:00:00+00:00",
+        "volume": 11180752000.0
+      },
+      {
+        "close": 4.10575008392334,
+        "high": 4.134250164031982,
+        "low": 3.315000057220459,
+        "open": 3.397749900817871,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 246,
+          "source_timestamp": "2019-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2019-06-01T04:00:00+00:00",
+        "volume": 8233340000.0
+      },
+      {
+        "close": 4.2179999351501465,
+        "high": 4.472249984741211,
+        "low": 3.875,
+        "open": 4.3142499923706055,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 247,
+          "source_timestamp": "2019-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2019-07-01T04:00:00+00:00",
+        "volume": 8415984000.0
+      },
+      {
+        "close": 4.187749862670898,
+        "high": 4.336249828338623,
+        "low": 3.6847500801086426,
+        "open": 4.228499889373779,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 248,
+          "source_timestamp": "2019-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2019-08-01T04:00:00+00:00",
+        "volume": 9450328000.0
+      },
+      {
+        "close": 4.351749897003174,
+        "high": 4.710000038146973,
+        "low": 4.081250190734863,
+        "open": 4.114500045776367,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 249,
+          "source_timestamp": "2019-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2019-09-01T04:00:00+00:00",
+        "volume": 6347768000.0
+      },
+      {
+        "close": 5.0254998207092285,
+        "high": 5.222499847412109,
+        "low": 4.2532501220703125,
+        "open": 4.375,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 250,
+          "source_timestamp": "2019-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2019-10-01T04:00:00+00:00",
+        "volume": 7696172000.0
+      },
+      {
+        "close": 5.418499946594238,
+        "high": 5.535250186920166,
+        "low": 4.964749813079834,
+        "open": 4.989999771118164,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 251,
+          "source_timestamp": "2019-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2019-11-01T04:00:00+00:00",
+        "volume": 7321800000.0
+      },
+      {
+        "close": 5.882500171661377,
+        "high": 6.045249938964844,
+        "low": 5.009250164031982,
+        "open": 5.411499977111816,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 252,
+          "source_timestamp": "2019-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2019-12-01T05:00:00+00:00",
+        "volume": 6543532000.0
+      },
+      {
+        "close": 5.910749912261963,
+        "high": 6.487500190734863,
+        "low": 5.781750202178955,
+        "open": 5.96875,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 253,
+          "source_timestamp": "2020-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2020-01-01T05:00:00+00:00",
+        "volume": 6125412000.0
+      },
+      {
+        "close": 6.7517499923706055,
+        "high": 7.9079999923706055,
+        "low": 5.886250019073486,
+        "open": 5.892499923706055,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 254,
+          "source_timestamp": "2020-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2020-02-01T05:00:00+00:00",
+        "volume": 11848652000.0
+      },
+      {
+        "close": 6.590000152587891,
+        "high": 7.122250080108643,
+        "low": 4.517000198364258,
+        "open": 6.922500133514404,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 255,
+          "source_timestamp": "2020-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2020-03-01T05:00:00+00:00",
+        "volume": 15773952000.0
+      },
+      {
+        "close": 7.307000160217285,
+        "high": 7.605000019073486,
+        "low": 5.959750175476074,
+        "open": 6.391250133514404,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 256,
+          "source_timestamp": "2020-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2020-04-01T04:00:00+00:00",
+        "volume": 11278304000.0
+      },
+      {
+        "close": 8.875499725341797,
+        "high": 9.181750297546387,
+        "low": 7.020999908447266,
+        "open": 7.108749866485596,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 257,
+          "source_timestamp": "2020-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2020-05-01T04:00:00+00:00",
+        "volume": 12548876000.0
+      },
+      {
+        "close": 9.497750282287598,
+        "high": 9.642499923706055,
+        "low": 8.657999992370605,
+        "open": 8.833250045776367,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 258,
+          "source_timestamp": "2020-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2020-06-01T04:00:00+00:00",
+        "volume": 9719464000.0
+      },
+      {
+        "close": 10.614749908447266,
+        "high": 10.79224967956543,
+        "low": 9.413000106811523,
+        "open": 9.520750045776367,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 259,
+          "source_timestamp": "2020-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2020-07-01T04:00:00+00:00",
+        "volume": 8094452000.0
+      },
+      {
+        "close": 13.374500274658203,
+        "high": 13.574999809265137,
+        "low": 10.715250015258789,
+        "open": 10.732500076293945,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 260,
+          "source_timestamp": "2020-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2020-08-01T04:00:00+00:00",
+        "volume": 9672544000.0
+      },
+      {
+        "close": 13.530500411987305,
+        "high": 14.726750373840332,
+        "low": 11.70425033569336,
+        "open": 13.479999542236328,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 261,
+          "source_timestamp": "2020-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2020-09-01T04:00:00+00:00",
+        "volume": 15856552000.0
+      },
+      {
+        "close": 12.534000396728516,
+        "high": 14.34850025177002,
+        "low": 12.300000190734863,
+        "open": 13.758000373840332,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 262,
+          "source_timestamp": "2020-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2020-10-01T04:00:00+00:00",
+        "volume": 8022356000.0
+      },
+      {
+        "close": 13.40149974822998,
+        "high": 14.691499710083008,
+        "low": 12.395000457763672,
+        "open": 12.657750129699707,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 263,
+          "source_timestamp": "2020-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2020-11-01T04:00:00+00:00",
+        "volume": 7594820000.0
+      },
+      {
+        "close": 13.055000305175781,
+        "high": 13.731249809265137,
+        "low": 12.763250350952148,
+        "open": 13.492250442504883,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 264,
+          "source_timestamp": "2020-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2020-12-01T05:00:00+00:00",
+        "volume": 5120996000.0
+      },
+      {
+        "close": 12.989749908447266,
+        "high": 13.999250411987305,
+        "low": 12.586000442504883,
+        "open": 13.104249954223633,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 265,
+          "source_timestamp": "2021-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2021-01-01T05:00:00+00:00",
+        "volume": 6154172000.0
+      },
+      {
+        "close": 13.714500427246094,
+        "high": 15.3725004196167,
+        "low": 12.902750015258789,
+        "open": 13.053250312805176,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 266,
+          "source_timestamp": "2021-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2021-02-01T05:00:00+00:00",
+        "volume": 6680324000.0
+      },
+      {
+        "close": 13.348250389099121,
+        "high": 13.925000190734863,
+        "low": 11.566499710083008,
+        "open": 13.875,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 267,
+          "source_timestamp": "2021-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2021-03-01T05:00:00+00:00",
+        "volume": 7648656000.0
+      },
+      {
+        "close": 15.009499549865723,
+        "high": 16.214250564575195,
+        "low": 13.511249542236328,
+        "open": 13.572250366210938,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 268,
+          "source_timestamp": "2021-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2021-04-01T04:00:00+00:00",
+        "volume": 6718796000.0
+      },
+      {
+        "close": 16.24449920654297,
+        "high": 16.27750015258789,
+        "low": 13.458999633789062,
+        "open": 15.125,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 269,
+          "source_timestamp": "2021-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2021-05-01T04:00:00+00:00",
+        "volume": 7054380000.0
+      },
+      {
+        "close": 20.002500534057617,
+        "high": 20.162500381469727,
+        "low": 15.903249740600586,
+        "open": 16.270000457763672,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 270,
+          "source_timestamp": "2021-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2021-06-01T04:00:00+00:00",
+        "volume": 10273292000.0
+      },
+      {
+        "close": 19.499000549316406,
+        "high": 20.875,
+        "low": 17.86549949645996,
+        "open": 20.125,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 271,
+          "source_timestamp": "2021-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2021-07-01T04:00:00+00:00",
+        "volume": 7823077000.0
+      },
+      {
+        "close": 22.385000228881836,
+        "high": 23.042999267578125,
+        "low": 18.761999130249023,
+        "open": 19.700000762939453,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 272,
+          "source_timestamp": "2021-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2021-08-01T04:00:00+00:00",
+        "volume": 6416386000.0
+      },
+      {
+        "close": 20.715999603271484,
+        "high": 22.986000061035156,
+        "low": 20.466999053955078,
+        "open": 22.485000610351562,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 273,
+          "source_timestamp": "2021-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2021-09-01T04:00:00+00:00",
+        "volume": 4998986000.0
+      },
+      {
+        "close": 25.566999435424805,
+        "high": 25.708999633789062,
+        "low": 19.55500030517578,
+        "open": 20.75,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 274,
+          "source_timestamp": "2021-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2021-10-01T04:00:00+00:00",
+        "volume": 4971078000.0
+      },
+      {
+        "close": 32.67599868774414,
+        "high": 34.64699935913086,
+        "low": 25.226999282836914,
+        "open": 25.64900016784668,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 275,
+          "source_timestamp": "2021-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2021-11-01T04:00:00+00:00",
+        "volume": 10811170000.0
+      },
+      {
+        "close": 29.410999298095703,
+        "high": 33.28900146484375,
+        "low": 27.145000457763672,
+        "open": 33.21900177001953,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 276,
+          "source_timestamp": "2021-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2021-12-01T05:00:00+00:00",
+        "volume": 11058505000.0
+      },
+      {
+        "close": 24.486000061035156,
+        "high": 30.711000442504883,
+        "low": 20.88800048828125,
+        "open": 29.815000534057617,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 277,
+          "source_timestamp": "2022-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2022-01-01T05:00:00+00:00",
+        "volume": 10682164000.0
+      },
+      {
+        "close": 24.385000228881836,
+        "high": 26.924999237060547,
+        "low": 20.889999389648438,
+        "open": 25.104000091552734,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 278,
+          "source_timestamp": "2022-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2022-02-01T05:00:00+00:00",
+        "volume": 10644270000.0
+      },
+      {
+        "close": 27.285999298095703,
+        "high": 28.945999145507812,
+        "low": 20.649999618530273,
+        "open": 24.291000366210938,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 279,
+          "source_timestamp": "2022-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2022-03-01T05:00:00+00:00",
+        "volume": 11644599000.0
+      },
+      {
+        "close": 18.547000885009766,
+        "high": 27.558000564575195,
+        "low": 18.290000915527344,
+        "open": 27.375,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 280,
+          "source_timestamp": "2022-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2022-04-01T04:00:00+00:00",
+        "volume": 11114390000.0
+      },
+      {
+        "close": 18.672000885009766,
+        "high": 20.399999618530273,
+        "low": 15.567000389099121,
+        "open": 18.541000366210938,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 281,
+          "source_timestamp": "2022-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2022-05-01T04:00:00+00:00",
+        "volume": 13833021000.0
+      },
+      {
+        "close": 15.159000396728516,
+        "high": 19.618999481201172,
+        "low": 14.862000465393066,
+        "open": 18.724000930786133,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 282,
+          "source_timestamp": "2022-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2022-06-01T04:00:00+00:00",
+        "volume": 10554791000.0
+      },
+      {
+        "close": 18.163000106811523,
+        "high": 18.243999481201172,
+        "low": 14.055000305175781,
+        "open": 14.89900016784668,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 283,
+          "source_timestamp": "2022-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2022-07-01T04:00:00+00:00",
+        "volume": 10564476000.0
+      },
+      {
+        "close": 15.093999862670898,
+        "high": 19.27400016784668,
+        "low": 14.958999633789062,
+        "open": 18.18199920654297,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 284,
+          "source_timestamp": "2022-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2022-08-01T04:00:00+00:00",
+        "volume": 12069648000.0
+      },
+      {
+        "close": 12.138999938964844,
+        "high": 14.54699993133545,
+        "low": 11.946000099182129,
+        "open": 14.208999633789062,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 285,
+          "source_timestamp": "2022-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2022-09-01T04:00:00+00:00",
+        "volume": 13130578000.0
+      },
+      {
+        "close": 13.496999740600586,
+        "high": 13.850000381469727,
+        "low": 10.812999725341797,
+        "open": 12.347000122070312,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 286,
+          "source_timestamp": "2022-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2022-10-01T04:00:00+00:00",
+        "volume": 12549277000.0
+      },
+      {
+        "close": 16.92300033569336,
+        "high": 16.99799919128418,
+        "low": 12.956000328063965,
+        "open": 13.810999870300293,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 287,
+          "source_timestamp": "2022-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2022-11-01T04:00:00+00:00",
+        "volume": 10600603000.0
+      },
+      {
+        "close": 14.61400032043457,
+        "high": 18.790000915527344,
+        "low": 13.883999824523926,
+        "open": 16.999000549316406,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 288,
+          "source_timestamp": "2022-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2022-12-01T05:00:00+00:00",
+        "volume": 8946152000.0
+      },
+      {
+        "close": 19.53700065612793,
+        "high": 20.628000259399414,
+        "low": 14.034000396728516,
+        "open": 14.85099983215332,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 289,
+          "source_timestamp": "2023-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2023-01-01T05:00:00+00:00",
+        "volume": 9454960000.0
+      },
+      {
+        "close": 23.215999603271484,
+        "high": 23.88800048828125,
+        "low": 19.611000061035156,
+        "open": 19.69099998474121,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 290,
+          "source_timestamp": "2023-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2023-02-01T05:00:00+00:00",
+        "volume": 10393479000.0
+      },
+      {
+        "close": 27.777000427246094,
+        "high": 27.833999633789062,
+        "low": 22.297000885009766,
+        "open": 23.191999435424805,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 291,
+          "source_timestamp": "2023-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2023-03-01T05:00:00+00:00",
+        "volume": 11263731000.0
+      },
+      {
+        "close": 27.749000549316406,
+        "high": 28.110000610351562,
+        "low": 26.219999313354492,
+        "open": 27.509000778198242,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 292,
+          "source_timestamp": "2023-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2023-04-01T04:00:00+00:00",
+        "volume": 7436450000.0
+      },
+      {
+        "close": 37.83399963378906,
+        "high": 41.9379997253418,
+        "low": 27.239999771118164,
+        "open": 27.84000015258789,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 293,
+          "source_timestamp": "2023-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2023-05-01T04:00:00+00:00",
+        "volume": 11697819000.0
+      },
+      {
+        "close": 42.301998138427734,
+        "high": 43.9900016784668,
+        "low": 37.35599899291992,
+        "open": 38.48899841308594,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 294,
+          "source_timestamp": "2023-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2023-06-01T04:00:00+00:00",
+        "volume": 10527050000.0
+      },
+      {
+        "close": 46.729000091552734,
+        "high": 48.0880012512207,
+        "low": 41.34600067138672,
+        "open": 42.516998291015625,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 295,
+          "source_timestamp": "2023-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2023-07-01T04:00:00+00:00",
+        "volume": 8706845000.0
+      },
+      {
+        "close": 49.35499954223633,
+        "high": 50.26599884033203,
+        "low": 40.31100082397461,
+        "open": 46.459999084472656,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 296,
+          "source_timestamp": "2023-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2023-08-01T04:00:00+00:00",
+        "volume": 13632152000.0
+      },
+      {
+        "close": 43.499000549316406,
+        "high": 49.79999923706055,
+        "low": 40.97999954223633,
+        "open": 49.762001037597656,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 297,
+          "source_timestamp": "2023-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2023-09-01T04:00:00+00:00",
+        "volume": 8579273000.0
+      },
+      {
+        "close": 40.779998779296875,
+        "high": 47.60900115966797,
+        "low": 39.22999954223633,
+        "open": 44.029998779296875,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 298,
+          "source_timestamp": "2023-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2023-10-01T04:00:00+00:00",
+        "volume": 10141101000.0
+      },
+      {
+        "close": 46.77000045776367,
+        "high": 50.54800033569336,
+        "low": 40.86899948120117,
+        "open": 40.88399887084961,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 299,
+          "source_timestamp": "2023-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2023-11-01T04:00:00+00:00",
+        "volume": 9144618000.0
+      },
+      {
+        "close": 49.52199935913086,
+        "high": 50.43299865722656,
+        "low": 45.0099983215332,
+        "open": 46.525001525878906,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 300,
+          "source_timestamp": "2023-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2023-12-01T05:00:00+00:00",
+        "volume": 7411887000.0
+      },
+      {
+        "close": 61.527000427246094,
+        "high": 63.49300003051758,
+        "low": 47.31999969482422,
+        "open": 49.24399948120117,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 301,
+          "source_timestamp": "2024-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2024-01-01T05:00:00+00:00",
+        "volume": 9706237000.0
+      },
+      {
+        "close": 79.11199951171875,
+        "high": 82.39399719238281,
+        "low": 61.650001525878906,
+        "open": 62.099998474121094,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 302,
+          "source_timestamp": "2024-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2024-02-01T05:00:00+00:00",
+        "volume": 11061356000.0
+      },
+      {
+        "close": 90.35600280761719,
+        "high": 97.4000015258789,
+        "low": 79.43499755859375,
+        "open": 80.0,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 303,
+          "source_timestamp": "2024-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2024-03-01T05:00:00+00:00",
+        "volume": 12149218000.0
+      },
+      {
+        "close": 86.4020004272461,
+        "high": 92.2249984741211,
+        "low": 75.60600280761719,
+        "open": 90.29900360107422,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 304,
+          "source_timestamp": "2024-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2024-04-01T04:00:00+00:00",
+        "volume": 10072334000.0
+      },
+      {
+        "close": 109.63300323486328,
+        "high": 115.81900024414062,
+        "low": 81.25499725341797,
+        "open": 85.0770034790039,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 305,
+          "source_timestamp": "2024-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2024-05-01T04:00:00+00:00",
+        "volume": 9645174000.0
+      },
+      {
+        "close": 123.54000091552734,
+        "high": 140.75999450683594,
+        "low": 112.00299835205078,
+        "open": 113.62100219726562,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 306,
+          "source_timestamp": "2024-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2024-06-01T04:00:00+00:00",
+        "volume": 7424176700.0
+      },
+      {
+        "close": 117.0199966430664,
+        "high": 136.14999389648438,
+        "low": 102.54000091552734,
+        "open": 123.47000122070312,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 307,
+          "source_timestamp": "2024-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2024-07-01T04:00:00+00:00",
+        "volume": 6405438600.0
+      },
+      {
+        "close": 119.37000274658203,
+        "high": 131.25999450683594,
+        "low": 90.69000244140625,
+        "open": 117.52999877929688,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 308,
+          "source_timestamp": "2024-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2024-08-01T04:00:00+00:00",
+        "volume": 8105367800.0
+      },
+      {
+        "close": 121.44000244140625,
+        "high": 127.66999816894531,
+        "low": 100.94999694824219,
+        "open": 116.01000213623047,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 309,
+          "source_timestamp": "2024-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2024-09-01T04:00:00+00:00",
+        "volume": 6271163200.0
+      },
+      {
+        "close": 132.75999450683594,
+        "high": 144.4199981689453,
+        "low": 115.13999938964844,
+        "open": 121.7699966430664,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 310,
+          "source_timestamp": "2024-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2024-10-01T04:00:00+00:00",
+        "volume": 5627917200.0
+      },
+      {
+        "close": 138.25,
+        "high": 152.88999938964844,
+        "low": 131.8000030517578,
+        "open": 134.6999969482422,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 311,
+          "source_timestamp": "2024-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2024-11-01T04:00:00+00:00",
+        "volume": 4497414600.0
+      },
+      {
+        "close": 134.2899932861328,
+        "high": 146.5399932861328,
+        "low": 126.86000061035156,
+        "open": 138.8300018310547,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 312,
+          "source_timestamp": "2024-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2024-12-01T05:00:00+00:00",
+        "volume": 4085855200.0
+      },
+      {
+        "close": 120.06999969482422,
+        "high": 153.1300048828125,
+        "low": 116.25,
+        "open": 136.0,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 313,
+          "source_timestamp": "2025-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2025-01-01T05:00:00+00:00",
+        "volume": 5948400800.0
+      },
+      {
+        "close": 124.91999816894531,
+        "high": 143.44000244140625,
+        "low": 113.01000213623047,
+        "open": 114.75,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 314,
+          "source_timestamp": "2025-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2025-02-01T05:00:00+00:00",
+        "volume": 4755230400.0
+      },
+      {
+        "close": 108.37999725341797,
+        "high": 123.69999694824219,
+        "low": 103.6500015258789,
+        "open": 123.51000213623047,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 315,
+          "source_timestamp": "2025-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2025-03-01T05:00:00+00:00",
+        "volume": 6177950300.0
+      },
+      {
+        "close": 108.91999816894531,
+        "high": 115.0999984741211,
+        "low": 86.62000274658203,
+        "open": 108.5199966430664,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 316,
+          "source_timestamp": "2025-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2025-04-01T04:00:00+00:00",
+        "volume": 6811006400.0
+      },
+      {
+        "close": 135.1300048828125,
+        "high": 143.49000549316406,
+        "low": 110.81999969482422,
+        "open": 113.08000183105469,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 317,
+          "source_timestamp": "2025-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2025-05-01T04:00:00+00:00",
+        "volume": 4756803800.0
+      },
+      {
+        "close": 157.99000549316406,
+        "high": 158.7100067138672,
+        "low": 135.39999389648438,
+        "open": 135.49000549316406,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 318,
+          "source_timestamp": "2025-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2025-06-01T04:00:00+00:00",
+        "volume": 3821296800.0
+      },
+      {
+        "close": 177.8699951171875,
+        "high": 183.3000030517578,
+        "low": 151.49000549316406,
+        "open": 156.2899932861328,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 319,
+          "source_timestamp": "2025-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2025-07-01T04:00:00+00:00",
+        "volume": 3596804400.0
+      },
+      {
+        "close": 174.17999267578125,
+        "high": 184.47999572753906,
+        "low": 168.8000030517578,
+        "open": 174.08999633789062,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 320,
+          "source_timestamp": "2025-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2025-08-01T04:00:00+00:00",
+        "volume": 3608891200.0
+      },
+      {
+        "close": 186.5800018310547,
+        "high": 187.35000610351562,
+        "low": 164.07000732421875,
+        "open": 170.0,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 321,
+          "source_timestamp": "2025-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2025-09-01T04:00:00+00:00",
+        "volume": 3890495300.0
+      },
+      {
+        "close": 202.49000549316406,
+        "high": 212.19000244140625,
+        "low": 176.75999450683594,
+        "open": 185.24000549316406,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 322,
+          "source_timestamp": "2025-10-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2025-10-01T04:00:00+00:00",
+        "volume": 4031017400.0
+      },
+      {
+        "close": 177.0,
+        "high": 211.33999633789062,
+        "low": 169.5500030517578,
+        "open": 208.0800018310547,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 323,
+          "source_timestamp": "2025-11-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2025-11-01T04:00:00+00:00",
+        "volume": 4160148300.0
+      },
+      {
+        "close": 186.5,
+        "high": 192.69000244140625,
+        "low": 170.30999755859375,
+        "open": 174.75999450683594,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 324,
+          "source_timestamp": "2025-12-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2025-12-01T05:00:00+00:00",
+        "volume": 3629693700.0
+      },
+      {
+        "close": 191.1300048828125,
+        "high": 194.49000549316406,
+        "low": 177.61000061035156,
+        "open": 189.83999633789062,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 325,
+          "source_timestamp": "2026-01-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2026-01-01T05:00:00+00:00",
+        "volume": 3292228600.0
+      },
+      {
+        "close": 177.19000244140625,
+        "high": 197.6300048828125,
+        "low": 171.02999877929688,
+        "open": 187.1999969482422,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 326,
+          "source_timestamp": "2026-02-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2026-02-01T05:00:00+00:00",
+        "volume": 3745445000.0
+      },
+      {
+        "close": 174.39999389648438,
+        "high": 188.8800048828125,
+        "low": 164.27000427246094,
+        "open": 175.00999450683594,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 327,
+          "source_timestamp": "2026-03-01T05:00:00+00:00"
+        },
+        "timestamp_utc": "2026-03-01T05:00:00+00:00",
+        "volume": 4027150800.0
+      },
+      {
+        "close": 199.57000732421875,
+        "high": 216.8300018310547,
+        "low": 171.3699951171875,
+        "open": 176.0,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 328,
+          "source_timestamp": "2026-04-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2026-04-01T04:00:00+00:00",
+        "volume": 3129548700.0
+      },
+      {
+        "close": 211.13999938964844,
+        "high": 236.5399932861328,
+        "low": 194.74000549316406,
+        "open": 201.27999877929688,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 329,
+          "source_timestamp": "2026-05-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2026-05-01T04:00:00+00:00",
+        "volume": 3324840700.0
+      },
+      {
+        "close": 200.08999633789062,
+        "high": 232.27999877929688,
+        "low": 189.8000030517578,
+        "open": 215.72999572753906,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 330,
+          "source_timestamp": "2026-06-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2026-06-01T04:00:00+00:00",
+        "volume": 3424306300.0
+      },
+      {
+        "close": 200.75,
+        "high": 214.38999938964844,
+        "low": 190.00999450683594,
+        "open": 196.1999969482422,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 331,
+          "source_timestamp": "2026-07-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2026-07-01T04:00:00+00:00",
+        "volume": 2852595400.0
+      },
+      {
+        "close": 220.77999877929688,
+        "high": 230.47000122070312,
+        "low": 196.85000610351562,
+        "open": 197.69000244140625,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 332,
+          "source_timestamp": "2026-08-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2026-08-01T04:00:00+00:00",
+        "volume": 2682633400.0
+      },
+      {
+        "close": 228.4499969482422,
+        "high": 230.39999389648438,
+        "low": 215.10000610351562,
+        "open": 216.75,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 333,
+          "source_timestamp": "2026-09-01T04:00:00+00:00"
+        },
+        "timestamp_utc": "2026-09-01T04:00:00+00:00",
+        "volume": 400855000.0
+      },
+      {
+        "close": 230.36000061035156,
+        "high": 234.75999450683594,
+        "low": 229.6300048828125,
+        "open": 231.14199829101562,
+        "provenance": {
+          "naive_timezone_assumed_utc": false,
+          "source_record_index": 334,
+          "source_timestamp": "2026-09-04T20:00:00+00:00"
+        },
+        "timestamp_utc": "2026-09-04T20:00:00+00:00",
+        "volume": 132204717.0
+      }
+    ],
+    "provenance": {
+      "ingested_at_utc": "2026-09-05T09:09:19.465361+00:00",
+      "parent_source_hashes": [],
+      "resampled": false,
+      "source_identifier": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=0&period2=1788599359&interval=1mo&includePrePost=false&events=div%2Csplits&includeAdjustedClose=false",
+      "source_resolution": {
+        "label": "1mo",
+        "resolution_seconds": 2592000
+      },
+      "source_sha256": "269d8f373e35734174e81314cc8c5329c44acfad2750ff9c4e8d0197f71a7e3e",
+      "source_type": "yahoo_finance_chart_api"
+    },
+    "quality": {
+      "duplicate_timestamps_utc": [],
+      "missing_intervals": [],
+      "volume_available": true,
+      "volume_complete": true
+    },
+    "symbol": {
+      "exchange": null,
+      "market_type": "stock",
+      "provider_symbol": "NVDA",
+      "symbol": "NVDA"
+    },
+    "timeframe": {
+      "label": "1mo",
+      "resolution_seconds": 2592000
+    }
+  },
+  "request": {
+    "end_time_utc": "2026-09-05T09:09:19+00:00",
+    "exchange": null,
+    "include_prepost": false,
+    "interval": "1mo",
+    "market_type": "stock",
+    "start_time_utc": "1970-01-01T00:00:00+00:00",
+    "symbol": "NVDA"
+  },
+  "retrieved_at_utc": "2026-09-05T09:09:19.480071+00:00",
+  "warnings": []
+}

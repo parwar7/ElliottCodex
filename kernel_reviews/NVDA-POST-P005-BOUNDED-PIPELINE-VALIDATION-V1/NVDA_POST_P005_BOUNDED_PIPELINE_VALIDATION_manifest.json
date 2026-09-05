@@ -1,0 +1,129 @@
+{
+  "baseline_id": "NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1",
+  "classification": "ADDITIVE_LOGICAL_OPERATIONAL_EXPERIMENT_BASELINE",
+  "approved_base": "d16e0e5049206fd76a8753f8f2754c8ba3cd3246",
+  "status": "EXECUTED_TESTED_AUDITED",
+  "project_manager_approval_claimed": false,
+  "previous_P005_repair_manifest_sha256": "e1b727096644554cba4d1621879cea9196a28ad6fe9660e0d585a16177ab98f1",
+  "protected_state_unchanged": true,
+  "methodology_code_unchanged": true,
+  "historical_baselines_unchanged": true,
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances": 0
+  },
+  "tests": {
+    "focused": 139,
+    "full": 997,
+    "failures": 0,
+    "errors": 0
+  },
+  "next_stage": "BOUNDED-SNAPSHOT-ELIGIBILITY-REPLAY-V1",
+  "runtime_files": [
+    {
+      "path": "tools/nvda_post_p005_experiment.py",
+      "byte_length": 24420,
+      "sha256": "9b89328c9f535f0d3dc2c50e776b6233176338d3568491f6c373fd9dd3b7dee5"
+    },
+    {
+      "path": "tests/test_nvda_post_p005_experiment.py",
+      "byte_length": 6704,
+      "sha256": "627f57f7c02d084151f68c0d7c82f4c0ef02ecc0581bb59142c5251ccf6ad3c4"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/adversarial_audit.json",
+      "byte_length": 2891,
+      "sha256": "061cecb3c20cea14b80a9f345d38e0a75c5c29c9e14ebb5b8d771a9a00041260"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/audit_results.py",
+      "byte_length": 6769,
+      "sha256": "5db57fa1ffce2402b30061d650f1f3ef7bf82e9ce18dcbb44ff4ca70cbb1127e"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/configuration.json",
+      "byte_length": 3488,
+      "sha256": "57bd87547319d78d3bca878f6e93799c06ba2ca723c9820a7a3905977317d819"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/data_quality.json",
+      "byte_length": 4000,
+      "sha256": "7b2762b366b970aa2f9904c996f3812b39347344d2ce203f912109b3e683dfe9"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/experiment_results.json",
+      "byte_length": 274849,
+      "sha256": "4944b4cae3f98751b07dcc685784842b62157990cff4dbfbaf9a85bd97f76a98"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/final_integrity.json",
+      "byte_length": 9476,
+      "sha256": "50b55a04869b77678317c42266fee966a2af05cb04e77a23839b9fee60473cd0"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/inputs/input_manifest.json",
+      "byte_length": 1036,
+      "sha256": "e5f4362a8aea1ff1109b3a0c6a58c1e29c0c894375f8cf9cb8305da20d0e633d"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/inputs/NVDA_1d.json",
+      "byte_length": 3213194,
+      "sha256": "49a1365a14fb56771a6a982cdfe47b2a880b8432c1518bc3a33dd4ab9bbb1807"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/inputs/NVDA_1h.json",
+      "byte_length": 1555865,
+      "sha256": "da0686eb3fb7c4cbfdb91f18465d4aa392c0815f51dcdefe607abb2996cfe11e"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/inputs/NVDA_1mo.json",
+      "byte_length": 143589,
+      "sha256": "3de5b14c668cdfc23b1edd95505ea8808d4bda81f5f01437f4edb9c7e87d0ee1"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/inputs/NVDA_1wk.json",
+      "byte_length": 613319,
+      "sha256": "1554dacd12d4207e06495e5d229fff461b23610ec3522d164be3fa70ac1483ca"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/next_stage.json",
+      "byte_length": 1445,
+      "sha256": "fd6c74a7cd177d3c033af4a27bbede1eb1c047c493e72c20a70690aa72730768"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/operational_summary.json",
+      "byte_length": 4166,
+      "sha256": "a4f7792153d2a58c58333a037bd0669fff317ff6dfb5c79d43e42760b39ea422"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/pre_write_integrity.json",
+      "byte_length": 9476,
+      "sha256": "50b55a04869b77678317c42266fee966a2af05cb04e77a23839b9fee60473cd0"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/preserved_files.json",
+      "byte_length": 126345,
+      "sha256": "2456895778422eb40c3dacbb6f1ed4aa7bc627848b3c34c2144979ff4a4cd605"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/README.md",
+      "byte_length": 9926,
+      "sha256": "885b5d206fefdc052a5c4b86e04b1e5f431f4c705d52fcd790b3eb19961f2491"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/representative_cases.json",
+      "byte_length": 71956,
+      "sha256": "d59d46e7d4ca235b502742305d4ea643936c2f26826026a4c2c8b311ec57a3e0"
+    },
+    {
+      "path": "kernel_reviews/NVDA-POST-P005-BOUNDED-PIPELINE-VALIDATION-V1/tests.json",
+      "byte_length": 1511,
+      "sha256": "0f201ea0354d0a813279f0f00d9e156d044f221baffd2841d7f40ed8c3191dc8"
+    }
+  ],
+  "self_hash_excluded": true
+}
