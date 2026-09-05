@@ -1,0 +1,49 @@
+{
+  "review_id": "P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1",
+  "decision": "BLOCKED_UNRESOLVED_SOURCE_SEMANTICS",
+  "project_metric_policy": "USER_APPROVED_RECORDED",
+  "protected_adoption": "PENDING_NOT_APPLIED",
+  "source_conflict": "PRESERVED_NOT_ERASED",
+  "implementation_authorized": false,
+  "current_executable_scope_recommended": "NONE_READY_WITH_CURRENT_AUTHORITY",
+  "smallest_conditional_future_scope": {
+    "status": "DESIGN_TARGET_ONLY_REQUIRES_ADOPTION_AND_SEPARATE_SEMANTIC_APPROVAL",
+    "description": "A hypothesis-local, snapshot-specific check of the book's percentage-based sufficient condition only, using exact already-authorized comparable percentage operands or an explicitly approved endpoint-to-percentage contract. Establishing sufficiency would review P005's supplied scope only; all other cases remain unresolved in this narrow design. No negative invalidator or certificate producer is proposed.",
+    "formula_documentation_only": "IF R3 > R1 OR R3 > R5, the book's sufficient condition is established; OTHERWISE no result follows from this implication alone.",
+    "safety_limits": [
+      "No authority from arbitrary caller numbers.",
+      "No universally validated endpoints or completion proof.",
+      "No structural-invalidity issuance from arithmetic failure or unestablished sufficiency.",
+      "No equality rule, developing endpoint permanence, family certificate or count-wide validity.",
+      "Other existing violations remain in force."
+    ],
+    "reason_not_ready": "No approved percentage input/derivation contract exists; proposed endpoint scope and snapshot eligibility remain unsettled. A hypothetical narrower check does not bypass those blockers."
+  },
+  "remaining_approval_boundaries": [
+    "Protected-owner formal adoption of the already user-approved P005 exception; no reauthorization of general book precedence is sought.",
+    "Explicit percentage operation, denominator, direction/domain, operand authority, snapshot/developing scope and numerical/input contract.",
+    "Exact tied-shortest outcomes may remain excluded/unresolved; implementing their verdicts would need separate authority.",
+    "Separate implementation approval after boundaries are accepted."
+  ],
+  "freeze": {
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+    "repeat_unchanged_corpus_research_recommended": false,
+    "missing_evidence": "Current source gaps remain frozen. Further source claims require new specific approved evidence; project conventions must be explicitly labeled and approved rather than represented as new source evidence."
+  },
+  "inventories": [
+    10,
+    7,
+    0,
+    0
+  ],
+  "preserved": {
+    "P005": "UNIMPLEMENTED",
+    "P006": "UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
+    "flat": "UNCHANGED_FROZEN",
+    "triangle": "TRIANGLE_E_C_CONFLICT_FROZEN_UNTIL_SOURCE_CORPUS_CHANGE",
+    "base_case": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_analyze": "NOT_IMPLEMENTED"
+  },
+  "next_stage_started": false
+}

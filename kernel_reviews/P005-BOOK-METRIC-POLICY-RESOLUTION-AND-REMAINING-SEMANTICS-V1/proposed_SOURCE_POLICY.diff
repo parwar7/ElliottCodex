@@ -1,0 +1,14 @@
+--- a/docs/elliott/SOURCE_POLICY.md
++++ b/docs/elliott/SOURCE_POLICY.md
+@@ -61,1 +61,11 @@
++### P005 measurement-policy exception (user-authorized project policy)
++
++For P005 in normal impulses only, the user has authorized the approved Frost/Prechter book's percentage-based sufficient condition (page 31) to control its conflict with the Volume 10 both-bases statement (00:28:14.840-00:28:25.640). Arithmetic failure alone must not override that sufficient condition.
++
++This is a narrow project-policy decision, not new source evidence, an explicit source correction, or general book precedence. Preserve the original conflict and source classifications: the book's sufficient condition and the seminar statement remain SOURCE_RULE; the book's almost-always arithmetic statement remains SOURCE_GUIDELINE.
++
++Do not convert the sufficient condition into an exhaustive pass/fail definition. Exact ties, formulas, operand authority, numerical conventions and developing-wave timing remain unresolved. P005 remains unimplemented; this exception grants no implementation authority.
++
++This exception refers to the approved book SHA-256 c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e under SOURCE_MANIFEST SHA-256 ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089.
++
+ ## 5. Source trace

@@ -1,0 +1,49 @@
+{
+  "review_id": "P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1",
+  "record_type": "USER_AUTHORIZED_PROJECT_POLICY",
+  "authorization_status": "APPROVED_FOR_THIS_NARROW_PROJECT_POLICY",
+  "authorization_source": "User message executing this review at approved base 7ecacbbc48ca323789fe9029936fa01ec506ecde",
+  "authorization_excerpt": "For the P005 measurement-policy conflict ONLY, prefer the approved Frost/Prechter book over the Volume 10 both-bases statement. Preserve the original conflict and both source classifications. This is a narrow user-authorized project policy, not new source evidence or general book precedence.",
+  "scope": {
+    "principle_id": "P005",
+    "family": "NORMAL_IMPULSE",
+    "conflict": "Percentage-based sufficient condition versus Volume 10 both-bases requirement",
+    "book_ref": "book-core",
+    "video_ref": "v10-both",
+    "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  },
+  "policy_clauses": [
+    "The book's stated percentage-based sufficient condition controls this specific P005 measurement-policy conflict.",
+    "Arithmetic failure alone must not override that sufficient condition under this policy.",
+    "A sufficient condition is not an exhaustive pass/fail definition: failure to establish it does not by itself establish a violation.",
+    "Exact ties, formulas, operand authority and developing-wave timing are NOT resolved by this approval.",
+    "P005 remains unimplemented.",
+    "The original conflict and the original source statements and classifications remain preserved.",
+    "This policy is not new source evidence, a correction of the seminar, or general book precedence."
+  ],
+  "conflict_preservation": {
+    "original_review": "P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+    "original_manifest_sha256": "c305c08f9eb8e28c8a42c4aa58626d122e7cc7d9124494eaee4bd0bcefd251a5",
+    "original_decision": "BLOCKED_SOURCE_CONFLICT",
+    "source_evidence_classification": "CONFLICT",
+    "project_precedence_decision": "BOOK_SUFFICIENT_CONDITION_CONTROLS_THIS_CONFLICT",
+    "classifications_unchanged": {
+      "v10-both": "SOURCE_RULE",
+      "book-core": "SOURCE_RULE",
+      "book-arithmetic": "SOURCE_GUIDELINE"
+    },
+    "history_rewritten": false
+  },
+  "protected_adoption": {
+    "status": "PENDING",
+    "proposal_status": "NOT APPLIED",
+    "runtime_record_is_protected_policy": false,
+    "project_decision_status": "APPROVED",
+    "meaning": "The user has made the project decision now. Its formal inclusion in the protected policy/package has not occurred; no protected authority is silently rewritten."
+  },
+  "implementation_authorized": false,
+  "other_semantics_approved": false,
+  "other_existing_invalidity_overridden": false,
+  "source_principle_id_invented": false
+}

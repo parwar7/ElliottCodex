@@ -1,0 +1,278 @@
+{
+  "review_id": "P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1",
+  "methodology_source": "Existing hash-verified P005 review only; no exhaustive unchanged-corpus research repeated.",
+  "notation": "R1/R3/R5 denote hypothetical already-authorized comparable percentage movements; s_i/e_i are proposed start/end operands, not certified orthodox endpoints.",
+  "policy_effect": "The user selects book sufficiency over arithmetic failure for this conflict. None of the conventions below is thereby approved.",
+  "rows": [
+    {
+      "item": "percentage-formula",
+      "established_protected_source_support": {
+        "classifications": [
+          "SOURCE_RULE",
+          "SOURCE_GUIDELINE"
+        ],
+        "refs": [
+          "book-core",
+          "book-ratios",
+          "v10-both"
+        ],
+        "support": "Book p31 gives a percentage-movement sufficient condition; examples elsewhere use percentage gains. The user selects this sufficient condition's precedence, not a universal formula."
+      },
+      "necessary_derivation": "With trustworthy comparable R1,R3,R5, R3>R1 OR R3>R5 establishes the stated sufficient condition. Multiplication of all magnitudes by the same positive constant leaves their order unchanged. These are conditional mathematical facts, not derivation of R from prices.",
+      "proposed_project_convention_requiring_approval": {
+        "text": "Possible future positive-price endpoint convention: R_i=100*abs(e_i-s_i)/s_i. It is a proposal only, not adopted by this metric-policy approval. Log distance and end-price or common-denominator definitions are not silently substituted.",
+        "approved": false,
+        "classification": "PROPOSED_PROJECT_CONVENTION_NOT_SOURCE_EVIDENCE"
+      },
+      "unresolved_source_or_authority_dependency": "No approved universal P005 price-to-percentage operation. Caller-supplied numbers alone do not establish their methodological provenance.",
+      "boundary_cases": [
+        "R3 exceeds one comparator: sufficient only if percentage meanings and operands are already authorized.",
+        "Condition not established: unresolved in a sufficient-condition-only evaluator, not automatic violation."
+      ],
+      "implementation_authorized": false
+    },
+    {
+      "item": "denominator",
+      "established_protected_source_support": {
+        "classifications": [
+          "SOURCE_RULE",
+          "SOURCE_GUIDELINE"
+        ],
+        "refs": [
+          "book-core",
+          "book-ratios"
+        ],
+        "support": "Percentage language and numerical gain examples are documented, but no universal P005 denominator contract was locked."
+      },
+      "necessary_derivation": "Changing each denominator can change the relative ordering even when point movements are unchanged. Thus selecting a denominator is not merely a cosmetic normalization.",
+      "proposed_project_convention_requiring_approval": {
+        "text": "Use each wave's own strictly positive start as denominator only after explicit approval of that precise convention. Do not require the comparison of all waves to one shared initial price without authority.",
+        "approved": false,
+        "classification": "PROPOSED_PROJECT_CONVENTION_NOT_SOURCE_EVIDENCE"
+      },
+      "unresolved_source_or_authority_dependency": "Choice of denominator and consistent application to every peer remains unapproved.",
+      "boundary_cases": [
+        "Different starts, same point distance.",
+        "Zero denominator is undefined; omission must not become rule satisfaction."
+      ],
+      "implementation_authorized": false
+    },
+    {
+      "item": "direction-and-price-domain",
+      "established_protected_source_support": {
+        "classifications": [
+          "SOURCE_OBSERVATION",
+          "SOURCE_RULE"
+        ],
+        "refs": [
+          "v4-down",
+          "book-strict",
+          "book-core"
+        ],
+        "support": "Downward qualitative application and bull/bear diagrams exist. They do not choose signed-return versus magnitude semantics or authorize zero/negative-price handling."
+      },
+      "necessary_derivation": "For positive starts, absolute simple returns express magnitudes; signed losses reverse the ordering of distance. That mathematical consequence does not choose the methodology. Additive price reflection need not preserve percentage order.",
+      "proposed_project_convention_requiring_approval": {
+        "text": "A possible bounded first input scope would accept finite, strictly positive start/end values with explicit role-consistent direction and no absolute-value rescue of opposing-direction pairs. Either restrict to upward hypotheses initially or separately approve magnitude treatment for both directions; neither option is selected here.",
+        "approved": false,
+        "classification": "PROPOSED_PROJECT_CONVENTION_NOT_SOURCE_EVIDENCE"
+      },
+      "unresolved_source_or_authority_dependency": "Direction operation and supported price domain still need explicit decision. No automatic direction from pivot kind, timeframe, or degree.",
+      "boundary_cases": [
+        "Up/down counterpart.",
+        "Mixed direction within roles.",
+        "Zero, negative, infinite or NaN prices: no interpretation supplied by this approval."
+      ],
+      "implementation_authorized": false
+    },
+    {
+      "item": "tied-shortest-and-all-equal",
+      "established_protected_source_support": {
+        "classifications": [
+          "SOURCE_RULE",
+          "SOURCE_GUIDELINE",
+          "UNRESOLVED"
+        ],
+        "refs": [
+          "book-core",
+          "book-strict",
+          "book-equality",
+          "v5-points"
+        ],
+        "support": "Strict comparisons are illustrated. Equality tendency is a guideline, not an exact tied-shortest rule. This authorization explicitly leaves ties open."
+      },
+      "necessary_derivation": "R3=R1<R5, R3=R5<R1, and all equal do not establish the book's strict sufficient condition. Its absence is not a proof of violation. A tie involving3 above a strictly smaller comparator can still establish the sufficient condition through that other comparator.",
+      "proposed_project_convention_requiring_approval": {
+        "text": "A future sufficient-condition-only scope could return unresolved for tied-minimum/all-equal cases without inventing equality law. No < versus <= invalidator and no import of P004 equality.",
+        "approved": false,
+        "classification": "PROPOSED_PROJECT_CONVENTION_NOT_SOURCE_EVIDENCE"
+      },
+      "unresolved_source_or_authority_dependency": "A universal exact tied-shortest verdict remains unsupported; deferral is not resolution.",
+      "boundary_cases": [
+        "[R1,R3,R5]=[5,5,8]: unresolved.",
+        "[8,5,5]: unresolved.",
+        "[5,5,5]: unresolved.",
+        "[5,8,8]: sufficient via R3>R1, conditional on authorized magnitudes."
+      ],
+      "implementation_authorized": false
+    },
+    {
+      "item": "hypothesis-endpoints-orthodox-path",
+      "established_protected_source_support": {
+        "classifications": [
+          "SOURCE_DEFINITION",
+          "SOURCE_OBSERVATION",
+          "UNRESOLVED"
+        ],
+        "refs": [
+          "book-orthodox",
+          "v4-orthodox",
+          "v7-measure",
+          "book-truncation"
+        ],
+        "support": "Origin/end measurement examples exist; orthodox termination may differ from the path extreme. No universal pivot/high/low/close substitute is established."
+      },
+      "necessary_derivation": "Identity-bound proposed boundaries can define the assumption being tested; identity does not certify that an assumed endpoint is orthodox or that full-path extrema are the right operands.",
+      "proposed_project_convention_requiring_approval": {
+        "text": "Possible future scope: exact fixed hypothesis-local role1/3/5 endpoint pairs with explicit observation basis and original candidate/binding/role identity retained. Result would be conditional on those proposed endpoints, not global endpoint certification. Exclude whole-path substitution until separately justified.",
+        "approved": false,
+        "classification": "PROPOSED_PROJECT_CONVENTION_NOT_SOURCE_EVIDENCE"
+      },
+      "unresolved_source_or_authority_dependency": "Whether these proposed endpoints are sufficient operands for P005's percentage condition still requires explicit approval. Existing identity repair cannot supply this semantic authority.",
+      "boundary_cases": [
+        "Same value from a different binding is not interchangeable ancestry.",
+        "Path extreme differs from labeled end.",
+        "Truncated5 must not be measured as third-to-fifth displacement."
+      ],
+      "implementation_authorized": false
+    },
+    {
+      "item": "completed-developing-and-snapshots",
+      "established_protected_source_support": {
+        "classifications": [
+          "SOURCE_RULE",
+          "SOURCE_DEFINITION",
+          "UNRESOLVED"
+        ],
+        "refs": [
+          "v1-developing",
+          "v5-points",
+          "book-truncation",
+          "book-core"
+        ],
+        "support": "The prior review records strict developing5 contradiction with established1/3. Neither that example nor this policy decision creates universal endpoint permanence or completion proof."
+      },
+      "necessary_derivation": "For fixed authorized magnitudes, R3>R1 implies the sufficient condition regardless of R5. If an operand changes, a conclusion about the earlier assignment does not automatically apply to the new assignment. Immutable record is not immutable market truth.",
+      "proposed_project_convention_requiring_approval": {
+        "text": "Smallest future candidate scope should be snapshot-specific and hypothetical, using frozen observation identities and caller-supplied fixed role hypotheses, with developing-required endpoints left unresolved. Caller-declared fixed/completed means an input assumption, not certified structural completion. No permanent invalidity certificate proposed.",
+        "approved": false,
+        "classification": "PROPOSED_PROJECT_CONVENTION_NOT_SOURCE_EVIDENCE"
+      },
+      "unresolved_source_or_authority_dependency": "Authoritative completion inputs, developing eligibility, snapshot semantics and re-evaluation lifecycle are not approved. No terminal family proof or base case can be invented.",
+      "boundary_cases": [
+        "Developing5 crosses then retreats: do not use endpoint snapshot as whole-path permanent proof.",
+        "Fixed snapshot replaced by new bars: separate conditional result.",
+        "Fixed3>1 does not justify accepting missing/untrusted1 or3."
+      ],
+      "implementation_authorized": false
+    },
+    {
+      "item": "missing-inputs-and-contract-failure",
+      "established_protected_source_support": {
+        "classifications": [
+          "UNRESOLVED"
+        ],
+        "refs": [
+          "book-core",
+          "v7-measure"
+        ],
+        "support": "Sources name comparative wave measurements, not Python error types or a complete missing-input API."
+      },
+      "necessary_derivation": "No meaningful comparison follows from an absent or uninterpretable required operand. Failure to observe the sufficient condition is not a structural violation.",
+      "proposed_project_convention_requiring_approval": {
+        "text": "Future design could distinguish malformed/untrusted input rejection from semantically incomplete input returning unresolved. For a deliberately narrow V1, require all declared role1/3/5 operands even when one inequality might mathematically suffice. Do not fill missing values or relabel unknown as zero.",
+        "approved": false,
+        "classification": "PROPOSED_PROJECT_CONVENTION_NOT_SOURCE_EVIDENCE"
+      },
+      "unresolved_source_or_authority_dependency": "Exact public input/result/error contract remains to be approved; no new statuses or shared contracts are created by this document.",
+      "boundary_cases": [
+        "Missing pair, missing price basis, missing direction, unsupported family, copied identity.",
+        "One comparison unknown cannot be treated as false and inverted into invalidity."
+      ],
+      "implementation_authorized": false
+    },
+    {
+      "item": "numerical-representation",
+      "established_protected_source_support": {
+        "classifications": [
+          "UNRESOLVED"
+        ],
+        "refs": [
+          "book-ratios",
+          "book-summary"
+        ],
+        "support": "Exact numerical examples and gauge-imperfection context do not select Python float, Decimal, Fraction, rounding precision or data-conversion policy."
+      },
+      "necessary_derivation": "For positive denominators, exact cross-products can compare chosen rational ratios without intermediate division rounding. This is mathematical infrastructure only and does not approve the ratio formula or recover precision absent from supplied prices.",
+      "proposed_project_convention_requiring_approval": {
+        "text": "Consider preserving exact declared input numbers and using a deterministic explicitly approved representation. A rational comparison over accepted input values is one option, not an instruction to stringify existing floats and claim original decimal precision.",
+        "approved": false,
+        "classification": "PROPOSED_PROJECT_CONVENTION_NOT_SOURCE_EVIDENCE"
+      },
+      "unresolved_source_or_authority_dependency": "Representation, accepted types, serialization, conversion provenance and arithmetic-error handling are unresolved implementation-contract choices.",
+      "boundary_cases": [
+        "Two representable prices immediately around a boundary.",
+        "NaN/infinity/bool/string inputs.",
+        "Serialization cannot manufacture numeric or identity authority."
+      ],
+      "implementation_authorized": false
+    },
+    {
+      "item": "tolerance",
+      "established_protected_source_support": {
+        "classifications": [
+          "UNRESOLVED",
+          "SOURCE_GUIDELINE"
+        ],
+        "refs": [
+          "book-equality",
+          "book-summary",
+          "v10-both"
+        ],
+        "support": "No P005 tolerance was located. Approximate equality guidelines and measurement cautions do not define an epsilon or tick allowance."
+      },
+      "necessary_derivation": "Adding a tolerance changes a strict comparison's result and can turn a near-boundary difference into a tie. Exact comparison relative to a representation still does not prove market-measurement precision.",
+      "proposed_project_convention_requiring_approval": {
+        "text": "Do not introduce any epsilon, tick buffer, percentage buffer or rounding-to-equality rule. A future representation must state its exact basis; absence of a tolerance is not a source claim that floating arithmetic has infinite accuracy.",
+        "approved": false,
+        "classification": "PROPOSED_PROJECT_CONVENTION_NOT_SOURCE_EVIDENCE"
+      },
+      "unresolved_source_or_authority_dependency": "No tolerance is authorized. If future implementation cannot evaluate its chosen representation deterministically, it must not invent a methodology workaround.",
+      "boundary_cases": [
+        "R3 differs by a small nonzero amount.",
+        "Approximate chart equality is not exact equality.",
+        "No P004 precision/equality inheritance."
+      ],
+      "implementation_authorized": false
+    }
+  ],
+  "sufficient_condition_only_case_table": [
+    {
+      "case": "authorized percentage sufficient condition established; arithmetic fails",
+      "policy_result": "Book condition controls this P005 metric-policy conflict. Do not override it solely with arithmetic failure. Other behavior violations remain untouched."
+    },
+    {
+      "case": "percentage condition not established, including tied minimum",
+      "policy_result": "No conclusion of violation follows from the sufficient condition alone. Remain unresolved in the proposed sufficient-only scope."
+    },
+    {
+      "case": "percentages not authoritative or operands missing/developing",
+      "policy_result": "Policy preference does not fabricate operands; no source-backed executable result is available."
+    },
+    {
+      "case": "P004 or another genuine behavior already invalidated this hypothesis",
+      "policy_result": "P005 sufficiency is not a rescue, count-wide validity, or certificate cancellation."
+    }
+  ],
+  "no_formula_or_tie_or_timing_convention_adopted": true
+}

@@ -1,0 +1,36 @@
+{
+  "review_id": "P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1",
+  "inspected_protected_files": [
+    "C:\\ElliottCodex\\Brain_LOCKED\\AGENTS.md",
+    "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\SOURCE_POLICY.md",
+    "C:\\ElliottCodex\\Brain_LOCKED\\config\\source_policy.json",
+    "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\OPEN_QUESTIONS.md"
+  ],
+  "runtime_reader_inspected": "src/elliott_methodology_kernel/brain.py",
+  "finding": "SOURCE_POLICY section4 preserves conflicting statements and provides an explicit later seminar-correction preference. It contains no registered user-scoped precedence exception. config/source_policy.json has source-lock booleans, not a per-principle override registry. The read-only Brain loader verifies hashes; it does not adopt Runtime review files as protected methodology.",
+  "project_record_permitted_now": true,
+  "formal_protected_adoption_pending": true,
+  "adoption_basis": "To make this approved project exception part of the canonical protected methodology, the protected owner must formally adopt it. This Runtime review cannot modify or bypass protected policy or hash checks.",
+  "proposal": {
+    "status": "NOT APPLIED",
+    "artifact": "proposed_SOURCE_POLICY.diff",
+    "affected_protected_path": "C:\\ElliottCodex\\Brain_LOCKED\\docs\\elliott\\SOURCE_POLICY.md",
+    "section": "4. Conflict handling: insert a narrow P005 subsection before section5.",
+    "expected_original_sha256": "2de8e71699b99f6006a12aaaba235ede1f8d2e24e41dd024e7c97b8ae7715e29",
+    "changes_other_existing_text": false
+  },
+  "dependent_package_impact": {
+    "path": "C:\\ElliottCodex\\Brain_LOCKED\\PACKAGE_MANIFEST.json",
+    "status": "NOT APPLIED",
+    "meaning": "If the policy text is later adopted by the protected owner, its manifest entry must be regenerated/reapproved with matching policy bytes under the protected release process. This review does not create a replacement protected manifest or authoritative hash baseline.",
+    "sources_manifest_change_required": false
+  },
+  "not_proposed": [
+    "General book precedence",
+    "Changes to source classifications or source corpus",
+    "Formula/equality/endpoint/timing approval",
+    "A new Runtime policy-loader or Kernel override hook",
+    "Edits to config/source_policy.json, P005 source principle, P006 or executable code"
+  ],
+  "protected_files_written": false
+}

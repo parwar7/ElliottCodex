@@ -1,0 +1,82 @@
+{
+  "baseline_id": "P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1",
+  "classification": "ADDITIVE_LOGICAL_PROJECT_POLICY_AND_SEMANTIC_REVIEW",
+  "approved_base": "7ecacbbc48ca323789fe9029936fa01ec506ecde",
+  "prior_review": "P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+  "prior_review_manifest_sha256": "c305c08f9eb8e28c8a42c4aa58626d122e7cc7d9124494eaee4bd0bcefd251a5",
+  "project_policy_status": "USER_APPROVED_RECORDED",
+  "protected_adoption_status": "PENDING_NOT_APPLIED",
+  "readiness": "BLOCKED_UNRESOLVED_SOURCE_SEMANTICS",
+  "disposition_scope": "New project disposition for the P005 measurement-policy conflict only; original conflicting source evidence and historical baseline remain unchanged.",
+  "implementation_authorized": false,
+  "baseline_artifacts": [
+    {
+      "path": "audit.json",
+      "byte_length": 3335,
+      "sha256": "68b73a099e86d28b8d18f543e671fdaba79bc9e2fa977ad9f746a178b10a6cb5"
+    },
+    {
+      "path": "authorization_record.json",
+      "byte_length": 2910,
+      "sha256": "bfaf2d65d630a03fd9718b87c1fc714be9a12421255943586fec53eefd66bb1a"
+    },
+    {
+      "path": "policy_mechanism_and_adoption.json",
+      "byte_length": 2397,
+      "sha256": "6cf42704d334f3343715c64424dca2c3298849a97cf4e28d1b14e9917337e419"
+    },
+    {
+      "path": "proposed_SOURCE_POLICY.diff",
+      "byte_length": 1317,
+      "sha256": "341dccb056ba4d7644151775980b6e7aaf468fe8d89b4057f82de48137f4f27c"
+    },
+    {
+      "path": "protected_integrity.json",
+      "byte_length": 21180,
+      "sha256": "77d2902e1740b24a571fedcf97da4a89bd1b27f1b74c40b375c7aa6016758b09"
+    },
+    {
+      "path": "readiness_and_blockers.json",
+      "byte_length": 3139,
+      "sha256": "7ea7167575639e57aaf08925c2176e8c40cadcc1cbc337bf11b23f0c97de9d07"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 4303,
+      "sha256": "0b13d9a0dfc339e5d52a5f8bfb05871f09d91809b1ed89d79e815f61e6dda561"
+    },
+    {
+      "path": "remaining_semantics_matrix.json",
+      "byte_length": 16471,
+      "sha256": "2a722091bd1f1cdabc99990c18a771ed0b24cd3a1fa19237966358c7e4381768"
+    },
+    {
+      "path": "source_references.json",
+      "byte_length": 11601,
+      "sha256": "0ef0553408c61185cbe6bb4f5842353d3898281cc3d75f10a73dc34a6d98aeb2"
+    },
+    {
+      "path": "unchanged_tracked_inventory.json",
+      "byte_length": 116891,
+      "sha256": "720e8a7429ade6477e3f21bbf2a759e7119b4d8f0987c1ff3d894ebb0d0ffdab"
+    }
+  ],
+  "protected_hashes": {
+    "brain": "81a0bb88dd10ec62fa948da17aada68ba612a86cda7064e13b322ada1043091a",
+    "sources": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "book": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  },
+  "inventories": [
+    10,
+    7,
+    0,
+    0
+  ],
+  "hashing": {
+    "algorithm": "SHA-256",
+    "byte_length": "Exact on-disk bytes",
+    "manifest_excludes_itself": true
+  },
+  "physical_immutability": false,
+  "protected_policy_applied": false
+}

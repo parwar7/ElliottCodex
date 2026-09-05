@@ -1,0 +1,235 @@
+{
+  "review_id": "P005-BOOK-METRIC-POLICY-RESOLUTION-AND-REMAINING-SEMANTICS-V1",
+  "mode": "REUSE_EXISTING_VERIFIED_REVIEW_NO_NEW_CORPUS_SEARCH",
+  "prior_review": "P005-NORMAL-IMPULSE-WAVE3-SHORTEST-SEMANTICS-LOCK-V1",
+  "prior_manifest_sha256": "c305c08f9eb8e28c8a42c4aa58626d122e7cc7d9124494eaee4bd0bcefd251a5",
+  "references": [
+    {
+      "ref_id": "v1-rule",
+      "root": "Sources_LOCKED",
+      "path": "volume_01/Volume_01.srt",
+      "locator": "00:30:27.200-00:31:00.389",
+      "classification": "SOURCE_RULE",
+      "excerpt": "price movement",
+      "meaning": "Wave 3 is never shortest among 1, 3 and 5, but need not be longest."
+    },
+    {
+      "ref_id": "v1-developing",
+      "root": "Sources_LOCKED",
+      "path": "volume_01/Volume_01.srt",
+      "locator": "01:32:11.840-01:32:42.719",
+      "classification": "SOURCE_RULE",
+      "excerpt": "as soon as wave 5 is longer than 3",
+      "meaning": "In the drawn developing count, 1 already exceeds 3; once 5 exceeds 3 the count is wrong. The relabeling suggestion is not a P005 rule."
+    },
+    {
+      "ref_id": "v2-invalid",
+      "root": "Sources_LOCKED",
+      "path": "volume_02/volume_02.srt",
+      "locator": "00:00:44.710-00:01:59.150",
+      "classification": "SOURCE_RULE",
+      "excerpt": "Wave one is longer.",
+      "meaning": "An incorrect chart is rejected when both 1 and 5 are longer than 3; other defects are also discussed."
+    },
+    {
+      "ref_id": "v2-scale",
+      "root": "Sources_LOCKED",
+      "path": "volume_02/volume_02.srt",
+      "locator": "00:08:00.580-00:08:35.320",
+      "classification": "SOURCE_GUIDELINE",
+      "excerpt": "semi-log scale",
+      "meaning": "Chart-scale guidance for a commodity bull market; not a P005 denominator, tolerance or basis-selection algorithm."
+    },
+    {
+      "ref_id": "v3-rule",
+      "root": "Sources_LOCKED",
+      "path": "volume_03/volume_03.srt",
+      "locator": "00:04:04.770-00:04:25.230",
+      "classification": "SOURCE_RULE",
+      "excerpt": "can never be the shortest",
+      "meaning": "Restates compulsory 1/3/5 comparison."
+    },
+    {
+      "ref_id": "v3-truncation",
+      "root": "Sources_LOCKED",
+      "path": "volume_03/volume_03.srt",
+      "locator": "00:23:53.090-00:25:10.830",
+      "classification": "SOURCE_DEFINITION",
+      "excerpt": "fails to move beyond the end",
+      "meaning": "A truncated fifth need not exceed 3's terminal point; necessary subdivisions are still required. Both directions are discussed."
+    },
+    {
+      "ref_id": "v4-down",
+      "root": "Sources_LOCKED",
+      "path": "volume_04/volume_04",
+      "locator": "00:12:19.900-00:12:48.110",
+      "classification": "SOURCE_OBSERVATION",
+      "excerpt": "Because the third wave is the shortest.",
+      "meaning": "A proposed descending C five is rejected. Establishes downward applicability by example, not a signed-percentage formula."
+    },
+    {
+      "ref_id": "v4-orthodox",
+      "root": "Sources_LOCKED",
+      "path": "volume_04/volume_04",
+      "locator": "00:23:25.780-00:24:12.640",
+      "classification": "SOURCE_DEFINITION",
+      "excerpt": "not necessarily the lowest or highest point",
+      "meaning": "The labeled pattern termination differs from its price extreme. No automatic OHLCV-to-orthodox-end rule is supplied."
+    },
+    {
+      "ref_id": "v5-rule",
+      "root": "Sources_LOCKED",
+      "path": "volume_05/volume_05.srt",
+      "locator": "00:02:50.070-00:03:15.450",
+      "classification": "SOURCE_RULE",
+      "excerpt": "shorter than waves 1 and 5",
+      "meaning": "Strict-shortest schematic and extending-third relabeling discussion; distorted transcript sentence at 03:04 is not used as authority."
+    },
+    {
+      "ref_id": "v5-points",
+      "root": "Sources_LOCKED",
+      "path": "volume_05/volume_05.srt",
+      "locator": "00:03:43.310-00:04:56.770",
+      "classification": "SOURCE_OBSERVATION",
+      "excerpt": "26.43 points",
+      "meaning": "Upward diagonal example: 1902.98 - 1876.55 = 26.43; wave 1 = 32.77. Projecting 26.43 from 1889.76 gives 1916.19. The words 'must be shorter' and 'cannot exceed' do not adjudicate equality consistently."
+    },
+    {
+      "ref_id": "v5-trade",
+      "root": "Sources_LOCKED",
+      "path": "volume_05/volume_05.srt",
+      "locator": "00:04:51.490-00:06:03.210",
+      "classification": "SOURCE_TRADING_PRACTICE",
+      "excerpt": "get out of the way and reassess",
+      "meaning": "Stop/risk application in the diagonal example is not a universal P005 executable formula or trading authorization."
+    },
+    {
+      "ref_id": "v5-equality",
+      "root": "Sources_LOCKED",
+      "path": "volume_05/volume_05.srt",
+      "locator": "00:07:40.720-00:08:02.020",
+      "classification": "SOURCE_GUIDELINE",
+      "excerpt": "tend toward equality",
+      "meaning": "Although introduced verbally as a rule of equality, the content is a tendency for 1 and 5 when 3 is longest, consistent with book guideline. It does not decide a tie involving shortest 3."
+    },
+    {
+      "ref_id": "v5-forecast",
+      "root": "Sources_LOCKED",
+      "path": "volume_05/volume_05.srt",
+      "locator": "00:17:18.480-00:17:28.120",
+      "classification": "SOURCE_GUIDELINE",
+      "excerpt": "normally longer",
+      "meaning": "Forecasting minimum equality to 1 is discussed as an expectation, not a hard requirement that 3 exceed 1."
+    },
+    {
+      "ref_id": "v7-measure",
+      "root": "Sources_LOCKED",
+      "path": "volume_07/volume_07.srt",
+      "locator": "00:18:33.180-00:19:31.920",
+      "classification": "SOURCE_OBSERVATION",
+      "excerpt": "origin of wave 3",
+      "meaning": "Fibonacci-compass example measures vertical origin-to-labeled-end displacement; not accumulated travel or time, but not a universal P005 price-field contract."
+    },
+    {
+      "ref_id": "v8-extension",
+      "root": "Sources_LOCKED",
+      "path": "volume_08/volume_08.srt",
+      "locator": "00:08:50.380-00:09:26.600",
+      "classification": "SOURCE_OBSERVATION",
+      "excerpt": "3rd not the shortest",
+      "meaning": "Nested 1-2 extension application preserves the rule; not license to force an extension when P005 fails."
+    },
+    {
+      "ref_id": "v10-both",
+      "root": "Sources_LOCKED",
+      "path": "volume_10/volume_10.txt",
+      "locator": "00:28:14.840-00:28:25.640",
+      "classification": "SOURCE_RULE",
+      "excerpt": "The answer is both.",
+      "meaning": "The question asks whether never shorter than both 1 and 5 applies in arithmetic terms, percentage terms, or both. No exception, tie adjudication or formula accompanies the answer."
+    },
+    {
+      "ref_id": "book-core",
+      "root": "Sources_LOCKED",
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF page 31 / printed page 31, Motive Waves",
+      "classification": "SOURCE_RULE",
+      "excerpt": "a greater percentage movement than either wave 1 or 5",
+      "meaning": "Percentage movement exceeding at least one comparator is stated as sufficient. Not necessarily an exhaustive iff definition of satisfaction."
+    },
+    {
+      "ref_id": "book-arithmetic",
+      "root": "Sources_LOCKED",
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF page 31 / printed page 31, Motive Waves",
+      "classification": "SOURCE_GUIDELINE",
+      "excerpt": "It almost always holds on an arithmetic basis as well.",
+      "meaning": "Arithmetic compliance is described as almost always rather than compulsory; conflicts with the seminar both-bases answer when arithmetic fails but percentage passes."
+    },
+    {
+      "ref_id": "book-strict",
+      "root": "Sources_LOCKED",
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF pages 32-34 / printed pages 32-34, Figures 1-5 through 1-10",
+      "classification": "SOURCE_RULE",
+      "excerpt": "shorter than wave 1 and shorter than wave 5",
+      "meaning": "Figure 1-7 explicitly shows incorrect strict-shortest counting. The bull/bear extension diagrams demonstrate directions but are not numeric tie/measurement proofs."
+    },
+    {
+      "ref_id": "book-truncation",
+      "root": "Sources_LOCKED",
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF page 35 / printed page 35, Figures 1-11 and 1-12",
+      "classification": "SOURCE_DEFINITION",
+      "excerpt": "does not move beyond the end of the third",
+      "meaning": "Truncation defined; subdivision verification and usual strong third are separately non-universal guidance. Truncation does not exempt 3 from P005."
+    },
+    {
+      "ref_id": "book-orthodox",
+      "root": "Sources_LOCKED",
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF page 55 / printed page 55, Orthodox Tops and Bottoms",
+      "classification": "SOURCE_DEFINITION",
+      "excerpt": "the end of the pattern",
+      "meaning": "Orthodox termination may differ from a price extreme. The chapter-4 typical measuring practice is not a compulsory P005 whole-path/endpoint selector."
+    },
+    {
+      "ref_id": "book-equality",
+      "root": "Sources_LOCKED",
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF pages 69 and 247 / printed pages 69 and 247, Wave Equality / Glossary",
+      "classification": "SOURCE_GUIDELINE",
+      "excerpt": "tend toward equality",
+      "meaning": "Non-extended waves tend toward equality; 1/3 approximately equal with extended 5 on page 32 is also tendency, not an exact tie verdict."
+    },
+    {
+      "ref_id": "book-summary",
+      "root": "Sources_LOCKED",
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF pages 86-87 / printed pages 86-87, Impulse Rules and Guidelines",
+      "classification": "SOURCE_RULE",
+      "excerpt": "Wave 3 is never the shortest wave.",
+      "meaning": "Rule and guidelines separated explicitly. Page 86 gauge-imperfection discussion is contextual caution, not a numeric error tolerance."
+    },
+    {
+      "ref_id": "book-ratios",
+      "root": "Sources_LOCKED",
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF pages 134-137 and 201 / corresponding printed pages, Ratio Analysis and Elliott Speaks",
+      "classification": "SOURCE_GUIDELINE",
+      "excerpt": "percentage terms",
+      "meaning": "Point subtraction, percentage gains and semilog projection appear in numerical examples. Page 201 distinguishes a chart approximation from exactly equivalent 371.6% gain. These are not a universal P005 percentage operation or permission to select basis by degree."
+    },
+    {
+      "ref_id": "book-diagonal-context",
+      "root": "Sources_LOCKED",
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF pages 36-38 and 87-88 / corresponding printed pages, Diagonal",
+      "classification": "SOURCE_OBSERVATION",
+      "excerpt": "shortest actionary wave",
+      "meaning": "Page 37 calls one expanding ending-diagonal example unsatisfying with shortest 3. Diagonal-specific descriptions are not an exception imported into NORMAL_IMPULSE."
+    }
+  ],
+  "reference_keys_are_not_new_protected_ids": true,
+  "source_classifications_unchanged": true
+}
