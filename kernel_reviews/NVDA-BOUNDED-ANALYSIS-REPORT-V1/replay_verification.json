@@ -1,0 +1,57 @@
+{
+  "result": "PASS",
+  "only_difference": "FRESH_CAPTURE versus OFFLINE_REPLAY data.mode and its Markdown rendering",
+  "other_json_equal": true,
+  "csv_configuration_byte_equal": true,
+  "network_during_replay": false,
+  "capture_audit": {
+    "hypothesis_rows": 194,
+    "groups": 45,
+    "endpoint_rows": 1284,
+    "requirement_links": 194,
+    "result": "PASS",
+    "all_saved_endpoint_prices_verified": 1284,
+    "all_capture_dates_and_quality_verified": true,
+    "markdown_csv_reconciled": true,
+    "authority_note": "Saved records are not certificates. Live identity validation occurred before export."
+  },
+  "replay_audit": {
+    "hypothesis_rows": 194,
+    "groups": 45,
+    "endpoint_rows": 1284,
+    "requirement_links": 194,
+    "result": "PASS",
+    "all_saved_endpoint_prices_verified": 1284,
+    "all_capture_dates_and_quality_verified": true,
+    "markdown_csv_reconciled": true,
+    "authority_note": "Saved records are not certificates. Live identity validation occurred before export."
+  },
+  "replay_files": [
+    {
+      "path": "kernel_reviews/NVDA-BOUNDED-ANALYSIS-REPORT-V1/replay/candidates.csv",
+      "byte_length": 188677,
+      "sha256": "452d8473b052865b3e297a074bdf1a5f8878fd6cd2535ef50e187f600546a71d"
+    },
+    {
+      "path": "kernel_reviews/NVDA-BOUNDED-ANALYSIS-REPORT-V1/replay/configuration.json",
+      "byte_length": 2103,
+      "sha256": "2d35d76ba4076a0d4c37e05678f5d50a743ce67bcb00ac054cfd2fb8b9c65486"
+    },
+    {
+      "path": "kernel_reviews/NVDA-BOUNDED-ANALYSIS-REPORT-V1/replay/endpoints.csv",
+      "byte_length": 1966534,
+      "sha256": "bbc136d60350140ac66f10b20c17c2cdcf10d361b6af4b34d29943a98296ab87"
+    },
+    {
+      "path": "kernel_reviews/NVDA-BOUNDED-ANALYSIS-REPORT-V1/replay/market_report.json",
+      "byte_length": 3714088,
+      "sha256": "ea47382a962807a2f9f6d90d49abad07a00b0c4841522d55369ff5a5f9f50091"
+    },
+    {
+      "path": "kernel_reviews/NVDA-BOUNDED-ANALYSIS-REPORT-V1/replay/market_report.md",
+      "byte_length": 28902,
+      "sha256": "c474fe21444686a8bfa48751219d262821762e1c85556433cc575adc64475da0"
+    }
+  ],
+  "replay_output_disposition": "Replay outputs retained in additive baseline/replay after cleanup was blocked by environment policy. No deletion retry, permissions change or protected write."
+}

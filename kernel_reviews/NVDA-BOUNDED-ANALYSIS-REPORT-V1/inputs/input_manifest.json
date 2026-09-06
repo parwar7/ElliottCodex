@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "byte_length": 143590,
+      "path": "NVDA_1mo.json",
+      "sha256": "75302b3611bf19b602ddf021988b83c4beef6a62dd245bc1184c949320a88e0d"
+    },
+    {
+      "byte_length": 613319,
+      "path": "NVDA_1wk.json",
+      "sha256": "c6b2b59341db0514c8a454491aba05e9704ad24bda068557c5a444d4613b02b8"
+    },
+    {
+      "byte_length": 3213194,
+      "path": "NVDA_1d.json",
+      "sha256": "f0333205c8944b8e93c1421aaf26e5b2923e4ba0da85e94cce05487e28134104"
+    },
+    {
+      "byte_length": 1552755,
+      "path": "NVDA_1h.json",
+      "sha256": "b05971b635ba4aaa990fee48b195dbe2eb734bb4ee756b9b2bf0c1fc1782867f"
+    }
+  ],
+  "historical_comparison": "Fresh retrieval differs from historical inputs; do not attribute result differences solely to code.",
+  "kind": "FRESH_YAHOO_NORMALIZED_SNAPSHOTS",
+  "raw_response_retained": false,
+  "replay_boundary": "Lossless normalized transport; provider raw hash retained but raw body not exposed by public provider API.",
+  "requested_at_utc": "2026-09-06T23:20:10+00:00"
+}

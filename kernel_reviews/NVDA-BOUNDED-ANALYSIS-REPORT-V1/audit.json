@@ -1,0 +1,114 @@
+{
+  "stage": "NVDA-BOUNDED-ANALYSIS-REPORT-V1",
+  "result": "PASS",
+  "approved_base": "3cfab72c3fa96ce7e73f02b870ceadaa6e784c65",
+  "preservation": {
+    "tracked_files_checked": 624,
+    "unchanged_files": 623,
+    "authorized_changes": [
+      {
+        "before": {
+          "path": "tools/nvda_post_p005_experiment.py",
+          "byte_length": 24420,
+          "sha256": "9b89328c9f535f0d3dc2c50e776b6233176338d3568491f6c373fd9dd3b7dee5"
+        },
+        "after": {
+          "path": "tools/nvda_post_p005_experiment.py",
+          "byte_length": 24655,
+          "sha256": "5c9ee95ad45a321a4b697650cdfb2fd4f288d7626e6a22365e7f4529b349b929"
+        }
+      }
+    ],
+    "kernel_shared_contracts_existing_tests_and_historical_baselines_unchanged": true
+  },
+  "replay": "replay_verification.json",
+  "all_row_audit": {
+    "hypothesis_rows": 194,
+    "groups": 45,
+    "endpoint_rows": 1284,
+    "requirement_links": 194,
+    "result": "PASS",
+    "all_saved_endpoint_prices_verified": 1284,
+    "all_capture_dates_and_quality_verified": true,
+    "markdown_csv_reconciled": true,
+    "authority_note": "Saved records are not certificates. Live identity validation occurred before export."
+  },
+  "tests": {
+    "stage": "NVDA-BOUNDED-ANALYSIS-REPORT-V1",
+    "new_tests": 18,
+    "development_check": {
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 52.523
+    },
+    "focused": {
+      "command": "python -B -m unittest test_nvda_bounded_report test_nvda_post_p005_experiment",
+      "tests": 29,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 61.53
+    },
+    "full": {
+      "command": "python -B -m unittest discover -s tests",
+      "tests": 1035,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 219.909,
+      "runs_after_final_code_changes": 1
+    },
+    "environment": {
+      "PYTHONPATH": "src;tools;tests",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "network_in_tests": false,
+    "fixture": "Previous immutable NVDA normalized capture; genuine public factory execution in-process, no restored authority.",
+    "full_suite_policy": "One full suite after final implementation changes.",
+    "legacy_mock_note": "Expected mocked provider-failure traceback and INCOMPLETE text are not a live provider failure.",
+    "execution": "Local foreground sessions: installed Codex Process Jobs explicitly rejects win32."
+  },
+  "inventory": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances": 0
+  },
+  "protected": {
+    "brain_manifest": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338",
+    "sources_manifest": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "brain_entries": 30,
+    "source_entries": 21,
+    "mismatches": 0,
+    "pre_final_equal": true,
+    "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  },
+  "adversarial": {
+    "public_factory_results_validated_before_export": true,
+    "no_authority_restored_from_json": true,
+    "P004_rejection_local_and_not_rescued": true,
+    "P005_sufficiency_not_family_or_completion": true,
+    "all_hypothesis_and_requirement_links_retained": true,
+    "grouping_display_only_no_ranking": true,
+    "no_endpoint_price_basis_substitution": true,
+    "five_role_proposals_not_orthodox_endpoints": true,
+    "developing_and_missing_eligibility_remain_unresolved": true,
+    "partial_internal_coverage_not_satisfied": true,
+    "all_84_requirements_unsatisfied": true,
+    "no_family_or_structural_certificate_synthesis": true,
+    "no_new_methodology_or_shared_contract_change": true,
+    "no_additional_recursion_degree_inference_or_search_expansion": true,
+    "no_indicators_forecasts_trading_or_confidence": true,
+    "P006_Flat_Triangle_freezes_preserved": true,
+    "source_derived_base_case_blocker_preserved": true,
+    "legacy_analyze_not_implemented": true,
+    "raw_media_not_committed": true
+  },
+  "write_boundary": "New output creation is workspace-bounded, exclusive/write-once. Test temporary directories stay under Runtime. Read-only auditor writes no files. Only existing-file change is the optional observation callback; no change to default computation.",
+  "data": "One fresh Yahoo capture, saved and reloaded; no fallback. Actual capture date and last bar dates are separate. Provider omissions/warnings retained. Offline replay uses no network.",
+  "scope_note": "No complete count is asserted. Operational report is not passed off as completed protected ANALYSIS_OUTPUT_SCHEMA output.",
+  "deviations": [
+    "Installed durable process job helper rejects win32; local foreground execution used. No project files outside Runtime were written.",
+    "Environment policy blocked temporary replay deletion. Verified replay outputs were instead moved into this additive baseline; no deletion retry or permission change."
+  ],
+  "baseline_semantics": "Logical hash baseline only, not physically immutable and not project-manager approval."
+}

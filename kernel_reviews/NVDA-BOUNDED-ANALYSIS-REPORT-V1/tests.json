@@ -1,0 +1,34 @@
+{
+  "stage": "NVDA-BOUNDED-ANALYSIS-REPORT-V1",
+  "new_tests": 18,
+  "development_check": {
+    "tests": 16,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 52.523
+  },
+  "focused": {
+    "command": "python -B -m unittest test_nvda_bounded_report test_nvda_post_p005_experiment",
+    "tests": 29,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 61.53
+  },
+  "full": {
+    "command": "python -B -m unittest discover -s tests",
+    "tests": 1035,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 219.909,
+    "runs_after_final_code_changes": 1
+  },
+  "environment": {
+    "PYTHONPATH": "src;tools;tests",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "network_in_tests": false,
+  "fixture": "Previous immutable NVDA normalized capture; genuine public factory execution in-process, no restored authority.",
+  "full_suite_policy": "One full suite after final implementation changes.",
+  "legacy_mock_note": "Expected mocked provider-failure traceback and INCOMPLETE text are not a live provider failure.",
+  "execution": "Local foreground sessions: installed Codex Process Jobs explicitly rejects win32."
+}

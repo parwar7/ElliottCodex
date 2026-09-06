@@ -288,7 +288,7 @@ def audit_summary(summary):
         raise ValueError("P004 origin not retained")
 
 
-def run_scope(parent, finer, kernel, at, progress=print):
+def run_scope(parent, finer, kernel, at, progress=print, *, observe_results=None):
     prefix = f"nvda-post-p005:{parent.timeframe.label}"
     refs = (STAGE, parent.provenance.source_sha256, finer.provenance.source_sha256)
     cfg = configuration()
@@ -353,6 +353,9 @@ def run_scope(parent, finer, kernel, at, progress=print):
             "generation_status": outcome.status, "generation_diagnostic": outcome.diagnostic,
             "partial_normal_impulse_hypotheses": len(matching), "requirement_satisfied": False,
         }))
+    if observe_results is not None:
+        # Optional reporting consumer of genuine results; no alternate execution.
+        observe_results(families, internals, child_families, parent_partial, child_partial)
     return plain({
         "parent_resolution": parent.timeframe.label, "child_resolution": finer.timeframe.label,
         "parent_bars": len(parent.bars), "finer_bars": len(finer.bars), "geometric_pivots": len(pivots.pivots),

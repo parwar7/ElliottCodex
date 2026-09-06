@@ -1,0 +1,99 @@
+{
+  "inventory": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances": 0
+  },
+  "files": [
+    {
+      "path": "tools/nvda_post_p005_experiment.py",
+      "sha256": "5c9ee95ad45a321a4b697650cdfb2fd4f288d7626e6a22365e7f4529b349b929",
+      "byte_length": 24655,
+      "imports": [
+        "__future__",
+        "argparse",
+        "collections",
+        "dataclasses",
+        "datetime",
+        "elliott_methodology_kernel",
+        "elliott_methodology_kernel.models",
+        "elliott_runtime.analysis.candidate_generation",
+        "elliott_runtime.analysis.competing_candidates",
+        "elliott_runtime.analysis.family_hypotheses",
+        "elliott_runtime.analysis.family_internal_subdivisions",
+        "elliott_runtime.analysis.finer_child_observation_selection",
+        "elliott_runtime.analysis.normal_impulse_partial_evaluation",
+        "elliott_runtime.analysis.recursive_child_candidate_generation",
+        "elliott_runtime.analysis.recursive_child_family_evaluation",
+        "elliott_runtime.market_data.geometric_pivots",
+        "elliott_runtime.market_data.yahoo",
+        "enum",
+        "fractions",
+        "hashlib",
+        "json",
+        "pathlib",
+        "traceback"
+      ]
+    },
+    {
+      "path": "tools/nvda_bounded_report.py",
+      "sha256": "b4725233804094f8a9e881fc4312fcbb015ff17dab2e1d398a03600ad6a2557b",
+      "byte_length": 33325,
+      "imports": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "elliott_methodology_kernel",
+        "elliott_runtime.analysis.family_hypotheses",
+        "elliott_runtime.analysis.family_internal_subdivisions",
+        "elliott_runtime.analysis.normal_impulse_partial_evaluation",
+        "elliott_runtime.analysis.recursive_child_family_evaluation",
+        "elliott_runtime.market_data.yahoo",
+        "fractions",
+        "io",
+        "json",
+        "nvda_post_p005_experiment",
+        "pathlib",
+        "traceback"
+      ]
+    },
+    {
+      "path": "tools/audit_nvda_bounded_report.py",
+      "sha256": "02ea69c3deb11f7bfdcb257aa42b7f392170d8b9a7819c3c649b54f61c8d0d84",
+      "byte_length": 4594,
+      "imports": [
+        "argparse",
+        "csv",
+        "fractions",
+        "io",
+        "json",
+        "nvda_bounded_report",
+        "pathlib"
+      ]
+    },
+    {
+      "path": "tests/test_nvda_bounded_report.py",
+      "sha256": "1a5c243dace024bd72a03a18b67c1abc9071c1e782a72c95b64892ece98472b4",
+      "byte_length": 11443,
+      "imports": [
+        "audit_nvda_bounded_report",
+        "copy",
+        "csv",
+        "elliott_methodology_kernel",
+        "io",
+        "json",
+        "nvda_bounded_report",
+        "pathlib",
+        "support",
+        "sys",
+        "tempfile",
+        "test_normal_impulse_partial_evaluation",
+        "unittest",
+        "unittest.mock"
+      ]
+    }
+  ]
+}
