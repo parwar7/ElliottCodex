@@ -1,0 +1,41 @@
+{
+  "stage": "NVDA-LINKED-HYPOTHESIS-CHART-V1",
+  "focused": {
+    "command": "python -B -m unittest discover -s tests -p test_nvda_linked_hypothesis_chart.py -v",
+    "tests": 15,
+    "passed": 15,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 16.372
+  },
+  "full": {
+    "command": "python -B -m unittest discover -s tests -q",
+    "tests": 1130,
+    "passed": 1130,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 612.432,
+    "runs_after_final_implementation_changes": 1,
+    "exit_code": 0,
+    "mock_provider_failure_output": "Expected pre-existing regression output; not a live Yahoo request."
+  },
+  "browser": {
+    "tool": "Installed Playwright / Edge",
+    "version": "152.0.4191.66",
+    "result": "PASS",
+    "hypotheses_checked": 90,
+    "exact_labels_prices_timestamps_links": true,
+    "alternative_isolation": true,
+    "back_navigation": true,
+    "canonical_payload_and_download_equality": true,
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "light_and_dark_system_modes": true,
+    "external_page_requests": 0,
+    "page_errors": 0,
+    "screenshot_visually_inspected": true,
+    "limitations": "Other browser engines, touch input and print conversion not tested.",
+    "development_correction": "Narrow-layout overflow from long evidence-state text; fixed with wrapping, then browser QA passed."
+  },
+  "execution_note": "Codex Process Jobs start workflow was inspected but explicitly rejects Windows; normal foreground unittest execution was used. All task-owned scratch data stayed beneath Runtime."
+}
