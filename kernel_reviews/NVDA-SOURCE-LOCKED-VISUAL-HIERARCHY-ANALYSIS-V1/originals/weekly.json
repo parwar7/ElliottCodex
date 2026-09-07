@@ -1,0 +1,68 @@
+{
+  "image_path": "C:\\ElliottCodex\\Runtime_WORKSPACE\\artifacts\\tradingview_nvda_capture_20260907\\captures\\nvda_cboeone_weekly_20260907T144852_687570Z.png",
+  "captured_at_utc": "2026-09-07T14:48:52.687570+00:00",
+  "sha256": "9e87aac189066f1f19e89fc8193deeb128a0c745b3219d69095a29a3bf05f6a6",
+  "target_id": "42CF2FA9E615CF5F73AF1903756EF875",
+  "view": "weekly",
+  "metadata": {
+    "chart": {
+      "symbol": "BATS:NVDA",
+      "resolution": "1W",
+      "range": {
+        "from": 1630281600,
+        "to": 1794182400
+      },
+      "timezone": "Etc/UTC",
+      "studies": [
+        {
+          "id": "GwEgXB",
+          "name": "Volume"
+        },
+        {
+          "id": "dBzAht",
+          "name": "Relative Strength Index"
+        }
+      ],
+      "shapes": []
+    },
+    "symbolExt": {
+      "symbol": "NVDA",
+      "full_name": "BATS:NVDA",
+      "exchange": "Cboe One",
+      "description": "NVIDIA Corporation",
+      "type": "stock",
+      "pro_name": "NASDAQ:NVDA",
+      "typespecs": [
+        "common"
+      ]
+    },
+    "scaleControls": [
+      {
+        "label": "Toggle auto scale",
+        "pressed": null,
+        "checked": null,
+        "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+      },
+      {
+        "label": "Toggle log scale",
+        "pressed": null,
+        "checked": null,
+        "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+      },
+      {
+        "label": "Adjust data for dividends",
+        "pressed": "false",
+        "checked": null,
+        "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+      }
+    ],
+    "marketStatus": [
+      "NASDAQ \u2014 NASDAQ Stock Market",
+      "Holiday \u00b7 One update every 5 seconds \u00b7 NASDAQ by Cboe One"
+    ]
+  },
+  "range_utc": {
+    "from": "2021-08-30T00:00:00+00:00",
+    "to": "2026-11-09T00:00:00+00:00"
+  }
+}

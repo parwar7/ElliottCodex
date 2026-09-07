@@ -1,0 +1,68 @@
+{
+  "window": "early_weekly",
+  "purpose": "Inspect proposed 2002 origin region, 2007 first and 2008 second internals",
+  "captured_at_utc": "2026-09-07T15:18:45.178795+00:00",
+  "sha256": "069541058d879443ee815be91cb4615f877d415537e06901c04242f1f08c913d",
+  "metadata": {
+    "chart": {
+      "symbol": "BATS:NVDA",
+      "resolution": "1W",
+      "range": {
+        "from": 978393600,
+        "to": 1243814400
+      },
+      "timezone": "Etc/UTC",
+      "studies": [
+        {
+          "id": "GwEgXB",
+          "name": "Volume"
+        },
+        {
+          "id": "dBzAht",
+          "name": "Relative Strength Index"
+        }
+      ],
+      "shapes": []
+    },
+    "symbolExt": {
+      "symbol": "NVDA",
+      "full_name": "BATS:NVDA",
+      "exchange": "Cboe One",
+      "description": "NVIDIA Corporation",
+      "type": "stock",
+      "pro_name": "NASDAQ:NVDA",
+      "typespecs": [
+        "common"
+      ]
+    },
+    "scaleControls": [
+      {
+        "label": "Toggle auto scale",
+        "pressed": null,
+        "checked": null,
+        "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+      },
+      {
+        "label": "Toggle log scale",
+        "pressed": null,
+        "checked": null,
+        "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+      },
+      {
+        "label": "Adjust data for dividends",
+        "pressed": "false",
+        "checked": null,
+        "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+      }
+    ],
+    "marketStatus": [
+      "NASDAQ \u2014 NASDAQ Stock Market",
+      "Holiday \u00b7 One update every 5 seconds \u00b7 NASDAQ by Cboe One"
+    ]
+  },
+  "requested": [
+    "1W",
+    "2001-01-01",
+    "2009-06-01"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "stage": "NVDA-SOURCE-LOCKED-VISUAL-HIERARCHY-ANALYSIS-V1",
+  "approved_base": "0ac632d5162095bc9a9e5f16cf7d57b705f11d96",
+  "review_type": "PROVISIONAL_VISUAL_ANALYSIS_NOT_ENGINE_RUN",
+  "packaging_audit": "Generated JSON uses explicit LF. Local .gitattributes preserves exact original capture JSON bytes. Staged blob bytes are compared to the manifest before commit; no repository-wide attributes changed.",
+  "coverage": [
+    {"scope": "Monthly 1999–September 2026", "status": "INSPECTED_VISIBLE_HISTORY", "image": "monthly", "limitation": "Data boundary is not wave origin; all monthly visibility does not expose all subwaves."},
+    {"scope": "Weekly January 2001–June 2009", "status": "INSPECTED_TARGETED", "image": "early_weekly", "question": "Can the proposed 2002–2007 first be provisionally subdivided? Five broad regions proposed; Daily internals unresolved."},
+    {"scope": "Weekly January 2008–December 2022", "status": "INSPECTED_TARGETED", "image": "middle_weekly", "question": "2021 end of a third versus nested extension; both remain hypotheses, with B.3.1 proof incomplete."},
+    {"scope": "Weekly September 2021–September 2026", "status": "INSPECTED_EXISTING", "image": "weekly", "limitation": "Observation coverage only; no independent degree or completion proof."},
+    {"scope": "Daily September 2022–May 2025", "status": "INSPECTED_TARGETED", "image": "recent_daily", "question": "Inspect the rise from 2022 and correction to April 2025. Late-2024/early-2025 endpoint cluster unresolved."},
+    {"scope": "Daily September 2025–September 2026", "status": "INSPECTED_EXISTING", "image": "daily", "limitation": "Does not establish complete substructure since April 2025."},
+    {"scope": "Daily April–early September 2026", "status": "INSPECTED_TARGETED", "image": "latest_daily", "question": "May peak / July low / August retreat / latest rebound. No exact active wave assigned."},
+    {"scope": "Pre-2022 Daily internals", "status": "UNINSPECTED_INTERNALS", "reason": "Four targeted-window operational bound; historical Daily availability not tested or asserted absent."},
+    {"scope": "June–August 2025 Daily internals", "status": "UNINSPECTED_INTERNALS", "reason": "Gap between inspected Daily windows; Weekly coverage is not a substitute for Daily internals."},
+    {"scope": "Intraday internals and terminal/base case", "status": "EVIDENCE_NOT_SUPPLIED", "reason": "No intraday captures, no artificial smallest-timeframe or terminal wave; SOURCE_DERIVED_BASE_CASE_NOT_FOUND preserved."}
+  ],
+  "bounds": {"top_level_scenarios": 2, "additional_windows": 4, "new_finer_than_daily_windows": 0, "exhaustive_alternative_search": false},
+  "source_class_separation": {
+    "SOURCE_RULE": "Consulted P004 and P005 support/policy but no exact executable rule result derived from pixels; P006 remains frozen/conflicted.",
+    "SOURCE_DEFINITION": "Five-position motive expectation and relative hierarchy; definition does not certify the pictured family.",
+    "SOURCE_GUIDELINE": "Top-down inspection and extension/nested alternatives; no ranking, hard rejection or completion from typical appearance.",
+    "SOURCE_OBSERVATION": "Aggregated bars may conceal internals; visible Volume is not used as confirmation.",
+    "SOURCE_TRADING_PRACTICE": "Not applied; no trade, target, alert or signal.",
+    "CONFLICT": "P006 preserved; historical P005 metric conflict retained under adopted narrow policy, not reopened.",
+    "UNRESOLVED": "Exact historical endpoints, fine subdivisions, completion, degree and current component; Flat/Triangle not assigned to unexplained corrections."
+  },
+  "visual_audit": {
+    "original_images_inspected": 7,
+    "annotated_images_inspected": 10,
+    "annotation_method": "Non-generative callouts on unchanged original-resolution screenshots, original files separately retained; no synthetic price connecting lines.",
+    "placement_revision": "Monthly 2002 callout moved within the approximate low region after visual inspection; exact point still not claimed.",
+    "parent_link_check": "All 47 node records and annotation links checked; contextual May/July/August regions are explicitly not extra wave labels.",
+    "duplicate_context": "A and B preserve separate nodes and parents even for identical regions; not independent confirmations.",
+    "latest_display": "230.36 exact readable label only. Daily bar date remains approximate early September; no current-today claim.",
+    "scenario_support_limit": "Two possible organizations grounded in observed reversals and source-permitted structures, not source-authored NVDA counts. B adds unresolved internal-family dependencies; neither is ranked.",
+    "no_engine_inputs_from_pixels": true,
+    "engine_invocations": 0,
+    "pipeline_reruns": 0
+  },
+  "connection_audit": {
+    "working_connection": "Existing local stdio MCP to TradingView Desktop CDP on localhost only",
+    "new_setup_or_installation": false,
+    "workflow": "review_window -> review_goto -> review_custom_tab -> review_fill_range -> review_submit_range -> review_capture; each capture metadata matched before/after screenshot",
+    "failed_capability": "TradingViewApi.activeChart().setVisibleRange returned not implemented; no range success claimed from it. Existing UI Go to / Custom range used instead.",
+    "autosave_final": "False, confirmed from Autosave aria-checked=false after opening layout menu; dismissed without saving.",
+    "original_NVDA_final": {"symbol": "BATS:NVDA", "resolution": "6M", "range": [915148800, 1940630400], "shape_count": 0, "matches_preinspection": true},
+    "original_MSFT_final": {"symbol": "BATS:MSFT", "resolution": "1D", "range": [1745971200, 1789948800], "shape_count": 13, "matches_preinspection": true},
+    "original_mutation_calls": 0,
+    "saved_layout_writes": 0,
+    "OHLCV_export": "NOT_VERIFIED",
+    "native_drawing": "NOT_VERIFIED; annotations exported locally"
+  },
+  "portable_report_receipt": {
+    "validation": "passed",
+    "package": "passed",
+    "verification": "structural_only",
+    "reason": "No installed compatible Chromium headless-shell found by canonical builder; no browser installed. Exact artifact-payload equality and reader/fallback structural checks passed. Browser layout/source-dialog interactions not verified.",
+    "blocks": 13,
+    "charts": 1,
+    "html_image_blocks": 4,
+    "authoring_iterations": "Builder initially required a native chart and SQL provenance; added a real seven-receipt coverage count using executed SQLite, not fabricated market data."
+  },
+  "preservation": {
+    "methodology_inventory": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances_this_review": 0,
+    "basis": "Approved source files unchanged; no imports/evaluator/certification calls in report helper.",
+    "P004_P005": "UNCHANGED; no outcomes synthesized",
+    "P006": "UNCHANGED_FROZEN_CONFLICT",
+    "Flat_Triangle": "UNCHANGED_FROZEN",
+    "base_case": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "legacy_analyze": "NOT_IMPLEMENTED",
+    "protected_writes": 0,
+    "known_local_work": ".codex/ and artifacts/ remain untracked and excluded from commit",
+    "project_manager_approval_claimed": false
+  }
+}

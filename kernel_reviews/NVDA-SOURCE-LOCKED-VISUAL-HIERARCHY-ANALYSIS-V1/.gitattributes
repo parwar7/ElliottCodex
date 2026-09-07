@@ -1,0 +1,2 @@
+# Preserve original capture receipt bytes; do not normalize their line endings.
+originals/*.json -text

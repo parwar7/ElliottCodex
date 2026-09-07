@@ -1,0 +1,950 @@
+[
+  {
+    "name": "A_monthly",
+    "scenario": "A",
+    "image": "monthly",
+    "title": "A | Larger fifth continuation? | Monthly 1999–2026",
+    "marks": [
+      {
+        "node": "A",
+        "evidence": "e02",
+        "xy": [
+          324,
+          905
+        ],
+        "offset": [
+          5,
+          -100
+        ],
+        "label": "2002 origin REGION?",
+        "relationship": "start"
+      },
+      {
+        "node": "A.1",
+        "evidence": "e07",
+        "xy": [
+          636,
+          667
+        ],
+        "offset": [
+          -35,
+          -75
+        ],
+        "label": "A.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.2",
+        "evidence": "e09",
+        "xy": [
+          703,
+          827
+        ],
+        "offset": [
+          15,
+          35
+        ],
+        "label": "A.2?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.3",
+        "evidence": "e21",
+        "xy": [
+          1511,
+          343
+        ],
+        "offset": [
+          -65,
+          -85
+        ],
+        "label": "A.3?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.4",
+        "evidence": "e22",
+        "xy": [
+          1563,
+          437
+        ],
+        "offset": [
+          15,
+          65
+        ],
+        "label": "A.4?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.5",
+        "evidence": "last",
+        "xy": [
+          1807,
+          168
+        ],
+        "offset": [
+          -190,
+          -40
+        ],
+        "label": "A.5? OPEN",
+        "relationship": "end"
+      }
+    ],
+    "footer": "1999 is only the data boundary. A.5 may contain the last bar only conditionally; completion is not established.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/monthly.png",
+    "output": "annotated/A_monthly.png"
+  },
+  {
+    "name": "B_monthly",
+    "scenario": "B",
+    "image": "monthly",
+    "title": "B | Larger third still extending? | Monthly 1999–2026",
+    "marks": [
+      {
+        "node": "B",
+        "evidence": "e02",
+        "xy": [
+          324,
+          905
+        ],
+        "offset": [
+          5,
+          -100
+        ],
+        "label": "2002 origin REGION?",
+        "relationship": "start"
+      },
+      {
+        "node": "B.1",
+        "evidence": "e07",
+        "xy": [
+          636,
+          667
+        ],
+        "offset": [
+          -35,
+          -75
+        ],
+        "label": "B.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.2",
+        "evidence": "e09",
+        "xy": [
+          703,
+          827
+        ],
+        "offset": [
+          15,
+          35
+        ],
+        "label": "B.2?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.1",
+        "evidence": "e18",
+        "xy": [
+          1316,
+          480
+        ],
+        "offset": [
+          -95,
+          -80
+        ],
+        "label": "B.3.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.2",
+        "evidence": "e19",
+        "xy": [
+          1329,
+          556
+        ],
+        "offset": [
+          15,
+          55
+        ],
+        "label": "B.3.2?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3",
+        "evidence": "last",
+        "xy": [
+          1807,
+          168
+        ],
+        "offset": [
+          -230,
+          -40
+        ],
+        "label": "B.3? OPEN",
+        "relationship": "end"
+      }
+    ],
+    "footer": "Same market history, different parenthood. Extension is a hypothesis, not a preferred count or proof from slope.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/monthly.png",
+    "output": "annotated/B_monthly.png"
+  },
+  {
+    "name": "A_early_weekly",
+    "scenario": "A",
+    "image": "early_weekly",
+    "title": "A | Proposed children of A.1 | Weekly 2001–2009",
+    "marks": [
+      {
+        "node": "A.1",
+        "evidence": "e02",
+        "xy": [
+          463,
+          929
+        ],
+        "offset": [
+          -110,
+          -60
+        ],
+        "label": "origin REGION?",
+        "relationship": "start"
+      },
+      {
+        "node": "A.1.1",
+        "evidence": "e03",
+        "xy": [
+          600,
+          589
+        ],
+        "offset": [
+          -60,
+          -65
+        ],
+        "label": "A.1.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.1.2",
+        "evidence": "e04",
+        "xy": [
+          849,
+          891
+        ],
+        "offset": [
+          10,
+          20
+        ],
+        "label": "A.1.2?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.1.3",
+        "evidence": "e06h",
+        "xy": [
+          1218,
+          348
+        ],
+        "offset": [
+          -85,
+          -65
+        ],
+        "label": "A.1.3?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.1.4",
+        "evidence": "e06l",
+        "xy": [
+          1257,
+          514
+        ],
+        "offset": [
+          15,
+          30
+        ],
+        "label": "A.1.4?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.1.5",
+        "evidence": "e07",
+        "xy": [
+          1523,
+          168
+        ],
+        "offset": [
+          10,
+          45
+        ],
+        "label": "A.1.5?",
+        "relationship": "end"
+      }
+    ],
+    "footer": "Parent interval: 2002 autumn to 2007 high cluster. Weekly legs are proposed; pre-2022 Daily internals are uninspected.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/early_weekly.png",
+    "output": "annotated/A_early_weekly.png"
+  },
+  {
+    "name": "B_early_weekly",
+    "scenario": "B",
+    "image": "early_weekly",
+    "title": "B | Proposed children of B.1 | Weekly 2001–2009",
+    "marks": [
+      {
+        "node": "B.1",
+        "evidence": "e02",
+        "xy": [
+          463,
+          929
+        ],
+        "offset": [
+          -110,
+          -60
+        ],
+        "label": "origin REGION?",
+        "relationship": "start"
+      },
+      {
+        "node": "B.1.1",
+        "evidence": "e03",
+        "xy": [
+          600,
+          589
+        ],
+        "offset": [
+          -60,
+          -65
+        ],
+        "label": "B.1.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.1.2",
+        "evidence": "e04",
+        "xy": [
+          849,
+          891
+        ],
+        "offset": [
+          10,
+          20
+        ],
+        "label": "B.1.2?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.1.3",
+        "evidence": "e06h",
+        "xy": [
+          1218,
+          348
+        ],
+        "offset": [
+          -85,
+          -65
+        ],
+        "label": "B.1.3?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.1.4",
+        "evidence": "e06l",
+        "xy": [
+          1257,
+          514
+        ],
+        "offset": [
+          15,
+          30
+        ],
+        "label": "B.1.4?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.1.5",
+        "evidence": "e07",
+        "xy": [
+          1523,
+          168
+        ],
+        "offset": [
+          10,
+          45
+        ],
+        "label": "B.1.5?",
+        "relationship": "end"
+      }
+    ],
+    "footer": "Parent interval: 2002 autumn to 2007 high cluster. Weekly legs are proposed; pre-2022 Daily internals are uninspected.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/early_weekly.png",
+    "output": "annotated/B_early_weekly.png"
+  },
+  {
+    "name": "A_middle_weekly",
+    "scenario": "A",
+    "image": "middle_weekly",
+    "title": "A | Proposed children of A.3 | Weekly 2008–2022",
+    "marks": [
+      {
+        "node": "A.3",
+        "evidence": "e09",
+        "xy": [
+          190,
+          962
+        ],
+        "offset": [
+          15,
+          -80
+        ],
+        "label": "origin REGION?",
+        "relationship": "start"
+      },
+      {
+        "node": "A.3.1",
+        "evidence": "e11",
+        "xy": [
+          456,
+          747
+        ],
+        "offset": [
+          -25,
+          -70
+        ],
+        "label": "A.3.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.3.2",
+        "evidence": "e12",
+        "xy": [
+          655,
+          860
+        ],
+        "offset": [
+          0,
+          35
+        ],
+        "label": "A.3.2?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.3.3",
+        "evidence": "e18",
+        "xy": [
+          1360,
+          395
+        ],
+        "offset": [
+          -110,
+          -80
+        ],
+        "label": "A.3.3?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.3.4",
+        "evidence": "e19",
+        "xy": [
+          1390,
+          516
+        ],
+        "offset": [
+          10,
+          45
+        ],
+        "label": "A.3.4?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.3.5",
+        "evidence": "e21",
+        "xy": [
+          1735,
+          168
+        ],
+        "offset": [
+          -140,
+          -35
+        ],
+        "label": "A.3.5?",
+        "relationship": "end"
+      }
+    ],
+    "footer": "A.3 spans the 2008/09 low cluster to the 2021 high. Long interior legs remain incomplete; P006 is not adjudicated.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/middle_weekly.png",
+    "output": "annotated/A_middle_weekly.png"
+  },
+  {
+    "name": "B_middle_weekly",
+    "scenario": "B",
+    "image": "middle_weekly",
+    "title": "B | Nested extension alternative | Weekly 2008–2022",
+    "marks": [
+      {
+        "node": "B.3",
+        "evidence": "e09",
+        "xy": [
+          190,
+          962
+        ],
+        "offset": [
+          15,
+          -80
+        ],
+        "label": "origin REGION?",
+        "relationship": "start"
+      },
+      {
+        "node": "B.3.1",
+        "evidence": "e18",
+        "xy": [
+          1360,
+          395
+        ],
+        "offset": [
+          -120,
+          -80
+        ],
+        "label": "B.3.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.2",
+        "evidence": "e19",
+        "xy": [
+          1390,
+          516
+        ],
+        "offset": [
+          10,
+          45
+        ],
+        "label": "B.3.2?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.3.1",
+        "evidence": "e21",
+        "xy": [
+          1735,
+          168
+        ],
+        "offset": [
+          -180,
+          -35
+        ],
+        "label": "B.3.3.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.3.2",
+        "evidence": "e22",
+        "xy": [
+          1842,
+          335
+        ],
+        "offset": [
+          -210,
+          50
+        ],
+        "label": "B.3.3.2?",
+        "relationship": "end"
+      }
+    ],
+    "footer": "B.3.3 remains OPEN beyond this window. The 2008/09–2018 first-child family is unresolved, not assumed proved.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/middle_weekly.png",
+    "output": "annotated/B_middle_weekly.png"
+  },
+  {
+    "name": "A_recent_daily",
+    "scenario": "A",
+    "image": "recent_daily",
+    "title": "A | Proposed children of A.5.1 | Daily 2022–2025",
+    "marks": [
+      {
+        "node": "A.5.1",
+        "evidence": "e22",
+        "xy": [
+          164,
+          973
+        ],
+        "offset": [
+          25,
+          -90
+        ],
+        "label": "origin REGION?",
+        "relationship": "start"
+      },
+      {
+        "node": "A.5.1.1",
+        "evidence": "e23h",
+        "xy": [
+          727,
+          505
+        ],
+        "offset": [
+          -140,
+          -60
+        ],
+        "label": "A.5.1.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.5.1.2",
+        "evidence": "e23l",
+        "xy": [
+          835,
+          575
+        ],
+        "offset": [
+          0,
+          50
+        ],
+        "label": "A.5.1.2?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.5.1.3",
+        "evidence": "e24h",
+        "xy": [
+          1100,
+          303
+        ],
+        "offset": [
+          -165,
+          -55
+        ],
+        "label": "A.5.1.3?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.5.1.4",
+        "evidence": "e24l",
+        "xy": [
+          1147,
+          377
+        ],
+        "offset": [
+          20,
+          35
+        ],
+        "label": "A.5.1.4?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.5.1.5",
+        "evidence": "e25h",
+        "xy": [
+          1569,
+          171
+        ],
+        "offset": [
+          -165,
+          -50
+        ],
+        "label": "A.5.1.5?",
+        "relationship": "end"
+      },
+      {
+        "node": "A.5.2",
+        "evidence": "e25l",
+        "xy": [
+          1764,
+          338
+        ],
+        "offset": [
+          -140,
+          60
+        ],
+        "label": "A.5.2?",
+        "relationship": "end"
+      }
+    ],
+    "footer": "High cluster late-2024/early-2025 is unresolved at bar level; callout is representative, not an exact chosen orthodox end.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/recent_daily.png",
+    "output": "annotated/A_recent_daily.png"
+  },
+  {
+    "name": "A_latest_daily",
+    "scenario": "A",
+    "image": "latest_daily",
+    "title": "A | Latest observation inside A.5? | Daily April–September 2026",
+    "marks": [
+      {
+        "node": "A.5.3",
+        "evidence": "e26h",
+        "xy": [
+          581,
+          166
+        ],
+        "offset": [
+          -170,
+          -30
+        ],
+        "label": "May REGION ~236–237",
+        "relationship": "context_region"
+      },
+      {
+        "node": "A.5.3",
+        "evidence": "e26l",
+        "xy": [
+          1403,
+          710
+        ],
+        "offset": [
+          -210,
+          55
+        ],
+        "label": "July REGION ~189–194",
+        "relationship": "context_region"
+      },
+      {
+        "node": "A.5.3",
+        "evidence": "e26a",
+        "xy": [
+          1693,
+          494
+        ],
+        "offset": [
+          -230,
+          50
+        ],
+        "label": "August REGION ~207–212",
+        "relationship": "context_region"
+      },
+      {
+        "node": "A.5.3",
+        "evidence": "last",
+        "xy": [
+          1838,
+          224
+        ],
+        "offset": [
+          -260,
+          -100
+        ],
+        "label": "230.36 DISPLAYED",
+        "relationship": "end"
+      }
+    ],
+    "footer": "Context regions, NOT additional wave labels. Continuing rise versus unresolved correction: CURRENT_WAVE_POSITION_UNRESOLVED.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/latest_daily.png",
+    "output": "annotated/A_latest_daily.png"
+  },
+  {
+    "name": "B_recent_daily",
+    "scenario": "B",
+    "image": "recent_daily",
+    "title": "B | Proposed children of B.3.3.3.1 | Daily 2022–2025",
+    "marks": [
+      {
+        "node": "B.3.3.3.1",
+        "evidence": "e22",
+        "xy": [
+          164,
+          973
+        ],
+        "offset": [
+          25,
+          -90
+        ],
+        "label": "origin REGION?",
+        "relationship": "start"
+      },
+      {
+        "node": "B.3.3.3.1.1",
+        "evidence": "e23h",
+        "xy": [
+          727,
+          505
+        ],
+        "offset": [
+          -140,
+          -60
+        ],
+        "label": "B.3.3.3.1.1?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.3.3.1.2",
+        "evidence": "e23l",
+        "xy": [
+          835,
+          575
+        ],
+        "offset": [
+          0,
+          50
+        ],
+        "label": "B.3.3.3.1.2?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.3.3.1.3",
+        "evidence": "e24h",
+        "xy": [
+          1100,
+          303
+        ],
+        "offset": [
+          -165,
+          -55
+        ],
+        "label": "B.3.3.3.1.3?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.3.3.1.4",
+        "evidence": "e24l",
+        "xy": [
+          1147,
+          377
+        ],
+        "offset": [
+          20,
+          35
+        ],
+        "label": "B.3.3.3.1.4?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.3.3.1.5",
+        "evidence": "e25h",
+        "xy": [
+          1569,
+          171
+        ],
+        "offset": [
+          -165,
+          -50
+        ],
+        "label": "B.3.3.3.1.5?",
+        "relationship": "end"
+      },
+      {
+        "node": "B.3.3.3.2",
+        "evidence": "e25l",
+        "xy": [
+          1764,
+          338
+        ],
+        "offset": [
+          -140,
+          60
+        ],
+        "label": "B.3.3.3.2?",
+        "relationship": "end"
+      }
+    ],
+    "footer": "High cluster late-2024/early-2025 is unresolved at bar level; callout is representative, not an exact chosen orthodox end.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/recent_daily.png",
+    "output": "annotated/B_recent_daily.png"
+  },
+  {
+    "name": "B_latest_daily",
+    "scenario": "B",
+    "image": "latest_daily",
+    "title": "B | Latest observation inside B.3.3.3? | Daily April–September 2026",
+    "marks": [
+      {
+        "node": "B.3.3.3.3",
+        "evidence": "e26h",
+        "xy": [
+          581,
+          166
+        ],
+        "offset": [
+          -170,
+          -30
+        ],
+        "label": "May REGION ~236–237",
+        "relationship": "context_region"
+      },
+      {
+        "node": "B.3.3.3.3",
+        "evidence": "e26l",
+        "xy": [
+          1403,
+          710
+        ],
+        "offset": [
+          -210,
+          55
+        ],
+        "label": "July REGION ~189–194",
+        "relationship": "context_region"
+      },
+      {
+        "node": "B.3.3.3.3",
+        "evidence": "e26a",
+        "xy": [
+          1693,
+          494
+        ],
+        "offset": [
+          -230,
+          50
+        ],
+        "label": "August REGION ~207–212",
+        "relationship": "context_region"
+      },
+      {
+        "node": "B.3.3.3.3",
+        "evidence": "last",
+        "xy": [
+          1838,
+          224
+        ],
+        "offset": [
+          -260,
+          -100
+        ],
+        "label": "230.36 DISPLAYED",
+        "relationship": "end"
+      }
+    ],
+    "footer": "Context regions, NOT additional wave labels. Continuing rise versus unresolved correction: CURRENT_WAVE_POSITION_UNRESOLVED.",
+    "coordinate_basis": [
+      2048,
+      1155
+    ],
+    "source_image": "originals/latest_daily.png",
+    "output": "annotated/B_latest_daily.png"
+  }
+]

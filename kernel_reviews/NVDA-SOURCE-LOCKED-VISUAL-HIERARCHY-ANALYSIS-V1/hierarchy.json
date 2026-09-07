@@ -1,0 +1,1558 @@
+{
+  "schema": "VISUAL_REVIEW_ONLY_NOT_ANALYSIS_OUTPUT_SCHEMA",
+  "rank": null,
+  "precision_policy": "Regions are not exact dates/prices; no interpolation, ratios, equality tests or engine certificates.",
+  "degree": "UNESTABLISHED; dotted IDs show parenthood only, not degree or confidence.",
+  "protected_principle_ids_invented": false,
+  "endpoints": {
+    "d0": {
+      "order": 0,
+      "date_region": "1999 data boundary",
+      "price_display_or_estimate_USD": "~0.03–0.05",
+      "primary_image": "monthly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e02": {
+      "order": 1,
+      "date_region": "2002 autumn low region",
+      "price_display_or_estimate_USD": "~0.065–0.080",
+      "primary_image": "early_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e03": {
+      "order": 2,
+      "date_region": "2003 mid-year high region",
+      "price_display_or_estimate_USD": "~0.21–0.23",
+      "primary_image": "early_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e04": {
+      "order": 3,
+      "date_region": "2004 summer low region",
+      "price_display_or_estimate_USD": "~0.075–0.09",
+      "primary_image": "early_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e06h": {
+      "order": 4,
+      "date_region": "2006 spring high region",
+      "price_display_or_estimate_USD": "~0.50–0.55",
+      "primary_image": "early_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e06l": {
+      "order": 5,
+      "date_region": "2006 summer low region",
+      "price_display_or_estimate_USD": "~0.28–0.32",
+      "primary_image": "early_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e07": {
+      "order": 6,
+      "date_region": "2007 second-half high region",
+      "price_display_or_estimate_USD": "~0.90–1.00",
+      "primary_image": "early_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e09": {
+      "order": 7,
+      "date_region": "late 2008 / early 2009 low cluster",
+      "price_display_or_estimate_USD": "~0.14–0.18",
+      "primary_image": "middle_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e11": {
+      "order": 8,
+      "date_region": "2011 early-year high region",
+      "price_display_or_estimate_USD": "~0.60–0.70",
+      "primary_image": "middle_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e12": {
+      "order": 9,
+      "date_region": "2012 second-half low region",
+      "price_display_or_estimate_USD": "~0.28–0.32",
+      "primary_image": "middle_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e18": {
+      "order": 10,
+      "date_region": "2018 second-half high region",
+      "price_display_or_estimate_USD": "~7–8",
+      "primary_image": "middle_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e19": {
+      "order": 11,
+      "date_region": "late 2018 / early 2019 low region",
+      "price_display_or_estimate_USD": "~3–3.5",
+      "primary_image": "middle_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e21": {
+      "order": 12,
+      "date_region": "2021 late-year high region",
+      "price_display_or_estimate_USD": "~33–35",
+      "primary_image": "middle_weekly",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e22": {
+      "order": 13,
+      "date_region": "2022 autumn low region",
+      "price_display_or_estimate_USD": "~10–12",
+      "primary_image": "recent_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e23h": {
+      "order": 14,
+      "date_region": "2023 summer high cluster",
+      "price_display_or_estimate_USD": "~48–51",
+      "primary_image": "recent_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e23l": {
+      "order": 15,
+      "date_region": "2023 autumn low region",
+      "price_display_or_estimate_USD": "~38–41",
+      "primary_image": "recent_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e24h": {
+      "order": 16,
+      "date_region": "2024 March high region",
+      "price_display_or_estimate_USD": "~95–100",
+      "primary_image": "recent_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e24l": {
+      "order": 17,
+      "date_region": "2024 April low region",
+      "price_display_or_estimate_USD": "~74–80",
+      "primary_image": "recent_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e25h": {
+      "order": 18,
+      "date_region": "late 2024 / early 2025 high cluster",
+      "price_display_or_estimate_USD": "~149–158",
+      "primary_image": "recent_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e25l": {
+      "order": 19,
+      "date_region": "2025 April low region",
+      "price_display_or_estimate_USD": "~85–95",
+      "primary_image": "recent_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e26h": {
+      "order": 20,
+      "date_region": "2026 May high region",
+      "price_display_or_estimate_USD": "~236–237",
+      "primary_image": "latest_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e26l": {
+      "order": 21,
+      "date_region": "2026 late-July low region",
+      "price_display_or_estimate_USD": "~189–194",
+      "primary_image": "latest_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "e26a": {
+      "order": 22,
+      "date_region": "2026 late-August low region",
+      "price_display_or_estimate_USD": "~207–212",
+      "primary_image": "latest_daily",
+      "precision": "APPROXIMATE_VISUAL_REGION",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    },
+    "last": {
+      "order": 23,
+      "date_region": "early September 2026 last visible observation",
+      "price_display_or_estimate_USD": "230.36 displayed",
+      "primary_image": "latest_daily",
+      "precision": "EXACT_DISPLAYED_PRICE_DATE_UNVERIFIED",
+      "orthodox_endpoint_authority": false,
+      "executable_operand_authority": false
+    }
+  },
+  "nodes": [
+    {
+      "scenario": "A",
+      "node_id": "A",
+      "parent_id": null,
+      "proposed_role": "proposed larger upward structure",
+      "timeframe": "1M",
+      "start_evidence": "e02",
+      "end_evidence": "last",
+      "end_kind": "OPEN_OBSERVATION_BOUNDARY_NOT_WAVE_END",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Selected visible 2002 turning region, not first available/IPO bar.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.1",
+      "parent_id": "A",
+      "proposed_role": "1?",
+      "timeframe": "1M",
+      "start_evidence": "e02",
+      "end_evidence": "e07",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Weekly expansion shown separately; five broad proposed child legs, not certified family.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.2",
+      "parent_id": "A",
+      "proposed_role": "2?",
+      "timeframe": "1M",
+      "start_evidence": "e07",
+      "end_evidence": "e09",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Deep retreat; exact low belongs to a late-2008/early-2009 cluster. Corrective family unassigned.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.1.1",
+      "parent_id": "A.1",
+      "proposed_role": "1?",
+      "timeframe": "1W",
+      "start_evidence": "e02",
+      "end_evidence": "e03",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.1.2",
+      "parent_id": "A.1",
+      "proposed_role": "2?",
+      "timeframe": "1W",
+      "start_evidence": "e03",
+      "end_evidence": "e04",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.1.3",
+      "parent_id": "A.1",
+      "proposed_role": "3?",
+      "timeframe": "1W",
+      "start_evidence": "e04",
+      "end_evidence": "e06h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.1.4",
+      "parent_id": "A.1",
+      "proposed_role": "4?",
+      "timeframe": "1W",
+      "start_evidence": "e06h",
+      "end_evidence": "e06l",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.1.5",
+      "parent_id": "A.1",
+      "proposed_role": "5?",
+      "timeframe": "1W",
+      "start_evidence": "e06l",
+      "end_evidence": "e07",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B",
+      "parent_id": null,
+      "proposed_role": "proposed larger upward structure",
+      "timeframe": "1M",
+      "start_evidence": "e02",
+      "end_evidence": "last",
+      "end_kind": "OPEN_OBSERVATION_BOUNDARY_NOT_WAVE_END",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Selected visible 2002 turning region, not first available/IPO bar.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.1",
+      "parent_id": "B",
+      "proposed_role": "1?",
+      "timeframe": "1M",
+      "start_evidence": "e02",
+      "end_evidence": "e07",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Weekly expansion shown separately; five broad proposed child legs, not certified family.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.2",
+      "parent_id": "B",
+      "proposed_role": "2?",
+      "timeframe": "1M",
+      "start_evidence": "e07",
+      "end_evidence": "e09",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Deep retreat; exact low belongs to a late-2008/early-2009 cluster. Corrective family unassigned.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.1.1",
+      "parent_id": "B.1",
+      "proposed_role": "1?",
+      "timeframe": "1W",
+      "start_evidence": "e02",
+      "end_evidence": "e03",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.1.2",
+      "parent_id": "B.1",
+      "proposed_role": "2?",
+      "timeframe": "1W",
+      "start_evidence": "e03",
+      "end_evidence": "e04",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.1.3",
+      "parent_id": "B.1",
+      "proposed_role": "3?",
+      "timeframe": "1W",
+      "start_evidence": "e04",
+      "end_evidence": "e06h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.1.4",
+      "parent_id": "B.1",
+      "proposed_role": "4?",
+      "timeframe": "1W",
+      "start_evidence": "e06h",
+      "end_evidence": "e06l",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.1.5",
+      "parent_id": "B.1",
+      "proposed_role": "5?",
+      "timeframe": "1W",
+      "start_evidence": "e06l",
+      "end_evidence": "e07",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Visible weekly reversal regions inside this exact parent. Daily internals not inspected.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.3",
+      "parent_id": "A",
+      "proposed_role": "3?",
+      "timeframe": "1M",
+      "start_evidence": "e09",
+      "end_evidence": "e21",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Interpret the 2021 high as proposed end of the larger third.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.4",
+      "parent_id": "A",
+      "proposed_role": "4?",
+      "timeframe": "1M",
+      "start_evidence": "e21",
+      "end_evidence": "e22",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Treat the 2021–2022 retreat as the following larger correction, without a corrective family claim.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.5",
+      "parent_id": "A",
+      "proposed_role": "5? ongoing",
+      "timeframe": "1M",
+      "start_evidence": "e22",
+      "end_evidence": "last",
+      "end_kind": "OPEN_OBSERVATION_BOUNDARY_NOT_WAVE_END",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Continuation hypothesis only; latest bar is not a certified fifth endpoint.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.3.1",
+      "parent_id": "A.3",
+      "proposed_role": "1?",
+      "timeframe": "1W",
+      "start_evidence": "e09",
+      "end_evidence": "e11",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Five broad weekly legs; the long 2012–2018 leg needs finer nested evidence.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.3.2",
+      "parent_id": "A.3",
+      "proposed_role": "2?",
+      "timeframe": "1W",
+      "start_evidence": "e11",
+      "end_evidence": "e12",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Five broad weekly legs; the long 2012–2018 leg needs finer nested evidence.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.3.3",
+      "parent_id": "A.3",
+      "proposed_role": "3?",
+      "timeframe": "1W",
+      "start_evidence": "e12",
+      "end_evidence": "e18",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Five broad weekly legs; the long 2012–2018 leg needs finer nested evidence.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.3.4",
+      "parent_id": "A.3",
+      "proposed_role": "4?",
+      "timeframe": "1W",
+      "start_evidence": "e18",
+      "end_evidence": "e19",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Five broad weekly legs; the long 2012–2018 leg needs finer nested evidence.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.3.5",
+      "parent_id": "A.3",
+      "proposed_role": "5?",
+      "timeframe": "1W",
+      "start_evidence": "e19",
+      "end_evidence": "e21",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Five broad weekly legs; the long 2012–2018 leg needs finer nested evidence.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3",
+      "parent_id": "B",
+      "proposed_role": "3? extended/ongoing",
+      "timeframe": "1M",
+      "start_evidence": "e09",
+      "end_evidence": "last",
+      "end_kind": "OPEN_OBSERVATION_BOUNDARY_NOT_WAVE_END",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Alternative extension: do not assume that the 2021 high closed the larger third.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.1",
+      "parent_id": "B.3",
+      "proposed_role": "1?",
+      "timeframe": "1W",
+      "start_evidence": "e09",
+      "end_evidence": "e18",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Possible first within the larger third. Complete internal five NOT demonstrated.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.2",
+      "parent_id": "B.3",
+      "proposed_role": "2?",
+      "timeframe": "1W",
+      "start_evidence": "e18",
+      "end_evidence": "e19",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "2018–2019 retreat assigned only within this alternative parent.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3",
+      "parent_id": "B.3",
+      "proposed_role": "3? ongoing",
+      "timeframe": "1W",
+      "start_evidence": "e19",
+      "end_evidence": "last",
+      "end_kind": "OPEN_OBSERVATION_BOUNDARY_NOT_WAVE_END",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Nested extension permitted as a hypothesis by S3/S6, not inferred from steepness.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.1",
+      "parent_id": "B.3.3",
+      "proposed_role": "1?",
+      "timeframe": "1W",
+      "start_evidence": "e19",
+      "end_evidence": "e21",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Alternative role for the rise into 2021; internals not fully resolved.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.2",
+      "parent_id": "B.3.3",
+      "proposed_role": "2?",
+      "timeframe": "1W",
+      "start_evidence": "e21",
+      "end_evidence": "e22",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Same observed retreat as A.4, but a different exact parent and proposed role.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.3",
+      "parent_id": "B.3.3",
+      "proposed_role": "3? ongoing",
+      "timeframe": "1W",
+      "start_evidence": "e22",
+      "end_evidence": "last",
+      "end_kind": "OPEN_OBSERVATION_BOUNDARY_NOT_WAVE_END",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Shared recent price interval does not confirm either ancestry.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.5.1",
+      "parent_id": "A.5",
+      "proposed_role": "1?",
+      "timeframe": "1W",
+      "start_evidence": "e22",
+      "end_evidence": "e25h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Proposed first up-leg ends somewhere in the late-2024/early-2025 high cluster; exact selection unresolved.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.5.2",
+      "parent_id": "A.5",
+      "proposed_role": "2?",
+      "timeframe": "1W",
+      "start_evidence": "e25h",
+      "end_evidence": "e25l",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Retreat to the April 2025 region; no ABC/zigzag/flat subtype assigned.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.5.3",
+      "parent_id": "A.5",
+      "proposed_role": "3? continuation conditional",
+      "timeframe": "1W",
+      "start_evidence": "e25l",
+      "end_evidence": "last",
+      "end_kind": "OPEN_OBSERVATION_BOUNDARY_NOT_WAVE_END",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Only if the advance from April 2025 remains within an unfinished actionary component.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.5.1.1",
+      "parent_id": "A.5.1",
+      "proposed_role": "1?",
+      "timeframe": "1D",
+      "start_evidence": "e22",
+      "end_evidence": "e23h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.5.1.2",
+      "parent_id": "A.5.1",
+      "proposed_role": "2?",
+      "timeframe": "1D",
+      "start_evidence": "e23h",
+      "end_evidence": "e23l",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.5.1.3",
+      "parent_id": "A.5.1",
+      "proposed_role": "3?",
+      "timeframe": "1D",
+      "start_evidence": "e23l",
+      "end_evidence": "e24h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.5.1.4",
+      "parent_id": "A.5.1",
+      "proposed_role": "4?",
+      "timeframe": "1D",
+      "start_evidence": "e24h",
+      "end_evidence": "e24l",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "A",
+      "node_id": "A.5.1.5",
+      "parent_id": "A.5.1",
+      "proposed_role": "5?",
+      "timeframe": "1D",
+      "start_evidence": "e24l",
+      "end_evidence": "e25h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.3.1",
+      "parent_id": "B.3.3.3",
+      "proposed_role": "1?",
+      "timeframe": "1W",
+      "start_evidence": "e22",
+      "end_evidence": "e25h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Proposed first up-leg ends somewhere in the late-2024/early-2025 high cluster; exact selection unresolved.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.3.2",
+      "parent_id": "B.3.3.3",
+      "proposed_role": "2?",
+      "timeframe": "1W",
+      "start_evidence": "e25h",
+      "end_evidence": "e25l",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Retreat to the April 2025 region; no ABC/zigzag/flat subtype assigned.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.3.3",
+      "parent_id": "B.3.3.3",
+      "proposed_role": "3? continuation conditional",
+      "timeframe": "1W",
+      "start_evidence": "e25l",
+      "end_evidence": "last",
+      "end_kind": "OPEN_OBSERVATION_BOUNDARY_NOT_WAVE_END",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Only if the advance from April 2025 remains within an unfinished actionary component.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.3.1.1",
+      "parent_id": "B.3.3.3.1",
+      "proposed_role": "1?",
+      "timeframe": "1D",
+      "start_evidence": "e22",
+      "end_evidence": "e23h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.3.1.2",
+      "parent_id": "B.3.3.3.1",
+      "proposed_role": "2?",
+      "timeframe": "1D",
+      "start_evidence": "e23h",
+      "end_evidence": "e23l",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.3.1.3",
+      "parent_id": "B.3.3.3.1",
+      "proposed_role": "3?",
+      "timeframe": "1D",
+      "start_evidence": "e23l",
+      "end_evidence": "e24h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.3.1.4",
+      "parent_id": "B.3.3.3.1",
+      "proposed_role": "4?",
+      "timeframe": "1D",
+      "start_evidence": "e24h",
+      "end_evidence": "e24l",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    },
+    {
+      "scenario": "B",
+      "node_id": "B.3.3.3.1.5",
+      "parent_id": "B.3.3.3.1",
+      "proposed_role": "5?",
+      "timeframe": "1D",
+      "start_evidence": "e24l",
+      "end_evidence": "e25h",
+      "end_kind": "PROPOSED_TURNING_REGION",
+      "state": "PROVISIONAL_VISUAL_HYPOTHESIS",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S8",
+        "S9"
+      ],
+      "basis": "Broad daily slot hypothesis; especially the last high cluster contains unresolved smaller subdivisions.",
+      "unresolved_checks": [
+        "exact endpoint/bar identity",
+        "internal family proof",
+        "P006 frozen",
+        "degree unestablished"
+      ],
+      "engine_evaluated": false,
+      "validity_authority": false
+    }
+  ],
+  "current_position": {
+    "A": {
+      "conditional_component": "A.5, possibly A.5.3",
+      "condition": "Only under the continuing-fifth interpretation; April-2025 advance not assumed completed.",
+      "competing_local_explanation": "May-2026 may delimit a completed advance; latest rebound may instead be inside an unresolved subsequent correction. No local 1–5 or ABC imposed."
+    },
+    "B": {
+      "conditional_component": "B.3, possibly B.3.3.3.3",
+      "condition": "Only under the larger-third extension interpretation; all nested ancestry remains proposed.",
+      "competing_local_explanation": "The same May–July–September interval may contain an unfinished correction rather than an identified actionary subwave."
+    },
+    "engine_status": "CURRENT_WAVE_POSITION_UNRESOLVED",
+    "new_engine_call": false,
+    "missing": "Exact bound endpoint eligibility, complete child structures, local May/July/August subdivisions, and frozen/base-case authority."
+  }
+}

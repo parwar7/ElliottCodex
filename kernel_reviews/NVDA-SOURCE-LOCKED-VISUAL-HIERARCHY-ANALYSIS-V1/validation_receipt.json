@@ -1,0 +1,14 @@
+{
+  "kind": "artifact-only checks, not methodology tests",
+  "tests": 14,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "full_regression": "NOT_RUN: user-authorized artifact-only scope",
+  "integrity": {
+    "brain_entries": 30,
+    "source_entries": 21,
+    "mismatches": 0,
+    "policy_sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018"
+  }
+}

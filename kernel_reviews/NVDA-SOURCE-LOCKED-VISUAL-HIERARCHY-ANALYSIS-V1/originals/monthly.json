@@ -1,0 +1,86 @@
+{
+  "image_path": "C:\\ElliottCodex\\Runtime_WORKSPACE\\artifacts\\tradingview_nvda_capture_20260907\\captures\\nvda_cboeone_monthly_20260907T144826_522511Z.png",
+  "captured_at_utc": "2026-09-07T14:48:26.522511+00:00",
+  "sha256": "ce5ad9892f789aea7d8be27ff73daaf4ff2667cecf4a6bd700d5bb9a4b1c1add",
+  "target_id": "42CF2FA9E615CF5F73AF1903756EF875",
+  "view": "monthly",
+  "metadata": {
+    "chart": {
+      "symbol": "BATS:NVDA",
+      "resolution": "1M",
+      "range": {
+        "from": 915148800,
+        "to": 1814400000
+      },
+      "timezone": "Etc/UTC",
+      "studies": [
+        {
+          "id": "GwEgXB",
+          "name": "Volume"
+        },
+        {
+          "id": "dBzAht",
+          "name": "Relative Strength Index"
+        }
+      ],
+      "shapes": []
+    },
+    "symbolExt": {
+      "symbol": "NVDA",
+      "full_name": "BATS:NVDA",
+      "exchange": "Cboe One",
+      "description": "NVIDIA Corporation",
+      "type": "stock",
+      "pro_name": "NASDAQ:NVDA",
+      "typespecs": [
+        "common"
+      ]
+    },
+    "scaleControls": [
+      {
+        "label": "Undo toggle auto scale",
+        "pressed": null,
+        "checked": null,
+        "class": "button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+      },
+      {
+        "label": "Undo toggle auto scale",
+        "pressed": null,
+        "checked": null,
+        "class": "button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+      },
+      {
+        "label": "Undo toggle auto scale",
+        "pressed": null,
+        "checked": null,
+        "class": "button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+      },
+      {
+        "label": "Toggle auto scale",
+        "pressed": null,
+        "checked": null,
+        "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+      },
+      {
+        "label": "Toggle log scale",
+        "pressed": null,
+        "checked": null,
+        "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+      },
+      {
+        "label": "Adjust data for dividends",
+        "pressed": "false",
+        "checked": null,
+        "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+      }
+    ],
+    "marketStatus": [
+      "NASDAQ \u2014 NASDAQ Stock Market",
+      "Holiday \u00b7 One update every 5 seconds \u00b7 NASDAQ by Cboe One"
+    ]
+  },
+  "range_utc": {
+    "from": "1999-01-01T00:00:00+00:00",
+    "to": "2027-07-01T00:00:00+00:00"
+  }
+}
