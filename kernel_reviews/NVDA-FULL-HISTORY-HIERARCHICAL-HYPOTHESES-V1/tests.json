@@ -1,0 +1,37 @@
+{
+  "development": [
+    {
+      "tests": 16,
+      "errors": 1,
+      "reason": "Latest-only fixture could not supply an earlier-than-hourly-history requirement; genuine earliest-history fixture substituted.",
+      "semantic_defect": false
+    },
+    {
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 70.351
+    }
+  ],
+  "focused": {
+    "tests": 20,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 77.667,
+    "command": "python -B -m unittest test_nvda_hierarchical_hypotheses"
+  },
+  "full": {
+    "tests": 1055,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 296.074,
+    "command": "python -B -m unittest discover -s tests",
+    "runs_after_final_code_changes": 1
+  },
+  "environment": {
+    "PYTHONPATH": "src;tools;tests",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "network_in_tests": false,
+  "legacy_mock_note": "The full suite intentionally prints a mocked provider failure/INCOMPLETE; no fresh Yahoo retrieval occurred in this stage."
+}

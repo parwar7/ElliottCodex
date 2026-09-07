@@ -1,0 +1,105 @@
+{
+  "audit": {
+    "hypotheses": 586,
+    "linked_rows": 523,
+    "max_observed_link_level": 3,
+    "prices_verified": 3844,
+    "requirements": 400,
+    "result": "PASS"
+  },
+  "by_level": {
+    "0": {
+      "hypotheses": 63,
+      "p004": {
+        "RULE_SATISFIED": 4,
+        "RULE_VIOLATED": 3
+      },
+      "p005": {
+        "UNRESOLVED": 4,
+        "SUFFICIENT_CONDITION_ESTABLISHED": 3
+      }
+    },
+    "1": {
+      "hypotheses": 358,
+      "p004": {
+        "RULE_SATISFIED": 21,
+        "RULE_VIOLATED": 8
+      },
+      "p005": {
+        "UNRESOLVED": 21,
+        "SUFFICIENT_CONDITION_ESTABLISHED": 8
+      }
+    },
+    "2": {
+      "hypotheses": 146,
+      "p004": {
+        "RULE_SATISFIED": 11,
+        "RULE_VIOLATED": 5
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 5,
+        "UNRESOLVED": 11
+      }
+    },
+    "3": {
+      "hypotheses": 19,
+      "p004": {
+        "RULE_SATISFIED": 1
+      },
+      "p005": {
+        "UNRESOLVED": 1
+      }
+    }
+  },
+  "normal_hypotheses": 53,
+  "p004": {
+    "RULE_SATISFIED": 37,
+    "RULE_VIOLATED": 16
+  },
+  "p005": {
+    "UNRESOLVED": 37,
+    "SUFFICIENT_CONDITION_ESTABLISHED": 16
+  },
+  "p005_unresolved_reasons": {
+    "ZERO_OR_OPPOSING_ROLE_MOVEMENT": 22,
+    "DEVELOPING_REQUIRED_ENDPOINT": 12,
+    "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE": 3
+  },
+  "p004_invalid_despite_p005": 8,
+  "requirements_coverage": {
+    "FULL_WINDOW_COVERAGE": 310,
+    "NO_WINDOW_COVERAGE": 90
+  },
+  "generation_states": {
+    "FINER_RESOLUTION_NEUTRAL_CHILD_EVIDENCE_AVAILABLE": 188,
+    "INSUFFICIENT_GEOMETRIC_PIVOTS": 122,
+    "NO_FINER_OBSERVATION_COVERAGE": 90
+  },
+  "unvisited_windows": 50,
+  "cross_region_exclusions": 10,
+  "current_position": {
+    "CURRENT_POSITION_UNRESOLVED": 586
+  },
+  "zero_trailing_rows": 15,
+  "linked_zero_trailing_rows": 5,
+  "spanning_proposals": [
+    {
+      "ref": "H0465",
+      "family": "TRIANGLE",
+      "start": "1999-04-01T05:00:00+00:00",
+      "end": "2026-09-04T20:00:00+00:00"
+    },
+    {
+      "ref": "H0466",
+      "family": "ENDING_DIAGONAL",
+      "start": "1999-04-01T05:00:00+00:00",
+      "end": "2026-09-04T20:00:00+00:00"
+    },
+    {
+      "ref": "H0467",
+      "family": "NORMAL_IMPULSE_PARTIAL",
+      "start": "1999-04-01T05:00:00+00:00",
+      "end": "2026-09-04T20:00:00+00:00"
+    }
+  ]
+}

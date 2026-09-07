@@ -1,0 +1,28 @@
+{
+  "stage": "NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1",
+  "classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "existing_files_modified": 0,
+  "runtime_files": [
+    {
+      "path": "tools/nvda_hierarchical_hypotheses.py",
+      "byte_length": 24039,
+      "sha256": "39f4edd7f9ba9bec39a60556f7da05ef8822b5a5b148e9a51a4adcecc86809cb",
+      "role": "Bounded offline orchestration and evidence reporting through existing public APIs"
+    },
+    {
+      "path": "tests/test_nvda_hierarchical_hypotheses.py",
+      "byte_length": 10394,
+      "sha256": "448deae2673b660e98a7ce044721a545f2dbb41e04d36cea6058265e6be32c6f",
+      "role": "20 deterministic planning, genuine ancestry, coverage and evidence-reporting tests"
+    }
+  ],
+  "methodology": 11,
+  "structural_producers": 7,
+  "validated_family_producers": 0,
+  "validated_family_issuances": 0,
+  "new_methodology_behaviors": 0,
+  "shared_contract_changes": 0,
+  "network_retrieval": false,
+  "protected_writes": false,
+  "historical_baseline_changes": 0
+}

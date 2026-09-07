@@ -1,0 +1,125 @@
+{
+  "baseline_id": "NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1",
+  "classification": "ADDITIVE_LOGICAL_OPERATIONAL_HYPOTHESIS_BASELINE",
+  "approved_base": "035eeb62f386f206a0ba7ec05b51a648337b06b4",
+  "status": "EXECUTED_TESTED_AUDITED_WITH_EXPLICIT_CAPABILITY_LIMITATIONS",
+  "project_manager_approval_claimed": false,
+  "physical_immutability_claimed": false,
+  "capabilities": {
+    "A": "BOUNDED_SEARCH_ACROSS_ALL_HISTORY_REGIONS_NOT_EXHAUSTIVE",
+    "B": "SPANNING_PROPOSALS_NOT_COHERENT_COMPLETE_HISTORY_COUNT",
+    "C": "THREE_LINKED_CHILD_LEVELS",
+    "D": "CURRENT_POSITION_UNRESOLVED"
+  },
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "tests": {
+    "focused_passed": 20,
+    "full_passed": 1055,
+    "failures": 0,
+    "errors": 0
+  },
+  "preserved_existing_files": 651,
+  "protected_entries_verified": 51,
+  "protected_mismatches": 0,
+  "input_manifest_sha256": "bb8d73a6ace250a5d8815cd215760b210913db715fb43d6ef3327a8cb535424e",
+  "runtime_files": [
+    {
+      "path": "tools/nvda_hierarchical_hypotheses.py",
+      "byte_length": 24039,
+      "sha256": "39f4edd7f9ba9bec39a60556f7da05ef8822b5a5b148e9a51a4adcecc86809cb"
+    },
+    {
+      "path": "tests/test_nvda_hierarchical_hypotheses.py",
+      "byte_length": 10394,
+      "sha256": "448deae2673b660e98a7ce044721a545f2dbb41e04d36cea6058265e6be32c6f"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/audit.json",
+      "byte_length": 4924,
+      "sha256": "e69f3ccfbb0dbf5b1adc93c639af48b7e021f72f0eb780175c5ead9daba8e8fd"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/capability_review.md",
+      "byte_length": 7288,
+      "sha256": "af7e9026b5ac532d710f2ab32c7a4d1a6bf85f137bcb0da3f355f0498a39b98c"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/current_position_boundary.md",
+      "byte_length": 2630,
+      "sha256": "c9143ecd51494d492ac4d96602e5eb5ad14755a04d6a1c3a3c6e49c5dba2a127"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/final_integrity.json",
+      "byte_length": 9567,
+      "sha256": "d7ebad66b35b26de93f82d2e7af88234cb1ac3ad808eb8ceadfaf09d21ac084a"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/implementation_inventory.json",
+      "byte_length": 1017,
+      "sha256": "60d163c2c948ef3acc6e8932307b73dd1dd9db1c81874afbe1a28cc095842ee4"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/pre_write_integrity.json",
+      "byte_length": 9567,
+      "sha256": "d7ebad66b35b26de93f82d2e7af88234cb1ac3ad808eb8ceadfaf09d21ac084a"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/preservation_inventory.json",
+      "byte_length": 137117,
+      "sha256": "4b5f959d9599ee68e6cf2d3e043af73fba599d8303e7744501f904ac99ada0a0"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/README.md",
+      "byte_length": 5517,
+      "sha256": "5c89f9fc72a8310bd234478e31765864c73e59a5dd537c51a03fa04ba3161138"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/report/candidates.csv",
+      "byte_length": 1097495,
+      "sha256": "213c85d6cbc88f058231dad41f6778866fcd269df98885e1b06917d19d7f41c2"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/report/configuration.json",
+      "byte_length": 3006,
+      "sha256": "134bae402749e6ebc66fdfcc6016be8e8a945bab6e2f373b5e31054eb967a05e"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/report/endpoints.csv",
+      "byte_length": 11009905,
+      "sha256": "ae5abf6677ac1a19364801975d3c177d7120cad395e6a9aa857b9cfe8ea32dad"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/report/report.md",
+      "byte_length": 40930,
+      "sha256": "0a78b4171d6f68878698c0fbb2b3f227c598ae6ae3986ae224b94f3bfff44609"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/report/results.json",
+      "byte_length": 14419442,
+      "sha256": "0c8ed1ce92607d83b10e058852be2b10a5aba6188f0e90c30d4bdef2292cc8d6"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/report/search_plan.json",
+      "byte_length": 4497,
+      "sha256": "13af2efcc404bd275d2576ae8bdd18fdec8aa3d8a5b00c5c4c860eeeaa920ea3"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/results_summary.json",
+      "byte_length": 2342,
+      "sha256": "c99bb4f8e20e1b7fda3edfbaa19df3b536de1a2d3f6bfc93b88fbfb2dd90760f"
+    },
+    {
+      "path": "kernel_reviews/NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1/tests.json",
+      "byte_length": 985,
+      "sha256": "c217b342ff2ee28ef5d1f106b129c6c9fc97152ed31b3f53b53c4539da960808"
+    }
+  ],
+  "hashing": "SHA-256 of exact file bytes; paths relative to Runtime_WORKSPACE. This manifest excludes itself; its hash is reported in the handoff."
+}

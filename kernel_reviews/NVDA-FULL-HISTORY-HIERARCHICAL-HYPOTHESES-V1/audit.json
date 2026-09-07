@@ -1,0 +1,118 @@
+{
+  "stage": "NVDA-FULL-HISTORY-HIERARCHICAL-HYPOTHESES-V1",
+  "result": "PASS_WITH_EXPLICIT_CAPABILITY_LIMITATIONS",
+  "approved_base": "035eeb62f386f206a0ba7ec05b51a648337b06b4",
+  "live_execution_receipt": {
+    "hypotheses": 586,
+    "linked_rows": 523,
+    "max_observed_link_level": 3,
+    "prices_verified": 3844,
+    "requirements": 400,
+    "result": "PASS"
+  },
+  "tests": {
+    "development": [
+      {
+        "tests": 16,
+        "errors": 1,
+        "reason": "Latest-only fixture could not supply an earlier-than-hourly-history requirement; genuine earliest-history fixture substituted.",
+        "semantic_defect": false
+      },
+      {
+        "tests": 18,
+        "failures": 0,
+        "errors": 0,
+        "seconds": 70.351
+      }
+    ],
+    "focused": {
+      "tests": 20,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 77.667,
+      "command": "python -B -m unittest test_nvda_hierarchical_hypotheses"
+    },
+    "full": {
+      "tests": 1055,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 296.074,
+      "command": "python -B -m unittest discover -s tests",
+      "runs_after_final_code_changes": 1
+    },
+    "environment": {
+      "PYTHONPATH": "src;tools;tests",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "network_in_tests": false,
+    "legacy_mock_note": "The full suite intentionally prints a mocked provider failure/INCOMPLETE; no fresh Yahoo retrieval occurred in this stage."
+  },
+  "protected_integrity": {
+    "brain_entries": 30,
+    "sources_entries": 21,
+    "mismatches": 0,
+    "version": "0.1.0",
+    "brain_manifest": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338",
+    "source_policy": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018",
+    "source_manifest": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "book": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+    "pre_final_equal": true
+  },
+  "preservation": {
+    "existing_files_checked": 651,
+    "existing_files_modified": 0,
+    "all_historical_baselines_unchanged": true,
+    "kernel_shared_contracts_existing_tests_unchanged": true
+  },
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances": 0
+  },
+  "verification": {
+    "all_exported_endpoint_prices_dates_ratios_provenance_checked": true,
+    "all_P004_P005_statuses_reasons_endpoint_trace_checked": true,
+    "all_original_hypothesis_and_requirement_links_retained": true,
+    "public_live_ancestry_revalidation_before_export": true,
+    "planner_recomputed_from_preserved_monthly_pivots": true,
+    "CSV_matches_JSON": true,
+    "Markdown_matches_tested_final_renderer": true,
+    "all_captured_input_hashes_verified": true,
+    "no_live_market_retrieval": true,
+    "no_timeframe_degree_conversion": true,
+    "no_first_bar_wave_origin_conversion": true,
+    "no_certificate_synthesis": true,
+    "no_current_wave_from_last_pivot": true,
+    "P004_non_rescue": true,
+    "all_400_requirements_unsatisfied": true,
+    "no_methodology_new_behavior_or_freeze_change": true,
+    "legacy_analyze_not_implemented": true,
+    "no_ranking_indicators_forecast_trading": true
+  },
+  "formatting_finalization": {
+    "executed_facts_sha256": "842298eb4f059d206bff4ac8bf4950406dae0b2cf43470a8041f0966efc36a00",
+    "facts_unchanged": true,
+    "changes": "Final tested renderer compacted repeated examples and stop diagnostics. Removed inactive legacy configuration metadata only; active bounds and all executed hypotheses/links unchanged.",
+    "whole_experiment_repeated": false
+  },
+  "capabilities": {
+    "A": "BOUNDED_SEARCH_ACROSS_FULL_HISTORY_REGIONS_NOT_EXHAUSTIVE",
+    "B": "COARSENED_SPANNING_PARENT_PROPOSALS_NOT_COHERENT_FULL_HISTORY_COUNT",
+    "C": "THREE_GENUINE_CHILD_LINK_LEVELS_OBSERVED",
+    "D": "CURRENT_POSITION_UNRESOLVED"
+  },
+  "limitations": [
+    "50 regional six-pivot windows unvisited; 10 cross-region windows excluded by operational policy.",
+    "90 internal requirements lack finer observation coverage; 122 have insufficient scoped geometric pivots.",
+    "Only one compatible child-family bundle per root per successive level is expanded. Other contexts remain unvisited, not rejected.",
+    "Normal Impulse internal-family completion, P006, Flat/Triangle freezes and source-derived base-case blocker remain unchanged.",
+    "Five linked contexts end at the latest timestamp but use developing pivots; no active-component semantics inferred."
+  ],
+  "deviations": [
+    "Codex Process Jobs rejects win32; ordinary local foreground execution used.",
+    "Initial missing-history test used an unsuitable latest-only fixture; replaced with genuine earliest-history factory fixture. No Kernel defect exposed."
+  ],
+  "next_review": "SNAPSHOT-COMPONENT-MEMBERSHIP-BOUNDARY-V1 (design-only proposal; not implemented)",
+  "project_manager_approval_claimed": false
+}

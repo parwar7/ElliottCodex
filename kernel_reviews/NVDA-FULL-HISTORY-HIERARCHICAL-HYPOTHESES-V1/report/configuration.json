@@ -1,0 +1,95 @@
+{
+  "branch_order": "first existing nonempty compatible child-family bundle in source enumeration order; no outcome ranking",
+  "candidate_config": {
+    "max_candidate_span_pivots": 6,
+    "max_candidates_generated": 10,
+    "max_pivots_considered": 6,
+    "max_skipped_pivots": 0
+  },
+  "child_limits": {
+    "child": {
+      "allowed_child_candidate_shapes": [
+        "THREE_SEGMENT_HYPOTHESIS",
+        "FIVE_SEGMENT_HYPOTHESIS"
+      ],
+      "max_child_candidate_span_pivots": 6,
+      "max_child_candidates_per_requirement": 10,
+      "max_child_skipped_pivots": 0,
+      "max_pivots_per_child_window": 6,
+      "max_requirements_processed": 100,
+      "max_requirements_with_finer_selection": 100,
+      "max_total_child_candidates": 500,
+      "max_total_child_windows": 100,
+      "max_total_finer_geometric_pivots": 10000
+    },
+    "child_family": {
+      "allowed_family_kinds": [
+        "SINGLE_ZIGZAG",
+        "FLAT",
+        "TRIANGLE",
+        "ENDING_DIAGONAL"
+      ],
+      "max_child_candidate_sets_processed": 100,
+      "max_child_candidates_processed": 500,
+      "max_family_hypotheses_per_child_candidate": 3,
+      "max_requirements_processed": 100,
+      "max_total_child_family_hypotheses": 1500,
+      "max_total_methodology_evaluations": 1500
+    },
+    "child_normal_impulse_cap": 1000,
+    "child_pivot_window": "EARLIEST (existing child generator)",
+    "geometry": {
+      "equal_extreme_policy": "LAST",
+      "include_developing": true,
+      "left_window_bars": 2,
+      "method": "WINDOWED_LOCAL_EXTREMA",
+      "right_window_bars": 2
+    },
+    "parent_family_kinds": [
+      "SINGLE_ZIGZAG",
+      "FLAT",
+      "TRIANGLE",
+      "ENDING_DIAGONAL"
+    ],
+    "parent_normal_impulse_cap": 100,
+    "selection": {
+      "max_bars_per_selected_window": 10000,
+      "max_geometric_pivots_per_window": 5000
+    }
+  },
+  "child_window": "earliest six genuine finer pivots within exact parent requirement endpoints",
+  "classification": "PROJECT_OPERATIONAL_POLICY_NOT_ELLIOTT_METHODOLOGY",
+  "current_position_template_authority": false,
+  "degree_authority": false,
+  "duplicates": "all originating contexts retained; display grouping is not independent confirmation",
+  "expanded_child_bundles_per_root_per_level": 1,
+  "max_root_jobs": 7,
+  "max_successive_child_levels": 3,
+  "regional_order": "chronological regions; first then last complete six-pivot window",
+  "regions_utc_years": [
+    [
+      1999,
+      2007
+    ],
+    [
+      2008,
+      2016
+    ],
+    [
+      2017,
+      2026
+    ]
+  ],
+  "root_order": "regional windows followed by coarsened spanning proposal",
+  "root_resolution": "1mo",
+  "spanning_policy": "six indices floor(i*(n-1)/5), i=0..5, across full Monthly pivot history; no significance claim",
+  "stop_conditions": [
+    "no finer supplied dataset",
+    "no compatible child-family bundle",
+    "branch budget exhausted",
+    "three child edges",
+    "existing API bound failure"
+  ],
+  "window_pivots": 6,
+  "windows_per_region": 2
+}
