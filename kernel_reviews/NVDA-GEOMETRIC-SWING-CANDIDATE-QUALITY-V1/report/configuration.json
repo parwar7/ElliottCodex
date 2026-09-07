@@ -1,0 +1,108 @@
+{
+  "child_exploration": "one level for scale-2 roots only, at most three roots, Monthly -> Weekly",
+  "child_geometry": {
+    "equal_extreme_policy": "LAST",
+    "include_developing": true,
+    "left": 2,
+    "right": 2
+  },
+  "child_limits": {
+    "child": {
+      "allowed_child_candidate_shapes": [
+        "THREE_SEGMENT_HYPOTHESIS",
+        "FIVE_SEGMENT_HYPOTHESIS"
+      ],
+      "max_child_candidate_span_pivots": 6,
+      "max_child_candidates_per_requirement": 10,
+      "max_child_skipped_pivots": 0,
+      "max_pivots_per_child_window": 6,
+      "max_requirements_processed": 100,
+      "max_requirements_with_finer_selection": 100,
+      "max_total_child_candidates": 500,
+      "max_total_child_windows": 100,
+      "max_total_finer_geometric_pivots": 10000
+    },
+    "child_family": {
+      "allowed_family_kinds": [
+        "SINGLE_ZIGZAG",
+        "FLAT",
+        "TRIANGLE",
+        "ENDING_DIAGONAL"
+      ],
+      "max_child_candidate_sets_processed": 100,
+      "max_child_candidates_processed": 500,
+      "max_family_hypotheses_per_child_candidate": 3,
+      "max_requirements_processed": 100,
+      "max_total_child_family_hypotheses": 1500,
+      "max_total_methodology_evaluations": 1500
+    },
+    "child_normal_impulse_cap": 1000,
+    "child_pivot_window": "EARLIEST (existing child generator)",
+    "geometry": {
+      "equal_extreme_policy": "LAST",
+      "include_developing": true,
+      "left_window_bars": 2,
+      "method": "WINDOWED_LOCAL_EXTREMA",
+      "right_window_bars": 2
+    },
+    "parent_family_kinds": [
+      "SINGLE_ZIGZAG",
+      "FLAT",
+      "TRIANGLE",
+      "ENDING_DIAGONAL"
+    ],
+    "parent_normal_impulse_cap": 100,
+    "selection": {
+      "max_bars_per_selected_window": 10000,
+      "max_geometric_pivots_per_window": 5000
+    }
+  },
+  "child_search_domain": "EXISTING_UNFILTERED_CHILD_API; geometric membership reported separately, no filtered ancestry substituted",
+  "classification": "PROJECT_OPERATIONAL_POLICY_NOT_ELLIOTT_METHODOLOGY",
+  "current_position_inference": false,
+  "degree_inference": false,
+  "duplicates": "retain all discovery/requirement origins; identical price sequences are not independent confirmation",
+  "equal_extreme_policy": "LAST",
+  "geometry_windows": [
+    2,
+    4,
+    8
+  ],
+  "include_developing": true,
+  "max_root_jobs": 9,
+  "max_source_bars": 10000,
+  "max_source_pivots": 10000,
+  "omissions": [
+    "cross-region consecutive sequences",
+    "all skipped-pivot combinations",
+    "later eligible regional starts beyond budget",
+    "children for scales 4/8",
+    "second and deeper child levels",
+    "additional resolutions/scales"
+  ],
+  "ranking": false,
+  "regions": [
+    [
+      1999,
+      2007
+    ],
+    [
+      2008,
+      2016
+    ],
+    [
+      2017,
+      2026
+    ]
+  ],
+  "root_candidate_bounds": {
+    "candidates": 4,
+    "pivots": 6,
+    "skips": 0,
+    "span": 6
+  },
+  "root_resolution": "1mo",
+  "selection": "first chronological eligible consecutive six-pivot sequence in each region; no consolidation or cross-scale splice",
+  "sequence_pivots": 6,
+  "sequences_per_region_per_scale": 1
+}

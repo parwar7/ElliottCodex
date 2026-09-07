@@ -1,0 +1,98 @@
+{
+  "stage": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1",
+  "result": "PASS_WITH_EXPLICIT_SEARCH_AND_CHILD_SCOPE_LIMITATIONS",
+  "approved_base": "fae333e0b02a9f348edadb4c0b43df3ef63a6751",
+  "experiment": {
+    "offline_replays": 1,
+    "fresh_retrieval": false,
+    "hypotheses": 200,
+    "parent_candidates": 28,
+    "parent_hypotheses": 63,
+    "linked_child_hypotheses": 137,
+    "requirements": 84,
+    "endpoint_records_verified": 1328,
+    "existing_P004_P005_traces_verified": 14,
+    "results_sha256": "ea0738d3d3dc973e1aa421c9a3780660105380a0daaf11a19858e8ef270bf6fa"
+  },
+  "independent_checks": {
+    "all_118_windows_recomputed": true,
+    "all_28_parent_candidates_recomputed": true,
+    "all_source_scale_pivots_checked_against_saved_observations": true,
+    "all_exported_prices_ratios_provenance_verified": true,
+    "all_methodology_outcomes_match_original_evaluation_traces": true,
+    "all_parent_requirement_links_retained": true,
+    "all_CSV_matches_JSON": true,
+    "report_matches_final_renderer": true,
+    "JSON_round_trip_render_deterministic": true,
+    "original_H0467_checked_against_original_manifest_and_observations": true
+  },
+  "authority": {
+    "geometric_exclusion_is_not_structural_invalidity": true,
+    "no_new_certificates_from_search": true,
+    "all_84_requirements_unsatisfied": true,
+    "no_family_validity": true,
+    "no_ranking_or_confidence": true,
+    "no_forecast_or_trading": true,
+    "no_new_indicators": true,
+    "no_timeframe_or_scale_degree_conversion": true,
+    "no_first_bar_origin": true,
+    "no_current_wave_from_final_pivot": true,
+    "no_new_methodology": true,
+    "no_shared_contract_change": true
+  },
+  "child_boundary": {
+    "existing_unfiltered_child_API": true,
+    "child_contexts_outside_parent_domain": 58,
+    "not_silently_filtered_or_reclassified": true,
+    "no_finer_data_missing_in_explored_weekly_windows": true,
+    "insufficient_pivots": 36,
+    "unvisited_other_scales_and_deeper_levels": true,
+    "proposal": "child_scope_boundary.md",
+    "proposal_applied": false
+  },
+  "protection": {
+    "protected_entries": 51,
+    "mismatches": 0,
+    "version": "0.1.0",
+    "brain_manifest": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338",
+    "source_policy": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018",
+    "sources_manifest": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+    "book": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+    "existing_tracked_files": 670,
+    "existing_raw_content_inventory_sha256": "e6c8a8a66eab7c8b1ca254e1f57322ed7dd713ed115ad41430aa42fbe2f21a2b",
+    "existing_files_changed": 0,
+    "historical_baselines_unchanged": true
+  },
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "freezes": {
+    "P004_P005": "UNCHANGED",
+    "P006": "UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
+    "Flat_Triangle": "UNCHANGED",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND": true,
+    "legacy_analyze": "NOT_IMPLEMENTED"
+  },
+  "hardening": {
+    "missing_test_group_id_and_domain_fields_corrected_without_assertion_weakening": true,
+    "renderer_dictionary_order_normalized": true,
+    "source_tamper_fixture_includes_positive_control": true,
+    "kernel_defects_exposed": false,
+    "whole_experiment_repeated": false,
+    "executed_facts_unchanged_during_formatting": true,
+    "final_source_hashes_recorded": "implementation_inventory.json"
+  },
+  "process_note": "Codex Process Jobs rejects Windows; ordinary finite foreground processes used. Superseded task-owned test processes were identity-checked and stopped before final reruns.",
+  "project_manager_approval_claimed": false,
+  "tests": {
+    "focused": 30,
+    "full": 1085,
+    "failures": 0,
+    "errors": 0,
+    "receipt": "tests.json"
+  },
+  "presentation_QA": "Markdown source inspection and deterministic renderer/CSV reconciliation; no GUI screenshot or browser QA claimed."
+}

@@ -1,0 +1,56 @@
+{
+  "stage": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1",
+  "focused": {
+    "tests": 30,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 241.073,
+    "command": "python -B -m unittest test_geometric_swing_search"
+  },
+  "full": {
+    "tests": 1085,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 555.971,
+    "command": "python -B -m unittest discover -s tests",
+    "completed_after_final_changes": true
+  },
+  "environment": {
+    "PYTHONPATH": "src;tools;tests",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "live_network_required": false,
+  "expected_mocked_failure_output": "The legacy failure-path test prints ValueError: recorded test provider failure and INCOMPLETE; final unittest result is OK.",
+  "development_history": [
+    {
+      "tests": 21,
+      "passed": 21,
+      "seconds": 1.051
+    },
+    {
+      "tests": 24,
+      "passed": 24,
+      "seconds": 38.572
+    },
+    {
+      "tests": 29,
+      "errors": 2,
+      "seconds": 192.822,
+      "causes": [
+        "Export test fixture omitted existing group_rows call/group_id.",
+        "Historical non-rescue reporting fixture omitted new geometric_domain annotation."
+      ],
+      "correction": "Complete genuine/saved fixtures; preserve assertions; no Kernel or methodology change."
+    },
+    {
+      "superseded_test_process_pairs_stopped": 3,
+      "reasons": [
+        "Known fixture omissions",
+        "Canonical report ordering assertion",
+        "Positive control for isolated source-tamper test"
+      ],
+      "process_identity_verified_before_stop": true
+    }
+  ],
+  "source_files_unchanged_during_final_runs": true
+}

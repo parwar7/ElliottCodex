@@ -1,0 +1,70 @@
+{
+  "stage": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1",
+  "source_capture": "NVDA-BOUNDED-ANALYSIS-REPORT-V1/inputs",
+  "fresh_market_retrieval": false,
+  "geometry_windows": [
+    2,
+    4,
+    8
+  ],
+  "window_dispositions": {
+    "selected": 7,
+    "unvisited_budget": 49,
+    "search_domain_excluded": 39,
+    "region_policy_excluded": 23,
+    "total": 118
+  },
+  "parent": {
+    "neutral_candidate_contexts": 28,
+    "family_hypotheses": 63,
+    "p004_satisfied": 2,
+    "p004_violated": 5,
+    "p005_sufficient": 4,
+    "p005_unresolved": 3,
+    "p004_invalid_despite_p005_sufficiency": 3,
+    "outside_geometric_domain": 0
+  },
+  "child": {
+    "neutral_candidate_contexts": 74,
+    "family_hypotheses": 137,
+    "p004_satisfied": 6,
+    "p004_violated": 1,
+    "p005_sufficient": 2,
+    "p005_unresolved": 5,
+    "outside_new_parent_domain": 58,
+    "domain_filter_applied": false,
+    "existing_unfiltered_contract_retained": true
+  },
+  "internal_requirements": {
+    "total": 84,
+    "full_weekly_coverage": 84,
+    "no_weekly_coverage": 0,
+    "insufficient_geometric_pivots": 36,
+    "neutral_child_evidence_available": 48,
+    "satisfied": 0
+  },
+  "duplicate_coordinate_groups": 49,
+  "existing_ancestry": {
+    "linked_child_hypotheses": 137,
+    "explored_child_levels": 1,
+    "scale2_only": true
+  },
+  "comparison": {
+    "historical_ref": "H0467",
+    "old_movements": [
+      "UP",
+      "UP",
+      "UP",
+      "UP",
+      "UP"
+    ],
+    "new_parent_sequences": "ALL_NONZERO_ALTERNATING",
+    "historical_result_unchanged": true,
+    "no_new_structural_invalidity_from_search": true
+  },
+  "current_position": "CURRENT_POSITION_UNRESOLVED",
+  "coherent_full_history_count": false,
+  "counts_not_ranked": true,
+  "next_review_proposal": "EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1",
+  "project_manager_approval_claimed": false
+}

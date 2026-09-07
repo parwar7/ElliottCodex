@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "path": "src/elliott_runtime/analysis/geometric_swing_search.py",
+      "byte_length": 8063,
+      "sha256": "82844fd9700ea57df4cc3bbddcdb78182bb958f09535bdeb8c6bc37b44b86ac8",
+      "imports": [
+        "from dataclasses import dataclass",
+        "from math import isfinite",
+        "from .candidate_generation import CandidateGenerationConfig, CandidateGenerationRequest, CandidatePivotWindow, estimate_candidate_generation_demand",
+        "from elliott_runtime.market_data.geometric_pivots import GeometricPivotDiscoveryResult"
+      ]
+    },
+    {
+      "path": "tools/nvda_geometric_swing_quality.py",
+      "byte_length": 20045,
+      "sha256": "8d2ee7af28c2dddfbaddc4ebea2abe5ed078c25fd03988c4d5682a7b8f678ad6",
+      "imports": [
+        "import argparse",
+        "from collections import Counter",
+        "from pathlib import Path",
+        "import nvda_hierarchical_hypotheses as hierarchy",
+        "from elliott_runtime.analysis.geometric_swing_search import GeometricSwingSearchConfig, movement_domain, select_geometric_swing_requests"
+      ]
+    },
+    {
+      "path": "tests/test_geometric_swing_search.py",
+      "byte_length": 15201,
+      "sha256": "f71854d6b114fd9aaa984cbcdeaebab391cf10c20a70660eeea53192ebe907ef",
+      "imports": [
+        "import copy",
+        "from dataclasses import replace",
+        "import math",
+        "import unittest",
+        "from unittest.mock import patch",
+        "import support",
+        "import sys",
+        "import nvda_geometric_swing_quality as s",
+        "from test_geometric_pivots import observations, config, request",
+        "from elliott_runtime.analysis.geometric_swing_search import GeometricSwingSearchConfig, movement_domain, select_geometric_swing_requests"
+      ]
+    }
+  ],
+  "classification": "PROJECT_OPERATIONAL_POLICY_AND_ORCHESTRATION",
+  "existing_files_modified": 0,
+  "public_APIs_only": true,
+  "filesystem_writes": {
+    "module": "tools/nvda_geometric_swing_quality.py",
+    "function": "run",
+    "destination": "caller supplied new output directory resolved beneath Runtime_WORKSPACE",
+    "writer": "existing nvda_bounded_report.write_bytes_new; exclusive creation and resolved-root check",
+    "protected_writes": false
+  },
+  "source_modules_have_no_filesystem_mutation": true,
+  "methodology": 11,
+  "structural_producers": 7,
+  "validated_family_producers": 0,
+  "validated_family_issuances": 0
+}

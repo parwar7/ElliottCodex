@@ -1,0 +1,120 @@
+{
+  "baseline_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1",
+  "classification": "ADDITIVE_LOGICAL_OPERATIONAL_SEARCH_BASELINE",
+  "approved_base": "fae333e0b02a9f348edadb4c0b43df3ef63a6751",
+  "status": "PARENT_GEOMETRIC_SEARCH_IMPLEMENTED_TESTED_AUDITED; CHILD_SCOPE_EXTENSION_NOT_APPLIED",
+  "project_manager_approval_claimed": false,
+  "physical_immutability_claimed": false,
+  "source_authority": "User-authorized PROJECT_OPERATIONAL_POLICY; existing protected methodology unchanged",
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "tests": {
+    "focused_passed": 30,
+    "full_passed": 1085,
+    "failures": 0,
+    "errors": 0
+  },
+  "protected_entries_verified": 51,
+  "protected_mismatches": 0,
+  "prior_tracked_files_unchanged": 670,
+  "input_manifest_sha256": "bb8d73a6ace250a5d8815cd215760b210913db715fb43d6ef3327a8cb535424e",
+  "runtime_files": [
+    {
+      "path": "src/elliott_runtime/analysis/geometric_swing_search.py",
+      "byte_length": 8063,
+      "sha256": "82844fd9700ea57df4cc3bbddcdb78182bb958f09535bdeb8c6bc37b44b86ac8"
+    },
+    {
+      "path": "tools/nvda_geometric_swing_quality.py",
+      "byte_length": 20045,
+      "sha256": "8d2ee7af28c2dddfbaddc4ebea2abe5ed078c25fd03988c4d5682a7b8f678ad6"
+    },
+    {
+      "path": "tests/test_geometric_swing_search.py",
+      "byte_length": 15201,
+      "sha256": "f71854d6b114fd9aaa984cbcdeaebab391cf10c20a70660eeea53192ebe907ef"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/audit.json",
+      "byte_length": 4033,
+      "sha256": "808a09551667d06b8a344a4ff5ae580d08f139d947d88a424acaa2cb9542321c"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/child_scope_boundary.md",
+      "byte_length": 2151,
+      "sha256": "417859fc81d21a4fe994d17b73e65350a73f074c77398f690c5f290c08d7b401"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/final_integrity.json",
+      "byte_length": 9746,
+      "sha256": "323143fc258e473f1dc25f04c0621195b0a5ed2a2efc0938b9a97ef01a850036"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/implementation_inventory.json",
+      "byte_length": 2428,
+      "sha256": "07125d88d31bda833bb23c9efda252c7edad08ce0e1a1401f7abada53690dc0f"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/pre_write_integrity.json",
+      "byte_length": 9746,
+      "sha256": "323143fc258e473f1dc25f04c0621195b0a5ed2a2efc0938b9a97ef01a850036"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/preservation.json",
+      "byte_length": 187,
+      "sha256": "55ee8f75801b135f63a4e26d65c074f6cc6a38e8b094d096e05b724cb730fe93"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/README.md",
+      "byte_length": 4857,
+      "sha256": "ec000c432f7b966d9aaa2f2625191436e7dc95a0a0c3b4ed537ab3b7349785f8"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/report/candidates.csv",
+      "byte_length": 258141,
+      "sha256": "fd6909f3512f305d26fe94e8b58cca166f57d5d2ef2adf22fa464ce2cc3c7d96"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/report/configuration.json",
+      "byte_length": 3119,
+      "sha256": "f6d12fa669c79b7774a146069b5765182b4887d91cf2d7c57385ff5b9c4eb502"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/report/endpoints.csv",
+      "byte_length": 2594520,
+      "sha256": "b18fb73db6189ba9c14d645053e185b969c315e4ea28690744fd314344ee4a87"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/report/report.md",
+      "byte_length": 14905,
+      "sha256": "7b9c0713f4eceb1adfea0f635d24795a859324565582b1cec1d6617cf58ab0fb"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/report/results.json",
+      "byte_length": 4636207,
+      "sha256": "ea0738d3d3dc973e1aa421c9a3780660105380a0daaf11a19858e8ef270bf6fa"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/report/search_plan.json",
+      "byte_length": 264358,
+      "sha256": "f008110d597695d38c84cf97065945b21524d0ed14af88b8fa55268fc72b43a9"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/results_summary.json",
+      "byte_length": 1856,
+      "sha256": "8b492962da6b46cb1b1584a707422580f5b657ab51ceb506f048ac4f291d1d1f"
+    },
+    {
+      "path": "kernel_reviews/NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1/tests.json",
+      "byte_length": 1608,
+      "sha256": "b6ff3a742141616e14f2c51b0616b0428e441349e6fa9992847e9c87a6188076"
+    }
+  ],
+  "hashing": "SHA-256 of exact bytes; paths relative to Runtime_WORKSPACE. This manifest excludes itself; its SHA-256 is reported in the handoff."
+}
