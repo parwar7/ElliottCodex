@@ -1,0 +1,309 @@
+{
+  "selection": "First deterministic record per path/mode/P004/P005/reason status family; not ranking",
+  "cases": [
+    {
+      "display_ref": "H0009",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:FIVE_SEGMENT_HYPOTHESIS:5-6-7-8-9-10:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": null,
+      "path": "parent",
+      "snapshot_content_sha256": "5f2964509cad42f6d529e95e3033fef1820532f5bf7ce1e2f45a2eadbf4090f6",
+      "p004": {
+        "fatal": true,
+        "origin_identity_checked": true,
+        "reason": "The supplied Wave 2 retracement extreme moved beyond the supplied Wave 1 origin.",
+        "status": "RULE_VIOLATED"
+      },
+      "p005": {
+        "percentage_movements": [
+          {
+            "denominator": 6029312,
+            "numerator": 410692825
+          },
+          {
+            "denominator": 559241,
+            "numerator": 30579364
+          },
+          {
+            "denominator": 40634416,
+            "numerator": 3660788425
+          }
+        ],
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "status": "UNRESOLVED"
+      },
+      "mode": "before",
+      "full_trace": "report/results.json -> before -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    },
+    {
+      "display_ref": "H0069",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:FIVE_SEGMENT_HYPOTHESIS:24-25-26-27-28-29:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": null,
+      "path": "parent",
+      "snapshot_content_sha256": "5f2964509cad42f6d529e95e3033fef1820532f5bf7ce1e2f45a2eadbf4090f6",
+      "p004": {
+        "fatal": true,
+        "origin_identity_checked": true,
+        "reason": "The supplied Wave 2 retracement extreme moved beyond the supplied Wave 1 origin.",
+        "status": "RULE_VIOLATED"
+      },
+      "p005": {
+        "percentage_movements": [
+          {
+            "denominator": 363017,
+            "numerator": 16861105
+          },
+          {
+            "denominator": 3215633,
+            "numerator": 605657500
+          },
+          {
+            "denominator": 9697231,
+            "numerator": 620757000
+          }
+        ],
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED"
+      },
+      "mode": "before",
+      "full_trace": "report/results.json -> before -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    },
+    {
+      "display_ref": "H0058",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:children:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:THREE_SEGMENT_HYPOTHESIS:6-7-8-9:evaluate-as:SINGLE_ZIGZAG:child:1:neutral-children:FIVE_SEGMENT_HYPOTHESIS:0-1-2-3-4-5:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:THREE_SEGMENT_HYPOTHESIS:6-7-8-9:evaluate-as:SINGLE_ZIGZAG:child:1",
+      "path": "child",
+      "snapshot_content_sha256": "b6695aa0b692a8bb16c8c76e31e16abbe78598c3fcfc9d3e34d31be7ca71dc4e",
+      "p004": {
+        "fatal": false,
+        "origin_identity_checked": false,
+        "reason": "The supplied Wave 2 retracement extreme did not move beyond the supplied Wave 1 origin.",
+        "status": "RULE_SATISFIED"
+      },
+      "p005": {
+        "percentage_movements": [],
+        "reason": "DEVELOPING_REQUIRED_ENDPOINT",
+        "status": "UNRESOLVED"
+      },
+      "mode": "before",
+      "full_trace": "report/results.json -> before -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    },
+    {
+      "display_ref": "H0059",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:children:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:THREE_SEGMENT_HYPOTHESIS:7-8-9-10:evaluate-as:SINGLE_ZIGZAG:child:3:neutral-children:FIVE_SEGMENT_HYPOTHESIS:0-1-2-3-4-5:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:THREE_SEGMENT_HYPOTHESIS:7-8-9-10:evaluate-as:SINGLE_ZIGZAG:child:3",
+      "path": "child",
+      "snapshot_content_sha256": "b6695aa0b692a8bb16c8c76e31e16abbe78598c3fcfc9d3e34d31be7ca71dc4e",
+      "p004": {
+        "fatal": false,
+        "origin_identity_checked": false,
+        "reason": "The supplied Wave 2 retracement extreme did not move beyond the supplied Wave 1 origin.",
+        "status": "RULE_SATISFIED"
+      },
+      "p005": {
+        "percentage_movements": [
+          {
+            "denominator": 9556017,
+            "numerator": 267036250
+          },
+          {
+            "denominator": 8457109,
+            "numerator": 421108100
+          },
+          {
+            "denominator": 2841641,
+            "numerator": 174972100
+          }
+        ],
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED"
+      },
+      "mode": "before",
+      "full_trace": "report/results.json -> before -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    },
+    {
+      "display_ref": "H0115",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:child:normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:child:children:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:THREE_SEGMENT_HYPOTHESIS:24-25-26-27:evaluate-as:SINGLE_ZIGZAG:child:3:neutral-children:FIVE_SEGMENT_HYPOTHESIS:0-1-2-3-4-5:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:THREE_SEGMENT_HYPOTHESIS:24-25-26-27:evaluate-as:SINGLE_ZIGZAG:child:3",
+      "path": "child",
+      "snapshot_content_sha256": "b6695aa0b692a8bb16c8c76e31e16abbe78598c3fcfc9d3e34d31be7ca71dc4e",
+      "p004": {
+        "fatal": false,
+        "origin_identity_checked": false,
+        "reason": "The supplied Wave 2 retracement extreme did not move beyond the supplied Wave 1 origin.",
+        "status": "RULE_SATISFIED"
+      },
+      "p005": {
+        "percentage_movements": [
+          {
+            "denominator": 3215633,
+            "numerator": 206919000
+          },
+          {
+            "denominator": 5972689,
+            "numerator": 193776850
+          },
+          {
+            "denominator": 3959423,
+            "numerator": 161620500
+          }
+        ],
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "status": "UNRESOLVED"
+      },
+      "mode": "before",
+      "full_trace": "report/results.json -> before -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    },
+    {
+      "display_ref": "H0164",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:49:child:normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:49:child:children:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:49:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:49:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:49:THREE_SEGMENT_HYPOTHESIS:50-51-52-53:evaluate-as:SINGLE_ZIGZAG:child:1:neutral-children:FIVE_SEGMENT_HYPOTHESIS:0-1-2-3-4-5:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:49:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:49:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:49:THREE_SEGMENT_HYPOTHESIS:50-51-52-53:evaluate-as:SINGLE_ZIGZAG:child:1",
+      "path": "child",
+      "snapshot_content_sha256": "b6695aa0b692a8bb16c8c76e31e16abbe78598c3fcfc9d3e34d31be7ca71dc4e",
+      "p004": {
+        "fatal": true,
+        "origin_identity_checked": true,
+        "reason": "The supplied Wave 2 retracement extreme moved beyond the supplied Wave 1 origin.",
+        "status": "RULE_VIOLATED"
+      },
+      "p005": {
+        "percentage_movements": [],
+        "reason": "ZERO_OR_OPPOSING_ROLE_MOVEMENT",
+        "status": "UNRESOLVED"
+      },
+      "mode": "before",
+      "full_trace": "report/results.json -> before -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    },
+    {
+      "display_ref": "H0009",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:FIVE_SEGMENT_HYPOTHESIS:5-6-7-8-9-10:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": null,
+      "path": "parent",
+      "snapshot_content_sha256": "5f2964509cad42f6d529e95e3033fef1820532f5bf7ce1e2f45a2eadbf4090f6",
+      "p004": {
+        "fatal": true,
+        "origin_identity_checked": true,
+        "reason": "The supplied Wave 2 retracement extreme moved beyond the supplied Wave 1 origin.",
+        "status": "RULE_VIOLATED"
+      },
+      "p005": {
+        "percentage_movements": [
+          {
+            "denominator": 6029312,
+            "numerator": 410692825
+          },
+          {
+            "denominator": 559241,
+            "numerator": 30579364
+          },
+          {
+            "denominator": 40634416,
+            "numerator": 3660788425
+          }
+        ],
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "status": "UNRESOLVED"
+      },
+      "mode": "after",
+      "full_trace": "report/results.json -> after -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    },
+    {
+      "display_ref": "H0027",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:FIVE_SEGMENT_HYPOTHESIS:24-25-26-27-28-29:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": null,
+      "path": "parent",
+      "snapshot_content_sha256": "5f2964509cad42f6d529e95e3033fef1820532f5bf7ce1e2f45a2eadbf4090f6",
+      "p004": {
+        "fatal": true,
+        "origin_identity_checked": true,
+        "reason": "The supplied Wave 2 retracement extreme moved beyond the supplied Wave 1 origin.",
+        "status": "RULE_VIOLATED"
+      },
+      "p005": {
+        "percentage_movements": [
+          {
+            "denominator": 363017,
+            "numerator": 16861105
+          },
+          {
+            "denominator": 3215633,
+            "numerator": 605657500
+          },
+          {
+            "denominator": 9697231,
+            "numerator": 620757000
+          }
+        ],
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED"
+      },
+      "mode": "after",
+      "full_trace": "report/results.json -> after -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    },
+    {
+      "display_ref": "H0017",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:scoped-normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:scoped-children:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:THREE_SEGMENT_HYPOTHESIS:7-8-9-10:evaluate-as:SINGLE_ZIGZAG:child:3:neutral-children:FIVE_SEGMENT_HYPOTHESIS:0-1-2-3-4-5:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:5:THREE_SEGMENT_HYPOTHESIS:7-8-9-10:evaluate-as:SINGLE_ZIGZAG:child:3",
+      "path": "child",
+      "snapshot_content_sha256": "b6695aa0b692a8bb16c8c76e31e16abbe78598c3fcfc9d3e34d31be7ca71dc4e",
+      "p004": {
+        "fatal": false,
+        "origin_identity_checked": false,
+        "reason": "The supplied Wave 2 retracement extreme did not move beyond the supplied Wave 1 origin.",
+        "status": "RULE_SATISFIED"
+      },
+      "p005": {
+        "percentage_movements": [
+          {
+            "denominator": 9556017,
+            "numerator": 267036250
+          },
+          {
+            "denominator": 8457109,
+            "numerator": 421108100
+          },
+          {
+            "denominator": 2841641,
+            "numerator": 174972100
+          }
+        ],
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED"
+      },
+      "mode": "after",
+      "full_trace": "report/results.json -> after -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    },
+    {
+      "display_ref": "H0053",
+      "hypothesis_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:scoped-normal:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:scoped-children:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:THREE_SEGMENT_HYPOTHESIS:24-25-26-27:evaluate-as:SINGLE_ZIGZAG:child:3:neutral-children:FIVE_SEGMENT_HYPOTHESIS:0-1-2-3-4-5:evaluate-as:NORMAL_IMPULSE",
+      "requirement_id": "NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:child:internals:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:family:NVDA-GEOMETRIC-SWING-CANDIDATE-QUALITY-V1:scale-2:swing:24:THREE_SEGMENT_HYPOTHESIS:24-25-26-27:evaluate-as:SINGLE_ZIGZAG:child:3",
+      "path": "child",
+      "snapshot_content_sha256": "b6695aa0b692a8bb16c8c76e31e16abbe78598c3fcfc9d3e34d31be7ca71dc4e",
+      "p004": {
+        "fatal": false,
+        "origin_identity_checked": false,
+        "reason": "The supplied Wave 2 retracement extreme did not move beyond the supplied Wave 1 origin.",
+        "status": "RULE_SATISFIED"
+      },
+      "p005": {
+        "percentage_movements": [
+          {
+            "denominator": 3215633,
+            "numerator": 206919000
+          },
+          {
+            "denominator": 5972689,
+            "numerator": 193776850
+          },
+          {
+            "denominator": 3959423,
+            "numerator": 161620500
+          }
+        ],
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "status": "UNRESOLVED"
+      },
+      "mode": "after",
+      "full_trace": "report/results.json -> after -> hypotheses -> hypothesis_id -> endpoints and p005_observation_trace"
+    }
+  ]
+}

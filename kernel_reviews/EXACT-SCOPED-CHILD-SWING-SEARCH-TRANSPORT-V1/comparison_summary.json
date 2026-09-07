@@ -1,0 +1,130 @@
+{
+  "result_sha256": "3ddc107922c91988812dc521fe769cb71cc1770906860d4c397aec32b7a0553f",
+  "comparison": {
+    "before": {
+      "child": {
+        "candidate_contexts": 74,
+        "families": {
+          "FLAT": 63,
+          "NORMAL_IMPULSE_PARTIAL": 7,
+          "SINGLE_ZIGZAG": 63,
+          "TRIANGLE": 4
+        },
+        "hypotheses": 137,
+        "outside_geometric_domain": 58,
+        "p004": {
+          "RULE_SATISFIED": 6,
+          "RULE_VIOLATED": 1
+        },
+        "p004_invalid_despite_p005_sufficiency": 0,
+        "p005": {
+          "SUFFICIENT_CONDITION_ESTABLISHED": 2,
+          "UNRESOLVED": 5
+        },
+        "p005_unresolved_reasons": {
+          "DEVELOPING_REQUIRED_ENDPOINT": 1,
+          "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE": 3,
+          "ZERO_OR_OPPOSING_ROLE_MOVEMENT": 1
+        }
+      },
+      "parent": {
+        "candidate_contexts": 12,
+        "families": {
+          "ENDING_DIAGONAL": 3,
+          "FLAT": 9,
+          "NORMAL_IMPULSE_PARTIAL": 3,
+          "SINGLE_ZIGZAG": 9,
+          "TRIANGLE": 3
+        },
+        "hypotheses": 27,
+        "outside_geometric_domain": 0,
+        "p004": {
+          "RULE_VIOLATED": 3
+        },
+        "p004_invalid_despite_p005_sufficiency": 2,
+        "p005": {
+          "SUFFICIENT_CONDITION_ESTABLISHED": 2,
+          "UNRESOLVED": 1
+        },
+        "p005_unresolved_reasons": {
+          "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE": 1
+        }
+      }
+    },
+    "after": {
+      "child": {
+        "candidate_contexts": 36,
+        "families": {
+          "FLAT": 27,
+          "NORMAL_IMPULSE_PARTIAL": 6,
+          "SINGLE_ZIGZAG": 27,
+          "TRIANGLE": 3
+        },
+        "hypotheses": 63,
+        "outside_geometric_domain": 0,
+        "p004": {
+          "RULE_SATISFIED": 6
+        },
+        "p004_invalid_despite_p005_sufficiency": 0,
+        "p005": {
+          "SUFFICIENT_CONDITION_ESTABLISHED": 3,
+          "UNRESOLVED": 3
+        },
+        "p005_unresolved_reasons": {
+          "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE": 3
+        }
+      },
+      "parent": {
+        "candidate_contexts": 12,
+        "families": {
+          "ENDING_DIAGONAL": 3,
+          "FLAT": 9,
+          "NORMAL_IMPULSE_PARTIAL": 3,
+          "SINGLE_ZIGZAG": 9,
+          "TRIANGLE": 3
+        },
+        "hypotheses": 27,
+        "outside_geometric_domain": 0,
+        "p004": {
+          "RULE_VIOLATED": 3
+        },
+        "p004_invalid_despite_p005_sufficiency": 2,
+        "p005": {
+          "SUFFICIENT_CONDITION_ESTABLISHED": 2,
+          "UNRESOLVED": 1
+        },
+        "p005_unresolved_reasons": {
+          "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE": 1
+        }
+      }
+    }
+  },
+  "neutral_generation_reconciliation": {
+    "before": 140,
+    "after": 72,
+    "method": "Existing public estimate_candidate_generation_demand applied to each original/selected pivot count with unchanged Child CandidateGenerationConfig(6,6,0,10,THREE/FIVE,EARLIEST). All recorded factory generation_outcomes agree with zero/nonzero demand. Includes neutral candidates without executable family coverage; evaluated contexts are separately 74/36.",
+    "before_distribution": {
+      "0": 36,
+      "1": 4,
+      "2": 20,
+      "4": 24
+    },
+    "after_distribution": {
+      "0": 66,
+      "4": 18
+    }
+  },
+  "scope_reasons": {
+    "INSUFFICIENT_GEOMETRIC_PIVOTS": 60,
+    "NO_SEQUENCE_IN_SELECTED_SEARCH_DOMAIN": 6,
+    "SELECTED_FIRST_ELIGIBLE_SCOPE": 18
+  },
+  "scope_dispositions": {
+    "SEARCH_DOMAIN_EXCLUDED": 98,
+    "SELECTED": 18,
+    "UNVISITED_BUDGET": 116
+  },
+  "requirements_satisfied": 0,
+  "same_capture": true,
+  "unique_invalid_waves_inferred_from_58": false
+}

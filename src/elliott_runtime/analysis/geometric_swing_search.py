@@ -130,3 +130,51 @@ token: downstream callers must execute the returned genuine public requests.
                    'regions': regions, 'windows': windows, 'selected_sequence_count': len(requests),
                    'family_authority': False, 'degree_authority': False, 'structural_invalidity': False}
     return tuple(requests), diagnostics
+
+
+def select_child_geometric_swing_scope(selection, config):
+    """First eligible six-pivot scope per exact child requirement; no ranking.
+
+    V1 supports one scope per requirement. All other eligible starts are
+    reported as unvisited, and an empty search is an explicit empty scope.
+    """
+    from .finer_child_observation_selection import validate_child_observation_selection_result
+    from .recursive_child_candidate_generation import create_child_pivot_selection_scope
+    from .candidate_generation import CandidateHypothesisShape
+    selection = validate_child_observation_selection_result(selection)
+    window = selection.request.proposed_child_window
+    if (type(config) is not GeometricSwingSearchConfig or config.sequences_per_region != 1
+            or config.regions != ((window.start_pivot.timestamp_utc.year,
+                                   window.end_pivot.timestamp_utc.year),)):
+        raise ValueError('Child V1 requires one scope in the exact parent window year range')
+    geometry = selection.finer_geometric_pivots
+    if geometry is None:
+        return None, {'reason': selection.selected_window.coverage_state.value,
+                      'source_pivot_ids': [], 'selected_pivot_ids': [],
+                      'omitted_pivot_ids': [], 'structural_invalidity': False}
+    requirement = selection.request.internal_requirement
+    template = CandidateGenerationRequest(selection.request.selection_id + ':search',
+        window.start_pivot.timestamp_utc.isoformat(), requirement.child_subject,
+        selection.request.selected_observations, geometry,
+        CandidateGenerationConfig(6, 6, 0, 4, tuple(CandidateHypothesisShape), CandidatePivotWindow.EARLIEST),
+        (), selection.provenance_refs)
+    requests, diagnostics = select_geometric_swing_requests(template, config)
+    selected = requests[0].scoped_pivots if requests else ()
+    scope = create_child_pivot_selection_scope(requirement, selection, selected,
+                                               selection.provenance_refs + ('alternating-child-search',))
+    selected_ids = {id(p) for p in selected}
+    diagnostics.update(
+        reason=('SELECTED_FIRST_ELIGIBLE_SCOPE' if requests else 'INSUFFICIENT_GEOMETRIC_PIVOTS'
+                if len(geometry.pivots) < 6 else 'NO_SEQUENCE_IN_SELECTED_SEARCH_DOMAIN'),
+        source_pivot_ids=[p.pivot_id for p in geometry.pivots],
+        selected_pivot_ids=[p.pivot_id for p in selected],
+        omitted_pivot_ids=[p.pivot_id for p in geometry.pivots if id(p) not in selected_ids],
+        requirement_id=requirement.requirement_id,
+        parent_hypothesis_id=requirement.family_hypothesis.hypothesis_id,
+        selection_id=selection.request.selection_id,
+        source_observation_sha256=selection.request.selected_observations.provenance.source_sha256,
+        parent_window_start=window.start_pivot.timestamp_utc.isoformat(),
+        parent_window_end=window.end_pivot.timestamp_utc.isoformat(),
+        scope_budget=1,
+    )
+    return scope, diagnostics

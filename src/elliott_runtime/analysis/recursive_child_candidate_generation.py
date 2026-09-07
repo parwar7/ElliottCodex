@@ -8,7 +8,7 @@ requirement, establish degree, or create family certification.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, fields, is_dataclass
 from enum import StrEnum
 from typing import NoReturn
 import weakref
@@ -87,6 +87,7 @@ class ChildRequirementGenerationStatus(StrEnum):
     )
     PARTIAL_FINER_OBSERVATION_COVERAGE = "PARTIAL_FINER_OBSERVATION_COVERAGE"
     NO_FINER_OBSERVATION_COVERAGE = "NO_FINER_OBSERVATION_COVERAGE"
+    NO_SEQUENCE_IN_SELECTED_SEARCH_DOMAIN = "NO_SEQUENCE_IN_SELECTED_SEARCH_DOMAIN"
 
 
 class ChildCandidateGenerationDiagnosticCode(StrEnum):
@@ -238,6 +239,120 @@ class ProposedChildEvaluationWindow(metaclass=_SealedChildType):
         return self
 
 
+@dataclass(frozen=True, slots=True, eq=False, init=False, weakref_slot=True)
+class ChildPivotSelectionScope(metaclass=_SealedChildType):
+    """Factory-issued optional search domain; never endpoint or family authority.
+
+    One scope per requirement is supported. The existing issuance registry holds
+    immutable binding evidence, not a certificate or a reconstructed ancestry.
+    """
+
+    internal_requirement: FamilyInternalSubdivisionRequirement
+    finer_observation_selection: object
+    selected_pivots: tuple[GeometricPivotObservation, ...]
+    provenance_refs: tuple[str, ...]
+
+    def __init__(self, *args, **kwargs):
+        raise TypeError("Child pivot scopes are factory-only.")
+
+    def _validated(self):
+        if type(self) is not ChildPivotSelectionScope:
+            _fail("Child pivot scope requires its exact type.")
+        issued = _ISSUED_RESULTS.get(self)
+        if issued is None:
+            _fail("Unissued child pivot scope.")
+        original, binding = issued
+        current = (self.internal_requirement, self.finer_observation_selection,
+                   self.selected_pivots, self.provenance_refs)
+        if any(a is not b for a, b in zip(current, original, strict=True)):
+            _fail("Child pivot scope fields changed after issuance.")
+        # Check BEFORE nested validators: they cannot refresh this evidence.
+        for obj, attributes in binding:
+            if any(getattr(obj, name) is not value for name, value in attributes):
+                _fail("Child pivot scope nested binding changed after issuance.")
+        from .finer_child_observation_selection import validate_child_observation_selection_result
+        validate_child_observation_selection_result(self.finer_observation_selection)
+        self.internal_requirement.__post_init__()
+        return self
+
+    def __reduce_ex__(self, protocol):
+        raise TypeError("Live child pivot scopes cannot be serialized.")
+
+
+def create_child_pivot_selection_scope(internal_requirement, finer_observation_selection,
+                                      selected_pivots, provenance_refs):
+    """Bind original selected pivots before generation, including an empty tuple."""
+    from .finer_child_observation_selection import (
+        ChildObservationCoverageState, ChildObservationSelectionResult,
+        validate_child_observation_selection_result,
+    )
+    if type(internal_requirement) is not FamilyInternalSubdivisionRequirement:
+        _fail("Scope requires one exact internal requirement.")
+    if type(finer_observation_selection) is not ChildObservationSelectionResult:
+        _fail("Scope requires one exact finer selection.")
+    selection = validate_child_observation_selection_result(finer_observation_selection)
+    if selection.request.internal_requirement is not internal_requirement:
+        _fail("Scope selection belongs to a foreign requirement.")
+    if selection.selected_window.coverage_state is not ChildObservationCoverageState.FULL_WINDOW_COVERAGE:
+        _fail("A pivot scope requires existing full finer observation coverage.")
+    geometry = selection.finer_geometric_pivots
+    if geometry.config is not selection.request.geometry_config:
+        _fail("Scope discovery configuration identity differs.")
+    if any(p.discovery_parameters is not geometry.config for p in geometry.pivots):
+        _fail("Scope pivot configuration identity differs.")
+    if type(selected_pivots) is not tuple:
+        _fail("Selected pivots must be an exact immutable tuple.")
+    positions = {id(pivot): i for i, pivot in enumerate(geometry.pivots)}
+    previous = -1
+    window = selection.request.proposed_child_window
+    for pivot in selected_pivots:
+        index = positions.get(id(pivot), -1)
+        if type(pivot) is not GeometricPivotObservation or index <= previous:
+            _fail("Scope contains foreign, duplicated, or reordered pivots.")
+        if not window.start_pivot.timestamp_utc <= pivot.timestamp_utc <= window.end_pivot.timestamp_utc:
+            _fail("Scope pivot lies outside the original parent evaluation window.")
+        if previous >= 0 and geometry.pivots[previous].timestamp_utc >= pivot.timestamp_utc:
+            _fail("Scope is not strictly chronological.")
+        previous = index
+    _refs(provenance_refs)
+    # Shallow exact links pin the public transport; deep capture is restricted
+    # to market snapshots/geometry/bindings, not a second recursive analyzer.
+    requirement = internal_requirement
+    candidate = requirement.parent_candidate
+    hypothesis = requirement.family_hypothesis
+    binding = []
+    seen = set()
+    def capture(obj, deep=False):
+        if type(obj) is tuple:
+            if deep:
+                for value in obj:
+                    capture(value, True)
+            return
+        if not is_dataclass(obj) or isinstance(obj, type) or id(obj) in seen:
+            return
+        seen.add(id(obj))
+        attributes = tuple((f.name, getattr(obj, f.name)) for f in fields(obj)
+                           if not f.name.startswith('_'))
+        binding.append((obj, attributes))
+        if deep:
+            for _, value in attributes:
+                capture(value, True)
+    for obj in (requirement, hypothesis, candidate, selection, selection.request,
+                selection.selected_window, window):
+        capture(obj)
+    for obj in (hypothesis.child_binding, candidate.source_observations,
+                candidate.source_geometric_pivots, selection.request.selected_observations,
+                geometry):
+        capture(obj, True)
+    result = object.__new__(ChildPivotSelectionScope)
+    values = (requirement, selection, selected_pivots, provenance_refs)
+    for name, value in zip(('internal_requirement', 'finer_observation_selection',
+                            'selected_pivots', 'provenance_refs'), values, strict=True):
+        object.__setattr__(result, name, value)
+    _ISSUED_RESULTS[result] = (values, tuple(binding))
+    return result._validated()
+
+
 @dataclass(frozen=True, slots=True, eq=False)
 class GeneratedChildCandidateEvidence(metaclass=_SealedChildType):
     internal_requirement: FamilyInternalSubdivisionRequirement
@@ -250,9 +365,20 @@ class GeneratedChildCandidateEvidence(metaclass=_SealedChildType):
     requirement_satisfied: bool = False
     degree_authority: bool = False
     finer_observation_selection: object | None = None
+    selected_pivot_scope: ChildPivotSelectionScope | None = None
     _snapshot: tuple[object, ...] = field(init=False, repr=False)
 
     def __post_init__(self) -> None:
+        if hasattr(self, "_snapshot"):
+            self._validated()
+        scope = self.selected_pivot_scope
+        if scope is not None:
+            if type(scope) is not ChildPivotSelectionScope:
+                _fail("Evidence requires an exact child pivot scope.")
+            scope._validated()
+            if (scope.internal_requirement is not self.internal_requirement
+                    or scope.finer_observation_selection is not self.finer_observation_selection):
+                _fail("Evidence pivot scope ancestry differs.")
         if type(self.internal_requirement) is not FamilyInternalSubdivisionRequirement:
             _fail("Generated evidence requires one exact internal requirement.")
         self.internal_requirement.__post_init__()
@@ -288,7 +414,8 @@ class GeneratedChildCandidateEvidence(metaclass=_SealedChildType):
                 is not ChildObservationCoverageState.FULL_WINDOW_COVERAGE
                 or generation.request.observations is not selection.request.selected_observations
                 or generation.request.geometric_pivots is not selection.finer_geometric_pivots
-                or generation.request.scoped_pivots is not selection.finer_geometric_pivots.pivots
+                or generation.request.scoped_pivots is not (
+                    selection.finer_geometric_pivots.pivots if scope is None else scope.selected_pivots)
             ):
                 _fail("Finer child evidence lost exact selection ancestry or full coverage.")
         if any((self.validated_child_wave, self.validated_internal_family, self.requirement_satisfied, self.degree_authority)):
@@ -307,6 +434,8 @@ class GeneratedChildCandidateEvidence(metaclass=_SealedChildType):
         ):
             _fail("Generated child evidence changed after construction.")
         self.evaluation_window._validated()
+        if self.selected_pivot_scope is not None:
+            self.selected_pivot_scope._validated()
         validate_candidate_generation_result(self.candidate_generation_result)
         validate_competing_candidate_set_result(self.competing_candidate_set)
         return self
@@ -391,9 +520,12 @@ class RecursiveChildCandidateGenerationRequest(metaclass=_SealedChildType):
     config: ChildCandidateGenerationConfig
     provenance_refs: tuple[str, ...]
     finer_observation_selections: tuple[object, ...] = ()
+    selected_pivot_scopes: tuple[ChildPivotSelectionScope, ...] = ()
     _snapshot: tuple[object, ...] = field(init=False, repr=False)
 
     def __post_init__(self) -> None:
+        if hasattr(self, "_snapshot"):
+            self._validated()
         _text(self.request_id, "request_id")
         _text(self.requested_at_utc, "requested_at_utc")
         validate_family_internal_subdivision_evaluation_result(self.internal_subdivision_result)
@@ -420,19 +552,35 @@ class RecursiveChildCandidateGenerationRequest(metaclass=_SealedChildType):
             if id(requirement) in seen_requirements:
                 _fail("Only one explicit finer observation selection is allowed per requirement.")
             seen_requirements.add(id(requirement))
+        if type(self.selected_pivot_scopes) is not tuple:
+            _fail("selected_pivot_scopes must be an exact tuple.")
+        scoped_requirements = set()
+        for scope in self.selected_pivot_scopes:
+            if type(scope) is not ChildPivotSelectionScope:
+                _fail("Every selected scope must have its exact type.")
+            scope._validated()
+            if not any(scope.finer_observation_selection is s for s in self.finer_observation_selections):
+                _fail("Scope belongs to a foreign finer selection.")
+            key = id(scope.internal_requirement)
+            if key in scoped_requirements:
+                _fail("Only one selected pivot scope is supported per requirement.")
+            scoped_requirements.add(key)
         object.__setattr__(self, "_snapshot", (
             self.request_id, self.requested_at_utc, self.internal_subdivision_result,
             self.config, self.provenance_refs, self.finer_observation_selections,
+            self.selected_pivot_scopes,
         ))
 
     def _validated(self):
         if type(self) is not RecursiveChildCandidateGenerationRequest:
             _fail("Child-generation request must have its exact type.")
-        current = (self.request_id, self.requested_at_utc, self.internal_subdivision_result, self.config, self.provenance_refs, self.finer_observation_selections)
+        current = (self.request_id, self.requested_at_utc, self.internal_subdivision_result, self.config, self.provenance_refs, self.finer_observation_selections, self.selected_pivot_scopes)
         if len(current) != len(self._snapshot) or any(
             observed is not expected for observed, expected in zip(current, self._snapshot, strict=True)
         ):
             _fail("Child-generation request changed after construction.")
+        for scope in self.selected_pivot_scopes:
+            scope._validated()
         validate_family_internal_subdivision_evaluation_result(self.internal_subdivision_result)
         self.config._validated()
         return self
@@ -548,10 +696,7 @@ class RecursiveChildCandidateGenerationResult(metaclass=_SealedChildType):
         return self
 
 
-_ISSUED_RESULTS: weakref.WeakKeyDictionary[
-    RecursiveChildCandidateGenerationResult,
-    tuple[ChildRequirementGenerationOutcome, ...],
-] = weakref.WeakKeyDictionary()
+_ISSUED_RESULTS: weakref.WeakKeyDictionary = weakref.WeakKeyDictionary()
 
 
 def _window(requirement: FamilyInternalSubdivisionRequirement, refs: tuple[str, ...]) -> ProposedChildEvaluationWindow:
@@ -604,6 +749,12 @@ def generate_child_candidate_evidence(
         id(selection.request.internal_requirement): selection
         for selection in request.finer_observation_selections
     }
+    scope_by_requirement = {id(s.internal_requirement): s for s in request.selected_pivot_scopes}
+    if any(len(s.selected_pivots) > request.config.max_pivots_per_child_window
+           for s in request.selected_pivot_scopes):
+        raise RecursiveChildCandidateGenerationLimitExceeded(
+            "CHILD_GENERATION_BOUND_EXCEEDED: selected scope max_pivots_per_child_window; no child candidates were materialized."
+        )
     if len(selection_by_requirement) > request.config.max_requirements_with_finer_selection:
         raise RecursiveChildCandidateGenerationLimitExceeded(
             "CHILD_GENERATION_BOUND_EXCEEDED: max_requirements_with_finer_selection; no child candidates were materialized."
@@ -633,6 +784,8 @@ def generate_child_candidate_evidence(
     candidate_config = _candidate_config(request.config)
     demands = tuple(
         estimate_candidate_generation_demand(
+            len(scope_by_requirement[id(window.internal_requirement)].selected_pivots)
+            if id(window.internal_requirement) in scope_by_requirement else
             len(selection_by_requirement[id(window.internal_requirement)].finer_geometric_pivots.pivots)
             if (
                 id(window.internal_requirement) in selection_by_requirement
@@ -667,6 +820,7 @@ def generate_child_candidate_evidence(
     for window, demand in zip(windows, demands, strict=True):
         requirement = window.internal_requirement
         selection = selection_by_requirement.get(id(requirement))
+        scope = scope_by_requirement.get(id(requirement))
         if selection is not None and selection.finer_geometric_pivots is None:
             from .finer_child_observation_selection import ChildObservationCoverageState
             state = selection.selected_window.coverage_state
@@ -686,9 +840,11 @@ def generate_child_candidate_evidence(
         if demand == 0:
             outcomes.append(ChildRequirementGenerationOutcome(
                 requirement, window,
-                ChildRequirementGenerationStatus.INSUFFICIENT_GEOMETRIC_PIVOTS,
+                (ChildRequirementGenerationStatus.INSUFFICIENT_GEOMETRIC_PIVOTS if scope is None
+                 else ChildRequirementGenerationStatus.NO_SEQUENCE_IN_SELECTED_SEARCH_DOMAIN),
                 None,
-                "The inclusive child interval cannot form any allowed bounded neutral shape; the window was not expanded.",
+                ("The inclusive child interval cannot form any allowed bounded neutral shape; the window was not expanded."
+                 if scope is None else "The explicit selected search domain cannot form an allowed shape; no fallback or structural rejection."),
             ))
             continue
         generation_observations = (
@@ -702,6 +858,7 @@ def generate_child_candidate_evidence(
             else selection.finer_geometric_pivots
         )
         generation_scope = (
+            scope.selected_pivots if scope is not None else
             window.ordered_interval_pivots
             if selection is None
             else selection.finer_geometric_pivots.pivots
@@ -728,6 +885,7 @@ def generate_child_candidate_evidence(
             requirement, window, generation, child_set,
             request.provenance_refs + requirement.provenance_refs + ("neutral-child-evidence-available",),
             finer_observation_selection=selection,
+            selected_pivot_scope=scope,
         )
         generated.append(evidence)
         outcomes.append(ChildRequirementGenerationOutcome(
@@ -835,6 +993,8 @@ __all__ = [
     "WINDOW_CLASSIFICATION",
     "WINDOW_IS_NOT_ELLIOTT_ENDPOINT_AUTHORITY",
     "ChildCandidateGenerationConfig",
+    "ChildPivotSelectionScope",
+    "create_child_pivot_selection_scope",
     "ChildCandidateGenerationDiagnostic",
     "ChildCandidateGenerationDiagnosticCode",
     "ChildRequirementGenerationOutcome",

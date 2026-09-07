@@ -1,0 +1,132 @@
+{
+  "baseline_id": "EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1",
+  "classification": "ADDITIVE_LOGICAL_CHILD_SEARCH_CONTRACT_BASELINE",
+  "approved_base": "4fe2432585202ad094e605563d76240e9ed1053e",
+  "status": "IMPLEMENTED_TESTED_AUDITED",
+  "project_manager_approval_claimed": false,
+  "physical_immutability_claimed": false,
+  "inventories": [
+    11,
+    7,
+    0,
+    0
+  ],
+  "tests": {
+    "focused_passed": 30,
+    "full_passed": 1115,
+    "failures": 0,
+    "errors": 0
+  },
+  "protected_manifest_sha256": "6a7831795b10e98292f9d1fcf8f3e11586031cf7ff2bb0b256efc0735d303338",
+  "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+  "limited_supersession": "Only optional child selected-scope transport and geometric policy integration; see contract.md and implementation_inventory.json. All old baseline artifacts unchanged.",
+  "artifacts": [
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/audit.json",
+      "bytes": 6046,
+      "sha256": "7be8eea9a12b96b7ee457093ae684afc023afadbf3e6a5a3901bd2927d725b6d"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/comparison_summary.json",
+      "bytes": 3727,
+      "sha256": "7024121500a51fe6b0669827abbaaf6af2f5df964a00ac2580c452b5bf5e1eb4"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/contract.md",
+      "bytes": 5436,
+      "sha256": "a1614d16daa9be1e1f2cd40a64dc545c0579b3f95e40409da8ded073d477118d"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/final_integrity.json",
+      "bytes": 10973,
+      "sha256": "d82b3a0b933110b3269381bec1deb618ff2337252a47b6203d886283a58c883a"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/implementation_inventory.json",
+      "bytes": 1190,
+      "sha256": "6093b1359f81a313bf634c71656e855320ef0b6ad9a3138c3f365116cbb3afa6"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/pre_write_integrity.json",
+      "bytes": 10298,
+      "sha256": "7cc7cb7893fb4847797f5a55a01e0e4e4846013517b1aab74af75df404f6d0b5"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/README.md",
+      "bytes": 2889,
+      "sha256": "347a7848af4762227b296bddeaa9ae8dc63a87fa6540f540bea573fc8b38966b"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/report/after/candidates.csv",
+      "bytes": 119463,
+      "sha256": "a84c10d4620484190ad81a722c6d95be8191432c097410ed7623d0283de505d4"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/report/after/endpoints.csv",
+      "bytes": 1228608,
+      "sha256": "9417f198323b7d4cb802c54b2b7c6bb1cd829ab5157d73ddcfbd162b05f37a16"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/report/before/candidates.csv",
+      "bytes": 237041,
+      "sha256": "9b722f4b39e9f2353cad181058823a30fa04d41d40abf4fa84c33ff857b5add2"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/report/before/endpoints.csv",
+      "bytes": 2350138,
+      "sha256": "07f7591368607785a5981b8aec2bc6ffdd9cfe662d06e4b0a1d36ed6367e1197"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/report/report.md",
+      "bytes": 2438,
+      "sha256": "11c8d678ffd2c870f76399dd44183e15dc2fdf5550f2ac20f49bdf5abd17cf6c"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/report/results.json",
+      "bytes": 7650392,
+      "sha256": "3ddc107922c91988812dc521fe769cb71cc1770906860d4c397aec32b7a0553f"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/representative_cases.json",
+      "bytes": 15581,
+      "sha256": "f8a2c18649f359947ea2e71cb3d8310fccebee1afdac22a14b91a3244973a943"
+    },
+    {
+      "path": "kernel_reviews/EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1/tests.json",
+      "bytes": 925,
+      "sha256": "82602845b180d0ac344f90e86b332c86ecbc8a86cfa2975e3d500aaf436ff871"
+    }
+  ],
+  "implementation": [
+    {
+      "path": "src/elliott_runtime/analysis/recursive_child_candidate_generation.py",
+      "bytes": 51014,
+      "sha256": "a2f723ab766cea371852dfbd8920c693a6e31bcb361e96c6a0693c6a9665afe0",
+      "superseded_approved_git_blob_bytes": 42112,
+      "superseded_approved_git_blob_sha256": "ac6da651505293bc3c238b14b85984891624c5d5a2a168b8a99c9c819a923ea0"
+    },
+    {
+      "path": "src/elliott_runtime/analysis/geometric_swing_search.py",
+      "bytes": 11085,
+      "sha256": "a2aff3c06293f990e3b4a2470de67058a3e76b9687874c9e4b749c4271fc0d83",
+      "superseded_approved_git_blob_bytes": 8063,
+      "superseded_approved_git_blob_sha256": "82844fd9700ea57df4cc3bbddcdb78182bb958f09535bdeb8c6bc37b44b86ac8"
+    },
+    {
+      "path": "tools/nvda_scoped_child_swing_search.py",
+      "bytes": 16878,
+      "sha256": "abe7699e81ddad520014651521b545da2df39227c22cea233a83dd016bcf2925"
+    },
+    {
+      "path": "tests/test_scoped_child_swing_search.py",
+      "bytes": 14639,
+      "sha256": "719d2b7538c6565d6604f4ec5825a91d89eee3d38b837324500f775a287d0ffa"
+    },
+    {
+      "path": "tests/test_scoped_child_swing_report.py",
+      "bytes": 3349,
+      "sha256": "64c9f65a402e2136f94a4a46cc2251f7a17ad7867b04ebe9b5da09affeb00e78"
+    }
+  ],
+  "manifest_self_excluded": true
+}

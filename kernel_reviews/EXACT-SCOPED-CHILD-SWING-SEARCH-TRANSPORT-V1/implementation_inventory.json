@@ -1,0 +1,31 @@
+[
+  {
+    "path": "src/elliott_runtime/analysis/recursive_child_candidate_generation.py",
+    "bytes": 51014,
+    "sha256": "a2f723ab766cea371852dfbd8920c693a6e31bcb361e96c6a0693c6a9665afe0",
+    "superseded_approved_git_blob_bytes": 42112,
+    "superseded_approved_git_blob_sha256": "ac6da651505293bc3c238b14b85984891624c5d5a2a168b8a99c9c819a923ea0"
+  },
+  {
+    "path": "src/elliott_runtime/analysis/geometric_swing_search.py",
+    "bytes": 11085,
+    "sha256": "a2aff3c06293f990e3b4a2470de67058a3e76b9687874c9e4b749c4271fc0d83",
+    "superseded_approved_git_blob_bytes": 8063,
+    "superseded_approved_git_blob_sha256": "82844fd9700ea57df4cc3bbddcdb78182bb958f09535bdeb8c6bc37b44b86ac8"
+  },
+  {
+    "path": "tools/nvda_scoped_child_swing_search.py",
+    "bytes": 16878,
+    "sha256": "abe7699e81ddad520014651521b545da2df39227c22cea233a83dd016bcf2925"
+  },
+  {
+    "path": "tests/test_scoped_child_swing_search.py",
+    "bytes": 14639,
+    "sha256": "719d2b7538c6565d6604f4ec5825a91d89eee3d38b837324500f775a287d0ffa"
+  },
+  {
+    "path": "tests/test_scoped_child_swing_report.py",
+    "bytes": 3349,
+    "sha256": "64c9f65a402e2136f94a4a46cc2251f7a17ad7867b04ebe9b5da09affeb00e78"
+  }
+]

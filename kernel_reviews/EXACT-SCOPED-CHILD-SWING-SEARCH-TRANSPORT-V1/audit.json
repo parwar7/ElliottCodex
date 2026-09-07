@@ -1,0 +1,147 @@
+{
+  "stage": "EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1",
+  "approved_base": "4fe2432585202ad094e605563d76240e9ed1053e",
+  "code_and_experiment_audit": "PASS_WITH_EXPLICIT_SEARCH_LIMITATIONS",
+  "contract": "contract.md",
+  "boundary": {
+    "existing_files_modified": [
+      "src/elliott_runtime/analysis/recursive_child_candidate_generation.py",
+      "src/elliott_runtime/analysis/geometric_swing_search.py"
+    ],
+    "new_source": "tools/nvda_scoped_child_swing_search.py",
+    "new_tests": [
+      "tests/test_scoped_child_swing_search.py",
+      "tests/test_scoped_child_swing_report.py"
+    ],
+    "kernel_shared_contracts_changed": false,
+    "methodology_changed": false,
+    "protected_writes": false,
+    "one_optional_scope_per_requirement": true,
+    "multiple_scopes_per_requirement": "REJECTED; separate future approval required",
+    "existing_unfiltered_default_preserved": true,
+    "explicit_empty_no_fallback": true,
+    "scope_issuance_registry": "Existing recursive child-generation registry; no parallel certificate or recursive analyzer",
+    "immutable_nested_binding_evidence": "Captured once before generation; checked before nested validators; never refreshed by validation"
+  },
+  "authority": {
+    "search_exclusions_are_nonfatal": true,
+    "source_pivots_are_not_orthodox_endpoints": true,
+    "parent_window_preserved": true,
+    "full_window_candidate_coverage_not_claimed": true,
+    "no_degree_or_completion_inference": true,
+    "no_family_certificate": true,
+    "no_outcome_based_scope_selection": true,
+    "P004_local_fatality_and_P005_non_rescue_preserved": true,
+    "P005_percentage_comparison_unchanged": true,
+    "P006": "UNCHANGED_FROZEN_UNRESOLVED_CONFLICT",
+    "Flat_Triangle_freezes": "UNCHANGED",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND": true,
+    "legacy_analyze": "NOT_IMPLEMENTED",
+    "ranking": false,
+    "indicators": false,
+    "forecast": false,
+    "trading": false
+  },
+  "experiment": {
+    "offline_replays": 1,
+    "fresh_retrieval": false,
+    "resampling": false,
+    "scales": [
+      2
+    ],
+    "source_parent_pivot_starts": [
+      5,
+      24,
+      49
+    ],
+    "parent_resolution": "Monthly",
+    "child_resolution": "Weekly",
+    "automatic_child_levels": 1,
+    "parent_hypotheses_before_after": [
+      27,
+      27
+    ],
+    "child_hypotheses_before_after": [
+      137,
+      63
+    ],
+    "evaluated_child_candidate_contexts_before_after": [
+      74,
+      36
+    ],
+    "neutral_child_generation_reconciled_counts": [
+      140,
+      72
+    ],
+    "neutral_count_basis": "Existing public demand estimator over all 84 recorded source/selected scopes and unchanged candidate config; reconciled with each actual factory outcome.",
+    "internal_requirements": 84,
+    "requirements_satisfied": 0,
+    "selected_scopes": 18,
+    "insufficient_six_pivot_contexts": 60,
+    "no_eligible_sequence_requirements": 6,
+    "unvisited_eligible_scopes": 116,
+    "nonfatal_domain_excluded_scopes": 98,
+    "parent_P004_invalid_despite_P005_sufficiency": 2,
+    "child_P004_invalid_despite_P005_sufficiency": 0,
+    "old_58_contexts": "Hypothesis occurrences outside operational search domain; not unique invalid waves",
+    "saved_price_fields_checked_before": 1064,
+    "saved_price_fields_checked_after": 612,
+    "original_requirement_links_checked_before": 137,
+    "original_requirement_links_checked_after": 63,
+    "audit_function": "tools/nvda_scoped_child_swing_search.py:audit",
+    "claim": "No absence implies family impossibility; coverage is bounded and incomplete."
+  },
+  "tests": {
+    "receipt": "tests.json",
+    "live_network_in_tests": false,
+    "focused_passed": 30,
+    "focused_seconds": 115.766,
+    "development_runs": [
+      {
+        "tests": 18,
+        "passed": 18,
+        "seconds": 16
+      },
+      {
+        "tests": 22,
+        "passed": 22,
+        "seconds": 27.847
+      }
+    ],
+    "semantic_defects_exposed": false,
+    "hardening": "Added aggregate two-scope preflight, original binding/config/snapshot attacks, reporting trace consistency and CSV/tamper audits. No existing tests weakened.",
+    "process": "Codex Process Jobs implementation rejects Windows. Ordinary finite local processes used; no job state written outside Runtime.",
+    "source_hashes_fixed_during_final_tests": true
+  },
+  "preservation": {
+    "unchanged_tracked_files_excluding_two_authorized_edits": 687,
+    "historical_baseline_files": 558,
+    "preserved_raw_inventory_sha256": "28590bf5218b47bf9ce395b7a27a06fb0fec5ef9a95b006558a63dc3bf8bba41",
+    "original_child_contract_baseline_manifest_sha256": "324524d491981edb87cc8e47d31bd7112503d86ca6c2bfb6f9e453333859a5d3",
+    "previous_quality_baseline_manifest_sha256": "7bf5845b8929ac8a236076d8a75432c5365ad5530ec6de1dc52ccd9248fa8a53",
+    "superseded_file_hashes": "implementation_inventory.json; original approved Git blob hashes agree with old baseline entries",
+    "final_protected_receipt": "final_integrity.json",
+    "physical_immutability_claimed": false
+  },
+  "inventories": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "validated_family_producers": 0,
+    "validated_family_issuances": 0
+  },
+  "report_validation": {
+    "workflow": "Data Analytics validate-data; existing repository Markdown/JSON/CSV baseline surface retained",
+    "GUI_or_browser_render_claimed": false,
+    "source_Markdown_reviewed": true,
+    "JSON_CSV_reconciled": true,
+    "format_hardening": "Canonical dictionary ordering applied to report.md after the offline run; no evaluation data or counts changed.",
+    "primary_artifact": "User-requested versioned engineering baseline, not an external analytics application"
+  },
+  "next_stage": {
+    "id": "BOUNDED-CHILD-SCOPE-COVERAGE-REVIEW-V1",
+    "classification": "ENGINEERING_DECISION_REVIEW_ONLY",
+    "implemented": false,
+    "reason": "116 eligible contexts remain unvisited under the one-scope-per-requirement budget. Broader transport must not be smuggled into this stage."
+  },
+  "project_manager_approval_claimed": false
+}

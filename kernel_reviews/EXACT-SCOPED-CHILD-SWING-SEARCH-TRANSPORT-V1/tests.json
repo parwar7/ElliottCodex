@@ -1,0 +1,40 @@
+{
+  "stage": "EXACT-SCOPED-CHILD-SWING-SEARCH-TRANSPORT-V1",
+  "focused": {
+    "command": "python -B -m unittest test_scoped_child_swing_search test_scoped_child_swing_report -v",
+    "tests": 30,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 115.766
+  },
+  "full": {
+    "command": "python -B -m unittest discover -s tests",
+    "tests": 1115,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 640.664,
+    "after_final_source_changes": true
+  },
+  "environment": {
+    "PYTHONPATH": "src;tools;tests",
+    "python": "3.12",
+    "network_in_tests": false
+  },
+  "mocked_provider_failure_expected": true,
+  "existing_tests_modified": false,
+  "source_files_stable": true,
+  "development_runs": [
+    {
+      "tests": 18,
+      "passed": 18,
+      "seconds": 16
+    },
+    {
+      "tests": 22,
+      "passed": 22,
+      "seconds": 27.847
+    }
+  ],
+  "regression_failures": [],
+  "methodology_defects_exposed": false
+}
