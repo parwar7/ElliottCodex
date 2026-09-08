@@ -1,0 +1,30 @@
+{
+  "raw_reconciliation": {
+    "result": "PASS",
+    "raw_price_fields_checked": 934,
+    "links_checked": 243,
+    "all_occurrence_pairings_retained": true,
+    "independent_subjects": true,
+    "old_kernel_ancestry_unchanged": true,
+    "corrective_raw_fields_checked": 1044,
+    "new_totals_reconciled": true,
+    "open_tails_checked": 243,
+    "prior_full_digital_and_recent_contexts_compared": 52,
+    "old_coordinate_sequences_mislabelled_new": []
+  },
+  "historical_bars": 333,
+  "root_role_windows": 10,
+  "selected_reader_cases": 7,
+  "prior_survivors_preserved": true,
+  "new_evaluations": 0,
+  "data_boundary_not_wave_origin": true,
+  "path_extrema_not_endpoint_replacements": true,
+  "no_new_ancestry": true,
+  "current_position_unresolved": true,
+  "chart_rows": {
+    "monthly-m1": 339,
+    "monthly-m2": 339,
+    "recent-daily": 35,
+    "local-4h": 14
+  }
+}

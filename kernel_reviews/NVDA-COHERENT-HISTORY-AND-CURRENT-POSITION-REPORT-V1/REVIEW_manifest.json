@@ -1,0 +1,110 @@
+{
+  "stage": "NVDA-COHERENT-HISTORY-AND-CURRENT-POSITION-REPORT-V1",
+  "base_head": "8bdb310bea57674220a5b66edc31d47915dfcdb3",
+  "prior_baseline_manifest_sha256": "505f9561943ab942884d0cc6ebbda8d6dfca5cfe8065da246766f66224126400",
+  "seal_kind": "ADDITIVE_LOGICAL_HASH_BASELINE_NOT_PHYSICAL_IMMUTABILITY",
+  "inventories": [
+    11,
+    7,
+    0,
+    0
+  ],
+  "new_methodology": 0,
+  "new_candidate_evaluations": 0,
+  "historical_baselines_modified": false,
+  "project_manager_approval_claimed": false,
+  "mutable_progress_file": {
+    "path": "NVDA_ANALYSIS_PROGRESS.md",
+    "delivery_sha256": "2c988d02f4c20fa05f266f31a0a403f4542188943bc66bcf5205552eb8d3ee11",
+    "policy": "Mutable resume index; sealed delivery copy is progress_snapshot.md. Not an immutable implementation entry."
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "artifact.json",
+      "bytes": 300201,
+      "sha256": "ecbcca37d75050b494a451378c0c63d602ae58b36132b1c65d4094115c64875f"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 873,
+      "sha256": "0f438f347e664a2238cb73638eb28a5fe3d58fe041b9c0c2bc962b45711ba61a"
+    },
+    {
+      "path": "chart_rows.json",
+      "bytes": 236191,
+      "sha256": "4e5a68e69d17dccb82d782fc3bdf6ffccbdaeca1e5b6fdc91fb89e8936984b3d"
+    },
+    {
+      "path": "delivery_audit.md",
+      "bytes": 4372,
+      "sha256": "ce85ca262e49645307ce95f3f1d1ab94cee05d478bc0378b18cef19ab16a8f73"
+    },
+    {
+      "path": "final_integrity.json",
+      "bytes": 9996,
+      "sha256": "83ed22921d6e1b94905b6c8113462616f7e877472d932a5805940ac43382d75b"
+    },
+    {
+      "path": "narrative.json",
+      "bytes": 20665,
+      "sha256": "abbfa73e8a9b5465ceb0b90bbc66c24ed364ee0b2f4aeea5526416632eb4eefd"
+    },
+    {
+      "path": "pre_integrity.json",
+      "bytes": 9996,
+      "sha256": "52547304dd2e2331faabffb3b098a9a3c298bc05604ef311710a44a5f9b07bd7"
+    },
+    {
+      "path": "progress_snapshot.md",
+      "bytes": 4850,
+      "sha256": "2c988d02f4c20fa05f266f31a0a403f4542188943bc66bcf5205552eb8d3ee11"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4047,
+      "sha256": "6e886b2fbfb72df9961f15fa9bd2921bcbbf829e77eff860dce558591def3c0e"
+    },
+    {
+      "path": "report.html",
+      "bytes": 479757,
+      "sha256": "8c06464894cdd3218e15ba2e94e178003ebca8b03838bbc93826b933c761a971"
+    },
+    {
+      "path": "report.md",
+      "bytes": 24851,
+      "sha256": "2071c85a897f01ba527e85ecf5d5cd8130af8f57ba7712b67b5aafa40b490e85"
+    },
+    {
+      "path": "synthesis.json",
+      "bytes": 273384,
+      "sha256": "8edb12ab51013a468baf12863568bfc2253eb8d1658293b1e1cde6a4edb23846"
+    },
+    {
+      "path": "tests.json",
+      "bytes": 195,
+      "sha256": "6aee30ffce0c5f0678df54b68dd1fe8529abaf88546702a5168b86fdc375d0be"
+    },
+    {
+      "path": "tests.log",
+      "bytes": 2097,
+      "sha256": "f6b658223ce4990ba172878d77a52450dc14bbb879e3abfe75cf66cbed09c3af"
+    }
+  ],
+  "implementation_files": [
+    {
+      "path": "tools/nvda_coherent_report.py",
+      "bytes": 12155,
+      "sha256": "bfb7a4d51a7f9c92793e949357f918e026fed096f896892dc261489dada553f6"
+    },
+    {
+      "path": "tests/test_nvda_coherent_report.py",
+      "bytes": 6330,
+      "sha256": "b96f9cb0d76aac4d1e667d37c48e08208db3f3b483c121b446e0ed7c2ccda2c5"
+    }
+  ]
+}

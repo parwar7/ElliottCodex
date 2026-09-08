@@ -1,0 +1,9 @@
+{
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 0.735,
+  "passed": true,
+  "scope": "new report-only helper; previous full 1296-test pass preserved, not rerun"
+}

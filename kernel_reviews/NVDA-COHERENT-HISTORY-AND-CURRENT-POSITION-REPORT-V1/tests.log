@@ -1,0 +1,19 @@
+test_bands_cover_every_month_once (test_nvda_coherent_report.CoherentReportTests.test_bands_cover_every_month_once) ... ok
+test_changed_baseline_stops_before_protected_checks (test_nvda_coherent_report.CoherentReportTests.test_changed_baseline_stops_before_protected_checks) ... ok
+test_corrective_alternatives_have_no_family_authority (test_nvda_coherent_report.CoherentReportTests.test_corrective_alternatives_have_no_family_authority) ... ok
+test_display_copies_do_not_mutate_canonical_roles (test_nvda_coherent_report.CoherentReportTests.test_display_copies_do_not_mutate_canonical_roles) ... ok
+test_foreign_root_hash_rejected (test_nvda_coherent_report.CoherentReportTests.test_foreign_root_hash_rejected) ... ok
+test_interval_boundary_is_explicit (test_nvda_coherent_report.CoherentReportTests.test_interval_boundary_is_explicit) ... ok
+test_m1_m2_endpoints_and_developing_state_not_merged (test_nvda_coherent_report.CoherentReportTests.test_m1_m2_endpoints_and_developing_state_not_merged) ... ok
+test_monthly_chart_preserves_unlabelled_capture_tail (test_nvda_coherent_report.CoherentReportTests.test_monthly_chart_preserves_unlabelled_capture_tail) ... ok
+test_no_new_evaluator_or_network_call (test_nvda_coherent_report.CoherentReportTests.test_no_new_evaluator_or_network_call) ... ok
+test_output_outside_runtime_rejected_before_writes (test_nvda_coherent_report.CoherentReportTests.test_output_outside_runtime_rejected_before_writes) ... ok
+test_path_findings_are_exact_raw_observations_not_rules (test_nvda_coherent_report.CoherentReportTests.test_path_findings_are_exact_raw_observations_not_rules) ... ok
+test_rejected_root_cannot_support_synthesis (test_nvda_coherent_report.CoherentReportTests.test_rejected_root_cannot_support_synthesis) ... ok
+test_reversed_window_rejected (test_nvda_coherent_report.CoherentReportTests.test_reversed_window_rejected) ... ok
+test_window_empty_remains_empty (test_nvda_coherent_report.CoherentReportTests.test_window_empty_remains_empty) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.526s
+
+OK
