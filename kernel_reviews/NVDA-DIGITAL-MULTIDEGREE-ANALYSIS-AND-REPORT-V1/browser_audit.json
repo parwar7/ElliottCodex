@@ -1,0 +1,23 @@
+{
+  "canonical_builder": "Data Analytics deliver_portable_artifact.mjs",
+  "explicit_installed_chrome_attempt": {
+    "result": "browser_environment_mismatch",
+    "message": "Chromium did not apply the requested chart extraction environment."
+  },
+  "default_portable_delivery": {
+    "validation": "passed",
+    "package": "passed",
+    "verification": "structural_only",
+    "warning": "browser_unavailable: compatible Chromium headless-shell not installed",
+    "blocks": 168,
+    "charts": 4,
+    "sourceDialog": "not_verified",
+    "sourceInteraction": "not_verified"
+  },
+  "visual_label_placement": "NOT_VISUALLY_VERIFIED",
+  "interaction_checks": "ATTEMPTED_BUT_ENVIRONMENT_BLOCKED",
+  "fallback": "Exact canonical payload and offline semantic report tables verified by supplied builder. Enhanced reader is bundled; actual chart rendering and anchor interaction were not browser-verified in this environment.",
+  "browser_downloaded": false,
+  "plugin_modified": false,
+  "external_network_used_for_report": false
+}

@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "canonical": {
+    "nodes": 150,
+    "endpoint_fields_reconciled": 300,
+    "links": 141,
+    "max_executed_child_level": 2,
+    "family_certificates": 0,
+    "result": "PASS"
+  },
+  "indicator_values_reconciled": 10,
+  "chart_rows": {
+    "full-history": 333,
+    "plot-M1": 290,
+    "plot-M2": 294,
+    "linked-4h": 22
+  },
+  "total_hypotheses": 25,
+  "wave_rows": 150,
+  "source_snapshots_mixed": false,
+  "rendering_authority": false
+}

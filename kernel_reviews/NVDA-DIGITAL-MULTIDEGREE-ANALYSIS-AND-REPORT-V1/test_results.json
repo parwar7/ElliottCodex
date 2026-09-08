@@ -1,0 +1,23 @@
+{
+  "focused": {
+    "run": 30,
+    "passed": 30,
+    "failed": 0,
+    "seconds": 4.566,
+    "modules": [
+      "test_normal_component_exploration",
+      "test_nvda_digital_multidegree_report"
+    ]
+  },
+  "full": {
+    "run": 1182,
+    "passed": 1182,
+    "failed": 0,
+    "seconds": 667.078,
+    "invocations_after_final_code_changes": 1,
+    "command": "python -B -m unittest discover -s tests -v",
+    "log": "full_tests.log"
+  },
+  "network_in_tests": false,
+  "live_inputs_refreshed": false
+}

@@ -1,0 +1,191 @@
+{
+  "identifier": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1",
+  "kind": "ADDITIVE_RUNTIME_ORCHESTRATION_AND_FROZEN_ANALYSIS_REPORT",
+  "approved_base": "bde8379d6d558a72cd41f79f62e7b51937d55414",
+  "historical_artifacts_modified": [],
+  "protected_artifacts_modified": [],
+  "kernel_shared_contracts_modified": [],
+  "implementation_files": [
+    {
+      "path": "src/elliott_runtime/analysis/normal_component_exploration.py",
+      "bytes": 13564,
+      "sha256": "e885d3150e0b9d3b4d8952c3a482a584964c01541d0a47bad4c1df8e5b33fc6b"
+    },
+    {
+      "path": "tools/nvda_digital_multidegree.py",
+      "bytes": 14316,
+      "sha256": "536474536a4a3cc377f3aa7c20b977d954b8132a70d9cc7e27bc2081e971712e"
+    },
+    {
+      "path": "tools/nvda_digital_multidegree_report.py",
+      "bytes": 26680,
+      "sha256": "0c37b15bebd9a8012bb354731e3a4cc1916fb20806a832d9f4b825ad2f68c437"
+    },
+    {
+      "path": "tests/test_normal_component_exploration.py",
+      "bytes": 7453,
+      "sha256": "bc8428292eed5ede8fade9a4d9f86ad29ec89d2c0f9cfe837e72aca57f7dddc2"
+    },
+    {
+      "path": "tests/test_nvda_digital_multidegree_report.py",
+      "bytes": 4495,
+      "sha256": "72461f804dc3ee79a8b8f4e2fc51ae8f783234ac1a4ff9493a6cfb8450b4f5ef"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "artifact.json",
+      "bytes": 434946,
+      "sha256": "a008afd9b351cbecdbebe38ab91a81f74fe413c801487ded99a61d1522020bc8"
+    },
+    {
+      "path": "audit.md",
+      "bytes": 6852,
+      "sha256": "c2f8f1f0d5fb9b60b31d937be752117d6f923b15c87d517ee3ac8d63d0aad8e1"
+    },
+    {
+      "path": "browser_audit.json",
+      "bytes": 1025,
+      "sha256": "1164398a8baf71ffe2a61e8c1c260445a89d816486d8394c0abf369fcbcfd287"
+    },
+    {
+      "path": "canonical_hierarchy.json",
+      "bytes": 1503879,
+      "sha256": "e37b82f87c10b33dbc5ed8a680ae768dfe4f59330d4996295337a6bb52d824bf"
+    },
+    {
+      "path": "chart_rows.json",
+      "bytes": 296236,
+      "sha256": "88c1ac4728708877edc42adb52cd0b9ed66312f3db1f40d528b97fc64dfed648"
+    },
+    {
+      "path": "coverage.json",
+      "bytes": 139869,
+      "sha256": "94d84afc53702f1ad93cea33f3a4c75302d0bca2acfc243ef5520f44925ec99c"
+    },
+    {
+      "path": "dependency_audit.json",
+      "bytes": 2699,
+      "sha256": "3fac1ce96d7c0846195b25b948d93a31162ecfc547f8cd22e9d40863493f1cf2"
+    },
+    {
+      "path": "export_audit.json",
+      "bytes": 463,
+      "sha256": "42f047a3d89405160a2349f7280aaa5de2201a83811b518f117c927ff34ea7eb"
+    },
+    {
+      "path": "final_integrity.json",
+      "bytes": 9996,
+      "sha256": "50c95d15000e0fb37832ef957e6dbaacbf6db8de02024cb0a0ae7980ed7a0abe"
+    },
+    {
+      "path": "full_tests.log",
+      "bytes": 216131,
+      "sha256": "594bfec40e7eecce016be56b279883054afd942752d093f6eec68cbfdacfe07a"
+    },
+    {
+      "path": "hierarchy.json",
+      "bytes": 1337011,
+      "sha256": "32d76ee95a0dd771099932bd8ecb0d40b2dea20e2aa5efda5762cec4bfa8262f"
+    },
+    {
+      "path": "independent_reconciliation.json",
+      "bytes": 1026,
+      "sha256": "59fb925c685bc285f0fc7515aeaf6339275d676033cda3dc09633b958d712096"
+    },
+    {
+      "path": "indicator_evidence.json",
+      "bytes": 4127,
+      "sha256": "421d798b75f6462208b4b003c4f4004dcb49d3c2bea93ff9cc7663f8870a6c83"
+    },
+    {
+      "path": "latest_observations.json",
+      "bytes": 2845,
+      "sha256": "864d4b45fc5f2aafbf25ee9b0282f60aec1e3b5e848e8a705adab66e7b053f80"
+    },
+    {
+      "path": "planned_search.json",
+      "bytes": 238480,
+      "sha256": "6cca67859d19d927efe645a4b1bf561daa6b0f6c061c371e9f426d99bbb8649f"
+    },
+    {
+      "path": "pre_integrity.json",
+      "bytes": 9996,
+      "sha256": "f029e4aae547d214fd08ff9f09fbbb9019c7c1d96f689b97e8eb6c16e2be6458"
+    },
+    {
+      "path": "preservation.json",
+      "bytes": 1199,
+      "sha256": "049273a2aff112b6113895d3f62887d6cc815ef1789ab76e7c5adb4dc66fdcc2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6044,
+      "sha256": "ddc0683c5fa10b63f33c8e0b2a2e633a9a1acb670ea72f9b5dfa5553c7b58ae9"
+    },
+    {
+      "path": "report.html",
+      "bytes": 591461,
+      "sha256": "7ef7e592b689ee833a69f1fabec999734b4ca12384c877bf5a921137a9ea9e02"
+    },
+    {
+      "path": "report.md",
+      "bytes": 79066,
+      "sha256": "cc997a7eb6d8d686152a7a9e99ddb16a2b8ab575f99d71d673d31b0a4eb374d3"
+    },
+    {
+      "path": "resolution_expanded/hierarchy.json",
+      "bytes": 1503879,
+      "sha256": "e37b82f87c10b33dbc5ed8a680ae768dfe4f59330d4996295337a6bb52d824bf"
+    },
+    {
+      "path": "resolution_expanded/planned_search.json",
+      "bytes": 238480,
+      "sha256": "6cca67859d19d927efe645a4b1bf561daa6b0f6c061c371e9f426d99bbb8649f"
+    },
+    {
+      "path": "resolution_expanded/pre_integrity.json",
+      "bytes": 9996,
+      "sha256": "3858c526b01e40b217c4db58d82c471d1c192ad7eec0a7afca1310417375ac81"
+    },
+    {
+      "path": "resolution_retry_plan.json",
+      "bytes": 1199,
+      "sha256": "3fd1df6d7101e781b6034a7ddf0f8666bb532a88d9d1564e45d88de3c4955dc7"
+    },
+    {
+      "path": "search_plan.json",
+      "bytes": 3571,
+      "sha256": "49b3e130dee694f18ede6f838cba0787afff25f90c20f8890b129499ee657a75"
+    },
+    {
+      "path": "source_refs.json",
+      "bytes": 5890,
+      "sha256": "20bead707b859e0019cc3d4f0e02e617c899ba5e19a5886e9ac09b203fc56c9e"
+    },
+    {
+      "path": "test_results.json",
+      "bytes": 499,
+      "sha256": "b84791569aaf35735f37a05b0e51ab503afd6b1d6b7087912117e21752921082"
+    },
+    {
+      "path": "wave_table.json",
+      "bytes": 101852,
+      "sha256": "1b58fbe97213f33f0bbce27a186bbdd32c11b5fc81413b5fe2ac1fbf7819b478"
+    }
+  ],
+  "inventories": [
+    11,
+    7,
+    0,
+    0
+  ],
+  "verification": "1182 full tests and 30 focused tests pass; all 51 protected entries match; browser visual QA limited as explicitly recorded",
+  "logical_sealing": "Hash manifest is an additive logical seal, not physical immutability",
+  "no_project_manager_approval_claim": true
+}

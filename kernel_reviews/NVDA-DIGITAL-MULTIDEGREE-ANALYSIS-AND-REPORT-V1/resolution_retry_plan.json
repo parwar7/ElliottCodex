@@ -1,0 +1,10 @@
+{
+  "classification": "PROJECT_OPERATIONAL_POLICY",
+  "declared_before_retry_evaluation": true,
+  "initial_receipt": "hierarchy.json",
+  "initial_finding": "The chosen Weekly child role-5 intervals contain only 2, 5 and 4 Daily geometric pivots respectively; no Daily child hypothesis issued. Initial result retained unchanged.",
+  "retry": "When the existing selected parent role has no eligible child hypothesis at one resolution, inspect the exact same parent role interval at the next explicitly listed finer snapshot. Retain that original parent result/role identity; do not fabricate an intermediate child or degree.",
+  "resolution_order": ["1W", "1D", "240", "60", "15"],
+  "unchanged": ["All snapshot bytes", "Original Monthly root selection", "Geometry width 2", "First/last eligible consecutive scopes", "24 component searches", "64 executable Normal hypotheses", "Five maximum child edges", "No outcome ranking", "P004 rejection stops that exact branch"],
+  "limits": "No finer capture is authorized or needed. Missing history and all exhausted resolution choices remain explicit. Rebuilding genuine live objects for the expanded replay is necessary; JSON does not restore authority."
+}

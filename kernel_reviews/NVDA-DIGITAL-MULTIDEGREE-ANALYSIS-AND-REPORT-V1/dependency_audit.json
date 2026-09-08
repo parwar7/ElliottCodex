@@ -1,0 +1,112 @@
+{
+  "files": [
+    {
+      "path": "src/elliott_runtime/analysis/normal_component_exploration.py",
+      "imports": [
+        "dataclasses",
+        "copy",
+        "hashlib",
+        "elliott_methodology_kernel",
+        "elliott_methodology_kernel.contracts",
+        "elliott_runtime.market_data.geometric_pivots",
+        "candidate_generation",
+        "competing_candidates",
+        "family_hypotheses",
+        "normal_impulse_partial_evaluation",
+        "geometric_swing_search"
+      ],
+      "write_call_sites": [],
+      "dynamic_execution": []
+    },
+    {
+      "path": "tools/nvda_digital_multidegree.py",
+      "imports": [
+        "argparse",
+        "collections",
+        "datetime",
+        "fractions",
+        "hashlib",
+        "json",
+        "pathlib",
+        "nvda_tradingview_replay",
+        "nvda_post_p005_experiment",
+        "nvda_bounded_report",
+        "elliott_runtime.analysis.normal_component_exploration",
+        "elliott_runtime.analysis.geometric_swing_search"
+      ],
+      "write_call_sites": [
+        {
+          "line": 31,
+          "call": "path.parent.mkdir"
+        },
+        {
+          "line": 127,
+          "call": "save"
+        },
+        {
+          "line": 130,
+          "call": "save"
+        },
+        {
+          "line": 173,
+          "call": "save"
+        },
+        {
+          "line": 32,
+          "call": "path.open"
+        }
+      ],
+      "dynamic_execution": []
+    },
+    {
+      "path": "tools/nvda_digital_multidegree_report.py",
+      "imports": [
+        "collections",
+        "argparse",
+        "datetime",
+        "fractions",
+        "json",
+        "math",
+        "sqlite3",
+        "pathlib",
+        "nvda_digital_multidegree"
+      ],
+      "write_call_sites": [
+        {
+          "line": 222,
+          "call": "run.save"
+        },
+        {
+          "line": 222,
+          "call": "run.save"
+        },
+        {
+          "line": 223,
+          "call": "run.save"
+        },
+        {
+          "line": 225,
+          "call": "run.save"
+        },
+        {
+          "line": 224,
+          "call": "(pack / 'report.md').open"
+        },
+        {
+          "line": 224,
+          "call": "f.write"
+        },
+        {
+          "line": 114,
+          "call": "run.save"
+        }
+      ],
+      "dynamic_execution": []
+    }
+  ],
+  "result": "PASS",
+  "kernel_changes": [],
+  "methodology_implementation_added": false,
+  "write_boundary": "Runtime-only new generated artifacts; Runtime analysis module itself has no filesystem writes",
+  "provider_use": "Existing experiment imports provide types/utilities. No Yahoo or TradingView retrieval function is called; frozen TradingView loader only."
+}

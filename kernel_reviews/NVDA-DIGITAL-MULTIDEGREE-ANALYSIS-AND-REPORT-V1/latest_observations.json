@@ -1,0 +1,89 @@
+{
+  "observations": [
+    {
+      "resolution": "15",
+      "bar_time": "2026-09-08T13:45:00+00:00",
+      "captured_at_utc": "2026-09-08T13:53:45.992Z",
+      "open": 229.77,
+      "high": 230.46,
+      "low": 229.06,
+      "close": 229.29,
+      "volume": 417602,
+      "forming": true,
+      "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+      "feed": "BATS:NVDA / Cboe One",
+      "active_wave_authority": false
+    },
+    {
+      "resolution": "1D",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "captured_at_utc": "2026-09-08T13:49:15.086Z",
+      "open": 233.11,
+      "high": 233.71,
+      "low": 229.06,
+      "close": 229.56,
+      "volume": 4602375,
+      "forming": true,
+      "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "feed": "BATS:NVDA / Cboe One",
+      "active_wave_authority": false
+    },
+    {
+      "resolution": "1M",
+      "bar_time": "2026-09-01T13:30:00+00:00",
+      "captured_at_utc": "2026-09-08T13:49:01.367Z",
+      "open": 216.75,
+      "high": 234.76,
+      "low": 215.1,
+      "close": 229.43,
+      "volume": 541487082,
+      "forming": true,
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "feed": "BATS:NVDA / Cboe One",
+      "active_wave_authority": false
+    },
+    {
+      "resolution": "1W",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "captured_at_utc": "2026-09-08T13:49:06.617Z",
+      "open": 233.11,
+      "high": 233.71,
+      "low": 229.06,
+      "close": 229.46,
+      "volume": 4593126,
+      "forming": true,
+      "source_hash": "b14aec27a773a23fcc5776ca28bd457278c5bc718d9a35657d887543238ce678",
+      "feed": "BATS:NVDA / Cboe One",
+      "active_wave_authority": false
+    },
+    {
+      "resolution": "240",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "captured_at_utc": "2026-09-08T13:52:57.625Z",
+      "open": 233.14,
+      "high": 233.71,
+      "low": 229.06,
+      "close": 230,
+      "volume": 1582646,
+      "forming": true,
+      "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+      "feed": "BATS:NVDA / Cboe One",
+      "active_wave_authority": false
+    },
+    {
+      "resolution": "60",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "captured_at_utc": "2026-09-08T13:53:19.677Z",
+      "open": 233.14,
+      "high": 233.71,
+      "low": 229.06,
+      "close": 229.6,
+      "volume": 1600129,
+      "forming": true,
+      "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+      "feed": "BATS:NVDA / Cboe One",
+      "active_wave_authority": false
+    }
+  ],
+  "warning": "Different native resolutions and capture times. No merging into a single current quote or equality requirement. All are captured forming bars, not live or completed waves."
+}

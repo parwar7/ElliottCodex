@@ -1,0 +1,47 @@
+{
+  "result": "PASS",
+  "basis": "Direct original capture JSON rows, not normalized-export equality alone",
+  "endpoint_fields": 300,
+  "chart_values": 939,
+  "table_rows": 150,
+  "counts_by_child_depth": {
+    "0": {
+      "hypotheses": 9,
+      "p004": {
+        "RULE_VIOLATED": 5,
+        "RULE_SATISFIED": 4
+      },
+      "p005": {
+        "UNRESOLVED": 3,
+        "SUFFICIENT_CONDITION_ESTABLISHED": 6
+      },
+      "no_rescue": 3
+    },
+    "1": {
+      "hypotheses": 12,
+      "p004": {
+        "RULE_VIOLATED": 4,
+        "RULE_SATISFIED": 8
+      },
+      "p005": {
+        "UNRESOLVED": 4,
+        "SUFFICIENT_CONDITION_ESTABLISHED": 8
+      },
+      "no_rescue": 2
+    },
+    "2": {
+      "hypotheses": 4,
+      "p004": {
+        "RULE_SATISFIED": 2,
+        "RULE_VIOLATED": 2
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 4
+      },
+      "no_rescue": 2
+    }
+  },
+  "snapshots_kept_separate": true,
+  "all_25_hypothesis_roles_reconciled": true,
+  "no_restored_runtime_authority": true
+}

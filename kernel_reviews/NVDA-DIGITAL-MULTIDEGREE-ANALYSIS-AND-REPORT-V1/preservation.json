@@ -1,0 +1,40 @@
+{
+  "approved_base": "bde8379d6d558a72cd41f79f62e7b51937d55414",
+  "precommit_head": "bde8379d6d558a72cd41f79f62e7b51937d55414",
+  "origin_main": "bde8379d6d558a72cd41f79f62e7b51937d55414",
+  "branch": "main",
+  "existing_tracked_diff": [],
+  "historical_baselines_modified": [],
+  "kernel_shared_contract_changes": [],
+  "protected_changes": [],
+  "unchanged_inventory": [
+    11,
+    7,
+    0,
+    0
+  ],
+  "behaviors": [
+    "DEGREE_DIRECT_CHILD_PEER_CONSISTENCY",
+    "ENDING_DIAGONAL_DIRECT_CHILD_CARDINALITY",
+    "P003_ONE_LARGER_DEGREE_SEARCH_THEME",
+    "P004_NORMAL_IMPULSE_WAVE2_ORIGIN",
+    "P005_NORMAL_IMPULSE_PERCENTAGE_SUFFICIENCY",
+    "P007_SINGLE_ZIGZAG_DIRECT_CHILD_CARDINALITY",
+    "P008_FLAT_DIRECT_CHILD_CARDINALITY",
+    "P009_TRIANGLE_DIRECT_CHILD_CARDINALITY",
+    "P023_INTERNAL_VISIBILITY_GUARD",
+    "PARENT_CHILD_DEGREE_ADJACENCY",
+    "STRUCTURAL_INVALIDITY_EVIDENCE_NO_RESCUE"
+  ],
+  "legacy_analyze": "NOT_IMPLEMENTED; unchanged api.py and passing regression",
+  "freezes": [
+    "P006",
+    "Flat/Triangle",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+  ],
+  "known_untracked_preserved": [
+    ".codex/",
+    "artifacts/"
+  ],
+  "not_project_manager_approval": true
+}
