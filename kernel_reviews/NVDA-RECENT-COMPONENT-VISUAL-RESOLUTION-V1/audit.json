@@ -1,0 +1,46 @@
+{
+  "stage": "NVDA-RECENT-COMPONENT-VISUAL-RESOLUTION-V1",
+  "approved_base": "25b56d9a8b0da62420546c1c9ad0baef7e64a755",
+  "preflight": {"HEAD_equals_origin_main": true, "branch": "main", "tracked_changes": [], "preserved_untracked": [".codex/", "artifacts/"]},
+  "inventories": {"methodology": 11, "structural_producers": 7, "family_producers": 0, "family_issuances": 0},
+  "inventory_basis": "Approved implementation unchanged by Git diff; source inventory module and 7-result structural seal / empty family seal inspected read-only. This review imports or executes no methodology and issues nothing.",
+  "preservation": {"P004_P005": "UNCHANGED_NO_EVALUATION_FROM_PIXELS", "P006": "UNCHANGED_FROZEN_CONFLICT", "Flat_Triangle": "UNCHANGED_FROZEN", "base_case": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND", "legacy_analyze": "NOT_IMPLEMENTED", "protected_writes": 0, "historical_baseline_writes": 0},
+  "visual_review": {
+    "originals_inspected": 7,
+    "annotated_views_inspected": 4,
+    "method": "Deterministic callouts adapted from approved renderer, unchanged original market image resolution; no generative drawing, synthetic price path, or numerical interpolation.",
+    "labels": "Daily callouts reconciled to chronological endpoint regions; April low is partly obscured by volume and is explicitly a region, not an exact pixel operand. 4H callouts are contextual, not Daily endpoint replacements.",
+    "alternatives": "L1 and L2 separately instantiated under A and B. L1 post-May correction is sibling under open ancestor, never a child of closed April-May advance. L2 preserves prior open relationship. Shared regions are not independent confirmations.",
+    "latest": "Crosshair over actual last Daily candle reads Fri04Sep26 and O231.09 H234.76 L229.63 C230.36. Pointer axis230.43 is not used as price. Earlier pointer in empty Sep9 space was not accepted as bar time.",
+    "session_boundary": "4H visibly24H and developing at capture; Daily exact session policy not verified. No equivalence of their extremes asserted.",
+    "browser_HTML_QA": "NOT_APPLICABLE: Markdown plus directly inspected PNGs; no HTML framework added. Actual TradingView chart screenshots inspected, not browser report QA."
+  },
+  "source_audit": {
+    "SOURCE_RULE": "P004/P005 source and adopted policy consulted; no executable outcomes. P006 conflict preserved.",
+    "SOURCE_DEFINITION": "Bookp31 five-position structural expectation; hierarchy definition. Neither certifies the proposed legs.",
+    "SOURCE_GUIDELINE": "Volume8 nested alternatives and book extensions support considering L2, not ranking or selecting it.",
+    "SOURCE_OBSERVATION": "Volume10 aggregated-bar limits retained; visible Volume not used as confirmation.",
+    "SOURCE_TRADING_PRACTICE": "Not applied; no targets, trades or signals.",
+    "CONFLICT": "P006 untouched; historical P005 metric conflict retained under existing adopted narrow policy.",
+    "UNRESOLVED": "Exact historic endpoints, same-session path evidence, full internals/completion, current wave identity, family proof.",
+    "external_Elliott_sources": false,
+    "new_protected_IDs": false,
+    "source_silence_filled": false
+  },
+  "connection": {
+    "workflow": "Existing stdio MCP: review_window -> review_goto -> review_custom_tab -> review_fill_range -> review_submit_range -> recent_frame; overview used existing capture tool. Metadata checked before/after each image; guard requires temporary target and Autosavefalse.",
+    "setup_changes": false,
+    "original_mutation_calls": 0,
+    "saved_layout_writes": 0,
+    "original_NVDA_final": {"symbol": "BATS:NVDA", "resolution": "6M", "range": [915148800,1940630400], "shapes": 0, "matches_prior_approved_receipt": true},
+    "original_MSFT_final": {"symbol": "BATS:MSFT", "resolution": "1D", "range": [1745971200,1789948800], "shapes": 13, "matches_prior_approved_receipt": true},
+    "comparison_limit": "No original-chart pre-capture metadata snapshot taken in this turn. Final read-only metadata matches prior approved receipt; only authorized temporary target received navigation calls. No claim of pixel-by-pixel saved drawing verification.",
+    "temporary_shapes": 0,
+    "autosave": "OFF at every capture guard; final tv_inspect_autosave returned aria-checked=false, then menu dismissed by Escape. Not changed by this task.",
+    "OHLCV_export": "NOT_VERIFIED",
+    "capture_bounds": "1overview+6targeted, all inspected. Exact last-bar reading used last slot; May peak adequately inspected in advance_2026 and decline_4h.",
+    "operational_issue": "Initial overview driver dispatch rejected an unknown window before mutation; corrected only local untracked driver. No repeat setup or protected changes."
+  },
+  "packaging": "Markdown report and PNGs per task; no decorative metric or new framework. Original receipt bytes preserved using pack-local .gitattributes; staged blob hashes checked against manifest before commit.",
+  "project_manager_approval_claimed": false
+}

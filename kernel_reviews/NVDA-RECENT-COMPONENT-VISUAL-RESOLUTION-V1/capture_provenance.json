@@ -1,0 +1,660 @@
+{
+  "actual_feed": "BATS:NVDA / Cboe One",
+  "listing_identifier_only": "NASDAQ:NVDA",
+  "Yahoo_used": false,
+  "snapshot_kind": "Seven separately timed captures 2026-09-08; no atomic market snapshot asserted",
+  "images": {
+    "advance_2026": {
+      "window": "advance_2026",
+      "purpose": "Inspect late-2025 correction and final advance into May 2026",
+      "requested": [
+        "1D",
+        "2025-09-01",
+        "2026-06-10"
+      ],
+      "captured_at_utc": "2026-09-08T13:10:08.804545+00:00",
+      "sha256": "7cd9ec79e85241118ac987154a390600f2455762baf087d3037a94fa87f1cf9a",
+      "metadata": {
+        "chart": {
+          "symbol": "BATS:NVDA",
+          "resolution": "1D",
+          "range": {
+            "from": 1756771200,
+            "to": 1781049600
+          },
+          "timezone": "Etc/UTC",
+          "studies": [
+            {
+              "id": "GwEgXB",
+              "name": "Volume"
+            },
+            {
+              "id": "dBzAht",
+              "name": "Relative Strength Index"
+            }
+          ],
+          "shapes": []
+        },
+        "symbolExt": {
+          "symbol": "NVDA",
+          "full_name": "BATS:NVDA",
+          "exchange": "Cboe One",
+          "description": "NVIDIA Corporation",
+          "type": "stock",
+          "pro_name": "NASDAQ:NVDA",
+          "typespecs": [
+            "common"
+          ]
+        },
+        "scaleControls": [
+          {
+            "label": "Toggle auto scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Toggle log scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Adjust data for dividends",
+            "pressed": "false",
+            "checked": null,
+            "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+          }
+        ],
+        "marketStatus": [
+          "NASDAQ — NASDAQ Stock Market",
+          "Pre-market · One update every 5 seconds · NASDAQ by Cboe One"
+        ]
+      },
+      "legend_text": [],
+      "viewport": {
+        "width": 1267,
+        "height": 688,
+        "devicePixelRatio": 2
+      },
+      "pointer_css": {
+        "x": -1,
+        "y": -1
+      },
+      "pointer_coordinates_are_not_price_or_date_evidence": true,
+      "image": "originals/advance_2026.png",
+      "receipt": "originals/advance_2026.json",
+      "viewport_utc": {
+        "from": "2025-09-02T00:00:00+00:00",
+        "to": "2026-06-10T00:00:00+00:00"
+      },
+      "range_authority": "Chart viewport, NOT proof of every underlying bar or wave; future blank space may occur.",
+      "inspected": true
+    },
+    "decline_4h": {
+      "window": "decline_4h",
+      "purpose": "Inspect whether finer bars clarify May-July decline; verify loaded coverage",
+      "requested": [
+        "240",
+        "2026-05-01",
+        "2026-08-03"
+      ],
+      "captured_at_utc": "2026-09-08T13:13:51.872650+00:00",
+      "sha256": "21ce14ced4196d5b40b9572d97176bd7350882fd409f25f260a0d9e68acf13be",
+      "metadata": {
+        "chart": {
+          "symbol": "BATS:NVDA",
+          "resolution": "240",
+          "range": {
+            "from": 1777608000,
+            "to": 1785758400
+          },
+          "timezone": "Etc/UTC",
+          "studies": [
+            {
+              "id": "GwEgXB",
+              "name": "Volume"
+            },
+            {
+              "id": "dBzAht",
+              "name": "Relative Strength Index"
+            }
+          ],
+          "shapes": []
+        },
+        "symbolExt": {
+          "symbol": "NVDA",
+          "full_name": "BATS:NVDA",
+          "exchange": "Cboe One",
+          "description": "NVIDIA Corporation",
+          "type": "stock",
+          "pro_name": "NASDAQ:NVDA",
+          "typespecs": [
+            "common",
+            "dynamic"
+          ]
+        },
+        "scaleControls": [
+          {
+            "label": "Toggle auto scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Toggle log scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Adjust data for dividends",
+            "pressed": "false",
+            "checked": null,
+            "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+          }
+        ],
+        "marketStatus": [
+          "NASDAQ — NASDAQ Stock Market",
+          "Pre-market · One update every 5 seconds · NASDAQ by Cboe One"
+        ]
+      },
+      "legend_text": [],
+      "viewport": {
+        "width": 1267,
+        "height": 688,
+        "devicePixelRatio": 2
+      },
+      "pointer_css": {
+        "x": -1,
+        "y": -1
+      },
+      "pointer_coordinates_are_not_price_or_date_evidence": true,
+      "image": "originals/decline_4h.png",
+      "receipt": "originals/decline_4h.json",
+      "viewport_utc": {
+        "from": "2026-05-01T04:00:00+00:00",
+        "to": "2026-08-03T12:00:00+00:00"
+      },
+      "range_authority": "Chart viewport, NOT proof of every underlying bar or wave; future blank space may occur.",
+      "inspected": true
+    },
+    "last_bar_reading": {
+      "window": "last_bar_reading",
+      "purpose": "Read actual rightmost Daily bar date using crosshair; prior pointer landed in empty future space",
+      "requested": [
+        "1D",
+        "2026-08-01",
+        "2026-09-09"
+      ],
+      "captured_at_utc": "2026-09-08T13:15:30.226377+00:00",
+      "sha256": "c233e91a68cea194119cbcfeb4af34efb8945224b6c3b68a48237113ad28b419",
+      "metadata": {
+        "chart": {
+          "symbol": "BATS:NVDA",
+          "resolution": "1D",
+          "range": {
+            "from": 1785715200,
+            "to": 1788912000
+          },
+          "timezone": "Etc/UTC",
+          "studies": [
+            {
+              "id": "GwEgXB",
+              "name": "Volume"
+            },
+            {
+              "id": "dBzAht",
+              "name": "Relative Strength Index"
+            }
+          ],
+          "shapes": []
+        },
+        "symbolExt": {
+          "symbol": "NVDA",
+          "full_name": "BATS:NVDA",
+          "exchange": "Cboe One",
+          "description": "NVIDIA Corporation",
+          "type": "stock",
+          "pro_name": "NASDAQ:NVDA",
+          "typespecs": [
+            "common"
+          ]
+        },
+        "scaleControls": [
+          {
+            "label": "Toggle auto scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Toggle log scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Adjust data for dividends",
+            "pressed": "false",
+            "checked": null,
+            "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+          }
+        ],
+        "marketStatus": [
+          "NASDAQ — NASDAQ Stock Market",
+          "Pre-market · One update every 5 seconds · NASDAQ by Cboe One"
+        ]
+      },
+      "legend_text": [],
+      "viewport": {
+        "width": 1267,
+        "height": 688,
+        "devicePixelRatio": 2
+      },
+      "pointer_css": {
+        "x": 1050,
+        "y": 150
+      },
+      "pointer_coordinates_are_not_price_or_date_evidence": true,
+      "image": "originals/last_bar_reading.png",
+      "receipt": "originals/last_bar_reading.json",
+      "viewport_utc": {
+        "from": "2026-08-03T00:00:00+00:00",
+        "to": "2026-09-09T00:00:00+00:00"
+      },
+      "range_authority": "Chart viewport, NOT proof of every underlying bar or wave; future blank space may occur.",
+      "inspected": true
+    },
+    "latest_daily": {
+      "window": "latest_daily",
+      "purpose": "Read exact last-bar date and displayed values where crosshair permits",
+      "requested": [
+        "1D",
+        "2026-08-01",
+        "2026-09-09"
+      ],
+      "captured_at_utc": "2026-09-08T13:14:38.674553+00:00",
+      "sha256": "3758f892ad543538946044652d38abe5226be591e473acc3996358e06b73b238",
+      "metadata": {
+        "chart": {
+          "symbol": "BATS:NVDA",
+          "resolution": "1D",
+          "range": {
+            "from": 1785715200,
+            "to": 1788912000
+          },
+          "timezone": "Etc/UTC",
+          "studies": [
+            {
+              "id": "GwEgXB",
+              "name": "Volume"
+            },
+            {
+              "id": "dBzAht",
+              "name": "Relative Strength Index"
+            }
+          ],
+          "shapes": []
+        },
+        "symbolExt": {
+          "symbol": "NVDA",
+          "full_name": "BATS:NVDA",
+          "exchange": "Cboe One",
+          "description": "NVIDIA Corporation",
+          "type": "stock",
+          "pro_name": "NASDAQ:NVDA",
+          "typespecs": [
+            "common"
+          ]
+        },
+        "scaleControls": [
+          {
+            "label": "Toggle auto scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Toggle log scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Adjust data for dividends",
+            "pressed": "false",
+            "checked": null,
+            "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+          }
+        ],
+        "marketStatus": [
+          "NASDAQ — NASDAQ Stock Market",
+          "Pre-market · One update every 5 seconds · NASDAQ by Cboe One"
+        ]
+      },
+      "legend_text": [],
+      "viewport": {
+        "width": 1267,
+        "height": 688,
+        "devicePixelRatio": 2
+      },
+      "pointer_css": {
+        "x": 1130,
+        "y": 240
+      },
+      "pointer_coordinates_are_not_price_or_date_evidence": true,
+      "image": "originals/latest_daily.png",
+      "receipt": "originals/latest_daily.json",
+      "viewport_utc": {
+        "from": "2026-08-03T00:00:00+00:00",
+        "to": "2026-09-09T00:00:00+00:00"
+      },
+      "range_authority": "Chart viewport, NOT proof of every underlying bar or wave; future blank space may occur.",
+      "inspected": true
+    },
+    "overview": {
+      "window": "overview",
+      "purpose": "Current Daily overview of April-2025 advance; separate new snapshot",
+      "captured_at_utc": "2026-09-08T13:07:30.971610+00:00",
+      "sha256": "6bd566063be0d10108a486d4544fb0425ebbc0f599ea4fa3533f0e83eddecd7d",
+      "metadata": {
+        "chart": {
+          "symbol": "BATS:NVDA",
+          "resolution": "1D",
+          "range": {
+            "from": 1743465600,
+            "to": 1788825600
+          },
+          "timezone": "Etc/UTC",
+          "studies": [
+            {
+              "id": "GwEgXB",
+              "name": "Volume"
+            },
+            {
+              "id": "dBzAht",
+              "name": "Relative Strength Index"
+            }
+          ],
+          "shapes": []
+        },
+        "symbolExt": {
+          "symbol": "NVDA",
+          "full_name": "BATS:NVDA",
+          "exchange": "Cboe One",
+          "description": "NVIDIA Corporation",
+          "type": "stock",
+          "pro_name": "NASDAQ:NVDA",
+          "typespecs": [
+            "common"
+          ]
+        },
+        "scaleControls": [
+          {
+            "label": "Toggle auto scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Toggle log scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Adjust data for dividends",
+            "pressed": "false",
+            "checked": null,
+            "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+          }
+        ],
+        "marketStatus": [
+          "NASDAQ — NASDAQ Stock Market",
+          "Pre-market · One update every 5 seconds · NASDAQ by Cboe One"
+        ]
+      },
+      "requested": [
+        "1D",
+        "2025-04-01",
+        "2026-09-09"
+      ],
+      "image": "originals/overview.png",
+      "receipt": "originals/overview.json",
+      "viewport_utc": {
+        "from": "2025-04-01T00:00:00+00:00",
+        "to": "2026-09-08T00:00:00+00:00"
+      },
+      "range_authority": "Chart viewport, NOT proof of every underlying bar or wave; future blank space may occur.",
+      "inspected": true
+    },
+    "rebound_4h": {
+      "window": "rebound_4h",
+      "purpose": "Inspect July low through current rebound at available finer resolution",
+      "requested": [
+        "240",
+        "2026-07-01",
+        "2026-09-09"
+      ],
+      "captured_at_utc": "2026-09-08T13:14:14.413754+00:00",
+      "sha256": "a9f6b941e3c8a15ca939f460c511746ce2d6da15ccb5ff852373bd77ea2a2666",
+      "metadata": {
+        "chart": {
+          "symbol": "BATS:NVDA",
+          "resolution": "240",
+          "range": {
+            "from": 1782878400,
+            "to": 1788955200
+          },
+          "timezone": "Etc/UTC",
+          "studies": [
+            {
+              "id": "GwEgXB",
+              "name": "Volume"
+            },
+            {
+              "id": "dBzAht",
+              "name": "Relative Strength Index"
+            }
+          ],
+          "shapes": []
+        },
+        "symbolExt": {
+          "symbol": "NVDA",
+          "full_name": "BATS:NVDA",
+          "exchange": "Cboe One",
+          "description": "NVIDIA Corporation",
+          "type": "stock",
+          "pro_name": "NASDAQ:NVDA",
+          "typespecs": [
+            "common",
+            "dynamic"
+          ]
+        },
+        "scaleControls": [
+          {
+            "label": "Toggle auto scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Toggle log scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Adjust data for dividends",
+            "pressed": "false",
+            "checked": null,
+            "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+          }
+        ],
+        "marketStatus": [
+          "NASDAQ — NASDAQ Stock Market",
+          "Pre-market · One update every 5 seconds · NASDAQ by Cboe One"
+        ]
+      },
+      "legend_text": [],
+      "viewport": {
+        "width": 1267,
+        "height": 688,
+        "devicePixelRatio": 2
+      },
+      "pointer_css": {
+        "x": -1,
+        "y": -1
+      },
+      "pointer_coordinates_are_not_price_or_date_evidence": true,
+      "image": "originals/rebound_4h.png",
+      "receipt": "originals/rebound_4h.json",
+      "viewport_utc": {
+        "from": "2026-07-01T04:00:00+00:00",
+        "to": "2026-09-09T12:00:00+00:00"
+      },
+      "range_authority": "Chart viewport, NOT proof of every underlying bar or wave; future blank space may occur.",
+      "inspected": true
+    },
+    "summer_2025": {
+      "window": "summer_2025",
+      "purpose": "Resolve previously uninspected June-August 2025 and neighboring reversal regions",
+      "requested": [
+        "1D",
+        "2025-04-01",
+        "2025-10-01"
+      ],
+      "captured_at_utc": "2026-09-08T13:09:50.757846+00:00",
+      "sha256": "471e063c9dfa8ed47558a792022330329de37df6129825621ce9773acc7a5ca5",
+      "metadata": {
+        "chart": {
+          "symbol": "BATS:NVDA",
+          "resolution": "1D",
+          "range": {
+            "from": 1743465600,
+            "to": 1759276800
+          },
+          "timezone": "Etc/UTC",
+          "studies": [
+            {
+              "id": "GwEgXB",
+              "name": "Volume"
+            },
+            {
+              "id": "dBzAht",
+              "name": "Relative Strength Index"
+            }
+          ],
+          "shapes": []
+        },
+        "symbolExt": {
+          "symbol": "NVDA",
+          "full_name": "BATS:NVDA",
+          "exchange": "Cboe One",
+          "description": "NVIDIA Corporation",
+          "type": "stock",
+          "pro_name": "NASDAQ:NVDA",
+          "typespecs": [
+            "common"
+          ]
+        },
+        "scaleControls": [
+          {
+            "label": "Toggle auto scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Toggle log scale",
+            "pressed": null,
+            "checked": null,
+            "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+          },
+          {
+            "label": "Adjust data for dividends",
+            "pressed": "false",
+            "checked": null,
+            "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+          }
+        ],
+        "marketStatus": [
+          "NASDAQ — NASDAQ Stock Market",
+          "Pre-market · One update every 5 seconds · NASDAQ by Cboe One"
+        ]
+      },
+      "legend_text": [],
+      "viewport": {
+        "width": 1267,
+        "height": 688,
+        "devicePixelRatio": 2
+      },
+      "pointer_css": {
+        "x": -1,
+        "y": -1
+      },
+      "pointer_coordinates_are_not_price_or_date_evidence": true,
+      "image": "originals/summer_2025.png",
+      "receipt": "originals/summer_2025.json",
+      "viewport_utc": {
+        "from": "2025-04-01T00:00:00+00:00",
+        "to": "2025-10-01T00:00:00+00:00"
+      },
+      "range_authority": "Chart viewport, NOT proof of every underlying bar or wave; future blank space may occur.",
+      "inspected": true
+    }
+  },
+  "settings": {
+    "scale": "USD logarithmic; auto scale active",
+    "dividend_adjustment": "off (pressed=false)",
+    "split_adjustment": "UNKNOWN",
+    "timezone": "Etc/UTC",
+    "Daily_session_configuration": "UNKNOWN; separate Pre quote visible",
+    "four_hour_session": "24H visibly selected; may contain extended-session extremes absent in Daily",
+    "visible_indicators": "Volume 20 with line; no volume interpretation. RSI listed by API but not visibly inspected or used.",
+    "OHLCV_export": "NOT_VERIFIED",
+    "autosave": "OFF, checked before each capture"
+  },
+  "last_daily_bar": {
+    "order": 10,
+    "date_region": "2026-09-04 rightmost Daily bar",
+    "price_description_USD": "C 230.36 displayed",
+    "image": "originals/last_bar_reading.png",
+    "precision": "EXACT_DISPLAYED_BAR_DATE_AND_OHLC_NOT_EXPORTED_OPERAND",
+    "timeframe": "1D",
+    "orthodox_endpoint_authority": false,
+    "executable_operand_authority": false,
+    "displayed_date": "Fri 04 Sep 26",
+    "displayed_OHLC": {
+      "O": "231.09",
+      "H": "234.76",
+      "L": "229.63",
+      "C": "230.36"
+    },
+    "exact_intraday_timestamp": null,
+    "bar_developing": "Not independently verified; historical displayed bar, no completion certificate",
+    "crosshair_price_not_used": "230.43 is pointer-axis level, NOT the bar close"
+  },
+  "current_readings": {
+    "overview_pre_quote": "232.28 at 13:07:30Z",
+    "rebound_4H_label": "232.51 at 13:14:14Z",
+    "rebound_4H_countdown": "02:45:49, developing bar; exact bar-start timestamp UNKNOWN",
+    "last_bar_reading_pre_quote": "232.72 at 13:15:30Z",
+    "not_comparable_atomic_operands": true
+  },
+  "failed_reading": "latest_daily crosshair showed Sep9 in EMPTY future space, not last-bar date. Last_bar_reading corrects it with Sep4 crosshair on actual bar.",
+  "coverage": {
+    "overview": 1,
+    "targeted": 6,
+    "targeted_limit": 6,
+    "missing_intraday_history": "Not encountered in displayed May-Sep windows; exact bar inventory not exported",
+    "uninspected": [
+      "pre-May2026 intraday internals",
+      "below 4H internals",
+      "same-session extreme reconciliation",
+      "exact historic turning-bar OHLC"
+    ],
+    "stop_reason": "Question-specific windows inspected and six-target capture budget reached; classification/completion remains unresolved."
+  }
+}

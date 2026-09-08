@@ -1,0 +1,15 @@
+{
+  "scope": "focused artifact checks only",
+  "tests": 20,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "full_regression": "NOT_RUN_ARTIFACT_ONLY",
+  "pipeline_runs": 0,
+  "integrity": {
+    "Brain": 30,
+    "Sources": 21,
+    "mismatches": 0,
+    "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+  }
+}

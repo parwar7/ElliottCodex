@@ -1,0 +1,431 @@
+[
+  {
+    "name": "L1_daily",
+    "local": "L1",
+    "source_image": "originals/overview.png",
+    "title": "L1 | April advance may end in May; subsequent correction stays unresolved",
+    "marks": [
+      {
+        "node": "advance",
+        "evidence": "origin",
+        "xy": [
+          112,
+          927
+        ],
+        "offset": [
+          35,
+          -85
+        ],
+        "label": "April 2025 origin REGION?",
+        "node_instances": [
+          "A.L1.advance",
+          "B.L1.advance"
+        ]
+      },
+      {
+        "node": "advance.1",
+        "evidence": "may25",
+        "xy": [
+          249,
+          583
+        ],
+        "offset": [
+          -110,
+          -90
+        ],
+        "label": "1? mid-May 2025",
+        "node_instances": [
+          "A.L1.advance.1",
+          "B.L1.advance.1"
+        ]
+      },
+      {
+        "node": "advance.2",
+        "evidence": "may25low",
+        "xy": [
+          274,
+          615
+        ],
+        "offset": [
+          45,
+          25
+        ],
+        "label": "2? late May",
+        "node_instances": [
+          "A.L1.advance.2",
+          "B.L1.advance.2"
+        ]
+      },
+      {
+        "node": "advance.3",
+        "evidence": "oct25",
+        "xy": [
+          810,
+          247
+        ],
+        "offset": [
+          -115,
+          -100
+        ],
+        "label": "3? Oct/Nov 2025",
+        "node_instances": [
+          "A.L1.advance.3",
+          "B.L1.advance.3"
+        ]
+      },
+      {
+        "node": "advance.4",
+        "evidence": "mar26",
+        "xy": [
+          1314,
+          428
+        ],
+        "offset": [
+          -190,
+          45
+        ],
+        "label": "4? late March",
+        "node_instances": [
+          "A.L1.advance.4",
+          "B.L1.advance.4"
+        ]
+      },
+      {
+        "node": "advance.5",
+        "evidence": "may26",
+        "xy": [
+          1472,
+          164
+        ],
+        "offset": [
+          -175,
+          -65
+        ],
+        "label": "5? May 2026 END?",
+        "node_instances": [
+          "A.L1.advance.5",
+          "B.L1.advance.5"
+        ]
+      },
+      {
+        "node": "correction.rebound",
+        "evidence": "last",
+        "xy": [
+          1853,
+          181
+        ],
+        "offset": [
+          -340,
+          105
+        ],
+        "label": "Subsequent correction? OPEN",
+        "node_instances": [
+          "A.L1.correction.rebound",
+          "B.L1.correction.rebound"
+        ]
+      }
+    ],
+    "footer": "A and B mappings are separate ledger instances. A question mark marks every proposed role; no historical ancestry is rewritten.",
+    "coordinate_basis": [
+      2048,
+      1112
+    ],
+    "output": "annotated/L1_daily.png"
+  },
+  {
+    "name": "L1_rebound",
+    "local": "L1",
+    "source_image": "originals/rebound_4h.png",
+    "title": "L1 | Rebound inside unresolved subsequent correction?",
+    "marks": [
+      {
+        "node": "correction.rebound",
+        "evidence": "jul26",
+        "xy": [
+          811,
+          895
+        ],
+        "offset": [
+          -265,
+          -75
+        ],
+        "label": "Late-July REGION: 4H context",
+        "context_only": true,
+        "context_evidence": "c4_jul",
+        "node_instances": [
+          "A.L1.correction.rebound",
+          "B.L1.correction.rebound"
+        ]
+      },
+      {
+        "node": "correction.rebound",
+        "evidence": null,
+        "xy": [
+          1275,
+          266
+        ],
+        "offset": [
+          -230,
+          -80
+        ],
+        "label": "Mid-August rebound high",
+        "context_only": true,
+        "context_evidence": "c4_aug_high",
+        "node_instances": [
+          "A.L1.correction.rebound",
+          "B.L1.correction.rebound"
+        ]
+      },
+      {
+        "node": "correction.rebound",
+        "evidence": null,
+        "xy": [
+          1465,
+          584
+        ],
+        "offset": [
+          -230,
+          65
+        ],
+        "label": "Late-August retreat",
+        "context_only": true,
+        "context_evidence": "c4_aug_low",
+        "node_instances": [
+          "A.L1.correction.rebound",
+          "B.L1.correction.rebound"
+        ]
+      },
+      {
+        "node": "correction.rebound",
+        "evidence": null,
+        "xy": [
+          1818,
+          200
+        ],
+        "offset": [
+          -345,
+          -65
+        ],
+        "label": "232.51 displayed; bar developing",
+        "context_only": true,
+        "context_evidence": "c4_live",
+        "node_instances": [
+          "A.L1.correction.rebound",
+          "B.L1.correction.rebound"
+        ]
+      }
+    ],
+    "footer": "4H is visibly 24H session. These contextual regions do not supply exact Daily endpoints or prove a corrective / motive family.",
+    "coordinate_basis": [
+      2048,
+      1112
+    ],
+    "output": "annotated/L1_rebound.png"
+  },
+  {
+    "name": "L2_daily",
+    "local": "L2",
+    "source_image": "originals/overview.png",
+    "title": "L2 | April advance remains open; nested March / July components?",
+    "marks": [
+      {
+        "node": "advance",
+        "evidence": "origin",
+        "xy": [
+          112,
+          927
+        ],
+        "offset": [
+          35,
+          -85
+        ],
+        "label": "April 2025 origin REGION?",
+        "node_instances": [
+          "A.L2.advance",
+          "B.L2.advance"
+        ]
+      },
+      {
+        "node": "advance.1",
+        "evidence": "oct25",
+        "xy": [
+          810,
+          247
+        ],
+        "offset": [
+          -140,
+          -95
+        ],
+        "label": "1? Oct/Nov 2025",
+        "node_instances": [
+          "A.L2.advance.1",
+          "B.L2.advance.1"
+        ]
+      },
+      {
+        "node": "advance.2",
+        "evidence": "mar26",
+        "xy": [
+          1314,
+          428
+        ],
+        "offset": [
+          -230,
+          45
+        ],
+        "label": "2? late March",
+        "node_instances": [
+          "A.L2.advance.2",
+          "B.L2.advance.2"
+        ]
+      },
+      {
+        "node": "advance.3.1",
+        "evidence": "may26",
+        "xy": [
+          1472,
+          164
+        ],
+        "offset": [
+          -185,
+          -65
+        ],
+        "label": "3.1? May region",
+        "node_instances": [
+          "A.L2.advance.3.1",
+          "B.L2.advance.3.1"
+        ]
+      },
+      {
+        "node": "advance.3.2",
+        "evidence": "jul26",
+        "xy": [
+          1723,
+          326
+        ],
+        "offset": [
+          -225,
+          65
+        ],
+        "label": "3.2? late July",
+        "node_instances": [
+          "A.L2.advance.3.2",
+          "B.L2.advance.3.2"
+        ]
+      },
+      {
+        "node": "advance.3.3",
+        "evidence": "last",
+        "xy": [
+          1853,
+          181
+        ],
+        "offset": [
+          -300,
+          100
+        ],
+        "label": "3.3? OPEN, not confirmed",
+        "node_instances": [
+          "A.L2.advance.3.3",
+          "B.L2.advance.3.3"
+        ]
+      }
+    ],
+    "footer": "A and B mappings are separate ledger instances. A question mark marks every proposed role; no historical ancestry is rewritten.",
+    "coordinate_basis": [
+      2048,
+      1112
+    ],
+    "output": "annotated/L2_daily.png"
+  },
+  {
+    "name": "L2_rebound",
+    "local": "L2",
+    "source_image": "originals/rebound_4h.png",
+    "title": "L2 | Rebound inside proposed nested third?",
+    "marks": [
+      {
+        "node": "advance.3.3",
+        "evidence": "jul26",
+        "xy": [
+          811,
+          895
+        ],
+        "offset": [
+          -265,
+          -75
+        ],
+        "label": "Late-July REGION: 4H context",
+        "context_only": true,
+        "context_evidence": "c4_jul",
+        "node_instances": [
+          "A.L2.advance.3.3",
+          "B.L2.advance.3.3"
+        ]
+      },
+      {
+        "node": "advance.3.3",
+        "evidence": null,
+        "xy": [
+          1275,
+          266
+        ],
+        "offset": [
+          -230,
+          -80
+        ],
+        "label": "Mid-August rebound high",
+        "context_only": true,
+        "context_evidence": "c4_aug_high",
+        "node_instances": [
+          "A.L2.advance.3.3",
+          "B.L2.advance.3.3"
+        ]
+      },
+      {
+        "node": "advance.3.3",
+        "evidence": null,
+        "xy": [
+          1465,
+          584
+        ],
+        "offset": [
+          -230,
+          65
+        ],
+        "label": "Late-August retreat",
+        "context_only": true,
+        "context_evidence": "c4_aug_low",
+        "node_instances": [
+          "A.L2.advance.3.3",
+          "B.L2.advance.3.3"
+        ]
+      },
+      {
+        "node": "advance.3.3",
+        "evidence": null,
+        "xy": [
+          1818,
+          200
+        ],
+        "offset": [
+          -345,
+          -65
+        ],
+        "label": "232.51 displayed; bar developing",
+        "context_only": true,
+        "context_evidence": "c4_live",
+        "node_instances": [
+          "A.L2.advance.3.3",
+          "B.L2.advance.3.3"
+        ]
+      }
+    ],
+    "footer": "4H is visibly 24H session. These contextual regions do not supply exact Daily endpoints or prove a corrective / motive family.",
+    "coordinate_basis": [
+      2048,
+      1112
+    ],
+    "output": "annotated/L2_rebound.png"
+  }
+]

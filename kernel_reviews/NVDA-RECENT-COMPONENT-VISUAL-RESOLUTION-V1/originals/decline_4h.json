@@ -1,0 +1,80 @@
+{
+  "window": "decline_4h",
+  "purpose": "Inspect whether finer bars clarify May-July decline; verify loaded coverage",
+  "requested": [
+    "240",
+    "2026-05-01",
+    "2026-08-03"
+  ],
+  "captured_at_utc": "2026-09-08T13:13:51.872650+00:00",
+  "sha256": "21ce14ced4196d5b40b9572d97176bd7350882fd409f25f260a0d9e68acf13be",
+  "metadata": {
+    "chart": {
+      "symbol": "BATS:NVDA",
+      "resolution": "240",
+      "range": {
+        "from": 1777608000,
+        "to": 1785758400
+      },
+      "timezone": "Etc/UTC",
+      "studies": [
+        {
+          "id": "GwEgXB",
+          "name": "Volume"
+        },
+        {
+          "id": "dBzAht",
+          "name": "Relative Strength Index"
+        }
+      ],
+      "shapes": []
+    },
+    "symbolExt": {
+      "symbol": "NVDA",
+      "full_name": "BATS:NVDA",
+      "exchange": "Cboe One",
+      "description": "NVIDIA Corporation",
+      "type": "stock",
+      "pro_name": "NASDAQ:NVDA",
+      "typespecs": [
+        "common",
+        "dynamic"
+      ]
+    },
+    "scaleControls": [
+      {
+        "label": "Toggle auto scale",
+        "pressed": null,
+        "checked": null,
+        "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+      },
+      {
+        "label": "Toggle log scale",
+        "pressed": null,
+        "checked": null,
+        "class": "priceScaleModeButton-tzk2lJM6 priceScaleModeButton_activated-tzk2lJM6 priceScaleModeButtons__button-_mS3UChv apply-common-tooltip"
+      },
+      {
+        "label": "Adjust data for dividends",
+        "pressed": "false",
+        "checked": null,
+        "class": "item-RaFdWJxD button-_yKxzjvM apply-common-tooltip isInteractive-_yKxzjvM accessible-_yKxzjvM"
+      }
+    ],
+    "marketStatus": [
+      "NASDAQ \u2014 NASDAQ Stock Market",
+      "Pre-market \u00b7 One update every 5 seconds \u00b7 NASDAQ by Cboe One"
+    ]
+  },
+  "legend_text": [],
+  "viewport": {
+    "width": 1267,
+    "height": 688,
+    "devicePixelRatio": 2
+  },
+  "pointer_css": {
+    "x": -1,
+    "y": -1
+  },
+  "pointer_coordinates_are_not_price_or_date_evidence": true
+}

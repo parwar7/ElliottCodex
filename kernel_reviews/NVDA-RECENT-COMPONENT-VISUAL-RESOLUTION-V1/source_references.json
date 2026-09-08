@@ -1,0 +1,78 @@
+{
+  "default_root": "Sources_LOCKED",
+  "references": {
+    "S1": {
+      "path": "volume_01/Volume_01.srt",
+      "locator": "00:29:45.679–00:31:41.909",
+      "class": "SOURCE_RULE",
+      "meaning": "Impulse rule discussion, including wave 2 origin and wave 3 comparison. P006 interpretation remains frozen."
+    },
+    "S2": {
+      "path": "volume_08/volume_08.srt",
+      "locator": "00:04:47.070–00:06:37.050",
+      "class": "SOURCE_GUIDELINE",
+      "meaning": "Begin with larger picture and inspect simultaneous nested structures; no timeframe-degree identity."
+    },
+    "S3": {
+      "path": "volume_08/volume_08.srt",
+      "locator": "00:08:10.130–00:09:23.600",
+      "class": "SOURCE_GUIDELINE",
+      "meaning": "Nested first/second structures and extending third; possibility, not proof of the NVDA interpretation."
+    },
+    "S4": {
+      "path": "volume_10/volume_10.txt",
+      "locator": "00:02:18.480–00:03:35.760",
+      "class": "SOURCE_OBSERVATION",
+      "meaning": "Aggregated bars can conceal lower-resolution structures; no invented subdivision from absence of visible bars."
+    },
+    "S5": {
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF/printed page 31, Motive Waves and Impulse",
+      "class": "SOURCE_DEFINITION",
+      "excerpt": "Motive waves subdivide into five waves",
+      "meaning": "Five-position motive/impulse structural description is an expectation, not certification by five visible turns."
+    },
+    "S6": {
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF/printed pages 32-33, Extension; Figures 1-5 and 1-8 visually inspected",
+      "class": "SOURCE_GUIDELINE",
+      "meaning": "Extensions and nested first/second alternatives illustrated; frequent third extension is not a hard selection rule.",
+      "figure_limit": "Illustrations establish possible organization, not NVDA endpoints or a universal count-selection rule."
+    },
+    "S7": {
+      "path": "docs/elliott/SOURCE_POLICY.md",
+      "root": "Brain_LOCKED",
+      "locator": "P005 policy adoption and USER_APPROVED_PROJECT_CONVENTIONS subsection",
+      "class": "SOURCE_RULE",
+      "qualification": "P005 underlying rule class preserved; percentage sufficient-condition selection and arithmetic conventions are USER_APPROVED_PROJECT_CONVENTIONS, not new source rules.",
+      "meaning": "No sufficiency computation from approximate screenshot operands; no rescue of P004; no negative P005 inference."
+    },
+    "S8": {
+      "path": "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "root": "Brain_LOCKED",
+      "locator": "Sections 2, 5-8 and 10; parent-child order, unresolved internals, completion changes degree",
+      "class": "SOURCE_DEFINITION",
+      "meaning": "Children belong to one parent; timeframe is observation resolution, not established degree; unresolved internals remain unresolved."
+    },
+    "S9": {
+      "path": "docs/elliott/SOURCE_EVIDENCE_MAP.json",
+      "root": "Brain_LOCKED",
+      "locator": "P023",
+      "class": "SOURCE_RULE",
+      "meaning": "No invention of internals hidden by chart resolution."
+    }
+  },
+  "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+  "analyst_boundary": "Scenario choices and pixel regions below are analyst hypotheses, not statements found in the sources.",
+  "reviewed_existing_research": [
+    "NORMAL-IMPULSE-PARTIAL-FAMILY-HYPOTHESIS-AND-EXECUTABLE-SCOPE-V1/protected_source_findings.json",
+    "P006-AND-TERMINAL-BASE-CASE-DECISION-PACK-V1/decision.json"
+  ],
+  "not_reopened": [
+    "P006 CONFLICT",
+    "Flat/Triangle freezes",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+  ],
+  "review_scope": "Reconsulted relevant protected Volumes 1, 8, 10 passages and book pages 31-33; no exhaustive new corpus research.",
+  "source_authority_note": "Local L1/L2 choices are analyst hypotheses. S3/S6 are possibility/guideline support, not confirmation. S7 project conventions remain separate from source rule. No trading practices applied."
+}
