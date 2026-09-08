@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-09-08T14:15:24.145135+00:00",
+  "originals": [
+    {
+      "target_id": "2857A0385B0EC7664053FA9A84DA5B80",
+      "state": {
+        "symbol": "BATS:NVDA",
+        "resolution": "6M",
+        "range": {
+          "from": 915148800,
+          "to": 1940630400
+        },
+        "shape_count": 0
+      },
+      "expected_symbol_resolution_shape_count_match": true
+    },
+    {
+      "target_id": "07B67B4B151A1820050463CED68BE563",
+      "state": {
+        "symbol": "BATS:MSFT",
+        "resolution": "1D",
+        "range": {
+          "from": 1745971200,
+          "to": 1789948800
+        },
+        "shape_count": 13
+      },
+      "expected_symbol_resolution_shape_count_match": true
+    }
+  ]
+}

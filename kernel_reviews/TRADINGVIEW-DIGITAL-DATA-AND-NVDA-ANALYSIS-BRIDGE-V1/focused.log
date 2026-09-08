@@ -1,0 +1,27 @@
+test_bad_prices_rejected (test_tradingview_digital.TradingViewAdapterTests.test_bad_prices_rejected) ... ok
+test_duplicate_json_key (test_tradingview_digital.TradingViewAdapterTests.test_duplicate_json_key) ... ok
+test_duplicate_reordered_and_foreign_index (test_tradingview_digital.TradingViewAdapterTests.test_duplicate_reordered_and_foreign_index) ... ok
+test_exact_values_feed_and_provenance (test_tradingview_digital.TradingViewAdapterTests.test_exact_values_feed_and_provenance) ... ok
+test_forming_revision_not_silently_applied (test_tradingview_digital.TradingViewAdapterTests.test_forming_revision_not_silently_applied) ... ok
+test_future_and_naive_capture_rejected (test_tradingview_digital.TradingViewAdapterTests.test_future_and_naive_capture_rejected) ... ok
+test_hash_and_unsupported_interval (test_tradingview_digital.TradingViewAdapterTests.test_hash_and_unsupported_interval) ... ok
+test_missing_eligibility_remains_unknown (test_tradingview_digital.TradingViewAdapterTests.test_missing_eligibility_remains_unknown) ... ok
+test_ohlc_and_volume_validity (test_tradingview_digital.TradingViewAdapterTests.test_ohlc_and_volume_validity) ... ok
+test_partial_history_retained (test_tradingview_digital.TradingViewAdapterTests.test_partial_history_retained) ... ok
+test_replay_is_equal_not_authority_deserialization (test_tradingview_digital.TradingViewAdapterTests.test_replay_is_equal_not_authority_deserialization) ... ok
+test_wrong_context_rejected (test_tradingview_digital.TradingViewAdapterTests.test_wrong_context_rejected) ... ok
+test_autosave_guard_blocks_extraction (test_tradingview_digital.TradingViewGuardTests.test_autosave_guard_blocks_extraction) ... ok
+test_bounds_fail_before_chart_access (test_tradingview_digital.TradingViewGuardTests.test_bounds_fail_before_chart_access) ... ok
+test_failed_transition_is_not_success (test_tradingview_digital.TradingViewGuardTests.test_failed_transition_is_not_success) ... ok
+test_no_sensitive_indicator_input (test_tradingview_digital.TradingViewGuardTests.test_no_sensitive_indicator_input) ... ok
+test_no_trading_or_arbitrary_js_tool (test_tradingview_digital.TradingViewGuardTests.test_no_trading_or_arbitrary_js_tool) ... ok
+test_stale_reconciliation_rejected (test_tradingview_digital.TradingViewGuardTests.test_stale_reconciliation_rejected) ... ok
+test_all_native_intervals_supported_without_resampling (test_tradingview_digital.TradingViewReplayTests.test_all_native_intervals_supported_without_resampling) ... ok
+test_display_precision_is_not_rule_tolerance (test_tradingview_digital.TradingViewReplayTests.test_display_precision_is_not_rule_tolerance) ... ok
+test_frozen_capture_replays_and_all_samples_reconcile (test_tradingview_digital.TradingViewReplayTests.test_frozen_capture_replays_and_all_samples_reconcile) ... ok
+test_region_extrema_have_no_methodology_authority (test_tradingview_digital.TradingViewReplayTests.test_region_extrema_have_no_methodology_authority) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.710s
+
+OK

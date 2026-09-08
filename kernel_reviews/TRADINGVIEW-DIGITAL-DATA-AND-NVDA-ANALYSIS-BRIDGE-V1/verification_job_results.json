@@ -1,0 +1,49 @@
+[
+  {
+    "step": "pipeline",
+    "exit_code": 0,
+    "seconds": 251.03100000001723,
+    "tests": null,
+    "command": [
+      "C:\\Users\\Parwa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "tools/nvda_tradingview_replay.py",
+      "--output",
+      "C:\\ElliottCodex\\Runtime_WORKSPACE\\kernel_reviews\\TRADINGVIEW-DIGITAL-DATA-AND-NVDA-ANALYSIS-BRIDGE-V1\\pipeline_results.json"
+    ]
+  },
+  {
+    "step": "focused",
+    "exit_code": 0,
+    "seconds": 1.4689999999827705,
+    "tests": 22,
+    "command": [
+      "C:\\Users\\Parwa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_tradingview_digital.py",
+      "-v"
+    ]
+  },
+  {
+    "step": "full_suite",
+    "exit_code": 0,
+    "seconds": 645.875,
+    "tests": 1152,
+    "command": [
+      "C:\\Users\\Parwa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  }
+]

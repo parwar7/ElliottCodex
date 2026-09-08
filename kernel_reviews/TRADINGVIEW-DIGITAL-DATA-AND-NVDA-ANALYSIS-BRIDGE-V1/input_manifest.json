@@ -1,0 +1,38 @@
+{
+  "schema": "TRADINGVIEW_FROZEN_INPUT_SET_V1",
+  "simultaneous_capture": false,
+  "provider": "BATS:NVDA / Cboe One",
+  "session": "regular",
+  "datasets": {
+    "15": {
+      "path": "datasets/15.json",
+      "byte_length": 168175,
+      "sha256": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8"
+    },
+    "1D": {
+      "path": "datasets/1D.json",
+      "byte_length": 566331,
+      "sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+    },
+    "1M": {
+      "path": "datasets/1M.json",
+      "byte_length": 28608,
+      "sha256": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872"
+    },
+    "1W": {
+      "path": "datasets/1W.json",
+      "byte_length": 118043,
+      "sha256": "b14aec27a773a23fcc5776ca28bd457278c5bc718d9a35657d887543238ce678"
+    },
+    "240": {
+      "path": "datasets/240.json",
+      "byte_length": 169548,
+      "sha256": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83"
+    },
+    "60": {
+      "path": "datasets/60.json",
+      "byte_length": 170241,
+      "sha256": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "delivery_mode": "portable HTML from canonical artifact.json",
+  "renderer": "existing Data Analytics deliver_portable_artifact.mjs",
+  "validation": "passed",
+  "payload_and_structural_verification": "passed",
+  "browser_verification": "not_verified",
+  "attempts": [
+    "Native chart/table validator requires actual SQL, not the genuine Python file transformation. Price charts now use actual SQLite in-memory extraction from frozen JSON, checked exactly against normalized observations. Non-SQL analytical lookup tables use canonical Markdown blocks with true file provenance; no invented SQL for methodology results.",
+    "Default browser discovery returned browser_unavailable; report delivered with structural_only verification.",
+    "An explicitly located installed Chrome was attempted. The unmodified packaged extractor rejected its environment with browser_environment_mismatch. No browser installation, renderer modification or bypass was applied. The already structurally verified HTML remains the deliverable."
+  ],
+  "visual_limit": "Enhanced report chart interaction, responsive layout and source-dialog browser smoke remain unverified. Canonical payload and semantic fallback exist. TradingView screenshots are separately inspected evidence, not proof of HTML browser QA.",
+  "native_charts": 2,
+  "canonical_blocks": 17,
+  "bespoke_chart_framework_added": false
+}

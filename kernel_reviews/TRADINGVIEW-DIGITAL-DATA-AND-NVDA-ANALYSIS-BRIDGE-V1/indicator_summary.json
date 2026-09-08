@@ -1,0 +1,402 @@
+{
+  "rows": [
+    {
+      "indicator": "Volume",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 135352420,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated"
+    },
+    {
+      "indicator": "Volume",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 18535926,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated"
+    },
+    {
+      "indicator": "RSI",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 60.39156979615336,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated"
+    },
+    {
+      "indicator": "RSI",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 59.526148968608325,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated"
+    },
+    {
+      "indicator": "Histogram",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 0.8371440152577794,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated"
+    },
+    {
+      "indicator": "MACD",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 3.8312329609309757,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated"
+    },
+    {
+      "indicator": "Signal",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 2.9940889456731963,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated"
+    },
+    {
+      "indicator": "Histogram",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 0.9394252776461727,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated"
+    },
+    {
+      "indicator": "MACD",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 4.168370542730912,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated"
+    },
+    {
+      "indicator": "Signal",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 3.2289452650847394,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated"
+    }
+  ],
+  "settings": [
+    {
+      "id": "GwEgXB",
+      "name": "Volume",
+      "inputs": [
+        {
+          "id": "length",
+          "value": 20
+        },
+        {
+          "id": "col_prev_close",
+          "value": true
+        }
+      ],
+      "input_names": [
+        {
+          "id": "length",
+          "name": "MA Length",
+          "type": "integer"
+        },
+        {
+          "id": "col_prev_close",
+          "name": "Color based on previous close",
+          "type": "bool"
+        }
+      ],
+      "window": [
+        {
+          "id": "vol",
+          "index": 0,
+          "orderIndex": 0,
+          "title": "Volume",
+          "value": "18.54 M",
+          "visible": true,
+          "color": "rgba(184, 27, 40, 1)"
+        },
+        {
+          "id": "vol_ma",
+          "index": 2,
+          "orderIndex": 1,
+          "title": "Volume MA",
+          "value": "124.05 M",
+          "visible": true,
+          "color": "#2962ff"
+        }
+      ]
+    },
+    {
+      "id": "dBzAht",
+      "name": "Relative Strength Index",
+      "inputs": [
+        {
+          "id": "pineId",
+          "value": "STD;RSI"
+        },
+        {
+          "id": "pineVersion",
+          "value": "46.0"
+        },
+        {
+          "id": "in_0",
+          "value": 14
+        },
+        {
+          "id": "in_1",
+          "value": "close"
+        },
+        {
+          "id": "in_2",
+          "value": false
+        },
+        {
+          "id": "in_3",
+          "value": "SMA"
+        },
+        {
+          "id": "in_4",
+          "value": 14
+        },
+        {
+          "id": "in_5",
+          "value": 2
+        },
+        {
+          "id": "in_6",
+          "value": ""
+        },
+        {
+          "id": "in_7",
+          "value": false
+        }
+      ],
+      "input_names": [
+        {
+          "id": "pineId",
+          "name": "pineId",
+          "type": "text"
+        },
+        {
+          "id": "pineVersion",
+          "name": "pineVersion",
+          "type": "text"
+        },
+        {
+          "id": "in_0",
+          "name": "RSI Length",
+          "type": "integer"
+        },
+        {
+          "id": "in_1",
+          "name": "Source",
+          "type": "source"
+        },
+        {
+          "id": "in_2",
+          "name": "Calculate Divergence",
+          "type": "bool"
+        },
+        {
+          "id": "in_3",
+          "name": "Type",
+          "type": "text"
+        },
+        {
+          "id": "in_4",
+          "name": "Length",
+          "type": "integer"
+        },
+        {
+          "id": "in_5",
+          "name": "BB StdDev",
+          "type": "float"
+        },
+        {
+          "id": "in_6",
+          "name": "Timeframe",
+          "type": "resolution"
+        },
+        {
+          "id": "in_7",
+          "name": "Wait for timeframe closes",
+          "type": "bool"
+        }
+      ],
+      "window": [
+        {
+          "id": "plot_0",
+          "index": 0,
+          "orderIndex": 0,
+          "title": "RSI",
+          "value": "59.53",
+          "visible": true,
+          "color": "rgba(0, 0, 0, 1)"
+        },
+        {
+          "id": "plot_1",
+          "index": 1,
+          "orderIndex": 1,
+          "title": "Plot",
+          "value": "∅",
+          "visible": false
+        },
+        {
+          "id": "plot_2",
+          "index": 2,
+          "orderIndex": 2,
+          "title": "RSI-based MA",
+          "value": "53.93",
+          "visible": true,
+          "color": "#fdd835"
+        },
+        {
+          "id": "plot_3",
+          "index": 3,
+          "orderIndex": 3,
+          "title": "Upper Bollinger Band",
+          "value": "∅",
+          "visible": false
+        },
+        {
+          "id": "plot_4",
+          "index": 4,
+          "orderIndex": 4,
+          "title": "Lower Bollinger Band",
+          "value": "∅",
+          "visible": false
+        },
+        {
+          "id": "plot_6",
+          "index": 6,
+          "orderIndex": 5,
+          "title": "Regular Bullish",
+          "value": "∅",
+          "visible": true
+        },
+        {
+          "id": "plot_8",
+          "index": 8,
+          "orderIndex": 6,
+          "title": "Regular Bullish Label",
+          "value": "∅",
+          "visible": true
+        },
+        {
+          "id": "plot_9",
+          "index": 9,
+          "orderIndex": 7,
+          "title": "Regular Bearish",
+          "value": "∅",
+          "visible": true
+        },
+        {
+          "id": "plot_11",
+          "index": 11,
+          "orderIndex": 8,
+          "title": "Regular Bearish Label",
+          "value": "∅",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "PvkDYZ",
+      "name": "MACD",
+      "inputs": [
+        {
+          "id": "fast length",
+          "value": 12
+        },
+        {
+          "id": "slow length",
+          "value": 26
+        },
+        {
+          "id": "source",
+          "value": "close"
+        },
+        {
+          "id": "signal smoothing",
+          "value": 9
+        },
+        {
+          "id": "simple ma(oscillator)",
+          "value": false
+        },
+        {
+          "id": "simple ma(signal line)",
+          "value": false
+        }
+      ],
+      "input_names": [
+        {
+          "id": "fast length",
+          "name": "Fast length",
+          "type": "integer"
+        },
+        {
+          "id": "slow length",
+          "name": "Slow length",
+          "type": "integer"
+        },
+        {
+          "id": "source",
+          "name": "Source",
+          "type": "source"
+        },
+        {
+          "id": "signal smoothing",
+          "name": "Signal smoothing",
+          "type": "integer"
+        },
+        {
+          "id": "simple ma(oscillator)",
+          "name": "Simple ma(oscillator)",
+          "type": "bool"
+        },
+        {
+          "id": "simple ma(signal line)",
+          "name": "Simple ma(signal line)",
+          "type": "bool"
+        }
+      ],
+      "window": [
+        {
+          "id": "histogram",
+          "index": 0,
+          "orderIndex": 0,
+          "title": "Histogram",
+          "value": "0.9394",
+          "visible": true,
+          "color": "#ff006e"
+        },
+        {
+          "id": "macd",
+          "index": 1,
+          "orderIndex": 1,
+          "title": "MACD",
+          "value": "4.17",
+          "visible": true,
+          "color": "#0094ff"
+        },
+        {
+          "id": "signal",
+          "index": 2,
+          "orderIndex": 2,
+          "title": "Signal",
+          "value": "3.23",
+          "visible": true,
+          "color": "#ff6a00"
+        }
+      ]
+    }
+  ],
+  "capture": "2026-09-08T14:01:42.576Z",
+  "method": "Exported actual study values; no local formula/initialization assumptions. Blank warmup plots retained in raw data.",
+  "screenshot_sample": "screenshots/1D_1744032600.png at 2025-04-07 shows RSI33.19 and MACD-5.82/signal-4.26/histogram-1.56; returned historical values can be looked up by native timestamp",
+  "EWO": "NOT_AVAILABLE_NO_VERIFIED_DEFINITION_OR_CONFIG",
+  "interpretation_authority": "NONE_FOR_ELLIOTT_CONFIRMATION"
+}

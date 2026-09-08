@@ -1,0 +1,3398 @@
+{
+  "prior_hierarchy_sha256": "f592dbd2e3043f7e3dbcdafd07eafb46444a4dab679fc2aa01d7287024cc31e1",
+  "nodes": [
+    {
+      "node_id": "A.L1",
+      "parent_id": null,
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "Prior open ancestor: context only",
+      "prior_node_ref": "A.5",
+      "external_parent_ref": "prior:A",
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "context_2022",
+      "start_observations": {
+        "region_id": "context_2022",
+        "window": [
+          "2022-09-01",
+          "2022-12-01"
+        ],
+        "field": "low",
+        "price": 10.813,
+        "observations": [
+          {
+            "timestamp": "2022-10-13T13:30:00+00:00",
+            "source_record_index": 5972,
+            "ohlcv": [
+              10.971,
+              12.07799,
+              10.813,
+              11.96,
+              850103010.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "A.L1.advance",
+      "parent_id": "A.L1",
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "3? proposed ended at May region",
+      "prior_node_ref": "A.5.3",
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may26",
+      "end_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L1.advance.1",
+      "parent_id": "A.L1.advance",
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "1? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may25",
+      "end_observations": {
+        "region_id": "R_MAY25",
+        "window": [
+          "2025-05-12",
+          "2025-05-23"
+        ],
+        "field": "high",
+        "price": 137.4,
+        "observations": [
+          {
+            "timestamp": "2025-05-21T13:30:00+00:00",
+            "source_record_index": 6624,
+            "ohlcv": [
+              133.06,
+              137.4,
+              130.59,
+              131.8,
+              270608738.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L1.advance.2",
+      "parent_id": "A.L1.advance",
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "2? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may25",
+      "start_observations": {
+        "region_id": "R_MAY25",
+        "window": [
+          "2025-05-12",
+          "2025-05-23"
+        ],
+        "field": "high",
+        "price": 137.4,
+        "observations": [
+          {
+            "timestamp": "2025-05-21T13:30:00+00:00",
+            "source_record_index": 6624,
+            "ohlcv": [
+              133.06,
+              137.4,
+              130.59,
+              131.8,
+              270608738.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may25low",
+      "end_observations": {
+        "region_id": "R_LATE_MAY25",
+        "window": [
+          "2025-05-23",
+          "2025-06-02"
+        ],
+        "field": "low",
+        "price": 129.16,
+        "observations": [
+          {
+            "timestamp": "2025-05-23T13:30:00+00:00",
+            "source_record_index": 6626,
+            "ohlcv": [
+              130.0,
+              132.68,
+              129.16,
+              131.29,
+              198821324.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L1.advance.3",
+      "parent_id": "A.L1.advance",
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "3? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may25low",
+      "start_observations": {
+        "region_id": "R_LATE_MAY25",
+        "window": [
+          "2025-05-23",
+          "2025-06-02"
+        ],
+        "field": "low",
+        "price": 129.16,
+        "observations": [
+          {
+            "timestamp": "2025-05-23T13:30:00+00:00",
+            "source_record_index": 6626,
+            "ohlcv": [
+              130.0,
+              132.68,
+              129.16,
+              131.29,
+              198821324.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "oct25",
+      "end_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L1.advance.4",
+      "parent_id": "A.L1.advance",
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "4? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "oct25",
+      "start_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "mar26",
+      "end_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L1.advance.5",
+      "parent_id": "A.L1.advance",
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "5? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "mar26",
+      "start_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may26",
+      "end_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L1.correction",
+      "parent_id": "A.L1",
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "4? unresolved subsequent correction",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may26",
+      "start_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "A.L1.correction.decline",
+      "parent_id": "A.L1.correction",
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "Unclassified observed decline",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may26",
+      "start_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "jul26",
+      "end_observations": {
+        "region_id": "R_JUL26",
+        "window": [
+          "2026-07-20",
+          "2026-08-01"
+        ],
+        "field": "low",
+        "price": 190.01,
+        "observations": [
+          {
+            "timestamp": "2026-07-29T13:30:00+00:00",
+            "source_record_index": 6921,
+            "ohlcv": [
+              195.845,
+              197.074,
+              190.01,
+              190.01,
+              147680809.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L1.correction.rebound",
+      "parent_id": "A.L1.correction",
+      "lineage": "A.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "Unclassified rebound; conditional latest container",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "jul26",
+      "start_observations": {
+        "region_id": "R_JUL26",
+        "window": [
+          "2026-07-20",
+          "2026-08-01"
+        ],
+        "field": "low",
+        "price": 190.01,
+        "observations": [
+          {
+            "timestamp": "2026-07-29T13:30:00+00:00",
+            "source_record_index": 6921,
+            "ohlcv": [
+              195.845,
+              197.074,
+              190.01,
+              190.01,
+              147680809.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "A.L2",
+      "parent_id": null,
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "Prior open ancestor: context only",
+      "prior_node_ref": "A.5",
+      "external_parent_ref": "prior:A",
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "context_2022",
+      "start_observations": {
+        "region_id": "context_2022",
+        "window": [
+          "2022-09-01",
+          "2022-12-01"
+        ],
+        "field": "low",
+        "price": 10.813,
+        "observations": [
+          {
+            "timestamp": "2022-10-13T13:30:00+00:00",
+            "source_record_index": 5972,
+            "ohlcv": [
+              10.971,
+              12.07799,
+              10.813,
+              11.96,
+              850103010.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "A.L2.advance",
+      "parent_id": "A.L2",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "3? remains open",
+      "prior_node_ref": "A.5.3",
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.1",
+      "parent_id": "A.L2.advance",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "1?",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "oct25",
+      "end_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.2",
+      "parent_id": "A.L2.advance",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "2? unclassified correction",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "oct25",
+      "start_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "mar26",
+      "end_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.3",
+      "parent_id": "A.L2.advance",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "3? open",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "mar26",
+      "start_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.1.1",
+      "parent_id": "A.L2.advance.1",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "1? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may25",
+      "end_observations": {
+        "region_id": "R_MAY25",
+        "window": [
+          "2025-05-12",
+          "2025-05-23"
+        ],
+        "field": "high",
+        "price": 137.4,
+        "observations": [
+          {
+            "timestamp": "2025-05-21T13:30:00+00:00",
+            "source_record_index": 6624,
+            "ohlcv": [
+              133.06,
+              137.4,
+              130.59,
+              131.8,
+              270608738.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.1.2",
+      "parent_id": "A.L2.advance.1",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "2? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may25",
+      "start_observations": {
+        "region_id": "R_MAY25",
+        "window": [
+          "2025-05-12",
+          "2025-05-23"
+        ],
+        "field": "high",
+        "price": 137.4,
+        "observations": [
+          {
+            "timestamp": "2025-05-21T13:30:00+00:00",
+            "source_record_index": 6624,
+            "ohlcv": [
+              133.06,
+              137.4,
+              130.59,
+              131.8,
+              270608738.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may25low",
+      "end_observations": {
+        "region_id": "R_LATE_MAY25",
+        "window": [
+          "2025-05-23",
+          "2025-06-02"
+        ],
+        "field": "low",
+        "price": 129.16,
+        "observations": [
+          {
+            "timestamp": "2025-05-23T13:30:00+00:00",
+            "source_record_index": 6626,
+            "ohlcv": [
+              130.0,
+              132.68,
+              129.16,
+              131.29,
+              198821324.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.1.3",
+      "parent_id": "A.L2.advance.1",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "3? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may25low",
+      "start_observations": {
+        "region_id": "R_LATE_MAY25",
+        "window": [
+          "2025-05-23",
+          "2025-06-02"
+        ],
+        "field": "low",
+        "price": 129.16,
+        "observations": [
+          {
+            "timestamp": "2025-05-23T13:30:00+00:00",
+            "source_record_index": 6626,
+            "ohlcv": [
+              130.0,
+              132.68,
+              129.16,
+              131.29,
+              198821324.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "aug25",
+      "end_observations": {
+        "region_id": "R_AUG25",
+        "window": [
+          "2025-08-01",
+          "2025-09-01"
+        ],
+        "field": "high",
+        "price": 184.48,
+        "observations": [
+          {
+            "timestamp": "2025-08-12T13:30:00+00:00",
+            "source_record_index": 6680,
+            "ohlcv": [
+              182.96,
+              184.48,
+              179.46,
+              183.16,
+              145729202.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.1.4",
+      "parent_id": "A.L2.advance.1",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "4? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "aug25",
+      "start_observations": {
+        "region_id": "R_AUG25",
+        "window": [
+          "2025-08-01",
+          "2025-09-01"
+        ],
+        "field": "high",
+        "price": 184.48,
+        "observations": [
+          {
+            "timestamp": "2025-08-12T13:30:00+00:00",
+            "source_record_index": 6680,
+            "ohlcv": [
+              182.96,
+              184.48,
+              179.46,
+              183.16,
+              145729202.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "sep25",
+      "end_observations": {
+        "region_id": "R_SEP25",
+        "window": [
+          "2025-09-01",
+          "2025-10-01"
+        ],
+        "field": "low",
+        "price": 164.07,
+        "observations": [
+          {
+            "timestamp": "2025-09-05T13:30:00+00:00",
+            "source_record_index": 6697,
+            "ohlcv": [
+              168.03,
+              169.03,
+              164.07,
+              167.02,
+              224441435.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.1.5",
+      "parent_id": "A.L2.advance.1",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "5? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "sep25",
+      "start_observations": {
+        "region_id": "R_SEP25",
+        "window": [
+          "2025-09-01",
+          "2025-10-01"
+        ],
+        "field": "low",
+        "price": 164.07,
+        "observations": [
+          {
+            "timestamp": "2025-09-05T13:30:00+00:00",
+            "source_record_index": 6697,
+            "ohlcv": [
+              168.03,
+              169.03,
+              164.07,
+              167.02,
+              224441435.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "oct25",
+      "end_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.3.1",
+      "parent_id": "A.L2.advance.3",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "1?",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "mar26",
+      "start_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may26",
+      "end_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.3.2",
+      "parent_id": "A.L2.advance.3",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "2?",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may26",
+      "start_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "jul26",
+      "end_observations": {
+        "region_id": "R_JUL26",
+        "window": [
+          "2026-07-20",
+          "2026-08-01"
+        ],
+        "field": "low",
+        "price": 190.01,
+        "observations": [
+          {
+            "timestamp": "2026-07-29T13:30:00+00:00",
+            "source_record_index": 6921,
+            "ohlcv": [
+              195.845,
+              197.074,
+              190.01,
+              190.01,
+              147680809.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "A.L2.advance.3.3",
+      "parent_id": "A.L2.advance.3",
+      "lineage": "A.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "3? open",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "jul26",
+      "start_observations": {
+        "region_id": "R_JUL26",
+        "window": [
+          "2026-07-20",
+          "2026-08-01"
+        ],
+        "field": "low",
+        "price": 190.01,
+        "observations": [
+          {
+            "timestamp": "2026-07-29T13:30:00+00:00",
+            "source_record_index": 6921,
+            "ohlcv": [
+              195.845,
+              197.074,
+              190.01,
+              190.01,
+              147680809.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "B.L1",
+      "parent_id": null,
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "Prior open ancestor: context only",
+      "prior_node_ref": "B.3.3.3",
+      "external_parent_ref": "prior:B.3.3",
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "context_2022",
+      "start_observations": {
+        "region_id": "context_2022",
+        "window": [
+          "2022-09-01",
+          "2022-12-01"
+        ],
+        "field": "low",
+        "price": 10.813,
+        "observations": [
+          {
+            "timestamp": "2022-10-13T13:30:00+00:00",
+            "source_record_index": 5972,
+            "ohlcv": [
+              10.971,
+              12.07799,
+              10.813,
+              11.96,
+              850103010.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "B.L1.advance",
+      "parent_id": "B.L1",
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "3? proposed ended at May region",
+      "prior_node_ref": "B.3.3.3.3",
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may26",
+      "end_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L1.advance.1",
+      "parent_id": "B.L1.advance",
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "1? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may25",
+      "end_observations": {
+        "region_id": "R_MAY25",
+        "window": [
+          "2025-05-12",
+          "2025-05-23"
+        ],
+        "field": "high",
+        "price": 137.4,
+        "observations": [
+          {
+            "timestamp": "2025-05-21T13:30:00+00:00",
+            "source_record_index": 6624,
+            "ohlcv": [
+              133.06,
+              137.4,
+              130.59,
+              131.8,
+              270608738.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L1.advance.2",
+      "parent_id": "B.L1.advance",
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "2? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may25",
+      "start_observations": {
+        "region_id": "R_MAY25",
+        "window": [
+          "2025-05-12",
+          "2025-05-23"
+        ],
+        "field": "high",
+        "price": 137.4,
+        "observations": [
+          {
+            "timestamp": "2025-05-21T13:30:00+00:00",
+            "source_record_index": 6624,
+            "ohlcv": [
+              133.06,
+              137.4,
+              130.59,
+              131.8,
+              270608738.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may25low",
+      "end_observations": {
+        "region_id": "R_LATE_MAY25",
+        "window": [
+          "2025-05-23",
+          "2025-06-02"
+        ],
+        "field": "low",
+        "price": 129.16,
+        "observations": [
+          {
+            "timestamp": "2025-05-23T13:30:00+00:00",
+            "source_record_index": 6626,
+            "ohlcv": [
+              130.0,
+              132.68,
+              129.16,
+              131.29,
+              198821324.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L1.advance.3",
+      "parent_id": "B.L1.advance",
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "3? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may25low",
+      "start_observations": {
+        "region_id": "R_LATE_MAY25",
+        "window": [
+          "2025-05-23",
+          "2025-06-02"
+        ],
+        "field": "low",
+        "price": 129.16,
+        "observations": [
+          {
+            "timestamp": "2025-05-23T13:30:00+00:00",
+            "source_record_index": 6626,
+            "ohlcv": [
+              130.0,
+              132.68,
+              129.16,
+              131.29,
+              198821324.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "oct25",
+      "end_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L1.advance.4",
+      "parent_id": "B.L1.advance",
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "4? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "oct25",
+      "start_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "mar26",
+      "end_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L1.advance.5",
+      "parent_id": "B.L1.advance",
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "5? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "mar26",
+      "start_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may26",
+      "end_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L1.correction",
+      "parent_id": "B.L1",
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "4? unresolved subsequent correction",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may26",
+      "start_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "B.L1.correction.decline",
+      "parent_id": "B.L1.correction",
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "Unclassified observed decline",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may26",
+      "start_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "jul26",
+      "end_observations": {
+        "region_id": "R_JUL26",
+        "window": [
+          "2026-07-20",
+          "2026-08-01"
+        ],
+        "field": "low",
+        "price": 190.01,
+        "observations": [
+          {
+            "timestamp": "2026-07-29T13:30:00+00:00",
+            "source_record_index": 6921,
+            "ohlcv": [
+              195.845,
+              197.074,
+              190.01,
+              190.01,
+              147680809.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L1.correction.rebound",
+      "parent_id": "B.L1.correction",
+      "lineage": "B.L1",
+      "local_interpretation": "L1",
+      "proposed_role": "Unclassified rebound; conditional latest container",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "jul26",
+      "start_observations": {
+        "region_id": "R_JUL26",
+        "window": [
+          "2026-07-20",
+          "2026-08-01"
+        ],
+        "field": "low",
+        "price": 190.01,
+        "observations": [
+          {
+            "timestamp": "2026-07-29T13:30:00+00:00",
+            "source_record_index": 6921,
+            "ohlcv": [
+              195.845,
+              197.074,
+              190.01,
+              190.01,
+              147680809.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "B.L2",
+      "parent_id": null,
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "Prior open ancestor: context only",
+      "prior_node_ref": "B.3.3.3",
+      "external_parent_ref": "prior:B.3.3",
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "context_2022",
+      "start_observations": {
+        "region_id": "context_2022",
+        "window": [
+          "2022-09-01",
+          "2022-12-01"
+        ],
+        "field": "low",
+        "price": 10.813,
+        "observations": [
+          {
+            "timestamp": "2022-10-13T13:30:00+00:00",
+            "source_record_index": 5972,
+            "ohlcv": [
+              10.971,
+              12.07799,
+              10.813,
+              11.96,
+              850103010.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "B.L2.advance",
+      "parent_id": "B.L2",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "3? remains open",
+      "prior_node_ref": "B.3.3.3.3",
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.1",
+      "parent_id": "B.L2.advance",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "1?",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "oct25",
+      "end_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.2",
+      "parent_id": "B.L2.advance",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "2? unclassified correction",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "oct25",
+      "start_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "mar26",
+      "end_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.3",
+      "parent_id": "B.L2.advance",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "3? open",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "mar26",
+      "start_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.1.1",
+      "parent_id": "B.L2.advance.1",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "1? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "origin",
+      "start_observations": {
+        "region_id": "R_APR25",
+        "window": [
+          "2025-04-01",
+          "2025-05-01"
+        ],
+        "field": "low",
+        "price": 86.62,
+        "observations": [
+          {
+            "timestamp": "2025-04-07T13:30:00+00:00",
+            "source_record_index": 6593,
+            "ohlcv": [
+              87.46,
+              101.75,
+              86.62,
+              97.64,
+              611041347.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may25",
+      "end_observations": {
+        "region_id": "R_MAY25",
+        "window": [
+          "2025-05-12",
+          "2025-05-23"
+        ],
+        "field": "high",
+        "price": 137.4,
+        "observations": [
+          {
+            "timestamp": "2025-05-21T13:30:00+00:00",
+            "source_record_index": 6624,
+            "ohlcv": [
+              133.06,
+              137.4,
+              130.59,
+              131.8,
+              270608738.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.1.2",
+      "parent_id": "B.L2.advance.1",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "2? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may25",
+      "start_observations": {
+        "region_id": "R_MAY25",
+        "window": [
+          "2025-05-12",
+          "2025-05-23"
+        ],
+        "field": "high",
+        "price": 137.4,
+        "observations": [
+          {
+            "timestamp": "2025-05-21T13:30:00+00:00",
+            "source_record_index": 6624,
+            "ohlcv": [
+              133.06,
+              137.4,
+              130.59,
+              131.8,
+              270608738.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may25low",
+      "end_observations": {
+        "region_id": "R_LATE_MAY25",
+        "window": [
+          "2025-05-23",
+          "2025-06-02"
+        ],
+        "field": "low",
+        "price": 129.16,
+        "observations": [
+          {
+            "timestamp": "2025-05-23T13:30:00+00:00",
+            "source_record_index": 6626,
+            "ohlcv": [
+              130.0,
+              132.68,
+              129.16,
+              131.29,
+              198821324.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.1.3",
+      "parent_id": "B.L2.advance.1",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "3? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may25low",
+      "start_observations": {
+        "region_id": "R_LATE_MAY25",
+        "window": [
+          "2025-05-23",
+          "2025-06-02"
+        ],
+        "field": "low",
+        "price": 129.16,
+        "observations": [
+          {
+            "timestamp": "2025-05-23T13:30:00+00:00",
+            "source_record_index": 6626,
+            "ohlcv": [
+              130.0,
+              132.68,
+              129.16,
+              131.29,
+              198821324.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "aug25",
+      "end_observations": {
+        "region_id": "R_AUG25",
+        "window": [
+          "2025-08-01",
+          "2025-09-01"
+        ],
+        "field": "high",
+        "price": 184.48,
+        "observations": [
+          {
+            "timestamp": "2025-08-12T13:30:00+00:00",
+            "source_record_index": 6680,
+            "ohlcv": [
+              182.96,
+              184.48,
+              179.46,
+              183.16,
+              145729202.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.1.4",
+      "parent_id": "B.L2.advance.1",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "4? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "aug25",
+      "start_observations": {
+        "region_id": "R_AUG25",
+        "window": [
+          "2025-08-01",
+          "2025-09-01"
+        ],
+        "field": "high",
+        "price": 184.48,
+        "observations": [
+          {
+            "timestamp": "2025-08-12T13:30:00+00:00",
+            "source_record_index": 6680,
+            "ohlcv": [
+              182.96,
+              184.48,
+              179.46,
+              183.16,
+              145729202.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "sep25",
+      "end_observations": {
+        "region_id": "R_SEP25",
+        "window": [
+          "2025-09-01",
+          "2025-10-01"
+        ],
+        "field": "low",
+        "price": 164.07,
+        "observations": [
+          {
+            "timestamp": "2025-09-05T13:30:00+00:00",
+            "source_record_index": 6697,
+            "ohlcv": [
+              168.03,
+              169.03,
+              164.07,
+              167.02,
+              224441435.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.1.5",
+      "parent_id": "B.L2.advance.1",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "5? hypothesis slot",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "sep25",
+      "start_observations": {
+        "region_id": "R_SEP25",
+        "window": [
+          "2025-09-01",
+          "2025-10-01"
+        ],
+        "field": "low",
+        "price": 164.07,
+        "observations": [
+          {
+            "timestamp": "2025-09-05T13:30:00+00:00",
+            "source_record_index": 6697,
+            "ohlcv": [
+              168.03,
+              169.03,
+              164.07,
+              167.02,
+              224441435.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "oct25",
+      "end_observations": {
+        "region_id": "R_OCT25",
+        "window": [
+          "2025-10-01",
+          "2025-11-10"
+        ],
+        "field": "high",
+        "price": 212.1899,
+        "observations": [
+          {
+            "timestamp": "2025-10-29T13:30:00+00:00",
+            "source_record_index": 6735,
+            "ohlcv": [
+              207.98,
+              212.1899,
+              204.775,
+              207.04,
+              308829564.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.3.1",
+      "parent_id": "B.L2.advance.3",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "1?",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "mar26",
+      "start_observations": {
+        "region_id": "R_MAR26",
+        "window": [
+          "2026-03-01",
+          "2026-04-01"
+        ],
+        "field": "low",
+        "price": 164.27,
+        "observations": [
+          {
+            "timestamp": "2026-03-30T13:30:00+00:00",
+            "source_record_index": 6838,
+            "ohlcv": [
+              168.78,
+              169.45,
+              164.27,
+              165.17,
+              185626992.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "may26",
+      "end_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.3.2",
+      "parent_id": "B.L2.advance.3",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "2?",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "may26",
+      "start_observations": {
+        "region_id": "R_MAY26",
+        "window": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "field": "high",
+        "price": 236.54,
+        "observations": [
+          {
+            "timestamp": "2026-05-14T13:30:00+00:00",
+            "source_record_index": 6870,
+            "ohlcv": [
+              229.85,
+              236.54,
+              229.3,
+              235.74,
+              180782857.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "jul26",
+      "end_observations": {
+        "region_id": "R_JUL26",
+        "window": [
+          "2026-07-20",
+          "2026-08-01"
+        ],
+        "field": "low",
+        "price": 190.01,
+        "observations": [
+          {
+            "timestamp": "2026-07-29T13:30:00+00:00",
+            "source_record_index": 6921,
+            "ohlcv": [
+              195.845,
+              197.074,
+              190.01,
+              190.01,
+              147680809.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      }
+    },
+    {
+      "node_id": "B.L2.advance.3.3",
+      "parent_id": "B.L2.advance.3",
+      "lineage": "B.L2",
+      "local_interpretation": "L2",
+      "proposed_role": "3? open",
+      "prior_node_ref": null,
+      "external_parent_ref": null,
+      "interpretation_authority": "REVISITED_ANALYST_HYPOTHESIS_ONLY",
+      "timeframe": "1D",
+      "degree": null,
+      "rank": null,
+      "engine_evaluated": false,
+      "family_validity_authority": false,
+      "start_prior_visual_ref": "jul26",
+      "start_observations": {
+        "region_id": "R_JUL26",
+        "window": [
+          "2026-07-20",
+          "2026-08-01"
+        ],
+        "field": "low",
+        "price": 190.01,
+        "observations": [
+          {
+            "timestamp": "2026-07-29T13:30:00+00:00",
+            "source_record_index": 6921,
+            "ohlcv": [
+              195.845,
+              197.074,
+              190.01,
+              190.01,
+              147680809.0
+            ]
+          }
+        ],
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+        "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+      },
+      "end_prior_visual_ref": "last",
+      "end_observations": {
+        "region_id": "last",
+        "field": "close",
+        "price": 229.56,
+        "observations": [
+          {
+            "timestamp": "2026-09-08T13:30:00+00:00",
+            "source_record_index": 6949,
+            "ohlcv": [
+              233.11,
+              233.71,
+              229.06,
+              229.56,
+              4602375.0
+            ]
+          }
+        ],
+        "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+        "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+      }
+    }
+  ],
+  "regions": {
+    "R_APR25": {
+      "region_id": "R_APR25",
+      "window": [
+        "2025-04-01",
+        "2025-05-01"
+      ],
+      "field": "low",
+      "price": 86.62,
+      "observations": [
+        {
+          "timestamp": "2025-04-07T13:30:00+00:00",
+          "source_record_index": 6593,
+          "ohlcv": [
+            87.46,
+            101.75,
+            86.62,
+            97.64,
+            611041347.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    "R_MAY25": {
+      "region_id": "R_MAY25",
+      "window": [
+        "2025-05-12",
+        "2025-05-23"
+      ],
+      "field": "high",
+      "price": 137.4,
+      "observations": [
+        {
+          "timestamp": "2025-05-21T13:30:00+00:00",
+          "source_record_index": 6624,
+          "ohlcv": [
+            133.06,
+            137.4,
+            130.59,
+            131.8,
+            270608738.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    "R_LATE_MAY25": {
+      "region_id": "R_LATE_MAY25",
+      "window": [
+        "2025-05-23",
+        "2025-06-02"
+      ],
+      "field": "low",
+      "price": 129.16,
+      "observations": [
+        {
+          "timestamp": "2025-05-23T13:30:00+00:00",
+          "source_record_index": 6626,
+          "ohlcv": [
+            130.0,
+            132.68,
+            129.16,
+            131.29,
+            198821324.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    "R_AUG25": {
+      "region_id": "R_AUG25",
+      "window": [
+        "2025-08-01",
+        "2025-09-01"
+      ],
+      "field": "high",
+      "price": 184.48,
+      "observations": [
+        {
+          "timestamp": "2025-08-12T13:30:00+00:00",
+          "source_record_index": 6680,
+          "ohlcv": [
+            182.96,
+            184.48,
+            179.46,
+            183.16,
+            145729202.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    "R_SEP25": {
+      "region_id": "R_SEP25",
+      "window": [
+        "2025-09-01",
+        "2025-10-01"
+      ],
+      "field": "low",
+      "price": 164.07,
+      "observations": [
+        {
+          "timestamp": "2025-09-05T13:30:00+00:00",
+          "source_record_index": 6697,
+          "ohlcv": [
+            168.03,
+            169.03,
+            164.07,
+            167.02,
+            224441435.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    "R_OCT25": {
+      "region_id": "R_OCT25",
+      "window": [
+        "2025-10-01",
+        "2025-11-10"
+      ],
+      "field": "high",
+      "price": 212.1899,
+      "observations": [
+        {
+          "timestamp": "2025-10-29T13:30:00+00:00",
+          "source_record_index": 6735,
+          "ohlcv": [
+            207.98,
+            212.1899,
+            204.775,
+            207.04,
+            308829564.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    "R_MAR26": {
+      "region_id": "R_MAR26",
+      "window": [
+        "2026-03-01",
+        "2026-04-01"
+      ],
+      "field": "low",
+      "price": 164.27,
+      "observations": [
+        {
+          "timestamp": "2026-03-30T13:30:00+00:00",
+          "source_record_index": 6838,
+          "ohlcv": [
+            168.78,
+            169.45,
+            164.27,
+            165.17,
+            185626992.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    "R_MAY26": {
+      "region_id": "R_MAY26",
+      "window": [
+        "2026-05-01",
+        "2026-06-01"
+      ],
+      "field": "high",
+      "price": 236.54,
+      "observations": [
+        {
+          "timestamp": "2026-05-14T13:30:00+00:00",
+          "source_record_index": 6870,
+          "ohlcv": [
+            229.85,
+            236.54,
+            229.3,
+            235.74,
+            180782857.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    "R_JUL26": {
+      "region_id": "R_JUL26",
+      "window": [
+        "2026-07-20",
+        "2026-08-01"
+      ],
+      "field": "low",
+      "price": 190.01,
+      "observations": [
+        {
+          "timestamp": "2026-07-29T13:30:00+00:00",
+          "source_record_index": 6921,
+          "ohlcv": [
+            195.845,
+            197.074,
+            190.01,
+            190.01,
+            147680809.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    "context_2002": {
+      "region_id": "context_2002",
+      "window": [
+        "2002-09-01",
+        "2002-12-01"
+      ],
+      "field": "low",
+      "price": 0.0600003,
+      "observations": [
+        {
+          "timestamp": "2002-10-08T13:30:00+00:00",
+          "source_record_index": 933,
+          "ohlcv": [
+            0.066667,
+            0.0668337,
+            0.0600003,
+            0.0625836,
+            716251080.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT"
+    },
+    "context_2007": {
+      "region_id": "context_2007",
+      "window": [
+        "2007-07-01",
+        "2008-01-01"
+      ],
+      "field": "high",
+      "price": 0.99175,
+      "observations": [
+        {
+          "timestamp": "2007-10-18T13:30:00+00:00",
+          "source_record_index": 2199,
+          "ohlcv": [
+            0.98525,
+            0.99175,
+            0.9605,
+            0.9877498,
+            340619080.0
+          ]
+        },
+        {
+          "timestamp": "2007-10-23T13:30:00+00:00",
+          "source_record_index": 2202,
+          "ohlcv": [
+            0.99175,
+            0.99175,
+            0.957,
+            0.9837503,
+            294326240.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT"
+    },
+    "context_2009": {
+      "region_id": "context_2009",
+      "window": [
+        "2008-09-01",
+        "2009-04-01"
+      ],
+      "field": "low",
+      "price": 0.14375,
+      "observations": [
+        {
+          "timestamp": "2008-11-21T14:30:00+00:00",
+          "source_record_index": 2476,
+          "ohlcv": [
+            0.15225,
+            0.1595,
+            0.14375,
+            0.1595,
+            599361560.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT"
+    },
+    "context_2021": {
+      "region_id": "context_2021",
+      "window": [
+        "2021-10-01",
+        "2022-01-01"
+      ],
+      "field": "high",
+      "price": 34.647,
+      "observations": [
+        {
+          "timestamp": "2021-11-22T14:30:00+00:00",
+          "source_record_index": 5748,
+          "ohlcv": [
+            33.517,
+            34.647,
+            31.9,
+            31.956,
+            754335240.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT"
+    },
+    "context_2022": {
+      "region_id": "context_2022",
+      "window": [
+        "2022-09-01",
+        "2022-12-01"
+      ],
+      "field": "low",
+      "price": 10.813,
+      "observations": [
+        {
+          "timestamp": "2022-10-13T13:30:00+00:00",
+          "source_record_index": 5972,
+          "ohlcv": [
+            10.971,
+            12.07799,
+            10.813,
+            11.96,
+            850103010.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT"
+    },
+    "last": {
+      "region_id": "last",
+      "field": "close",
+      "price": 229.56,
+      "observations": [
+        {
+          "timestamp": "2026-09-08T13:30:00+00:00",
+          "source_record_index": 6949,
+          "ohlcv": [
+            233.11,
+            233.71,
+            229.06,
+            229.56,
+            4602375.0
+          ]
+        }
+      ],
+      "authority": "FORMING_BAR_OBSERVATION_NOT_WAVE_END",
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542"
+    }
+  },
+  "current_position": {
+    "engine": "CURRENT_WAVE_POSITION_UNRESOLVED",
+    "L1": "Conditional subsequent-correction rebound; no completion proof",
+    "L2": "Conditional nested advance; exact active wave unproved"
+  },
+  "cutoff_update": "last now references frozen Sep8 observation only, not a new or confirmed wave endpoint; no 24H operands reused",
+  "source_refs": "capabilities_and_sources.json"
+}

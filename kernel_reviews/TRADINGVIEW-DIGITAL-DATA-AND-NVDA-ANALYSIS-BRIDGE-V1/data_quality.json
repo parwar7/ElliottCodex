@@ -1,0 +1,1928 @@
+{
+  "stage": "TRADINGVIEW-DIGITAL-DATA-AND-NVDA-ANALYSIS-BRIDGE-V1",
+  "datasets": {
+    "15": {
+      "bars": 2302,
+      "first_bar_start": "2026-04-30T17:00:00+00:00",
+      "last_bar_start": "2026-09-08T13:45:00+00:00",
+      "capture_start": "2026-09-08T13:53:44.731491+00:00",
+      "capture_end": "2026-09-08T13:53:45.992Z",
+      "forming_last_bar": true,
+      "source_sha256": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+      "context": {
+        "symbol": "BATS:NVDA",
+        "resolution": "15",
+        "listing": "NASDAQ:NVDA",
+        "feed": "Cboe One",
+        "exchange_timezone": "America/New_York",
+        "currency": "USD",
+        "session": "regular",
+        "session_proxy": "regular",
+        "resolved_session": "0930-1600",
+        "dividend_adjustment": false,
+        "back_adjustment": true,
+        "split_adjustment": null,
+        "chart_timezone": "Etc/UTC",
+        "chart_type": 1,
+        "loading": false,
+        "failed": false,
+        "replay": false,
+        "count": 2302,
+        "end_of_data": false,
+        "request_more_available": true,
+        "last_bar_close_time": 1788876000,
+        "viewport": {
+          "from": 1788531300,
+          "to": 1788876900
+        }
+      },
+      "stop_reason": "RECENT_REQUEST_START_REACHED",
+      "history_request": {
+        "started_at_utc": "2026-09-08T13:53:44.731491+00:00",
+        "resolution": "15",
+        "session": "regular",
+        "history_batches": [
+          {
+            "before": {
+              "symbol": "BATS:NVDA",
+              "resolution": "15",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 300,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788876000,
+              "viewport": {
+                "from": 1788531300,
+                "to": 1788876900
+              }
+            },
+            "after": {
+              "symbol": "BATS:NVDA",
+              "resolution": "15",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 2302,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788876000,
+              "viewport": {
+                "from": 1788531300,
+                "to": 1788876900
+              }
+            },
+            "requested": true,
+            "batch": 2000
+          }
+        ],
+        "stop_reason": "RECENT_REQUEST_START_REACHED",
+        "max_batches": 6,
+        "batch_bars": 2000,
+        "max_snapshot_bars": 20000,
+        "requested_start": "2026-05-01",
+        "requested_end": "capture time"
+      },
+      "missing_volume_count": 0,
+      "duplicates": 0,
+      "nonfinite": 0,
+      "ohlc_errors": 0,
+      "elapsed_gap_intervals": 89,
+      "gap_interpretation": "Calendar-unaware elapsed gaps include scheduled closures; not proven data loss",
+      "snapshot_revisions": {
+        "captured_at_utc": "2026-09-08T13:53:46.103Z",
+        "rows_changed": [],
+        "before_count": 2302,
+        "after_count": 2302
+      },
+      "reconciliation": [
+        {
+          "timestamp": "2026-04-30T17:00:00+00:00",
+          "native_values": [
+            1777568400,
+            199.82,
+            201.05,
+            199.82,
+            200.39,
+            337568
+          ],
+          "later_window_values": [
+            1777568400,
+            199.82,
+            201.05,
+            199.82,
+            200.39,
+            337568
+          ],
+          "formatted_values": {
+            "Open": "199.82",
+            "High": "201.05",
+            "Low": "199.82",
+            "Close": "200.39",
+            "Change": "+0.55 (+0.28%)",
+            "Vol": "337.57 K",
+            "Last day change": "−1.81 (−0.79%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-07-06T18:45:00+00:00",
+          "native_values": [
+            1783363500,
+            196.305,
+            196.65,
+            196.3,
+            196.625,
+            146123
+          ],
+          "later_window_values": [
+            1783363500,
+            196.305,
+            196.65,
+            196.3,
+            196.625,
+            146123
+          ],
+          "formatted_values": {
+            "Open": "196.31",
+            "High": "196.65",
+            "Low": "196.30",
+            "Close": "196.63",
+            "Change": "+0.31 (+0.16%)",
+            "Vol": "146.12 K",
+            "Last day change": "−1.81 (−0.79%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-09-08T13:45:00+00:00",
+          "native_values": [
+            1788875100,
+            229.77,
+            230.46,
+            229.06,
+            229.29,
+            417602
+          ],
+          "later_window_values": [
+            1788875100,
+            229.77,
+            230.46,
+            229.06,
+            229.6,
+            687664
+          ],
+          "formatted_values": {
+            "Open": "229.77",
+            "High": "230.46",
+            "Low": "229.06",
+            "Close": "229.60",
+            "Change": "−0.16 (−0.07%)",
+            "Vol": "687.66 K",
+            "Last day change": "−1.81 (−0.79%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": true
+        }
+      ],
+      "input_usable": true
+    },
+    "1D": {
+      "bars": 6949,
+      "first_bar_start": "1999-01-22T14:30:00+00:00",
+      "last_bar_start": "2026-09-08T13:30:00+00:00",
+      "capture_start": "2026-09-08T13:49:10.843743+00:00",
+      "capture_end": "2026-09-08T13:49:15.086Z",
+      "forming_last_bar": true,
+      "source_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "context": {
+        "symbol": "BATS:NVDA",
+        "resolution": "1D",
+        "listing": "NASDAQ:NVDA",
+        "feed": "Cboe One",
+        "exchange_timezone": "America/New_York",
+        "currency": "USD",
+        "session": "regular",
+        "session_proxy": "regular",
+        "resolved_session": "0930-1600",
+        "dividend_adjustment": false,
+        "back_adjustment": true,
+        "split_adjustment": null,
+        "chart_timezone": "Etc/UTC",
+        "chart_type": 1,
+        "loading": false,
+        "failed": false,
+        "replay": false,
+        "count": 6949,
+        "end_of_data": true,
+        "request_more_available": true,
+        "last_bar_close_time": 1788897599,
+        "viewport": {
+          "from": 1785801600,
+          "to": 1788998400
+        }
+      },
+      "stop_reason": "CHART_END_OF_DATA",
+      "history_request": {
+        "started_at_utc": "2026-09-08T13:49:10.843743+00:00",
+        "resolution": "1D",
+        "session": "regular",
+        "history_batches": [
+          {
+            "before": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1D",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 300,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788897599,
+              "viewport": {
+                "from": 1785801600,
+                "to": 1788998400
+              }
+            },
+            "after": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1D",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 2302,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788897599,
+              "viewport": {
+                "from": 1785801600,
+                "to": 1788998400
+              }
+            },
+            "requested": true,
+            "batch": 2000
+          },
+          {
+            "before": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1D",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 2302,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788897599,
+              "viewport": {
+                "from": 1785801600,
+                "to": 1788998400
+              }
+            },
+            "after": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1D",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 4304,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788897599,
+              "viewport": {
+                "from": 1785801600,
+                "to": 1788998400
+              }
+            },
+            "requested": true,
+            "batch": 2000
+          },
+          {
+            "before": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1D",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 4304,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788897599,
+              "viewport": {
+                "from": 1785801600,
+                "to": 1788998400
+              }
+            },
+            "after": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1D",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 6306,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788897599,
+              "viewport": {
+                "from": 1785801600,
+                "to": 1788998400
+              }
+            },
+            "requested": true,
+            "batch": 2000
+          },
+          {
+            "before": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1D",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 6306,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788897599,
+              "viewport": {
+                "from": 1785801600,
+                "to": 1788998400
+              }
+            },
+            "after": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1D",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 6949,
+              "end_of_data": true,
+              "request_more_available": true,
+              "last_bar_close_time": 1788897599,
+              "viewport": {
+                "from": 1785801600,
+                "to": 1788998400
+              }
+            },
+            "requested": true,
+            "batch": 2000
+          }
+        ],
+        "stop_reason": "CHART_END_OF_DATA",
+        "max_batches": 6,
+        "batch_bars": 2000,
+        "max_snapshot_bars": 20000,
+        "requested_start": "1999-01-01",
+        "requested_end": "capture time"
+      },
+      "missing_volume_count": 0,
+      "duplicates": 0,
+      "nonfinite": 0,
+      "ohlc_errors": 0,
+      "elapsed_gap_intervals": 1509,
+      "gap_interpretation": "Calendar-unaware elapsed gaps include scheduled closures; not proven data loss",
+      "snapshot_revisions": {
+        "captured_at_utc": "2026-09-08T13:49:15.380Z",
+        "rows_changed": [],
+        "before_count": 6949,
+        "after_count": 6949
+      },
+      "reconciliation": [
+        {
+          "timestamp": "1999-01-22T14:30:00+00:00",
+          "native_values": [
+            917015400,
+            0.0437502,
+            0.0488294,
+            0.0388023,
+            0.0410169,
+            2714675359.9999995
+          ],
+          "later_window_values": [
+            917015400,
+            0.0437502,
+            0.0488294,
+            0.0388023,
+            0.0410169,
+            2714675359.9999995
+          ],
+          "formatted_values": {
+            "Open": "0.0438",
+            "High": "0.0488",
+            "Low": "0.0388",
+            "Close": "0.0410",
+            "Vol": "2.71 B",
+            "Last day change": "−0.67 (−0.29%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2012-11-12T14:30:00+00:00",
+          "native_values": [
+            1352730600,
+            0.30525,
+            0.3065,
+            0.295,
+            0.297875,
+            643726400
+          ],
+          "later_window_values": [
+            1352730600,
+            0.30525,
+            0.3065,
+            0.295,
+            0.297875,
+            643726400
+          ],
+          "formatted_values": {
+            "Open": "0.3053",
+            "High": "0.3065",
+            "Low": "0.2950",
+            "Close": "0.2979",
+            "Change": "−0.0069 (−2.26%)",
+            "Vol": "643.73 M",
+            "Last day change": "−0.67 (−0.29%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2025-04-07T13:30:00+00:00",
+          "native_values": [
+            1744032600,
+            87.46,
+            101.75,
+            86.62,
+            97.64,
+            611041347
+          ],
+          "later_window_values": [
+            1744032600,
+            87.46,
+            101.75,
+            86.62,
+            97.64,
+            611041347
+          ],
+          "formatted_values": {
+            "Open": "87.46",
+            "High": "101.75",
+            "Low": "86.62",
+            "Close": "97.64",
+            "Change": "+3.33 (+3.53%)",
+            "Vol": "611.04 M",
+            "Last day change": "−0.67 (−0.29%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2025-10-29T13:30:00+00:00",
+          "native_values": [
+            1761744600,
+            207.98,
+            212.1899,
+            204.775,
+            207.04,
+            308829564
+          ],
+          "later_window_values": [
+            1761744600,
+            207.98,
+            212.1899,
+            204.775,
+            207.04,
+            308829564
+          ],
+          "formatted_values": {
+            "Open": "207.98",
+            "High": "212.19",
+            "Low": "204.78",
+            "Close": "207.04",
+            "Change": "+6.01 (+2.99%)",
+            "Vol": "308.83 M",
+            "Last day change": "−0.67 (−0.29%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-03-30T13:30:00+00:00",
+          "native_values": [
+            1774877400,
+            168.78,
+            169.45,
+            164.27,
+            165.17,
+            185626992
+          ],
+          "later_window_values": [
+            1774877400,
+            168.78,
+            169.45,
+            164.27,
+            165.17,
+            185626992
+          ],
+          "formatted_values": {
+            "Open": "168.78",
+            "High": "169.45",
+            "Low": "164.27",
+            "Close": "165.17",
+            "Change": "−2.35 (−1.40%)",
+            "Vol": "185.63 M",
+            "Last day change": "−0.67 (−0.29%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-05-14T13:30:00+00:00",
+          "native_values": [
+            1778765400,
+            229.85,
+            236.54,
+            229.3,
+            235.74,
+            180782857
+          ],
+          "later_window_values": [
+            1778765400,
+            229.85,
+            236.54,
+            229.3,
+            235.74,
+            180782857
+          ],
+          "formatted_values": {
+            "Open": "229.85",
+            "High": "236.54",
+            "Low": "229.30",
+            "Close": "235.74",
+            "Change": "+9.91 (+4.39%)",
+            "Vol": "180.78 M",
+            "Last day change": "−0.67 (−0.29%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-07-29T13:30:00+00:00",
+          "native_values": [
+            1785331800,
+            195.845,
+            197.074,
+            190.01,
+            190.01,
+            147680809
+          ],
+          "later_window_values": [
+            1785331800,
+            195.845,
+            197.074,
+            190.01,
+            190.01,
+            147680809
+          ],
+          "formatted_values": {
+            "Open": "195.85",
+            "High": "197.07",
+            "Low": "190.01",
+            "Close": "190.01",
+            "Change": "−7.00 (−3.55%)",
+            "Vol": "147.68 M",
+            "Last day change": "−0.67 (−0.29%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-09-08T13:30:00+00:00",
+          "native_values": [
+            1788874200,
+            233.11,
+            233.71,
+            229.06,
+            229.56,
+            4602375
+          ],
+          "later_window_values": [
+            1788874200,
+            233.11,
+            233.71,
+            229.06,
+            229.705,
+            18332454
+          ],
+          "formatted_values": {
+            "Open": "233.11",
+            "High": "233.71",
+            "Low": "229.06",
+            "Close": "229.71",
+            "Change": "−0.66 (−0.28%)",
+            "Vol": "18.33 M",
+            "Last day change": "−0.67 (−0.29%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": true
+        }
+      ],
+      "input_usable": true
+    },
+    "1M": {
+      "bars": 333,
+      "first_bar_start": "1999-01-01T14:30:00+00:00",
+      "last_bar_start": "2026-09-01T13:30:00+00:00",
+      "capture_start": "2026-09-08T13:49:01.310092+00:00",
+      "capture_end": "2026-09-08T13:49:01.367Z",
+      "forming_last_bar": true,
+      "source_sha256": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "context": {
+        "symbol": "BATS:NVDA",
+        "resolution": "1M",
+        "listing": "NASDAQ:NVDA",
+        "feed": "Cboe One",
+        "exchange_timezone": "America/New_York",
+        "currency": "USD",
+        "session": "regular",
+        "session_proxy": "regular",
+        "resolved_session": "0930-1600",
+        "dividend_adjustment": false,
+        "back_adjustment": true,
+        "split_adjustment": null,
+        "chart_timezone": "Etc/UTC",
+        "chart_type": 1,
+        "loading": false,
+        "failed": false,
+        "replay": false,
+        "count": 333,
+        "end_of_data": true,
+        "request_more_available": true,
+        "last_bar_close_time": 1790798399,
+        "viewport": {
+          "from": 1725321600,
+          "to": 1793577600
+        }
+      },
+      "stop_reason": "CHART_END_OF_DATA",
+      "history_request": {
+        "started_at_utc": "2026-09-08T13:49:01.310092+00:00",
+        "resolution": "1M",
+        "session": "regular",
+        "history_batches": [],
+        "stop_reason": "CHART_END_OF_DATA",
+        "max_batches": 6,
+        "batch_bars": 2000,
+        "max_snapshot_bars": 20000,
+        "requested_start": "1999-01-01",
+        "requested_end": "capture time"
+      },
+      "missing_volume_count": 0,
+      "duplicates": 0,
+      "nonfinite": 0,
+      "ohlc_errors": 0,
+      "elapsed_gap_intervals": 0,
+      "gap_interpretation": "Calendar-unaware elapsed gaps include scheduled closures; not proven data loss",
+      "snapshot_revisions": {
+        "captured_at_utc": "2026-09-08T13:49:01.414Z",
+        "rows_changed": [],
+        "before_count": 333,
+        "after_count": 333
+      },
+      "reconciliation": [
+        {
+          "timestamp": "1999-01-01T14:30:00+00:00",
+          "native_values": [
+            915201000,
+            0.0437502,
+            0.0488294,
+            0.0388023,
+            0.0395835,
+            4284267439.9999995
+          ],
+          "later_window_values": [
+            915201000,
+            0.0437502,
+            0.0488294,
+            0.0388023,
+            0.0395835,
+            4284267439.9999995
+          ],
+          "formatted_values": {
+            "Open": "0.0438",
+            "High": "0.0488",
+            "Low": "0.0388",
+            "Close": "0.0396",
+            "Vol": "4.28 B",
+            "Last day change": "−0.54 (−0.23%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2012-11-01T13:30:00+00:00",
+          "native_values": [
+            1351776600,
+            0.301,
+            0.327,
+            0.27875,
+            0.29925,
+            9986134920
+          ],
+          "later_window_values": [
+            1351776600,
+            0.301,
+            0.327,
+            0.27875,
+            0.29925,
+            9986134920
+          ],
+          "formatted_values": {
+            "Open": "0.3010",
+            "High": "0.3270",
+            "Low": "0.2788",
+            "Close": "0.2993",
+            "Change": "−0.0001 (−0.04%)",
+            "Vol": "9.99 B",
+            "Last day change": "−0.54 (−0.23%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-09-01T13:30:00+00:00",
+          "native_values": [
+            1788269400,
+            216.75,
+            234.76,
+            215.1,
+            229.43,
+            541487082
+          ],
+          "later_window_values": [
+            1788269400,
+            216.75,
+            234.76,
+            215.1,
+            229.8,
+            555213577
+          ],
+          "formatted_values": {
+            "Open": "216.75",
+            "High": "234.76",
+            "Low": "215.10",
+            "Close": "229.80",
+            "Change": "+9.02 (+4.09%)",
+            "Vol": "555.21 M",
+            "Last day change": "−0.54 (−0.23%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": true
+        }
+      ],
+      "input_usable": true
+    },
+    "1W": {
+      "bars": 1443,
+      "first_bar_start": "1999-01-18T14:30:00+00:00",
+      "last_bar_start": "2026-09-08T13:30:00+00:00",
+      "capture_start": "2026-09-08T13:49:05.465851+00:00",
+      "capture_end": "2026-09-08T13:49:06.617Z",
+      "forming_last_bar": true,
+      "source_sha256": "b14aec27a773a23fcc5776ca28bd457278c5bc718d9a35657d887543238ce678",
+      "context": {
+        "symbol": "BATS:NVDA",
+        "resolution": "1W",
+        "listing": "NASDAQ:NVDA",
+        "feed": "Cboe One",
+        "exchange_timezone": "America/New_York",
+        "currency": "USD",
+        "session": "regular",
+        "session_proxy": "regular",
+        "resolved_session": "0930-1600",
+        "dividend_adjustment": false,
+        "back_adjustment": true,
+        "split_adjustment": null,
+        "chart_timezone": "Etc/UTC",
+        "chart_type": 1,
+        "loading": false,
+        "failed": false,
+        "replay": false,
+        "count": 1443,
+        "end_of_data": true,
+        "request_more_available": true,
+        "last_bar_close_time": 1789156799,
+        "viewport": {
+          "from": 1774224000,
+          "to": 1789948800
+        }
+      },
+      "stop_reason": "CHART_END_OF_DATA",
+      "history_request": {
+        "started_at_utc": "2026-09-08T13:49:05.465851+00:00",
+        "resolution": "1W",
+        "session": "regular",
+        "history_batches": [
+          {
+            "before": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1W",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 300,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1789156799,
+              "viewport": {
+                "from": 1774224000,
+                "to": 1789948800
+              }
+            },
+            "after": {
+              "symbol": "BATS:NVDA",
+              "resolution": "1W",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 1443,
+              "end_of_data": true,
+              "request_more_available": true,
+              "last_bar_close_time": 1789156799,
+              "viewport": {
+                "from": 1774224000,
+                "to": 1789948800
+              }
+            },
+            "requested": true,
+            "batch": 2000
+          }
+        ],
+        "stop_reason": "CHART_END_OF_DATA",
+        "max_batches": 6,
+        "batch_bars": 2000,
+        "max_snapshot_bars": 20000,
+        "requested_start": "1999-01-01",
+        "requested_end": "capture time"
+      },
+      "missing_volume_count": 0,
+      "duplicates": 0,
+      "nonfinite": 0,
+      "ohlc_errors": 0,
+      "elapsed_gap_intervals": 0,
+      "gap_interpretation": "Calendar-unaware elapsed gaps include scheduled closures; not proven data loss",
+      "snapshot_revisions": {
+        "captured_at_utc": "2026-09-08T13:49:06.694Z",
+        "rows_changed": [],
+        "before_count": 1443,
+        "after_count": 1443
+      },
+      "reconciliation": [
+        {
+          "timestamp": "1999-01-18T14:30:00+00:00",
+          "native_values": [
+            916669800,
+            0.0437502,
+            0.0488294,
+            0.0388023,
+            0.0410169,
+            2714675359.9999995
+          ],
+          "later_window_values": [
+            916669800,
+            0.0437502,
+            0.0488294,
+            0.0388023,
+            0.0410169,
+            2714675359.9999995
+          ],
+          "formatted_values": {
+            "Open": "0.0438",
+            "High": "0.0488",
+            "Low": "0.0388",
+            "Close": "0.0410",
+            "Vol": "2.71 B",
+            "Last day change": "−0.56 (−0.24%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2012-11-12T14:30:00+00:00",
+          "native_values": [
+            1352730600,
+            0.30525,
+            0.3065,
+            0.27875,
+            0.2845,
+            2846592640
+          ],
+          "later_window_values": [
+            1352730600,
+            0.30525,
+            0.3065,
+            0.27875,
+            0.2845,
+            2846592640
+          ],
+          "formatted_values": {
+            "Open": "0.3053",
+            "High": "0.3065",
+            "Low": "0.2788",
+            "Close": "0.2845",
+            "Change": "−0.0203 (−6.64%)",
+            "Vol": "2.85 B",
+            "Last day change": "−0.56 (−0.24%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-09-08T13:30:00+00:00",
+          "native_values": [
+            1788874200,
+            233.11,
+            233.71,
+            229.06,
+            229.46,
+            4593126
+          ],
+          "later_window_values": [
+            1788874200,
+            233.11,
+            233.71,
+            229.06,
+            229.74,
+            18328660
+          ],
+          "formatted_values": {
+            "Open": "233.11",
+            "High": "233.71",
+            "Low": "229.06",
+            "Close": "229.74",
+            "Change": "−0.62 (−0.27%)",
+            "Vol": "18.33 M",
+            "Last day change": "−0.56 (−0.24%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": true
+        }
+      ],
+      "input_usable": true
+    },
+    "240": {
+      "bars": 2302,
+      "first_bar_start": "2022-01-28T14:30:00+00:00",
+      "last_bar_start": "2026-09-08T13:30:00+00:00",
+      "capture_start": "2026-09-08T13:52:56.357513+00:00",
+      "capture_end": "2026-09-08T13:52:57.625Z",
+      "forming_last_bar": true,
+      "source_sha256": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+      "context": {
+        "symbol": "BATS:NVDA",
+        "resolution": "240",
+        "listing": "NASDAQ:NVDA",
+        "feed": "Cboe One",
+        "exchange_timezone": "America/New_York",
+        "currency": "USD",
+        "session": "regular",
+        "session_proxy": "regular",
+        "resolved_session": "0930-1600",
+        "dividend_adjustment": false,
+        "back_adjustment": true,
+        "split_adjustment": null,
+        "chart_timezone": "Etc/UTC",
+        "chart_type": 1,
+        "loading": false,
+        "failed": false,
+        "replay": false,
+        "count": 2302,
+        "end_of_data": false,
+        "request_more_available": true,
+        "last_bar_close_time": 1788888600,
+        "viewport": {
+          "from": 1787232600,
+          "to": 1788960600
+        }
+      },
+      "stop_reason": "RECENT_REQUEST_START_REACHED",
+      "history_request": {
+        "started_at_utc": "2026-09-08T13:52:56.357513+00:00",
+        "resolution": "240",
+        "session": "regular",
+        "history_batches": [
+          {
+            "before": {
+              "symbol": "BATS:NVDA",
+              "resolution": "240",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 300,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788888600,
+              "viewport": {
+                "from": 1787232600,
+                "to": 1788960600
+              }
+            },
+            "after": {
+              "symbol": "BATS:NVDA",
+              "resolution": "240",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 2302,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788888600,
+              "viewport": {
+                "from": 1787232600,
+                "to": 1788960600
+              }
+            },
+            "requested": true,
+            "batch": 2000
+          }
+        ],
+        "stop_reason": "RECENT_REQUEST_START_REACHED",
+        "max_batches": 6,
+        "batch_bars": 2000,
+        "max_snapshot_bars": 20000,
+        "requested_start": "2026-05-01",
+        "requested_end": "capture time"
+      },
+      "missing_volume_count": 0,
+      "duplicates": 0,
+      "nonfinite": 0,
+      "ohlc_errors": 0,
+      "elapsed_gap_intervals": 1155,
+      "gap_interpretation": "Calendar-unaware elapsed gaps include scheduled closures; not proven data loss",
+      "snapshot_revisions": {
+        "captured_at_utc": "2026-09-08T13:52:57.730Z",
+        "rows_changed": [
+          {
+            "index": 299,
+            "before": [
+              1788874200,
+              233.14,
+              233.71,
+              229.06,
+              230,
+              1582646
+            ],
+            "after": [
+              1788874200,
+              233.14,
+              233.71,
+              229.06,
+              229.86,
+              1584589
+            ]
+          }
+        ],
+        "before_count": 2302,
+        "after_count": 2302
+      },
+      "reconciliation": [
+        {
+          "timestamp": "2022-01-28T14:30:00+00:00",
+          "native_values": [
+            1643380200,
+            22.011,
+            22.578,
+            21.3,
+            22.191,
+            7764250
+          ],
+          "later_window_values": [
+            1643380200,
+            22.011,
+            22.578,
+            21.3,
+            22.191,
+            7764250
+          ],
+          "formatted_values": {
+            "Open": "22.01",
+            "High": "22.58",
+            "Low": "21.30",
+            "Close": "22.19",
+            "Vol": "7.76 M",
+            "Last day change": "−0.93 (−0.40%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2024-05-16T13:30:00+00:00",
+          "native_values": [
+            1715866200,
+            94.95,
+            95.815,
+            94.119,
+            94.45,
+            28677210
+          ],
+          "later_window_values": [
+            1715866200,
+            94.95,
+            95.815,
+            94.119,
+            94.45,
+            28677210
+          ],
+          "formatted_values": {
+            "Open": "94.95",
+            "High": "95.82",
+            "Low": "94.12",
+            "Close": "94.45",
+            "Change": "−0.21 (−0.22%)",
+            "Vol": "28.68 M",
+            "Last day change": "−0.93 (−0.40%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-09-08T13:30:00+00:00",
+          "native_values": [
+            1788874200,
+            233.14,
+            233.71,
+            229.06,
+            230,
+            1582646
+          ],
+          "later_window_values": [
+            1788874200,
+            233.14,
+            233.71,
+            229.06,
+            229.46,
+            1972338
+          ],
+          "formatted_values": {
+            "Open": "233.14",
+            "High": "233.71",
+            "Low": "229.06",
+            "Close": "229.46",
+            "Change": "−0.90 (−0.39%)",
+            "Vol": "1.97 M",
+            "Last day change": "−0.93 (−0.40%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": true
+        }
+      ],
+      "input_usable": true
+    },
+    "60": {
+      "bars": 2302,
+      "first_bar_start": "2025-05-14T13:30:00+00:00",
+      "last_bar_start": "2026-09-08T13:30:00+00:00",
+      "capture_start": "2026-09-08T13:53:18.434472+00:00",
+      "capture_end": "2026-09-08T13:53:19.677Z",
+      "forming_last_bar": true,
+      "source_sha256": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+      "context": {
+        "symbol": "BATS:NVDA",
+        "resolution": "60",
+        "listing": "NASDAQ:NVDA",
+        "feed": "Cboe One",
+        "exchange_timezone": "America/New_York",
+        "currency": "USD",
+        "session": "regular",
+        "session_proxy": "regular",
+        "resolved_session": "0930-1600",
+        "dividend_adjustment": false,
+        "back_adjustment": true,
+        "split_adjustment": null,
+        "chart_timezone": "Etc/UTC",
+        "chart_type": 1,
+        "loading": false,
+        "failed": false,
+        "replay": false,
+        "count": 2302,
+        "end_of_data": false,
+        "request_more_available": true,
+        "last_bar_close_time": 1788877800,
+        "viewport": {
+          "from": 1788280200,
+          "to": 1788881400
+        }
+      },
+      "stop_reason": "RECENT_REQUEST_START_REACHED",
+      "history_request": {
+        "started_at_utc": "2026-09-08T13:53:18.434472+00:00",
+        "resolution": "60",
+        "session": "regular",
+        "history_batches": [
+          {
+            "before": {
+              "symbol": "BATS:NVDA",
+              "resolution": "60",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 300,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788877800,
+              "viewport": {
+                "from": 1788280200,
+                "to": 1788881400
+              }
+            },
+            "after": {
+              "symbol": "BATS:NVDA",
+              "resolution": "60",
+              "listing": "NASDAQ:NVDA",
+              "feed": "Cboe One",
+              "exchange_timezone": "America/New_York",
+              "currency": "USD",
+              "session": "regular",
+              "session_proxy": "regular",
+              "resolved_session": "0930-1600",
+              "dividend_adjustment": false,
+              "back_adjustment": true,
+              "split_adjustment": null,
+              "chart_timezone": "Etc/UTC",
+              "chart_type": 1,
+              "loading": false,
+              "failed": false,
+              "replay": false,
+              "count": 2302,
+              "end_of_data": false,
+              "request_more_available": true,
+              "last_bar_close_time": 1788877800,
+              "viewport": {
+                "from": 1788280200,
+                "to": 1788881400
+              }
+            },
+            "requested": true,
+            "batch": 2000
+          }
+        ],
+        "stop_reason": "RECENT_REQUEST_START_REACHED",
+        "max_batches": 6,
+        "batch_bars": 2000,
+        "max_snapshot_bars": 20000,
+        "requested_start": "2026-05-01",
+        "requested_end": "capture time"
+      },
+      "missing_volume_count": 0,
+      "duplicates": 0,
+      "nonfinite": 0,
+      "ohlc_errors": 0,
+      "elapsed_gap_intervals": 330,
+      "gap_interpretation": "Calendar-unaware elapsed gaps include scheduled closures; not proven data loss",
+      "snapshot_revisions": {
+        "captured_at_utc": "2026-09-08T13:53:19.787Z",
+        "rows_changed": [],
+        "before_count": 2302,
+        "after_count": 2302
+      },
+      "reconciliation": [
+        {
+          "timestamp": "2025-05-14T13:30:00+00:00",
+          "native_values": [
+            1747229400,
+            133.2,
+            134.85,
+            131.68,
+            132.67,
+            7825176
+          ],
+          "later_window_values": [
+            1747229400,
+            133.2,
+            134.85,
+            131.68,
+            132.67,
+            7825176
+          ],
+          "formatted_values": {
+            "Open": "133.20",
+            "High": "134.85",
+            "Low": "131.68",
+            "Close": "132.67",
+            "Vol": "7.83 M",
+            "Last day change": "−1.24 (−0.54%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-01-09T19:30:00+00:00",
+          "native_values": [
+            1767987000,
+            185.885,
+            186.08,
+            185.515,
+            185.55,
+            1207012
+          ],
+          "later_window_values": [
+            1767987000,
+            185.885,
+            186.08,
+            185.515,
+            185.55,
+            1207012
+          ],
+          "formatted_values": {
+            "Open": "185.89",
+            "High": "186.08",
+            "Low": "185.52",
+            "Close": "185.55",
+            "Change": "−0.33 (−0.18%)",
+            "Vol": "1.21 M",
+            "Last day change": "−1.24 (−0.54%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": false
+        },
+        {
+          "timestamp": "2026-09-08T13:30:00+00:00",
+          "native_values": [
+            1788874200,
+            233.14,
+            233.71,
+            229.06,
+            229.6,
+            1600129
+          ],
+          "later_window_values": [
+            1788874200,
+            233.14,
+            233.71,
+            228.95,
+            229.13,
+            2091093
+          ],
+          "formatted_values": {
+            "Open": "233.14",
+            "High": "233.71",
+            "Low": "228.95",
+            "Close": "229.13",
+            "Change": "−1.23 (−0.53%)",
+            "Vol": "2.09 M",
+            "Last day change": "−1.24 (−0.54%)"
+          },
+          "format_matches": {
+            "Open": true,
+            "High": true,
+            "Low": true,
+            "Close": true,
+            "Vol": true
+          },
+          "forming_revision": true
+        }
+      ],
+      "input_usable": true
+    }
+  },
+  "regions": [
+    {
+      "region_id": "R_APR25",
+      "window": [
+        "2025-04-01",
+        "2025-05-01"
+      ],
+      "field": "low",
+      "price": 86.62,
+      "observations": [
+        {
+          "timestamp": "2025-04-07T13:30:00+00:00",
+          "source_record_index": 6593,
+          "ohlcv": [
+            87.46,
+            101.75,
+            86.62,
+            97.64,
+            611041347.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    {
+      "region_id": "R_MAY25",
+      "window": [
+        "2025-05-12",
+        "2025-05-23"
+      ],
+      "field": "high",
+      "price": 137.4,
+      "observations": [
+        {
+          "timestamp": "2025-05-21T13:30:00+00:00",
+          "source_record_index": 6624,
+          "ohlcv": [
+            133.06,
+            137.4,
+            130.59,
+            131.8,
+            270608738.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    {
+      "region_id": "R_LATE_MAY25",
+      "window": [
+        "2025-05-23",
+        "2025-06-02"
+      ],
+      "field": "low",
+      "price": 129.16,
+      "observations": [
+        {
+          "timestamp": "2025-05-23T13:30:00+00:00",
+          "source_record_index": 6626,
+          "ohlcv": [
+            130.0,
+            132.68,
+            129.16,
+            131.29,
+            198821324.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    {
+      "region_id": "R_AUG25",
+      "window": [
+        "2025-08-01",
+        "2025-09-01"
+      ],
+      "field": "high",
+      "price": 184.48,
+      "observations": [
+        {
+          "timestamp": "2025-08-12T13:30:00+00:00",
+          "source_record_index": 6680,
+          "ohlcv": [
+            182.96,
+            184.48,
+            179.46,
+            183.16,
+            145729202.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    {
+      "region_id": "R_SEP25",
+      "window": [
+        "2025-09-01",
+        "2025-10-01"
+      ],
+      "field": "low",
+      "price": 164.07,
+      "observations": [
+        {
+          "timestamp": "2025-09-05T13:30:00+00:00",
+          "source_record_index": 6697,
+          "ohlcv": [
+            168.03,
+            169.03,
+            164.07,
+            167.02,
+            224441435.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    {
+      "region_id": "R_OCT25",
+      "window": [
+        "2025-10-01",
+        "2025-11-10"
+      ],
+      "field": "high",
+      "price": 212.1899,
+      "observations": [
+        {
+          "timestamp": "2025-10-29T13:30:00+00:00",
+          "source_record_index": 6735,
+          "ohlcv": [
+            207.98,
+            212.1899,
+            204.775,
+            207.04,
+            308829564.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    {
+      "region_id": "R_MAR26",
+      "window": [
+        "2026-03-01",
+        "2026-04-01"
+      ],
+      "field": "low",
+      "price": 164.27,
+      "observations": [
+        {
+          "timestamp": "2026-03-30T13:30:00+00:00",
+          "source_record_index": 6838,
+          "ohlcv": [
+            168.78,
+            169.45,
+            164.27,
+            165.17,
+            185626992.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    {
+      "region_id": "R_MAY26",
+      "window": [
+        "2026-05-01",
+        "2026-06-01"
+      ],
+      "field": "high",
+      "price": 236.54,
+      "observations": [
+        {
+          "timestamp": "2026-05-14T13:30:00+00:00",
+          "source_record_index": 6870,
+          "ohlcv": [
+            229.85,
+            236.54,
+            229.3,
+            235.74,
+            180782857.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    },
+    {
+      "region_id": "R_JUL26",
+      "window": [
+        "2026-07-20",
+        "2026-08-01"
+      ],
+      "field": "low",
+      "price": 190.01,
+      "observations": [
+        {
+          "timestamp": "2026-07-29T13:30:00+00:00",
+          "source_record_index": 6921,
+          "ohlcv": [
+            195.845,
+            197.074,
+            190.01,
+            190.01,
+            147680809.0
+          ]
+        }
+      ],
+      "snapshot_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "authority": "OBSERVED_REGION_EXTREMUM_NOT_ORTHODOX_ENDPOINT",
+      "methodology_evaluation": "NOT_EXECUTED_FROM_VISUAL_REGIONS"
+    }
+  ]
+}

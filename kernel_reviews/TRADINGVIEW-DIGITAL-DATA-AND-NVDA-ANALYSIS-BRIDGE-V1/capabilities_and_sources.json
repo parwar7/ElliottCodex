@@ -1,0 +1,41 @@
+{
+  "stage": "TRADINGVIEW-DIGITAL-DATA-AND-NVDA-ANALYSIS-BRIDGE-V1",
+  "connection": "Existing local tradingview_capture MCP and reviewed loopback CDP client; new allowlisted tools registered by local launcher; no config replacement/install",
+  "capabilities": {
+    "symbol": "Verified BATS:NVDA; NASDAQ:NVDA is listing identifier only",
+    "resolution": "Verified native 1M, 1W, 1D, 240, 60, 15",
+    "session": "Verified regular. sessionIdProxyProperty alone did not switch actual session; series sessionId property did, with resolved 0930-1600 metadata",
+    "history": "Loaded model bars().each gives six-field native time/open/high/low/close/volume rows; normal requestMoreData(2000), maximum six batches per capture",
+    "public_export": "exportData() actually called; returned Data export is not supported",
+    "viewport": "Actual chartModel.gotoTimeRange(milliseconds,milliseconds) navigation and crosshair positioning verified in screenshots; viewport is not data availability",
+    "data_window": "Actual dataWindowValuesProvider().getValues(index), matched by exact native timestamp, with later forming revisions separately preserved",
+    "studies": "Existing Volume and RSI made visible; MACD created on authorized temporary unsaved chart with ordinary createStudy API. Raw plots and allowlisted inputs retrieved; no Pine source serialized",
+    "screenshots": "Existing screenshot_png via genuine local MCP wrapper; saved originals are not numerical operands",
+    "drawing": "Not tested or used in this stage; no new drawing capability claim",
+    "trades_alerts_publication": "Not invoked"
+  },
+  "technical_docs": [
+    "https://www.tradingview.com/charting-library-docs/latest/api/interfaces/Charting_Library.IChartWidgetApi/"
+  ],
+  "technical_docs_limit": "Documented API presence does not imply this Desktop supports export. The observed chart-model store is an internal, version-sensitive access path, not a public stability guarantee.",
+  "source_trace": [
+    {"id":"S1","root":"Sources_LOCKED","path":"volume_01/Volume_01.srt","locator":"00:30:19.120–00:30:27.190","class":"SOURCE_RULE","excerpt":"a wave 2 cannot move beyond ... the start of wave 1","use":"P004 source boundary; only genuine existing factory results executed"},
+    {"id":"S2","root":"Sources_LOCKED","path":"volume_08/volume_08.srt","locator":"00:08:10.130–00:09:23.600","class":"SOURCE_GUIDELINE","excerpt":"Don't be afraid to count 1, 2 1, 2","use":"Nested scenario possibility, not selection/confirmation"},
+    {"id":"S3","root":"Brain_LOCKED","path":"docs/elliott/PATTERN_BRAIN.md","locator":"A–C","class":"SOURCE_DEFINITION","use":"Normal impulse/extension expectations, no NVDA endpoint authority"},
+    {"id":"S4","root":"Brain_LOCKED","path":"docs/elliott/DEGREE_RECURSION_BRAIN.md","locator":"2,5,6,7,8","class":"SOURCE_DEFINITION","use":"Parent-child order and timeframe!=degree; unresolved internals remain unresolved"},
+    {"id":"S5","root":"Brain_LOCKED","path":"docs/elliott/MASTER_PROTOCOL.md","locator":"Steps 4–6","class":"SOURCE_RULE","use":"Structural constraints before evidence; no rescue of fatal originating violation"},
+    {"id":"S6","root":"Brain_LOCKED","path":"docs/elliott/SOURCE_POLICY.md","locator":"P005 measurement exception and approved measurement contract","source_class":"SOURCE_RULE for originating book sufficient condition","project_class":"USER_APPROVED_PROJECT_CONVENTIONS for measurement and conflict policy","use":"Existing P005 exact represented-ratio positive sufficiency only; no fresh rule or negative inference"},
+    {"id":"S7","root":"Sources_LOCKED","path":"book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf","locator":"page 31; prior approved review source receipts","class":"SOURCE_DEFINITION","use":"Five-position expectation only; consulted protected synthesis and existing research, no new exhaustive book review"},
+    {"id":"S8","root":"Sources_LOCKED","path":"book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf","locator":"Extension pages 32–33; prior approved review source receipts","class":"SOURCE_GUIDELINE","use":"Extension possibility only, not a rule choosing L2"}
+  ],
+  "prior_review_refs": [
+    "kernel_reviews/NVDA-SOURCE-LOCKED-VISUAL-HIERARCHY-ANALYSIS-V1/hierarchy.json",
+    "kernel_reviews/NVDA-RECENT-COMPONENT-VISUAL-RESOLUTION-V1/hierarchy.json",
+    "kernel_reviews/NVDA-RECENT-COMPONENT-VISUAL-RESOLUTION-V1/source_references.json"
+  ],
+  "indicator_authority": "PROJECT_ANALYSIS_INFRASTRUCTURE factual diagnostics only. RSI/MACD exported study values; no local indicator calculation. EWO not configured/definition unverified, omitted. No volume-based wave confirmation.",
+  "conflicts_and_freezes": ["P006 unchanged frozen/conflicted","Flat/Triangle freezes unchanged","SOURCE_DERIVED_BASE_CASE_NOT_FOUND","P005 historical both-bases conflict preserved under narrow adopted policy"],
+  "rank": null,
+  "inventories": [11,7,0,0],
+  "limitations": ["Unknown independently verified split-adjustment semantics", "Unverified volume units/aggregation across resolutions", "Non-simultaneous captures and developing-bar revisions", "Operational loaded/account-accessible history bounds", "No terminal/family certification", "No active-wave certification"]
+}

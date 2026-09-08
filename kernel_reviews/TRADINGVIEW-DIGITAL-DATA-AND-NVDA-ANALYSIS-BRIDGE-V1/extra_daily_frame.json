@@ -1,0 +1,23 @@
+{
+  "image": {
+    "path": "screenshots/1D_1788874200.png",
+    "bytes": 202897,
+    "sha256": "6bf2dc05c95137abe3e5f53a36fe2603d3f3c1a6eac653af9a1c98354202a241"
+  },
+  "capture_metadata_time_utc": "2026-09-08T13:59:59.315092+00:00",
+  "source": "Actual MCP screenshot response; additional recent Daily frame after the early/middle/turning-point trio",
+  "symbol": "BATS:NVDA",
+  "listing": "NASDAQ:NVDA",
+  "feed": "Cboe One",
+  "resolution": "1D",
+  "session": "regular",
+  "chart_timezone": "Etc/UTC",
+  "visible_range_unix": {
+    "from": 1786320000,
+    "to": 1790035200
+  },
+  "price_scale": "logarithmic, auto on",
+  "manual_image_inspection": true,
+  "numeric_operand": false,
+  "note": "Later than frozen Daily OHLCV; live forming values do not replace the frozen snapshot."
+}

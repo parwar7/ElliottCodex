@@ -1,0 +1,18 @@
+{
+  "input_hashes_verified": true,
+  "sample_reconciliation_passed": true,
+  "exact_case_endpoints_checked": 48,
+  "hierarchy_parent_links_checked": 46,
+  "visual_labels_not_used_as_executable_inputs": true,
+  "chart_contract": {
+    "surface": "portable canonical report",
+    "audience": "product stakeholders, Arabic by user request",
+    "palette": "native single-root blue; no categorical score colors",
+    "monthly": "333 native monthly closes; historical linear compression explicitly noted",
+    "daily": "all saved daily closes since April 2025, no smoothing",
+    "tables": "exact audit lookup; not rankings",
+    "section_mapping": "summary; coverage/baseline; scenario findings; numerical comparison; indicators; bounded outcomes/caveats; next evidence needs",
+    "quantitative_omissions": "No decorative bars comparing non-equivalent timeframe counts; exact coverage table instead"
+  },
+  "new_framework": false
+}

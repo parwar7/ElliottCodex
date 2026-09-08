@@ -1,0 +1,211 @@
+{
+  "context": {
+    "symbol": "BATS:NVDA",
+    "resolution": "1M",
+    "listing": "NASDAQ:NVDA",
+    "feed": "Cboe One",
+    "exchange_timezone": "America/New_York",
+    "currency": "USD",
+    "session": "regular",
+    "session_proxy": "regular",
+    "resolved_session": "0930-1600",
+    "dividend_adjustment": false,
+    "back_adjustment": true,
+    "split_adjustment": null,
+    "chart_timezone": "Etc/UTC",
+    "chart_type": 1,
+    "loading": false,
+    "failed": false,
+    "replay": false,
+    "count": 333,
+    "end_of_data": true,
+    "request_more_available": true,
+    "last_bar_close_time": 1790798399,
+    "viewport": {
+      "from": 1725321600,
+      "to": 1793577600
+    }
+  },
+  "samples": [
+    {
+      "index": -33,
+      "row": [
+        915201000,
+        0.0437502,
+        0.0488294,
+        0.0388023,
+        0.0395835,
+        4284267439.9999995
+      ],
+      "window": [
+        {
+          "title": "Open",
+          "value": "0.0438",
+          "visible": true
+        },
+        {
+          "title": "High",
+          "value": "0.0488",
+          "visible": true
+        },
+        {
+          "title": "Low",
+          "value": "0.0388",
+          "visible": true
+        },
+        {
+          "title": "Close",
+          "value": "0.0396",
+          "visible": true
+        },
+        {
+          "title": "",
+          "value": "0.0396",
+          "visible": false
+        },
+        {
+          "title": "",
+          "value": "∅",
+          "visible": false
+        },
+        {
+          "title": "Change",
+          "value": "∅ (∅%)",
+          "visible": false
+        },
+        {
+          "title": "Vol",
+          "value": "4.28 B",
+          "visible": true
+        },
+        {
+          "title": "Last day change",
+          "value": "−0.54 (−0.23%)",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "index": 133,
+      "row": [
+        1351776600,
+        0.301,
+        0.327,
+        0.27875,
+        0.29925,
+        9986134920
+      ],
+      "window": [
+        {
+          "title": "Open",
+          "value": "0.3010",
+          "visible": true
+        },
+        {
+          "title": "High",
+          "value": "0.3270",
+          "visible": true
+        },
+        {
+          "title": "Low",
+          "value": "0.2788",
+          "visible": true
+        },
+        {
+          "title": "Close",
+          "value": "0.2993",
+          "visible": true
+        },
+        {
+          "title": "",
+          "value": "0.2993",
+          "visible": false
+        },
+        {
+          "title": "",
+          "value": "∅",
+          "visible": false
+        },
+        {
+          "title": "Change",
+          "value": "−0.0001 (−0.04%)",
+          "visible": true
+        },
+        {
+          "title": "Vol",
+          "value": "9.99 B",
+          "visible": true
+        },
+        {
+          "title": "Last day change",
+          "value": "−0.54 (−0.23%)",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "index": 299,
+      "row": [
+        1788269400,
+        216.75,
+        234.76,
+        215.1,
+        229.8,
+        555213577
+      ],
+      "window": [
+        {
+          "title": "Open",
+          "value": "216.75",
+          "visible": true
+        },
+        {
+          "title": "High",
+          "value": "234.76",
+          "visible": true
+        },
+        {
+          "title": "Low",
+          "value": "215.10",
+          "visible": true
+        },
+        {
+          "title": "Close",
+          "value": "229.80",
+          "visible": true
+        },
+        {
+          "title": "",
+          "value": "229.80",
+          "visible": false
+        },
+        {
+          "title": "",
+          "value": "∅",
+          "visible": false
+        },
+        {
+          "title": "Change",
+          "value": "+9.02 (+4.09%)",
+          "visible": true
+        },
+        {
+          "title": "Vol",
+          "value": "555.21 M",
+          "visible": true
+        },
+        {
+          "title": "Last day change",
+          "value": "−0.54 (−0.23%)",
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "requested_timestamps": [
+    915201000,
+    1351776600,
+    1788269400
+  ],
+  "captured_at_unix": 1788875810.6388679
+}
