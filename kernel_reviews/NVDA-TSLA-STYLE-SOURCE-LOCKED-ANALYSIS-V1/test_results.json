@@ -1,0 +1,14 @@
+{
+  "new_test_module": "tests/test_nvda_english_analysis.py",
+  "initial_new_tests": {"run": 21, "passed": 21, "failed": 0, "seconds": 0.929},
+  "final_focused_suite": {
+    "modules": ["test_nvda_english_analysis", "test_normal_component_exploration", "test_observational_hierarchy", "test_p005_observation_binding", "test_normal_impulse_ancestry_identity", "test_nvda_coherent_report"],
+    "run": 119, "passed": 119, "failed": 0, "seconds": 38.022,
+    "raw_result": "Ran 119 tests in 38.022s\nOK",
+    "new_21_included_in_119": true
+  },
+  "full_suite": {"rerun": false, "reason": "New analysis/report helpers only; Kernel, shared evidence contracts, existing implementation and tests unchanged. Relevant public-factory identity, observation-binding and report tests rerun.", "historical_receipt": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1: 1296 passed; not represented as a new run"},
+  "live_retrieval_in_tests": false,
+  "existing_tests_modified": false,
+  "failed_methodology_checks_or_defects_exposed": false
+}

@@ -1,0 +1,118 @@
+{
+  "stage": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1",
+  "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+  "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+  "sources": [
+    {
+      "principle": "P001/P002/P003",
+      "classification": "SOURCE_GUIDELINE / SOURCE_DEFINITION (separate propositions)",
+      "path": "Brain_LOCKED/docs/elliott/MASTER_PROTOCOL.md",
+      "locator": "Steps 1–6",
+      "meaning": "Start with history, use parent context, preserve degrees and recursively unresolved internals. No timeframe/degree mapping.",
+      "use": "Analyst context, not a new executable behavior.",
+      "sha256": "a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6"
+    },
+    {
+      "principle": "P004",
+      "classification": "SOURCE_RULE",
+      "path": "Sources_LOCKED/volume_01/volume_01.srt",
+      "locator": "00:30:06.159–00:30:27.190",
+      "excerpt": "a wave 2 cannot move beyond ... the start of wave 1.",
+      "use": "Only existing exact P004 public evaluations; no new whole-path or global price invalidator.",
+      "sha256": "c005460d847e2170595435dadc379444acca667c9ad0006969295b18915656ff"
+    },
+    {
+      "principle": "P005",
+      "classification": "SOURCE_RULE + separately USER_APPROVED_PROJECT_CONVENTIONS",
+      "path": "Brain_LOCKED/docs/elliott/SOURCE_POLICY.md",
+      "locator": "§4 P005 exception and approved measurement contract",
+      "meaning": "Book percentage sufficient condition with exact per-wave represented arithmetic. Developing input unresolved, residual unresolved, no negative P005 result.",
+      "use": "Existing approved evaluator unchanged. Book source and Volume 10 conflict preserved in P005-APPROVED-PERCENTAGE-SUFFICIENCY-IMPLEMENTATION-V1/source_traceability.json, read and reused; no new book interpretation.",
+      "sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018"
+    },
+    {
+      "principle": "P007/P008",
+      "classification": "SOURCE_DEFINITION",
+      "path": "Brain_LOCKED/docs/elliott/PATTERN_BRAIN.md",
+      "locator": "§F single zigzag and §G flat",
+      "meaning": "5-3-5 versus 3-3-5 requirements remain distinct from the reused direct-child cardinality results.",
+      "use": "Unresolved corrective interpretations, not ABC identification by three segments.",
+      "sha256": "d7cd7ef46829e84f71cf8e6b452246d63b8c8eac1c0eef28030d51c3f7d59209"
+    },
+    {
+      "principle": "P014 (cluster only)",
+      "classification": "SOURCE_GUIDELINE",
+      "path": "Brain_LOCKED/docs/elliott/EVIDENCE_BRAIN.md",
+      "locator": "§4 Fibonacci and cluster principle",
+      "meaning": "Ratios are guideline/forecast context, not rule authority; independent calculations needed for confluence.",
+      "use": "Descriptive ratios of exact supplied endpoint distances. No match threshold, score, target, forecast or confluence assertion.",
+      "sha256": "72c86b6d39374565d6df110c7c62283776a6eefeb37be4d7af4e32b21a367b1a"
+    },
+    {
+      "principle": null,
+      "classification": "SOURCE_GUIDELINE; measurement demonstration not universal rule",
+      "path": "Sources_LOCKED/volume_07/volume_07.srt",
+      "locator": "00:07:28.430–00:10:29.100",
+      "excerpt": "You measure the length of the move.",
+      "meaning": "Illustrates measured retracements .618/.382/.236/.146; no automatic price tolerance or endpoint qualification follows.",
+      "use": "Comparison context for descriptive distances. No new protected ID assigned.",
+      "sha256": "5d80cafb6abb09abd86c012671cb8ba1abeaa160c7b9e506a19b03ec7b433571"
+    },
+    {
+      "principle": "P015",
+      "classification": "SOURCE_OBSERVATION",
+      "path": "Sources_LOCKED/volume_10/volume_10.txt",
+      "locator": "00:03:54.920–00:04:48.919",
+      "excerpt": "Between the center of ... wave three and the peak of wave three.",
+      "meaning": "Stock impulse volume often peaks within the third; a fifth spike is often smaller. Not compulsory, not completion proof.",
+      "use": "Raw peak volumes over explicitly open bar-label windows. All interpretations NEUTRAL because equal degree, attribution and adjustment remain unresolved.",
+      "sha256": "624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25"
+    },
+    {
+      "principle": "P023",
+      "classification": "SOURCE_DEFINITION",
+      "path": "Brain_LOCKED/docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "locator": "§§2,5–7",
+      "meaning": "Data resolution may hide subdivisions; no hidden-pivot invention; timeframe is not degree.",
+      "use": "Unresolved leaves and unsupported Weekly interval transport retained.",
+      "sha256": "b8cb7bf124845420fc26f2e95cf863171dc3b195908c1bd79c57d6ab47daac9f"
+    },
+    {
+      "principle": null,
+      "classification": "UNRESOLVED / CONFLICT",
+      "path": "Brain_LOCKED/docs/elliott/SOURCE_POLICY.md",
+      "locator": "§§4,6",
+      "meaning": "P006 frozen conflict and modern indicator interpretation limits remain; RSI/MACD study values are observations only.",
+      "use": "No P006, no terminal proof, no family issuer or indicator inference.",
+      "sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018"
+    }
+  ],
+  "interpretation_decisions": {
+    "TSLA_reference": "Presentation/depth only, not source methodology or adopted counts",
+    "new_region_selection": "PROJECT_OPERATIONAL_POLICY; 8 predeclared analyst proposals; no significance or rank",
+    "raw_ratios": "PROJECT_ANALYSIS_INFRASTRUCTURE; absolute represented endpoint distances, no rounding before calculation, display decimals only",
+    "peak_volume": "PROJECT_ANALYSIS_INFRASTRUCTURE; strictly interior bar labels; excludes endpoint bars, no threshold",
+    "new_methodology": 0,
+    "executable_inventory": [
+      11,
+      7,
+      0,
+      0
+    ],
+    "p006": "FROZEN_UNRESOLVED_CONFLICT",
+    "flat_triangle_geometry": "FROZEN",
+    "terminal": "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "positive_family_authority": false
+  },
+  "files_read_hashes": {
+    "Brain_LOCKED/docs/elliott/SOURCE_POLICY.md": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018",
+    "Brain_LOCKED/docs/elliott/MASTER_PROTOCOL.md": "a008c82a28228b9175528205a4eb30ff188e9f26c170253a15b260a2df6c1de6",
+    "Brain_LOCKED/docs/elliott/PATTERN_BRAIN.md": "d7cd7ef46829e84f71cf8e6b452246d63b8c8eac1c0eef28030d51c3f7d59209",
+    "Brain_LOCKED/docs/elliott/DEGREE_RECURSION_BRAIN.md": "b8cb7bf124845420fc26f2e95cf863171dc3b195908c1bd79c57d6ab47daac9f",
+    "Brain_LOCKED/docs/elliott/EVIDENCE_BRAIN.md": "72c86b6d39374565d6df110c7c62283776a6eefeb37be4d7af4e32b21a367b1a",
+    "Brain_LOCKED/docs/elliott/SOURCE_EVIDENCE_MAP.json": "c0239392469c990650dd01a3024d64bdf93cba3f167fd37e826bd415496edb51",
+    "Sources_LOCKED/volume_01/volume_01.srt": "c005460d847e2170595435dadc379444acca667c9ad0006969295b18915656ff",
+    "Sources_LOCKED/volume_07/volume_07.srt": "5d80cafb6abb09abd86c012671cb8ba1abeaa160c7b9e506a19b03ec7b433571",
+    "Sources_LOCKED/volume_10/volume_10.txt": "624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25"
+  }
+}

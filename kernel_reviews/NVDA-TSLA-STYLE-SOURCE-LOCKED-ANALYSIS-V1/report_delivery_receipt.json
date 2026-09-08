@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "html": "report.html",
+  "stages": {"validation": "passed", "package": "passed", "verification": "structural_only"},
+  "browserWarning": {"code": "browser_unavailable", "message": "No installed compatible Chromium headless-shell was found. No browser installed. Enhanced visual/interaction QA unavailable."},
+  "counts": {"blocks": 46, "charts": 8, "html": 0, "metrics": 0, "tables": 0},
+  "sourceDialog": "not_verified", "sourceInteraction": "not_verified", "viewports": [],
+  "semantic_fallback": "Builder-generated from the same canonical artifact; source payload equality and reader/fallback roots passed structural verification.",
+  "markdown_role_tables": "Exact lookup tables occur inside native markdown blocks; counts.tables=0 means no separate native table component, not no role tables."
+}

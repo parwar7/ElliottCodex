@@ -1,0 +1,14 @@
+{
+  "cases": 13,
+  "raw_endpoint_fields_checked": 122,
+  "p004_nonrescue": true,
+  "certificate_claims": 0,
+  "chart_rows_reconciled": 1939,
+  "wave_rows": 61,
+  "indicator_values_reconciled": 10,
+  "path_windows": 40,
+  "new_links": 4,
+  "weekly_ancestry_not_invented": true,
+  "prior_links_not_reparented": true,
+  "methodology_unchanged": true
+}

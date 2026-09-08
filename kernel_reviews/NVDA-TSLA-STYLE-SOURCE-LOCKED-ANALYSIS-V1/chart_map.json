@@ -1,0 +1,133 @@
+{
+  "charts": [
+    {
+      "id": "plot-H-MAY",
+      "question": "How do these exact proposed endpoints sit within the observed price path?",
+      "family": "scatter",
+      "variant": "dense temporal close observations plus labelled endpoint observations",
+      "resolution": "1M",
+      "source": "chart_rows.json",
+      "palette": "single-root preferred; labels identify proposed endpoints",
+      "rows": 339,
+      "date_range": [
+        "1999-01-01T14:30:00+00:00",
+        "2026-09-01T13:30:00+00:00"
+      ],
+      "historical_display_window": false,
+      "no_rank_or_degree_authority": true
+    },
+    {
+      "id": "plot-H-SEP",
+      "question": "How do these exact proposed endpoints sit within the observed price path?",
+      "family": "scatter",
+      "variant": "dense temporal close observations plus labelled endpoint observations",
+      "resolution": "1M",
+      "source": "chart_rows.json",
+      "palette": "single-root preferred; labels identify proposed endpoints",
+      "rows": 339,
+      "date_range": [
+        "1999-01-01T14:30:00+00:00",
+        "2026-09-01T13:30:00+00:00"
+      ],
+      "historical_display_window": false,
+      "no_rank_or_degree_authority": true
+    },
+    {
+      "id": "plot-EARLY-W",
+      "question": "How do these exact proposed endpoints sit within the observed price path?",
+      "family": "scatter",
+      "variant": "dense temporal close observations plus labelled endpoint observations",
+      "resolution": "1W",
+      "source": "chart_rows.json",
+      "palette": "single-root preferred; labels identify proposed endpoints",
+      "rows": 270,
+      "date_range": [
+        "2002-10-07T13:30:00+00:00",
+        "2007-10-22T13:30:00+00:00"
+      ],
+      "historical_display_window": true,
+      "no_rank_or_degree_authority": true
+    },
+    {
+      "id": "plot-MIDDLE-W",
+      "question": "How do these exact proposed endpoints sit within the observed price path?",
+      "family": "scatter",
+      "variant": "dense temporal close observations plus labelled endpoint observations",
+      "resolution": "1W",
+      "source": "chart_rows.json",
+      "palette": "single-root preferred; labels identify proposed endpoints",
+      "rows": 686,
+      "date_range": [
+        "2008-11-17T14:30:00+00:00",
+        "2021-11-22T14:30:00+00:00"
+      ],
+      "historical_display_window": true,
+      "no_rank_or_degree_authority": true
+    },
+    {
+      "id": "plot-RECENT-W-B",
+      "question": "How do these exact proposed endpoints sit within the observed price path?",
+      "family": "scatter",
+      "variant": "dense temporal close observations plus labelled endpoint observations",
+      "resolution": "1W",
+      "source": "chart_rows.json",
+      "palette": "single-root preferred; labels identify proposed endpoints",
+      "rows": 211,
+      "date_range": [
+        "2022-10-10T13:30:00+00:00",
+        "2026-09-08T13:30:00+00:00"
+      ],
+      "historical_display_window": false,
+      "no_rank_or_degree_authority": true
+    },
+    {
+      "id": "plot-H4CONTEXT-240-N4-S31-SINGLE_ZIGZAG",
+      "question": "How do these exact proposed endpoints sit within the observed price path?",
+      "family": "scatter",
+      "variant": "dense temporal close observations plus labelled endpoint observations",
+      "resolution": "240",
+      "source": "chart_rows.json",
+      "palette": "single-root preferred; labels identify proposed endpoints",
+      "rows": 14,
+      "date_range": [
+        "2026-08-31T17:30:00+00:00",
+        "2026-09-08T13:30:00+00:00"
+      ],
+      "historical_display_window": false,
+      "no_rank_or_degree_authority": true
+    },
+    {
+      "id": "plot-D2026-1D-N6-S38",
+      "question": "How do these exact proposed endpoints sit within the observed price path?",
+      "family": "scatter",
+      "variant": "dense temporal close observations plus labelled endpoint observations",
+      "resolution": "1D",
+      "source": "chart_rows.json",
+      "palette": "single-root preferred; labels identify proposed endpoints",
+      "rows": 35,
+      "date_range": [
+        "2026-07-29T13:30:00+00:00",
+        "2026-09-08T13:30:00+00:00"
+      ],
+      "historical_display_window": false,
+      "no_rank_or_degree_authority": true
+    },
+    {
+      "id": "plot-TAIL-15-N6-S10",
+      "question": "How do these exact proposed endpoints sit within the observed price path?",
+      "family": "scatter",
+      "variant": "dense temporal close observations plus labelled endpoint observations",
+      "resolution": "15",
+      "source": "chart_rows.json",
+      "palette": "single-root preferred; labels identify proposed endpoints",
+      "rows": 45,
+      "date_range": [
+        "2026-09-03T17:15:00+00:00",
+        "2026-09-08T13:45:00+00:00"
+      ],
+      "historical_display_window": false,
+      "no_rank_or_degree_authority": true
+    }
+  ],
+  "repeated_family_reason": "Every chart asks a price-path/endpoint question at a separate historical context or resolution; exact lookup remains in role tables. No redundant charts for unrelated metrics."
+}

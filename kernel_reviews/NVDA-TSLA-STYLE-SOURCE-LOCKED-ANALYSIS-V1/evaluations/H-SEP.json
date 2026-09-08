@@ -1,0 +1,439 @@
+{
+  "hypothesis_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:partial:NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:evaluate-as:NORMAL_IMPULSE",
+  "candidate_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70",
+  "path": "root",
+  "parent_scope": "H-SEP",
+  "timeframe": "1mo",
+  "snapshot_content_sha256": "0b3de9595320878a31013b3fbe92c970a292454b012209e1c51521fa524f51e5",
+  "source_response_sha256": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+  "candidate_shape": "FIVE_SEGMENT_HYPOTHESIS",
+  "authority": {
+    "family_validity": false,
+    "completion": false,
+    "ranking": false,
+    "forecast": false,
+    "degree": false
+  },
+  "direction": "UP",
+  "role_authority": "HYPOTHESIS_SLOT_METADATA_NOT_CONFIRMED_WAVE_LABELS",
+  "endpoints": [
+    {
+      "role": "1",
+      "edge": "start",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:1",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:45:LOW",
+      "timestamp_utc": "2002-10-01T13:30:00+00:00",
+      "price_field": "low",
+      "price": 0.0600003,
+      "represented_ratio": {
+        "numerator": 8646954519107775,
+        "denominator": 144115188075855872
+      },
+      "pivot_state": "CONFIRMED_BY_GEOMETRY",
+      "bar_provenance": {
+        "source_record_index": 46,
+        "source_timestamp": "2002-10-01T13:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    {
+      "role": "1",
+      "edge": "end",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:1",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:105:HIGH",
+      "timestamp_utc": "2007-10-01T13:30:00+00:00",
+      "price_field": "high",
+      "price": 0.99175,
+      "represented_ratio": {
+        "numerator": 8932889860889379,
+        "denominator": 9007199254740992
+      },
+      "pivot_state": "CONFIRMED_BY_GEOMETRY",
+      "bar_provenance": {
+        "source_record_index": 106,
+        "source_timestamp": "2007-10-01T13:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    {
+      "role": "2",
+      "edge": "start",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:2",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:105:HIGH",
+      "timestamp_utc": "2007-10-01T13:30:00+00:00",
+      "price_field": "high",
+      "price": 0.99175,
+      "represented_ratio": {
+        "numerator": 8932889860889379,
+        "denominator": 9007199254740992
+      },
+      "pivot_state": "CONFIRMED_BY_GEOMETRY",
+      "bar_provenance": {
+        "source_record_index": 106,
+        "source_timestamp": "2007-10-01T13:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    {
+      "role": "2",
+      "edge": "end",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:2",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:118:LOW",
+      "timestamp_utc": "2008-11-03T14:30:00+00:00",
+      "price_field": "low",
+      "price": 0.14375,
+      "represented_ratio": {
+        "numerator": 2589569785738035,
+        "denominator": 18014398509481984
+      },
+      "pivot_state": "CONFIRMED_BY_GEOMETRY",
+      "bar_provenance": {
+        "source_record_index": 119,
+        "source_timestamp": "2008-11-03T14:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    {
+      "role": "3",
+      "edge": "start",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:3",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:118:LOW",
+      "timestamp_utc": "2008-11-03T14:30:00+00:00",
+      "price_field": "low",
+      "price": 0.14375,
+      "represented_ratio": {
+        "numerator": 2589569785738035,
+        "denominator": 18014398509481984
+      },
+      "pivot_state": "CONFIRMED_BY_GEOMETRY",
+      "bar_provenance": {
+        "source_record_index": 119,
+        "source_timestamp": "2008-11-03T14:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    {
+      "role": "3",
+      "edge": "end",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:3",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:274:HIGH",
+      "timestamp_utc": "2021-11-01T13:30:00+00:00",
+      "price_field": "high",
+      "price": 34.647,
+      "represented_ratio": {
+        "numerator": 4876131759047049,
+        "denominator": 140737488355328
+      },
+      "pivot_state": "CONFIRMED_BY_GEOMETRY",
+      "bar_provenance": {
+        "source_record_index": 275,
+        "source_timestamp": "2021-11-01T13:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    {
+      "role": "4",
+      "edge": "start",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:4",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:274:HIGH",
+      "timestamp_utc": "2021-11-01T13:30:00+00:00",
+      "price_field": "high",
+      "price": 34.647,
+      "represented_ratio": {
+        "numerator": 4876131759047049,
+        "denominator": 140737488355328
+      },
+      "pivot_state": "CONFIRMED_BY_GEOMETRY",
+      "bar_provenance": {
+        "source_record_index": 275,
+        "source_timestamp": "2021-11-01T13:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    {
+      "role": "4",
+      "edge": "end",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:4",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:285:LOW",
+      "timestamp_utc": "2022-10-03T13:30:00+00:00",
+      "price_field": "low",
+      "price": 10.813,
+      "represented_ratio": {
+        "numerator": 6087177846344647,
+        "denominator": 562949953421312
+      },
+      "pivot_state": "CONFIRMED_BY_GEOMETRY",
+      "bar_provenance": {
+        "source_record_index": 286,
+        "source_timestamp": "2022-10-03T13:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    {
+      "role": "5",
+      "edge": "start",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:5",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:285:LOW",
+      "timestamp_utc": "2022-10-03T13:30:00+00:00",
+      "price_field": "low",
+      "price": 10.813,
+      "represented_ratio": {
+        "numerator": 6087177846344647,
+        "denominator": 562949953421312
+      },
+      "pivot_state": "CONFIRMED_BY_GEOMETRY",
+      "bar_provenance": {
+        "source_record_index": 286,
+        "source_timestamp": "2022-10-03T13:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    {
+      "role": "5",
+      "edge": "end",
+      "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:5",
+      "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:332:HIGH",
+      "timestamp_utc": "2026-09-01T13:30:00+00:00",
+      "price_field": "high",
+      "price": 234.76,
+      "represented_ratio": {
+        "numerator": 1032485398946775,
+        "denominator": 4398046511104
+      },
+      "pivot_state": "DEVELOPING",
+      "bar_provenance": {
+        "source_record_index": 333,
+        "source_timestamp": "2026-09-01T13:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    }
+  ],
+  "requirement_id": null,
+  "parent_family_hypothesis_id": null,
+  "family": "NORMAL_IMPULSE_PARTIAL",
+  "binding_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-direct-children",
+  "state": "P004_SATISFIED_WITH_UNRESOLVED_METHODOLOGY_DEPENDENCIES",
+  "coverage": "P004_AND_P005_PARTIAL_ONLY",
+  "unresolved_reasons": [
+    "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+    "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+    "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+  ],
+  "checks": [],
+  "p004": {
+    "status": "RULE_SATISFIED",
+    "reason": "The supplied Wave 2 retracement extreme did not move beyond the supplied Wave 1 origin.",
+    "fatal": false,
+    "origin_identity_checked": false
+  },
+  "p005": {
+    "status": "UNRESOLVED",
+    "reason": "DEVELOPING_REQUIRED_ENDPOINT",
+    "percentage_movements": []
+  },
+  "p005_observation_trace": {
+    "hypothesis_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:partial:NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:evaluate-as:NORMAL_IMPULSE",
+    "candidate_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70",
+    "subject_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP",
+    "binding_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-direct-children",
+    "source_kind": "PARENT_FAMILY_BRIDGE",
+    "direction": "UP",
+    "snapshot_content_sha256": "0b3de9595320878a31013b3fbe92c970a292454b012209e1c51521fa524f51e5",
+    "source_response_sha256": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "exact_runtime_identity_checks_passed": true,
+    "identity_note": "Content hashes identify replay data; live is-checks prove in-process identity. No serialized authority.",
+    "child_requirement_id": null,
+    "parent_family_hypothesis_id": null,
+    "endpoints": [
+      {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:1",
+        "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:45:LOW",
+        "timestamp_utc": "2002-10-01T13:30:00+00:00",
+        "price_field": "low",
+        "price": 0.0600003,
+        "represented_ratio": {
+          "numerator": 8646954519107775,
+          "denominator": 144115188075855872
+        },
+        "bar_provenance": {
+          "source_record_index": 46,
+          "source_timestamp": "2002-10-01T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "eligible": true,
+        "window_bar_count": 333
+      },
+      {
+        "role": "1",
+        "edge": "end",
+        "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:1",
+        "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:105:HIGH",
+        "timestamp_utc": "2007-10-01T13:30:00+00:00",
+        "price_field": "high",
+        "price": 0.99175,
+        "represented_ratio": {
+          "numerator": 8932889860889379,
+          "denominator": 9007199254740992
+        },
+        "bar_provenance": {
+          "source_record_index": 106,
+          "source_timestamp": "2007-10-01T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "eligible": true,
+        "window_bar_count": 333
+      },
+      {
+        "role": "3",
+        "edge": "start",
+        "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:3",
+        "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:118:LOW",
+        "timestamp_utc": "2008-11-03T14:30:00+00:00",
+        "price_field": "low",
+        "price": 0.14375,
+        "represented_ratio": {
+          "numerator": 2589569785738035,
+          "denominator": 18014398509481984
+        },
+        "bar_provenance": {
+          "source_record_index": 119,
+          "source_timestamp": "2008-11-03T14:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "eligible": true,
+        "window_bar_count": 333
+      },
+      {
+        "role": "3",
+        "edge": "end",
+        "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:3",
+        "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:274:HIGH",
+        "timestamp_utc": "2021-11-01T13:30:00+00:00",
+        "price_field": "high",
+        "price": 34.647,
+        "represented_ratio": {
+          "numerator": 4876131759047049,
+          "denominator": 140737488355328
+        },
+        "bar_provenance": {
+          "source_record_index": 275,
+          "source_timestamp": "2021-11-01T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "eligible": true,
+        "window_bar_count": 333
+      },
+      {
+        "role": "5",
+        "edge": "start",
+        "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:5",
+        "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:285:LOW",
+        "timestamp_utc": "2022-10-03T13:30:00+00:00",
+        "price_field": "low",
+        "price": 10.813,
+        "represented_ratio": {
+          "numerator": 6087177846344647,
+          "denominator": 562949953421312
+        },
+        "bar_provenance": {
+          "source_record_index": 286,
+          "source_timestamp": "2022-10-03T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "eligible": true,
+        "window_bar_count": 333
+      },
+      {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:H-SEP:FIVE_SEGMENT_HYPOTHESIS:10-23-26-59-60-70:proposed-child:5",
+        "pivot_id": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1:geometry:1M:332:HIGH",
+        "timestamp_utc": "2026-09-01T13:30:00+00:00",
+        "price_field": "high",
+        "price": 234.76,
+        "represented_ratio": {
+          "numerator": 1032485398946775,
+          "denominator": 4398046511104
+        },
+        "bar_provenance": {
+          "source_record_index": 333,
+          "source_timestamp": "2026-09-01T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "pivot_state": "DEVELOPING",
+        "eligible": false,
+        "window_bar_count": 333
+      }
+    ],
+    "p004_status": "RULE_SATISFIED",
+    "p004_reason": "The supplied Wave 2 retracement extreme did not move beyond the supplied Wave 1 origin.",
+    "p004_fatal": false,
+    "p004_certificate_origin_identity": false,
+    "p005_status": "UNRESOLVED",
+    "p005_reason": "DEVELOPING_REQUIRED_ENDPOINT",
+    "percentage_movements": [],
+    "partial_state": "P004_SATISFIED_WITH_UNRESOLVED_METHODOLOGY_DEPENDENCIES",
+    "unresolved_dependencies": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "p005_protected_refs": [
+      "docs/elliott/SOURCE_EVIDENCE_MAP.json#P005",
+      "docs/elliott/SOURCE_POLICY.md#P005-approved-measurement-contract",
+      "Sources_LOCKED/book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf#page=31"
+    ],
+    "family_validity_authority": false
+  },
+  "report_status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+  "display_id": "H-SEP",
+  "parent_node_id": null,
+  "level": 0,
+  "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+  "degree": "DEGREE_UNRESOLVED",
+  "current_position": {
+    "engine": "CURRENT_WAVE_POSITION_UNRESOLVED",
+    "last_endpoint": "2026-09-01T13:30:00+00:00",
+    "last_observation": "2026-09-01T13:30:00+00:00",
+    "trailing_bars": 0,
+    "developing_endpoint": true,
+    "completion_authority": false
+  }
+}

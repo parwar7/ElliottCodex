@@ -1,0 +1,192 @@
+{
+  "stage": "NVDA-TSLA-STYLE-SOURCE-LOCKED-ANALYSIS-V1",
+  "base_head": "24e740c35aa9e97930927a75af68c4e2e6ea56b1",
+  "prior_baseline_manifest_sha256": "0bed549ef5c6f625df6263ad1c39006b27d1c53a35409fad404337514adec10b",
+  "seal_kind": "ADDITIVE_LOGICAL_HASH_BASELINE_NOT_PHYSICAL_IMMUTABILITY",
+  "inventories": [
+    11,
+    7,
+    0,
+    0
+  ],
+  "new_methodology": 0,
+  "new_partial_hypothesis_evaluations": 8,
+  "family_certificates": 0,
+  "historical_baselines_modified": false,
+  "project_manager_approval_claimed": false,
+  "limited_reassessment": "New H-MAY/H-SEP hypotheses use original 2008 low rather than historical M1/M2 2009 low; historical findings and implementation hashes preserved. No global validity promotion.",
+  "mutable_progress_file": {
+    "path": "NVDA_ANALYSIS_PROGRESS.md",
+    "delivery_sha256": "7ba9e9b4aaae766a5d6d7df883777109ca19e567e342820c0a38cea1ddf539a6",
+    "policy": "Mutable resume index; sealed delivery copy is progress_snapshot.md, not an immutable implementation entry."
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "analysis.json",
+      "bytes": 378139,
+      "sha256": "5179cf2be1ba645d91ebe623b9e617397b44c266bfe5770d24b26516b51bdedc"
+    },
+    {
+      "path": "artifact.json",
+      "bytes": 755460,
+      "sha256": "30a2d7584d885c6ba0c718b5d2486121aa09d1807bb3873b61a3a148634d5c1b"
+    },
+    {
+      "path": "audit.md",
+      "bytes": 5362,
+      "sha256": "2e0a9ef09f05153b30d968c7e0985480489a4cee64afacd07d0e5c0731013834"
+    },
+    {
+      "path": "canonical_hierarchy.json",
+      "bytes": 599871,
+      "sha256": "48abccc361d8af6450b760fb0e148c6214d9b1ce5c57b3499c99ecd96c632944"
+    },
+    {
+      "path": "chart_map.json",
+      "bytes": 5057,
+      "sha256": "4116615ab27805457b87b996abc3627a7c4ba774619539c3bfb7f3179f0c5a35"
+    },
+    {
+      "path": "chart_rows.json",
+      "bytes": 629569,
+      "sha256": "4fa0b814cadb712b7a738170a7f7ddbab6467a7db3a655ace3d12189991372fc"
+    },
+    {
+      "path": "evaluations/EARLY-W.json",
+      "bytes": 18795,
+      "sha256": "9c8faa1f71359e0bae404f51927773b4574bb2340fb4ae63cab6626c700fac3f"
+    },
+    {
+      "path": "evaluations/H-MAY.json",
+      "bytes": 18682,
+      "sha256": "54bad216652b5a470a78198025cce8db4133dac446a9740aedda5ff13e4e481f"
+    },
+    {
+      "path": "evaluations/H-SEP.json",
+      "bytes": 17920,
+      "sha256": "780457375aeff09f602c37978f99a774da56bbb89922e765232f421807d8c486"
+    },
+    {
+      "path": "evaluations/MIDDLE-D.json",
+      "bytes": 19006,
+      "sha256": "f2f5a0afa606b0071cdc9b720a5406026486d45081f0939ca2cf626baec1aef4"
+    },
+    {
+      "path": "evaluations/MIDDLE-W.json",
+      "bytes": 18924,
+      "sha256": "d7c42a7bce1e7da39f0bf61cba87132fd2dceac91a2483a10e884b0c4e6e09a4"
+    },
+    {
+      "path": "evaluations/RECENT-D.json",
+      "bytes": 19028,
+      "sha256": "765d9671e1b78f7a914b76ab5246fd074225136ceee13dc7735a9a49cce81479"
+    },
+    {
+      "path": "evaluations/RECENT-W-A.json",
+      "bytes": 18958,
+      "sha256": "3de110b90afed32a781c353ef023d2f8e74bdd0dc050accf606665cb957b2610"
+    },
+    {
+      "path": "evaluations/RECENT-W-B.json",
+      "bytes": 18951,
+      "sha256": "b2bf810319699b686049388c646b9cde2d20f6419aba7bbf73f8cc07b0e61f10"
+    },
+    {
+      "path": "export_audit.json",
+      "bytes": 348,
+      "sha256": "9d53a1c79114de9da71b8e56cab9318421ff5598e4a890f1d1376d33119ec8b1"
+    },
+    {
+      "path": "final_integrity.json",
+      "bytes": 10647,
+      "sha256": "601fe467778115f4cdfaa3d0c5a053363efcc18d4358ec148d721f82b0250e10"
+    },
+    {
+      "path": "narrative.json",
+      "bytes": 16390,
+      "sha256": "db5205ec625027c63821f5e519676763a1f8937321cb9011f5611a5d7408cc22"
+    },
+    {
+      "path": "path_observations.json",
+      "bytes": 55468,
+      "sha256": "9dd06b414ec137c388d8dd5a59c57f71356fa34ad3eded7a206b5fc782bb7dd7"
+    },
+    {
+      "path": "pre_integrity.json",
+      "bytes": 9996,
+      "sha256": "df2cad2f5bc7bc101b8f581486ae367dc14508c8f36fb49e05f473efd1403d5c"
+    },
+    {
+      "path": "progress_snapshot.md",
+      "bytes": 8452,
+      "sha256": "7ba9e9b4aaae766a5d6d7df883777109ca19e567e342820c0a38cea1ddf539a6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6248,
+      "sha256": "ce0c9080d7b7da3ddf2986637d9fa4960d65535aa5c332b786c9cf4faee98c44"
+    },
+    {
+      "path": "report.html",
+      "bytes": 576115,
+      "sha256": "98346594d9ab8d7a2bf33d3024701012dbff0e243bd32bc416dba4e04034764e"
+    },
+    {
+      "path": "report.md",
+      "bytes": 27114,
+      "sha256": "8cf0cec2e1b73cfcf97a38e38ba06cd908e1ce337f53dc56c704bcad6b71b359"
+    },
+    {
+      "path": "report_delivery_receipt.json",
+      "bytes": 819,
+      "sha256": "0549277a8a647f9385fe020e235ce83908b289c37c5fcd0e66b40886de857c16"
+    },
+    {
+      "path": "selection_before_evaluation.json",
+      "bytes": 51848,
+      "sha256": "2c69e417f16ca2dca606210999dd2d81ef74192f6d4561bf0fdf43756eab07cd"
+    },
+    {
+      "path": "source_review.json",
+      "bytes": 7147,
+      "sha256": "e3a97f3d3d3e6da80da95ef985d33dde7bf81bde1546a40c2b3cd8c38238c338"
+    },
+    {
+      "path": "test_results.json",
+      "bytes": 1029,
+      "sha256": "bbd5e0c745a07171b71a10cdb46dcfc5b5a33a7016c6752b49498d4f0b5a96f3"
+    },
+    {
+      "path": "wave_table.json",
+      "bytes": 153829,
+      "sha256": "ae706680488552398adf8f7c1a7cfde0a2ecda0cf68277ea14c0c4a1380dd574"
+    },
+    {
+      "path": "wave_table.md",
+      "bytes": 7038,
+      "sha256": "e31022708e5cfe389555d04a31c4d6bec1d020698a5ac6a8b395b5a9a64d746a"
+    }
+  ],
+  "implementation_files": [
+    {
+      "path": "tools/nvda_english_analysis.py",
+      "bytes": 11400,
+      "sha256": "691ff44e441cbf99f8f0db02d74b7cb923b189709a143f4a3b7ad13c27576b4b"
+    },
+    {
+      "path": "tools/nvda_english_report.py",
+      "bytes": 13586,
+      "sha256": "7c4d61ec983728121dd0f94d109647498cfa84dc76994580c7bf5e3f0ca6350b"
+    },
+    {
+      "path": "tests/test_nvda_english_analysis.py",
+      "bytes": 8828,
+      "sha256": "836f371f44a3d081de52966224cc8f1bb2dfa59320de410affdfe13a8ceffe28"
+    }
+  ]
+}
