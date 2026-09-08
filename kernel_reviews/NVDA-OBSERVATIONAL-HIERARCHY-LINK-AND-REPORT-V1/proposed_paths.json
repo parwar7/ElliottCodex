@@ -1,0 +1,35 @@
+[
+  {
+    "root": "M2",
+    "links": [
+      "M2:role5=>JULY:1D:S0"
+    ],
+    "leaf": "JULY:1D:S0",
+    "last_evidenced_endpoint": {
+      "role": "5",
+      "edge": "end",
+      "child_subject": "NVDA-AGGREGATE-EXTREMUM-TIME-EVIDENCE-AND-RECENT-ANALYSIS-V1:JULY:1D:S0:FIVE_SEGMENT_HYPOTHESIS:0-1-2-3-4-5:proposed-child:5",
+      "pivot_id": "aggregate-recent-geometry:11ff333d731f83f06c373470:21:HIGH",
+      "timestamp_utc": "2026-07-31T13:30:00+00:00",
+      "price_field": "high",
+      "price": 202.0,
+      "represented_ratio": {
+        "numerator": 202,
+        "denominator": 1
+      },
+      "pivot_state": "DEVELOPING",
+      "bar_provenance": {
+        "source_record_index": 6923,
+        "source_timestamp": "2026-07-31T13:30:00+00:00",
+        "naive_timezone_assumed_utc": false
+      },
+      "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "precision": "EXACT_REPRESENTED_FLOAT",
+      "orthodox_endpoint_authority": false
+    },
+    "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+    "reaches_latest_captured_bar": false,
+    "active_wave_authority": false,
+    "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+  }
+]

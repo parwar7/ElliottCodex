@@ -1,0 +1,174 @@
+{
+  "stage": "NVDA-OBSERVATIONAL-HIERARCHY-LINK-AND-REPORT-V1",
+  "approved_base": "c713dc3a452bd033f849d7a07bc0e9e7f190772d",
+  "seal_kind": "ADDITIVE_LOGICAL_HASH_BASELINE_NOT_PHYSICAL_IMMUTABILITY",
+  "prior_baseline_manifest_sha256": "5d19c4d7530f56f2a319c16b9cbab3c21ffe8ffc1075aafe79a4a256aa19089a",
+  "methodology_inventory_delta": 0,
+  "inventories": [
+    11,
+    7,
+    0,
+    0
+  ],
+  "historical_baselines_modified": false,
+  "project_manager_approval_claimed": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "artifact.json",
+      "bytes": 206817,
+      "sha256": "ce8b32f530a607c48ae0499619794a208b14070cb99a07ee2b841f72d9f86060"
+    },
+    {
+      "path": "audit.md",
+      "bytes": 5190,
+      "sha256": "115735d2d4cf2778f51ee52b3cdbd96cbb8207bc81e9feabbd0dff76a60ad809"
+    },
+    {
+      "path": "browser_audit.json",
+      "bytes": 915,
+      "sha256": "702f9697c57d85a1c529530f74df482f85117ef950de47c3c7396e727a02c804"
+    },
+    {
+      "path": "canonical_hierarchy.json",
+      "bytes": 1559108,
+      "sha256": "f80c79e689420daf7aa8481bf91bf12b59ef0e006eeed14321c8c55d9446b638"
+    },
+    {
+      "path": "chart_rows.json",
+      "bytes": 108812,
+      "sha256": "f361808b31be4295c98b1ddb5cbd7e91d0b1eb94b759c930fb1a53cd89c0046c"
+    },
+    {
+      "path": "contract_boundary.md",
+      "bytes": 4689,
+      "sha256": "394f7410102ca3438df2d013fd1ed1ea3af30b96f811d469011f3083c363afe3"
+    },
+    {
+      "path": "development_receipt.md",
+      "bytes": 2305,
+      "sha256": "66a00b01b66048c5eb22d5bd48126f08e6523e4f15a1713b20a8482a23a7bfd8"
+    },
+    {
+      "path": "export_audit.json",
+      "bytes": 618,
+      "sha256": "73f31cec3eb440ea571607527c9ffb2d4f0727395e5087632612be73055ac363"
+    },
+    {
+      "path": "final_integrity.json",
+      "bytes": 9996,
+      "sha256": "91eede329a2b0d05585d498661992ff64badd73934c8c66055b266a43e273f58"
+    },
+    {
+      "path": "focused_tests.json",
+      "bytes": 116,
+      "sha256": "d67240e67da33eeeb2c5a867f3a1c0509b622bcfa222b6736bc05867b08c5417"
+    },
+    {
+      "path": "full_tests.json",
+      "bytes": 118,
+      "sha256": "ad6c0efa895f1aa676bd10ce6ab3112819bf0acf34b39529238df50bd547b20e"
+    },
+    {
+      "path": "indicator_evidence.json",
+      "bytes": 4091,
+      "sha256": "f9c7772fc9b575add68aaddee1b4a15eccccecf0fd194cb602a78aa083359b40"
+    },
+    {
+      "path": "input_references.json",
+      "bytes": 1819,
+      "sha256": "7f008ed6befbf4e56c883900c3e7e2066e10aa9cf75955643b9d137154220834"
+    },
+    {
+      "path": "inventory_audit.json",
+      "bytes": 813,
+      "sha256": "4833a04794cb03d1c5a6c37ef4ee3261b97f0f970845e758077182c68148150e"
+    },
+    {
+      "path": "link_coverage.json",
+      "bytes": 413258,
+      "sha256": "3318043ec3e163af4ac49acaf258df1011885fbe52aeb3043a3d4bb5a9e3cbb2"
+    },
+    {
+      "path": "planned_links.json",
+      "bytes": 9138,
+      "sha256": "9937996cb4496dbad46a2ce05dbf774e06dde40b52454b56a7b572726db3f6f1"
+    },
+    {
+      "path": "pre_integrity.json",
+      "bytes": 9996,
+      "sha256": "0bd4e53f8d95bea47dd583bf35c49e0ecfcf16536ac19d842d0e646729836158"
+    },
+    {
+      "path": "proposed_paths.json",
+      "bytes": 1187,
+      "sha256": "f1cbc969fb946e2312d304846b9d4a7da3fd4bc1f836a53aae49be592999f7e0"
+    },
+    {
+      "path": "raw_reconciliation.json",
+      "bytes": 198,
+      "sha256": "bc6000618817b8f70d3db02c73cdd429901a08d113a1053ef9afdea78e4e5ebf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5609,
+      "sha256": "f38c09cc27dd6db8071ea1cde69a41cb8ad1374ba450658b422f033fb45f6934"
+    },
+    {
+      "path": "report.html",
+      "bytes": 513666,
+      "sha256": "3d8642490c48bbdab99572ae6d52997e2b2f40213db0987d3bf6f56a0e5ff134"
+    },
+    {
+      "path": "report.md",
+      "bytes": 71087,
+      "sha256": "75503bff9e0ae95bc9d2d452f2ed5acfd7af7e4d492824ff74716d7fcd6ddd84"
+    },
+    {
+      "path": "search_plan.json",
+      "bytes": 996,
+      "sha256": "96001ad530b37789a3eec927db28f32687f17f0ff08f6d516183926d43a398ad"
+    },
+    {
+      "path": "source_refs.json",
+      "bytes": 5048,
+      "sha256": "061ab6747855be7c9e7e89f838ff8c738b4acf980856e4054739a77f7330393b"
+    },
+    {
+      "path": "wave_table.json",
+      "bytes": 109171,
+      "sha256": "3f893f1b978a30efba5fb14f6bd9d7d6dbf40eeda918e800694564cc4d697f78"
+    }
+  ],
+  "implementation_files": [
+    {
+      "path": "src/elliott_runtime/analysis/observational_hierarchy.py",
+      "bytes": 10266,
+      "sha256": "d8741655b125d9b095a3508757c9f0394397d82f1972ebe787ab1e958dcea9b5"
+    },
+    {
+      "path": "tools/nvda_observational_hierarchy.py",
+      "bytes": 9973,
+      "sha256": "edf7e72a7c1582b01ee24a54eb5449110f6b90b3349369e9e27877d888dc02c3"
+    },
+    {
+      "path": "tools/nvda_observational_hierarchy_report.py",
+      "bytes": 32737,
+      "sha256": "11748d73605724b0d815613d28811ff0479bd355762e35f47348b8434318971c"
+    },
+    {
+      "path": "tests/test_observational_hierarchy.py",
+      "bytes": 10972,
+      "sha256": "c55cd79564cec7f53f51dd695bf1c63ffd0f1f7d45b36aecfbc2ed129790cb75"
+    },
+    {
+      "path": "tests/test_nvda_observational_hierarchy_report.py",
+      "bytes": 7507,
+      "sha256": "a5f3fa642915e282b48633ed06d25f82678e43c438594b9f9f1e573c870c66b3"
+    }
+  ]
+}

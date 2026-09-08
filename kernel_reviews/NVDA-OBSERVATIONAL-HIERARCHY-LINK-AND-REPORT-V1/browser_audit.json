@@ -1,0 +1,20 @@
+{
+  "builder": "Data Analytics deliver_portable_artifact.mjs",
+  "final_artifact_validation": "passed",
+  "offline_package": "passed",
+  "final_verification": "structural_only",
+  "final_blocks": 75,
+  "charts": 3,
+  "default_browser_attempt": "browser_unavailable: No installed Chromium headless-shell executable was found",
+  "installed_chrome_attempt": "browser_environment_mismatch: Chromium did not apply the requested chart extraction environment",
+  "visual_label_placement": "NOT_VISUALLY_VERIFIED",
+  "interaction_checks": "ATTEMPTED_BUT_ENVIRONMENT_BLOCKED",
+  "sourceDialog": "not_verified",
+  "sourceInteraction": "not_verified",
+  "offline_runtime_bundled": true,
+  "semantic_chart_tables_present": true,
+  "navigation": "Sequential reading and exact-alias browser Find; no unverified fragment-navigation claims",
+  "browser_downloaded": false,
+  "plugin_modified": false,
+  "data_recaptured": false
+}

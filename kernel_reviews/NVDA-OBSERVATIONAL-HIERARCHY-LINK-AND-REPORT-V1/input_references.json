@@ -1,0 +1,51 @@
+{
+  "approved_base": "c713dc3a452bd033f849d7a07bc0e9e7f190772d",
+  "baselines": [
+    {
+      "path": "kernel_reviews\\NVDA-AGGREGATE-EXTREMUM-TIME-EVIDENCE-AND-RECENT-ANALYSIS-V1",
+      "manifest_sha256": "5d19c4d7530f56f2a319c16b9cbab3c21ffe8ffc1075aafe79a4a256aa19089a"
+    },
+    {
+      "path": "kernel_reviews\\NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1",
+      "manifest_sha256": "2538c3c9d17e5cee965d6a368574b70405d589a81698bbbdfcde75cca6d7fdbe"
+    },
+    {
+      "path": "kernel_reviews\\TRADINGVIEW-DIGITAL-DATA-AND-NVDA-ANALYSIS-BRIDGE-V1",
+      "manifest_sha256": "8821c441cbb1e72bfe8d99f4474b781316ec9f18d3af82fffd344bc73f0beb03"
+    }
+  ],
+  "source_snapshots": {
+    "15": {
+      "source_sha256": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+      "capture": "2026-09-08T13:53:45.992Z",
+      "bars": 2302
+    },
+    "1D": {
+      "source_sha256": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "capture": "2026-09-08T13:49:15.086Z",
+      "bars": 6949
+    },
+    "1M": {
+      "source_sha256": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+      "capture": "2026-09-08T13:49:01.367Z",
+      "bars": 333
+    },
+    "1W": {
+      "source_sha256": "b14aec27a773a23fcc5776ca28bd457278c5bc718d9a35657d887543238ce678",
+      "capture": "2026-09-08T13:49:06.617Z",
+      "bars": 1443
+    },
+    "240": {
+      "source_sha256": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+      "capture": "2026-09-08T13:52:57.625Z",
+      "bars": 2302
+    },
+    "60": {
+      "source_sha256": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+      "capture": "2026-09-08T13:53:19.677Z",
+      "bars": 2302
+    }
+  },
+  "no_raw_capture_copied": true,
+  "historical_research_or_results_modified": false
+}

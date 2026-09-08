@@ -1,0 +1,16 @@
+{
+  "classification": "PROJECT_ANALYSIS_INFRASTRUCTURE",
+  "approved_base": "c713dc3a452bd033f849d7a07bc0e9e7f190772d",
+  "reuse_only": "Original M1/M2 plus all 25 previously selected independent hypotheses; no new pivot search or endpoint selection",
+  "parent_roles": {"M1": [5], "M2": [5], "JULY:1D:S0": [1, 2, 3, 4, 5]},
+  "child_selection": "Every previously selected hypothesis at a strictly finer saved resolution; no outcome filtering before link evaluation",
+  "max_live_hypotheses": 27,
+  "max_links": 160,
+  "max_pairings_per_link": 256,
+  "max_total_pairings": 4096,
+  "new_candidate_searches": 0,
+  "new_data_retrievals": 0,
+  "link_classification": "Both parent boundaries require exact saved finer occurrences; all pairings retained. Safe interval containment is interior only. Missing either boundary remains missing, not a rescued link.",
+  "depth": "Monthly to saved independent Daily, and Daily to saved independent intraday only; no new Kernel recursion",
+  "ranking": null
+}

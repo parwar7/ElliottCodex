@@ -1,0 +1,24 @@
+{
+  "raw": {
+    "result": "PASS",
+    "raw_price_fields_checked": 347,
+    "links_checked": 150,
+    "all_occurrence_pairings_retained": true,
+    "independent_subjects": true,
+    "old_kernel_ancestry_unchanged": true
+  },
+  "supported_paths": 1,
+  "latest_bar_reached": 0,
+  "chart_rows": {
+    "chart-M2": 294,
+    "chart-JULY-1D-S0": 25,
+    "chart-MAY_JULY-60-S75": 25
+  },
+  "indicator_values_checked": 10,
+  "navigation": "Sequential native report and exact alias Find; no unsupported anchor-link claims",
+  "visual_styles": {
+    "observational": "↝",
+    "unresolved": "⋯?⋯",
+    "rejected": "×"
+  }
+}
