@@ -1,0 +1,17 @@
+{
+  "mode": "Approved protected methodology and existing source research only; no new source proposition",
+  "source_manifest_sha256": "ad774642080c9112796510c01697fd70f2499c828aede547de0b3d39429ad089",
+  "references": [
+    {"id":"P004","classification":"SOURCE_RULE","path":"Brain_LOCKED/docs/elliott/PATTERN_BRAIN.md","locator":"A. Normal impulse, rule 1","use":"Existing exact Normal Impulse evaluator only. Fatality attaches to that hypothesis, never an entire region or independent sibling."},
+    {"id":"P005","classification":"SOURCE_RULE","path":"Sources_LOCKED/book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf","locator":"page 31, Motive Waves","use":"Book percentage sufficient condition only through existing issued evidence path; no negative or full-validity inference."},
+    {"id":"P005_POLICY","classification":"USER_APPROVED_PROJECT_CONVENTIONS","path":"Brain_LOCKED/docs/elliott/SOURCE_POLICY.md","locator":"P005 measurement-policy exception and approved measurement contract","use":"Exact represented positive price ratios, explicit direction, immutable snapshot, eligibility. Historical Volume 10 both-bases SOURCE_RULE conflict retained; book arithmetic almost-always remains SOURCE_GUIDELINE."},
+    {"id":"P007","classification":"SOURCE_DEFINITION","path":"Sources_LOCKED/volume_04/volume_04","locator":"00:02:21.870–00:03:03.770; lines 185 onward","protected_summary":"Brain_LOCKED/docs/elliott/PATTERN_BRAIN.md#F","meaning":"Single zigzag 5-3-5; subdivisions may not be visible in the viewing resolution.","use":"Existing direct-child cardinality evaluate-as only; 5/3 requirements not child family proof."},
+    {"id":"P008","classification":"SOURCE_DEFINITION","path":"Sources_LOCKED/volume_04/volume_04","locator":"00:15:20.070–00:15:45.530; lines 1153 onward","protected_summary":"Brain_LOCKED/docs/elliott/PATTERN_BRAIN.md#G","meaning":"Flat internal three, three, five; viewing resolution may hide subdivisions.","use":"Existing direct-child cardinality evaluate-as only; no frozen geometry/subtype implementation."},
+    {"id":"RECURSION","classification":"SOURCE_DEFINITION","path":"Brain_LOCKED/docs/elliott/DEGREE_RECURSION_BRAIN.md","locator":"sections 2, 5, 6, 7","use":"Timeframe is resolution, unresolved internals remain unresolved; no automatic degrees or hidden terminal base case."},
+    {"id":"NO_RESCUE","classification":"SOURCE_RULE","path":"Brain_LOCKED/docs/elliott/MASTER_PROTOCOL.md","locator":"Steps 4–6","use":"Source rules/definitions before evidence; no P005 or indicators overriding exact P004 rejection."}
+  ],
+  "operational_conventions": ["Chronological equal-count-bin midpoint sampling", "Nonzero alternating movement search domain", "Fixed windows/budgets", "Calendar-overlap link routing only", "Display newest endpoint representative per resolution without ranking"],
+  "interpretation_boundary": "Conditional partial hypotheses only. No general right-look criteria, Fibonacci, RSI/MACD interpretation, probabilities, targets, or complete analysis schema claim.",
+  "unchanged_blockers": ["P006 frozen unresolved/conflict", "Flat/Triangle geometry freezes", "SOURCE_DERIVED_BASE_CASE_NOT_FOUND", "No validated-family producer or issuance", "legacy analyze NOT_IMPLEMENTED"],
+  "no_new_protected_principles": true
+}

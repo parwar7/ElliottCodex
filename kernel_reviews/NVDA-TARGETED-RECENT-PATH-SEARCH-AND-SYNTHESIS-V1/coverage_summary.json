@@ -1,0 +1,449 @@
+{
+  "resolutions": [
+    {
+      "resolution": "1D",
+      "new_normal_contexts": 26,
+      "new_corrective_hypotheses": 66,
+      "earliest_selected_endpoint": "2025-01-13T14:30:00+00:00",
+      "latest_selected_endpoint": "2026-09-04T13:30:00+00:00",
+      "first_to_last_is_not_continuous_analysis_coverage": true,
+      "explicit_searches": [
+        {
+          "window": [
+            "2025-01-01",
+            "2026-01-01"
+          ],
+          "points": 6,
+          "bars": 250,
+          "selected_indices": [
+            1,
+            15,
+            22,
+            30,
+            33,
+            49,
+            52,
+            60
+          ]
+        },
+        {
+          "window": [
+            "2025-01-01",
+            "2026-01-01"
+          ],
+          "points": 4,
+          "bars": 250,
+          "selected_indices": [
+            3,
+            15,
+            23,
+            31,
+            39,
+            49,
+            55,
+            63
+          ]
+        },
+        {
+          "window": [
+            "2026-01-01",
+            "2026-09-09"
+          ],
+          "points": 6,
+          "bars": 171,
+          "selected_indices": [
+            10,
+            12,
+            14,
+            20,
+            22,
+            25,
+            27,
+            29,
+            31,
+            34,
+            36,
+            38
+          ]
+        },
+        {
+          "window": [
+            "2026-01-01",
+            "2026-09-09"
+          ],
+          "points": 4,
+          "bars": 171,
+          "selected_indices": [
+            3,
+            10,
+            13,
+            16,
+            21,
+            24,
+            26,
+            29,
+            32,
+            35,
+            38,
+            41
+          ]
+        },
+        {
+          "window": [
+            "2026-05-14",
+            "2026-07-30"
+          ],
+          "points": 6,
+          "bars": 52,
+          "selected_indices": [
+            1,
+            3,
+            4,
+            5,
+            7,
+            8
+          ]
+        },
+        {
+          "window": [
+            "2026-05-14",
+            "2026-07-30"
+          ],
+          "points": 4,
+          "bars": 52,
+          "selected_indices": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ]
+        },
+        {
+          "window": [
+            "2026-07-01",
+            "2026-08-01"
+          ],
+          "points": 6,
+          "bars": 22,
+          "selected_indices": []
+        },
+        {
+          "window": [
+            "2026-07-01",
+            "2026-08-01"
+          ],
+          "points": 4,
+          "bars": 22,
+          "selected_indices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "window": [
+            "2026-07-29",
+            "2026-09-09"
+          ],
+          "points": 6,
+          "bars": 29,
+          "selected_indices": []
+        },
+        {
+          "window": [
+            "2026-07-29",
+            "2026-09-09"
+          ],
+          "points": 4,
+          "bars": 29,
+          "selected_indices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "geometric_sequences_examined": 256,
+      "actual_endpoints_in_canonical_json": true
+    },
+    {
+      "resolution": "240",
+      "new_normal_contexts": 3,
+      "new_corrective_hypotheses": 28,
+      "earliest_selected_endpoint": "2026-05-19T13:30:00+00:00",
+      "latest_selected_endpoint": "2026-09-08T13:30:00+00:00",
+      "first_to_last_is_not_continuous_analysis_coverage": true,
+      "explicit_searches": [
+        {
+          "window": [
+            "2026-05-14",
+            "2026-09-09"
+          ],
+          "points": 6,
+          "bars": 159,
+          "selected_indices": [
+            7,
+            8,
+            22
+          ]
+        },
+        {
+          "window": [
+            "2026-05-14",
+            "2026-09-09"
+          ],
+          "points": 4,
+          "bars": 159,
+          "selected_indices": [
+            0,
+            7,
+            9,
+            16,
+            17,
+            19,
+            23,
+            31
+          ]
+        },
+        {
+          "window": [
+            "2026-07-01",
+            "2026-08-01"
+          ],
+          "points": 6,
+          "bars": 44,
+          "selected_indices": []
+        },
+        {
+          "window": [
+            "2026-07-01",
+            "2026-08-01"
+          ],
+          "points": 4,
+          "bars": 44,
+          "selected_indices": [
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "window": [
+            "2026-07-29",
+            "2026-09-09"
+          ],
+          "points": 6,
+          "bars": 57,
+          "selected_indices": []
+        },
+        {
+          "window": [
+            "2026-07-29",
+            "2026-09-09"
+          ],
+          "points": 4,
+          "bars": 57,
+          "selected_indices": [
+            0,
+            7
+          ]
+        }
+      ],
+      "geometric_sequences_examined": 92,
+      "actual_endpoints_in_canonical_json": true
+    },
+    {
+      "resolution": "60",
+      "new_normal_contexts": 18,
+      "new_corrective_hypotheses": 40,
+      "earliest_selected_endpoint": "2026-07-02T17:30:00+00:00",
+      "latest_selected_endpoint": "2026-09-02T19:30:00+00:00",
+      "first_to_last_is_not_continuous_analysis_coverage": true,
+      "explicit_searches": [
+        {
+          "window": [
+            "2026-07-01",
+            "2026-08-01"
+          ],
+          "points": 6,
+          "bars": 154,
+          "selected_indices": [
+            2,
+            8,
+            10,
+            12,
+            15,
+            17,
+            19,
+            21
+          ]
+        },
+        {
+          "window": [
+            "2026-07-01",
+            "2026-08-01"
+          ],
+          "points": 4,
+          "bars": 154,
+          "selected_indices": [
+            1,
+            5,
+            10,
+            13,
+            17,
+            20,
+            23,
+            33
+          ]
+        },
+        {
+          "window": [
+            "2026-07-29",
+            "2026-09-09"
+          ],
+          "points": 6,
+          "bars": 197,
+          "selected_indices": [
+            1,
+            2,
+            3,
+            9,
+            10,
+            11,
+            12,
+            13,
+            42,
+            43
+          ]
+        },
+        {
+          "window": [
+            "2026-07-29",
+            "2026-09-09"
+          ],
+          "points": 4,
+          "bars": 197,
+          "selected_indices": [
+            1,
+            3,
+            5,
+            10,
+            13,
+            15,
+            19,
+            23,
+            30,
+            37,
+            43,
+            45
+          ]
+        }
+      ],
+      "geometric_sequences_examined": 166,
+      "actual_endpoints_in_canonical_json": true
+    },
+    {
+      "resolution": "15",
+      "new_normal_contexts": 20,
+      "new_corrective_hypotheses": 40,
+      "earliest_selected_endpoint": "2026-08-17T18:15:00+00:00",
+      "latest_selected_endpoint": "2026-09-04T19:00:00+00:00",
+      "first_to_last_is_not_continuous_analysis_coverage": true,
+      "explicit_searches": [
+        {
+          "window": [
+            "2026-08-17",
+            "2026-09-09"
+          ],
+          "points": 6,
+          "bars": 392,
+          "selected_indices": [
+            2,
+            12,
+            20,
+            24,
+            32,
+            40,
+            45,
+            53,
+            64,
+            79,
+            83,
+            87
+          ]
+        },
+        {
+          "window": [
+            "2026-08-17",
+            "2026-09-09"
+          ],
+          "points": 4,
+          "bars": 392,
+          "selected_indices": [
+            3,
+            13,
+            21,
+            27,
+            35,
+            43,
+            51,
+            59,
+            67,
+            79,
+            85,
+            93
+          ]
+        },
+        {
+          "window": [
+            "2026-09-01",
+            "2026-09-09"
+          ],
+          "points": 6,
+          "bars": 106,
+          "selected_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            10,
+            11
+          ]
+        },
+        {
+          "window": [
+            "2026-09-01",
+            "2026-09-09"
+          ],
+          "points": 4,
+          "bars": 106,
+          "selected_indices": [
+            0,
+            2,
+            4,
+            5,
+            7,
+            10,
+            12,
+            14
+          ]
+        }
+      ],
+      "geometric_sequences_examined": 228,
+      "actual_endpoints_in_canonical_json": true
+    }
+  ],
+  "old_roots_replayed_only": [
+    "M1",
+    "M2"
+  ],
+  "newly_confirmed_families": 0,
+  "operational_depth": "One observed edge Monthly to Daily; no non-rejected Daily to intraday link. Intraday contexts stay independent. Not Elliott degree.",
+  "scope_limitations": "257 eligible sequence contexts unvisited; 311 excluded by operational movement domain; 20 prior coordinate occurrences not re-evaluated. 243/243 routed links examined, 123 pairings, no time/cap exhaustion."
+}

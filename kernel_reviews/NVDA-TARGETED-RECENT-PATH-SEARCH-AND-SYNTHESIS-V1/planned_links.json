@@ -1,0 +1,1463 @@
+{
+  "date_overlap_is_routing_only": true,
+  "items": [
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2025:1D:N6:S1",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2025:1D:N6:S15",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2025:1D:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2025:1D:N6:S30",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2025:1D:N6:S33",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2025:1D:N6:S49",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2025:1D:N6:S52",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2025:1D:N6:S60",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S14",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S20",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S25",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S27",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S29",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S31",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S34",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S36",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "D2026:1D:N6:S38",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S1",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S3",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S4",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S5",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M1",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2025:1D:N6:S1",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2025:1D:N6:S15",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2025:1D:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2025:1D:N6:S30",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2025:1D:N6:S33",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2025:1D:N6:S49",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2025:1D:N6:S52",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2025:1D:N6:S60",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S14",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S20",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S25",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S27",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S29",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S31",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S34",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S36",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "D2026:1D:N6:S38",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S1",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S3",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S4",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S5",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "M2",
+      "role": 5,
+      "child": "MAY_JULY:1D:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S25",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S25",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S25",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S25",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S27",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S27",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S27",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S27",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S27",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S27",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S27",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S27",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S29",
+      "role": 5,
+      "child": "JULY:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 3,
+      "child": "JULY:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 4,
+      "child": "JULY:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 4,
+      "child": "JULY:60:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 4,
+      "child": "JULY:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 4,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 5,
+      "child": "JULY:60:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 5,
+      "child": "JULY:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 5,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 5,
+      "child": "JULY:60:N6:S15",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S31",
+      "role": 5,
+      "child": "JULY:60:N6:S17",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 1,
+      "child": "JULY:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 1,
+      "child": "JULY:60:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 1,
+      "child": "JULY:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 1,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 2,
+      "child": "JULY:60:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 2,
+      "child": "JULY:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 2,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 2,
+      "child": "JULY:60:N6:S15",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 2,
+      "child": "JULY:60:N6:S17",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 3,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 3,
+      "child": "JULY:60:N6:S15",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 3,
+      "child": "JULY:60:N6:S17",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 3,
+      "child": "JULY:60:N6:S19",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 3,
+      "child": "JULY:60:N6:S21",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 4,
+      "child": "JULY:60:N6:S17",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 4,
+      "child": "JULY:60:N6:S19",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 4,
+      "child": "JULY:60:N6:S21",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 4,
+      "child": "RECENT:60:N6:S1",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 5,
+      "child": "RECENT:60:N6:S1",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 5,
+      "child": "RECENT:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 5,
+      "child": "RECENT:60:N6:S3",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 5,
+      "child": "RECENT:60:N6:S9",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 5,
+      "child": "RECENT:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 5,
+      "child": "RECENT:60:N6:S11",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 5,
+      "child": "RECENT:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S34",
+      "role": 5,
+      "child": "RECENT:60:N6:S13",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 1,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 1,
+      "child": "JULY:60:N6:S15",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 1,
+      "child": "JULY:60:N6:S17",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 1,
+      "child": "JULY:60:N6:S19",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 1,
+      "child": "JULY:60:N6:S21",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 2,
+      "child": "JULY:60:N6:S17",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 2,
+      "child": "JULY:60:N6:S19",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 2,
+      "child": "JULY:60:N6:S21",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 2,
+      "child": "RECENT:60:N6:S1",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 3,
+      "child": "RECENT:60:N6:S1",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 3,
+      "child": "RECENT:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 3,
+      "child": "RECENT:60:N6:S3",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 3,
+      "child": "RECENT:60:N6:S9",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 3,
+      "child": "RECENT:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 3,
+      "child": "RECENT:60:N6:S11",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 3,
+      "child": "RECENT:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 3,
+      "child": "RECENT:60:N6:S13",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 4,
+      "child": "RECENT:60:N6:S9",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 4,
+      "child": "RECENT:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 4,
+      "child": "RECENT:60:N6:S11",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 4,
+      "child": "RECENT:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 4,
+      "child": "RECENT:60:N6:S13",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S36",
+      "role": 5,
+      "child": "LATEST_WEEKS:15:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 1,
+      "child": "RECENT:60:N6:S1",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 1,
+      "child": "RECENT:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 1,
+      "child": "RECENT:60:N6:S3",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 1,
+      "child": "RECENT:60:N6:S9",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 1,
+      "child": "RECENT:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 1,
+      "child": "RECENT:60:N6:S11",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 1,
+      "child": "RECENT:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 1,
+      "child": "RECENT:60:N6:S13",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 2,
+      "child": "RECENT:60:N6:S9",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 2,
+      "child": "RECENT:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 2,
+      "child": "RECENT:60:N6:S11",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 2,
+      "child": "RECENT:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 2,
+      "child": "RECENT:60:N6:S13",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 3,
+      "child": "LATEST_WEEKS:15:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S22",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 4,
+      "child": "LATEST_WEEKS:15:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 4,
+      "child": "LATEST_WEEKS:15:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 4,
+      "child": "LATEST_WEEKS:15:N6:S20",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 4,
+      "child": "LATEST_WEEKS:15:N6:S24",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 4,
+      "child": "LATEST_WEEKS:15:N6:S32",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 4,
+      "child": "LATEST_WEEKS:15:N6:S40",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 5,
+      "child": "LATEST_WEEKS:15:N6:S32",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 5,
+      "child": "LATEST_WEEKS:15:N6:S40",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 5,
+      "child": "LATEST_WEEKS:15:N6:S45",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 5,
+      "child": "LATEST_WEEKS:15:N6:S53",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "D2026:1D:N6:S38",
+      "role": 5,
+      "child": "LATEST_WEEKS:15:N6:S64",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S1",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S1",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S1",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S1",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S3",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S3",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S3",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S3",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S3",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S3",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S3",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S3",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S4",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 4,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 5,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S5",
+      "role": 5,
+      "child": "JULY:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 3,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 3,
+      "child": "JULY:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 4,
+      "child": "JULY:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 4,
+      "child": "JULY:60:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 4,
+      "child": "JULY:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 4,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 5,
+      "child": "JULY:60:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 5,
+      "child": "JULY:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 5,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 5,
+      "child": "JULY:60:N6:S15",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S7",
+      "role": 5,
+      "child": "JULY:60:N6:S17",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 1,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S7",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 2,
+      "child": "H4CONTEXT:240:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 2,
+      "child": "JULY:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 3,
+      "child": "JULY:60:N6:S2",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 3,
+      "child": "JULY:60:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 3,
+      "child": "JULY:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 3,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 4,
+      "child": "JULY:60:N6:S8",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 4,
+      "child": "JULY:60:N6:S10",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 4,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 4,
+      "child": "JULY:60:N6:S15",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 4,
+      "child": "JULY:60:N6:S17",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 5,
+      "child": "JULY:60:N6:S12",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 5,
+      "child": "JULY:60:N6:S15",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 5,
+      "child": "JULY:60:N6:S17",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 5,
+      "child": "JULY:60:N6:S19",
+      "status": "SELECTED"
+    },
+    {
+      "parent": "MAY_JULY:1D:N6:S8",
+      "role": 5,
+      "child": "JULY:60:N6:S21",
+      "status": "SELECTED"
+    }
+  ]
+}

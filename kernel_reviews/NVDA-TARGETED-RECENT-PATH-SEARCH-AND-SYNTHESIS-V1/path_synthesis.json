@@ -1,0 +1,3151 @@
+{
+  "survivors": [
+    {
+      "alias": "D2025:1D:N6:S22",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S22:FIVE_SEGMENT_HYPOTHESIS:22-23-24-25-26-27:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:73:LOW",
+        "timestamp_utc": "2025-04-21T13:30:00+00:00",
+        "price_field": "low",
+        "price": 95.04,
+        "represented_ratio": {
+          "numerator": 6687845446645187,
+          "denominator": 70368744177664
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6602,
+          "source_timestamp": "2025-04-21T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S22:FIVE_SEGMENT_HYPOTHESIS:22-23-24-25-26-27:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:92:HIGH",
+        "timestamp_utc": "2025-05-16T13:30:00+00:00",
+        "price_field": "high",
+        "price": 136.35,
+        "represented_ratio": {
+          "numerator": 4797389134312243,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6621,
+          "source_timestamp": "2025-05-16T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M1:role5=>D2025:1D:N6:S22",
+        "M2:role5=>D2025:1D:N6:S22"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 118782440171896800,
+            "denominator": 6687845446645187
+          },
+          {
+            "numerator": 79657418409115700,
+            "denominator": 7323978894011269
+          },
+          {
+            "numerator": 4490933253418515,
+            "denominator": 194960124181427
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "D2025:1D:N6:S33",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S33:FIVE_SEGMENT_HYPOTHESIS:33-34-35-36-37-38:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:111:LOW",
+        "timestamp_utc": "2025-06-13T13:30:00+00:00",
+        "price_field": "low",
+        "price": 140.855,
+        "represented_ratio": {
+          "numerator": 4955894730572431,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6640,
+          "source_timestamp": "2025-06-13T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S33:FIVE_SEGMENT_HYPOTHESIS:33-34-35-36-37-38:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:124:HIGH",
+        "timestamp_utc": "2025-07-03T13:30:00+00:00",
+        "price_field": "high",
+        "price": 160.98,
+        "represented_ratio": {
+          "numerator": 5663980218860175,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6653,
+          "source_timestamp": "2025-07-03T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M1:role5=>D2025:1D:N6:S33",
+        "M2:role5=>D2025:1D:N6:S33"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 18718085951258700,
+            "denominator": 4955894730572431
+          },
+          {
+            "numerator": 19562510881390600,
+            "denominator": 1665745455925603
+          },
+          {
+            "numerator": 556499485205025,
+            "denominator": 88834675462286
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "D2025:1D:N6:S52",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S52:FIVE_SEGMENT_HYPOTHESIS:52-53-54-55-56-57:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:182:LOW",
+        "timestamp_utc": "2025-09-25T13:30:00+00:00",
+        "price_field": "low",
+        "price": 173.125,
+        "represented_ratio": {
+          "numerator": 1385,
+          "denominator": 8
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6711,
+          "source_timestamp": "2025-09-25T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S52:FIVE_SEGMENT_HYPOTHESIS:52-53-54-55-56-57:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:199:HIGH",
+        "timestamp_utc": "2025-10-20T13:30:00+00:00",
+        "price_field": "high",
+        "price": 185.2,
+        "represented_ratio": {
+          "numerator": 3258072855425843,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6728,
+          "source_timestamp": "2025-10-20T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M1:role5=>D2025:1D:N6:S52",
+        "M2:role5=>D2025:1D:N6:S52"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 1576699674230785,
+            "denominator": 152282360446976
+          },
+          {
+            "numerator": 43241593297174500,
+            "denominator": 6450350935045571
+          },
+          {
+            "numerator": 1113233532890644,
+            "denominator": 249513493105161
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "D2025:1D:N6:S60",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S60:FIVE_SEGMENT_HYPOTHESIS:60-61-62-63-64-65:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:209:HIGH",
+        "timestamp_utc": "2025-11-03T14:30:00+00:00",
+        "price_field": "high",
+        "price": 211.335,
+        "represented_ratio": {
+          "numerator": 7435689275393311,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6738,
+          "source_timestamp": "2025-11-03T14:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S60:FIVE_SEGMENT_HYPOTHESIS:60-61-62-63-64-65:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:225:LOW",
+        "timestamp_utc": "2025-11-25T14:30:00+00:00",
+        "price_field": "low",
+        "price": 169.55,
+        "represented_ratio": {
+          "numerator": 2982755143830733,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6754,
+          "source_timestamp": "2025-11-25T14:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M1:role5=>D2025:1D:N6:S60",
+        "M2:role5=>D2025:1D:N6:S60"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 114085326498037800,
+            "denominator": 7435689275393311
+          },
+          {
+            "numerator": 7138909096824010,
+            "denominator": 703476335544107
+          },
+          {
+            "numerator": 11632833021870075,
+            "denominator": 862017116176384
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "D2026:1D:N6:S10",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:36:HIGH",
+        "timestamp_utc": "2026-02-25T14:30:00+00:00",
+        "price_field": "high",
+        "price": 197.6299,
+        "represented_ratio": {
+          "numerator": 6953483937478659,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6815,
+          "source_timestamp": "2026-02-25T14:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:48:LOW",
+        "timestamp_utc": "2026-03-13T13:30:00+00:00",
+        "price_field": "low",
+        "price": 179.94,
+        "represented_ratio": {
+          "numerator": 3165537956832215,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6827,
+          "source_timestamp": "2026-03-13T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M1:role5=>D2026:1D:N6:S10",
+        "M2:role5=>D2026:1D:N6:S10"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 11555502798357700,
+            "denominator": 993354848211237
+          },
+          {
+            "numerator": 3215851608919240,
+            "denominator": 649855352480727
+          },
+          {
+            "numerator": 1351079888211150,
+            "denominator": 330064594565333
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "D2026:1D:N6:S22",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S22:FIVE_SEGMENT_HYPOTHESIS:22-23-24-25-26-27:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:83:LOW",
+        "timestamp_utc": "2026-05-04T13:30:00+00:00",
+        "price_field": "low",
+        "price": 194.74,
+        "represented_ratio": {
+          "numerator": 856475577572393,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6862,
+          "source_timestamp": "2026-05-04T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S22:FIVE_SEGMENT_HYPOTHESIS:22-23-24-25-26-27:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:103:HIGH",
+        "timestamp_utc": "2026-06-02T13:30:00+00:00",
+        "price_field": "high",
+        "price": 232.28,
+        "represented_ratio": {
+          "numerator": 8172625948793897,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6882,
+          "source_timestamp": "2026-06-02T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M2:role5=>D2026:1D:N6:S22"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 36767668832829425,
+            "denominator": 1712951155144786
+          },
+          {
+            "numerator": 33389617268580700,
+            "denominator": 7667026521877381
+          },
+          {
+            "numerator": 16536654881751040,
+            "denominator": 1469158640941269
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "D2026:1D:N6:S27",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S27:FIVE_SEGMENT_HYPOTHESIS:27-28-29-30-31-32:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:103:HIGH",
+        "timestamp_utc": "2026-06-02T13:30:00+00:00",
+        "price_field": "high",
+        "price": 232.28,
+        "represented_ratio": {
+          "numerator": 8172625948793897,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6882,
+          "source_timestamp": "2026-06-02T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S27:FIVE_SEGMENT_HYPOTHESIS:27-28-29-30-31-32:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:121:LOW",
+        "timestamp_utc": "2026-06-29T13:30:00+00:00",
+        "price_field": "low",
+        "price": 189.8,
+        "represented_ratio": {
+          "numerator": 3338996911230157,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6900,
+          "source_timestamp": "2026-06-29T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M2:role5=>D2026:1D:N6:S27"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 115897321660612600,
+            "denominator": 8172625948793897
+          },
+          {
+            "numerator": 33885013227591400,
+            "denominator": 7484092416075917
+          },
+          {
+            "numerator": 2127774902072115,
+            "denominator": 188227594582229
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "D2026:1D:N6:S31",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S31:FIVE_SEGMENT_HYPOTHESIS:31-32-33-34-35-36:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:116:HIGH",
+        "timestamp_utc": "2026-06-22T13:30:00+00:00",
+        "price_field": "high",
+        "price": 213.99,
+        "represented_ratio": {
+          "numerator": 941137972911145,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6895,
+          "source_timestamp": "2026-06-22T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S31:FIVE_SEGMENT_HYPOTHESIS:31-32-33-34-35-36:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:134:LOW",
+        "timestamp_utc": "2026-07-17T13:30:00+00:00",
+        "price_field": "low",
+        "price": 197.97,
+        "represented_ratio": {
+          "numerator": 6965450142426071,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6913,
+          "source_timestamp": "2026-07-17T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M2:role5=>D2026:1D:N6:S31"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 2127774902072115,
+            "denominator": 188227594582229
+          },
+          {
+            "numerator": 8347492278075400,
+            "denominator": 1764760143045591
+          },
+          {
+            "numerator": 5573204538870990,
+            "denominator": 752277059631317
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "D2026:1D:N6:S34",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S34:FIVE_SEGMENT_HYPOTHESIS:34-35-36-37-38-39:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:126:LOW",
+        "timestamp_utc": "2026-07-07T13:30:00+00:00",
+        "price_field": "low",
+        "price": 191.14,
+        "represented_ratio": {
+          "numerator": 1681285220264837,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6905,
+          "source_timestamp": "2026-07-07T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S34:FIVE_SEGMENT_HYPOTHESIS:34-35-36-37-38-39:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:149:HIGH",
+        "timestamp_utc": "2026-08-07T13:30:00+00:00",
+        "price_field": "high",
+        "price": 224.76,
+        "represented_ratio": {
+          "numerator": 988504933835735,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6928,
+          "source_timestamp": "2026-08-07T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M2:role5=>D2026:1D:N6:S34"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 1812794807395050,
+            "denominator": 152844110933167
+          },
+          {
+            "numerator": 57772738969862100,
+            "denominator": 6965450142426071
+          },
+          {
+            "numerator": 15283211626086400,
+            "denominator": 835672817574871
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "D2026:1D:N6:S38",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S38:FIVE_SEGMENT_HYPOTHESIS:38-39-40-41-42-43:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:142:LOW",
+        "timestamp_utc": "2026-07-29T13:30:00+00:00",
+        "price_field": "low",
+        "price": 190.01,
+        "represented_ratio": {
+          "numerator": 835672817574871,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6921,
+          "source_timestamp": "2026-07-29T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S38:FIVE_SEGMENT_HYPOTHESIS:38-39-40-41-42-43:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:163:HIGH",
+        "timestamp_utc": "2026-08-27T13:30:00+00:00",
+        "price_field": "high",
+        "price": 230.47,
+        "represented_ratio": {
+          "numerator": 8108942235313111,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6942,
+          "source_timestamp": "2026-08-27T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M2:role5=>D2026:1D:N6:S38"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 15283211626086400,
+            "denominator": 835672817574871
+          },
+          {
+            "numerator": 6872680681351850,
+            "denominator": 1267810207600913
+          },
+          {
+            "numerator": 20424527997566975,
+            "denominator": 1822990278852608
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "MAY_JULY:1D:N6:S3",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S3:FIVE_SEGMENT_HYPOTHESIS:3-4-5-6-7-8:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:12:HIGH",
+        "timestamp_utc": "2026-06-02T13:30:00+00:00",
+        "price_field": "high",
+        "price": 232.28,
+        "represented_ratio": {
+          "numerator": 8172625948793897,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6882,
+          "source_timestamp": "2026-06-02T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S3:FIVE_SEGMENT_HYPOTHESIS:3-4-5-6-7-8:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:30:LOW",
+        "timestamp_utc": "2026-06-29T13:30:00+00:00",
+        "price_field": "low",
+        "price": 189.8,
+        "represented_ratio": {
+          "numerator": 3338996911230157,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6900,
+          "source_timestamp": "2026-06-29T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M2:role5=>MAY_JULY:1D:N6:S3"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 115897321660612600,
+            "denominator": 8172625948793897
+          },
+          {
+            "numerator": 33885013227591400,
+            "denominator": 7484092416075917
+          },
+          {
+            "numerator": 2127774902072115,
+            "denominator": 188227594582229
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "MAY_JULY:1D:N6:S4",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S4:FIVE_SEGMENT_HYPOTHESIS:4-5-6-7-8-9:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:17:LOW",
+        "timestamp_utc": "2026-06-09T13:30:00+00:00",
+        "price_field": "low",
+        "price": 199.34,
+        "represented_ratio": {
+          "numerator": 7013652732187771,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6887,
+          "source_timestamp": "2026-06-09T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S4:FIVE_SEGMENT_HYPOTHESIS:4-5-6-7-8-9:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:31:HIGH",
+        "timestamp_utc": "2026-06-30T13:30:00+00:00",
+        "price_field": "high",
+        "price": 200.63,
+        "represented_ratio": {
+          "numerator": 1764760143045591,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6901,
+          "source_timestamp": "2026-06-30T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M2:role5=>MAY_JULY:1D:N6:S4"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 47043968388814600,
+            "denominator": 7013652732187771
+          },
+          {
+            "numerator": 38386149948915700,
+            "denominator": 7145242283800003
+          },
+          {
+            "numerator": 19052337486102500,
+            "denominator": 3338996911230157
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "MAY_JULY:1D:N6:S7",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S7:FIVE_SEGMENT_HYPOTHESIS:7-8-9-10-11-12:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:25:HIGH",
+        "timestamp_utc": "2026-06-22T13:30:00+00:00",
+        "price_field": "high",
+        "price": 213.99,
+        "represented_ratio": {
+          "numerator": 941137972911145,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6895,
+          "source_timestamp": "2026-06-22T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S7:FIVE_SEGMENT_HYPOTHESIS:7-8-9-10-11-12:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:43:LOW",
+        "timestamp_utc": "2026-07-17T13:30:00+00:00",
+        "price_field": "low",
+        "price": 197.97,
+        "represented_ratio": {
+          "numerator": 6965450142426071,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6913,
+          "source_timestamp": "2026-07-17T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M2:role5=>MAY_JULY:1D:N6:S7"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 2127774902072115,
+            "denominator": 188227594582229
+          },
+          {
+            "numerator": 8347492278075400,
+            "denominator": 1764760143045591
+          },
+          {
+            "numerator": 5573204538870990,
+            "denominator": 752277059631317
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "MAY_JULY:1D:N6:S8",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S8:FIVE_SEGMENT_HYPOTHESIS:8-9-10-11-12-13:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:30:LOW",
+        "timestamp_utc": "2026-06-29T13:30:00+00:00",
+        "price_field": "low",
+        "price": 189.8,
+        "represented_ratio": {
+          "numerator": 3338996911230157,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6900,
+          "source_timestamp": "2026-06-29T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S8:FIVE_SEGMENT_HYPOTHESIS:8-9-10-11-12-13:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:46:HIGH",
+        "timestamp_utc": "2026-07-22T13:30:00+00:00",
+        "price_field": "high",
+        "price": 214.39,
+        "represented_ratio": {
+          "numerator": 1885794383031173,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6916,
+          "source_timestamp": "2026-07-22T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "1D",
+      "incoming_links": [
+        "M2:role5=>MAY_JULY:1D:N6:S8"
+      ],
+      "classification": "INTERIOR_OR_BOUNDARY_SUPPORTED_OBSERVATIONAL_PROPOSAL",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 19052337486102500,
+            "denominator": 3338996911230157
+          },
+          {
+            "numerator": 1812794807395050,
+            "denominator": 152844110933167
+          },
+          {
+            "numerator": 57772738969862100,
+            "denominator": 6965450142426071
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "H4CONTEXT:240:N6:S7",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:H4CONTEXT:240:N6:S7:FIVE_SEGMENT_HYPOTHESIS:7-8-9-10-11-12:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:de4083d71cfa913adef60181:38:LOW",
+        "timestamp_utc": "2026-06-11T13:30:00+00:00",
+        "price_field": "low",
+        "price": 199.54,
+        "represented_ratio": {
+          "numerator": 7020689606605537,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2182,
+          "source_timestamp": "2026-06-11T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:H4CONTEXT:240:N6:S7:FIVE_SEGMENT_HYPOTHESIS:7-8-9-10-11-12:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:de4083d71cfa913adef60181:63:HIGH",
+        "timestamp_utc": "2026-06-30T17:30:00+00:00",
+        "price_field": "high",
+        "price": 200.63,
+        "represented_ratio": {
+          "numerator": 1764760143045591,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2207,
+          "source_timestamp": "2026-06-30T17:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "240",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 46337818040991800,
+            "denominator": 7020689606605537
+          },
+          {
+            "numerator": 38386149948915700,
+            "denominator": 7145242283800003
+          },
+          {
+            "numerator": 19052337486102500,
+            "denominator": 3338996911230157
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "JULY:60:N6:S8",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:JULY:60:N6:S8:FIVE_SEGMENT_HYPOTHESIS:8-9-10-11-12-13:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:f8b546d879df95939b578212:42:LOW",
+        "timestamp_utc": "2026-07-10T13:30:00+00:00",
+        "price_field": "low",
+        "price": 201.915,
+        "represented_ratio": {
+          "numerator": 7104252490316513,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2015,
+          "source_timestamp": "2026-07-10T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:JULY:60:N6:S8:FIVE_SEGMENT_HYPOTHESIS:8-9-10-11-12-13:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:f8b546d879df95939b578212:69:HIGH",
+        "timestamp_utc": "2026-07-15T19:30:00+00:00",
+        "price_field": "high",
+        "price": 212.56,
+        "represented_ratio": {
+          "numerator": 3739395065601065,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2042,
+          "source_timestamp": "2026-07-15T19:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "60",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 31965002042703900,
+            "denominator": 7104252490316513
+          },
+          {
+            "numerator": 4754288278503425,
+            "denominator": 892803441754112
+          },
+          {
+            "numerator": 4588042120383700,
+            "denominator": 1449877605036589
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "JULY:60:N6:S10",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:JULY:60:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:f8b546d879df95939b578212:55:LOW",
+        "timestamp_utc": "2026-07-13T19:30:00+00:00",
+        "price_field": "low",
+        "price": 203.0,
+        "represented_ratio": {
+          "numerator": 203,
+          "denominator": 1
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2028,
+          "source_timestamp": "2026-07-13T19:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:JULY:60:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:f8b546d879df95939b578212:74:LOW",
+        "timestamp_utc": "2026-07-16T17:30:00+00:00",
+        "price_field": "low",
+        "price": 205.88,
+        "represented_ratio": {
+          "numerator": 1810939631412183,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2047,
+          "source_timestamp": "2026-07-16T17:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "60",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 4754288278503425,
+            "denominator": 892803441754112
+          },
+          {
+            "numerator": 4588042120383700,
+            "denominator": 1449877605036589
+          },
+          {
+            "numerator": 105553116266500,
+            "denominator": 7242702994486067
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "RECENT:60:N6:S1",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S1:FIVE_SEGMENT_HYPOTHESIS:1-2-3-4-5-6:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:6:LOW",
+        "timestamp_utc": "2026-07-29T19:30:00+00:00",
+        "price_field": "low",
+        "price": 190.02,
+        "represented_ratio": {
+          "numerator": 6685734384319857,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2112,
+          "source_timestamp": "2026-07-29T19:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S1:FIVE_SEGMENT_HYPOTHESIS:1-2-3-4-5-6:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:25:HIGH",
+        "timestamp_utc": "2026-08-03T17:30:00+00:00",
+        "price_field": "high",
+        "price": 208.73,
+        "represented_ratio": {
+          "numerator": 7344033986101903,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2131,
+          "source_timestamp": "2026-08-03T17:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "60",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 8467705549378900,
+            "denominator": 2228578128106619
+          },
+          {
+            "numerator": 520728706914714,
+            "denominator": 135586496281523
+          },
+          {
+            "numerator": 41623112181088200,
+            "denominator": 6927802864291021
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "RECENT:60:N6:S3",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S3:FIVE_SEGMENT_HYPOTHESIS:3-4-5-6-7-8:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:10:LOW",
+        "timestamp_utc": "2026-07-30T16:30:00+00:00",
+        "price_field": "low",
+        "price": 192.68,
+        "represented_ratio": {
+          "numerator": 3389662407038075,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2116,
+          "source_timestamp": "2026-07-30T16:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S3:FIVE_SEGMENT_HYPOTHESIS:3-4-5-6-7-8:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:28:HIGH",
+        "timestamp_utc": "2026-08-04T13:30:00+00:00",
+        "price_field": "high",
+        "price": 212.18,
+        "represented_ratio": {
+          "numerator": 3732710034904187,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2134,
+          "source_timestamp": "2026-08-04T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "60",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 520728706914714,
+            "denominator": 135586496281523
+          },
+          {
+            "numerator": 41623112181088200,
+            "denominator": 6927802864291021
+          },
+          {
+            "numerator": 4405083385521780,
+            "denominator": 1449033180106457
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "RECENT:60:N6:S10",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:42:HIGH",
+        "timestamp_utc": "2026-08-06T13:30:00+00:00",
+        "price_field": "high",
+        "price": 223.63,
+        "represented_ratio": {
+          "numerator": 1967070282556375,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2148,
+          "source_timestamp": "2026-08-06T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:52:LOW",
+        "timestamp_utc": "2026-08-07T16:30:00+00:00",
+        "price_field": "low",
+        "price": 221.56,
+        "represented_ratio": {
+          "numerator": 3897724740000809,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2158,
+          "source_timestamp": "2026-08-07T16:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "60",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 223772606484971,
+            "denominator": 78682811302255
+          },
+          {
+            "numerator": 3958241859993600,
+            "denominator": 3884354678607053
+          },
+          {
+            "numerator": 281474976710655,
+            "denominator": 197700986767147
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "RECENT:60:N6:S11",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S11:FIVE_SEGMENT_HYPOTHESIS:11-12-13-14-15-16:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:44:LOW",
+        "timestamp_utc": "2026-08-06T15:30:00+00:00",
+        "price_field": "low",
+        "price": 217.27,
+        "represented_ratio": {
+          "numerator": 7644508523740529,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2150,
+          "source_timestamp": "2026-08-06T15:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S11:FIVE_SEGMENT_HYPOTHESIS:11-12-13-14-15-16:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:55:HIGH",
+        "timestamp_utc": "2026-08-07T19:30:00+00:00",
+        "price_field": "high",
+        "price": 224.21,
+        "represented_ratio": {
+          "numerator": 7888688066037023,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2161,
+          "source_timestamp": "2026-08-07T19:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "60",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 1774297621051100,
+            "denominator": 1092072646248647
+          },
+          {
+            "numerator": 10924747533582300,
+            "denominator": 3844772260007117
+          },
+          {
+            "numerator": 4661929301770250,
+            "denominator": 3897724740000809
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "RECENT:60:N6:S13",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S13:FIVE_SEGMENT_HYPOTHESIS:13-14-15-16-17-18:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:48:LOW",
+        "timestamp_utc": "2026-08-06T19:30:00+00:00",
+        "price_field": "low",
+        "price": 218.55,
+        "represented_ratio": {
+          "numerator": 3844772260007117,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2154,
+          "source_timestamp": "2026-08-06T19:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S13:FIVE_SEGMENT_HYPOTHESIS:13-14-15-16-17-18:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:62:LOW",
+        "timestamp_utc": "2026-08-10T19:30:00+00:00",
+        "price_field": "low",
+        "price": 217.36,
+        "represented_ratio": {
+          "numerator": 1911918779307131,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2168,
+          "source_timestamp": "2026-08-10T19:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "60",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 10924747533582300,
+            "denominator": 3844772260007117
+          },
+          {
+            "numerator": 4661929301770250,
+            "denominator": 3897724740000809
+          },
+          {
+            "numerator": 2075877953241100,
+            "denominator": 7626916337696113
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "RECENT:60:N6:S43",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S43:FIVE_SEGMENT_HYPOTHESIS:43-44-45-46-47-48:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:167:HIGH",
+        "timestamp_utc": "2026-08-31T19:30:00+00:00",
+        "price_field": "high",
+        "price": 221.3,
+        "represented_ratio": {
+          "numerator": 3893150771629261,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2273,
+          "source_timestamp": "2026-08-31T19:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:RECENT:60:N6:S43:FIVE_SEGMENT_HYPOTHESIS:43-44-45-46-47-48:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:221c5ca1a3dc152d919f3dae:181:LOW",
+        "timestamp_utc": "2026-09-02T19:30:00+00:00",
+        "price_field": "low",
+        "price": 223.74,
+        "represented_ratio": {
+          "numerator": 984018926394409,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2287,
+          "source_timestamp": "2026-09-02T19:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "60",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 10907155347537950,
+            "denominator": 3893150771629261
+          },
+          {
+            "numerator": 14249670695977000,
+            "denominator": 7754635608378573
+          },
+          {
+            "numerator": 7406310324699100,
+            "denominator": 4010138808824627
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "LATEST_WEEKS:15:N6:S20",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S20:FIVE_SEGMENT_HYPOTHESIS:20-21-22-23-24-25:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:75:HIGH",
+        "timestamp_utc": "2026-08-19T19:15:00+00:00",
+        "price_field": "high",
+        "price": 219.99,
+        "represented_ratio": {
+          "numerator": 967526251977769,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 1986,
+          "source_timestamp": "2026-08-19T19:15:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S20:FIVE_SEGMENT_HYPOTHESIS:20-21-22-23-24-25:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:87:LOW",
+        "timestamp_utc": "2026-08-20T15:45:00+00:00",
+        "price_field": "low",
+        "price": 215.66,
+        "represented_ratio": {
+          "numerator": 7587861684677509,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 1998,
+          "source_timestamp": "2026-08-20T15:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 2603643534573575,
+            "denominator": 1935052503955538
+          },
+          {
+            "numerator": 2209578567178640,
+            "denominator": 1547056840745943
+          },
+          {
+            "numerator": 585819795279055,
+            "denominator": 385251282186666
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "LATEST_WEEKS:15:N6:S24",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S24:FIVE_SEGMENT_HYPOTHESIS:24-25-26-27-28-29:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:82:HIGH",
+        "timestamp_utc": "2026-08-20T14:30:00+00:00",
+        "price_field": "high",
+        "price": 218.99,
+        "represented_ratio": {
+          "numerator": 963128205466665,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 1993,
+          "source_timestamp": "2026-08-20T14:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S24:FIVE_SEGMENT_HYPOTHESIS:24-25-26-27-28-29:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:97:LOW",
+        "timestamp_utc": "2026-08-20T18:15:00+00:00",
+        "price_field": "low",
+        "price": 216.35,
+        "represented_ratio": {
+          "numerator": 7612138901418803,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2008,
+          "source_timestamp": "2026-08-20T18:15:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 585819795279055,
+            "denominator": 385251282186666
+          },
+          {
+            "numerator": 2111062325329900,
+            "denominator": 2556496475974533
+          },
+          {
+            "numerator": 562949953421325,
+            "denominator": 1908664224888914
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "LATEST_WEEKS:15:N6:S32",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S32:FIVE_SEGMENT_HYPOTHESIS:32-33-34-35-36-37:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:108:LOW",
+        "timestamp_utc": "2026-08-21T14:30:00+00:00",
+        "price_field": "low",
+        "price": 214.51,
+        "represented_ratio": {
+          "numerator": 943424957096919,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2019,
+          "source_timestamp": "2026-08-21T14:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S32:FIVE_SEGMENT_HYPOTHESIS:32-33-34-35-36-37:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:130:HIGH",
+        "timestamp_utc": "2026-08-24T13:30:00+00:00",
+        "price_field": "high",
+        "price": 215.75,
+        "represented_ratio": {
+          "numerator": 863,
+          "denominator": 4
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2041,
+          "source_timestamp": "2026-08-24T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 735939782858075,
+            "denominator": 628949971397946
+          },
+          {
+            "numerator": 52072870691472,
+            "denominator": 75519736251469
+          },
+          {
+            "numerator": 985162418487300,
+            "denominator": 7581176653980631
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "LATEST_WEEKS:15:N6:S40",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S40:FIVE_SEGMENT_HYPOTHESIS:40-41-42-43-44-45:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:141:HIGH",
+        "timestamp_utc": "2026-08-24T16:15:00+00:00",
+        "price_field": "high",
+        "price": 211.03,
+        "represented_ratio": {
+          "numerator": 7424958041906217,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2052,
+          "source_timestamp": "2026-08-24T16:15:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S40:FIVE_SEGMENT_HYPOTHESIS:40-41-42-43-44-45:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:163:LOW",
+        "timestamp_utc": "2026-08-25T15:15:00+00:00",
+        "price_field": "low",
+        "price": 210.18,
+        "represented_ratio": {
+          "numerator": 3697525662815355,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2074,
+          "source_timestamp": "2026-08-25T15:15:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 2181431069507600,
+            "denominator": 2474986013968739
+          },
+          {
+            "numerator": 11470105300959200,
+            "denominator": 7405606637257359
+          },
+          {
+            "numerator": 3201777860083700,
+            "denominator": 1511028043726979
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "LATEST_WEEKS:15:N6:S45",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S45:FIVE_SEGMENT_HYPOTHESIS:45-46-47-48-49-50:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:163:LOW",
+        "timestamp_utc": "2026-08-25T15:15:00+00:00",
+        "price_field": "low",
+        "price": 210.18,
+        "represented_ratio": {
+          "numerator": 3697525662815355,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2074,
+          "source_timestamp": "2026-08-25T15:15:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S45:FIVE_SEGMENT_HYPOTHESIS:45-46-47-48-49-50:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:178:HIGH",
+        "timestamp_utc": "2026-08-25T19:00:00+00:00",
+        "price_field": "high",
+        "price": 213.43,
+        "represented_ratio": {
+          "numerator": 3754700267459707,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2089,
+          "source_timestamp": "2026-08-25T19:00:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 844424930131970,
+            "denominator": 739505132563071
+          },
+          {
+            "numerator": 2832341953150900,
+            "denominator": 7448883414926623
+          },
+          {
+            "numerator": 1372190511464450,
+            "denominator": 1863628228615209
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "LATEST_WEEKS:15:N6:S53",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S53:FIVE_SEGMENT_HYPOTHESIS:53-54-55-56-57-58:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:183:HIGH",
+        "timestamp_utc": "2026-08-26T13:45:00+00:00",
+        "price_field": "high",
+        "price": 213.59,
+        "represented_ratio": {
+          "numerator": 7515030034453627,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2094,
+          "source_timestamp": "2026-08-26T13:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S53:FIVE_SEGMENT_HYPOTHESIS:53-54-55-56-57-58:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:195:LOW",
+        "timestamp_utc": "2026-08-26T16:45:00+00:00",
+        "price_field": "low",
+        "price": 209.47,
+        "represented_ratio": {
+          "numerator": 7370070421447639,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2106,
+          "source_timestamp": "2026-08-26T16:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 12349714603180000,
+            "denominator": 7515030034453627
+          },
+          {
+            "numerator": 3307330976350200,
+            "denominator": 7442550227950633
+          },
+          {
+            "numerator": 137922738588222,
+            "denominator": 148780635814835
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "LATEST_WEEKS:15:N6:S64",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S64:FIVE_SEGMENT_HYPOTHESIS:64-65-66-67-68-69:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:217:LOW",
+        "timestamp_utc": "2026-08-27T15:45:00+00:00",
+        "price_field": "low",
+        "price": 224.84,
+        "represented_ratio": {
+          "numerator": 7910854220452987,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2128,
+          "source_timestamp": "2026-08-27T15:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S64:FIVE_SEGMENT_HYPOTHESIS:64-65-66-67-68-69:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:239:HIGH",
+        "timestamp_utc": "2026-08-28T14:45:00+00:00",
+        "price_field": "high",
+        "price": 226.905,
+        "represented_ratio": {
+          "numerator": 7983509948816425,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2150,
+          "source_timestamp": "2026-08-28T14:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 19808801486012400,
+            "denominator": 7910854220452987
+          },
+          {
+            "numerator": 13757089486733300,
+            "denominator": 7928798250218291
+          },
+          {
+            "numerator": 12965441114734600,
+            "denominator": 7853855537669079
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "LATEST_WEEKS:15:N6:S83",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S83:FIVE_SEGMENT_HYPOTHESIS:83-84-85-86-87-88:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:307:LOW",
+        "timestamp_utc": "2026-09-01T18:45:00+00:00",
+        "price_field": "low",
+        "price": 216.35,
+        "represented_ratio": {
+          "numerator": 7612138901418803,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2218,
+          "source_timestamp": "2026-09-01T18:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:LATEST_WEEKS:15:N6:S83:FIVE_SEGMENT_HYPOTHESIS:83-84-85-86-87-88:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:ac85ffbc24eb31a25bc0b894:332:HIGH",
+        "timestamp_utc": "2026-09-02T18:30:00+00:00",
+        "price_field": "high",
+        "price": 225.35,
+        "represented_ratio": {
+          "numerator": 7928798250218291,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2243,
+          "source_timestamp": "2026-09-02T18:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 5488762045857800,
+            "denominator": 7612138901418803
+          },
+          {
+            "numerator": 9965973394161650,
+            "denominator": 1905409670470697
+          },
+          {
+            "numerator": 1618481116086250,
+            "denominator": 3948214313948283
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "TAIL:15:N6:S0",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S0:FIVE_SEGMENT_HYPOTHESIS:0-1-2-3-4-5:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:9:HIGH",
+        "timestamp_utc": "2026-09-01T15:45:00+00:00",
+        "price_field": "high",
+        "price": 220.4,
+        "represented_ratio": {
+          "numerator": 7754635608378573,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2206,
+          "source_timestamp": "2026-09-01T15:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S0:FIVE_SEGMENT_HYPOTHESIS:0-1-2-3-4-5:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:44:LOW",
+        "timestamp_utc": "2026-09-02T18:00:00+00:00",
+        "price_field": "low",
+        "price": 224.43,
+        "represented_ratio": {
+          "numerator": 3948214313948283,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2241,
+          "source_timestamp": "2026-09-02T18:00:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 14249670695977000,
+            "denominator": 7754635608378573
+          },
+          {
+            "numerator": 4538783999459300,
+            "denominator": 7667026521877381
+          },
+          {
+            "numerator": 144010453200800,
+            "denominator": 93259042065689
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "TAIL:15:N6:S1",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S1:FIVE_SEGMENT_HYPOTHESIS:1-2-3-4-5-6:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:21:LOW",
+        "timestamp_utc": "2026-09-01T18:45:00+00:00",
+        "price_field": "low",
+        "price": 216.35,
+        "represented_ratio": {
+          "numerator": 7612138901418803,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2218,
+          "source_timestamp": "2026-09-01T18:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S1:FIVE_SEGMENT_HYPOTHESIS:1-2-3-4-5-6:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:46:HIGH",
+        "timestamp_utc": "2026-09-02T18:30:00+00:00",
+        "price_field": "high",
+        "price": 225.35,
+        "represented_ratio": {
+          "numerator": 7928798250218291,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2243,
+          "source_timestamp": "2026-09-02T18:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 5488762045857800,
+            "denominator": 7612138901418803
+          },
+          {
+            "numerator": 9965973394161650,
+            "denominator": 1905409670470697
+          },
+          {
+            "numerator": 1618481116086250,
+            "denominator": 3948214313948283
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "TAIL:15:N6:S3",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S3:FIVE_SEGMENT_HYPOTHESIS:3-4-5-6-7-8:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:25:LOW",
+        "timestamp_utc": "2026-09-01T19:45:00+00:00",
+        "price_field": "low",
+        "price": 216.62,
+        "represented_ratio": {
+          "numerator": 1905409670470697,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2222,
+          "source_timestamp": "2026-09-01T19:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S3:FIVE_SEGMENT_HYPOTHESIS:3-4-5-6-7-8:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:53:HIGH",
+        "timestamp_utc": "2026-09-03T13:45:00+00:00",
+        "price_field": "high",
+        "price": 229.07,
+        "represented_ratio": {
+          "numerator": 4029842057194373,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2250,
+          "source_timestamp": "2026-09-03T13:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 9965973394161650,
+            "denominator": 1905409670470697
+          },
+          {
+            "numerator": 1618481116086250,
+            "denominator": 3948214313948283
+          },
+          {
+            "numerator": 2344158790418425,
+            "denominator": 984018926394409
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "TAIL:15:N6:S4",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S4:FIVE_SEGMENT_HYPOTHESIS:4-5-6-7-8-9:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:35:HIGH",
+        "timestamp_utc": "2026-09-02T15:45:00+00:00",
+        "price_field": "high",
+        "price": 227.95,
+        "represented_ratio": {
+          "numerator": 4010138808824627,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2232,
+          "source_timestamp": "2026-09-02T15:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S4:FIVE_SEGMENT_HYPOTHESIS:4-5-6-7-8-9:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:57:LOW",
+        "timestamp_utc": "2026-09-03T14:45:00+00:00",
+        "price_field": "low",
+        "price": 225.41,
+        "represented_ratio": {
+          "numerator": 7930909312543621,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2254,
+          "source_timestamp": "2026-09-03T14:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "UNRESOLVED",
+        "reason": "SUFFICIENCY_NOT_ESTABLISHED_NO_NEGATIVE_INFERENCE",
+        "percentage_movements": [
+          {
+            "numerator": 144010453200800,
+            "denominator": 93259042065689
+          },
+          {
+            "numerator": 5664683906301900,
+            "denominator": 7928798250218291
+          },
+          {
+            "numerator": 6438740092256250,
+            "denominator": 4029842057194373
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    },
+    {
+      "alias": "TAIL:15:N6:S10",
+      "start": {
+        "role": "1",
+        "edge": "start",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:1",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:67:LOW",
+        "timestamp_utc": "2026-09-03T17:15:00+00:00",
+        "price_field": "low",
+        "price": 227.07,
+        "represented_ratio": {
+          "numerator": 3994657685105541,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2264,
+          "source_timestamp": "2026-09-03T17:15:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "end": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:TAIL:15:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:f94ebe090747fc5f0fbb75c7:91:HIGH",
+        "timestamp_utc": "2026-09-04T16:45:00+00:00",
+        "price_field": "high",
+        "price": 232.24,
+        "represented_ratio": {
+          "numerator": 1021402321738793,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 2288,
+          "source_timestamp": "2026-09-04T16:45:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "resolution": "15",
+      "incoming_links": [],
+      "classification": "INDEPENDENT_LOCAL_HYPOTHESIS",
+      "p005": {
+        "status": "SUFFICIENT_CONDITION_ESTABLISHED",
+        "reason": "BOOK_PERCENTAGE_SUFFICIENT_CONDITION_ONLY_NOT_FULL_P005_OR_FAMILY_VALIDATION",
+        "percentage_movements": [
+          {
+            "numerator": 5858197952790550,
+            "denominator": 3994657685105541
+          },
+          {
+            "numerator": 11329367812603900,
+            "denominator": 4016647917661061
+          },
+          {
+            "numerator": 760862046421000,
+            "denominator": 1013793701274583
+          }
+        ]
+      },
+      "internal_status": "INTERNALS_UNRESOLVED"
+    }
+  ],
+  "paths": [
+    {
+      "root": "M1",
+      "links": [
+        "M1:role5=>D2025:1D:N6:S22"
+      ],
+      "leaf": "D2025:1D:N6:S22",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S22:FIVE_SEGMENT_HYPOTHESIS:22-23-24-25-26-27:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:92:HIGH",
+        "timestamp_utc": "2025-05-16T13:30:00+00:00",
+        "price_field": "high",
+        "price": 136.35,
+        "represented_ratio": {
+          "numerator": 4797389134312243,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6621,
+          "source_timestamp": "2025-05-16T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M1",
+      "links": [
+        "M1:role5=>D2025:1D:N6:S33"
+      ],
+      "leaf": "D2025:1D:N6:S33",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S33:FIVE_SEGMENT_HYPOTHESIS:33-34-35-36-37-38:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:124:HIGH",
+        "timestamp_utc": "2025-07-03T13:30:00+00:00",
+        "price_field": "high",
+        "price": 160.98,
+        "represented_ratio": {
+          "numerator": 5663980218860175,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6653,
+          "source_timestamp": "2025-07-03T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M1",
+      "links": [
+        "M1:role5=>D2025:1D:N6:S52"
+      ],
+      "leaf": "D2025:1D:N6:S52",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S52:FIVE_SEGMENT_HYPOTHESIS:52-53-54-55-56-57:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:199:HIGH",
+        "timestamp_utc": "2025-10-20T13:30:00+00:00",
+        "price_field": "high",
+        "price": 185.2,
+        "represented_ratio": {
+          "numerator": 3258072855425843,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6728,
+          "source_timestamp": "2025-10-20T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M1",
+      "links": [
+        "M1:role5=>D2025:1D:N6:S60"
+      ],
+      "leaf": "D2025:1D:N6:S60",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S60:FIVE_SEGMENT_HYPOTHESIS:60-61-62-63-64-65:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:225:LOW",
+        "timestamp_utc": "2025-11-25T14:30:00+00:00",
+        "price_field": "low",
+        "price": 169.55,
+        "represented_ratio": {
+          "numerator": 2982755143830733,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6754,
+          "source_timestamp": "2025-11-25T14:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M1",
+      "links": [
+        "M1:role5=>D2026:1D:N6:S10"
+      ],
+      "leaf": "D2026:1D:N6:S10",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:48:LOW",
+        "timestamp_utc": "2026-03-13T13:30:00+00:00",
+        "price_field": "low",
+        "price": 179.94,
+        "represented_ratio": {
+          "numerator": 3165537956832215,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6827,
+          "source_timestamp": "2026-03-13T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2025:1D:N6:S22"
+      ],
+      "leaf": "D2025:1D:N6:S22",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S22:FIVE_SEGMENT_HYPOTHESIS:22-23-24-25-26-27:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:92:HIGH",
+        "timestamp_utc": "2025-05-16T13:30:00+00:00",
+        "price_field": "high",
+        "price": 136.35,
+        "represented_ratio": {
+          "numerator": 4797389134312243,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6621,
+          "source_timestamp": "2025-05-16T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2025:1D:N6:S33"
+      ],
+      "leaf": "D2025:1D:N6:S33",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S33:FIVE_SEGMENT_HYPOTHESIS:33-34-35-36-37-38:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:124:HIGH",
+        "timestamp_utc": "2025-07-03T13:30:00+00:00",
+        "price_field": "high",
+        "price": 160.98,
+        "represented_ratio": {
+          "numerator": 5663980218860175,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6653,
+          "source_timestamp": "2025-07-03T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2025:1D:N6:S52"
+      ],
+      "leaf": "D2025:1D:N6:S52",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S52:FIVE_SEGMENT_HYPOTHESIS:52-53-54-55-56-57:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:199:HIGH",
+        "timestamp_utc": "2025-10-20T13:30:00+00:00",
+        "price_field": "high",
+        "price": 185.2,
+        "represented_ratio": {
+          "numerator": 3258072855425843,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6728,
+          "source_timestamp": "2025-10-20T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2025:1D:N6:S60"
+      ],
+      "leaf": "D2025:1D:N6:S60",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2025:1D:N6:S60:FIVE_SEGMENT_HYPOTHESIS:60-61-62-63-64-65:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:dc81e70f1260a6b9d789ee42:225:LOW",
+        "timestamp_utc": "2025-11-25T14:30:00+00:00",
+        "price_field": "low",
+        "price": 169.55,
+        "represented_ratio": {
+          "numerator": 2982755143830733,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6754,
+          "source_timestamp": "2025-11-25T14:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2026:1D:N6:S10"
+      ],
+      "leaf": "D2026:1D:N6:S10",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S10:FIVE_SEGMENT_HYPOTHESIS:10-11-12-13-14-15:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:48:LOW",
+        "timestamp_utc": "2026-03-13T13:30:00+00:00",
+        "price_field": "low",
+        "price": 179.94,
+        "represented_ratio": {
+          "numerator": 3165537956832215,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6827,
+          "source_timestamp": "2026-03-13T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2026:1D:N6:S22"
+      ],
+      "leaf": "D2026:1D:N6:S22",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S22:FIVE_SEGMENT_HYPOTHESIS:22-23-24-25-26-27:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:103:HIGH",
+        "timestamp_utc": "2026-06-02T13:30:00+00:00",
+        "price_field": "high",
+        "price": 232.28,
+        "represented_ratio": {
+          "numerator": 8172625948793897,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6882,
+          "source_timestamp": "2026-06-02T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2026:1D:N6:S27"
+      ],
+      "leaf": "D2026:1D:N6:S27",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S27:FIVE_SEGMENT_HYPOTHESIS:27-28-29-30-31-32:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:121:LOW",
+        "timestamp_utc": "2026-06-29T13:30:00+00:00",
+        "price_field": "low",
+        "price": 189.8,
+        "represented_ratio": {
+          "numerator": 3338996911230157,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6900,
+          "source_timestamp": "2026-06-29T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2026:1D:N6:S31"
+      ],
+      "leaf": "D2026:1D:N6:S31",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S31:FIVE_SEGMENT_HYPOTHESIS:31-32-33-34-35-36:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:134:LOW",
+        "timestamp_utc": "2026-07-17T13:30:00+00:00",
+        "price_field": "low",
+        "price": 197.97,
+        "represented_ratio": {
+          "numerator": 6965450142426071,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6913,
+          "source_timestamp": "2026-07-17T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2026:1D:N6:S34"
+      ],
+      "leaf": "D2026:1D:N6:S34",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S34:FIVE_SEGMENT_HYPOTHESIS:34-35-36-37-38-39:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:149:HIGH",
+        "timestamp_utc": "2026-08-07T13:30:00+00:00",
+        "price_field": "high",
+        "price": 224.76,
+        "represented_ratio": {
+          "numerator": 988504933835735,
+          "denominator": 4398046511104
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6928,
+          "source_timestamp": "2026-08-07T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>D2026:1D:N6:S38"
+      ],
+      "leaf": "D2026:1D:N6:S38",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:D2026:1D:N6:S38:FIVE_SEGMENT_HYPOTHESIS:38-39-40-41-42-43:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:e9e083b9b8ae6a5123f600de:163:HIGH",
+        "timestamp_utc": "2026-08-27T13:30:00+00:00",
+        "price_field": "high",
+        "price": 230.47,
+        "represented_ratio": {
+          "numerator": 8108942235313111,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6942,
+          "source_timestamp": "2026-08-27T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>MAY_JULY:1D:N6:S3"
+      ],
+      "leaf": "MAY_JULY:1D:N6:S3",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S3:FIVE_SEGMENT_HYPOTHESIS:3-4-5-6-7-8:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:30:LOW",
+        "timestamp_utc": "2026-06-29T13:30:00+00:00",
+        "price_field": "low",
+        "price": 189.8,
+        "represented_ratio": {
+          "numerator": 3338996911230157,
+          "denominator": 17592186044416
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6900,
+          "source_timestamp": "2026-06-29T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>MAY_JULY:1D:N6:S4"
+      ],
+      "leaf": "MAY_JULY:1D:N6:S4",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S4:FIVE_SEGMENT_HYPOTHESIS:4-5-6-7-8-9:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:31:HIGH",
+        "timestamp_utc": "2026-06-30T13:30:00+00:00",
+        "price_field": "high",
+        "price": 200.63,
+        "represented_ratio": {
+          "numerator": 1764760143045591,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6901,
+          "source_timestamp": "2026-06-30T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>MAY_JULY:1D:N6:S7"
+      ],
+      "leaf": "MAY_JULY:1D:N6:S7",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S7:FIVE_SEGMENT_HYPOTHESIS:7-8-9-10-11-12:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:43:LOW",
+        "timestamp_utc": "2026-07-17T13:30:00+00:00",
+        "price_field": "low",
+        "price": 197.97,
+        "represented_ratio": {
+          "numerator": 6965450142426071,
+          "denominator": 35184372088832
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6913,
+          "source_timestamp": "2026-07-17T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    },
+    {
+      "root": "M2",
+      "links": [
+        "M2:role5=>MAY_JULY:1D:N6:S8"
+      ],
+      "leaf": "MAY_JULY:1D:N6:S8",
+      "last_evidenced_endpoint": {
+        "role": "5",
+        "edge": "end",
+        "child_subject": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1:MAY_JULY:1D:N6:S8:FIVE_SEGMENT_HYPOTHESIS:8-9-10-11-12-13:proposed-child:5",
+        "pivot_id": "aggregate-recent-geometry:a3aa6a95e2adfcc7caa07e70:46:HIGH",
+        "timestamp_utc": "2026-07-22T13:30:00+00:00",
+        "price_field": "high",
+        "price": 214.39,
+        "represented_ratio": {
+          "numerator": 1885794383031173,
+          "denominator": 8796093022208
+        },
+        "pivot_state": "CONFIRMED_BY_GEOMETRY",
+        "bar_provenance": {
+          "source_record_index": 6916,
+          "source_timestamp": "2026-07-22T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "precision": "EXACT_REPRESENTED_FLOAT",
+        "orthodox_endpoint_authority": false
+      },
+      "latest_snapshot_bar": "2026-09-08T13:30:00+00:00",
+      "reaches_latest_captured_bar": false,
+      "active_wave_authority": false,
+      "type": "PROPOSED_OBSERVATIONAL_PATH_NOT_SUBDIVISION"
+    }
+  ],
+  "no_preference_order": true
+}

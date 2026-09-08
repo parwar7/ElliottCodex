@@ -1,0 +1,26 @@
+{
+  "delivery": "Standalone native portable report",
+  "final_blocks": 107,
+  "final_charts": 6,
+  "validation": "passed",
+  "package": "passed",
+  "verification": "structural_only",
+  "installed_chrome_attempt": {
+    "executable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "code": "browser_environment_mismatch",
+    "error": "Chromium did not apply the requested chart extraction environment."
+  },
+  "fallback": {
+    "code": "browser_unavailable",
+    "message": "No installed Chromium headless-shell executable was found.",
+    "source_dialog": "not_verified",
+    "source_interaction": "not_verified",
+    "viewports": []
+  },
+  "readable_semantic_chart_tables_retained": true,
+  "visual_label_placement_verified": false,
+  "browser_installed": false,
+  "parallel_html_chart_runtime_created": false,
+  "initial_package_issue": "Native packager required actual SQL provenance. Added a real in-memory SQLite projection over saved close/endpoint rows, retained exact raw values, and reran the three focused chart tests successfully. No analysis reevaluation.",
+  "final_portable_builder_total_ms": 270.3
+}

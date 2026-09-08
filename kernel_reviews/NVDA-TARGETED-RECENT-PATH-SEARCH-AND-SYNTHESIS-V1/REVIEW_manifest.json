@@ -1,0 +1,199 @@
+{
+  "stage": "NVDA-TARGETED-RECENT-PATH-SEARCH-AND-SYNTHESIS-V1",
+  "approved_base": "c5460317893889be5d0d3529d5539b71f67632d6",
+  "seal_kind": "ADDITIVE_LOGICAL_HASH_BASELINE_NOT_PHYSICAL_IMMUTABILITY",
+  "prior_baseline_manifest_sha256": "bb9e07cd16a8644074c19675b5b798a3c9e312a6cd06d729e194b96135df5058",
+  "methodology_inventory_delta": 0,
+  "inventories": [
+    11,
+    7,
+    0,
+    0
+  ],
+  "historical_baselines_modified": false,
+  "project_manager_approval_claimed": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "artifact.json",
+      "bytes": 295554,
+      "sha256": "35bf0e4927ffb55173a55fe6170fcb0c792170940424dddc065c4b7eba190ccf"
+    },
+    {
+      "path": "audit.md",
+      "bytes": 7128,
+      "sha256": "8522486c5cb859657e89de0793852b2a3916d4734dd39b06f706cf887e56d616"
+    },
+    {
+      "path": "boundary_diagnostics.json",
+      "bytes": 4652,
+      "sha256": "78d44aff860a1ef74618aee6cdd0db3f9e72f88702caac3a81942f8876652b16"
+    },
+    {
+      "path": "browser_audit.json",
+      "bytes": 1129,
+      "sha256": "850a72a62e8908096c71257c179959c9f26d778aedec0973ae3f5345ac262c14"
+    },
+    {
+      "path": "canonical_hierarchy.json",
+      "bytes": 5824428,
+      "sha256": "04b5a1427b631dd1385fdf9f06f5a655e1c1046b252c59e62ae440cf37eab975"
+    },
+    {
+      "path": "chart_rows.json",
+      "bytes": 155563,
+      "sha256": "dd500d1953254e06e634438d9996de818aff1c5d6cdab2bb6f59180c5162ff43"
+    },
+    {
+      "path": "compatibility_boundary.md",
+      "bytes": 3299,
+      "sha256": "170d648366746dab4f6fcbf8faf12c1f7bb9c2232b1e21683ee028a6b25fc489"
+    },
+    {
+      "path": "coverage_summary.json",
+      "bytes": 9296,
+      "sha256": "b2eed149842c7c25e38eb125dd8a2f495e2704aff0dffa0646723030116160ef"
+    },
+    {
+      "path": "development_receipt.md",
+      "bytes": 2543,
+      "sha256": "65b67334a13d01ee0713c2b780ba0da59028dea54089f29ad162750f45807128"
+    },
+    {
+      "path": "export_audit.json",
+      "bytes": 1249,
+      "sha256": "50d02ba0d1f5bdc6aa8c15df509d970f8a4e47b49c2a31222825e401707bff61"
+    },
+    {
+      "path": "final_integrity.json",
+      "bytes": 9996,
+      "sha256": "21ac07e3604a44e68bc1aaac9db2a155a05aa0a60cfff185e55ce0c83c57f85d"
+    },
+    {
+      "path": "focused_final_tests.json",
+      "bytes": 116,
+      "sha256": "7e86642d6b0f69e5e5afffc7655de68b1462aa9ade8727c3a1f7c252d80a2f92"
+    },
+    {
+      "path": "focused_final_tests.log",
+      "bytes": 8460,
+      "sha256": "db79e706fd2423b06de83342263a5e313c873bbe031d008a366e5fa11c4f824f"
+    },
+    {
+      "path": "focused_tests.json",
+      "bytes": 116,
+      "sha256": "91118846ec609789cdfc78ce1baeb12db07d2753ee4c1924193cb83edda1b317"
+    },
+    {
+      "path": "focused_tests.log",
+      "bytes": 8289,
+      "sha256": "97f588e3bc18704da0ab05192f9da915f3a854f643f3b4147c2a5c66cd60b178"
+    },
+    {
+      "path": "full_tests.json",
+      "bytes": 233,
+      "sha256": "3b7409a58574d7ea6f1aba260318b30909bde7aee7ac9e1a99e74d8ad0a66c59"
+    },
+    {
+      "path": "full_tests.log",
+      "bytes": 1404,
+      "sha256": "caf06c6f06f511a5a3b121bb7fc65aef701ce6c5423f26d147b80f537297f5a2"
+    },
+    {
+      "path": "full_tests_interrupted.log",
+      "bytes": 398,
+      "sha256": "4f0b0bf9147753cda7b5f695b18abdeb045854133cd59066f2f45ec99aaf0033"
+    },
+    {
+      "path": "independent_display_audit.json",
+      "bytes": 243,
+      "sha256": "cbd759d9b959180797830eb634bbe91a00e5da3460f1f56a53ac4877d38bf00d"
+    },
+    {
+      "path": "indicator_evidence.json",
+      "bytes": 4028,
+      "sha256": "e7e284af45068e3c6e81d99eb209cfe9d9d74589888de4e98b8b8ed644bfa947"
+    },
+    {
+      "path": "inventory_receipt.json",
+      "bytes": 671,
+      "sha256": "5f76c6d41a3baf5b6b74ca3ebaccbb24317953ad8381d05a95b811630402a896"
+    },
+    {
+      "path": "link_coverage.json",
+      "bytes": 691200,
+      "sha256": "2746ec0c04a2a26ce5446c49f053d75f583eb39ba370e74e63d473edf6c3e2fc"
+    },
+    {
+      "path": "path_synthesis.json",
+      "bytes": 120921,
+      "sha256": "bfcdc17c2fe309d70e778087dec17b3fc55ee4a7ef5dd5ef179aef2e5bf42939"
+    },
+    {
+      "path": "planned_links.json",
+      "bytes": 30518,
+      "sha256": "212d782fd13ae153482bb0918499d9ac4bb37286d251551ed21478336aaad551"
+    },
+    {
+      "path": "pre_integrity.json",
+      "bytes": 9996,
+      "sha256": "fa6e43e5d0eec3e3e8f5779f7f879ac4462508f27b7944e9bf0de12aa9f29f31"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5501,
+      "sha256": "a28b73490dad8c88e9cb3581307f1c2c2c584eb5700d205ba9cc08d512864f04"
+    },
+    {
+      "path": "report.html",
+      "bytes": 583662,
+      "sha256": "2fdc42dda671e0f6fc37938ba7ea5c13f368751ecf20254074bac7a1f64f81bd"
+    },
+    {
+      "path": "report.md",
+      "bytes": 98777,
+      "sha256": "d40203aeb6a007e288f80aea6514f31bed963d385a18927c5387ec4b1472eea8"
+    },
+    {
+      "path": "search_plan.json",
+      "bytes": 2804,
+      "sha256": "4e35632d48175435a33375ea6ea383ad2d56ad27c6e589789d313818d909b265"
+    },
+    {
+      "path": "selection_before_evaluation.json",
+      "bytes": 648724,
+      "sha256": "ec0392814b295f8acf89e4cb4605c25704c13e306b6207e456c6164e22511f61"
+    },
+    {
+      "path": "source_trace.json",
+      "bytes": 3319,
+      "sha256": "d4f9dc667410b3ef1b607ba78bc376a575350f948f8c789b91c16395b618eba0"
+    },
+    {
+      "path": "wave_table.json",
+      "bytes": 637108,
+      "sha256": "e9c020aa0b037a0e41377314b445e6358dcd05a4c8adab4b38c58ae7fb9807e8"
+    }
+  ],
+  "implementation_files": [
+    {
+      "path": "tools/nvda_targeted_recent.py",
+      "bytes": 17334,
+      "sha256": "e05adee69edcd89e840d3c75086dd3471996d530261c83ca93a1b3f7dc9281ac"
+    },
+    {
+      "path": "tools/nvda_targeted_recent_report.py",
+      "bytes": 36532,
+      "sha256": "1509efb196ff94d4e605776ac242be0ab9c2fe061fb8df5e585be0b65fa66ae2"
+    },
+    {
+      "path": "tests/test_nvda_targeted_recent.py",
+      "bytes": 11223,
+      "sha256": "e01b265be18639b992fa772565ebed66317b40d01765893d646b13ec2e0dd7db"
+    }
+  ]
+}

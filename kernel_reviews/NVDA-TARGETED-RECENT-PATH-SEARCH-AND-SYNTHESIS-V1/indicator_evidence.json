@@ -1,0 +1,125 @@
+{
+  "rows": [
+    {
+      "indicator": "Volume",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 135352420,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "Volume",
+      "plot_column": 1,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    },
+    {
+      "indicator": "Volume",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 18535926,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "Volume",
+      "plot_column": 1,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    },
+    {
+      "indicator": "RSI",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 60.39156979615336,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "Relative Strength Index",
+      "plot_column": 1,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    },
+    {
+      "indicator": "RSI",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 59.526148968608325,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "Relative Strength Index",
+      "plot_column": 1,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    },
+    {
+      "indicator": "Histogram",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 0.8371440152577794,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "MACD",
+      "plot_column": 1,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    },
+    {
+      "indicator": "MACD",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 3.8312329609309757,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "MACD",
+      "plot_column": 2,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    },
+    {
+      "indicator": "Signal",
+      "bar_time": "2026-09-04T13:30:00+00:00",
+      "value": 2.9940889456731963,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": false,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "MACD",
+      "plot_column": 3,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    },
+    {
+      "indicator": "Histogram",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 0.9394252776461727,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "MACD",
+      "plot_column": 1,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    },
+    {
+      "indicator": "MACD",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 4.168370542730912,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "MACD",
+      "plot_column": 2,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    },
+    {
+      "indicator": "Signal",
+      "bar_time": "2026-09-08T13:30:00+00:00",
+      "value": 3.2289452650847394,
+      "capture": "2026-09-08T14:01:42.576Z",
+      "forming": true,
+      "source": "TradingView study.data; not locally calculated",
+      "study": "MACD",
+      "plot_column": 3,
+      "price_snapshot_comparable": false,
+      "interpretation": "OBSERVATION_ONLY"
+    }
+  ],
+  "source_sha256": "d862f6e9c7b9cc050e4600b26bb804f88d6235940ac571576eb468310b92d270"
+}

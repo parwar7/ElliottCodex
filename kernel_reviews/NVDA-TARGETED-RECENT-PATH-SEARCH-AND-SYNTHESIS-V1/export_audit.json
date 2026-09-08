@@ -1,0 +1,33 @@
+{
+  "reconciliation": {
+    "result": "PASS",
+    "raw_price_fields_checked": 934,
+    "links_checked": 243,
+    "all_occurrence_pairings_retained": true,
+    "independent_subjects": true,
+    "old_kernel_ancestry_unchanged": true,
+    "corrective_raw_fields_checked": 1044,
+    "new_totals_reconciled": true,
+    "open_tails_checked": 243,
+    "prior_full_digital_and_recent_contexts_compared": 52,
+    "old_coordinate_sequences_mislabelled_new": []
+  },
+  "paths": 19,
+  "plotted_hypotheses": [
+    "D2026:1D:N6:S38",
+    "RECENT:60:N6:S43",
+    "TAIL:15:N6:S10"
+  ],
+  "chart_rows": {
+    "developing-4h": 14,
+    "history": 333,
+    "recent-1D": 35,
+    "recent-60": 36,
+    "recent-15": 45,
+    "corrective-recent": 15
+  },
+  "indicator_values_checked": 10,
+  "chart_contract": "Native scatter with original closes and labels; each chart asks time/price with exact endpoint lookup. Log axis is display only, no measurement change. Each close series extends to saved last bar.",
+  "report_structure": "Arabic user-requested title/summary; findings, evidence, questions and caveats; native chart semantic tables; Find aliases, no unsupported clickable tree.",
+  "indicators": "Separate saved Daily study capture, no methodology interpretation"
+}
