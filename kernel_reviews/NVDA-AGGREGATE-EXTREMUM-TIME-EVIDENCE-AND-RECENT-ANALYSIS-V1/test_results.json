@@ -1,0 +1,20 @@
+{
+  "focused": {
+    "run": 41,
+    "passed": 41,
+    "failed": 0,
+    "seconds": 34.677,
+    "log": "focused_tests.log"
+  },
+  "full": {
+    "run": 1223,
+    "passed": 1223,
+    "failed": 0,
+    "seconds": 679.339,
+    "log": "full_tests.log"
+  },
+  "full_invocations_after_final_code_changes": 1,
+  "earlier_incomplete_invocation": "Stopped for the documented new Runtime nested-identity audit finding; interrupted_full_tests.log. Not counted as a complete run.",
+  "network_in_tests": false,
+  "methodology_or_kernel_changed": false
+}

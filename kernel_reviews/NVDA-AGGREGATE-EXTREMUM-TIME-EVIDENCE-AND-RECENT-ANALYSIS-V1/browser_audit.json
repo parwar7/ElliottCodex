@@ -1,0 +1,15 @@
+{
+  "builder": "Data Analytics deliver_portable_artifact.mjs",
+  "installed_chrome_attempt": {"result": "browser_environment_mismatch", "message": "Chromium did not apply the requested chart extraction environment."},
+  "default_attempt": {"result": "structural_only", "validation": "passed", "package": "passed", "warning": "browser_unavailable: compatible Chromium headless-shell not installed", "blocks": 41, "charts": 3},
+  "visual_label_placement": "NOT_VISUALLY_VERIFIED",
+  "interaction_checks": "ATTEMPTED_BUT_ENVIRONMENT_BLOCKED",
+  "sourceDialog": "not_verified",
+  "sourceInteraction": "not_verified",
+  "offline_runtime_bundled": true,
+  "static_semantic_tables_present": true,
+  "static_navigation": "In-page links lack static id targets; use browser Find or the Markdown companion. Enhanced-reader navigation not verified.",
+  "browser_downloaded": false,
+  "plugin_modified": false,
+  "data_recaptured": false
+}

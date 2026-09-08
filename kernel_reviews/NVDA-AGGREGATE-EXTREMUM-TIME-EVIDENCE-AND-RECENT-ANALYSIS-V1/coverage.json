@@ -1,0 +1,520 @@
+{
+  "searches": [
+    {
+      "id": "MAY:1D",
+      "window": [
+        "2026-05-01",
+        "2026-06-01"
+      ],
+      "resolution": "1D",
+      "bars": 20,
+      "pivots": 5,
+      "selected": [],
+      "reason": "INSUFFICIENT_PIVOTS",
+      "first_available": "1999-01-22T14:30:00+00:00",
+      "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "context_evidence_ids": [
+        "M1:1D"
+      ],
+      "window_dispositions": {},
+      "evaluated": 0,
+      "p004": {},
+      "p005": {},
+      "p004_fatal_despite_p005": 0
+    },
+    {
+      "id": "MAY:240",
+      "window": [
+        "2026-05-01",
+        "2026-06-01"
+      ],
+      "resolution": "240",
+      "bars": 40,
+      "pivots": 6,
+      "selected": [],
+      "reason": "NO_SEQUENCE_IN_DOMAIN",
+      "first_available": "2022-01-28T14:30:00+00:00",
+      "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+      "context_evidence_ids": [
+        "M1:240"
+      ],
+      "window_dispositions": {
+        "DOMAIN_EXCLUDED": 1
+      },
+      "evaluated": 0,
+      "p004": {},
+      "p005": {},
+      "p004_fatal_despite_p005": 0
+    },
+    {
+      "id": "MAY:60",
+      "window": [
+        "2026-05-01",
+        "2026-06-01"
+      ],
+      "resolution": "60",
+      "bars": 140,
+      "pivots": 39,
+      "selected": [
+        7,
+        31
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2025-05-14T13:30:00+00:00",
+      "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+      "context_evidence_ids": [
+        "M1:60"
+      ],
+      "window_dispositions": {
+        "DOMAIN_EXCLUDED": 25,
+        "SELECTED": 2,
+        "UNVISITED_BUDGET": 7
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_SATISFIED": 1,
+        "RULE_VIOLATED": 1
+      },
+      "p005": {
+        "UNRESOLVED": 1,
+        "SUFFICIENT_CONDITION_ESTABLISHED": 1
+      },
+      "p004_fatal_despite_p005": 1
+    },
+    {
+      "id": "MAY:15",
+      "window": [
+        "2026-05-01",
+        "2026-06-01"
+      ],
+      "resolution": "15",
+      "bars": 520,
+      "pivots": 140,
+      "selected": [
+        4,
+        134
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2026-04-30T17:00:00+00:00",
+      "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+      "context_evidence_ids": [
+        "M1:15"
+      ],
+      "window_dispositions": {
+        "DOMAIN_EXCLUDED": 87,
+        "SELECTED": 2,
+        "UNVISITED_BUDGET": 46
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_VIOLATED": 2
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 1,
+        "UNRESOLVED": 1
+      },
+      "p004_fatal_despite_p005": 1
+    },
+    {
+      "id": "MAY_JULY:1D",
+      "window": [
+        "2026-05-14",
+        "2026-07-30"
+      ],
+      "resolution": "1D",
+      "bars": 52,
+      "pivots": 15,
+      "selected": [
+        0,
+        9
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "1999-01-22T14:30:00+00:00",
+      "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "context_evidence_ids": [
+        "M1:1D",
+        "JULY:1D"
+      ],
+      "window_dispositions": {
+        "SELECTED": 2,
+        "UNVISITED_BUDGET": 8
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_VIOLATED": 2
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 1,
+        "UNRESOLVED": 1
+      },
+      "p004_fatal_despite_p005": 1
+    },
+    {
+      "id": "MAY_JULY:240",
+      "window": [
+        "2026-05-14",
+        "2026-07-30"
+      ],
+      "resolution": "240",
+      "bars": 104,
+      "pivots": 24,
+      "selected": [
+        6,
+        17
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2022-01-28T14:30:00+00:00",
+      "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+      "context_evidence_ids": [
+        "M1:240",
+        "JULY:240"
+      ],
+      "window_dispositions": {
+        "DOMAIN_EXCLUDED": 14,
+        "SELECTED": 2,
+        "UNVISITED_BUDGET": 3
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_VIOLATED": 2
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 2
+      },
+      "p004_fatal_despite_p005": 2
+    },
+    {
+      "id": "MAY_JULY:60",
+      "window": [
+        "2026-05-14",
+        "2026-07-30"
+      ],
+      "resolution": "60",
+      "bars": 364,
+      "pivots": 88,
+      "selected": [
+        0,
+        75
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2025-05-14T13:30:00+00:00",
+      "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+      "context_evidence_ids": [
+        "M1:60",
+        "JULY:60"
+      ],
+      "window_dispositions": {
+        "SELECTED": 2,
+        "DOMAIN_EXCLUDED": 46,
+        "UNVISITED_BUDGET": 35
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_VIOLATED": 1,
+        "RULE_SATISFIED": 1
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 2
+      },
+      "p004_fatal_despite_p005": 1
+    },
+    {
+      "id": "MAY_JULY:15",
+      "window": [
+        "2026-05-14",
+        "2026-07-30"
+      ],
+      "resolution": "15",
+      "bars": 1352,
+      "pivots": 340,
+      "selected": [
+        5,
+        334
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2026-04-30T17:00:00+00:00",
+      "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+      "context_evidence_ids": [
+        "M1:15",
+        "JULY:15"
+      ],
+      "window_dispositions": {
+        "DOMAIN_EXCLUDED": 179,
+        "SELECTED": 2,
+        "UNVISITED_BUDGET": 154
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_SATISFIED": 2
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 1,
+        "UNRESOLVED": 1
+      },
+      "p004_fatal_despite_p005": 0
+    },
+    {
+      "id": "JULY:1D",
+      "window": [
+        "2026-07-01",
+        "2026-08-01"
+      ],
+      "resolution": "1D",
+      "bars": 22,
+      "pivots": 6,
+      "selected": [
+        0
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "1999-01-22T14:30:00+00:00",
+      "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "context_evidence_ids": [
+        "JULY:1D"
+      ],
+      "window_dispositions": {
+        "SELECTED": 1
+      },
+      "evaluated": 1,
+      "p004": {
+        "RULE_SATISFIED": 1
+      },
+      "p005": {
+        "UNRESOLVED": 1
+      },
+      "p004_fatal_despite_p005": 0
+    },
+    {
+      "id": "JULY:240",
+      "window": [
+        "2026-07-01",
+        "2026-08-01"
+      ],
+      "resolution": "240",
+      "bars": 44,
+      "pivots": 12,
+      "selected": [
+        3,
+        4
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2022-01-28T14:30:00+00:00",
+      "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+      "context_evidence_ids": [
+        "JULY:240"
+      ],
+      "window_dispositions": {
+        "DOMAIN_EXCLUDED": 5,
+        "SELECTED": 2
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_VIOLATED": 2
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 2
+      },
+      "p004_fatal_despite_p005": 2
+    },
+    {
+      "id": "JULY:60",
+      "window": [
+        "2026-07-01",
+        "2026-08-01"
+      ],
+      "resolution": "60",
+      "bars": 154,
+      "pivots": 39,
+      "selected": [
+        0,
+        23
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2025-05-14T13:30:00+00:00",
+      "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+      "context_evidence_ids": [
+        "JULY:60"
+      ],
+      "window_dispositions": {
+        "SELECTED": 2,
+        "UNVISITED_BUDGET": 18,
+        "DOMAIN_EXCLUDED": 14
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_SATISFIED": 2
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 2
+      },
+      "p004_fatal_despite_p005": 0
+    },
+    {
+      "id": "JULY:15",
+      "window": [
+        "2026-07-01",
+        "2026-08-01"
+      ],
+      "resolution": "15",
+      "bars": 572,
+      "pivots": 140,
+      "selected": [
+        2,
+        134
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2026-04-30T17:00:00+00:00",
+      "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+      "context_evidence_ids": [
+        "JULY:15"
+      ],
+      "window_dispositions": {
+        "DOMAIN_EXCLUDED": 71,
+        "SELECTED": 2,
+        "UNVISITED_BUDGET": 62
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_SATISFIED": 2
+      },
+      "p005": {
+        "UNRESOLVED": 2
+      },
+      "p004_fatal_despite_p005": 0
+    },
+    {
+      "id": "RECENT:1D",
+      "window": [
+        "2026-07-29",
+        "2026-09-09"
+      ],
+      "resolution": "1D",
+      "bars": 29,
+      "pivots": 7,
+      "selected": [
+        0,
+        1
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "1999-01-22T14:30:00+00:00",
+      "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "context_evidence_ids": [
+        "JULY:1D",
+        "M2:1D"
+      ],
+      "window_dispositions": {
+        "SELECTED": 2
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_VIOLATED": 2
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 1,
+        "UNRESOLVED": 1
+      },
+      "p004_fatal_despite_p005": 1
+    },
+    {
+      "id": "RECENT:240",
+      "window": [
+        "2026-07-29",
+        "2026-09-09"
+      ],
+      "resolution": "240",
+      "bars": 57,
+      "pivots": 11,
+      "selected": [],
+      "reason": "NO_SEQUENCE_IN_DOMAIN",
+      "first_available": "2022-01-28T14:30:00+00:00",
+      "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+      "context_evidence_ids": [
+        "JULY:240",
+        "M2:240"
+      ],
+      "window_dispositions": {
+        "DOMAIN_EXCLUDED": 6
+      },
+      "evaluated": 0,
+      "p004": {},
+      "p005": {},
+      "p004_fatal_despite_p005": 0
+    },
+    {
+      "id": "RECENT:60",
+      "window": [
+        "2026-07-29",
+        "2026-09-09"
+      ],
+      "resolution": "60",
+      "bars": 197,
+      "pivots": 52,
+      "selected": [
+        0,
+        44
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2025-05-14T13:30:00+00:00",
+      "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+      "context_evidence_ids": [
+        "JULY:60",
+        "M2:60"
+      ],
+      "window_dispositions": {
+        "SELECTED": 2,
+        "UNVISITED_BUDGET": 10,
+        "DOMAIN_EXCLUDED": 35
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_VIOLATED": 1,
+        "RULE_SATISFIED": 1
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 2
+      },
+      "p004_fatal_despite_p005": 1
+    },
+    {
+      "id": "RECENT:15",
+      "window": [
+        "2026-07-29",
+        "2026-09-09"
+      ],
+      "resolution": "15",
+      "bars": 730,
+      "pivots": 194,
+      "selected": [
+        0,
+        186
+      ],
+      "reason": "SCOPES_SELECTED",
+      "first_available": "2026-04-30T17:00:00+00:00",
+      "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+      "context_evidence_ids": [
+        "JULY:15",
+        "M2:15"
+      ],
+      "window_dispositions": {
+        "SELECTED": 2,
+        "UNVISITED_BUDGET": 95,
+        "DOMAIN_EXCLUDED": 92
+      },
+      "evaluated": 2,
+      "p004": {
+        "RULE_VIOLATED": 1,
+        "RULE_SATISFIED": 1
+      },
+      "p005": {
+        "SUFFICIENT_CONDITION_ESTABLISHED": 2
+      },
+      "p004_fatal_despite_p005": 1
+    }
+  ],
+  "plan_sha256": "94d2c2ef013deb85f23d5880cfbab71529c07a13ce99d6bd22cd525751e879b9",
+  "maximum_hypotheses": 32,
+  "evaluated": 25,
+  "new_attached_recursion_depth": 0,
+  "coverage_not_proved_complete": true,
+  "all_unvisited": "selection_before_evaluation.json",
+  "searched_windows_are_not_approved_parent_windows": true
+}

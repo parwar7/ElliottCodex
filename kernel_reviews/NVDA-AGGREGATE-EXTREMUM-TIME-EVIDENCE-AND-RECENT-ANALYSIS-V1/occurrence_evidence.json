@@ -1,0 +1,1175 @@
+[
+  {
+    "evidence_id": "M1:1D",
+    "original_bar_timestamp": "2026-05-01T13:30:00+00:00",
+    "original_price": 236.54,
+    "price_field": "high",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "1D",
+    "finer_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "interval_evidence": [
+      "2026-05-01T04:00:00+00:00",
+      "2026-06-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 20,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-05-14T13:30:00+00:00",
+        "price": 236.54,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 8322511373892321,
+          "denominator": 35184372088832
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "bar_provenance": {
+          "source_record_index": 6870,
+          "source_timestamp": "2026-05-14T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-05-14T13:30:00+00:00",
+          "2026-05-14T20:00:00+00:00",
+          "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:49:15.086Z"
+    ],
+    "original_parent_hypothesis_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:partial:NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-69:evaluate-as:NORMAL_IMPULSE",
+    "original_binding_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-69:proposed-direct-children",
+    "original_parent_subject": {
+      "subject_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1",
+      "observation_provenance_ref": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872"
+    },
+    "role_index": 4,
+    "edge": "end",
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "M1:1D:occurrence:0:240",
+    "original_bar_timestamp": "2026-05-14T13:30:00+00:00",
+    "original_price": 236.54,
+    "price_field": "high",
+    "aggregate_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "aggregate_resolution": "1D",
+    "finer_resolution": "240",
+    "finer_source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "interval_evidence": [
+      "2026-05-14T13:30:00+00:00",
+      "2026-05-14T20:00:00+00:00",
+      "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES",
+      "SNAPSHOT_REVISION_METADATA_PRESENT_NOT_APPLIED"
+    ],
+    "examined_rows": 2,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-05-14T17:30:00+00:00",
+        "price": 236.54,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 8322511373892321,
+          "denominator": 35184372088832
+        },
+        "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+        "bar_provenance": {
+          "source_record_index": 2145,
+          "source_timestamp": "2026-05-14T17:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-05-14T17:30:00+00:00",
+          "2026-05-14T20:00:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:15.086Z",
+      "2026-09-08T13:52:57.625Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false,
+    "aggregate_occurrence_context": "M1:1D"
+  },
+  {
+    "evidence_id": "M1:1D:occurrence:0:60",
+    "original_bar_timestamp": "2026-05-14T13:30:00+00:00",
+    "original_price": 236.54,
+    "price_field": "high",
+    "aggregate_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "aggregate_resolution": "1D",
+    "finer_resolution": "60",
+    "finer_source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "interval_evidence": [
+      "2026-05-14T13:30:00+00:00",
+      "2026-05-14T20:00:00+00:00",
+      "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 7,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-05-14T18:30:00+00:00",
+        "price": 236.54,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 8322511373892321,
+          "denominator": 35184372088832
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "bar_provenance": {
+          "source_record_index": 1754,
+          "source_timestamp": "2026-05-14T18:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-05-14T18:30:00+00:00",
+          "2026-05-14T19:30:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:15.086Z",
+      "2026-09-08T13:53:19.677Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false,
+    "aggregate_occurrence_context": "M1:1D"
+  },
+  {
+    "evidence_id": "M1:1D:occurrence:0:15",
+    "original_bar_timestamp": "2026-05-14T13:30:00+00:00",
+    "original_price": 236.54,
+    "price_field": "high",
+    "aggregate_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "aggregate_resolution": "1D",
+    "finer_resolution": "15",
+    "finer_source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "interval_evidence": [
+      "2026-05-14T13:30:00+00:00",
+      "2026-05-14T20:00:00+00:00",
+      "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 26,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-05-14T19:00:00+00:00",
+        "price": 236.54,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 8322511373892321,
+          "denominator": 35184372088832
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "bar_provenance": {
+          "source_record_index": 269,
+          "source_timestamp": "2026-05-14T19:00:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-05-14T19:00:00+00:00",
+          "2026-05-14T19:15:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:15.086Z",
+      "2026-09-08T13:53:45.992Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false,
+    "aggregate_occurrence_context": "M1:1D"
+  },
+  {
+    "evidence_id": "M1:240",
+    "original_bar_timestamp": "2026-05-01T13:30:00+00:00",
+    "original_price": 236.54,
+    "price_field": "high",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "240",
+    "finer_source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "interval_evidence": [
+      "2026-05-01T04:00:00+00:00",
+      "2026-06-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES",
+      "SNAPSHOT_REVISION_METADATA_PRESENT_NOT_APPLIED"
+    ],
+    "examined_rows": 40,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-05-14T17:30:00+00:00",
+        "price": 236.54,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 8322511373892321,
+          "denominator": 35184372088832
+        },
+        "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+        "bar_provenance": {
+          "source_record_index": 2145,
+          "source_timestamp": "2026-05-14T17:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-05-14T17:30:00+00:00",
+          "2026-05-14T20:00:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:52:57.625Z"
+    ],
+    "original_parent_hypothesis_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:partial:NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-69:evaluate-as:NORMAL_IMPULSE",
+    "original_binding_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-69:proposed-direct-children",
+    "original_parent_subject": {
+      "subject_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1",
+      "observation_provenance_ref": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872"
+    },
+    "role_index": 4,
+    "edge": "end",
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "M1:60",
+    "original_bar_timestamp": "2026-05-01T13:30:00+00:00",
+    "original_price": 236.54,
+    "price_field": "high",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "60",
+    "finer_source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "interval_evidence": [
+      "2026-05-01T04:00:00+00:00",
+      "2026-06-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 140,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-05-14T18:30:00+00:00",
+        "price": 236.54,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 8322511373892321,
+          "denominator": 35184372088832
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "bar_provenance": {
+          "source_record_index": 1754,
+          "source_timestamp": "2026-05-14T18:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-05-14T18:30:00+00:00",
+          "2026-05-14T19:30:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:53:19.677Z"
+    ],
+    "original_parent_hypothesis_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:partial:NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-69:evaluate-as:NORMAL_IMPULSE",
+    "original_binding_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-69:proposed-direct-children",
+    "original_parent_subject": {
+      "subject_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1",
+      "observation_provenance_ref": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872"
+    },
+    "role_index": 4,
+    "edge": "end",
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "M1:15",
+    "original_bar_timestamp": "2026-05-01T13:30:00+00:00",
+    "original_price": 236.54,
+    "price_field": "high",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "15",
+    "finer_source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "interval_evidence": [
+      "2026-05-01T04:00:00+00:00",
+      "2026-06-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 520,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-05-14T19:00:00+00:00",
+        "price": 236.54,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 8322511373892321,
+          "denominator": 35184372088832
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "bar_provenance": {
+          "source_record_index": 269,
+          "source_timestamp": "2026-05-14T19:00:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-05-14T19:00:00+00:00",
+          "2026-05-14T19:15:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:53:45.992Z"
+    ],
+    "original_parent_hypothesis_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:partial:NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-69:evaluate-as:NORMAL_IMPULSE",
+    "original_binding_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-69:proposed-direct-children",
+    "original_parent_subject": {
+      "subject_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M1",
+      "observation_provenance_ref": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872"
+    },
+    "role_index": 4,
+    "edge": "end",
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "M2:1D",
+    "original_bar_timestamp": "2026-09-01T13:30:00+00:00",
+    "original_price": 234.76,
+    "price_field": "high",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "1D",
+    "finer_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "interval_evidence": [
+      "2026-09-01T04:00:00+00:00",
+      "2026-10-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES",
+      "FINER_HISTORY_END_BEFORE_ENVELOPE_END",
+      "AGGREGATE_BAR_FORMING",
+      "FINER_BAR_FORMING_OR_UNKNOWN"
+    ],
+    "examined_rows": 5,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-09-04T13:30:00+00:00",
+        "price": 234.76,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 1032485398946775,
+          "denominator": 4398046511104
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "bar_provenance": {
+          "source_record_index": 6948,
+          "source_timestamp": "2026-09-04T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-09-04T13:30:00+00:00",
+          "2026-09-04T20:00:00+00:00",
+          "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:49:15.086Z"
+    ],
+    "original_parent_hypothesis_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:partial:NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-70:evaluate-as:NORMAL_IMPULSE",
+    "original_binding_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-70:proposed-direct-children",
+    "original_parent_subject": {
+      "subject_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2",
+      "observation_provenance_ref": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872"
+    },
+    "role_index": 4,
+    "edge": "end",
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "M2:1D:occurrence:0:240",
+    "original_bar_timestamp": "2026-09-04T13:30:00+00:00",
+    "original_price": 234.76,
+    "price_field": "high",
+    "aggregate_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "aggregate_resolution": "1D",
+    "finer_resolution": "240",
+    "finer_source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "interval_evidence": [
+      "2026-09-04T13:30:00+00:00",
+      "2026-09-04T20:00:00+00:00",
+      "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES",
+      "SNAPSHOT_REVISION_METADATA_PRESENT_NOT_APPLIED"
+    ],
+    "examined_rows": 2,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-09-04T13:30:00+00:00",
+        "price": 234.76,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 1032485398946775,
+          "denominator": 4398046511104
+        },
+        "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+        "bar_provenance": {
+          "source_record_index": 2300,
+          "source_timestamp": "2026-09-04T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-09-04T13:30:00+00:00",
+          "2026-09-04T17:30:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:15.086Z",
+      "2026-09-08T13:52:57.625Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false,
+    "aggregate_occurrence_context": "M2:1D"
+  },
+  {
+    "evidence_id": "M2:1D:occurrence:0:60",
+    "original_bar_timestamp": "2026-09-04T13:30:00+00:00",
+    "original_price": 234.76,
+    "price_field": "high",
+    "aggregate_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "aggregate_resolution": "1D",
+    "finer_resolution": "60",
+    "finer_source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "interval_evidence": [
+      "2026-09-04T13:30:00+00:00",
+      "2026-09-04T20:00:00+00:00",
+      "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 7,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-09-04T13:30:00+00:00",
+        "price": 234.76,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 1032485398946775,
+          "denominator": 4398046511104
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "bar_provenance": {
+          "source_record_index": 2295,
+          "source_timestamp": "2026-09-04T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-09-04T13:30:00+00:00",
+          "2026-09-04T14:30:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:15.086Z",
+      "2026-09-08T13:53:19.677Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false,
+    "aggregate_occurrence_context": "M2:1D"
+  },
+  {
+    "evidence_id": "M2:1D:occurrence:0:15",
+    "original_bar_timestamp": "2026-09-04T13:30:00+00:00",
+    "original_price": 234.76,
+    "price_field": "high",
+    "aggregate_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "aggregate_resolution": "1D",
+    "finer_resolution": "15",
+    "finer_source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "interval_evidence": [
+      "2026-09-04T13:30:00+00:00",
+      "2026-09-04T20:00:00+00:00",
+      "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 26,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-09-04T14:15:00+00:00",
+        "price": 234.76,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 1032485398946775,
+          "denominator": 4398046511104
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "bar_provenance": {
+          "source_record_index": 2278,
+          "source_timestamp": "2026-09-04T14:15:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-09-04T14:15:00+00:00",
+          "2026-09-04T14:30:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:15.086Z",
+      "2026-09-08T13:53:45.992Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false,
+    "aggregate_occurrence_context": "M2:1D"
+  },
+  {
+    "evidence_id": "M2:240",
+    "original_bar_timestamp": "2026-09-01T13:30:00+00:00",
+    "original_price": 234.76,
+    "price_field": "high",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "240",
+    "finer_source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "interval_evidence": [
+      "2026-09-01T04:00:00+00:00",
+      "2026-10-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES",
+      "FINER_HISTORY_END_BEFORE_ENVELOPE_END",
+      "AGGREGATE_BAR_FORMING",
+      "FINER_BAR_FORMING_OR_UNKNOWN",
+      "SNAPSHOT_REVISION_METADATA_PRESENT_NOT_APPLIED"
+    ],
+    "examined_rows": 9,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-09-04T13:30:00+00:00",
+        "price": 234.76,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 1032485398946775,
+          "denominator": 4398046511104
+        },
+        "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+        "bar_provenance": {
+          "source_record_index": 2300,
+          "source_timestamp": "2026-09-04T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-09-04T13:30:00+00:00",
+          "2026-09-04T17:30:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:52:57.625Z"
+    ],
+    "original_parent_hypothesis_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:partial:NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-70:evaluate-as:NORMAL_IMPULSE",
+    "original_binding_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-70:proposed-direct-children",
+    "original_parent_subject": {
+      "subject_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2",
+      "observation_provenance_ref": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872"
+    },
+    "role_index": 4,
+    "edge": "end",
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "M2:60",
+    "original_bar_timestamp": "2026-09-01T13:30:00+00:00",
+    "original_price": 234.76,
+    "price_field": "high",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "60",
+    "finer_source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "interval_evidence": [
+      "2026-09-01T04:00:00+00:00",
+      "2026-10-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES",
+      "FINER_HISTORY_END_BEFORE_ENVELOPE_END",
+      "AGGREGATE_BAR_FORMING",
+      "FINER_BAR_FORMING_OR_UNKNOWN"
+    ],
+    "examined_rows": 29,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-09-04T13:30:00+00:00",
+        "price": 234.76,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 1032485398946775,
+          "denominator": 4398046511104
+        },
+        "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+        "bar_provenance": {
+          "source_record_index": 2295,
+          "source_timestamp": "2026-09-04T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-09-04T13:30:00+00:00",
+          "2026-09-04T14:30:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:53:19.677Z"
+    ],
+    "original_parent_hypothesis_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:partial:NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-70:evaluate-as:NORMAL_IMPULSE",
+    "original_binding_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-70:proposed-direct-children",
+    "original_parent_subject": {
+      "subject_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2",
+      "observation_provenance_ref": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872"
+    },
+    "role_index": 4,
+    "edge": "end",
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "M2:15",
+    "original_bar_timestamp": "2026-09-01T13:30:00+00:00",
+    "original_price": 234.76,
+    "price_field": "high",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "15",
+    "finer_source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "interval_evidence": [
+      "2026-09-01T04:00:00+00:00",
+      "2026-10-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES",
+      "FINER_HISTORY_END_BEFORE_ENVELOPE_END",
+      "AGGREGATE_BAR_FORMING",
+      "FINER_BAR_FORMING_OR_UNKNOWN"
+    ],
+    "examined_rows": 106,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-09-04T14:15:00+00:00",
+        "price": 234.76,
+        "price_field": "high",
+        "represented_ratio": {
+          "numerator": 1032485398946775,
+          "denominator": 4398046511104
+        },
+        "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+        "bar_provenance": {
+          "source_record_index": 2278,
+          "source_timestamp": "2026-09-04T14:15:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-09-04T14:15:00+00:00",
+          "2026-09-04T14:30:00+00:00",
+          "NATIVE_INTRADAY_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:53:45.992Z"
+    ],
+    "original_parent_hypothesis_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:partial:NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-70:evaluate-as:NORMAL_IMPULSE",
+    "original_binding_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2:FIVE_SEGMENT_HYPOTHESIS:10-23-28-59-60-70:proposed-direct-children",
+    "original_parent_subject": {
+      "subject_id": "NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1:M2",
+      "observation_provenance_ref": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872"
+    },
+    "role_index": 4,
+    "edge": "end",
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "JULY:1D",
+    "original_bar_timestamp": "2026-07-01T13:30:00+00:00",
+    "original_price": 190.01,
+    "price_field": "low",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "1D",
+    "finer_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "interval_evidence": [
+      "2026-07-01T04:00:00+00:00",
+      "2026-08-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "UNIQUE_OBSERVED_MATCH",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 22,
+    "occurrences": [
+      {
+        "bar_timestamp": "2026-07-29T13:30:00+00:00",
+        "price": 190.01,
+        "price_field": "low",
+        "represented_ratio": {
+          "numerator": 835672817574871,
+          "denominator": 4398046511104
+        },
+        "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+        "bar_provenance": {
+          "source_record_index": 6921,
+          "source_timestamp": "2026-07-29T13:30:00+00:00",
+          "naive_timezone_assumed_utc": false
+        },
+        "occurrence_envelope": [
+          "2026-07-29T13:30:00+00:00",
+          "2026-07-29T20:00:00+00:00",
+          "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+        ],
+        "exact_extremum_instant": null,
+        "orthodox_endpoint": false
+      }
+    ],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:49:15.086Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "JULY:1D:occurrence:0:240",
+    "original_bar_timestamp": "2026-07-29T13:30:00+00:00",
+    "original_price": 190.01,
+    "price_field": "low",
+    "aggregate_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "aggregate_resolution": "1D",
+    "finer_resolution": "240",
+    "finer_source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "interval_evidence": [
+      "2026-07-29T13:30:00+00:00",
+      "2026-07-29T20:00:00+00:00",
+      "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+    ],
+    "status": "NO_OBSERVED_MATCH_IN_AVAILABLE_ROWS",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES",
+      "SNAPSHOT_REVISION_METADATA_PRESENT_NOT_APPLIED"
+    ],
+    "examined_rows": 2,
+    "occurrences": [],
+    "capture_times": [
+      "2026-09-08T13:49:15.086Z",
+      "2026-09-08T13:52:57.625Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false,
+    "aggregate_occurrence_context": "JULY:1D"
+  },
+  {
+    "evidence_id": "JULY:1D:occurrence:0:60",
+    "original_bar_timestamp": "2026-07-29T13:30:00+00:00",
+    "original_price": 190.01,
+    "price_field": "low",
+    "aggregate_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "aggregate_resolution": "1D",
+    "finer_resolution": "60",
+    "finer_source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "interval_evidence": [
+      "2026-07-29T13:30:00+00:00",
+      "2026-07-29T20:00:00+00:00",
+      "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+    ],
+    "status": "NO_OBSERVED_MATCH_IN_AVAILABLE_ROWS",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 7,
+    "occurrences": [],
+    "capture_times": [
+      "2026-09-08T13:49:15.086Z",
+      "2026-09-08T13:53:19.677Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false,
+    "aggregate_occurrence_context": "JULY:1D"
+  },
+  {
+    "evidence_id": "JULY:1D:occurrence:0:15",
+    "original_bar_timestamp": "2026-07-29T13:30:00+00:00",
+    "original_price": 190.01,
+    "price_field": "low",
+    "aggregate_source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "aggregate_resolution": "1D",
+    "finer_resolution": "15",
+    "finer_source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "interval_evidence": [
+      "2026-07-29T13:30:00+00:00",
+      "2026-07-29T20:00:00+00:00",
+      "DECLARED_REGULAR_SESSION_ENVELOPE_EARLY_CLOSE_UNVERIFIED"
+    ],
+    "status": "NO_OBSERVED_MATCH_IN_AVAILABLE_ROWS",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 26,
+    "occurrences": [],
+    "capture_times": [
+      "2026-09-08T13:49:15.086Z",
+      "2026-09-08T13:53:45.992Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false,
+    "aggregate_occurrence_context": "JULY:1D"
+  },
+  {
+    "evidence_id": "JULY:240",
+    "original_bar_timestamp": "2026-07-01T13:30:00+00:00",
+    "original_price": 190.01,
+    "price_field": "low",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "240",
+    "finer_source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "interval_evidence": [
+      "2026-07-01T04:00:00+00:00",
+      "2026-08-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "NO_OBSERVED_MATCH_IN_AVAILABLE_ROWS",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES",
+      "SNAPSHOT_REVISION_METADATA_PRESENT_NOT_APPLIED"
+    ],
+    "examined_rows": 44,
+    "occurrences": [],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:52:57.625Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "JULY:60",
+    "original_bar_timestamp": "2026-07-01T13:30:00+00:00",
+    "original_price": 190.01,
+    "price_field": "low",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "60",
+    "finer_source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "interval_evidence": [
+      "2026-07-01T04:00:00+00:00",
+      "2026-08-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "NO_OBSERVED_MATCH_IN_AVAILABLE_ROWS",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 154,
+    "occurrences": [],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:53:19.677Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false
+  },
+  {
+    "evidence_id": "JULY:15",
+    "original_bar_timestamp": "2026-07-01T13:30:00+00:00",
+    "original_price": 190.01,
+    "price_field": "low",
+    "aggregate_source_hash": "641915ea1d932858592e758e74225a0027c7ce938ff3c452c040ad6b861c1872",
+    "aggregate_resolution": "1M",
+    "finer_resolution": "15",
+    "finer_source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "interval_evidence": [
+      "2026-07-01T04:00:00+00:00",
+      "2026-08-01T04:00:00+00:00",
+      "NATIVE_CALENDAR_MONTH_ENVELOPE_NOT_TRADING_CALENDAR"
+    ],
+    "status": "NO_OBSERVED_MATCH_IN_AVAILABLE_ROWS",
+    "limitations": [
+      "COMPLETE_TRADING_COVERAGE_UNVERIFIED",
+      "EARLY_CLOSE_AND_HOLIDAY_CALENDAR_UNAVAILABLE",
+      "OCCURRENCE_IS_BAR_INTERVAL_NOT_INSTANT",
+      "NO_ORTHODOX_ENDPOINT_AUTHORITY",
+      "SPLIT_ADJUSTMENT_SEMANTICS_UNKNOWN",
+      "NON_SYNCHRONOUS_CAPTURES"
+    ],
+    "examined_rows": 572,
+    "occurrences": [],
+    "capture_times": [
+      "2026-09-08T13:49:01.367Z",
+      "2026-09-08T13:53:45.992Z"
+    ],
+    "original_parent_hypothesis_id": null,
+    "original_binding_id": null,
+    "original_parent_subject": null,
+    "role_index": null,
+    "edge": null,
+    "family_authority": false,
+    "wave_completion": false
+  }
+]

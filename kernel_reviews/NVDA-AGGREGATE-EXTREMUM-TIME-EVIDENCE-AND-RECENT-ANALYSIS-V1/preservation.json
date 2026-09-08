@@ -1,0 +1,18 @@
+{
+  "approved_base": "5886c05c4ee40664577128bc7d58618dca253e5c",
+  "head_at_preflight": "5886c05c4ee40664577128bc7d58618dca253e5c",
+  "origin_main_at_preflight": "5886c05c4ee40664577128bc7d58618dca253e5c",
+  "branch": "main",
+  "existing_tracked_diff_before_seal": [],
+  "known_local_untracked_preserved": [
+    ".codex/",
+    "artifacts/"
+  ],
+  "historical_baseline_changes": [],
+  "existing_source_test_contract_changes": [],
+  "prior_baseline_verified_files": 34,
+  "digital_bridge_verified_files": 70,
+  "protected_entries_verified": 51,
+  "book_sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e",
+  "no_project_manager_approval_claim": true
+}

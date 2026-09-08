@@ -1,0 +1,88 @@
+{
+  "new_imports_ast": {
+    "src/elliott_runtime/market_data/aggregate_extremum.py": [
+      "dataclasses",
+      "datetime",
+      "fractions",
+      "zoneinfo",
+      "hashlib",
+      "json",
+      "tradingview",
+      "elliott_runtime.analysis.normal_impulse_partial_evaluation"
+    ],
+    "tools/nvda_aggregate_recent.py": [
+      "argparse",
+      "collections",
+      "datetime",
+      "pathlib",
+      "nvda_digital_multidegree",
+      "elliott_runtime.market_data.aggregate_extremum",
+      "elliott_runtime.market_data.geometric_pivots",
+      "elliott_runtime.analysis.normal_impulse_partial_evaluation"
+    ],
+    "tools/nvda_aggregate_recent_report.py": [
+      "collections",
+      "datetime",
+      "fractions",
+      "pathlib",
+      "argparse",
+      "sqlite3",
+      "nvda_aggregate_recent",
+      "nvda_digital_multidegree_report"
+    ],
+    "tests/test_aggregate_extremum.py": [
+      "copy",
+      "dataclasses",
+      "datetime",
+      "hashlib",
+      "json",
+      "math",
+      "pickle",
+      "unittest",
+      "support",
+      "nvda_digital_multidegree",
+      "nvda_aggregate_recent",
+      "elliott_runtime.market_data.tradingview",
+      "elliott_runtime.market_data.aggregate_extremum",
+      "elliott_methodology_kernel"
+    ],
+    "tests/test_nvda_aggregate_recent_report.py": [
+      "copy",
+      "datetime",
+      "unittest",
+      "support",
+      "nvda_aggregate_recent_report"
+    ]
+  },
+  "inventory": {
+    "methodology": 11,
+    "structural_producers": 7,
+    "family_producers": 0,
+    "family_issuances": 0,
+    "registries_sealed": true
+  },
+  "legacy_analyze": "NOT_IMPLEMENTED",
+  "occurrence_authority": "OBSERVATION_ONLY",
+  "methodology_execution": "Existing exact evaluate_scope public factory path; no duplicated methodology conditions",
+  "network": "No new network/process imports or retrieval calls; existing helper import graph includes provider definitions but the run only calls saved load_inputs",
+  "filesystem": "Runtime new-artifact writers only; aggregate_extremum has no filesystem writes. Report-only SQLite is :memory:. Tests do not create TEMP files. Full suite log in this baseline. Native builder TEMP/TMP scoped under Runtime.",
+  "preserved": [
+    "P004/P005",
+    "P006",
+    "Flat/Triangle freezes",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND",
+    "old M1/M2 bindings and results",
+    "all historical baselines"
+  ],
+  "cache_hardening": "Added immutable identity tuple checks for equivalent discovery/pivot-tuple substitution before final tests; does not change valid-input geometry or selected results.",
+  "data_quality_limits": [
+    "Unknown exchange holidays/early closes/completeness",
+    "Unknown split semantics",
+    "Non-synchronous/forming/revision metadata retained",
+    "July exact price mismatch unresolved"
+  ],
+  "no_new_certification_or_ranking": true,
+  "contextual_links_not_parent_attachment": true,
+  "raw_audit": "raw_audit.json",
+  "browser_audit": "browser_audit.json"
+}

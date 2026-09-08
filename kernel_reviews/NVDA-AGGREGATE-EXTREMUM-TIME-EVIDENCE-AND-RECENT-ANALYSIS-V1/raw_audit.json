@@ -1,0 +1,39 @@
+{
+  "result": "PASS",
+  "raw_fields_reconciled": 286,
+  "hypotheses": 25,
+  "occurrence_records": 21,
+  "old_parent_attachments": 0,
+  "family_certificates": 0,
+  "chart_rows_checked": 82,
+  "chart_label_points_checked": 6,
+  "table_rows_checked": 150,
+  "july_raw_observed_lows": {
+    "1D": {
+      "bars": 1,
+      "minimum_observed_low": 190.01,
+      "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+      "operation": "factual minimum only, not nearest match or new endpoint"
+    },
+    "240": {
+      "bars": 2,
+      "minimum_observed_low": 190.02,
+      "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+      "operation": "factual minimum only, not nearest match or new endpoint"
+    },
+    "60": {
+      "bars": 7,
+      "minimum_observed_low": 190.02,
+      "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+      "operation": "factual minimum only, not nearest match or new endpoint"
+    },
+    "15": {
+      "bars": 26,
+      "minimum_observed_low": 190.02,
+      "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+      "operation": "factual minimum only, not nearest match or new endpoint"
+    }
+  },
+  "all_occurrences_censused": true,
+  "indicator_values_checked": 10
+}

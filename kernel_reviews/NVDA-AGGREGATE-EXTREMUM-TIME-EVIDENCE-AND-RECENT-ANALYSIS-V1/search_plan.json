@@ -1,0 +1,25 @@
+{
+  "classification": "PROJECT_OPERATIONAL_POLICY_NOT_ELLIOTT_METHODOLOGY",
+  "input": "Approved six frozen native TradingView snapshots; no recapture",
+  "aggregate_targets": ["M1 role 5 end: Monthly May 2026 high", "M2 role 5 end: Monthly September 2026 high", "Monthly July 2026 low (independent observed region)"],
+  "finer_resolutions": ["1D", "240", "60", "15"],
+  "second_pass": "Preserve all Monthly-to-Daily matching occurrences; inspect each on 4H/1H/15m without choosing a tied occurrence",
+  "calendar_basis": "Native 1M civil month in exchange timezone; Daily regular-session envelope; not an exchange holiday/early-close completeness certificate",
+  "search_windows": [
+    ["MAY", "2026-05-01", "2026-06-01"],
+    ["MAY_JULY", "2026-05-14", "2026-07-30"],
+    ["JULY", "2026-07-01", "2026-08-01"],
+    ["RECENT", "2026-07-29", "2026-09-09"]
+  ],
+  "window_authority": "Separate observation search windows; not widened old parent windows or exact Elliott endpoints",
+  "geometry_width": 2,
+  "tie_policy": "LAST geometric pivot factory default explicitly retained; extremum occurrence evidence itself NEVER tie-breaks",
+  "candidate_policy": "All consecutive six-pivot windows assessed for existing nonzero alternating operational domain; first and last eligible retained independently, no methodology-based selection",
+  "max_searches": 16,
+  "max_bars_per_search": 4000,
+  "max_total_windows_examined": 20000,
+  "max_hypotheses": 32,
+  "no_new_recursion": true,
+  "all_unvisited_windows_reported": true,
+  "attachment": "Fresh independent finer hypotheses with observational context links, never validated parent-child attachment to old M1/M2"
+}

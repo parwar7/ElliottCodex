@@ -1,0 +1,202 @@
+{
+  "stage": "NVDA-AGGREGATE-EXTREMUM-TIME-EVIDENCE-AND-RECENT-ANALYSIS-V1",
+  "approved_base": "5886c05c4ee40664577128bc7d58618dca253e5c",
+  "seal_kind": "ADDITIVE_LOGICAL_HASH_BASELINE_NOT_PHYSICAL_IMMUTABILITY",
+  "prior_analysis_manifest_sha256": "2538c3c9d17e5cee965d6a368574b70405d589a81698bbbdfcde75cca6d7fdbe",
+  "bridge_manifest_sha256": "8821c441cbb1e72bfe8d99f4474b781316ec9f18d3af82fffd344bc73f0beb03",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "artifact.json",
+      "bytes": 84142,
+      "sha256": "efcda15f6e823da3b8bccd9b672769b5468b457a05038b611bdc4b75665a0db3"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 2970,
+      "sha256": "0472c4c7fb4c19e061586fa43173c01fbc3cb77d2f36527b1b36e7a5220d1903"
+    },
+    {
+      "path": "browser_audit.json",
+      "bytes": 927,
+      "sha256": "d4e3537e4685d46fbdbb31e8adfcb7dfc8188324ea43f03a411aeb29b2818a08"
+    },
+    {
+      "path": "canonical_analysis.json",
+      "bytes": 2004824,
+      "sha256": "22d1ecd24e1b845c92b4f734464bf821fafaed57004510a916411b4efb29ebd8"
+    },
+    {
+      "path": "chart_rows.json",
+      "bytes": 21669,
+      "sha256": "cfd8ac0f5d3bcc42df04cc4e2e0ff4aeba70099ffcdb19c26a4d84504ad827b1"
+    },
+    {
+      "path": "contract_boundary.md",
+      "bytes": 6366,
+      "sha256": "0136d20d39d8e51ce9c13a8ec1ed74aa5cf4c3c37f82c90682490f9efdca023e"
+    },
+    {
+      "path": "coverage.json",
+      "bytes": 12189,
+      "sha256": "70486a8a7291cb273703c49661ea999aeea4f3a21ae7b6628cdb5bd98557e1a2"
+    },
+    {
+      "path": "export_audit.json",
+      "bytes": 435,
+      "sha256": "1af57f9824b83b98e9378233935131476db273c7ba96d9b3f80fbf09898b6376"
+    },
+    {
+      "path": "final_integrity.json",
+      "bytes": 9996,
+      "sha256": "ff9a0ea05de427459ea02dcbc4f85e670eccf75f20c4b55e4e56712a900f0703"
+    },
+    {
+      "path": "focused_tests.log",
+      "bytes": 6114,
+      "sha256": "8790cda4646f466841f73364249a29a67c0628b38bfc72f1e38f1d89658a40bc"
+    },
+    {
+      "path": "full_tests.log",
+      "bytes": 222140,
+      "sha256": "45f97ce87fac2fd7027d9818336773b5e8dd74715294666bd88f54f2cad50775"
+    },
+    {
+      "path": "hardening_receipt.md",
+      "bytes": 2148,
+      "sha256": "dc080c421e172058cab0fcb059f9745bf0fa335005214e2e3ac5231d1abeb863"
+    },
+    {
+      "path": "html_structure_audit.json",
+      "bytes": 826,
+      "sha256": "76786482748e62d50846da14b1828711d2ef399239436fcd5dde093e1e387ad3"
+    },
+    {
+      "path": "independent_reconciliation.json",
+      "bytes": 161,
+      "sha256": "9e01c58dfc24ce62a38d809a56fa2f0579a1c38ff71ab42c6327a0bfc844a61e"
+    },
+    {
+      "path": "indicator_evidence.json",
+      "bytes": 4138,
+      "sha256": "b91b30e9e679cd939dbfa7498f3907ab1ee8ef2a2f7acf87698dbb3192b4a38c"
+    },
+    {
+      "path": "input_provenance.json",
+      "bytes": 8055,
+      "sha256": "3442642fadb2695f0607b3007bd9b8f042250902c5c8acbc2fa6a3e67ac503f6"
+    },
+    {
+      "path": "interrupted_full_tests.log",
+      "bytes": 102511,
+      "sha256": "f64e5c962c3eab8f4ff0cf39a7ec581ecb98d5e6e165d372ae780b2fdaa18a80"
+    },
+    {
+      "path": "occurrence_evidence.json",
+      "bytes": 43663,
+      "sha256": "30f3f4f3a26c1c156201cb649c34c39fee8d7ba81909899ef01f255f26a4e1cd"
+    },
+    {
+      "path": "pre_integrity.json",
+      "bytes": 9996,
+      "sha256": "3200c561f04b139f45d64e3698502bf162e7bb923299c37e3a2ffd51c815ad6c"
+    },
+    {
+      "path": "preservation.json",
+      "bytes": 673,
+      "sha256": "5968a0e59c6bc28e95b411e0c9921b460263b365f240018ede6e68c0aa8573d4"
+    },
+    {
+      "path": "raw_audit.json",
+      "bytes": 1319,
+      "sha256": "7d642607608705835703f9a239afa357a6c95c2957b28a1ddb1851cc4f0a9b9a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6553,
+      "sha256": "4fd09151f812f0b62950ac4c8b5d2af685f13341f377cb77b05796fcd369ec9c"
+    },
+    {
+      "path": "report.html",
+      "bytes": 469897,
+      "sha256": "60d1859b53f27628ffe79719dfb24a893be761679610d9944eaa0be7cd92acf1"
+    },
+    {
+      "path": "report.md",
+      "bytes": 49364,
+      "sha256": "ea8f6892971adb230056faa0e5f10c4401fd296890302336c4991485fa765501"
+    },
+    {
+      "path": "search_plan.json",
+      "bytes": 1662,
+      "sha256": "94d2c2ef013deb85f23d5880cfbab71529c07a13ce99d6bd22cd525751e879b9"
+    },
+    {
+      "path": "selection_before_evaluation.json",
+      "bytes": 1006817,
+      "sha256": "0f53addb9627c7ebe9cb229334477da0a49eabf1a6fa802d7c8de180d6b84e81"
+    },
+    {
+      "path": "source_refs.json",
+      "bytes": 5070,
+      "sha256": "da8cd653de9ddf0284483efb4c498948a7b5ee521cb9c2bb5792f9952b03993b"
+    },
+    {
+      "path": "test_results.json",
+      "bytes": 537,
+      "sha256": "ffd0eea14a0559ab9bc6c5befeeda6a3c31b0a79f478b35339727e3c03732fa0"
+    },
+    {
+      "path": "wave_table.json",
+      "bytes": 101255,
+      "sha256": "520b2b593f11cebac3fffbe9b0eec7efbf757c36040bd33acc12be079ba095f3"
+    }
+  ],
+  "implementation_files": [
+    {
+      "path": "src/elliott_runtime/market_data/aggregate_extremum.py",
+      "bytes": 11338,
+      "sha256": "fdd6c6be52b29c39f6ae4604a63ef6c91d1b57e846c12ef388c0e1820714c8ab"
+    },
+    {
+      "path": "tools/nvda_aggregate_recent.py",
+      "bytes": 12989,
+      "sha256": "f94e765824bc5ed1ee6af8903c76af0426342702bba9419845baa45478bf1e59"
+    },
+    {
+      "path": "tools/nvda_aggregate_recent_report.py",
+      "bytes": 23704,
+      "sha256": "a6f3de774c02a1875b74738f4527014b8718459be7de0c40a09b76d0667f16db"
+    },
+    {
+      "path": "tests/test_aggregate_extremum.py",
+      "bytes": 14469,
+      "sha256": "52e95f00b82a5300235b3b62a780159e4d2f3a5b4975b7091bbb1334587732ff"
+    },
+    {
+      "path": "tests/test_nvda_aggregate_recent_report.py",
+      "bytes": 4942,
+      "sha256": "825371e05263f20192358d6cd47ad3020cfa1a876515cbaaf95bf4e0f019fe19"
+    }
+  ],
+  "inventory": [
+    11,
+    7,
+    0,
+    0
+  ],
+  "historical_artifacts_modified": false,
+  "limited_supersession": "Adds observable aggregate-to-finer time context and new independent recent hypotheses; does not supersede any original issued parent endpoint/binding or approved methodology.",
+  "limitations": [
+    "Unverified complete holiday/session coverage",
+    "Non-synchronous snapshots and unknown split adjustment",
+    "July raw price mismatch unresolved",
+    "No new validated parent-child attachment",
+    "No terminal family proof",
+    "Browser visual/interaction verification unavailable; static navigation fallback limitation documented"
+  ]
+}

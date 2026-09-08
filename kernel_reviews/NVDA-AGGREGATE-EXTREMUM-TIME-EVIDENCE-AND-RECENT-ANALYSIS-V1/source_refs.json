@@ -1,0 +1,94 @@
+{
+  "reused_review": {
+    "path": "kernel_reviews/NVDA-DIGITAL-MULTIDEGREE-ANALYSIS-AND-REPORT-V1/source_refs.json",
+    "sha256": "20bead707b859e0019cc3d4f0e02e617c899ba5e19a5886e9ac09b203fc56c9e"
+  },
+  "reference_aliases": {
+    "P004": "S1",
+    "P005_POLICY": "S7",
+    "RECURSION": "S8"
+  },
+  "references": {
+    "S1": {
+      "path": "volume_01/Volume_01.srt",
+      "locator": "00:29:45.679–00:31:41.909",
+      "class": "SOURCE_RULE",
+      "meaning": "Impulse rule discussion, including wave 2 origin and wave 3 comparison. P006 interpretation remains frozen.",
+      "sha256": "c005460d847e2170595435dadc379444acca667c9ad0006969295b18915656ff"
+    },
+    "S2": {
+      "path": "volume_08/volume_08.srt",
+      "locator": "00:04:47.070–00:06:37.050",
+      "class": "SOURCE_GUIDELINE",
+      "meaning": "Begin with larger picture and inspect simultaneous nested structures; no timeframe-degree identity.",
+      "sha256": "038fdb559d13250f0eddce4c3be1e40c0c5b1a87c8ea39caddb2435964e0a2b8"
+    },
+    "S3": {
+      "path": "volume_08/volume_08.srt",
+      "locator": "00:08:10.130–00:09:23.600",
+      "class": "SOURCE_GUIDELINE",
+      "meaning": "Nested first/second structures and extending third; possibility, not proof of the NVDA interpretation.",
+      "sha256": "038fdb559d13250f0eddce4c3be1e40c0c5b1a87c8ea39caddb2435964e0a2b8"
+    },
+    "S4": {
+      "path": "volume_10/volume_10.txt",
+      "locator": "00:02:18.480–00:03:35.760",
+      "class": "SOURCE_OBSERVATION",
+      "meaning": "Aggregated bars can conceal lower-resolution structures; no invented subdivision from absence of visible bars.",
+      "sha256": "624ef0d2e295ccfe41cf12b8830db7b261def007375aa12a7e7a64cab0c73b25"
+    },
+    "S5": {
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF/printed page 31, Motive Waves and Impulse",
+      "class": "SOURCE_DEFINITION",
+      "excerpt": "Motive waves subdivide into five waves",
+      "meaning": "Five-position motive/impulse structural description is an expectation, not certification by five visible turns.",
+      "sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+    },
+    "S6": {
+      "path": "book_frost_prechter/Elliott_Wave_Principle_Frost_Prechter_20th_Anniversary_1998.pdf",
+      "locator": "PDF/printed pages 32-33, Extension; Figures 1-5 and 1-8 visually inspected",
+      "class": "SOURCE_GUIDELINE",
+      "meaning": "Extensions and nested first/second alternatives illustrated; frequent third extension is not a hard selection rule.",
+      "figure_limit": "Illustrations establish possible organization, not NVDA endpoints or a universal count-selection rule.",
+      "sha256": "c78e1a29b717445e01de421370a627c440b127cf42c34646526a495b8c42ab9e"
+    },
+    "S7": {
+      "path": "docs/elliott/SOURCE_POLICY.md",
+      "root": "Brain_LOCKED",
+      "locator": "P005 policy adoption and USER_APPROVED_PROJECT_CONVENTIONS subsection",
+      "class": "SOURCE_RULE",
+      "qualification": "P005 underlying rule class preserved; percentage sufficient-condition selection and arithmetic conventions are USER_APPROVED_PROJECT_CONVENTIONS, not new source rules.",
+      "meaning": "No sufficiency computation from approximate screenshot operands; no rescue of P004; no negative P005 inference.",
+      "sha256": "605a5dc2f4819816ead3c81aa945579eb4f439e139bf50715b93a30d15adc018"
+    },
+    "S8": {
+      "path": "docs/elliott/DEGREE_RECURSION_BRAIN.md",
+      "root": "Brain_LOCKED",
+      "locator": "Sections 2, 5-8 and 10; parent-child order, unresolved internals, completion changes degree",
+      "class": "SOURCE_DEFINITION",
+      "meaning": "Children belong to one parent; timeframe is observation resolution, not established degree; unresolved internals remain unresolved.",
+      "sha256": "b8cb7bf124845420fc26f2e95cf863171dc3b195908c1bd79c57d6ab47daac9f"
+    },
+    "S9": {
+      "path": "docs/elliott/SOURCE_EVIDENCE_MAP.json",
+      "root": "Brain_LOCKED",
+      "locator": "P023",
+      "class": "SOURCE_RULE",
+      "meaning": "No invention of internals hidden by chart resolution.",
+      "sha256": "c0239392469c990650dd01a3024d64bdf93cba3f167fd37e826bd415496edb51"
+    }
+  },
+  "default_root": "Sources_LOCKED",
+  "this_stage": "No new source interpretation; calendar/session membership is project data infrastructure, not Elliott methodology. Geometric scopes and labels are operational hypotheses, not source mandates.",
+  "source_rule_vs_project_conventions": {
+    "P005": "Underlying protected rule remains SOURCE_RULE. Percentage metric and exact represented arithmetic are separately USER_APPROVED_PROJECT_CONVENTIONS; sufficiency only, no negative inference.",
+    "geometric_windows": "PROJECT_OPERATIONAL_POLICY; no Elliott significance or rule-invalidity authority",
+    "proposed_labels": "Candidate-slot metadata only; no terminality, family proof or orthodoxy"
+  },
+  "frozen_semantics": [
+    "P006 CONFLICT",
+    "Flat/Triangle freezes",
+    "SOURCE_DERIVED_BASE_CASE_NOT_FOUND"
+  ]
+}

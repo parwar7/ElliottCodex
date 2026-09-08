@@ -1,0 +1,3627 @@
+[
+  {
+    "node_id": "MAY:60:S7",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-05-07T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 206.51,
+    "end": "2026-05-11T15:30:00+00:00",
+    "end_field": "high",
+    "end_price": 222.3,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S7.1",
+    "parent_id": "MAY:60:S7",
+    "role": "1",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-07T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 206.51,
+    "end": "2026-05-07T14:30:00+00:00",
+    "end_field": "high",
+    "end_price": 214.2,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S7.2",
+    "parent_id": "MAY:60:S7",
+    "role": "2",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-07T14:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.2,
+    "end": "2026-05-07T19:30:00+00:00",
+    "end_field": "low",
+    "end_price": 211.23,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S7.3",
+    "parent_id": "MAY:60:S7",
+    "role": "3",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-07T19:30:00+00:00",
+    "start_field": "low",
+    "start_price": 211.23,
+    "end": "2026-05-08T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 217.8,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S7.4",
+    "parent_id": "MAY:60:S7",
+    "role": "4",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-08T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 217.8,
+    "end": "2026-05-11T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 213.89,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S7.5",
+    "parent_id": "MAY:60:S7",
+    "role": "5",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-11T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 213.89,
+    "end": "2026-05-11T15:30:00+00:00",
+    "end_field": "high",
+    "end_price": 222.3,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S31",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-05-26T15:30:00+00:00",
+    "start_field": "low",
+    "start_price": 212.0,
+    "end": "2026-05-29T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 217.33,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S31.1",
+    "parent_id": "MAY:60:S31",
+    "role": "1",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-26T15:30:00+00:00",
+    "start_field": "low",
+    "start_price": 212.0,
+    "end": "2026-05-26T19:30:00+00:00",
+    "end_field": "high",
+    "end_price": 214.86,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S31.2",
+    "parent_id": "MAY:60:S31",
+    "role": "2",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-26T19:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.86,
+    "end": "2026-05-27T14:30:00+00:00",
+    "end_field": "low",
+    "end_price": 208.78,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S31.3",
+    "parent_id": "MAY:60:S31",
+    "role": "3",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-27T14:30:00+00:00",
+    "start_field": "low",
+    "start_price": 208.78,
+    "end": "2026-05-28T17:30:00+00:00",
+    "end_field": "high",
+    "end_price": 215.51,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S31.4",
+    "parent_id": "MAY:60:S31",
+    "role": "4",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-28T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 215.51,
+    "end": "2026-05-28T19:30:00+00:00",
+    "end_field": "low",
+    "end_price": 212.08,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:60:S31.5",
+    "parent_id": "MAY:60:S31",
+    "role": "5",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-28T19:30:00+00:00",
+    "start_field": "low",
+    "start_price": 212.08,
+    "end": "2026-05-29T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 217.33,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S4",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "15m",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-05-01T16:45:00+00:00",
+    "start_field": "low",
+    "start_price": 198.57,
+    "end": "2026-05-04T16:00:00+00:00",
+    "end_field": "low",
+    "end_price": 194.87,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S4.1",
+    "parent_id": "MAY:15:S4",
+    "role": "1",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-01T16:45:00+00:00",
+    "start_field": "low",
+    "start_price": 198.57,
+    "end": "2026-05-01T17:30:00+00:00",
+    "end_field": "high",
+    "end_price": 200.28,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S4.2",
+    "parent_id": "MAY:15:S4",
+    "role": "2",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-01T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 200.28,
+    "end": "2026-05-01T19:00:00+00:00",
+    "end_field": "low",
+    "end_price": 198.18,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S4.3",
+    "parent_id": "MAY:15:S4",
+    "role": "3",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-01T19:00:00+00:00",
+    "start_field": "low",
+    "start_price": 198.18,
+    "end": "2026-05-04T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 201.73,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S4.4",
+    "parent_id": "MAY:15:S4",
+    "role": "4",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-04T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 201.73,
+    "end": "2026-05-04T15:15:00+00:00",
+    "end_field": "low",
+    "end_price": 194.74,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S4.5",
+    "parent_id": "MAY:15:S4",
+    "role": "5",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-04T15:15:00+00:00",
+    "start_field": "low",
+    "start_price": 194.74,
+    "end": "2026-05-04T16:00:00+00:00",
+    "end_field": "low",
+    "end_price": 194.87,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S134",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "15m",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-05-29T15:15:00+00:00",
+    "start_field": "high",
+    "start_price": 217.02,
+    "end": "2026-05-29T19:45:00+00:00",
+    "end_field": "low",
+    "end_price": 211.135,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S134.1",
+    "parent_id": "MAY:15:S134",
+    "role": "1",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-29T15:15:00+00:00",
+    "start_field": "high",
+    "start_price": 217.02,
+    "end": "2026-05-29T15:45:00+00:00",
+    "end_field": "low",
+    "end_price": 214.78,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S134.2",
+    "parent_id": "MAY:15:S134",
+    "role": "2",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-29T15:45:00+00:00",
+    "start_field": "low",
+    "start_price": 214.78,
+    "end": "2026-05-29T16:30:00+00:00",
+    "end_field": "high",
+    "end_price": 217.52,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S134.3",
+    "parent_id": "MAY:15:S134",
+    "role": "3",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-29T16:30:00+00:00",
+    "start_field": "high",
+    "start_price": 217.52,
+    "end": "2026-05-29T18:00:00+00:00",
+    "end_field": "low",
+    "end_price": 215.29,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S134.4",
+    "parent_id": "MAY:15:S134",
+    "role": "4",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-29T18:00:00+00:00",
+    "start_field": "low",
+    "start_price": 215.29,
+    "end": "2026-05-29T19:00:00+00:00",
+    "end_field": "high",
+    "end_price": 217.81,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY:15:S134.5",
+    "parent_id": "MAY:15:S134",
+    "role": "5",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-29T19:00:00+00:00",
+    "start_field": "high",
+    "start_price": 217.81,
+    "end": "2026-05-29T19:45:00+00:00",
+    "end_field": "low",
+    "end_price": 211.135,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S0",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1d",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-05-19T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 217.91,
+    "end": "2026-06-15T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 212.7107,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S0.1",
+    "parent_id": "MAY_JULY:1D:S0",
+    "role": "1",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-19T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 217.91,
+    "end": "2026-05-21T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 227.3999,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S0.2",
+    "parent_id": "MAY_JULY:1D:S0",
+    "role": "2",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-21T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 227.3999,
+    "end": "2026-05-27T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 208.78,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S0.3",
+    "parent_id": "MAY_JULY:1D:S0",
+    "role": "3",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-27T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 208.78,
+    "end": "2026-06-02T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 232.28,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S0.4",
+    "parent_id": "MAY_JULY:1D:S0",
+    "role": "4",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-06-02T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 232.28,
+    "end": "2026-06-09T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 199.34,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S0.5",
+    "parent_id": "MAY_JULY:1D:S0",
+    "role": "5",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-06-09T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 199.34,
+    "end": "2026-06-15T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 212.7107,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S9",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1d",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-06-30T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 200.63,
+    "end": "2026-07-29T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 190.01,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S9.1",
+    "parent_id": "MAY_JULY:1D:S9",
+    "role": "1",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-06-30T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 200.63,
+    "end": "2026-07-07T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 191.14,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S9.2",
+    "parent_id": "MAY_JULY:1D:S9",
+    "role": "2",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-07T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 191.14,
+    "end": "2026-07-15T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 213.81,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S9.3",
+    "parent_id": "MAY_JULY:1D:S9",
+    "role": "3",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-15T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 213.81,
+    "end": "2026-07-17T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 197.97,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S9.4",
+    "parent_id": "MAY_JULY:1D:S9",
+    "role": "4",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-17T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 197.97,
+    "end": "2026-07-22T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 214.39,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:1D:S9.5",
+    "parent_id": "MAY_JULY:1D:S9",
+    "role": "5",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-22T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.39,
+    "end": "2026-07-29T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 190.01,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S6",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "4h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-06-05T17:30:00+00:00",
+    "start_field": "low",
+    "start_price": 204.33,
+    "end": "2026-06-29T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 189.8,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S6.1",
+    "parent_id": "MAY_JULY:240:S6",
+    "role": "1",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-06-05T17:30:00+00:00",
+    "start_field": "low",
+    "start_price": 204.33,
+    "end": "2026-06-11T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 199.54,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S6.2",
+    "parent_id": "MAY_JULY:240:S6",
+    "role": "2",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-06-11T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 199.54,
+    "end": "2026-06-15T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 212.71,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S6.3",
+    "parent_id": "MAY_JULY:240:S6",
+    "role": "3",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-06-15T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 212.71,
+    "end": "2026-06-17T17:30:00+00:00",
+    "end_field": "low",
+    "end_price": 203.08,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S6.4",
+    "parent_id": "MAY_JULY:240:S6",
+    "role": "4",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-06-17T17:30:00+00:00",
+    "start_field": "low",
+    "start_price": 203.08,
+    "end": "2026-06-22T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 213.99,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S6.5",
+    "parent_id": "MAY_JULY:240:S6",
+    "role": "5",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-06-22T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 213.99,
+    "end": "2026-06-29T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 189.8,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S17",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "4h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-07-10T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 211.0,
+    "end": "2026-07-24T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 211.9,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S17.1",
+    "parent_id": "MAY_JULY:240:S17",
+    "role": "1",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-10T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 211.0,
+    "end": "2026-07-13T17:30:00+00:00",
+    "end_field": "low",
+    "end_price": 203.0,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S17.2",
+    "parent_id": "MAY_JULY:240:S17",
+    "role": "2",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-13T17:30:00+00:00",
+    "start_field": "low",
+    "start_price": 203.0,
+    "end": "2026-07-15T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 213.81,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S17.3",
+    "parent_id": "MAY_JULY:240:S17",
+    "role": "3",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-15T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 213.81,
+    "end": "2026-07-17T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 197.97,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S17.4",
+    "parent_id": "MAY_JULY:240:S17",
+    "role": "4",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-17T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 197.97,
+    "end": "2026-07-22T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 214.39,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:240:S17.5",
+    "parent_id": "MAY_JULY:240:S17",
+    "role": "5",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-22T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.39,
+    "end": "2026-07-24T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 211.9,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S0",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-05-14T15:30:00+00:00",
+    "start_field": "high",
+    "start_price": 236.46,
+    "end": "2026-05-18T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 230.0,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S0.1",
+    "parent_id": "MAY_JULY:60:S0",
+    "role": "1",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-14T15:30:00+00:00",
+    "start_field": "high",
+    "start_price": 236.46,
+    "end": "2026-05-14T16:30:00+00:00",
+    "end_field": "low",
+    "end_price": 232.69,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S0.2",
+    "parent_id": "MAY_JULY:60:S0",
+    "role": "2",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-14T16:30:00+00:00",
+    "start_field": "low",
+    "start_price": 232.69,
+    "end": "2026-05-14T18:30:00+00:00",
+    "end_field": "high",
+    "end_price": 236.54,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S0.3",
+    "parent_id": "MAY_JULY:60:S0",
+    "role": "3",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-14T18:30:00+00:00",
+    "start_field": "high",
+    "start_price": 236.54,
+    "end": "2026-05-15T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 224.23,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S0.4",
+    "parent_id": "MAY_JULY:60:S0",
+    "role": "4",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-15T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 224.23,
+    "end": "2026-05-15T17:30:00+00:00",
+    "end_field": "high",
+    "end_price": 231.495,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S0.5",
+    "parent_id": "MAY_JULY:60:S0",
+    "role": "5",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-05-15T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 231.495,
+    "end": "2026-05-18T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 230.0,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S75",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-07-22T16:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.39,
+    "end": "2026-07-27T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 208.74,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S75.1",
+    "parent_id": "MAY_JULY:60:S75",
+    "role": "1",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-22T16:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.39,
+    "end": "2026-07-23T15:30:00+00:00",
+    "end_field": "low",
+    "end_price": 205.96,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S75.2",
+    "parent_id": "MAY_JULY:60:S75",
+    "role": "2",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-23T15:30:00+00:00",
+    "start_field": "low",
+    "start_price": 205.96,
+    "end": "2026-07-23T16:30:00+00:00",
+    "end_field": "high",
+    "end_price": 210.43,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S75.3",
+    "parent_id": "MAY_JULY:60:S75",
+    "role": "3",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-23T16:30:00+00:00",
+    "start_field": "high",
+    "start_price": 210.43,
+    "end": "2026-07-24T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 205.68,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S75.4",
+    "parent_id": "MAY_JULY:60:S75",
+    "role": "4",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-24T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 205.68,
+    "end": "2026-07-24T15:30:00+00:00",
+    "end_field": "high",
+    "end_price": 211.9,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:60:S75.5",
+    "parent_id": "MAY_JULY:60:S75",
+    "role": "5",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-24T15:30:00+00:00",
+    "start_field": "high",
+    "start_price": 211.9,
+    "end": "2026-07-27T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 208.74,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S5",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "15m",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-05-14T19:45:00+00:00",
+    "start_field": "high",
+    "start_price": 236.03,
+    "end": "2026-05-15T16:15:00+00:00",
+    "end_field": "low",
+    "end_price": 227.06,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S5.1",
+    "parent_id": "MAY_JULY:15:S5",
+    "role": "1",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-14T19:45:00+00:00",
+    "start_field": "high",
+    "start_price": 236.03,
+    "end": "2026-05-15T13:45:00+00:00",
+    "end_field": "low",
+    "end_price": 224.23,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S5.2",
+    "parent_id": "MAY_JULY:15:S5",
+    "role": "2",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-15T13:45:00+00:00",
+    "start_field": "low",
+    "start_price": 224.23,
+    "end": "2026-05-15T14:15:00+00:00",
+    "end_field": "high",
+    "end_price": 228.68,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S5.3",
+    "parent_id": "MAY_JULY:15:S5",
+    "role": "3",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-15T14:15:00+00:00",
+    "start_field": "high",
+    "start_price": 228.68,
+    "end": "2026-05-15T15:00:00+00:00",
+    "end_field": "low",
+    "end_price": 225.69,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S5.4",
+    "parent_id": "MAY_JULY:15:S5",
+    "role": "4",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-15T15:00:00+00:00",
+    "start_field": "low",
+    "start_price": 225.69,
+    "end": "2026-05-15T15:30:00+00:00",
+    "end_field": "high",
+    "end_price": 229.18,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S5.5",
+    "parent_id": "MAY_JULY:15:S5",
+    "role": "5",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-05-15T15:30:00+00:00",
+    "start_field": "high",
+    "start_price": 229.18,
+    "end": "2026-05-15T16:15:00+00:00",
+    "end_field": "low",
+    "end_price": 227.06,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S334",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "15m",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-07-29T15:00:00+00:00",
+    "start_field": "high",
+    "start_price": 193.16,
+    "end": "2026-07-29T19:45:00+00:00",
+    "end_field": "low",
+    "end_price": 190.02,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S334.1",
+    "parent_id": "MAY_JULY:15:S334",
+    "role": "1",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-29T15:00:00+00:00",
+    "start_field": "high",
+    "start_price": 193.16,
+    "end": "2026-07-29T16:15:00+00:00",
+    "end_field": "low",
+    "end_price": 190.68,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S334.2",
+    "parent_id": "MAY_JULY:15:S334",
+    "role": "2",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-29T16:15:00+00:00",
+    "start_field": "low",
+    "start_price": 190.68,
+    "end": "2026-07-29T17:15:00+00:00",
+    "end_field": "high",
+    "end_price": 193.07,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S334.3",
+    "parent_id": "MAY_JULY:15:S334",
+    "role": "3",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-29T17:15:00+00:00",
+    "start_field": "high",
+    "start_price": 193.07,
+    "end": "2026-07-29T17:45:00+00:00",
+    "end_field": "low",
+    "end_price": 191.72,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S334.4",
+    "parent_id": "MAY_JULY:15:S334",
+    "role": "4",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-29T17:45:00+00:00",
+    "start_field": "low",
+    "start_price": 191.72,
+    "end": "2026-07-29T19:00:00+00:00",
+    "end_field": "high",
+    "end_price": 196.33,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "MAY_JULY:15:S334.5",
+    "parent_id": "MAY_JULY:15:S334",
+    "role": "5",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-29T19:00:00+00:00",
+    "start_field": "high",
+    "start_price": 196.33,
+    "end": "2026-07-29T19:45:00+00:00",
+    "end_field": "low",
+    "end_price": 190.02,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:1D:S0",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1d",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-07-07T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 191.14,
+    "end": "2026-07-31T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 202.0,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:1D:S0.1",
+    "parent_id": "JULY:1D:S0",
+    "role": "1",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-07T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 191.14,
+    "end": "2026-07-15T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 213.81,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:1D:S0.2",
+    "parent_id": "JULY:1D:S0",
+    "role": "2",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-15T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 213.81,
+    "end": "2026-07-17T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 197.97,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:1D:S0.3",
+    "parent_id": "JULY:1D:S0",
+    "role": "3",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-17T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 197.97,
+    "end": "2026-07-22T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 214.39,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:1D:S0.4",
+    "parent_id": "JULY:1D:S0",
+    "role": "4",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-22T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.39,
+    "end": "2026-07-29T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 190.01,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:1D:S0.5",
+    "parent_id": "JULY:1D:S0",
+    "role": "5",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-29T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 190.01,
+    "end": "2026-07-31T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 202.0,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S3",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "4h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-07-08T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 205.16,
+    "end": "2026-07-22T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 214.39,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S3.1",
+    "parent_id": "JULY:240:S3",
+    "role": "1",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-08T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 205.16,
+    "end": "2026-07-10T17:30:00+00:00",
+    "end_field": "high",
+    "end_price": 211.0,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S3.2",
+    "parent_id": "JULY:240:S3",
+    "role": "2",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-10T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 211.0,
+    "end": "2026-07-13T17:30:00+00:00",
+    "end_field": "low",
+    "end_price": 203.0,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S3.3",
+    "parent_id": "JULY:240:S3",
+    "role": "3",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-13T17:30:00+00:00",
+    "start_field": "low",
+    "start_price": 203.0,
+    "end": "2026-07-15T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 213.81,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S3.4",
+    "parent_id": "JULY:240:S3",
+    "role": "4",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-15T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 213.81,
+    "end": "2026-07-17T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 197.97,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S3.5",
+    "parent_id": "JULY:240:S3",
+    "role": "5",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-17T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 197.97,
+    "end": "2026-07-22T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 214.39,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S4",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "4h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-07-10T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 211.0,
+    "end": "2026-07-24T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 211.9,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S4.1",
+    "parent_id": "JULY:240:S4",
+    "role": "1",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-10T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 211.0,
+    "end": "2026-07-13T17:30:00+00:00",
+    "end_field": "low",
+    "end_price": 203.0,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S4.2",
+    "parent_id": "JULY:240:S4",
+    "role": "2",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-13T17:30:00+00:00",
+    "start_field": "low",
+    "start_price": 203.0,
+    "end": "2026-07-15T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 213.81,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S4.3",
+    "parent_id": "JULY:240:S4",
+    "role": "3",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-15T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 213.81,
+    "end": "2026-07-17T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 197.97,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S4.4",
+    "parent_id": "JULY:240:S4",
+    "role": "4",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-17T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 197.97,
+    "end": "2026-07-22T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 214.39,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:240:S4.5",
+    "parent_id": "JULY:240:S4",
+    "role": "5",
+    "resolution": "4h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-22T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.39,
+    "end": "2026-07-24T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 211.9,
+    "source_hash": "bb8b5cff88a51206485ccb762f2a8aafb4718f8328b275ac333aceef9ee9af83",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S0",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-07-02T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 200.06,
+    "end": "2026-07-08T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 195.035,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S0.1",
+    "parent_id": "JULY:60:S0",
+    "role": "1",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-02T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 200.06,
+    "end": "2026-07-02T17:30:00+00:00",
+    "end_field": "low",
+    "end_price": 192.35,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S0.2",
+    "parent_id": "JULY:60:S0",
+    "role": "2",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-02T17:30:00+00:00",
+    "start_field": "low",
+    "start_price": 192.35,
+    "end": "2026-07-06T15:30:00+00:00",
+    "end_field": "high",
+    "end_price": 197.54,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S0.3",
+    "parent_id": "JULY:60:S0",
+    "role": "3",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-06T15:30:00+00:00",
+    "start_field": "high",
+    "start_price": 197.54,
+    "end": "2026-07-07T14:30:00+00:00",
+    "end_field": "low",
+    "end_price": 191.15,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S0.4",
+    "parent_id": "JULY:60:S0",
+    "role": "4",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-07T14:30:00+00:00",
+    "start_field": "low",
+    "start_price": 191.15,
+    "end": "2026-07-07T16:30:00+00:00",
+    "end_field": "high",
+    "end_price": 198.4,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S0.5",
+    "parent_id": "JULY:60:S0",
+    "role": "5",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-07T16:30:00+00:00",
+    "start_field": "high",
+    "start_price": 198.4,
+    "end": "2026-07-08T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 195.035,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S23",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-07-22T16:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.39,
+    "end": "2026-07-27T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 208.74,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S23.1",
+    "parent_id": "JULY:60:S23",
+    "role": "1",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-22T16:30:00+00:00",
+    "start_field": "high",
+    "start_price": 214.39,
+    "end": "2026-07-23T15:30:00+00:00",
+    "end_field": "low",
+    "end_price": 205.96,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S23.2",
+    "parent_id": "JULY:60:S23",
+    "role": "2",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-23T15:30:00+00:00",
+    "start_field": "low",
+    "start_price": 205.96,
+    "end": "2026-07-23T16:30:00+00:00",
+    "end_field": "high",
+    "end_price": 210.43,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S23.3",
+    "parent_id": "JULY:60:S23",
+    "role": "3",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-23T16:30:00+00:00",
+    "start_field": "high",
+    "start_price": 210.43,
+    "end": "2026-07-24T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 205.68,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S23.4",
+    "parent_id": "JULY:60:S23",
+    "role": "4",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-24T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 205.68,
+    "end": "2026-07-24T15:30:00+00:00",
+    "end_field": "high",
+    "end_price": 211.9,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:60:S23.5",
+    "parent_id": "JULY:60:S23",
+    "role": "5",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-24T15:30:00+00:00",
+    "start_field": "high",
+    "start_price": 211.9,
+    "end": "2026-07-27T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 208.74,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S2",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "15m",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-07-01T16:15:00+00:00",
+    "start_field": "low",
+    "start_price": 196.57,
+    "end": "2026-07-02T14:00:00+00:00",
+    "end_field": "high",
+    "end_price": 200.06,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S2.1",
+    "parent_id": "JULY:15:S2",
+    "role": "1",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-01T16:15:00+00:00",
+    "start_field": "low",
+    "start_price": 196.57,
+    "end": "2026-07-01T17:45:00+00:00",
+    "end_field": "high",
+    "end_price": 198.92,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S2.2",
+    "parent_id": "JULY:15:S2",
+    "role": "2",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-01T17:45:00+00:00",
+    "start_field": "high",
+    "start_price": 198.92,
+    "end": "2026-07-01T18:15:00+00:00",
+    "end_field": "low",
+    "end_price": 197.68,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S2.3",
+    "parent_id": "JULY:15:S2",
+    "role": "3",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-01T18:15:00+00:00",
+    "start_field": "low",
+    "start_price": 197.68,
+    "end": "2026-07-01T19:00:00+00:00",
+    "end_field": "high",
+    "end_price": 199.85,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S2.4",
+    "parent_id": "JULY:15:S2",
+    "role": "4",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-01T19:00:00+00:00",
+    "start_field": "high",
+    "start_price": 199.85,
+    "end": "2026-07-02T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 196.78,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S2.5",
+    "parent_id": "JULY:15:S2",
+    "role": "5",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-02T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 196.78,
+    "end": "2026-07-02T14:00:00+00:00",
+    "end_field": "high",
+    "end_price": 200.06,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S134",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "15m",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-07-31T14:00:00+00:00",
+    "start_field": "low",
+    "start_price": 194.95,
+    "end": "2026-07-31T19:45:00+00:00",
+    "end_field": "high",
+    "end_price": 202.0,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S134.1",
+    "parent_id": "JULY:15:S134",
+    "role": "1",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-31T14:00:00+00:00",
+    "start_field": "low",
+    "start_price": 194.95,
+    "end": "2026-07-31T14:45:00+00:00",
+    "end_field": "high",
+    "end_price": 198.91,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S134.2",
+    "parent_id": "JULY:15:S134",
+    "role": "2",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-31T14:45:00+00:00",
+    "start_field": "high",
+    "start_price": 198.91,
+    "end": "2026-07-31T15:30:00+00:00",
+    "end_field": "low",
+    "end_price": 195.23,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S134.3",
+    "parent_id": "JULY:15:S134",
+    "role": "3",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-31T15:30:00+00:00",
+    "start_field": "low",
+    "start_price": 195.23,
+    "end": "2026-07-31T17:30:00+00:00",
+    "end_field": "high",
+    "end_price": 199.97,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S134.4",
+    "parent_id": "JULY:15:S134",
+    "role": "4",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-31T17:30:00+00:00",
+    "start_field": "high",
+    "start_price": 199.97,
+    "end": "2026-07-31T19:00:00+00:00",
+    "end_field": "low",
+    "end_price": 198.28,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "JULY:15:S134.5",
+    "parent_id": "JULY:15:S134",
+    "role": "5",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-07-31T19:00:00+00:00",
+    "start_field": "low",
+    "start_price": 198.28,
+    "end": "2026-07-31T19:45:00+00:00",
+    "end_field": "high",
+    "end_price": 202.0,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S0",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1d",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-08-07T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 224.76,
+    "end": "2026-09-01T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 215.1,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S0.1",
+    "parent_id": "RECENT:1D:S0",
+    "role": "1",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-08-07T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 224.76,
+    "end": "2026-08-11T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 216.2,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S0.2",
+    "parent_id": "RECENT:1D:S0",
+    "role": "2",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-08-11T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 216.2,
+    "end": "2026-08-17T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 227.92,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S0.3",
+    "parent_id": "RECENT:1D:S0",
+    "role": "3",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-08-17T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 227.92,
+    "end": "2026-08-24T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 207.25,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S0.4",
+    "parent_id": "RECENT:1D:S0",
+    "role": "4",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-08-24T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 207.25,
+    "end": "2026-08-27T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 230.47,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S0.5",
+    "parent_id": "RECENT:1D:S0",
+    "role": "5",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-08-27T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 230.47,
+    "end": "2026-09-01T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 215.1,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S1",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1d",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-08-11T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 216.2,
+    "end": "2026-09-04T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 234.76,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S1.1",
+    "parent_id": "RECENT:1D:S1",
+    "role": "1",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-08-11T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 216.2,
+    "end": "2026-08-17T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 227.92,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S1.2",
+    "parent_id": "RECENT:1D:S1",
+    "role": "2",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-08-17T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 227.92,
+    "end": "2026-08-24T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 207.25,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S1.3",
+    "parent_id": "RECENT:1D:S1",
+    "role": "3",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-08-24T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 207.25,
+    "end": "2026-08-27T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 230.47,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S1.4",
+    "parent_id": "RECENT:1D:S1",
+    "role": "4",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-08-27T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 230.47,
+    "end": "2026-09-01T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 215.1,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:1D:S1.5",
+    "parent_id": "RECENT:1D:S1",
+    "role": "5",
+    "resolution": "1d",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-09-01T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 215.1,
+    "end": "2026-09-04T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 234.76,
+    "source_hash": "0e37e13c204c49bbb8b2fb2fd4151469be7b487a4cea8f3cc5bff50eb6db3542",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S0",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-07-29T15:30:00+00:00",
+    "start_field": "low",
+    "start_price": 190.68,
+    "end": "2026-08-03T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 196.9,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S0.1",
+    "parent_id": "RECENT:60:S0",
+    "role": "1",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-29T15:30:00+00:00",
+    "start_field": "low",
+    "start_price": 190.68,
+    "end": "2026-07-29T19:30:00+00:00",
+    "end_field": "low",
+    "end_price": 190.02,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S0.2",
+    "parent_id": "RECENT:60:S0",
+    "role": "2",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-29T19:30:00+00:00",
+    "start_field": "low",
+    "start_price": 190.02,
+    "end": "2026-07-30T14:30:00+00:00",
+    "end_field": "high",
+    "end_price": 197.24,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S0.3",
+    "parent_id": "RECENT:60:S0",
+    "role": "3",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-30T14:30:00+00:00",
+    "start_field": "high",
+    "start_price": 197.24,
+    "end": "2026-07-30T16:30:00+00:00",
+    "end_field": "low",
+    "end_price": 192.68,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S0.4",
+    "parent_id": "RECENT:60:S0",
+    "role": "4",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-30T16:30:00+00:00",
+    "start_field": "low",
+    "start_price": 192.68,
+    "end": "2026-07-31T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 200.08,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S0.5",
+    "parent_id": "RECENT:60:S0",
+    "role": "5",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-31T13:30:00+00:00",
+    "start_field": "high",
+    "start_price": 200.08,
+    "end": "2026-08-03T13:30:00+00:00",
+    "end_field": "low",
+    "end_price": 196.9,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S44",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "1h",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-09-01T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 215.1,
+    "end": "2026-09-03T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 229.07,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S44.1",
+    "parent_id": "RECENT:60:S44",
+    "role": "1",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-01T13:30:00+00:00",
+    "start_field": "low",
+    "start_price": 215.1,
+    "end": "2026-09-01T15:30:00+00:00",
+    "end_field": "high",
+    "end_price": 220.4,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S44.2",
+    "parent_id": "RECENT:60:S44",
+    "role": "2",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-01T15:30:00+00:00",
+    "start_field": "high",
+    "start_price": 220.4,
+    "end": "2026-09-01T18:30:00+00:00",
+    "end_field": "low",
+    "end_price": 216.35,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S44.3",
+    "parent_id": "RECENT:60:S44",
+    "role": "3",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-01T18:30:00+00:00",
+    "start_field": "low",
+    "start_price": 216.35,
+    "end": "2026-09-02T15:30:00+00:00",
+    "end_field": "high",
+    "end_price": 227.95,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S44.4",
+    "parent_id": "RECENT:60:S44",
+    "role": "4",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-02T15:30:00+00:00",
+    "start_field": "high",
+    "start_price": 227.95,
+    "end": "2026-09-02T19:30:00+00:00",
+    "end_field": "low",
+    "end_price": 223.74,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:60:S44.5",
+    "parent_id": "RECENT:60:S44",
+    "role": "5",
+    "resolution": "1h",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-02T19:30:00+00:00",
+    "start_field": "low",
+    "start_price": 223.74,
+    "end": "2026-09-03T13:30:00+00:00",
+    "end_field": "high",
+    "end_price": 229.07,
+    "source_hash": "ed6020acbf0a75a648692b74d18b312db02265ccc7bce2222f10be8496e18fe4",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S0",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "15m",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "REJECTED_EXACT_HYPOTHESIS_P004",
+    "start": "2026-07-29T14:15:00+00:00",
+    "start_field": "low",
+    "start_price": 190.93,
+    "end": "2026-07-29T19:00:00+00:00",
+    "end_field": "high",
+    "end_price": 196.33,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S0.1",
+    "parent_id": "RECENT:15:S0",
+    "role": "1",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-29T14:15:00+00:00",
+    "start_field": "low",
+    "start_price": 190.93,
+    "end": "2026-07-29T15:00:00+00:00",
+    "end_field": "high",
+    "end_price": 193.16,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S0.2",
+    "parent_id": "RECENT:15:S0",
+    "role": "2",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-29T15:00:00+00:00",
+    "start_field": "high",
+    "start_price": 193.16,
+    "end": "2026-07-29T16:15:00+00:00",
+    "end_field": "low",
+    "end_price": 190.68,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S0.3",
+    "parent_id": "RECENT:15:S0",
+    "role": "3",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-29T16:15:00+00:00",
+    "start_field": "low",
+    "start_price": 190.68,
+    "end": "2026-07-29T17:15:00+00:00",
+    "end_field": "high",
+    "end_price": 193.07,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S0.4",
+    "parent_id": "RECENT:15:S0",
+    "role": "4",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-29T17:15:00+00:00",
+    "start_field": "high",
+    "start_price": 193.07,
+    "end": "2026-07-29T17:45:00+00:00",
+    "end_field": "low",
+    "end_price": 191.72,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S0.5",
+    "parent_id": "RECENT:15:S0",
+    "role": "5",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "ANCESTOR_REJECTED",
+    "start": "2026-07-29T17:45:00+00:00",
+    "start_field": "low",
+    "start_price": 191.72,
+    "end": "2026-07-29T19:00:00+00:00",
+    "end_field": "high",
+    "end_price": 196.33,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S186",
+    "parent_id": null,
+    "role": "partial five-slot hypothesis",
+    "resolution": "15m",
+    "relative_degree": "ROOT_DEGREE_UNRESOLVED",
+    "status": "PARTIAL_REVIEW_UNRESOLVED_FAMILY",
+    "start": "2026-09-03T19:45:00+00:00",
+    "start_field": "low",
+    "start_price": 228.32,
+    "end": "2026-09-04T19:00:00+00:00",
+    "end_field": "high",
+    "end_price": 230.71,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "P005_UNRESOLVED_METHODOLOGY_DEPENDENCY",
+      "P006_UNRESOLVED_METHODOLOGY_DEPENDENCY_CONFLICT",
+      "COMPLETE_FAMILY_VALIDATION_UNAVAILABLE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S186.1",
+    "parent_id": "RECENT:15:S186",
+    "role": "1",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-03T19:45:00+00:00",
+    "start_field": "low",
+    "start_price": 228.32,
+    "end": "2026-09-04T14:15:00+00:00",
+    "end_field": "high",
+    "end_price": 234.76,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S186.2",
+    "parent_id": "RECENT:15:S186",
+    "role": "2",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-04T14:15:00+00:00",
+    "start_field": "high",
+    "start_price": 234.76,
+    "end": "2026-09-04T16:00:00+00:00",
+    "end_field": "low",
+    "end_price": 230.51,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S186.3",
+    "parent_id": "RECENT:15:S186",
+    "role": "3",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-04T16:00:00+00:00",
+    "start_field": "low",
+    "start_price": 230.51,
+    "end": "2026-09-04T16:45:00+00:00",
+    "end_field": "high",
+    "end_price": 232.24,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S186.4",
+    "parent_id": "RECENT:15:S186",
+    "role": "4",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-04T16:45:00+00:00",
+    "start_field": "high",
+    "start_price": 232.24,
+    "end": "2026-09-04T18:00:00+00:00",
+    "end_field": "low",
+    "end_price": 229.9,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  },
+  {
+    "node_id": "RECENT:15:S186.5",
+    "parent_id": "RECENT:15:S186",
+    "role": "5",
+    "resolution": "15m",
+    "relative_degree": "DIRECT_CHILD_PROPOSAL_ONLY",
+    "status": "INTERNALS_UNRESOLVED",
+    "start": "2026-09-04T18:00:00+00:00",
+    "start_field": "low",
+    "start_price": 229.9,
+    "end": "2026-09-04T19:00:00+00:00",
+    "end_field": "high",
+    "end_price": 230.71,
+    "source_hash": "773a8a5816e36303a00ad12ee631f5cbbaa6d64b2cb1d9b31f942e87c0744ed8",
+    "unresolved": [
+      "INTERNAL_FAMILY_PROOF_UNAVAILABLE",
+      "NO_TERMINAL_BASE_CASE"
+    ],
+    "source_refs": [
+      "P004",
+      "P005_POLICY",
+      "RECURSION"
+    ]
+  }
+]
